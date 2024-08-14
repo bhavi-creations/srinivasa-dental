@@ -12,7 +12,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
- 
+
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Poetsen+One&display=swap');
@@ -1149,36 +1149,38 @@ section {
 .departments .nav-tabs {
   border: 0;
 }
+
 @media (min-width:768px) {
-.departments .nav-link {
-  border: 0;
-  padding: 20px;
-  color: #555555;
-  border-radius: 0;
-  border-left: 5px solid #fff;
-  cursor: pointer;
-}
-
-
-  
-
-.departments .nav-link h4 {
-  font-size: 18px;
-  font-weight: 800;
-  transition: 0.3s;
-  font-family: "Roboto Condensed", sans-serif;
-}
-}
-@media (max-width:768px) {
   .departments .nav-link {
     border: 0;
-    
+    padding: 20px;
     color: #555555;
     border-radius: 0;
     border-left: 5px solid #fff;
     cursor: pointer;
   }
-  
+
+
+
+
+  .departments .nav-link h4 {
+    font-size: 18px;
+    font-weight: 800;
+    transition: 0.3s;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+}
+
+@media (max-width:768px) {
+  .departments .nav-link {
+    border: 0;
+
+    color: #555555;
+    border-radius: 0;
+    border-left: 5px solid #fff;
+    cursor: pointer;
+  }
+
 
   .departments .nav-link h4 {
     font-size: 12px;
@@ -1186,7 +1188,8 @@ section {
     transition: 0.3s;
     font-family: "Roboto Condensed", sans-serif;
   }
-  }
+}
+
 .departments .nav-link p {
   font-size: 14px;
   margin-bottom: 0;
@@ -1215,25 +1218,29 @@ section {
   max-width: 300px;
   padding: 0 15px 15px 0;
 }
-  .departments .tab-pane img {
-    float: none;
-    padding: 0 0 15px 0;
-    max-width: 100%;
-  }
+
+.departments .tab-pane img {
+  float: none;
+  padding: 0 0 15px 0;
+  max-width: 100%;
+}
+
 @media (min-width: 768px) {
 
 
 
-.departments .tab-pane h3 {
-  font-family: "Mulish";
-  font-size: 20px;
-  font-weight: 800;
-  line-height: 60px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  color: #4A4A4A;
+  .departments .tab-pane h3 {
+    font-family: "Mulish";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #4A4A4A;
 
-}}
+  }
+}
+
 @media (max-width: 768px) {
 
 
@@ -1242,11 +1249,12 @@ section {
     font-family: "Mulish";
     font-size: 20px;
     font-weight: 800;
-     letter-spacing: -0.02em;
+    letter-spacing: -0.02em;
     text-align: left;
     color: #4A4A4A;
-  
-  }}
+
+  }
+}
 
 .departments .tab-pane p {
   color: #777777;
@@ -1260,7 +1268,7 @@ section {
   letter-spacing: -0.02em;
   text-align: left;
   color: #9A9A9A;
-  }
+}
 
 @keyframes slide-down {
   0% {
@@ -1734,8 +1742,8 @@ section {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
-  font-family:"Mulish", sans-serif !important;
-   
+  font-family: "Mulish", sans-serif !important;
+
 
 }
 
@@ -2105,15 +2113,13 @@ section {
 
 
 
-.main_images {
-  margin-bottom: -150px
-}
+ 
 
 
 
 
 .main_images {
-  background: #E5E5FB;
+  background: #D5ECFC;;
 }
 
 .last_text {
@@ -2209,47 +2215,50 @@ section {
 }
 
 .service_text {
- 
-   font-family: "Mulish";
+
+  font-family: "Mulish";
   font-size: 16px;
   font-weight: 600;
   line-height: 20.08px;
   letter-spacing: -0.02em;
   text-align: center;
   color: #9A9A9A;
-  margin-bottom:  220px !important;
+  margin-bottom: 220px !important;
 
 }
+
 @media (min-width:1200px) {
   .service_text {
     padding-left: 350px;
     padding-right: 350px;
+  }
 }
-}
+
 @media (min-width:992px) and (max-width:1200px) {
   .service_text {
     padding-left: 250px;
     padding-right: 250px;
-}
+  }
 }
 
-.sevice_bg_color{
+.sevice_bg_color {
 
   background: #EEF7F9;
 
 }
 
-.contaner_inner{
+.contaner_inner {
   margin-top: -150px;
 }
 
 @media (min-width:1200px) {
-  
-  .only_padding_on_left{
+
+  .only_padding_on_left {
     padding-left: 150px !important;
-    
+
   }
-  .only_padding_on_right{
+
+  .only_padding_on_right {
     padding-left: 150px !important;
     padding-right: 150px !important;
   }
@@ -2257,12 +2266,13 @@ section {
 }
 
 @media (min-width:992px) and (max-width:1200px) {
-  
-  .only_padding_on_left{
+
+  .only_padding_on_left {
     padding-left: 100px !important;
-    
+
   }
-  .only_padding_on_right{
+
+  .only_padding_on_right {
     padding-left: 100px !important;
     padding-right: 100px !important;
   }
@@ -2270,63 +2280,64 @@ section {
 }
 
 @media (min-width:768px) and (max-width:992px) {
-  
-  .only_padding_on_left{
+
+  .only_padding_on_left {
     padding-left: 50px !important;
-    
+
   }
-  .only_padding_on_right{
-    padding-left:80px !important;
+
+  .only_padding_on_right {
+    padding-left: 80px !important;
     padding-right: 80px !important;
   }
 
 }
- 
 
-.flex-column{
+
+.flex-column {
   background-color: white;
 }
 
-.service_img_radius{
+.service_img_radius {
   border-radius: 12px;
 }
 
 
-.img_icon_logo{
-  font-family:  "Lora" , serif !important   ;
+.img_icon_logo {
+  font-family: "Lora", serif !important;
   color: #9943B1;
   font-weight: 1000;
-    text-align: center;
-    font-size: 20px;
+  text-align: center;
+  font-size: 20px;
 }
 
-.degrees_logo_txt{
+.degrees_logo_txt {
   font-size: 12px;
   text-align: center;
   margin-top: -20px;
 }
 
-.side_logo_text{
+.side_logo_text {
   margin-left: -30px;
 }
 
 
 @media (max-width:768px) {
-  .side_logo_text{
+  .side_logo_text {
     display: none;
   }
 }
 
 @media (min-width:768px) and (max-width:992px) {
-  .img_icon_logo{
-    font-family:  "Lora" , serif !important   ;
+  .img_icon_logo {
+    font-family: "Lora", serif !important;
     color: #9943B1;
     font-weight: 1000;
     text-align: center;
     font-size: 18px;
   }
-  
-  .degrees_logo_txt{
+
+  .degrees_logo_txt {
     font-size: 10px;
     text-align: center;
     margin-top: -20px;
@@ -2335,22 +2346,150 @@ section {
 
 
 @media (min-width:992px) and (max-width:1200px) {
-  .img_icon_logo{
-    font-family:  "Lora" , serif !important   ;
+  .img_icon_logo {
+    font-family: "Lora", serif !important;
     color: #9943B1;
     font-weight: 1000;
     font-size: 16px;
     text-align: center;
   }
-  
-  .degrees_logo_txt{
+
+  .degrees_logo_txt {
     font-size: 10px;
     text-align: center;
     margin-top: -20px;
   }
 }
 
-  
-.txt_ask{
+
+.txt_ask {
   margin-left: -60px;
+}
+
+
+
+
+
+
+
+/* srinivasa dental */
+
+
+.top-header {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 10px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd; /* Optional: Add a bottom border */
+}
+
+.top-header .contact-info {
+  color: #555;
+}
+
+.top-header .social-links a {
+  color: #555;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.top-header .social-links a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+
+.hello_border{
+  display: inline-flex;
+padding: 6px 15.81px 7.39px 16.97px;
+align-items: center;
+gap: 0.97px;
+border-radius: 4px;
+border: 1px solid #6F6F6F;
+
+
+color: #2365E3;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22.4px; /* 160% */
+
+}
+
+
+.bg_images {
+  background-image: linear-gradient(to right top, #9bdbf3, #ade0f5, #bee5f7, #ceeaf9, #ddeffa, #ddeffa, #ddeffa, #ddeffa, #ceeaf9, #bee5f7, #ade0f5, #9bdbf3);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* width: 100vw;  
+  height: 110vh; */
+}
+
+
+.contacct_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: #007BE5;
+  color: white;
+  border: none;
+  font-family: Poppins;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+
+.transform_smile{
+  color: #1D2053;
+font-family: "FONTSPRING DEMO - Tenon Bold";
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 122.991%; /* 67.645px */
+}
+
+
+.smile_text{
+  color: #2266E3;
+font-family: "FONTSPRING DEMO - Tenon Bold";
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 122.991%;
+}
+
+.calling_border{
+  
+  border-radius: 8.182px;
+border: 0.818px solid #1376F8;
+background: var(--Secondary-color, #FFF);
+}
+.image_width{
+  width: 42px;
+}
+.dental_text_mini{
+  color: var(--Mid-Blue-design, #1376F8);
+  font-family: "General Sans";
+  font-size: 12.273px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 155%;  
+  letter-spacing: 0.245px;
+}
+
+.num_mini{
+  color: var(--Dark-Blue-Design, #011632);
+  font-family: "General Sans";
+  font-size: 14.318px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155%; /* 22.193px */
+  letter-spacing: 0.286px;
+}
+
+.text_div{
+  margin-top: -3px;
 }
