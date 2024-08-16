@@ -44,12 +44,12 @@
 
 </head>
 <style>
-@media (min-width:992px) {
+    @media (min-width:992px) {
 
-    .showthisdiv {
-        padding-left: 100px !important;
+        .showthisdiv {
+            padding-left: 100px !important;
+        }
     }
-}
 </style>
 
 <body>
@@ -105,34 +105,33 @@
 
 
     <header id="header" class="main_images onlypad">
-        <div class="container d-flex align-items-center">
-            <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-                <a href="index.php">
-                    <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
-                </a>
-            </div>
+     <div class="container d-flex align-items-center">
+       <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
+         <a href="index.php">
+           <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
+         </a>
+       </div>
 
-            <nav id="navbar" class="navbar order-lg-0">
-                <i class="bi bi-list mobile-nav-toggle"></i>
-                <ul>
-                    <li><a class="nav-link scrollto" href="#bb">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#facilities">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-                    <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-                    <li><a class="nav-link scrollto" href="#testmonials">What Patients Say</a></li>
-                    <li><a href="#appointment" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
-                            Appointment
-                        </a></li>
-                </ul>
-            </nav>
+       <nav id="navbar" class="navbar order-lg-0">
+         <i class="bi bi-list mobile-nav-toggle"></i>
+         <ul>
+           <li><a class="nav-link scrollto" href="index.php">Home</a></li>
+           <li><a class="nav-link scrollto" href="about.php">About</a></li>
+           <li><a class="nav-link scrollto" href="services.php">Services</a></li>
+           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+           <li><a class="nav-link" href="blogs.php">Blogs</a></li>
+           <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
+           <li><a href="#appointment" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
+               Appointment
+             </a></li>
+         </ul>
+       </nav>
 
-            <a href="#appointment" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
-                Appointment
-            </a>
-        </div>
-    </header>
-
+       <a href="#appointment" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
+         Appointment
+       </a>
+     </div>
+   </header>
 
 
 
@@ -181,6 +180,23 @@
             </div>
         </section>
         <script>
+            function toggleReadMore() {
+                var showThisDiv = document.querySelector('.showthisdiv');
+                var readMoreText = document.querySelector('.get_in_touch');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block";
+                    readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+                } else {
+                    showThisDiv.style.display = "none";
+                    readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+                }
+            }
+        </script>
+
+    </main>
+
+    <script>
         function toggleReadMore() {
             var showThisDiv = document.querySelector('.showthisdiv');
             var readMoreText = document.querySelector('.get_in_touch');
@@ -193,23 +209,6 @@
                 readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
             }
         }
-        </script>
-
-    </main>
-
-    <script>
-    function toggleReadMore() {
-        var showThisDiv = document.querySelector('.showthisdiv');
-        var readMoreText = document.querySelector('.get_in_touch');
-
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-        }
-    }
     </script>
 </body>
 

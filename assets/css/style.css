@@ -682,7 +682,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+ 
 }
 
 .section-title h2 {
@@ -2260,8 +2260,7 @@ line-height: 152%; /* 27.36px */
   letter-spacing: -0.02em;
   text-align: center;
   color: #9A9A9A;
-  margin-bottom: 220px !important;
-
+   
 }
 
 @media (min-width:1200px) {
@@ -2669,6 +2668,27 @@ padding-right: 15px !important;
 
 }
 
+
+
+.app_more_btn{
+  border-radius: 4.981px;
+/* background: linear-gradient(95deg, #007BE5 -1.58%, #2762E2 100%); */
+color: #2067E3
+;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: 152%; /* 25.571px */
+border: none;
+padding-top: 8px !important;
+padding-bottom: 8px !important;
+padding-left: 15px !important;
+padding-right: 15px !important;
+border-radius: 5px;
+border: 1px solid rgba(152, 179, 255, 0.23);
+background: rgba(152, 179, 255, 0.07);
+}
+
 .apporach{
   
   color: #1D2053;
@@ -2682,3 +2702,83 @@ padding-right: 15px !important;
 .svg_apporach{
   margin-top: -20px !important;
 }
+
+ .approc_image{
+  margin-top: 2px;
+ }
+
+
+ .text_dental{
+
+ color: #000A2D;
+font-family: Manrope;
+font-size: 38px;
+font-style: normal;
+font-weight: 800; /* 160% */
+}
+
+ .plus_symbol{
+  color: #93C237;
+ }
+
+
+ .text_para{
+  color: #636571;
+font-family: Archivo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+ }
+
+ .happpy_section{
+  background: #F1F8FF;
+ }
+
+
+ .check_mark{
+  color: #3267FF;
+ }
+
+ .tetx_color_about{
+  color: #000A2D;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 100% */
+ }
+
+
+ .svg_apporach_service{
+  margin-top: -27px !important;
+  margin-bottom: -10px !important;
+}
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;  
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: transparent;
+
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+border-radius: 30px;
+}
+
+@media (min-width:768px) {
+  
+
+.video_start_div{
+ padding: 110px;  
+}}
