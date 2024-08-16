@@ -52,7 +52,7 @@
  <body>
 
    <!-- ======= Header ======= -->
-   <header id="top-header" class="top-header">
+   <header id="top-header" class="top-header d-none d-md-block">
      <div class="container d-flex justify-content-between align-items-center">
        <div class="contact-info">
 
@@ -92,19 +92,16 @@
      </div>
    </header>
 
-   <header id="header" class="main_images  ">
-
-
+   <header id="header" class="main_images onlypad">
      <div class="container d-flex align-items-center">
-
        <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-         <a href="index.php" class=" ">
+         <a href="index.php">
            <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
          </a>
-
        </div>
 
-       <nav id="navbar" class="navbar order-lg-0 ">
+       <nav id="navbar" class="navbar order-lg-0">
+         <i class="bi bi-list mobile-nav-toggle"></i>
          <ul>
            <li><a class="nav-link scrollto" href="#bb">Home</a></li>
            <li><a class="nav-link scrollto" href="#about">About</a></li>
@@ -112,30 +109,25 @@
            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
            <li><a class="nav-link" href="blogs.php">Blogs</a></li>
            <li><a class="nav-link scrollto" href="#testmonials">What Patients Say</a></li>
+           <li><a href="#appointment" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
+               Appointment
+             </a></li>
          </ul>
-         <i class="bi bi-list mobile-nav-toggle"></i>
-       </nav><!-- .navbar -->
+       </nav>
 
-       <a href="#appointment" class="appointment-btn scrollto" style="z-index: 999;">
+       <a href="#appointment" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
          Appointment
-
        </a>
-
      </div>
    </header>
 
 
 
-   <!-- End Header -->
-
-   <!-- 
-   <img src="assets/img/srinivasa/banner.png" class="img-fluid d-none d-md-block">
-   <img src="assets/img/srinivasa/mini_banner.png" class="img-fluid  d-md-none  "> -->
 
 
    <section class="bg_images">
 
-     <div class="container">
+     <div class="container bg_container">
 
        <div class="row">
          <div class="col-md-6">
@@ -164,16 +156,16 @@
                <button class="contacct_button">Contact Us</button>
              </div>
 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
              <div class="d-flex ">
 
-               <div class="image_width" >
-                 <img src="assets/img/srinivasa/Call.png" class="img-fluid "> 
+               <div class="image_width">
+                 <img src="assets/img/srinivasa/Call.png" class="img-fluid ">
                </div>
-               &nbsp;&nbsp;  
+               &nbsp;&nbsp;
                <div class="text_div">
-                 <p><span class="dental_text_mini"> Dental 24H Emergency </span>  <br><span class="num_mini">92900 19948</span></p>
+                 <p><span class="dental_text_mini"> Dental 24H Emergency </span> <br><span class="num_mini">92900 19948</span></p>
                </div>
 
 
@@ -199,6 +191,35 @@
 
    <main id="main">
 
+     <section>
+       <div class="container">
+         <div class="row">
+
+           <div class="col-md-4 text-center">
+             <img src="assets/img/srinivasa/clipboard.png" alt="" class="img-fluid">
+             <h3 class="mini_con">Affordable Price</h3>
+             <p class="mini_para">Lorem ipsum dolor sit amet, consectetur
+               adipiscing elit. Ut elit tellus nec.</p>
+           </div>
+           <div class="col-md-4 text-center">
+             <img src="assets/img/srinivasa/tools.png" alt="" class="img-fluid">
+             <h3 class="mini_con">Professional Dentist</h3>
+             <p class="mini_para">Lorem ipsum dolor sit amet, consectetur
+               adipiscing elit. Ut elit tellus nec.</p>
+           </div>
+           <div class="col-md-4 text-center">
+             <img src="assets/img/srinivasa/chair.png" alt="" class="img-fluid">
+             <h3 class="mini_con">Satisfactory Service</h3>
+             <p class="mini_para">Lorem ipsum dolor sit amet, consectetur
+               adipiscing elit. Ut elit tellus nec.</p>
+           </div>
+
+
+
+         </div>
+       </div>
+     </section>
+
      <!-- ======= About Us Section ======= -->
      <section id="about" class="about">
        <div class="container" data-aos="fade-up">
@@ -206,28 +227,43 @@
 
          <div class="row">
 
+
+           <div class="col-md-6" data-aos="fade-right">
+             <iframe class="video-frame img-fluid img_padding"
+               src="https://www.youtube.com/embed/UEm0ustQR1I?start=7&autoplay=1&mute=1&loop=1"
+               frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+               allowfullscreen>
+             </iframe>
+           </div>
+
+
+
+
+
            <div class="col-md-6    content_padding" data-aos="fade-left">
 
 
 
-             <h2 class="welcome_text">WELCOME TO THE </h2>
-             <h2 class="welcome_text_oncology">Oncology Of Dr. K Pradeep Bhaskar</h2>
+             <p class="welcome_text">WELCOME TO </p>
+             <h2 class="welcome_text_oncology">
+               Srinivasa Multispeciality Dental Hospital Dentist In Kakinada</h2>
              <p class=poetsen_font>
-               Welcome to the official website of Dr. K Pradeep Bhaskar, an esteemed consultant radiation oncologist with specializations in various cancer treatments. With a dedicated career in oncology, Dr. Bhaskar offers comprehensive and Personalized care to all patients. <br><br> At our clinic, we are committed to providing the highest standard of care using the latest advancements in cancer treatment. Explore our website to learn more about our services, read informative blogs.
+               We are dedicated to providing your family with the right variety of dental services for complete care. We are confident you will find our clinic to be as friendly as it is professional each and every time you visit.
+               <br>
+               Our success is measured by each patient and each smile.Thats why we are Best dentist in kakinada
              </p>
 
 
-             <div class="d-flex flex-row justify-content-end">
+             <div class="d-flex flex-row justify-content-start   ">
                <a href="#contact">
-                 <p class="get_in_touch">Get In Touch <i class="fa-solid fa-arrow-right"></i></p>
+                 <button class="read_more_btn">Read More </button>
                </a>
              </div>
 
            </div>
 
-           <div class="col-md-6   " data-aos="fade-right" class="">
-             <img src="assets/img/oncoligist/Wheel boy.png" class="img-fluid img_padding" alt="">
-           </div>
+
          </div>
 
 
@@ -242,8 +278,18 @@
        <div class="container" data-aos="fade-up">
 
          <div class="section-title text-center">
-           <h2>Our Services</h2>
-           <p class="  text-center service_text">Dr. K Pradeep Bhaskar offers specialized treatment for a wide range of cancers. Each service is provided with the utmost care and expertise to ensure the best possible outcomes for our patients.
+           <h2 class="apporach">Our Approach</h2> 
+             
+            
+           <p class="svg_apporach"> <svg xmlns="http://www.w3.org/2000/svg" width="266" height="10" viewBox="0 0 266 10" fill="none">
+               <path fill-rule="evenodd" clip-rule="evenodd" d="M6.11475 7.98364C11.7525 7.38504 26.5688 7.3551 66.7894 7.29524C129.595 7.20545 179.441 6.54699 193.295 5.58923C194.395 5.49944 106.357 4.84098 97.3157 5.31986C83.2214 6.09804 15.912 5.43958 2.36768 4.54167C-1.48249 4.30223 -0.0386618 3.46418 2.47082 3.2846C6.38973 2.9853 16.909 3.01524 45.751 3.0751C66.0331 3.10503 227.396 2.41663 245.031 1.18949C254.932 0.501097 260.948 -0.127436 263.698 0.0222149C266.001 0.141936 266.036 0.501097 264.042 1.48879C262.701 2.14726 264.214 2.53635 265.176 2.71593C266.654 3.01523 266.035 4.03286 264.179 4.84097C261.67 5.94839 257.338 5.91846 259.401 4.81104C259.848 4.5716 259.951 3.973 258.37 4.09272C253.763 4.45188 221.209 6.90615 212.374 7.32517C118.045 11.8746 25.9843 8.55231 6.49286 9.65973C-0.416819 10.0788 2.74587 8.3428 6.11475 7.98364Z" fill="#25B4F8" />
+             </svg></p>
+
+
+           <p class="  text-center service_text">we recognize that every patient is unique and deserves to receive dental care that reflects their individual wants and needs. Using the latest advances in dental technology, our dentists strive to help you achieve a happy, healthy smile you can’t wait to show off. 
+            <br><br>
+            Srinivasa Dental Clinichaving best Dentist In kakinada 
+Our success is measured by each patient and each smile.Thats why we are Best dentist in kakinada
            </p>
          </div>
 

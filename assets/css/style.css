@@ -9,6 +9,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Manrope:wght@200..800&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+ 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
@@ -31,7 +35,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
@@ -223,10 +227,10 @@ h6 {
   left: 1103px;
   padding: 10px 19px 10px 19px;
   gap: 10px;
-  border-radius: 22px;
+  border-radius: 6px;
   opacity: 0px;
-  color: #A256B0;
-  background: #FFFFFF;
+  background-color: #007BE5;
+  color: white;
   font-weight: 800;
   margin-left: 10px;
 
@@ -2006,18 +2010,49 @@ section {
 }
 
 .welcome_text {
-  font-family: "Mukta Vaani", sans-serif;
-  font-weight: 800;
-  font-size: 39px;
+  color: #EE7D24;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 152%; /* 30.4px */
 }
 
 .welcome_text_oncology {
   font-family: "Mukta Vaani", sans-serif;
+  color: #1D2053;  
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; 
+}
 
-  font-weight: 800;
-  font-size: 35px;
-  color: #A256B0;
-  ;
+@media (min-width:992px) and (max-width:1200px) {
+  .welcome_text_oncology {
+    font-family: "Mukta Vaani", sans-serif;
+    color: #1D2053;  
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+  }
+}
+@media (max-width:768px)   {
+  .welcome_text_oncology {
+    font-family: "Mukta Vaani", sans-serif;
+    color: #1D2053;  
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+  }
+}
+
+
+.video-frame {
+  width: 100%; /* Full width within the parent div */
+  height: 400px; /* Set height as desired */
+ 
 }
 
 @media (min-width:992px) {
@@ -2092,10 +2127,15 @@ section {
 }
 
 .poetsen_font {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  color: #9A9A9A;
+  
+ 
+
+color: #141B2A;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 152%; /* 27.36px */
 
 }
 
@@ -2118,9 +2158,6 @@ section {
 
 
 
-.main_images {
-  background: #D5ECFC;;
-}
 
 .last_text {
   font-family: "Montserrat";
@@ -2415,17 +2452,78 @@ line-height: 22.4px; /* 160% */
 
 }
 
+@media (min-width:1400px) {
+  
+  .bg_images {
+    margin-top: -115px;
+    background-image: linear-gradient(to right top, #9bdbf3, #ade0f5, #bee5f7, #ceeaf9, #ddeffa, #ddeffa, #ddeffa, #ddeffa, #ceeaf9, #bee5f7, #ade0f5, #9bdbf3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
 
-.bg_images {
-  background-image: linear-gradient(to right top, #9bdbf3, #ade0f5, #bee5f7, #ceeaf9, #ddeffa, #ddeffa, #ddeffa, #ddeffa, #ceeaf9, #bee5f7, #ade0f5, #9bdbf3);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* width: 100vw;  
-  height: 110vh; */
+  }
+   
 }
 
+@media (min-width:1200px) and  (max-width:1400px)  {
+  
+  .bg_images {
+    margin-top: -75px;
+    background-image: linear-gradient(to right top, #9bdbf3, #ade0f5, #bee5f7, #ceeaf9, #ddeffa, #ddeffa, #ddeffa, #ddeffa, #ceeaf9, #bee5f7, #ade0f5, #9bdbf3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh; 
+  }
+}
+@media (min-width:992px) and (max-width:1200px) {
+  
+  .bg_images {
+    margin-top: -85px;
+    background-image: linear-gradient(to right top, #9bdbf3, #ade0f5, #bee5f7, #ceeaf9, #ddeffa, #ddeffa, #ddeffa, #ddeffa, #ceeaf9, #bee5f7, #ade0f5, #9bdbf3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh; 
+  }
+}
+@media (min-width:768px) and (max-width:992px) {
+  
+  .bg_images {
+    margin-top: -117px;
+    background-image: linear-gradient(to right top, #9bdbf3, #ade0f5, #bee5f7, #ceeaf9, #ddeffa, #ddeffa, #ddeffa, #ddeffa, #ceeaf9, #bee5f7, #ade0f5, #9bdbf3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 115vh; 
+  }
+}
 
+@media (max-width:768px)  {
+  
+  .bg_images {
+    margin-top: -117px;
+    background-image: linear-gradient(to right top, #9bdbf3, #ade0f5, #bee5f7, #ceeaf9, #ddeffa, #ddeffa, #ddeffa, #ddeffa, #ceeaf9, #bee5f7, #ade0f5, #9bdbf3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150vh; 
+  }
+}
+.bg_container{
+  margin-top: 150px;
+}
+
+.main_images {
+  background: #ddeffa;
+
+}
+
+.onlypad{
+  padding-top: 30px;
+}
+ 
 .contacct_button {
   display: flex;
   flex-direction: column;
@@ -2492,4 +2590,95 @@ background: var(--Secondary-color, #FFF);
 
 .text_div{
   margin-top: -3px;
+}
+
+
+.appointment_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: #007BE5;
+  color: white;
+  border: none;
+  font-family: Poppins;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+@media (min-width:768px) {
+  
+  .mobile-nav-toggle {
+    position: absolute;
+    left: 400px;  
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    
+  }
+}
+@media (max-width:768px) {
+  
+  .mobile-nav-toggle {
+    position: absolute;
+    left: 50px;  
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    
+  }
+}
+
+.mini_con{
+  color: #000A2D;
+text-align: center;
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 100% */
+}
+
+
+.mini_para{
+  color: #636571;
+text-align: center;
+font-family: Archivo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+}
+
+.read_more_btn{
+  border-radius: 4.981px;
+background: linear-gradient(95deg, #007BE5 -1.58%, #2762E2 100%);
+color: #FFF;
+font-family: Poppins;
+ 
+font-style: normal;
+font-weight: 500;
+line-height: 152%; /* 25.571px */
+border: none;
+padding-top: 8px !important;
+padding-bottom: 8px !important;
+padding-left: 15px !important;
+padding-right: 15px !important;
+
+}
+
+.apporach{
+  
+  color: #1D2053;
+  font-family: "FONTSPRING DEMO - Tenon Bold";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 42px */   
+}
+
+.svg_apporach{
+  margin-top: -20px !important;
 }
