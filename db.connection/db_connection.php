@@ -5,11 +5,11 @@ $servername = "localhost";
 if ($_SERVER['SERVER_NAME'] == 'localhost') {
     $username = "root";
     $password = "";
-    $dbname = "oncologist";
+    $dbname = "srinivasa";
 } else {
     $username = "askoncologist";
     $password = "DEWzGnaO8rMVX3p";
-    $dbname = "askoncologist";
+    $dbname = "srinivasa";
 }
 
 // Create connection
@@ -19,4 +19,3 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-?>
