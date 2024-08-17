@@ -8,7 +8,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
 } else {
     $user = "srinivasa-dental";
     $pass = "PlcQrF62ZHSKrPt";
-    $db = "srinivasa";
+    $db = "srinivasa_dental";
 }
 
 
