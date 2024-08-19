@@ -43,7 +43,6 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
-
 <style>
 @media (min-width:992px) {
 
@@ -116,12 +115,12 @@
             <nav id="navbar" class="navbar order-lg-0">
                 <i class="bi bi-list mobile-nav-toggle"></i>
                 <ul>
-                    <li><a class="nav-link scrollto" href="#bb">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#facilities">Services</a></li>
+                    <li><a class="nav-link scrollto" href="index.php">Home</a></li>
+                    <li><a class="nav-link scrollto" href="about.php">About</a></li>
+                    <li><a class="nav-link scrollto" href="services.php">Services</a></li>
                     <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-                    <li><a class="nav-link scrollto" href="#testmonials">What Patients Say</a></li>
+                    <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
                     <li><a href="#appointment" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
                             Appointment
                         </a></li>
@@ -139,176 +138,95 @@
 
     <main id="main">
 
-        <section class="sectionForm">
-            <div class="container">
-                <div class="row servSect">
-                    <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font111">What Patients Say</h2>
-                            <h2 class="dr_welcome_text1 mt-2 mb-0">Excellent</h2>
-                            <img src="assets/img/services/s3.png" class="img-fluid dr_img_padding servImgg" alt="">
+        <section class="sectionForm mt-5 pt-5">
+            <div class="container appointment_bg" style="  background-color: #E7F3FE80;">
 
-                            <div class="carousel-container">
-                                <div class="carousel">
-                                    <div class="slide">
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
+                <div class="section-title">
+                    <h2 class=" pt-5 mb-4">Make an Appointment</h2>
+                </div>
 
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png"
-                                                        class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
 
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png"
-                                                        class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide">
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
+                <div class="row">
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="assets/img/oncoligist/BOOK APOINTMENT.png" class="img-fluid">
+                    </div>
 
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png"
-                                                        class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
 
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png"
-                                                        class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide">
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png"
-                                                        class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png"
-                                                        class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="col-md-6 mt-5">
+                        <form action="appointmentform.php" method="post" role="form" class="php-email-form"
+                            data-aos-delay="100">
+                            <div class="row">
+                                <div class="col-md-6 form-group mt-4 mt-md-0 mb-4">
+                                    <input type="text" name="name" class="form-control  " id="name"
+                                        style="border-radius: 23px; " placeholder="Your Name" required>
                                 </div>
-                                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-                                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                                <div class="col-md-6 form-group mt-4 mt-md-0">
+                                    <input type="email" class="form-control  " name="email" id="email"
+                                        style="border-radius: 23px;" placeholder="Your Email" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-5 mt-md-0">
+                                    <input type="tel" class="form-control  " name="phone" id="phone"
+                                        style="border-radius: 23px;" placeholder="Your Phone" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-4  mt-md-0">
+                                    <input type="date" name="date" class="form-control datepicker  "
+                                        style="border-radius: 23px;" id="date" placeholder="Appointment Date" required>
+                                </div>
                             </div>
+                            <div class="row">
+
+                                <div class="  form-group mt-4">
+                                    <select name="department" id="department" style="border-radius: 23px;"
+                                        class="form-select" required>
+                                        <option value="">Select Service</option>
+                                        <option value="Bladder  Cancer"> Bladder Cancer</option>
+                                        <option value="Brain  Cancer">Brain Cancer</option>
+                                        <option value="Cervical  Cancer">Cervical Cancer</option>
+                                        <option value="Childhood  Cancer">Childhood Cancer</option>
+                                        <option value="Colon  Cancer">Colon Cancer</option>
+                                        <option value="Esophageal  Cancer">Esophageal Cancer</option>
+                                        <option value="Kidney  Cancer">Kidney Cancer</option>
+                                        <option value="Leiomyosarcoma  Cancer">Leiomyosarcoma Cancer</option>
+                                        <option value="Leukemia  Cancer">Leukemia Cancer</option>
+                                        <option value="Liver Cancer">Liver Cancer</option>
+                                        <option value="Lung Cancer"> Lung Cancer</option>
+                                        <option value="Lymphoma Cancer">Lymphoma Cancer</option>
+                                        <option value="Melanoma  Cancer">Melanoma Cancer</option>
+                                        <option value="Ovarian  Cancer">Ovarian Cancer</option>
+                                        <option value="Pancreatic Cancer">Pancreatic Cancer</option>
+                                        <option value="Prostate  Cancer">Prostate Cancer</option>
+                                        <option value="Sarcoma/Bone Cancer">Sarcoma/Bone Cancer</option>
+                                        <option value="Stomach Cancer">Stomach Cancer</option>
+                                        <option value="Testicular Cancer"> Testicular Cancer</option>
+                                        <option value="Uterine Cancer"> Uterine Cancer</option>
+                                        <option value="Head & Neck Cancer">Head & Neck Cancer</option>
+                                        <option value="Breast Cancer">Breast Cancer</option>
+                                        <option value="Multiple Myeloma">Multiple Cancer</option>
+                                        <option value="Honors Caregivers">Honors Cancer</option>
+
+
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group mt-4 mb-5">
+                                <textarea class="form-control" name="message" style="border-radius: 23px;" rows="5"
+                                    placeholder="Message (Optional)"></textarea>
+                            </div>
+
+                            <div class="text-center maker"><button type="submit" class="makee">Make an
+                                    Appointment</button></div>
+                        </form>
                     </div>
 
-                    <div class="col-md-5 order-3  order-md-2 mt-5">
-                        <img src="assets/img/services/s4.png" class="img-fluid dr_img_padding" alt="" class="servImg">
-                    </div>
 
 
                 </div>
             </div>
         </section>
-        <script>
-        function toggleReadMore() {
-            var showThisDiv = document.querySelector('.showthisdiv');
-            var readMoreText = document.querySelector('.get_in_touch');
 
-            if (showThisDiv.style.display === "none") {
-                showThisDiv.style.display = "block";
-                readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-            } else {
-                showThisDiv.style.display = "none";
-                readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-            }
-        }
-        </script>
 
     </main>
     <footer id="footer">
@@ -409,30 +327,7 @@
             </div>
         </div>
     </footer>
-    <script>
-    function toggleReadMore() {
-        var showThisDiv = document.querySelector('.showthisdiv');
-        var readMoreText = document.querySelector('.get_in_touch');
 
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-        }
-    }
-    </script>
-    <script>
-    let currentSlide = 0;
-
-    function moveSlide(step) {
-        const slides = document.querySelectorAll('.carousel .slide');
-        const totalSlides = slides.length;
-        currentSlide = (currentSlide + step + totalSlides) % totalSlides;
-        document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
-    }
-    </script>
 </body>
 
 </html>

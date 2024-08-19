@@ -46,3 +46,116 @@ img.img-fluid.dr_img_padding {
   text-transform: uppercase;
   font-weight: 400;
 }
+img.imgg1 {
+  position: relative;
+  left: 190px;
+  width: 65%;
+}
+img.imgg2 {
+  width: 52%;
+  position: relative;
+  left: 100px;
+  top: 10px;
+}
+img.imgg3 {
+  width: 65%;
+  position: relative;
+  top: 42px;
+  left: -25px;
+}
+img.imgg4 {
+  width: 60%;
+  position: relative;
+  top: -52px;
+  left: 43px;
+}
+img.imgg7 {
+  width: 80%;
+  position: relative;
+  top: -33px;
+  left: -15px;
+}
+img.imgg6 {
+  width: 83%;
+  position: relative;
+  left: 26px;
+  top: 16px;
+}
+img.imgg5 {
+  width: 82%;
+  position: relative;
+  left: 28px;
+}
+img.imgg10 {
+  width: 58%;
+  position: relative;
+  top: -197px;
+  left: 8px;
+}
+img.imgg9 {
+  width: 64%;
+  position: relative;
+  left: 120px;
+}
+img.imgg8 {
+  width: 88%;
+  position: relative;
+  left: 87px;
+}
+.carousel-container {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  overflow: hidden;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
+  background: transparent;
+  margin-top: 36px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  transition: opacity 0.5s ease;
+}
+button.prev {
+  left: 10px;
+  background: black;
+  color: white;
+  padding: 0px 23px;
+}
+
+button.next {
+  right: 10px;
+  background: black;
+  color: white;
+  padding: 0px 23px;
+}
+
+button.prev:hover,
+button.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+img.img-fluid.rounded-start.crdImg {
+  padding: 6px 0px 0px 38px;
+}
+section.sectionForm {
+  padding-top: 0px;
+}
+.testCard {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  margin-left: 1px;
+}
+button.makee {
+  border-radius: 5px;
+  padding: 5px 20px;
+  background: #92c138;
+  border: none;
+  color: white;
+}

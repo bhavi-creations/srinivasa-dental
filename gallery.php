@@ -138,10 +138,41 @@
 
     <main id="main">
 
-        <section>
+        <section class="sectionForm mt-5 pt-5">
             <div class="container">
                 <div class="row servSect">
+                    <div class="col-md-4">
+                        <img src="assets/img/gallery/1.png" alt="" class="imgg1">
+                    </div>
+                    <div class="col-md-4"> <img src="assets/img/gallery/2.png" alt="" class="imgg2">
+                    </div>
+                    <div class="col-md-4"> <img src="assets/img/gallery/3.png" alt="" class="imgg3">
+                    </div>
 
+
+                </div>
+                <div class="row servSect">
+                    <div class="col-md-3">
+                        <img src="assets/img/gallery/4.png" alt="" class="imgg4"><br />
+                        <img src="assets/img/gallery/7.png" alt="" class="imgg5">
+                    </div>
+
+                    <div class="col-md-6"> <img src="assets/img/gallery/5.png" alt="" class="imgg6">
+                    </div>
+                    <div class="col-md-3"> <img src="assets/img/gallery/6.png" alt="" class="imgg7">
+                    </div>
+
+
+                </div>
+                <div class="row servSect">
+                    <div class="col-md-4">
+                        <img src="assets/img/gallery/8.png" alt="" class="imgg8">
+                    </div>
+
+                    <div class="col-md-4"> <img src="assets/img/gallery/9.png" alt="" class="imgg9">
+                    </div>
+                    <div class="col-md-4"> <img src="assets/img/gallery/10.png" alt="" class="imgg10">
+                    </div>
 
 
                 </div>
@@ -151,7 +182,104 @@
 
     </main>
 
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 d-flex flex-row justify-content-center">
+                        <div class="footer-info">
+                            <!-- <a href="index.php" class="logo me-auto "><img src="assets/img/oncoligist/Oncology logo.png" style="height:350px;" alt=""></a> -->
+                            <a href="index.php" class="img-fluid">
+                                <img src="assets/img/oncoligist/Oncology logo.png" style="height: 350px" alt="" /></a>
+                        </div>
+                        <!-- <div class="footer-info d-block d-xl-none">
+              <a href="index.php" class="logo me-auto "><img src="assets/img/oncoligist/Oncology logo.png" class="img-fluid" alt=""></a>
 
+            </div> -->
+                    </div>
+
+                    <div class="col-md-4 d-flex flex-row justify-content-center">
+                        <div class="footer-info  d-none d-lg-block">
+
+                            <a href="index.php" class="img-fluid">
+                                <img src="assets/img/oncoligist/ask_text.png" style="height: 350px;" alt=""
+                                    class="txt_ask" /></a>
+                        </div>
+                        <div class="footer-info  d-none d-md-block d-lg-none">
+
+                            <a href="index.php" class="img-fluid">
+                                <img src="assets/img/oncoligist/ask_text.png" style="height: 250px;margin-top: 50px;"
+                                    alt="" /></a>
+                        </div>
+                        <div class="footer-info   d-md-none ">
+
+                            <a href="index.php" class="img-fluid">
+                                <img src="assets/img/oncoligist/ask_text.png"
+                                    style="height: 250px;margin-top: -190px;margin-bottom: -100px; " alt="" /></a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 footer-newsletter  onl_top">
+                        <p class="mt-2">
+                            <span class="phone_email">
+                                <strong><i class="fa-solid fa-phone colr_purple">
+                                        &nbsp;</i></strong></span>
+                            <span class="mini_text"> +91 84069 07980 </span>
+                            <br />
+                            <span class="phone_email">
+                                <strong><i class="fa-solid fa-envelope colr_purple"></i>
+                                    &nbsp;</strong></span>
+                            <span class="mini_text"> prabhaleo2003@gmail.com</span> <br />
+                        </p>
+                        <p class="mt-4 mini_text last_padding_text">
+                            Get the latest updates on cancer treatments, research, and
+                            patient care. Our blog helps patients and families navigate
+                            cancer diagnosis and treatment.
+                        </p>
+                        <div class="social-links mt-3">
+                            <a href="https://www.facebook.com/askoncologist" target="_blank" class="facebook"><i
+                                    class="bx bxl-facebook"></i></a>
+                            <a href="https://www.instagram.com/ask_oncologist/" target="_blank" class="instagram"><i
+                                    class="bx bxl-instagram"></i></a>
+                            <a href="https://in.pinterest.com/askoncologist/" target="_blank" class="pinterest"><i
+                                    class="bx bxl-pinterest"></i></a>
+                            <a href="https://www.youtube.com/@askoncologist" target="_blank" class="twitter"><i
+                                    class="bx bxl-youtube"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-area-bottom theme-bg">
+            <div class="container">
+                <div class="row pt-4">
+                    <div class="col-xl-8 col-lg-9 col-md-12 col-12">
+                        <div class="footer-widget__copyright">
+                            <p class="mini_text last_text" style="color: #737373">
+                                ©2024 Ask-Oncologist . All Rights Reserved. Designed &
+                                Developed by
+                                <a href="https://bhavicreations.com/" target="_blank"
+                                    style="text-decoration: none; color: #737373">Bhavi Creations</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-3 col-md-12 col-12">
+                        <div class="footer-widget__copyright-info info-direction">
+                            <p class="mini_text last_text">
+                                <a href="terms.html" style="text-decoration: none; color: #737373">Terms & conditions
+                                </a>
+                                <a href="privacy.html" style="text-decoration: none; color: #737373">
+                                    Privacy & policy</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
