@@ -43,7 +43,7 @@
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
  </head>
- 
+
 
  <body>
 
@@ -69,7 +69,7 @@
                <rect width="15" height="15" fill="white" />
              </clipPath>
            </defs>
-         </svg> +123 456 7890
+         </svg> +91-9290019948
 
          &nbsp;
          &nbsp;
@@ -93,12 +93,12 @@
                <rect width="14" height="14" fill="white" transform="matrix(1 0 0 -1 0 14)" />
              </clipPath>
            </defs>
-         </svg> Monday - Saturday: 9 am - 11.30 pm
+         </svg> Monday - Saturday: 9 am - 9.30 pm
        </div>
      </div>
    </header>
 
-   <header id="header" class="main_images onlypad">
+   <header id="header" class="  onlypad">
      <div class="container d-flex align-items-center">
        <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
          <a href="index.php">
@@ -115,13 +115,13 @@
            <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
            <li><a class="nav-link" href="blogs.php">Blogs</a></li>
            <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-           <li><a href="#appointment" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
+           <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
                Appointment
              </a></li>
          </ul>
        </nav>
 
-       <a href="#appointment" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
+       <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
          Appointment
        </a>
      </div>
@@ -560,101 +560,7 @@
        </div>
      </section>
 
-     <!-- End Departments Section -->
 
-     <!-- ======= Testimonials Section ======= -->
-     <section id="testimonials" class="testimonials">
-       <div class="container tetniomial_section_bg" data-aos="fade-up">
-
-         <div class="section-title">
-           <h2 class="pt-5"> Testimonials</h2>
-         </div>
-
-         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-           <div class="swiper-wrapper">
-
-             <div class="swiper-slide px-5">
-               <div class="testimonial-item text-center">
-                 <img src="assets/img/tripura/profile.png" class="testimonial-img " alt="">
-
-                 <p class=poetsen_font>
-                   Dr.K Pradeep Bhaskar] provided outstanding care and unwavering support while
-                   treating my sister's breast cancer. Their expertise and compassion made a
-                   tremendous difference in her recovery, and we are deeply grateful for their
-                   dedication.
-
-                 </p>
-                 <p class="text-center">⭐⭐⭐⭐⭐</p>
-
-                 <h3 class="name_testmonial text-center">Sravanthi</h3>
-                 <p class=poetsen_font>Kakinada</p>
-                 <!-- <h4>Ceo &amp; Founder</h4> -->
-               </div>
-             </div><!-- End testimonial item -->
-
-             <div class="swiper-slide px-5">
-               <div class="testimonial-item text-center">
-                 <img src="assets/img/tripura/profile.png" class="testimonial-img " alt="">
-
-
-                 <p class=poetsen_font>
-
-                   Dr.K Pradeep Bhaskar gave my grandpa outstanding care and support during his battle
-                   with bone cancer. We are deeply grateful for their expertise and compassion
-                   throughout his treatment.
-
-                 </p>
-                 <p class="text-center">⭐⭐⭐⭐⭐</p>
-                 <h3 class="name_testmonial">Bhoomika</h3>
-                 <p class=poetsen_font>Kakinada</p>
-
-                 <!-- <h4>Designer</h4> -->
-               </div>
-             </div><!-- End testimonial item -->
-
-
-
-             <div class="swiper-slide px-5">
-               <div class="testimonial-item  text-center">
-                 <img src="assets/img/tripura/profile.png" class="testimonial-img " alt="">
-                 <p class=poetsen_font>
-                   Dr. K Pradeep Bhaskar showed incredible expertise and compassion in treating my
-                   brother's childhood cancer. Thanks to their exceptional care, my brother is now in
-                   remission, and we couldn't be more grateful.
-                 </p>
-                 <p class="text-center">⭐⭐⭐⭐⭐</p>
-                 <h3 class="name_testmonial">Sirisha</h3>
-                 <p class=poetsen_font>Kakinada</p>
-                 <!-- <h4>Freelancer</h4> -->
-               </div>
-             </div><!-- End testimonial item -->
-
-             <div class="swiper-slide px-5">
-               <div class="testimonial-item  text-center">
-                 <img src="assets/img/tripura/profile.png" class="testimonial-img " alt="">
-                 <p class=poetsen_font>
-
-                   Dr. K Pradeep Bhaskar provided exceptional care and expertise in treating my
-                   friend's colon cancer, showing compassion and dedication throughout the process. We
-                   are incredibly grateful for the successful outcome and highly recommend Dr. K
-                   Pradeep Bhaskar.
-                 </p>
-                 <p class="text-center">⭐⭐⭐⭐⭐</p>
-                 <h3 class="name_testmonial">Ramesh</h3>
-                 <p class=poetsen_font>Kakinada</p>
-                 <!-- <h4>Entrepreneur</h4> -->
-               </div>
-             </div><!-- End testimonial item -->
-
-           </div>
-
-
-           <div class="swiper-button-next right"></div>
-           <div class="swiper-button-prev left"></div>
-         </div>
-
-       </div>
-     </section>
 
 
 
@@ -689,19 +595,24 @@
 
      <section>
        <div class="container">
+         <div class="section-title text-center">
+           <p class="our_blogs my-2">Our Blogs</p>
+           <h2 class="apporach">Blogs & articles </h2>
+
+
+
+           <p class="mb-5  text-center service_text">General & Cosmetic Dentistry can give you a smile you’re
+             happy to show off. Modern cosmetic dentistry techniques make it easier than ever for you to
+             have a bright, even smile. Srinivasa dentist in kakinada
+
+           </p>
+         </div>
+       </div>
+       <div class="container">
          <div class="row">
 
-           <div class="col-6 d-none d-md-block">
-             <h3 class="blogs_home mb-5">Our Latest Blogs</h3>
-           </div>
-           <div class="col-6 d-none d-md-block">
-             <a href="blogs.php">
-               <p class="view_more_btn mb-5 d-flex flex-row justify-content-end">View More<i
-                   class="fa-solid fa-arrow-right"></i></p>
-             </a>
-           </div>
 
-           <h3 class="blogs_home text-center mb-5 d-md-none">Our Latest Blogs</h3>
+
 
            <?php
             include './db.connection/db_connection.php';
@@ -734,6 +645,13 @@
              </div>
            <?php endwhile; ?>
 
+           <div class="mt-5 d-none d-md-block">
+             <a href="blogs.php">
+               <p class="view_more_btn mb-5 d-flex flex-row justify-content-end">View More<i
+                   class="fa-solid fa-arrow-right mt-1"></i></p>
+             </a>
+           </div>
+
            <div class="d-flex flex-row justify-content-center mt-4">
              <a href="blogs.php">
                <p class="view_more_btn d-md-none">View More<i class="fa-solid fa-arrow-right"></i></p>
@@ -747,301 +665,155 @@
      <!-- End Testimonials Section -->
 
 
-
-
-
-     <!-- ======= Appointment Section ======= -->
-
-     <section id="appointment" class="appointment ">
-       <div class="container appointment_bg" style="  background-color: #E7F3FE80;" data-aos="fade-up">
-
-         <div class="section-title">
-           <h2 class=" pt-5">Make an Appointment</h2>
-         </div>
-
-
-         <div class="row">
-           <div class="col-md-6 d-none d-md-block">
-             <img src="assets/img/oncoligist/BOOK APOINTMENT.png" class="img-fluid">
+     <div class="container last_container ">
+       <div class="row">
+         <div class="col-md-6 padding_text_madam order-2 order-md-1">
+           <h1 class="madam_text">Become The Next
+             Our </h1>
+           <p class="text_mam">Lorem ipsum dolor sit amet consectetur. Nec mi aliquam diam hendrerit posuere sed neque. </p>
+           <div class=" btn_div   ">
+             <a href="https://www.youtube.com/@srinivasadentalkakinada/featured" target="_blank">
+               <button class="read_more_btn">Book an Appointment </button>
+             </a>
            </div>
-
-
-           <div class="col-md-6">
-             <form action="appointmentform.php" method="post" role="form" class="php-email-form"
-               data-aos="fade-up" data-aos-delay="100">
-               <div class="row">
-                 <div class="col-md-6 form-group">
-                   <input type="text" name="name" class="form-control  " id="name"
-                     style="border-radius: 23px; " placeholder="Your Name" required>
-                 </div>
-                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                   <input type="email" class="form-control  " name="email" id="email"
-                     style="border-radius: 23px;" placeholder="Your Email" required>
-                 </div>
-                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                   <input type="tel" class="form-control  " name="phone" id="phone"
-                     style="border-radius: 23px;" placeholder="Your Phone" required>
-                 </div>
-                 <div class="col-md-6 form-group mt-3  mt-md-0">
-                   <input type="date" name="date" class="form-control datepicker  "
-                     style="border-radius: 23px;" id="date" placeholder="Appointment Date" required>
-                 </div>
-               </div>
-               <div class="row">
-
-                 <div class="  form-group mt-3">
-                   <select name="department" id="department" style="border-radius: 23px;"
-                     class="form-select" required>
-                     <option value="">Select Service</option>
-                     <option value="Bladder  Cancer"> Bladder Cancer</option>
-                     <option value="Brain  Cancer">Brain Cancer</option>
-                     <option value="Cervical  Cancer">Cervical Cancer</option>
-                     <option value="Childhood  Cancer">Childhood Cancer</option>
-                     <option value="Colon  Cancer">Colon Cancer</option>
-                     <option value="Esophageal  Cancer">Esophageal Cancer</option>
-                     <option value="Kidney  Cancer">Kidney Cancer</option>
-                     <option value="Leiomyosarcoma  Cancer">Leiomyosarcoma Cancer</option>
-                     <option value="Leukemia  Cancer">Leukemia Cancer</option>
-                     <option value="Liver Cancer">Liver Cancer</option>
-                     <option value="Lung Cancer"> Lung Cancer</option>
-                     <option value="Lymphoma Cancer">Lymphoma Cancer</option>
-                     <option value="Melanoma  Cancer">Melanoma Cancer</option>
-                     <option value="Ovarian  Cancer">Ovarian Cancer</option>
-                     <option value="Pancreatic Cancer">Pancreatic Cancer</option>
-                     <option value="Prostate  Cancer">Prostate Cancer</option>
-                     <option value="Sarcoma/Bone Cancer">Sarcoma/Bone Cancer</option>
-                     <option value="Stomach Cancer">Stomach Cancer</option>
-                     <option value="Testicular Cancer"> Testicular Cancer</option>
-                     <option value="Uterine Cancer"> Uterine Cancer</option>
-                     <option value="Head & Neck Cancer">Head & Neck Cancer</option>
-                     <option value="Breast Cancer">Breast Cancer</option>
-                     <option value="Multiple Myeloma">Multiple Cancer</option>
-                     <option value="Honors Caregivers">Honors Cancer</option>
-
-
-
-                   </select>
-                 </div>
-
-               </div>
-
-               <div class="form-group mt-3">
-                 <textarea class="form-control" name="message" style="border-radius: 23px;" rows="5"
-                   placeholder="Message (Optional)"></textarea>
-               </div>
-               <div class="my-3">
-                 <div class="loading">Loading</div>
-                 <!-- <div class="error-message"></div> -->
-                 <!-- <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div> -->
-               </div>
-               <div class="text-center"><button type="submit">Make an Appointment</button></div>
-             </form>
-           </div>
-
-
-
          </div>
-       </div>
-     </section>
-
-     <!-- End Appointment Section -->
-
-
-
-
-
-
-
-     <!-- ======= Contact Section ======= -->
-
-     <section id="contact" class="contact">
-       <div class="container">
-
-         <div class="section-title">
-           <h2>Contact</h2>
+         <div class="col-md-6 order-1 order-md-2">
+           <img src="assets/img/srinivasa/pro_mam.png" class="img-fluid mam_image" alt="">
          </div>
 
        </div>
+     </div>
 
 
-
-       <div class="container">
-
-         <div class="row mt-5">
-
-           <div class="col-lg-6">
-
-             <div class="row d-flex flex-row justify-content-center">
-               <!-- <div class="col-md-12">
-                 <div class="info-box">
-                   <i class="bx bx-map"></i>
-                   <h3>Our Address</h3>
-                   <p>
-                     2-56-5,
-                     SANTHI NAGAR,ROAD NO.1,<br>
-                     100 BUILDING CENTER,<br>
-                     HOUSING BOARD COLONY<br>
-                     OPP. CHRISTIAN COMMUNITY HALL<br>
-                     KAKINADA-533003 <br>
-                     Andhra Pradesh, India
-                     <br><br>
-                   </p>
-                 </div>
-               </div> -->
-               <div class="col-md-7">
-                 <div class="info-box mt-4">
-                   <i class="bx bx-envelope"></i>
-                   <h3 style="font-family:Mulish;">Email Us</h3>
-                   <p style="font-family:Mulish;"> prabhaleo2003@gmail.com </p>
-                 </div>
-               </div>
-               <div class="col-md-7">
-                 <div class="info-box mt-4">
-                   <i class="bx bx-phone-call"></i>
-                   <h3 style="font-family:Mulish;">Call Us</h3>
-                   <p style="font-family:Mulish;"> +91 84069 07980 </p>
-                 </div>
-               </div>
-             </div>
-
-           </div>
-
-           <div class="col-lg-6">
-             <form action="contactform .php" method="post" role="form" class="php-email-form">
-               <div class="row">
-                 <div class="col-md-6 form-group">
-                   <input type="text" name="contactname" class="form-control" id="name"
-                     placeholder="Your Name" required="" style="font-family:Mulish;">
-                 </div>
-                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                   <input type="email" class="form-control just_font" name="contactemail" id="email"
-                     placeholder="Your Email" style="font-family:Mulish;" required="">
-                 </div>
-
-                 <div class="col-md-6 form-group mt-3">
-                   <input type="text" class="form-control" name="contactsubject" id="subject"
-                     placeholder="Subject" style="font-family:Mulish;">
-                 </div>
-                 <div class="col-md-6 form-group mt-3">
-                   <input type="text" class="form-control" name="contactnumber" id="number"
-                     placeholder="Phone" required="" style="font-family:Mulish;">
-                 </div>
-               </div>
-               <div class="form-group mt-3">
-                 <textarea class="form-control" name="contactmessage" rows="7" placeholder="Message"
-                   required=" " style="font-family:Mulish;"></textarea>
-               </div>
-               <div class="my-3">
-                 <div class="loading">Loading</div>
-                 <div class="error-message"></div>
-                 <div class="sent-message">Your message has been sent. Thank you!</div>
-               </div>
-               <div class="text-center"><button type="submit">Send Message</button></div>
-             </form>
-           </div>
-
-
-
-         </div>
-
-       </div>
-     </section>
-
-     <!-- End Contact Section -->
 
    </main><!-- End #main -->
 
    <!-- ======= Footer ======= -->
    <footer id="footer">
      <div class="footer-top">
-       <div class="container">
+       <div class="container py-5">
          <div class="row">
-           <div class="col-md-4 d-flex flex-row justify-content-center">
-             <div class="footer-info">
-               <!-- <a href="index.php" class="logo me-auto "><img src="assets/img/oncoligist/Oncology logo.png" style="height:350px;" alt=""></a> -->
-               <a href="index.php" class="img-fluid">
-                 <img src="assets/img/oncoligist/Oncology logo.png" style="height: 350px" alt="" /></a>
-             </div>
-             <!-- <div class="footer-info d-block d-xl-none">
-              <a href="index.php" class="logo me-auto "><img src="assets/img/oncoligist/Oncology logo.png" class="img-fluid" alt=""></a>
-
-            </div> -->
-           </div>
-
-           <div class="col-md-4 d-flex flex-row justify-content-center">
-             <div class="footer-info  d-none d-lg-block">
-
-               <a href="index.php" class="img-fluid">
-                 <img src="assets/img/oncoligist/ask_text.png" style="height: 350px;" alt=""
-                   class="txt_ask" /></a>
-             </div>
-             <div class="footer-info  d-none d-md-block d-lg-none">
-
-               <a href="index.php" class="img-fluid">
-                 <img src="assets/img/oncoligist/ask_text.png" style="height: 250px;margin-top: 50px;"
-                   alt="" /></a>
-             </div>
-             <div class="footer-info   d-md-none ">
-
-               <a href="index.php" class="img-fluid">
-                 <img src="assets/img/oncoligist/ask_text.png"
-                   style="height: 250px;margin-top: -190px;margin-bottom: -100px; " alt="" /></a>
-             </div>
-
-           </div>
-
-           <div class="col-md-4 footer-newsletter  onl_top">
-             <p class="mt-2">
-               <span class="phone_email">
-                 <strong><i class="fa-solid fa-phone colr_purple">
-                     &nbsp;</i></strong></span>
-               <span class="mini_text"> +91 84069 07980 </span>
-               <br />
-               <span class="phone_email">
-                 <strong><i class="fa-solid fa-envelope colr_purple"></i>
-                   &nbsp;</strong></span>
-               <span class="mini_text"> prabhaleo2003@gmail.com</span> <br />
+           <div class="col-12 col-md-6 col-lg-3 py-2">
+             <a href="#"> <img src="assets/img/srinivasa/logo.png" class="img-fluid" alt=""></a>
+             <p class="foot_para">Srinivasa Multispeciality Dental Hospital Jawahar street, Beside MRF showroom, opp Vivekananda statue- kulaicheruvu park Kakinada-1
              </p>
-             <p class="mt-4 mini_text last_padding_text">
-               Get the latest updates on cancer treatments, research, and
-               patient care. Our blog helps patients and families navigate
-               cancer diagnosis and treatment.
+             <p class="foot_para"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                 <g clip-path="url(#clip0_94_738)">
+                   <path d="M11.5289 10.0012L9.15863 8.22346V4.60227C9.15863 4.23816 8.86432 3.94385 8.50021 3.94385C8.13611 3.94385 7.8418 4.23816 7.8418 4.60227V8.55271C7.8418 8.76009 7.93925 8.95566 8.10516 9.07944L10.7388 11.0547C10.8573 11.1435 10.9956 11.1863 11.1332 11.1863C11.334 11.1863 11.5315 11.0961 11.6606 10.9223C11.8792 10.6319 11.8199 10.2191 11.5289 10.0012Z" fill="white" />
+                   <path d="M8.5 0C3.81281 0 0 3.81281 0 8.5C0 13.1872 3.81281 17 8.5 17C13.1872 17 17 13.1872 17 8.5C17 3.81281 13.1872 0 8.5 0ZM8.5 15.6832C4.5397 15.6832 1.3168 12.4603 1.3168 8.5C1.3168 4.5397 4.5397 1.3168 8.5 1.3168C12.461 1.3168 15.6832 4.5397 15.6832 8.5C15.6832 12.4603 12.4603 15.6832 8.5 15.6832Z" fill="white" />
+                 </g>
+                 <defs>
+                   <clipPath id="clip0_94_738">
+                     <rect width="17" height="17" fill="white" />
+                   </clipPath>
+                 </defs>
+               </svg> &nbsp; &nbsp; Clinic Time <br>
+               Mon-Sat – 9:00 AM To 8:30 PM <br> Sun – 9:00 AM To 1:00 PM</p>
+             <p class="foot_para">
+               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                 <g clip-path="url(#clip0_94_734)">
+                   <path d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z" fill="white" />
+                 </g>
+                 <defs>
+                   <clipPath id="clip0_94_734">
+                     <rect width="14" height="14" fill="white" transform="translate(0 0.164062)" />
+                   </clipPath>
+                 </defs>
+               </svg>
+
+               +91-08842342346 
              </p>
-             <div class="social-links mt-3">
-               <a href="https://www.facebook.com/askoncologist" target="_blank" class="facebook"><i
-                   class="bx bxl-facebook"></i></a>
-               <a href="https://www.instagram.com/ask_oncologist/" target="_blank" class="instagram"><i
-                   class="bx bxl-instagram"></i></a>
-               <a href="https://in.pinterest.com/askoncologist/" target="_blank" class="pinterest"><i
-                   class="bx bxl-pinterest"></i></a>
-               <a href="https://www.youtube.com/@askoncologist" target="_blank" class="twitter"><i
-                   class="bx bxl-youtube"></i></a>
+             <p class="foot_para">
+               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                 <g clip-path="url(#clip0_94_734)">
+                   <path d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z" fill="white" />
+                 </g>
+                 <defs>
+                   <clipPath id="clip0_94_734">
+                     <rect width="14" height="14" fill="white" transform="translate(0 0.164062)" />
+                   </clipPath>
+                 </defs>
+               </svg>
+
+               +91-9290019948
+             </p>
+           </div>
+           <div class="col-6 col-md-6 col-lg-3 py-2">
+             <h1 class="foot_head">Helpfull Link</h1>
+             <a href="index.php">
+               <p class="foot_para">Home</p>
+             </a><a href="about.php">
+
+               <p class="foot_para">About us</p>
+
+             </a><a href="testimonials.php">
+               <p class="foot_para">What Patients Say</p>
+             </a><a href="blogs.php">
+               <p class="foot_para">Blog</p>
+             </a><a href="contact.php">
+               <p class="foot_para">Contact</p>
+             </a>
+
+             <div class="d-flex">
+               <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+               <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+
+               <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank"> <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""></a>
+
              </div>
+
+
+           </div>
+           <div class="col-6 col-md-6 col-lg-3 py-2">
+             <h1 class="foot_head">Treatments
+             </h1>
+             <p class="foot_para">Root Canal</p>
+             <p class="foot_para">Dental Implants</p>
+
+             <p class="foot_para">Teeth Filling</p>
+             <p class="foot_para">Dental Braces</p>
+             <p class="foot_para">Teeth Cleaning</p>
+             <p class="foot_para">Teeth Whitening</p>
+
+
+           </div>
+           <div class="col-12 col-md-6 col-lg-3 py-2">
+             <h1 class="foot_head">Treatments
+             </h1>
+             <p class="foot_para">Smile Makeover</p>
+             <p class="foot_para">Tooth Crown & Bridges</p>
+
+             <p class="foot_para">Dentures</p>
+             <p class="foot_para">Tooth extraction</p>
+             <p class="foot_para">Teeth Scaling</p>
+             <p class="foot_para">Full Mouth Restoration</p>
+
+
            </div>
 
          </div>
        </div>
      </div>
 
-     <div class="footer-area-bottom theme-bg">
+     <div class="footer-area-bottom theme-bg" style="background-color:  #000A2D;">
        <div class="container">
          <div class="row pt-4">
            <div class="col-xl-8 col-lg-9 col-md-12 col-12">
              <div class="footer-widget__copyright">
-               <p class="mini_text last_text" style="color: #737373">
-                 ©2024 Ask-Oncologist . All Rights Reserved. Designed &
+               <p class="mini_text last_text" style="color: #ffffff">
+                 ©2024 SRINIVASA DENTAL . All Rights Reserved. Designed &
                  Developed by
                  <a href="https://bhavicreations.com/" target="_blank"
-                   style="text-decoration: none; color: #737373">Bhavi Creations</a>
+                   style="text-decoration: none; color: #ffffff">Bhavi Creations</a>
                </p>
              </div>
            </div>
            <div class="col-xl-4 col-lg-3 col-md-12 col-12">
              <div class="footer-widget__copyright-info info-direction">
                <p class="mini_text last_text">
-                 <a href="terms.html" style="text-decoration: none; color: #737373">Terms & conditions
+                 <a href="terms.html" style="text-decoration: none; color: #ffffff">Terms & conditions
                  </a>
-                 <a href="privacy.html" style="text-decoration: none; color: #737373">
+                 <a href="privacy.html" style="text-decoration: none; color: #ffffff">
                    Privacy & policy</a>
                </p>
              </div>
@@ -1112,7 +884,7 @@
 
 
    <div id="preloader"></div>
-   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+   <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 
    <!-- Vendor JS Files -->
    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
