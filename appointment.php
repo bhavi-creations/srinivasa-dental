@@ -179,30 +179,19 @@
                                     <select name="department" id="department" style="border-radius: 23px;"
                                         class="form-select" required>
                                         <option value="">Select Service</option>
-                                        <option value="Bladder  Cancer"> Bladder Cancer</option>
-                                        <option value="Brain  Cancer">Brain Cancer</option>
-                                        <option value="Cervical  Cancer">Cervical Cancer</option>
-                                        <option value="Childhood  Cancer">Childhood Cancer</option>
-                                        <option value="Colon  Cancer">Colon Cancer</option>
-                                        <option value="Esophageal  Cancer">Esophageal Cancer</option>
-                                        <option value="Kidney  Cancer">Kidney Cancer</option>
-                                        <option value="Leiomyosarcoma  Cancer">Leiomyosarcoma Cancer</option>
-                                        <option value="Leukemia  Cancer">Leukemia Cancer</option>
-                                        <option value="Liver Cancer">Liver Cancer</option>
-                                        <option value="Lung Cancer"> Lung Cancer</option>
-                                        <option value="Lymphoma Cancer">Lymphoma Cancer</option>
-                                        <option value="Melanoma  Cancer">Melanoma Cancer</option>
-                                        <option value="Ovarian  Cancer">Ovarian Cancer</option>
-                                        <option value="Pancreatic Cancer">Pancreatic Cancer</option>
-                                        <option value="Prostate  Cancer">Prostate Cancer</option>
-                                        <option value="Sarcoma/Bone Cancer">Sarcoma/Bone Cancer</option>
-                                        <option value="Stomach Cancer">Stomach Cancer</option>
-                                        <option value="Testicular Cancer"> Testicular Cancer</option>
-                                        <option value="Uterine Cancer"> Uterine Cancer</option>
-                                        <option value="Head & Neck Cancer">Head & Neck Cancer</option>
-                                        <option value="Breast Cancer">Breast Cancer</option>
-                                        <option value="Multiple Myeloma">Multiple Cancer</option>
-                                        <option value="Honors Caregivers">Honors Cancer</option>
+                                        <option value="Root Canal"> Root Canal</option>
+                                        <option value="Dental Implants">Dental Implants</option>
+                                        <option value="Teeth Filling">Teeth Filling</option>
+                                        <option value="Dental Braces">Dental Braces</option>
+                                        <option value="Teeth Cleaning">Teeth Cleaning</option>
+                                        <option value="Teeth Whitening">Teeth Whitening</option>
+                                        <option value="Smile Makeover">Smile Makeover</option>
+                                        <option value="Tooth Crown & Bridges">Tooth Crown & Bridges</option>
+                                        <option value="Dentures">Dentures</option>
+                                        <option value="Tooth extraction">Tooth extraction</option>
+                                        <option value="Teeth Scaling"> Teeth Scaling</option>
+                                        <option value="Full Mouth Restoration">Full Mouth Restoration</option>
+                                         
 
 
 
