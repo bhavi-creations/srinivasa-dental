@@ -41,6 +41,9 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 
  </head>
 
@@ -511,7 +514,64 @@
            </p>
          </div>
        </div>
+
+
+       <div id="upCarousel" class="carousel slide" data-bs-ride="carousel">
+         <!-- Pagination Indicators -->
+         <ol class="carousel-indicators">
+           <li data-bs-target="#upCarousel"  class="active"></li>
+           <li data-bs-target="#upCarousel"  ></li>
+           <li data-bs-target="#upCarousel"  ></li>
+         </ol>
+
+         <!-- Carousel Inner -->
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <img src="assets/img/slide/new-1.png" class="d-block w-100" alt="Slide 1">
+           </div>
+           <div class="carousel-item">
+             <img src="assets/img/slide/new-2.png" class="d-block w-100" alt="Slide 2">
+           </div>
+           <div class="carousel-item">
+             <img src="assets/img/slide/new-3.png" class="d-block w-100" alt="Slide 3">
+           </div>
+         </div>
+
+         <!-- Controls -->
+         <button class="carousel-control-prev" type="button" data-bs-target="#upCarousel" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#upCarousel" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+
+
+
+
+
+
+
+
+
+       <script>
+         document.addEventListener('DOMContentLoaded', function() {
+           var carouselElement = document.getElementById('upCarousel');
+           var carousel = new bootstrap.Carousel(carouselElement, {
+             interval: 3000, // Set your desired slide interval
+             wrap: true
+           });
+         });
+       </script>
      </section>
+
+
+         
+
+
+
 
 
 
@@ -561,6 +621,63 @@
      </section>
 
 
+     <section>
+       <div class="container">
+         <p class="welcome_text">Our Testimonial</p>
+
+         <div class="row">
+
+           <div class="col-lg-6">
+             <h1 class="service_test_text">The Honest Review
+               From Our Client</h1>
+             <p class="service_test_text_para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+               Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+               natoque penatibus et magnis dis parturient.</p>
+             <button class="reviews_btn mb-5"> See All Review</button>
+           </div>
+
+           <div class="col-lg-6">
+
+             <div class="card mb-3 bodu_card" style="max-width: 540px;">
+               <div class="row g-0">
+
+                 <div class="col-md-8">
+                   <div class="card-body ">
+                     <p class="card-text  text_of_the_card">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                     <h5 class="card-title name_of_the_card">Name</h5>
+                     <p class="card-text work_of_the_card"><small class="text-muted">Designer</small></p>
+                   </div>
+                 </div>
+                 <div class="col-md-4 d-flex flex-row justify-content-end">
+                   <img src="assets/img/srinivasa/review.png" class="img-fluid rounded-start" alt="...">
+                 </div>
+
+
+               </div>
+             </div>
+
+             <div class="card mb-3 bodu_card" style="max-width: 540px;">
+               <div class="row g-0">
+
+                 <div class="col-md-8">
+                   <div class="card-body ">
+                     <p class="card-text  text_of_the_card">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                     <h5 class="card-title name_of_the_card">Name</h5>
+                     <p class="card-text work_of_the_card"><small class="text-muted">Designer</small></p>
+                   </div>
+                 </div>
+                 <div class="col-md-4 d-flex flex-row justify-content-end">
+                   <img src="assets/img/srinivasa/review.png" class="img-fluid rounded-start" alt="...">
+                 </div>
+
+
+               </div>
+             </div>
+           </div>
+
+         </div>
+       </div>
+     </section>
 
 
 
