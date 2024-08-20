@@ -110,19 +110,19 @@ $result = $conn->query($sql);
             <nav id="navbar" class="navbar order-lg-0">
                 <i class="bi bi-list mobile-nav-toggle"></i>
                 <ul>
-                    <li><a class="nav-link scrollto" href="#bb">Home</a></li>
+                    <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
                     <li><a class="nav-link scrollto" href="services.php">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
                     <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-                    <li><a href="#appointment" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
+                    <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
                             Appointment
                         </a></li>
                 </ul>
             </nav>
 
-            <a href="#appointment" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
+            <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
                 Appointment
             </a>
         </div>
@@ -132,63 +132,63 @@ $result = $conn->query($sql);
         <!-- ======= Blogs Section ======= -->
         <section id="blogs">
             <div class="container">
-                <div class="section-title" style="margin-top: 100px;">
+                <div class="section-title"  >
                     <h2>Blogs</h2>
                 </div>
 
                 <div class="row" id="blogRow">
                     <?php
-          $counter = 0;
-          if ($result->num_rows > 0) {
-            while ($row = $result->fetch_assoc()) {
-              if ($counter === 0) {
-                echo '
+                    $counter = 0;
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            if ($counter === 0) {
+                                echo '
                                     <div class="col-md-9  order-1 order-md-1" id="selectedblog">
                                     <div id="selectedBlogId" style="display: none">' . $counter . '</div>
-                                    <h2 class="mb-3">' . $row['title'] . '</h2>
+                                    <h2 class="mb-3  tittle_text">' . $row['title'] . '</h2>
                                     <video class="custom-video" muted  autoplay    controls style="width: 100%; height: auto;">
                                     <source src="admin/public/uploads/videos/' . $row['video'] . '" type="video/mp4">
                                     Your browser does not support the video tag.
                                     </video>
                                     <p>Published On  ';
-          ?>
+                    ?>
 
 
 
 
-                    <?php echo date("Y-m-d H:i:s", strtotime($row['time']));
-                echo '</p>
+                                <?php echo date("Y-m-d H:i:s", strtotime($row['time']));
+                                echo '</p>
                                     
                                     <div class="row d-flex my-3">';
 
 
 
-                echo '<div>';
-                ?>
-                    <?php if (!empty($row['photos'])) : ?>
-                    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                        <div class="swiper-wrapper row">
-                            <!-- Added 'row' class for Bootstrap grid -->
+                                echo '<div>';
+                                ?>
+                                <?php if (!empty($row['photos'])) : ?>
+                                    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="swiper-wrapper row">
+                                            <!-- Added 'row' class for Bootstrap grid -->
 
-                            <?php foreach (json_decode($row['photos']) as $photo) : ?>
-                            <div class="testimonial-item col-6 col-md-4 col-lg-3">
-                                <!-- Added Bootstrap grid classes -->
-                                <img src="admin/public/uploads/photos/<?php echo htmlspecialchars($photo); ?>"
-                                    alt="Blog Photo" class="img-fluid my-2">
-                            </div>
-                            <?php endforeach; ?>
+                                            <?php foreach (json_decode($row['photos']) as $photo) : ?>
+                                                <div class="testimonial-item col-6 col-md-4 col-lg-3">
+                                                    <!-- Added Bootstrap grid classes -->
+                                                    <img src="admin/public/uploads/photos/<?php echo htmlspecialchars($photo); ?>"
+                                                        alt="Blog Photo" class="img-fluid my-2">
+                                                </div>
+                                            <?php endforeach; ?>
 
-                        </div>
-                    </div>
-                    <?php else : ?>
-                    <p>No photos available.</p>
-                    <?php endif; ?>
-                    <?php echo '</div>';
+                                        </div>
+                                    </div>
+                                <?php else : ?>
+                                    <p>No photos available.</p>
+                                <?php endif; ?>
+                                <?php echo '</div>';
 
-                echo '
+                                echo '
                                         </div>';
-                echo $row['content'];
-                echo '
+                                echo $row['content'];
+                                echo '
                                             <div style="display: none" id="lastchild">
                                                     <video onclick="swapDivs(`' . $counter . '`)"
                                                         class="custom-video" controls muted autoplay style="width: 100%; height: auto;">
@@ -197,33 +197,33 @@ $result = $conn->query($sql);
                                                     </video>
                                                     <h6 class="mb-3" onclick="swapDivs(`' . $counter . '`)">' . $row['title'] . '</h6>
                                             </div>';
-                echo '</div>';
+                                echo '</div>';
 
 
 
 
 
-                if ($result->num_rows > 1) {
-                  echo '<div class="col-md-3  order-2 order-md-2 scrollable-div">';
-                }
-              } else {
-                echo '<div id="sidebardiv' . $counter . '""><video
+                                if ($result->num_rows > 1) {
+                                    echo '<div class="col-md-3  order-2 order-md-2 scrollable-div">';
+                                }
+                            } else {
+                                echo '<div id="sidebardiv' . $counter . '""><video
                                             class="custom-video" autoplay muted controls style="width: 100%; height: auto;" onclick="swapDivs(`' . $counter . '`)">
                                             <source src="admin/public/uploads/videos/' . $row['video'] . '" type="video/mp4">
                                             Your browser does not support the video tag.
                                         </video>
                                         <h6 class="mb-3" onclick="swapDivs(`' . $counter . '`)">' . $row['title'] . '</h6>';
-                echo '<div class="col-md-9  order-2 order-md-1" id="lastchild" style="display: none">
+                                echo '<div class="col-md-9  order-2 order-md-1" id="lastchild" style="display: none">
                                         <h2 class="mb-3" >' . $row['title'] . '</h2>
                                         <video class="custom-video" autoplay muted controls style="width: 100%; height: auto;" onclick="swapDivs(`' . $counter . '`)">
                                             <source src="admin/public/uploads/videos/' . $row['video'] . '" type="video/mp4">
                                             Your browser does not support the video tag.
                                         </video>
                                         <p>Published On ';
-                ?>
-                    <?php echo date("Y-m-d H:i:s", strtotime($row['time']));
+                                ?>
+                                <?php echo date("Y-m-d H:i:s", strtotime($row['time']));
 
-                echo '</p>
+                                echo '</p>
                                          <div class="row d-flex my-3">
                                          <div class="row">
                                          <div class="col-9"></div>
@@ -233,114 +233,114 @@ $result = $conn->query($sql);
                                          ';
 
 
-                echo '<div id="images" style="display:none;">'; ?>
-                    <?php if (!empty($row['photos'])) : ?>
-                    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                        <div class="swiper-wrapper row">
-                            <!-- Added 'row' class for Bootstrap grid -->
+                                echo '<div id="images" style="display:none;">'; ?>
+                                <?php if (!empty($row['photos'])) : ?>
+                                    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="swiper-wrapper row">
+                                            <!-- Added 'row' class for Bootstrap grid -->
 
-                            <?php foreach (json_decode($row['photos']) as $photo) : ?>
-                            <div class="testimonial-item col-6 col-md-4 col-lg-3">
-                                <!-- Added Bootstrap grid classes -->
-                                <img src="admin/public/uploads/photos/<?php echo htmlspecialchars($photo); ?>"
-                                    alt="Blog Photo" class="img-fluid my-2">
-                            </div>
-                            <?php endforeach; ?>
+                                            <?php foreach (json_decode($row['photos']) as $photo) : ?>
+                                                <div class="testimonial-item col-6 col-md-4 col-lg-3">
+                                                    <!-- Added Bootstrap grid classes -->
+                                                    <img src="admin/public/uploads/photos/<?php echo htmlspecialchars($photo); ?>"
+                                                        alt="Blog Photo" class="img-fluid my-2">
+                                                </div>
+                                            <?php endforeach; ?>
 
-                        </div>
-                    </div>
-                    <?php else : ?>
-                    <p>No photos available.</p>
-                    <?php endif;
-                echo $row['content'];
-                ?>
+                                        </div>
+                                    </div>
+                                <?php else : ?>
+                                    <p>No photos available.</p>
+                                <?php endif;
+                                echo $row['content'];
+                                ?>
                     <?php echo '</div>';
 
 
 
 
-                echo '
+                                echo '
                                         </div>';
-                echo '</div></div>';
-              }
-              $counter++;
-            }
-            if ($result->num_rows > 1) {
-              echo '</div>';
-            }
-          }
-          ?>
+                                echo '</div></div>';
+                            }
+                            $counter++;
+                        }
+                        if ($result->num_rows > 1) {
+                            echo '</div>';
+                        }
+                    }
+                    ?>
                 </div>
             </div>
         </section>
 
 
         <script>
-        state = 1;
+            state = 1;
 
-        function hideDiv() {
+            function hideDiv() {
 
-            if (state == 0) {
-                var div = document.getElementById('images');
-                document.getElementById('read').innerHTML = "Read More";
-                div.style.display = 'none';
-                state = 1;
-            } else {
-                var div = document.getElementById('images');
-                div.style.display = 'block';
-                document.getElementById('read').innerHTML = "Read less";
-                state = 0;
+                if (state == 0) {
+                    var div = document.getElementById('images');
+                    document.getElementById('read').innerHTML = "Read More";
+                    div.style.display = 'none';
+                    state = 1;
+                } else {
+                    var div = document.getElementById('images');
+                    div.style.display = 'block';
+                    document.getElementById('read').innerHTML = "Read less";
+                    state = 0;
+                }
+
             }
 
-        }
 
+            function swapDivs(currentDivId) {
+                var currentDiv = document.getElementById('sidebardiv' + currentDivId);
+                currentDiv.setAttribute('id', 'sidebardiv' + document.getElementById('selectedBlogId').innerText);
+                console.log(document.getElementById('selectedBlogId').innerText);
+                let selectedBlog = document.getElementById('selectedblog');
+                let currentDivLastChild = currentDiv.querySelector('#lastchild');
+                let selectedDivLastChild = selectedBlog.querySelector('#lastchild');
+                var currentDivNewDiv = document.createElement('div');
+                currentDivNewDiv.innerHTML = selectedBlog.querySelector('#lastchild').innerHTML;
+                let currentDivNewDivLastChild = document.createElement('div');
+                currentDivNewDivLastChild.id = 'lastchild';
+                currentDivNewDivLastChild.style.display = 'none';
+                selectedBlog.removeChild(selectedDivLastChild);
+                selectedBlog.removeChild(document.getElementById('selectedBlogId'));
+                currentDivNewDivLastChild.innerHTML = selectedBlog.innerHTML;
+                currentDivNewDiv.appendChild(currentDivNewDivLastChild);
+                let selectedBlogNewDiv = document.createElement('div');
+                selectedBlogNewDiv.innerHTML = currentDiv.querySelector('#lastchild').innerHTML;
+                let selectedBlogIDNewDiv = document.createElement('div');
+                selectedBlogIDNewDiv.id = 'selectedBlogId';
+                selectedBlogIDNewDiv.innerText = currentDivId;
+                let selectedBlogNewDivLastChild = document.createElement('div');
+                selectedBlogNewDivLastChild.id = 'lastchild';
+                selectedBlogNewDivLastChild.style.display = 'none';
+                currentDiv.removeChild(currentDivLastChild);
+                selectedBlogNewDivLastChild.innerHTML = currentDiv.innerHTML;
+                selectedBlogNewDiv.appendChild(selectedBlogIDNewDiv);
+                selectedBlogNewDiv.appendChild(selectedBlogNewDivLastChild);
+                currentDiv.innerHTML = currentDivNewDiv.innerHTML;
+                selectedBlog.innerHTML = selectedBlogNewDiv.innerHTML;
 
-        function swapDivs(currentDivId) {
-            var currentDiv = document.getElementById('sidebardiv' + currentDivId);
-            currentDiv.setAttribute('id', 'sidebardiv' + document.getElementById('selectedBlogId').innerText);
-            console.log(document.getElementById('selectedBlogId').innerText);
-            let selectedBlog = document.getElementById('selectedblog');
-            let currentDivLastChild = currentDiv.querySelector('#lastchild');
-            let selectedDivLastChild = selectedBlog.querySelector('#lastchild');
-            var currentDivNewDiv = document.createElement('div');
-            currentDivNewDiv.innerHTML = selectedBlog.querySelector('#lastchild').innerHTML;
-            let currentDivNewDivLastChild = document.createElement('div');
-            currentDivNewDivLastChild.id = 'lastchild';
-            currentDivNewDivLastChild.style.display = 'none';
-            selectedBlog.removeChild(selectedDivLastChild);
-            selectedBlog.removeChild(document.getElementById('selectedBlogId'));
-            currentDivNewDivLastChild.innerHTML = selectedBlog.innerHTML;
-            currentDivNewDiv.appendChild(currentDivNewDivLastChild);
-            let selectedBlogNewDiv = document.createElement('div');
-            selectedBlogNewDiv.innerHTML = currentDiv.querySelector('#lastchild').innerHTML;
-            let selectedBlogIDNewDiv = document.createElement('div');
-            selectedBlogIDNewDiv.id = 'selectedBlogId';
-            selectedBlogIDNewDiv.innerText = currentDivId;
-            let selectedBlogNewDivLastChild = document.createElement('div');
-            selectedBlogNewDivLastChild.id = 'lastchild';
-            selectedBlogNewDivLastChild.style.display = 'none';
-            currentDiv.removeChild(currentDivLastChild);
-            selectedBlogNewDivLastChild.innerHTML = currentDiv.innerHTML;
-            selectedBlogNewDiv.appendChild(selectedBlogIDNewDiv);
-            selectedBlogNewDiv.appendChild(selectedBlogNewDivLastChild);
-            currentDiv.innerHTML = currentDivNewDiv.innerHTML;
-            selectedBlog.innerHTML = selectedBlogNewDiv.innerHTML;
+                // Manage volume
+                let currentDivVideo = currentDiv.querySelector('video');
+                let selectedBlogVideo = selectedBlog.querySelector('video');
+                if (currentDivVideo) currentDivVideo.muted = true; // Mute the sidebar video
+                if (selectedBlogVideo) selectedBlogVideo.muted = false; // Unmute the main video
 
-            // Manage volume
-            let currentDivVideo = currentDiv.querySelector('video');
-            let selectedBlogVideo = selectedBlog.querySelector('video');
-            if (currentDivVideo) currentDivVideo.muted = true; // Mute the sidebar video
-            if (selectedBlogVideo) selectedBlogVideo.muted = false; // Unmute the main video
-
-            // Scroll to main video section
-            selectedBlog.scrollIntoView({
-                behavior: 'smooth'
-            });
+                // Scroll to main video section
+                selectedBlog.scrollIntoView({
+                    behavior: 'smooth'
+                });
 
 
 
 
-        }
+            }
         </script>
 
     </main>
@@ -502,48 +502,48 @@ $result = $conn->query($sql);
     <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
     <script>
-    // Function to scroll to the top of the page
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth' // Optional, smooth scrolling animation
-        });
-    }
-
-    // Show scroll button when scrolling down
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("scrollBtn").style.display = "block";
-        } else {
-            document.getElementById("scrollBtn").style.display = "none";
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional, smooth scrolling animation
+            });
         }
-    }
+
+        // Show scroll button when scrolling down
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
     </script>
 
     <style>
-    #scrollBtn {
-        display: none;
-        /* Initially hide the button */
-        position: fixed;
-        /* Fix the position of the button */
-        bottom: 20px;
-        /* Adjust the bottom distance */
-        right: 20px;
-        /* Adjust the right distance */
-        z-index: 999;
-        /* Set a high z-index to ensure the button is on top */
-        padding: 10px 15px;
-        background-color: #01539D;
-        ;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-    }
+        #scrollBtn {
+            display: none;
+            /* Initially hide the button */
+            position: fixed;
+            /* Fix the position of the button */
+            bottom: 20px;
+            /* Adjust the bottom distance */
+            right: 20px;
+            /* Adjust the right distance */
+            z-index: 999;
+            /* Set a high z-index to ensure the button is on top */
+            padding: 10px 15px;
+            background-color: #01539D;
+            ;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+        }
     </style>
 
 

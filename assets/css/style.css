@@ -2055,13 +2055,26 @@ section {
 }
 
 
+ 
+
 .video-frame {
   width: 100%;
-  /* Full width within the parent div */
-  height: 400px;
-  /* Set height as desired */
-
+  height: 100%; /* Adjust the height based on your needs */
+  border-radius: 8px; /* Slightly rounded corners */
+  
 }
+
+ 
+
+.img_padding {
+  padding: 15px; /* Add padding inside the container */
+  background-color:transparent; /* Light gray background */
+  border-radius: 36px; /* Consistent with the border-radius */
+}
+
+
+
+
 
 @media (min-width:992px) {
 
@@ -2070,9 +2083,7 @@ section {
     padding-right: 100px;
   }
 
-  .img_padding {
-    padding-left: 100px !important;
-  }
+   
 
   .dr_content_padding {
     padding-left: 100px !important;

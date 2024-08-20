@@ -118,16 +118,16 @@
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
                     <li><a class="nav-link scrollto" href="services.php">Services</a></li>
-                    <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
                     <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-                    <li><a href="#appointment" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
+                    <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
                             Appointment
                         </a></li>
                 </ul>
             </nav>
 
-            <a href="#appointment" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
+            <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
                 Appointment
             </a>
         </div>
@@ -142,7 +142,7 @@
             <div class="container appointment_bg" style="  background-color: #E7F3FE80;">
 
                 <div class="section-title">
-                    <h2 class=" pt-5 mb-4">Make an Appointment</h2>
+                    <h2 class=" pt-5 mb-4 contct_text">Make an Appointment</h2>
                 </div>
 
 

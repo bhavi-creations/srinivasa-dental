@@ -26,25 +26,41 @@ img.img-fluid.dr_img_padding {
   text-align: left;
   color: #252b42;
 }
+ 
+
 .poetsen_font11 {
   color: #141b2a;
-  font-family: Poppins;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 152%;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-.poetsen_font111 {
-  color: #141b2a;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 17px;
   font-style: normal;
   font-weight: 800;
   line-height: 152%;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
+  
+ 
+}
+
+
+@media (max-width:992px) {
+   
+.poetsen_font11 {
+  padding-top: 50px ;
+  
+}
+}
+
+@media (max-width:768px) {
+  img.imgg1 {
+    position: relative;
+    left: 125px !important;
+    width: 65%;
+  }
+  img.imgg8 {
+    width: 88%;
+    position: relative;
+    left: 49px !important;
+  }
 }
 img.imgg1 {
   position: relative;
@@ -158,4 +174,21 @@ button.makee {
   background: #92c138;
   border: none;
   color: white;
+}
+
+
+
+.tittle_text{
+  color: #000A2D !important;
+font-family: Manrope;
+ 
+font-style: normal;
+font-weight: 700;
+line-height: 41px; /* 113.889% */
+}
+
+
+.contct_text{
+  color: #000A2D !important;
+
 }

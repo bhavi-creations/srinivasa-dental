@@ -175,7 +175,7 @@
            <div class="d-flex">
              <div class="">
 
-               <button class="contacct_button">Contact Us</button>
+              <a href="contact.php"> <button class="contacct_button">Contact Us</button></a>
              </div>
 
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -252,7 +252,7 @@
 
 
            <div class="col-md-6" data-aos="fade-right">
-             <iframe class="video-frame img-fluid img_padding"
+             <iframe class="video-frame   img_padding"
                src="https://www.youtube.com/embed/UEm0ustQR1I?start=7&autoplay=1&mute=1&loop=1"
                frameborder="0"
                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -548,13 +548,7 @@
          </button>
        </div>
 
-
-
-
-
-
-
-
+ 
 
        <script>
          document.addEventListener('DOMContentLoaded', function() {
@@ -567,14 +561,7 @@
        </script>
      </section>
 
-
-         
-
-
-
-
-
-
+ 
      <section>
        <div class="container">
          <div class="section-title text-center">
