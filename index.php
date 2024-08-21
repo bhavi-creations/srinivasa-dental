@@ -53,7 +53,7 @@
  <body>
 
      <!-- ======= Header ======= -->
-     <header id="top-header" class="top-header d-none d-md-block">
+     <header id="top-header" class="top-header d-none d-lg-block">
          <div class="container d-flex justify-content-between align-items-center">
              <div class="contact-info">
 
@@ -82,7 +82,7 @@
                      <path
                          d="M15.5059 2.52344H1.49414C0.671965 2.52344 0 3.19245 0 4.01758V12.9824C0 13.8079 0.672396 14.4766 1.49414 14.4766H15.5059C16.328 14.4766 17 13.8076 17 12.9824V4.01758C17 3.19225 16.3277 2.52344 15.5059 2.52344ZM15.2764 3.51953C14.7934 4.0042 9.11907 9.69697 8.88595 9.93086C8.69125 10.1262 8.30885 10.1263 8.11405 9.93086L1.72357 3.51953H15.2764ZM0.996094 12.7993V4.20069L5.28146 8.5L0.996094 12.7993ZM1.72357 13.4805L5.98466 9.2055L7.40858 10.6341C7.99209 11.2195 9.00814 11.2192 9.59145 10.6341L11.0154 9.20553L15.2764 13.4805H1.72357ZM16.0039 12.7993L11.7185 8.5L16.0039 4.20069V12.7993Z"
                          fill="#1271E4" />
-                 </svg> email@example.com
+                 </svg>  srinivasadentalkakinada@gmail.com 
 
 
              </div>
@@ -107,7 +107,7 @@
          <div class="container d-flex align-items-center">
              <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                  <a href="index.php">
-                     <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
+                     <img src="assets/img/srinivasa/image 1.png" class="img-fluid  " alt="">
                  </a>
              </div>
 
@@ -495,7 +495,7 @@
 
 
          <section>
-             <div class="container">
+             <div class="container mb-5">
                  <div class="section-title text-center">
                      <p class="welcome_text">Our services</p>
                      <h2 class="apporach">Comprehensive Dental Services </h2>
@@ -558,7 +558,7 @@
              document.addEventListener('DOMContentLoaded', function() {
                  var carouselElement = document.getElementById('upCarousel');
                  var carousel = new bootstrap.Carousel(carouselElement, {
-                     interval: 3000, // Set your desired slide interval
+                     interval: 1000, // Set your desired slide interval
                      wrap: true
                  });
              });
