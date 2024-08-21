@@ -634,7 +634,7 @@
 
                                  <div class="col-md-8">
                                      <div class="card-body ">
-                                         <img src="assets/img/services/1.png" alt="" class="img-fluid testy">
+                                         <img src="assets/img/services/1.png" alt="" class="img-fluid testy   d-none d-md-block">
 
                                          <p class="card-text  text_of_the_card">This is a wider card with supporting
                                              text below as a natural lead-in to additional content. This content is a
@@ -657,7 +657,7 @@
 
                                  <div class="col-md-8">
                                      <div class="card-body ">
-                                         <img src="assets/img/services/1.png" alt="" class="img-fluid testy">
+                                         <img src="assets/img/services/1.png" alt="" class="img-fluid testy   d-none d-md-block">
                                          <p class="card-text  text_of_the_card">This is a wider card with supporting
                                              text below as a natural lead-in to additional content. This content is a
                                              little bit longer.</p>
@@ -1030,41 +1030,7 @@
      <!-- Template Main JS File -->
      <script src="assets/js/main.js"></script>
 
-     <!-- <script>
-     document.addEventListener('DOMContentLoaded', function() {
-       var swiper = new Swiper('.mySwiper', {
-         pagination: {
-           el: '.swiper-pagination',
-           clickable: true,
-         },
-         slidesPerView: 1,
-         spaceBetween: 30,
-         loop: false,
-         autoplay: false,
-       });
-
-     
-       document.querySelectorAll('.nav-link').forEach(function(navLink) {
-         navLink.addEventListener('click', function(event) {
-         
-           if (navLink.href.includes('about.php') ||
-             navLink.href.includes('services.php') ||
-             navLink.href.includes('testimonials.php') ||
-             navLink.href.includes('blogs.php')) {
-             event.preventDefault();
-             const target = navLink.getAttribute('data-bs-target');
-             document.querySelectorAll('.tab-pane').forEach(function(tabPane) {
-               tabPane.classList.remove('active', 'show');
-             });
-             document.querySelector(target).classList.add('active', 'show');
-           } else {
-              
-             window.location.href = navLink.href;
-           }
-         });
-       });
-     });
-   </script> -->
+  
 
 
 

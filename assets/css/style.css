@@ -2811,7 +2811,8 @@ section {
 .madam_section {
   margin-top: 520px;
 }
-
+@media (min-width:992px) {
+  
 .last_container {
   border-radius: 21px;
   background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%);
@@ -2821,7 +2822,31 @@ section {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-
+}
+@media  (min-width:768px) and (max-width:992px) {
+  
+  .last_container {
+    border-radius: 21px;
+    background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 273px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  }
+  @media  (max-width:768px)  {
+  
+    .last_container {
+      border-radius: 21px;
+      background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%);
+      margin-top: 50px;
+      margin-bottom: 50px;
+      height: 553px;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+    }
 @media (min-width: 1400px) {
   .mam_image {
     margin-top: -300px;
@@ -3185,7 +3210,7 @@ section {
 
 img.img-fluid.testy {
   position: absolute;
-  left: -49px;
+  left: -26px;
   top: 0;
 }
 
