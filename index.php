@@ -545,11 +545,11 @@
 
                                  </div>
                                  <div class="slide">
-                                     <img src="assets/img/services/c.png" alt="" class="img-fluid imgCar">
+                                     <img src="assets/img/services/d.png" alt="" class="img-fluid imgCar">
 
                                  </div>
                                  <div class="slide">
-                                     <img src="assets/img/services/c.png" alt="" class="img-fluid imgCar">
+                                     <img src="assets/img/services/e.png" alt="" class="img-fluid imgCar">
 
                                  </div>
                              </div>
@@ -599,7 +599,7 @@
 
 
 
-                     <div class="text-center col-12 video_start_div" data-aos="fade-right">
+                     <!-- <div class="text-center col-12 video_start_div" data-aos="fade-right">
                          <div class="video-container">
                              <iframe class="img-fluid    "
                                  src="https://www.youtube.com/embed/UEm0ustQR1I?start=7&autoplay=1&mute=1&loop=1"
@@ -607,6 +607,164 @@
                                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                  allowfullscreen>
                              </iframe>
+                         </div>
+                     </div> -->
+
+
+                     <div class="container slie_net_container d-md-none">
+                         <div class="row slie_net_row">
+                             <div class="row__inner">
+                                 <div class="tile">
+                                     <div class="tile__media">
+                                         <div class="video-container">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/0_VBrWMD-YQ?start=7&mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="container slie_net_container d-none d-md-block d-lg-none">
+                         <div class="row slie_net_row">
+                             <div class="row__inner">
+                                 <div class="tile">
+                                     <div class="tile__media">
+                                         <div class="video-container">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/0_VBrWMD-YQ?start=7&mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="tile ">
+                                     <div class="tile__media ">
+                                         <div class="video-container  ">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/rBygYmSqetQ?start=7&mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="container slie_net_container d-none d-lg-block d-xl-none">
+                         <div class="row slie_net_row">
+                             <div class="row__inner">
+                                 <div class="tile">
+                                     <div class="tile__media">
+                                         <div class="video-container">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/0_VBrWMD-YQ?start=7&mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="tile ">
+                                     <div class="tile__media ">
+                                         <div class="video-container  ">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/rBygYmSqetQ?start=7&mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="tile  ">
+                                     <div class="tile__media ">
+                                         <div class="video-container">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/CnfCavHZ3XY?mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="container slie_net_container d-none d-xl-block ">
+                         <div class="row slie_net_row">
+                             <div class="row__inner">
+                                 <div class="tile">
+                                     <div class="tile__media">
+                                         <div class="video-container">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/0_VBrWMD-YQ?start=7&mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="tile ">
+                                     <div class="tile__media ">
+                                         <div class="video-container  ">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/rBygYmSqetQ?start=7&mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="tile  ">
+                                     <div class="tile__media ">
+                                         <div class="video-container">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/CnfCavHZ3XY?mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="tile  ">
+                                     <div class="tile__media">
+                                         <div class="video-container">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/7fh5Lz3KApY?mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="tile  ">
+                                     <div class="tile__media">
+                                         <div class="video-container">
+                                             <iframe class="img-fluid"
+                                                 src="https://www.youtube.com/embed/PbZjygD7UfQ?mute=1&loop=1"
+                                                 frameborder="0"
+                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                 allowfullscreen>
+                                             </iframe>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
                          </div>
                      </div>
 
@@ -896,17 +1054,13 @@
                              <p class="foot_para">Contact</p>
                          </a>
 
-                         <div class="socaill">
-                             <p class="socpgae"><a href="https://www.facebook.com/srinivasadentalkakinada/"
-                                     target="_blank"> <img src="assets/img/srinivasa/f.png" class="img-fluid fimg"
-                                         alt=""></a></p>
-                             <p class="socpgae"><a href="https://www.instagram.com/srinivasadentalkakinada/"
-                                     target="_blank"> <img src="assets/img/srinivasa/i.png" class="img-fluid iimg"
-                                         alt=""></a></p>
-                             <p class="socpgae"> <a href=" https://www.youtube.com/@srinivasadentalkakinada"
-                                     target="_blank"> <img src="assets/img/srinivasa/y.png" class="img-fluid yimg"
-                                         alt=""></a></p>
-                         </div>
+                         <div class="d-flex">
+                            <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+                            <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+
+                            <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank"> <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""></a>
+
+                        </div>
 
 
 
