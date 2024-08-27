@@ -239,6 +239,8 @@ h6 {
 /**
 * Appointment Button
 */
+@media (min-width:992px) {
+
 .appointment-btn {
   width: Fixed (151px) px;
   height: Hug (45px) px;
@@ -254,7 +256,40 @@ h6 {
   margin-left: 10px;
   width: 15%;
 }
-
+}
+@media (max-width:992px) {
+  .appointment-btn {
+    width: Fixed (151px) px;
+    height: Hug (45px) px;
+    top: 68px;
+    left: 1103px;
+    padding: 10px 19px 10px 26px;
+    gap: 10px;
+    border-radius: 6px;
+    opacity: 0px;
+     
+  background-color: transparent !important;
+  color: white;
+    font-weight: 800;
+    margin-left: 10px;
+    width: 15%;
+  }
+}
+.appointment-btn {
+  width: Fixed (151px) px;
+  height: Hug (45px) px;
+  top: 68px;
+  left: 1103px;
+  padding: 10px 19px 10px 26px;
+  gap: 10px;
+  border-radius: 6px;
+  opacity: 0px;
+  background-color: #007be5;
+  color: white;
+  font-weight: 800;
+  margin-left: 10px;
+  width: 15%;
+}
 .appointment-btn:hover {
   background: #0598d2;
   color: #fff;

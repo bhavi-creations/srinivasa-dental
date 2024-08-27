@@ -100,7 +100,7 @@
 
                 <div class="row">
                     <div class="col-md-6 d-none d-md-block">
-                        <img src="assets/img/oncoligist/BOOK APOINTMENT.png" class="img-fluid">
+                        <img src="assets/img/srinivasa/BOOK APOINTMENT.png" class="img-fluid">
                     </div>
 
 
