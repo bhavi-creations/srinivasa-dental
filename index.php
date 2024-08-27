@@ -225,20 +225,23 @@
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/clipboard.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Affordable Price</h3>
-                         <p class="mini_para">Lorem ipsum dolor sit amet, consectetur
-                             adipiscing elit. Ut elit tellus nec.</p>
+                         <p class="mini_para">Our hospital offers high-quality medical care at affordable prices, 
+                            ensuring everyone has access to essential health services. 
+                            We prioritize cost-effective treatments without compromising on patient safety or care.</p>
                      </div>
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/tools.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Professional Dentist</h3>
-                         <p class="mini_para">Lorem ipsum dolor sit amet, consectetur
-                             adipiscing elit. Ut elit tellus nec.</p>
+                         <p class="mini_para">Our hospital features highly skilled and experienced dentists committed to providing exceptional dental care. With state-of-the-art equipment and personalized treatment plans, 
+                            we ensure your dental health is in expert hands. 
+                            </p>
                      </div>
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/chair.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Satisfactory Service</h3>
-                         <p class="mini_para">Lorem ipsum dolor sit amet, consectetur
-                             adipiscing elit. Ut elit tellus nec.</p>
+                         <p class="mini_para">Our hospital is dedicated to providing patient-centered care that exceeds expectations. 
+                            We ensure every visit is met with attentive service, compassionate staff, and a focus on your comfort and satisfaction. 
+                            </p>
                      </div>
 
 
@@ -433,7 +436,7 @@
                          <h2 class="welcome_text_oncology">
                              Hear Why We Love What We Do</h2>
                          <p class=poetsen_font>
-                             ur dental team, led by Dr. Kiran Raju, is dedicated to making our practice
+                             Your dental team, led by Dr. Kiran Raju, is dedicated to making our practice
                              patient-centered. We want each patient to feel like a member of the Srinivasa Dentistry
                              family, confidently putting their trust in our team. check our testimonials to see why we
                              are passionate about our patients’ experience. <br><br>
@@ -788,10 +791,10 @@
 
                      <div class="col-lg-6">
                          <h1 class="service_test_text">The Honest Review
-                             From Our Client</h1>
-                         <p class="service_test_text_para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                             Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                             natoque penatibus et magnis dis parturient.</p>
+                             From<br> Our Client</h1>
+                         <p class="service_test_text_para">"I had an exceptional experience at Srinivasa Dental. 
+                            The staff were incredibly attentive and made me feel comfortable throughout my treatment. 
+                            I highly recommend this hospital for its professionalism and compassionate care."</p>
                          <button class="reviews_btn mb-5"> See All Review</button>
                      </div>
 
@@ -805,12 +808,11 @@
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
 
-                                         <p class="card-text  text_of_the_card">This is a wider card with supporting
-                                             text below as a natural lead-in to additional content. This content is a
-                                             little bit longer.</p>
-                                         <h5 class="card-title name_of_the_card">Name</h5>
-                                         <p class="card-text work_of_the_card"><small
-                                                 class="text-muted">Designer</small></p>
+                                         <p class="card-text  text_of_the_card">"Excellent care and a friendly staff made my experience at Srinivasa Dental outstanding. 
+                                         Highly recommended!"</p>
+                                         <h5 class="card-title name_of_the_card">Mr Eswar</h5>
+                                         <!-- <p class="card-text work_of_the_card"><small
+                                                 class="text-muted">Designer</small></p> -->
                                      </div>
                                  </div>
                                  <div class="col-md-4 d-flex flex-row justify-content-end">
@@ -828,12 +830,10 @@
                                      <div class="card-body ">
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
-                                         <p class="card-text  text_of_the_card">This is a wider card with supporting
-                                             text below as a natural lead-in to additional content. This content is a
-                                             little bit longer.</p>
-                                         <h5 class="card-title name_of_the_card">Name</h5>
-                                         <p class="card-text work_of_the_card"><small
-                                                 class="text-muted">Designer</small></p>
+                                         <p class="card-text  text_of_the_card">"Fantastic service at Srinivasa Dental! The team was professional and made my visit comfortable and effective."</p>
+                                         <h5 class="card-title name_of_the_card">Mr Harsha</h5>
+                                         <!-- <p class="card-text work_of_the_card"><small
+                                                 class="text-muted">Designer</small></p> -->
                                      </div>
                                  </div>
                                  <div class="col-md-4 d-flex flex-row justify-content-end">
@@ -957,8 +957,8 @@
                  <div class="col-md-6 padding_text_madam order-2 order-md-1">
                      <h1 class="madam_text">Become The Next
                          Our </h1>
-                     <p class="text_mam">Lorem ipsum dolor sit amet consectetur. Nec mi aliquam diam hendrerit posuere
-                         sed neque. </p>
+                     <p class="text_mam">Scheduling an appointment at Srinivasa Dental is easy and convenient. Simply call us at +91-9290019948 or use our online booking system to choose a time that works for you. 
+                        </p>
                      <div class=" btn_div   ">
                          <a href="https://www.youtube.com/@srinivasadentalkakinada/featured" target="_blank">
                              <button class="read_more_btn">Book an Appointment </button>

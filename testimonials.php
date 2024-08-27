@@ -73,13 +73,13 @@
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
                     <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
                     <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
-                            Appointment
+                             Appointment
                         </a></li>
                 </ul>
             </nav>
 
             <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
-                Appointment
+                For Appointment
             </a>
         </div>
     </header>
@@ -106,14 +106,11 @@
                                                 <div class="col-md-8">
                                                     <div class="card-body">
                                                         <img src="assets/img/services/1.png" alt="" class="img-fluid testy1">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
+                                                        <p class="card-text text_of_the_card">"Our experience at Srinivasa Dental was outstanding. The dentists were highly skilled and made us feel at ease."
+                                                            </p>
+                                                        <h5 class="card-title">Mr Arjun</h5>
+                                                        <!-- <p class="card-text"><small class="text-muted">Lorem ipsum
+                                                            </small></p> -->
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
@@ -126,56 +123,12 @@
 
                                                 <div class="col-md-8">
                                                     <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide">
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
+                                                        <p class="card-text text_of_the_card">"Visiting Srinivasa Dental was a game-changer for my oral health. 
+                                                            The team’s expertise and care made comfortable."
+                                                        </p>
+                                                        <h5 class="card-title">Mr Anand</h5>
+                                                        <!-- <p class="card-text"><small class="text-muted">Lorem ipsum
+                                                            </small></p> -->
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
@@ -190,14 +143,11 @@
 
                                                 <div class="col-md-8">
                                                     <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
+                                                        <p class="card-text text_of_the_card">"Excellent care and a friendly staff made my experience at Srinivasa Dental outstanding. 
+                                                            Highly recommended!"</p>
+                                                        <h5 class="card-title">Mr Eswar</h5>
+                                                        <!-- <p class="card-text"><small class="text-muted">Lorem ipsum
+                                                            </small></p> -->
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
@@ -210,14 +160,45 @@
 
                                                 <div class="col-md-8">
                                                     <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
+                                                        <p class="card-text text_of_the_card">"Exceptional care at Srinivasa Dental! The team was attentive and skilled, making my visit smooth and stress-free." 
+                                                        </p>
+                                                        <h5 class="card-title">Mr Sriram</h5>
+                                                        <!-- <p class="card-text"><small class="text-muted">Lorem ipsum
+                                                            </small></p> -->
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <div class="card mb-3 testCard" style="max-width: auto;">
+                                            <div class="row g-0">
+
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-text text_of_the_card">"Great experience at Srinivasa Dental! The staff were professional and the care was excellent—I highly recommend."</p>
+                                                        <h5 class="card-title">Mr Vishnu</h5>
+                                                        <!-- <p class="card-text"><small class="text-muted">Lorem ipsum
+                                                            </small></p> -->
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mb-3 testCard" style="max-width: auto;">
+                                            <div class="row g-0">
+
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-text text_of_the_card">"Fantastic service at Srinivasa Dental! The team was professional and made my visit comfortable and effective."</p>
+                                                        <h5 class="card-title">Mr Harsha</h5>
+                                                        <!-- <p class="card-text"><small class="text-muted">Lorem ipsum
+                                                            </small></p> -->
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">

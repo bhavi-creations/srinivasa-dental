@@ -276,11 +276,12 @@ h6 {
   }
 }
 .appointment-btn {
-  width: Fixed (151px) px;
+  width: 25% !important;
   height: Hug (45px) px;
   top: 68px;
   left: 1103px;
-  padding: 10px 19px 10px 26px;
+  padding: 10px 7px 10px 18px;
+  font-size: 13px;
   gap: 10px;
   border-radius: 6px;
   opacity: 0px;
