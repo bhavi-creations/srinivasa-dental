@@ -927,7 +927,7 @@
                                      </div>
                                  </div>
                                  <div class="col-md-4 d-flex flex-row justify-content-end">
-                                     <img src="assets/img/services/s5.png" class="img-fluid rounded-start" alt="...">
+                                     <img src="assets/img/services/t1.png" class="img-fluid rounded-start" alt="...">
                                  </div>
 
 

@@ -114,7 +114,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
+                                                    <img src="assets/img/services/t3.png" class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
@@ -132,7 +132,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
+                                                    <img src="assets/img/services/t5.png" class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
@@ -168,7 +168,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
+                                                    <img src="assets/img/services/t2.png" class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
@@ -186,7 +186,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
+                                                    <img src="assets/img/services/t4.png" class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
@@ -202,7 +202,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
+                                                    <img src="assets/img/services/t1.png" class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
