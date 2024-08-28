@@ -53,7 +53,7 @@
  <body>
 
      <!-- ======= Header ======= -->
-     <header id="top-header" class="top-header d-none d-lg-block">
+     <header id="top-header" class="top-header d-none d-lg-block hearedr_spacing">
          <div class="container d-flex justify-content-between align-items-center">
              <div class="contact-info">
 
@@ -114,7 +114,7 @@
              <nav id="navbar" class="navbar order-lg-0">
                  <i class="bi bi-list mobile-nav-toggle"></i>
                  <ul>
-                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
+                     <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
                      <li><a class="nav-link scrollto" href="about.php">About</a></li>
                      <li><a class="nav-link scrollto" href="services.php">Services</a></li>
                      <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
@@ -126,7 +126,7 @@
                  </ul>
              </nav>
 
-             <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
+             <a href="appointment.php" id="only_index_btn" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
                  For Appointment
              </a>
          </div>
@@ -176,7 +176,7 @@
                          your journey to a
                          healthier, brighter smile today!</p>
 
-                     <div class="d-flex">
+                     <div class="d-flex  buttons_section_banner">
                          <div class="">
 
                              <a href="contact.php"> <button class="contacct_button">Contact Us</button></a>
@@ -225,23 +225,23 @@
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/clipboard.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Affordable Price</h3>
-                         <p class="mini_para">Our hospital offers high-quality medical care at affordable prices, 
-                            ensuring everyone has access to essential health services. 
-                            We prioritize cost-effective treatments without compromising on patient safety or care.</p>
+                         <p class="mini_para">Our hospital offers high-quality medical care at affordable prices,
+                             ensuring everyone has access to essential health services.
+                             We prioritize cost-effective treatments without compromising on patient safety or care.</p>
                      </div>
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/tools.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Professional Dentist</h3>
-                         <p class="mini_para">Our hospital features highly skilled and experienced dentists committed to providing exceptional dental care. With state-of-the-art equipment and personalized treatment plans, 
-                            we ensure your dental health is in expert hands. 
-                            </p>
+                         <p class="mini_para">Our hospital features highly skilled and experienced dentists committed to providing exceptional dental care. With state-of-the-art equipment and personalized treatment plans,
+                             we ensure your dental health is in expert hands.
+                         </p>
                      </div>
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/chair.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Satisfactory Service</h3>
-                         <p class="mini_para">Our hospital is dedicated to providing patient-centered care that exceeds expectations. 
-                            We ensure every visit is met with attentive service, compassionate staff, and a focus on your comfort and satisfaction. 
-                            </p>
+                         <p class="mini_para">Our hospital is dedicated to providing patient-centered care that exceeds expectations.
+                             We ensure every visit is met with attentive service, compassionate staff, and a focus on your comfort and satisfaction.
+                         </p>
                      </div>
 
 
@@ -258,7 +258,7 @@
                  <div class="row">
 
 
-                     <div class="col-md-6" data-aos="fade-right">
+                     <div class="col-md-6 order-2 order-md-1" data-aos="fade-right">
                          <iframe class="video-frame   img_padding"
                              src="https://www.youtube.com/embed/UEm0ustQR1I?start=7&autoplay=1&mute=1&loop=1"
                              frameborder="0"
@@ -271,7 +271,7 @@
 
 
 
-                     <div class="col-md-6    content_padding" data-aos="fade-left">
+                     <div class="col-md-6   order-1 order-md-2  content_padding" data-aos="fade-left">
 
 
 
@@ -288,11 +288,11 @@
                          </p>
 
 
-                         <div class="d-flex flex-row justify-content-start   ">
-                             <a href="#contact">
+                         <!-- <div class="d-flex flex-row justify-content-start   ">
+                             <a href="about.php">
                                  <button class="read_more_btn">Read More </button>
                              </a>
-                         </div>
+                         </div> -->
 
                      </div>
 
@@ -333,7 +333,88 @@
              </div>
          </section>
 
-         <section class="happpy_section mt-3 ">
+
+         <section class="happpy_section mt-3  d-md-none ">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-6">
+
+                         <div class=" ">
+
+                             <div>
+                                 <img src="assets/img/srinivasa/experence.png" alt="" class="approc_image">
+                             </div>
+
+                             &nbsp; &nbsp;
+
+                             <div class="">
+                                 <h1 class="text_dental">10 <span class="plus_symbol">+</span></h1>
+                                 <p class="text_para">Year Experience</p>
+                             </div>
+
+                         </div>
+
+                     </div>
+                     <div class="col-6">
+
+                         <div class="">
+
+                             <div>
+                                 <img src="assets/img/srinivasa/docters.png" alt="" class="approc_image">
+                             </div>
+
+                             &nbsp; &nbsp;
+
+                             <div class="">
+                                 <h1 class="text_dental">10 <span class="plus_symbol">+</span></h1>
+                                 <p class="text_para">Doctor & Staff</p>
+                             </div>
+
+                         </div>
+
+                     </div>
+                     <div class="col-6 ">
+
+                         <div class="  ">
+
+                             <div class="">
+                                 <img src="assets/img/srinivasa/happy.png" alt="" class="approc_image">
+                             </div>
+
+                             &nbsp; &nbsp;
+
+                             <div class="">
+                                 <h1 class="text_dental">8126 <span class="plus_symbol">+</span></h1>
+                                 <p class="text_para">Happy  Patients</p>
+                             </div>
+
+                         </div>
+
+                     </div>
+
+                     <div class="col-6">
+
+                         <div class="">
+
+                             <div>
+                                 <img src="assets/img/srinivasa/appoitment.png" alt="" class="approc_image">
+                             </div>
+
+                             &nbsp; &nbsp;
+
+                             <div class="">
+                                 <h1 class="text_dental">340 <span class="plus_symbol">+</span></h1>
+                                 <p class="text_para">Online Appointment</p>
+                             </div>
+
+                         </div>
+
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <section class="happpy_section mt-3 d-none d-md-block ">
              <div class="container">
                  <div class="row">
                      <div class="col-md-6 col-lg-3">
@@ -474,12 +555,12 @@
 
                          <div class="d-flex flex-content justify-content-between">
                              <div class="    ">
-                                 <a href="#contact">
+                                 <a href="about.php">
                                      <button class="read_more_btn">Read More </button>
                                  </a>
                              </div>
                              <div class="   ">
-                                 <a href="#contact">
+                                 <a href="appointment.php">
                                      <button class="app_more_btn">Make an Appointment </button>
                                  </a>
                              </div>
@@ -535,30 +616,39 @@
                              Bridges, and
                              Dentures.</p>
                          <div class="    ">
-                             <a href="#contact">
+                             <a href="services.php">
                                  <button class="read_more_btn mt-4">Read More </button>
                              </a>
                          </div>
                      </div>
                      <div class="col-md-6 carPart">
-                         <div class="carousel-container">
-                             <div class="carousel">
-                                 <div class="slide">
-                                     <img src="assets/img/services/c.png" alt="" class="img-fluid imgCar">
+                         <div class="row">
+                             <div class="col-10">
+                                 <div class="carousel-container">
+                                     <div class="carousel">
+                                         <div class="slide">
+                                             <img src="assets/img/services/c.png" alt="" class="img-fluid imgCar">
 
-                                 </div>
-                                 <div class="slide">
-                                     <img src="assets/img/services/d.png" alt="" class="img-fluid imgCar">
+                                         </div>
+                                         <div class="slide">
+                                             <img src="assets/img/services/d.png" alt="" class="img-fluid imgCar">
 
-                                 </div>
-                                 <div class="slide">
-                                     <img src="assets/img/services/e.png" alt="" class="img-fluid imgCar">
+                                         </div>
+                                         <div class="slide">
+                                             <img src="assets/img/services/e.png" alt="" class="img-fluid imgCar">
 
+                                         </div>
+                                     </div>
+                                     <button class="prev1" onclick="moveSlide(-1)">&#10094;</button>
+                                     <button class="next1" onclick="moveSlide(1)">&#10095;</button>
                                  </div>
                              </div>
-                             <button class="prev1" onclick="moveSlide(-1)">&#10094;</button>
-                             <button class="next1" onclick="moveSlide(1)">&#10095;</button>
+                             <div class="col-2 minicar">
+                                 <img src="assets/img/srinivasa/line_3.png" alt="" class="img-fluid  line_up_img">
+                             </div>
+
                          </div>
+
                      </div>
                  </div>
              </div>
@@ -568,13 +658,13 @@
 
 
              <script>
-             document.addEventListener('DOMContentLoaded', function() {
-                 var carouselElement = document.getElementById('upCarousel');
-                 var carousel = new bootstrap.Carousel(carouselElement, {
-                     interval: 1000, // Set your desired slide interval
-                     wrap: true
+                 document.addEventListener('DOMContentLoaded', function() {
+                     var carouselElement = document.getElementById('upCarousel');
+                     var carousel = new bootstrap.Carousel(carouselElement, {
+                         interval: 1000, // Set your desired slide interval
+                         wrap: true
+                     });
                  });
-             });
              </script>
          </section>
 
@@ -792,10 +882,10 @@
                      <div class="col-lg-6">
                          <h1 class="service_test_text">The Honest Review
                              From<br> Our Client</h1>
-                         <p class="service_test_text_para">"I had an exceptional experience at Srinivasa Dental. 
-                            The staff were incredibly attentive and made me feel comfortable throughout my treatment. 
-                            I highly recommend this hospital for its professionalism and compassionate care."</p>
-                         <button class="reviews_btn mb-5"> See All Review</button>
+                         <p class="service_test_text_para">"I had an exceptional experience at Srinivasa Dental.
+                             The staff were incredibly attentive and made me feel comfortable throughout my treatment.
+                             I highly recommend this hospital for its professionalism and compassionate care."</p>
+                         <a href="testimonials.php" style="text-decoration: none;"> <button class="reviews_btn mb-5"> See All Review</button></a>
                      </div>
 
                      <div class="col-lg-6">
@@ -808,8 +898,8 @@
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
 
-                                         <p class="card-text  text_of_the_card">"Excellent care and a friendly staff made my experience at Srinivasa Dental outstanding. 
-                                         Highly recommended!"</p>
+                                         <p class="card-text  text_of_the_card">"Excellent care and a friendly staff made my experience at Srinivasa Dental outstanding.
+                                             Highly recommended!"</p>
                                          <h5 class="card-title name_of_the_card">Mr Eswar</h5>
                                          <!-- <p class="card-text work_of_the_card"><small
                                                  class="text-muted">Designer</small></p> -->
@@ -852,30 +942,30 @@
 
 
          <script>
-         document.addEventListener('DOMContentLoaded', function() {
-             var swiper = new Swiper('.testimonials-slider', {
-                 loop: true,
-                 navigation: {
-                     nextEl: '.swiper-button-next',
-                     prevEl: '.swiper-button-prev',
-                 },
-                 pagination: {
-                     el: '.swiper-pagination',
-                     clickable: true,
-                 },
-                 autoplay: {
-                     delay: 5000,
-                 },
-                 slidesPerView: 1, // Default slides per view (for screens < 768px)
-                 breakpoints: {
-                     // when window width is >= 768px
-                     768: {
-                         slidesPerView: 3,
-                         spaceBetween: 30
+             document.addEventListener('DOMContentLoaded', function() {
+                 var swiper = new Swiper('.testimonials-slider', {
+                     loop: true,
+                     navigation: {
+                         nextEl: '.swiper-button-next',
+                         prevEl: '.swiper-button-prev',
+                     },
+                     pagination: {
+                         el: '.swiper-pagination',
+                         clickable: true,
+                     },
+                     autoplay: {
+                         delay: 5000,
+                     },
+                     slidesPerView: 1, // Default slides per view (for screens < 768px)
+                     breakpoints: {
+                         // when window width is >= 768px
+                         768: {
+                             slidesPerView: 3,
+                             spaceBetween: 30
+                         }
                      }
-                 }
+                 });
              });
-         });
          </script>
 
 
@@ -909,32 +999,32 @@
                         ?>
 
                      <?php while ($row = $result->fetch_assoc()) : ?>
-                     <div class="col px-5 py-2">
-                         <div class="card h-100">
-                             <video class="custom-video" autoplay muted controls style="width: 100%; height: auto;">
-                                 <source src="admin/public/uploads/videos/<?php echo $row['video']; ?>"
-                                     type="video/mp4">
-                                 Your browser does not support the video tag.
-                             </video>
-                             <div class="card-body">
+                         <div class="col px-5 py-2">
+                             <div class="card h-100">
+                                 <video class="custom-video" autoplay muted controls style="width: 100%; height: auto;">
+                                     <source src="admin/public/uploads/videos/<?php echo $row['video']; ?>"
+                                         type="video/mp4">
+                                     Your browser does not support the video tag.
+                                 </video>
+                                 <div class="card-body">
 
 
-                                 <h5 class="card-title"><?php echo $row['title']; ?></h5>
+                                     <h5 class="card-title"><?php echo $row['title']; ?></h5>
 
-                             </div>
+                                 </div>
 
 
-                             <div class="card-footer">
-                                 <small class="text-muted">Posted On:
-                                     <?php echo date("F j, Y, g:i a", strtotime($row['time'])); ?></small>
+                                 <div class="card-footer">
+                                     <small class="text-muted">Posted On:
+                                         <?php echo date("F j, Y, g:i a", strtotime($row['time'])); ?></small>
+                                 </div>
                              </div>
                          </div>
-                     </div>
                      <?php endwhile; ?>
 
                      <div class="mt-5 d-none d-md-block">
                          <a href="blogs.php">
-                             <p class="view_more_btn mb-5 d-flex flex-row justify-content-end">View More<i
+                             <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i
                                      class="fa-solid fa-arrow-right mt-1"></i></p>
                          </a>
                      </div>
@@ -957,10 +1047,10 @@
                  <div class="col-md-6 padding_text_madam order-2 order-md-1">
                      <h1 class="madam_text">Become The Next
                          Our </h1>
-                     <p class="text_mam">Scheduling an appointment at Srinivasa Dental is easy and convenient. Simply call us at +91-9290019948 or use our online booking system to choose a time that works for you. 
-                        </p>
+                     <p class="text_mam">Scheduling an appointment at Srinivasa Dental is easy and convenient. Simply call us at +91-9290019948 or use our online booking system to choose a time that works for you.
+                     </p>
                      <div class=" btn_div   ">
-                         <a href="https://www.youtube.com/@srinivasadentalkakinada/featured" target="_blank">
+                         <a href="appointment.php">
                              <button class="read_more_btn">Book an Appointment </button>
                          </a>
                      </div>
@@ -982,7 +1072,7 @@
              <div class="container py-5">
                  <div class="row">
                      <div class="col-12 col-md-6 col-lg-3 py-2">
-                         <a href="#"> <img src="assets/img/srinivasa/logo.png" class="img-fluid" alt=""></a>
+                         <a href="#"> <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt=""></a>
                          <p class="foot_para">Srinivasa Multispeciality Dental Hospital Jawahar street, Beside MRF
                              showroom, opp Vivekananda statue- kulaicheruvu park Kakinada-1
                          </p>
@@ -991,25 +1081,25 @@
                                  <g clip-path="url(#clip0_94_738)">
                                      <path
                                          d="M11.5289 10.0012L9.15863 8.22346V4.60227C9.15863 4.23816 8.86432 3.94385 8.50021 3.94385C8.13611 3.94385 7.8418 4.23816 7.8418 4.60227V8.55271C7.8418 8.76009 7.93925 8.95566 8.10516 9.07944L10.7388 11.0547C10.8573 11.1435 10.9956 11.1863 11.1332 11.1863C11.334 11.1863 11.5315 11.0961 11.6606 10.9223C11.8792 10.6319 11.8199 10.2191 11.5289 10.0012Z"
-                                         fill="white" />
+                                         fill=" #000A2D" />
                                      <path
                                          d="M8.5 0C3.81281 0 0 3.81281 0 8.5C0 13.1872 3.81281 17 8.5 17C13.1872 17 17 13.1872 17 8.5C17 3.81281 13.1872 0 8.5 0ZM8.5 15.6832C4.5397 15.6832 1.3168 12.4603 1.3168 8.5C1.3168 4.5397 4.5397 1.3168 8.5 1.3168C12.461 1.3168 15.6832 4.5397 15.6832 8.5C15.6832 12.4603 12.4603 15.6832 8.5 15.6832Z"
-                                         fill="white" />
+                                         fill=" #000A2D" />
                                  </g>
                                  <defs>
                                      <clipPath id="clip0_94_738">
-                                         <rect width="17" height="17" fill="white" />
+                                         <rect width="17" height="17" fill=" #000A2D" />
                                      </clipPath>
                                  </defs>
                              </svg> &nbsp; &nbsp; Clinic Time <br>
                              Mon-Sat – 9:00 AM To 8:30 PM <br> Sun – 9:00 AM To 1:00 PM</p>
-                         <p class="foot_para">
+                         <p class="foot_para d-none d-md-block">
                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
                                  fill="none">
                                  <g clip-path="url(#clip0_94_734)">
                                      <path
                                          d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
-                                         fill="white" />
+                                         fill=" #000A2D" />
                                  </g>
                                  <defs>
                                      <clipPath id="clip0_94_734">
@@ -1020,26 +1110,68 @@
 
                              +91-08842342346 
                          </p>
-                         <p class="foot_para">
+                         <p class="foot_para  d-none d-md-block">
                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
                                  fill="none">
                                  <g clip-path="url(#clip0_94_734)">
                                      <path
                                          d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
-                                         fill="white" />
+                                         fill=" #000A2D" />
                                  </g>
                                  <defs>
                                      <clipPath id="clip0_94_734">
-                                         <rect width="14" height="14" fill="white" transform="translate(0 0.164062)" />
+                                         <rect width="14" height="14" fill=" #000A2D" transform="translate(0 0.164062)" />
                                      </clipPath>
                                  </defs>
                              </svg>
 
                              +91-9290019948
                          </p>
+
+                         <div class="d-flex">
+                             <div class="d-md-none">
+                                 <p class="foot_para">
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
+                                         fill="none">
+                                         <g clip-path="url(#clip0_94_734)">
+                                             <path
+                                                 d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
+                                                 fill=" #000A2D" />
+                                         </g>
+                                         <defs>
+                                             <clipPath id="clip0_94_734">
+                                                 <rect width="14" height="14" fill="white" transform="translate(0 0.164062)" />
+                                             </clipPath>
+                                         </defs>
+                                     </svg>
+
+                                     +91-08842342346 
+                                 </p>
+                             </div> &nbsp;&nbsp; &nbsp;&nbsp;
+                             <div class="d-md-none">
+                                 <p class="foot_para">
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
+                                         fill="none">
+                                         <g clip-path="url(#clip0_94_734)">
+                                             <path
+                                                 d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
+                                                 fill=" #000A2D" />
+                                         </g>
+                                         <defs>
+                                             <clipPath id="clip0_94_734">
+                                                 <rect width="14" height="14" fill=" #000A2D" transform="translate(0 0.164062)" />
+                                             </clipPath>
+                                         </defs>
+                                     </svg>
+
+                                     +91-9290019948
+                                 </p>
+                             </div>
+
+                         </div>
                      </div>
                      <div class="col-6 col-md-6 col-lg-3 py-2">
-                         <h1 class="foot_head">Helpfull Link</h1>
+                         <h1 class="  helpful_link">Helpfull Link</h1>
                          <a href="index.php">
                              <p class="foot_para">Home</p>
                          </a><a href="about.php">
@@ -1054,13 +1186,13 @@
                              <p class="foot_para">Contact</p>
                          </a>
 
-                         <div class="d-flex">
-                            <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
-                            <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+                         <div class="d-flex ">
+                             <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+                             <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
 
-                            <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank"> <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""></a>
+                             <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank"> <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""></a>
 
-                        </div>
+                         </div>
 
 
 
@@ -1131,67 +1263,66 @@
 
      <!-- End Footer -->
 
-     <!-- WhatsApp link -->
 
 
      <!-- Scroll Up Button  -->
      <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
      <script>
-     // Function to scroll to the top of the page
-     function scrollToTop() {
-         window.scrollTo({
-             top: 0,
-             behavior: 'smooth' // Optional, smooth scrolling animation
-         });
-     }
-
-     // Show scroll button when scrolling down
-     window.onscroll = function() {
-         scrollFunction()
-     };
-
-     function scrollFunction() {
-         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-             document.getElementById("scrollBtn").style.display = "block";
-         } else {
-             document.getElementById("scrollBtn").style.display = "none";
+         // Function to scroll to the top of the page
+         function scrollToTop() {
+             window.scrollTo({
+                 top: 0,
+                 behavior: 'smooth' // Optional, smooth scrolling animation
+             });
          }
-     }
+
+         // Show scroll button when scrolling down
+         window.onscroll = function() {
+             scrollFunction()
+         };
+
+         function scrollFunction() {
+             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 document.getElementById("scrollBtn").style.display = "block";
+             } else {
+                 document.getElementById("scrollBtn").style.display = "none";
+             }
+         }
      </script>
      <script>
-     let currentSlide = 0;
+         let currentSlide = 0;
 
-     function moveSlide(step) {
-         const slides = document.querySelectorAll('.carousel .slide');
-         const totalSlides = slides.length;
-         currentSlide = (currentSlide + step + totalSlides) % totalSlides;
-         document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
-     }
+         function moveSlide(step) {
+             const slides = document.querySelectorAll('.carousel .slide');
+             const totalSlides = slides.length;
+             currentSlide = (currentSlide + step + totalSlides) % totalSlides;
+             document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
+         }
      </script>
      <style>
-     #scrollBtn {
-         display: none;
-         /* Initially hide the button */
-         position: fixed;
-         /* Fix the position of the button */
-         bottom: 20px;
-         /* Adjust the bottom distance */
-         right: 20px;
-         /* Adjust the right distance */
-         z-index: 999;
-         /* Set a high z-index to ensure the button is on top */
-         padding: 10px 15px;
-         background-color: #01539D;
-         ;
-         color: white;
-         border: none;
-         border-radius: 50%;
-         cursor: pointer;
-     }
+         #scrollBtn {
+             display: none;
+             /* Initially hide the button */
+             position: fixed;
+             /* Fix the position of the button */
+             bottom: 20px;
+             /* Adjust the bottom distance */
+             right: 20px;
+             /* Adjust the right distance */
+             z-index: 999;
+             /* Set a high z-index to ensure the button is on top */
+             padding: 10px 15px;
+             background-color: #01539D;
+             ;
+             color: white;
+             border: none;
+             border-radius: 50%;
+             cursor: pointer;
+         }
      </style>
 
-     <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link"
+     <a href="https://api.whatsapp.com/send?phone=919290019948" style="color: #fff;" class="whatsapp-link"
          target="_blank">
          <i class="fab fa-whatsapp"></i>
      </a>
