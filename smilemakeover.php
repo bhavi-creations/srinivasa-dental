@@ -87,161 +87,63 @@
 
     <main id="main">
 
+ 
 
-
-        <section>
+        <section class="sectionForm">
             <div class="container">
-                <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4  g-4">
-                    <div class="col">
-                        <a href="rootcanal.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/root_canal.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Root Canal</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="teethfilling.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/teeth_filling.png" class="card-img-top" alt="...">
+                <div class="row servSect">
+                    <div class="col-md-7 dr_content_padding  order-1 order-md-1">
+                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                                kakinada</h2>
+                            <p class="poetsen_font1">
+                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
+                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
+                                treatment in kakinada. There are many reasons to get such restorations: very weak and
+                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
+                                natural-looking and beautiful restorations. They function as a cap that is fixed over
+                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
+                                to us at Srinivasa Multispeciality
+                            </p>
 
-                                <div class="card-body">
-                                    <h5 class="card-title">Teeth Filling</h5>
-                                    <p class="card-text">This is a short card.</p>
-                                </div>
+                            <div class="d-flex flex-row justify-content-start">
+                                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
+                                    Read More <i class="fa-solid fa-arrow-right"></i></p>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="dentalbraces.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/Dental Braces.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title">Dental Braces</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="teethcleaning.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/Teeth Cleaning.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title">Teeth Cleaning</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
                     </div>
 
-                    <div class="col">
-                        <a href="teethwhitning.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/teeth_whitning.png" class="card-img-top" alt="...">
+                    <div class="col-md-5 order-3  order-md-2 mt-5">
+                        <img src="assets/img/teethservices/smile makeover.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+                    </div>
 
-                                <div class="card-body">
-                                    <h5 class="card-title">Teeth Whitening</h5>
-                                    <p class="card-text">This is a short card.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="dentalimplents.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/dental_implents.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title">Dental Implants</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="smilemakeover.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/smile_makeover.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title">Smile Makeover</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="bridgetreatment.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/tooth_crown_bridges.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Tooth Crown & Bridges</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="dentures.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/dentures.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title">Dentures</h5>
-                                    <p class="card-text">This is a short card.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="toothextraction.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/tooth_extraction.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title"> Tooth Extraction</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col ">
-                        <a href="teethscaling.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/teeth_scaling.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title">Teeth Scaling</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="fullmouthrestrotion.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/full_mouth_restoration.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Full Mouth Restoration</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="showthisdiv order-2  order-md-3" style="display:none ">
+                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
+                            Types…There are various types of crowns. They mostly differ by the materials they are made
+                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
+                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
+                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
+                            best type of dental crowns for your individual case. We will provide you with different
+                            options and tell you all the advantages and disadvantages of each type of crown, so you will
+                            be well-informed and able to make your own decision towards which type of crown you are
+                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
                     </div>
                 </div>
             </div>
         </section>
+        <script>
+            function toggleReadMore() {
+                var showThisDiv = document.querySelector('.showthisdiv');
+                var readMoreText = document.querySelector('.get_in_touch');
 
-
-
-
-
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block";
+                    readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+                } else {
+                    showThisDiv.style.display = "none";
+                    readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+                }
+            }
+        </script>
 
     </main>
     <footer id="footer">
