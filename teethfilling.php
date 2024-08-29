@@ -93,17 +93,11 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
-                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                        <h5 class="poetsen_font11">A teeth filling is a dental procedure to restore the function and integrity of a damaged tooth by filling cavities with materials like composite resin or amalgam.</h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Teeth Filling Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                            A teeth filling is a common dental procedure used to repair cavities caused by tooth decay. During the process, the dentist removes the decayed portion of the tooth, cleans the area, and then fills the cavity with a material such as composite resin, amalgam, or glass ionomer. This restoration helps to restore the tooth's normal function and shape while preventing further decay. Fillings also help to alleviate pain and sensitivity caused by the cavity. Proper dental care and regular check-ups can extend the lifespan of a filling and ensure overall oral health.
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +111,7 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1">Teeth fillings are essential for addressing damage and decay within a tooth, restoring its strength and functionality. The procedure begins with the removal of the decayed part of the tooth, followed by cleaning the cavity to ensure no bacteria remain. The empty space is then filled with a material designed to bond with the tooth structure, such as composite resin or amalgam. This helps prevent further decay and protects the tooth from additional damage. Regular dental visits are important to monitor the condition of fillings and maintain overall oral health.</p>
                     </div>
                 </div>
             </div>

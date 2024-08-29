@@ -93,17 +93,13 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
-                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                        <h5 class="poetsen_font11">
+                        Dentures are removable prosthetic devices designed to replace missing teeth and restore function and appearance to the mouth.</h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dentures Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                            Dentures are custom-made, removable prosthetic devices used to replace missing teeth and restore the ability to chew and speak effectively. They come in two main types: complete dentures, which replace all the teeth in either the upper or lower jaw, and partial dentures, which fill gaps left by missing teeth while preserving the remaining natural teeth. Made from materials such as acrylic resin, porcelain, or metal, dentures are designed to mimic the appearance of natural teeth and gums. The fitting process involves creating impressions of the mouth and may require several adjustments to ensure a comfortable and secure fit. Regular maintenance and proper care are essential to keep dentures in good condition and to ensure optimal oral health.
+
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +113,7 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1"> Dentures offer a practical solution for individuals who have lost teeth due to various reasons, such as decay, injury, or age-related wear. They help restore facial structure and improve the overall aesthetic of a person’s smile, boosting self-confidence. Modern dentures are designed with advanced techniques to enhance comfort and functionality, often featuring a more natural-looking appearance and improved fit. Regular dental visits are important to check the condition of dentures and make necessary adjustments as changes in the mouth can affect their fit over time. Additionally, proper cleaning and handling are crucial to avoid issues like bad breath, staining, and infections.</p>
                     </div>
                 </div>
             </div>

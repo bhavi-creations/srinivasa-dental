@@ -93,17 +93,13 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
-                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                        <h5 class="poetsen_font11">Teeth whitening is a cosmetic procedure that lightens the color of teeth to enhance their brightness and improve your smile's appearance.
+                        </h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Teeth whitening Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                            Teeth whitening is a popular cosmetic dental procedure designed to remove stains and discoloration, giving your smile a brighter, more youthful appearance. It can be done professionally in a dentist's office or at home using over-the-counter products like whitening strips or trays. The treatment works by breaking down stains on the enamel, often using bleaching agents like hydrogen peroxide. While effective, it's important to note that results can vary depending on the cause of discoloration and the method used. Regular maintenance and avoiding stain-causing foods and beverages are key to keeping your teeth white after the procedure.
+
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +113,7 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1">In addition to its cosmetic benefits, teeth whitening can boost self-confidence by enhancing the overall appearance of your smile. Professional whitening treatments typically offer more dramatic and longer-lasting results compared to over-the-counter options, with some procedures able to lighten teeth by several shades in just one session. However, it’s important to consult with a dentist before whitening to ensure the treatment is appropriate, especially if you have sensitive teeth or dental restorations. While teeth whitening is generally safe, overuse or improper application can lead to tooth sensitivity or gum irritation. To prolong the effects, maintaining good oral hygiene and avoiding habits like smoking or drinking coffee can help preserve your brightened smile.</p>
                     </div>
                 </div>
             </div>

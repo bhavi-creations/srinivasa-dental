@@ -98,7 +98,7 @@
                                 <img src="assets/img/services/root_canal.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Root Canal</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">A root canal is a dental procedure that removes infected tissue from inside a tooth to relieve pain and save the tooth</p>
                                 </div>
                             </div>
                         </a>
@@ -110,7 +110,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-title">Teeth Filling</h5>
-                                    <p class="card-text">This is a short card.</p>
+                                    <p class="card-text">A teeth filling is a dental procedure to restore the function and integrity of a damaged tooth by filling cavities with materials like composite resin or amalgam.</p>
                                 </div>
                             </div>
                         </a>
@@ -122,7 +122,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-title">Dental Braces</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                    <p class="card-text">Dental braces are orthodontic devices used to align and straighten teeth, improving dental health and appearance.</p>
                                 </div>
                             </div>
                         </a>
@@ -134,7 +134,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-title">Teeth Cleaning</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Dental cleaning is a professional procedure to remove plaque, tartar, and stains from teeth, promoting oral health and preventing gum disease.</p>
                                 </div>
                             </div>
                         </a>
@@ -147,7 +147,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-title">Teeth Whitening</h5>
-                                    <p class="card-text">This is a short card.</p>
+                                    <p class="card-text"> Teeth whitening is a cosmetic procedure that lightens the color of teeth to enhance their brightness and improve your smile's appearance.</p>
                                 </div>
                             </div>
                         </a>
@@ -159,7 +159,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-title">Dental Implants</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                    <p class="card-text">Dental implants are artificial tooth roots placed in the jawbone to support and anchor replacement teeth or bridges.</p>
                                 </div>
                             </div>
                         </a>
@@ -171,7 +171,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-title">Smile Makeover</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">A smile makeover is a comprehensive cosmetic dental treatment designed to enhance the overall appearance of your smile through a combination of procedures.</p>
                                 </div>
                             </div>
                         </a>
@@ -182,7 +182,7 @@
                                 <img src="assets/img/services/tooth_crown_bridges.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Tooth Crown & Bridges</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Tooth crowns and bridges are restorative dental solutions used to restore damaged teeth and replace missing ones, improving both function and appearance.</p>
                                 </div>
                             </div>
                         </a>
@@ -194,7 +194,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-title">Dentures</h5>
-                                    <p class="card-text">This is a short card.</p>
+                                    <p class="card-text">Dentures are removable prosthetic devices designed to replace missing teeth and restore function and appearance to the mouth.</p>
                                 </div>
                             </div>
                         </a>
@@ -206,7 +206,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-title"> Tooth Extraction</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                    <p class="card-text">Tooth extraction is the removal of a tooth from its socket in the jawbone, often due to decay, damage, or crowding.</p>
                                 </div>
                             </div>
                         </a>
@@ -218,7 +218,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-title">Teeth Scaling</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Teeth scaling is a dental procedure that removes plaque and tartar buildup from the tooth surfaces and below the gumline to maintain oral health.</p>
                                 </div>
                             </div>
                         </a>
@@ -229,7 +229,7 @@
                                 <img src="assets/img/services/full_mouth_restoration.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Full Mouth Restoration</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Full mouth restoration is a comprehensive dental treatment that repairs and rebuilds the entire mouth to restore function, health, and aesthetics.</p>
                                 </div>
                             </div>
                         </a>

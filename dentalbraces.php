@@ -93,17 +93,12 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
-                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                        <h5 class="poetsen_font11">Dental braces are orthodontic devices used to align and straighten teeth, improving dental health and appearance.</h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Braces Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                            Dental braces are orthodontic devices designed to correct misaligned teeth and bite issues, providing both aesthetic and functional benefits. They work by applying continuous pressure over time, gradually moving teeth into the desired position. Braces are commonly made of metal, ceramic, or plastic, and may include brackets, wires, and bands. While the treatment duration varies depending on the complexity of the case, most people wear braces for one to three years. Proper care and regular adjustments by an orthodontist are essential for achieving optimal results.
+
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +112,7 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1"> In addition to traditional metal braces, newer options like clear aligners offer a more discreet way to straighten teeth, making orthodontic treatment more appealing to adults and teens. Dental braces not only improve the alignment of teeth but also enhance oral health by making it easier to clean teeth and prevent issues like cavities and gum disease. The process can sometimes cause discomfort, especially after adjustments, but this is typically temporary and manageable. Wearing a retainer after braces are removed is crucial to maintain the results and prevent teeth from shifting back. Overall, dental braces provide a long-term solution for achieving a healthier, more confident smile.</p>
                     </div>
                 </div>
             </div>

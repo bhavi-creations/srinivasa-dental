@@ -1,7 +1,6 @@
 img.img-fluid.dr_img_padding {
-  width: 90%;
-  padding: 20px 0px 0px 0px;
-}
+  width: 80% !important;
+ }
 .servImgg {
   width: 40% !important;
 }
@@ -12,10 +11,11 @@ img.img-fluid.dr_img_padding {
 .poetsen_font1 {
   color: #141b2a;
   font-family: Poppins;
-  font-size: 17px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 34px; /* 27.36px */
+  line-height: 28px;
+
 }
 .dr_welcome_text1 {
   font-family: Poppins;
@@ -25,6 +25,7 @@ img.img-fluid.dr_img_padding {
   letter-spacing: 0.20000000298023224px;
   text-align: left;
   color: #252b42;
+  line-height: 47px;
 }
  
 
@@ -35,7 +36,7 @@ img.img-fluid.dr_img_padding {
   font-style: normal;
   font-weight: 800;
   line-height: 152%;
-  text-transform: uppercase;
+  text-transform:capitalize;
   font-weight: 700;
   
  
@@ -156,9 +157,9 @@ button.prev:hover,
 button.next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-/* img.img-fluid.rounded-start.crdImg {
+img.img-fluid.rounded-start.crdImg {
   padding: 6px 0px 0px 38px;
-} */
+}
 section.sectionForm {
   padding-top: 0px;
 }
@@ -191,4 +192,91 @@ line-height: 41px; /* 113.889% */
 .contct_text{
   color: #000A2D !important;
 
+}h4.abh4 {
+  text-align: center;
+  font-size: 40px;
+  color: #6a2d5f;
+  font-weight: 800;
+}p.abP {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
 }
+span.spanabout {
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+}.row.imgGap {
+  width: 100%;
+  display: flex;
+  justify-content: center ! IMPORTANT;
+  align-items: center ! IMPORTANT;
+}img.iimage {
+  width: 220%;
+  position: relative;
+  top: 160px;
+  z-index: -1;
+  left: 75px;
+}img.iimage1 {
+  position: relative;
+  top: -150px;
+  left: 500px;
+}img.iimage2 {
+  width: 10%;
+}
+img.iimage3 {
+  width: 10%;
+}img.iimage2 {
+  width: 10%;
+  position: relative;
+  top: -7px;
+  left: 294px;
+}
+img.iimage3 {
+  width: 10%;
+  position: relative;
+  top: -5px;
+    left: 570px;
+}.row.servSecttt {
+  margin-top: -165px;
+}img.iimage4 {
+  position: relative;
+  left: 497px;
+  top: 77px;
+}img.iimage5 {
+  width: 282%;
+    position: relative;
+    left: 635px;
+    z-index: -1;
+    top: -313px;
+}.row.servSecttttt.mt-4 {
+  margin-bottom: -271px;
+}
+.abotu.mt-5 {
+  margin-bottom: -65px;
+}h2.patients {
+  font-size: 34px;
+  color: black;
+  text-align: center;
+  font-family: 'Mulish';
+    font-weight: 800;
+}p.ppaaatt {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: #0d0d40;
+}img.userImage {
+  width: 12%;
+  margin-right: 17px;}.tes {
+  display: flex;
+  align-items: self-end;
+}p.testPara {
+  font-size: 15px;
+   margin-top: 10px;
+   line-height: 23px;
+}.col-md-4.car1 {
+  margin-top: -223px;
+}
+ .servImgg11{
+  width: 10% !important;
+ }

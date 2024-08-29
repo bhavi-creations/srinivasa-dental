@@ -93,17 +93,13 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
-                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                        <h5 class="poetsen_font11">
+                        Dental implants are artificial tooth roots placed in the jawbone to support and anchor replacement teeth or bridges.</h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Implants Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                            Dental implants are a highly effective solution for replacing missing teeth, providing a stable and natural-looking alternative to traditional dentures or bridges. The procedure involves surgically placing a titanium post into the jawbone, which acts as a replacement root for the new tooth. Over time, the implant integrates with the bone through a process called osseointegration, ensuring a strong foundation for the artificial tooth. Implants offer advantages such as improved chewing ability, comfort, and preservation of jawbone structure. With proper care and regular dental visits, dental implants can last for many years, making them a durable and reliable option for restoring a complete smile.
+
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +113,7 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1"> Dental implants not only enhance the function and appearance of your smile but also contribute to overall oral health by preventing bone loss that often occurs with missing teeth. They offer a permanent solution, unlike removable dentures, and can support single crowns, bridges, or even full dentures, making them versatile for various needs. The implant process typically involves multiple stages, including the initial placement of the implant, a healing period, and the attachment of the final restoration. Although the procedure is considered safe, it requires a thorough evaluation to ensure the patient has adequate bone density and overall health. Post-implant care involves regular dental check-ups and good oral hygiene to ensure the longevity and success of the implants.</p>
                     </div>
                 </div>
             </div>

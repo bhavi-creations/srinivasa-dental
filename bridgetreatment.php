@@ -93,17 +93,13 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
+                        <h5 class="poetsen_font11">Tooth crowns and bridges are restorative dental solutions used to restore damaged teeth and replace missing ones, improving both function and appearance.
+                        </h2>
                             <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                            Tooth crowns and bridges are effective restorative dental treatments designed to enhance the function and appearance of damaged or missing teeth. A crown is a cap placed over a damaged tooth to restore its shape, size, and strength, while a bridge consists of one or more artificial teeth anchored by crowns on adjacent teeth to fill gaps left by missing teeth. Crowns and bridges are custom-made to match the color and shape of natural teeth, providing a seamless and aesthetically pleasing result. The procedure involves shaping the existing tooth or teeth, taking impressions, and placing temporary restorations until the permanent ones are ready. With proper care, crowns and bridges can last for many years, offering a durable solution to common dental issues.
+
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +113,7 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1"> Crowns and bridges are often crafted from durable materials such as porcelain, ceramic, or metal, ensuring both strength and a natural appearance. The process typically begins with a thorough examination and preparation of the affected teeth, followed by the creation of detailed impressions to ensure a precise fit. Modern advancements in dental technology, such as digital scanning, have streamlined the fitting process, leading to more accurate and comfortable restorations. While crowns and bridges can significantly improve oral function and aesthetics, maintaining good oral hygiene and regular dental check-ups are crucial for their longevity and overall oral health. This approach helps prevent issues such as decay around the crown or bridge and ensures that the surrounding teeth remain healthy.</p>
                     </div>
                 </div>
             </div>

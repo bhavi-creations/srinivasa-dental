@@ -93,17 +93,13 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
-                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                        <h5 class="poetsen_font11">Dental cleaning is a professional procedure to remove plaque, tartar, and stains from teeth, promoting oral health and preventing gum disease.
+                        </h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Cleaning Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                               
+Dental cleaning is a crucial preventive measure that helps maintain oral health by removing plaque and tartar buildup that regular brushing and flossing can't eliminate. During the procedure, a dental hygienist or dentist uses specialized tools to clean the teeth, including the areas between the teeth and along the gumline. This process not only prevents cavities and gum disease but also helps detect early signs of oral health issues. Dental cleanings are typically recommended every six months to keep your mouth healthy and your smile bright. Regular cleanings also contribute to fresher breath and a more polished appearance of your teeth.
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +113,7 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1"> In addition to maintaining oral health, regular dental cleanings can also have broader health benefits, as gum disease has been linked to other systemic conditions like heart disease and diabetes. The procedure can include fluoride treatments or sealants to further protect teeth, especially for children or individuals prone to cavities. Dental cleanings are usually painless, but for those with sensitive teeth or gums, a topical anesthetic can be applied to ensure comfort. The removal of surface stains during cleaning also helps enhance the natural whiteness of teeth, contributing to a more confident smile. Overall, consistent dental cleanings are a key component of a comprehensive oral care routine.</p>
                     </div>
                 </div>
             </div>

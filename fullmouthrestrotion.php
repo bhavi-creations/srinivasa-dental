@@ -93,17 +93,13 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
-                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                        <h5 class="poetsen_font11">Full mouth restoration is a comprehensive dental treatment that repairs and rebuilds the entire mouth to restore function, health, and aesthetics.
+                        </h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Full Mouth Restoration Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                            Full mouth restoration is an extensive dental treatment plan designed to address multiple dental issues, restoring the health, function, and appearance of a patient’s entire mouth. This process often involves a combination of procedures, such as crowns, bridges, implants, veneers, and orthodontics, tailored to each patient’s unique needs. The goal is to rebuild damaged teeth, correct bite issues, and improve overall oral health, often transforming both the smile and quality of life. Full mouth restoration requires careful planning, including detailed evaluations and imaging to ensure precise and effective results. The treatment is typically carried out over multiple appointments, with each stage contributing to a complete and lasting dental transformation.
+
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +113,7 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1">Full mouth restoration not only addresses the functional aspects of the teeth and jaw but also significantly enhances the aesthetic appearance of the smile. It’s particularly beneficial for individuals with severe dental issues such as worn-down teeth, extensive decay, or trauma, offering a chance to completely rejuvenate their oral health. Advanced dental technologies, including digital imaging and 3D modeling, play a crucial role in planning and executing these complex procedures with precision. Throughout the process, a multidisciplinary approach may be required, involving specialists like prosthodontists, orthodontists, and periodontists, to achieve the best possible outcome. With proper care and maintenance, the results of a full mouth restoration can be long-lasting, providing patients with a renewed sense of confidence and a fully functional set of teeth.</p>
                     </div>
                 </div>
             </div>

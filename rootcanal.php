@@ -93,17 +93,12 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
-                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                        <h5 class="poetsen_font11">
+                        A root canal is a dental procedure that removes infected tissue from inside a tooth to relieve pain and save the tooth</h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Root Canal Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                            A root canal is a dental treatment designed to address infection or damage within the pulp of a tooth. During the procedure, the dentist removes the infected or damaged tissue, cleans and disinfects the inner chambers, and then fills and seals the space. This treatment helps alleviate severe tooth pain and can prevent the need for tooth extraction. Root canals are often performed when cavities or trauma cause significant harm to the tooth's interior. After the procedure, the tooth is typically restored with a crown to ensure its strength and functionality.
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +112,7 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1">A root canal procedure is crucial for saving a tooth that is severely damaged or infected. The process involves accessing the tooth's root canals, removing the affected pulp tissue, and thoroughly cleaning the area to eliminate bacteria. Once cleaned, the canals are filled with a special material to seal them and prevent future infections. Afterward, a crown or filling is placed on the tooth to restore its structure and function. This treatment can relieve significant pain and preserve the tooth, allowing patients to maintain a natural smile.</p>
                     </div>
                 </div>
             </div>

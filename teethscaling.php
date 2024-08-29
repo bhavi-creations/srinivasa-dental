@@ -93,17 +93,12 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
-                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                        <h5 class="poetsen_font11">Teeth scaling is a dental procedure that removes plaque and tartar buildup from the tooth surfaces and below the gumline to maintain oral health.</h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Teeth Scaling Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                            Teeth scaling is a preventive dental procedure focused on removing plaque, tartar, and bacteria from the surfaces of the teeth and beneath the gumline. This process is essential for preventing gum disease, as tartar buildup can lead to inflammation and infection in the gums. During the procedure, a dental professional uses specialized tools, such as ultrasonic scalers or manual instruments, to thoroughly clean the teeth. Scaling is often followed by root planing, which smooths the tooth roots to help gums reattach and heal properly. Regular scaling, typically recommended every six months, plays a crucial role in maintaining both oral health and a bright, clean smile.
+
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +112,7 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1"> Teeth scaling not only helps prevent gum disease but also improves overall oral hygiene by reducing bad breath caused by plaque and tartar buildup. The procedure is particularly important for individuals with periodontal disease, as it helps manage the condition and prevent it from progressing. For those with sensitive teeth or gums, a local anesthetic may be used to minimize discomfort during scaling. Regular scaling also contributes to the prevention of more serious dental issues, such as tooth decay and bone loss, by keeping harmful bacteria at bay. Consistent dental check-ups and scaling can significantly enhance the long-term health of your teeth and gums, leading to a healthier, more confident smile.</p>
                     </div>
                 </div>
             </div>

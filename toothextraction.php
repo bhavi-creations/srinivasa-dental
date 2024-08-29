@@ -93,17 +93,13 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Find Most Advance Dental Crown and bridge treatment in kakinada</h2>
-                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
+                        <h5 class="poetsen_font11">Tooth extraction is the removal of a tooth from its socket in the jawbone, often due to decay, damage, or crowding.
+                        </h2>
+                            <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Tooth Extraction  Treatment in
                                 kakinada</h2>
                             <p class="poetsen_font1">
-                                When a tooth becomes extensively decayed or seriously damaged, enough so that it cannot
-                                be restored by a filling, your dentist might recommend you get Dental Crown and bridge
-                                treatment in kakinada. There are many reasons to get such restorations: very weak and
-                                damaged teeth, cosmetic desires, to prevent bone and tissue loss, etc. They are very
-                                natural-looking and beautiful restorations. They function as a cap that is fixed over
-                                the damaged tooth in order to prevent more damage or even tooth loss. Patients reach out
-                                to us at Srinivasa Multispeciality
+                            Tooth extraction is a common dental procedure performed when a tooth is too damaged or decayed to be saved, or when it causes crowding or alignment issues. The process involves numbing the area with local anesthesia and carefully removing the tooth to minimize discomfort and trauma to the surrounding tissues. Extractions can be simple or surgical, depending on the tooth’s condition and position. After the procedure, proper care is essential to promote healing and prevent complications like infection or dry socket. While extractions may be necessary for dental health, they are often followed by restorative options like implants or bridges to maintain function and appearance.
+
                             </p>
 
                             <div class="d-flex flex-row justify-content-start">
@@ -117,15 +113,8 @@
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> Dental Hospital for the best dental care possible.
-                            Types…There are various types of crowns. They mostly differ by the materials they are made
-                            from. Materials include resin, porcelain, ceramic, and stainless steel types of crowns.
-                            Moreover, there are cosmetic crowns, which are usually made of both ceramic and porcelain.
-                            Our specialists at Srinivasa Multispeciality Dental Hospital will help you to choose the
-                            best type of dental crowns for your individual case. We will provide you with different
-                            options and tell you all the advantages and disadvantages of each type of crown, so you will
-                            be well-informed and able to make your own decision towards which type of crown you are
-                            leaning to! Visit Us For Dental Crown and bridge treatment in kakinada</p>
+                        <p class="poetsen_font1"> 
+                        In addition to addressing dental decay or damage, tooth extraction is sometimes necessary for orthodontic reasons, such as creating space for teeth to align properly during braces treatment. Wisdom teeth, which often become impacted or cause overcrowding, are also commonly extracted to prevent future complications. The recovery process after extraction typically involves resting, avoiding certain foods, and following specific care instructions to ensure proper healing. Over-the-counter pain relievers and cold compresses can help manage discomfort in the days following the procedure. After healing, your dentist may discuss options for replacing the extracted tooth to restore both function and aesthetics.</p>
                     </div>
                 </div>
             </div>
