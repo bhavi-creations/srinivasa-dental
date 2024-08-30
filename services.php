@@ -96,33 +96,52 @@
                         <a href="rootcanal.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/root_canal.png" class="card-img-top" alt="...">
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title">Root Canal</h5>
                                     <p class="card-text">A root canal is a dental procedure that removes infected tissue from inside a tooth to relieve pain and save the tooth</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
+
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col">
                         <a href="dentalbraces.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/Dental Braces.png" class="card-img-top" alt="...">
+                            <div class="card shadow h-100" style="border: none;">
+                                <img src="assets/img/services/Dental Braces.png" class="card-img-top" alt="Dental Braces">
 
-                                <div class="card-body">
-                                    <h5 class="card-title">Dental Braces</h5>
-                                    <p class="card-text">Dental braces are orthodontic devices used to align and straighten teeth, improving dental health and appearance.</p>
+                                <div class="card-body d-flex flex-column">
+                                    <div>
+                                        <h5 class="card-title">Dental Braces</h5>
+                                        <p class="card-text">Dental braces are orthodontic devices used to align and straighten teeth, improving dental health and appearance.</p>
+                                    
+                                        </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </a>
                     </div>
+
                     <div class="col">
                         <a href="dentalimplents.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/dental_implents.png" class="card-img-top" alt="...">
 
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title">Dental Implants</h5>
                                     <p class="card-text">Dental implants are artificial tooth roots placed in the jawbone to support and anchor replacement teeth or bridges.</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -131,9 +150,14 @@
                         <a href="bridgetreatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/tooth_crown_bridges.png" class="card-img-top" alt="...">
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title">Tooth Crown & Bridges</h5>
                                     <p class="card-text">Tooth crowns and bridges are restorative dental solutions used to restore damaged teeth and replace missing ones, improving both function and appearance.</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -144,9 +168,14 @@
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/teeth_filling.png" class="card-img-top" alt="...">
 
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title">Teeth Filling</h5>
                                     <p class="card-text">A teeth filling is a dental procedure to restore the function and integrity of a damaged tooth by filling cavities with materials like composite resin or amalgam.</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -156,9 +185,14 @@
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/dentures.png" class="card-img-top" alt="...">
 
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title">Dentures</h5>
                                     <p class="card-text">Dentures are removable prosthetic devices designed to replace missing teeth and restore function and appearance to the mouth.</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -168,9 +202,14 @@
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/teeth_scaling.png" class="card-img-top" alt="...">
 
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title">Teeth Scaling</h5>
                                     <p class="card-text">Teeth scaling is a dental procedure that removes plaque and tartar buildup from the tooth surfaces and below the gumline to maintain oral health.</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -180,22 +219,32 @@
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/tooth_extraction.png" class="card-img-top" alt="...">
 
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title"> Tooth Extraction</h5>
                                     <p class="card-text">Tooth extraction is the removal of a tooth from its socket in the jawbone, often due to decay, damage, or crowding.</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                   
+
                     <div class="col">
                         <a href="teethcleaning.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/Teeth Cleaning.png" class="card-img-top" alt="...">
 
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title">Teeth Cleaning</h5>
                                     <p class="card-text">Dental cleaning is a professional procedure to remove plaque, tartar, and stains from teeth, promoting oral health and preventing gum disease.</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -206,33 +255,48 @@
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/teeth_whitning.png" class="card-img-top" alt="...">
 
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title">Teeth Whitening</h5>
                                     <p class="card-text"> Teeth whitening is a cosmetic procedure that lightens the color of teeth to enhance their brightness and improve your smile's appearance.</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    
+
                     <div class="col">
                         <a href="smilemakeover.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/smile_makeover.png" class="card-img-top" alt="...">
 
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title">Smile Makeover</h5>
                                     <p class="card-text">A smile makeover is a comprehensive cosmetic dental treatment designed to enhance the overall appearance of your smile through a combination of procedures.</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
                                 </div>
                             </div>
                         </a>
-                    </div>        
+                    </div>
                     <div class="col">
                         <a href="fullmouthrestrotion.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/full_mouth_restoration.png" class="card-img-top" alt="...">
-                                <div class="card-body">
+                                <div class="card-body d-flex flex-column">
+                                    <div>
                                     <h5 class="card-title">Full Mouth Restoration</h5>
                                     <p class="card-text">Full mouth restoration is a comprehensive dental treatment that repairs and rebuilds the entire mouth to restore function, health, and aesthetics.</p>
+                                    </div>
+                                    <div class="mt-auto d-flex justify-content-end">
+                                        <button class="service_card_read_more_btn"> Read More...</button>
+                                    </div>
                                 </div>
                             </div>
                         </a>
@@ -412,29 +476,39 @@
             </div>
         </div>
 
-        <div class="footer-area-bottom theme-bg" style="background-color:  #000A2D;">
+        <div class="footer-area-bottom theme-bg" style="background-color: #000a2d">
             <div class="container">
                 <div class="row pt-4">
-                    <div class="col-xl-8 col-lg-9 col-md-12 col-12">
-                        <div class="footer-widget__copyright">
-                            <p class="mini_text last_text" style="color: #ffffff">
-                                ©2024 SRINIVASA DENTAL . All Rights Reserved. Designed &
-                                Developed by
-                                <a href="https://bhavicreations.com/" target="_blank"
-                                    style="text-decoration: none; color: #ffffff">Bhavi Creations</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-3 col-md-12 col-12">
+
+                    <div class="  col-md-6 col-12">
                         <div class="footer-widget__copyright-info info-direction">
-                            <p class="mini_text last_text">
-                                <a href="terms.html" style="text-decoration: none; color: #ffffff">Terms & conditions
+                            <p class="  last_text">
+                                <a
+                                    href="terms.html"
+                                    style="text-decoration: none; color: #ffffff">Terms & conditions
                                 </a>
-                                <a href="privacy.html" style="text-decoration: none; color: #ffffff">
+                                <a
+                                    href="privacy.html"
+                                    style="text-decoration: none; color: #ffffff">
                                     Privacy & policy</a>
                             </p>
                         </div>
                     </div>
+
+                    <div class="col-md-6 col-12 second_divv_end_brand">
+                        <div class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center">
+                            <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff; display: flex; align-items: center;">
+                                <p class="mini_text last_text mb-0">
+                                    Branding By @
+                                </p>
+                                <img src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png" class="img-fluid brand_image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
             </div>
         </div>
