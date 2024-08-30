@@ -3809,3 +3809,36 @@ img.img-fluid.yimg {
   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
     rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
+ 
+
+.services_drop_menu {
+  background-color: #ccdcec64 !important; /* Adjust the color as needed */
+   
+}
+
+.services_drop {
+    line-height: 2; /* Adjust the line height as needed */
+   width:100%!important;
+   color: #000a2d !important;
+}
+
+
+/* General styling for active service item */
+.dropdown-item.active_service {
+  background-color: #007bff; /* Change this to your preferred background color */
+  color: #fff !important; /* Change text color to white or any other contrasting color */
+  font-weight: bold;
+}
+
+/* Styling for hover effect on active service item */
+.dropdown-item.active_service:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+  color: #fff !important; /* Ensure text color stays white on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+/* Optional: Add a border or shadow for more emphasis */
+.dropdown-item.active_service {
+  border-left: 4px solid #0056b3; /* Add a left border */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
