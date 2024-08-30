@@ -685,7 +685,7 @@
                                  </div>
                              </div>
                              <div class="col-2 minicar">
-                                 <img src="assets/img/srinivasa/line_3.png" alt="" class="img-fluid  line_up_img">
+                                 <img src="assets/img/srinivasa/clip_art.png" alt="" class="img-fluid  line_up_img">
                              </div>
 
                          </div>
