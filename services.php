@@ -104,6 +104,42 @@
                         </a>
                     </div>
                     <div class="col">
+                        <a href="dentalbraces.php" style="text-decoration: none;">
+                            <div class="card shadow  h-100" style="border: none;">
+                                <img src="assets/img/services/Dental Braces.png" class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Dental Braces</h5>
+                                    <p class="card-text">Dental braces are orthodontic devices used to align and straighten teeth, improving dental health and appearance.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="dentalimplents.php" style="text-decoration: none;">
+                            <div class="card shadow  h-100" style="border: none;">
+                                <img src="assets/img/services/dental_implents.png" class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Dental Implants</h5>
+                                    <p class="card-text">Dental implants are artificial tooth roots placed in the jawbone to support and anchor replacement teeth or bridges.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="bridgetreatment.php" style="text-decoration: none;">
+                            <div class="card shadow  h-100" style="border: none;">
+                                <img src="assets/img/services/tooth_crown_bridges.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tooth Crown & Bridges</h5>
+                                    <p class="card-text">Tooth crowns and bridges are restorative dental solutions used to restore damaged teeth and replace missing ones, improving both function and appearance.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
                         <a href="teethfilling.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/teeth_filling.png" class="card-img-top" alt="...">
@@ -116,17 +152,42 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="dentalbraces.php" style="text-decoration: none;">
+                        <a href="dentures.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/Dental Braces.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/dentures.png" class="card-img-top" alt="...">
 
                                 <div class="card-body">
-                                    <h5 class="card-title">Dental Braces</h5>
-                                    <p class="card-text">Dental braces are orthodontic devices used to align and straighten teeth, improving dental health and appearance.</p>
+                                    <h5 class="card-title">Dentures</h5>
+                                    <p class="card-text">Dentures are removable prosthetic devices designed to replace missing teeth and restore function and appearance to the mouth.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
+                    <div class="col ">
+                        <a href="teethscaling.php" style="text-decoration: none;">
+                            <div class="card shadow  h-100" style="border: none;">
+                                <img src="assets/img/services/teeth_scaling.png" class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Teeth Scaling</h5>
+                                    <p class="card-text">Teeth scaling is a dental procedure that removes plaque and tartar buildup from the tooth surfaces and below the gumline to maintain oral health.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="toothextraction.php" style="text-decoration: none;">
+                            <div class="card shadow  h-100" style="border: none;">
+                                <img src="assets/img/services/tooth_extraction.png" class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title"> Tooth Extraction</h5>
+                                    <p class="card-text">Tooth extraction is the removal of a tooth from its socket in the jawbone, often due to decay, damage, or crowding.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                   
                     <div class="col">
                         <a href="teethcleaning.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
@@ -152,18 +213,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col">
-                        <a href="dentalimplents.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/dental_implents.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title">Dental Implants</h5>
-                                    <p class="card-text">Dental implants are artificial tooth roots placed in the jawbone to support and anchor replacement teeth or bridges.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                    
                     <div class="col">
                         <a href="smilemakeover.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
@@ -175,54 +225,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
-                    <div class="col">
-                        <a href="bridgetreatment.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/tooth_crown_bridges.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Tooth Crown & Bridges</h5>
-                                    <p class="card-text">Tooth crowns and bridges are restorative dental solutions used to restore damaged teeth and replace missing ones, improving both function and appearance.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="dentures.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/dentures.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title">Dentures</h5>
-                                    <p class="card-text">Dentures are removable prosthetic devices designed to replace missing teeth and restore function and appearance to the mouth.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="toothextraction.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/tooth_extraction.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title"> Tooth Extraction</h5>
-                                    <p class="card-text">Tooth extraction is the removal of a tooth from its socket in the jawbone, often due to decay, damage, or crowding.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col ">
-                        <a href="teethscaling.php" style="text-decoration: none;">
-                            <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/teeth_scaling.png" class="card-img-top" alt="...">
-
-                                <div class="card-body">
-                                    <h5 class="card-title">Teeth Scaling</h5>
-                                    <p class="card-text">Teeth scaling is a dental procedure that removes plaque and tartar buildup from the tooth surfaces and below the gumline to maintain oral health.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                    </div>        
                     <div class="col">
                         <a href="fullmouthrestrotion.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
