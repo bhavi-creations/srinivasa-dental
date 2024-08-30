@@ -6,9 +6,9 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
     $pass = "";
     $db = "srinivasa";
 } else {
-    $user = "srinivasa-dental";
-    $pass = "PlcQrF62ZHSKrPt";
-    $db = "srinivasa_dental";
+    $user = "u823984162_srinivasa";
+    $pass = "Srinivasadental2024";
+    $db = "u823984162_srinivasa";
 }
 
 

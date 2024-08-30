@@ -7,10 +7,11 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
     $password = "";
     $dbname = "srinivasa";
 } else {
-    $username = "srinivasa-dental";
-    $password = "PlcQrF62ZHSKrPt";
-    $dbname = "srinivasa_dental";
+    $username = "u823984162_srinivasa";
+    $password = "Srinivasadental2024";
+    $dbname = "u823984162_srinivasa";
 }
+ 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
