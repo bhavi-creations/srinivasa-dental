@@ -44,12 +44,7 @@
 
 </head>
 <style>
-  @media (min-width:992px) {
-
-    .showthisdiv {
-      /* padding-left: 100px !important; */
-    }
-  }
+ 
 </style>
 
 <body>
