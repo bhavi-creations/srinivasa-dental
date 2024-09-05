@@ -455,7 +455,7 @@
             </div>
           </div>
           <div class="col-6 col-md-6 col-lg-3 py-2">
-            <h1 class="helpful_link">Helpfull Link</h1>
+            <h1 class="helpful_link">Helpful Link</h1>
             <a href="index.php">
               <p class="foot_para">Home</p>
             </a><a href="about.php">
@@ -484,6 +484,16 @@
                   src="assets/img/srinivasa/instagram.png"
                   class="img-fluid"
                   alt="" /></a>
+              &nbsp;&nbsp;
+              <a
+                href=" https://www.linkedin.com/company/99449038/admin/dashboard/"
+                target="_blank">
+                <img
+                  src="assets/img/srinivasa/linkedin.png"
+                  class="img-fluid"
+                  style="border-radius: 5px;"
+                  alt="" /></a>
+
               &nbsp;&nbsp;
 
               <a
