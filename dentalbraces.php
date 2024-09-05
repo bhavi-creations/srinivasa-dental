@@ -134,12 +134,12 @@
               <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Braces Treatment in
                 kakinada</h2>
               <p class="poetsen_font1">
-                Dental braces are orthodontic devices designed to correct misaligned teeth and bite issues, providing both aesthetic and functional benefits. They work by applying continuous pressure over time, gradually moving teeth into the desired position. Braces are commonly made of metal, ceramic, or plastic, and may include brackets, wires, and bands. While the treatment duration varies depending on the complexity of the case, most people wear braces for one to three years. Proper care and regular adjustments by an orthodontist are essential for achieving optimal results. In addition to 
+              Dental braces are orthodontic devices designed to correct misaligned teeth and bite issues, offering both aesthetic and functional benefits. They work by applying continuous pressure over time, gradually moving teeth into the desired position. Braces are commonly made of metal, ceramic, or plastic, and include components such as brackets, wires, and bands. Treatment duration varies depending on the complexity of the case, but most people wear braces for one to three years. Proper care and regular adjustments by an orthodontist are essential for achieving optimal results.
 
               </p>
 
               <div class="showthisdiv  " style="display:none ">
-            <p class="poetsen_font1">traditional metal braces, newer options like clear aligners offer a more discreet way to straighten teeth, making orthodontic treatment more appealing to adults and teens. Dental braces not only improve the alignment of teeth but also enhance oral health by making it easier to clean teeth and prevent issues like cavities and gum disease. The process can sometimes cause discomfort, especially after adjustments, but this is typically temporary and manageable. Wearing a retainer after braces are removed is crucial to maintain the results and prevent teeth from shifting back. Overall, dental braces provide a long-term solution for achieving a healthier, more confident smile.</p>
+            <p class="poetsen_font1">In addition to traditional metal braces, newer options like clear aligners offer a more discreet way to straighten teeth, making orthodontic treatment more appealing to adults and teens. Dental braces not only improve the alignment of teeth but also enhance oral health by making it easier to clean teeth and prevent issues like cavities and gum disease. While the process can sometimes cause discomfort, especially after adjustments, this is typically temporary and manageable. Wearing a retainer after braces are removed is crucial to maintain the results and prevent teeth from shifting back. Overall, dental braces provide a long-term solution for achieving a healthier, more confident smile.</p>
           </div>
 
 
