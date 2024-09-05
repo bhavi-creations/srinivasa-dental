@@ -138,7 +138,7 @@
                     <div class="col">
                         <a href="rootcanal.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/root_canal.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/one.jpg" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
                                     <div>
                                     <h5 class="card-title">Root Canal</h5>
@@ -155,7 +155,7 @@
                     <div class="col">
                         <a href="dentalbraces.php" style="text-decoration: none;">
                             <div class="card shadow h-100" style="border: none;">
-                                <img src="assets/img/services/Dental Braces.png" class="card-img-top" alt="Dental Braces">
+                                <img src="assets/img/services/two.jpg" class="card-img-top" alt="Dental Braces">
 
                                 <div class="card-body d-flex flex-column">
                                     <div>
@@ -175,7 +175,7 @@
                     <div class="col">
                         <a href="dentalimplents.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/dental_implents.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/3.jpg" class="card-img-top" alt="...">
 
                                 <div class="card-body d-flex flex-column">
                                     <div>
@@ -192,7 +192,7 @@
                     <div class="col">
                         <a href="bridgetreatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/tooth_crown_bridges.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/4.jpg" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
                                     <div>
                                     <h5 class="card-title">Tooth Crown & Bridges</h5>
@@ -209,7 +209,7 @@
                     <div class="col">
                         <a href="teethfilling.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/teeth_filling.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/5.jpg" class="card-img-top" alt="...">
 
                                 <div class="card-body d-flex flex-column">
                                     <div>
@@ -226,12 +226,12 @@
                     <div class="col">
                         <a href="dentures.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/dentures.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/6.jpg" class="card-img-top" alt="...">
 
-                                <div class="card-body d-flex flex-column">
+                                <div class="card-body d-flex flex-column mt-4">
                                     <div>
                                     <h5 class="card-title">Dentures</h5>
-                                    <p class="card-text">Dentures are removable prosthetic devices designed to replace missing teeth and restore function and appearance to the mouth.</p>
+                                    <p class="card-text" >Dentures are removable prosthetic devices designed to replace missing teeth and restore function and appearance to the mouth.</p>
                                     </div>
                                     <div class="mt-auto d-flex justify-content-end">
                                         <button class="service_card_read_more_btn"> Read More...</button>
@@ -243,7 +243,7 @@
                     <div class="col ">
                         <a href="teethscaling.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/teeth_scaling.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/7.jpg" class="card-img-top" alt="...">
 
                                 <div class="card-body d-flex flex-column">
                                     <div>
@@ -260,7 +260,7 @@
                     <div class="col">
                         <a href="toothextraction.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/tooth_extraction.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/8.jpg" class="card-img-top" alt="...">
 
                                 <div class="card-body d-flex flex-column">
                                     <div>
@@ -278,7 +278,7 @@
                     <div class="col">
                         <a href="teethcleaning.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/Teeth Cleaning.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/9.jpg" class="card-img-top" alt="...">
 
                                 <div class="card-body d-flex flex-column">
                                     <div>
@@ -296,7 +296,7 @@
                     <div class="col">
                         <a href="teethwhitning.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/teeth_whitning.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/10.jpg" class="card-img-top" alt="...">
 
                                 <div class="card-body d-flex flex-column">
                                     <div>
@@ -314,7 +314,7 @@
                     <div class="col">
                         <a href="smilemakeover.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/smile_makeover.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/11.jpg" class="card-img-top" alt="...">
 
                                 <div class="card-body d-flex flex-column">
                                     <div>
@@ -331,7 +331,7 @@
                     <div class="col">
                         <a href="fullmouthrestrotion.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/full_mouth_restoration.png" class="card-img-top" alt="...">
+                                <img src="assets/img/services/12.jpg" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
                                     <div>
                                     <h5 class="card-title">Full Mouth Restoration</h5>
@@ -520,52 +520,56 @@
                 </div>
               </div>
               <div class="col-6 col-md-6 col-lg-3 py-2">
-                <h1 class="helpful_link">Helpfull Link</h1>
-                <a href="index.php">
-                  <p class="foot_para">Home</p> </a
-                ><a href="about.php">
-                  <p class="foot_para">About us</p> </a
-                ><a href="testimonials.php">
-                  <p class="foot_para">What Patients Say</p> </a
-                ><a href="blogs.php">
-                  <p class="foot_para">Blog</p> </a
-                ><a href="contact.php">
-                  <p class="foot_para">Contact</p>
-                </a>
-  
-                <div class="d-flex">
-                  <a
-                    href="https://www.facebook.com/srinivasadentalkakinada/"
-                    target="_blank"
-                  >
-                    <img
-                      src="assets/img/srinivasa/facebook.png"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  &nbsp;&nbsp;
-                  <a
-                    href="https://www.instagram.com/srinivasadentalkakinada/"
-                    target="_blank"
-                  >
-                    <img
-                      src="assets/img/srinivasa/instagram.png"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  &nbsp;&nbsp;
-  
-                  <a
-                    href=" https://www.youtube.com/@srinivasadentalkakinada"
-                    target="_blank"
-                  >
-                    <img
-                      src="assets/img/srinivasa/youtube.png"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                </div>
-              </div>
+                         <h1 class="helpful_link">Helpful Link</h1>
+                         <a href="index.php">
+                             <p class="foot_para">Home</p>
+                         </a><a href="about.php">
+                             <p class="foot_para">About us</p>
+                         </a><a href="testimonials.php">
+                             <p class="foot_para">What Patients Say</p>
+                         </a><a href="blogs.php">
+                             <p class="foot_para">Blog</p>
+                         </a><a href="contact.php">
+                             <p class="foot_para">Contact</p>
+                         </a>
+
+                         <div class="d-flex">
+                             <a
+                                 href="https://www.facebook.com/srinivasadentalkakinada/"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/facebook.png"
+                                     class="img-fluid"
+                                     alt="" /></a>
+                             &nbsp;&nbsp;
+                             <a
+                                 href="https://www.instagram.com/srinivasadentalkakinada/"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/instagram.png"
+                                     class="img-fluid"
+                                     alt="" /></a>
+                             &nbsp;&nbsp;
+                             <a
+                                 href=" https://www.linkedin.com/company/99449038/admin/dashboard/"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/linkedin.png"
+                                     class="img-fluid"
+                                     style="border-radius: 5px;"
+                                     alt="" /></a>
+
+                             &nbsp;&nbsp;
+
+                             <a
+                                 href=" https://www.youtube.com/@srinivasadentalkakinada"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/youtube.png"
+                                     class="img-fluid"
+                                     alt="" /></a>
+                         </div>
+                     </div>
               <div class="col-6 col-md-6 col-lg-3 py-2">
                 <h1 class="foot_head">Treatments</h1>
             <a href="rootcanal.php">   <p class="foot_para">Root Canal</p></a> 

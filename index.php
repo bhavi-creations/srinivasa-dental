@@ -133,32 +133,32 @@
                      <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
                      <li><a class="nav-link scrollto" href="about.php">About</a></li>
                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu services_drop_menu  mt-3" aria-labelledby="servicesDropdown" style="width:700px;">
-                            <div class="row  ">
-                                <div class="col-md-4">
-                                    <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
-                                    <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                                    <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
-                                    <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
-                                </div>
-                                <div class="col-md-4">
-                                    <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
-                                    <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
-                                    <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
-                                    <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
-                                </div>
-                                <div class="col-md-4">
-                                    <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
-                                    <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth whitening</a></li>
-                                    <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
-                                    <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
-                                </div>
-                            </div>
-                        </ul>
-                    </li>
+                         <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Services
+                         </a>
+                         <ul class="dropdown-menu services_drop_menu  mt-3" aria-labelledby="servicesDropdown" style="width:700px;">
+                             <div class="row  ">
+                                 <div class="col-md-4">
+                                     <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
+                                     <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
+                                     <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
+                                     <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
+                                 </div>
+                                 <div class="col-md-4">
+                                     <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
+                                     <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
+                                     <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
+                                     <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
+                                 </div>
+                                 <div class="col-md-4">
+                                     <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
+                                     <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth whitening</a></li>
+                                     <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
+                                     <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
+                                 </div>
+                             </div>
+                         </ul>
+                     </li>
                      <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
                      <li><a class="nav-link" href="blogs.php">Blogs</a></li>
                      <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
@@ -173,20 +173,21 @@
              </a>
          </div>
 
-         <script>// jQuery needed to manage hover and click behavior
-            $(document).ready(function() {
-                // Ensure that the dropdown opens on hover
-                $('#servicesDropdown').hover(function() {
-                    $(this).dropdown('toggle');
-                });
-            
-                // Make sure the dropdown also works on click
-                $('#servicesDropdown').click(function(e) {
-                    e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-                    window.location.href = $(this).attr('href'); // Redirect to the link
-                });
-            });
-            </script>
+         <script>
+             // jQuery needed to manage hover and click behavior
+             $(document).ready(function() {
+                 // Ensure that the dropdown opens on hover
+                 $('#servicesDropdown').hover(function() {
+                     $(this).dropdown('toggle');
+                 });
+
+                 // Make sure the dropdown also works on click
+                 $('#servicesDropdown').click(function(e) {
+                     e.stopPropagation(); // Prevents the click from closing the dropdown immediately
+                     window.location.href = $(this).attr('href'); // Redirect to the link
+                 });
+             });
+         </script>
      </header>
 
 
@@ -223,7 +224,7 @@
                                      <rect width="14" height="14" fill="white" transform="translate(0.970215 0.5)" />
                                  </clipPath>
                              </defs>
-                         </svg> &nbsp; Hey! Welcome to DentalPro!</p>
+                         </svg> &nbsp; Hey! We Are Dentic</p>
 
                      <h1 class="transform_smile">Transform <span class="smile_text">Your Smile <img
                                  src="assets/img/services/2.png" alt="" class="img-fluid topimg">
@@ -231,7 +232,7 @@
                          Care</h1>
                      <p class="mt-4 mb-4">Enjoy high-quality dental care in a comfortable and friendly setting. Start
                          your journey to a
-                         healthier, Brighter smile today!</p>
+                         healthier, brighter smile today!</p>
 
                      <div class="d-flex  buttons_section_banner">
                          <div class="">
@@ -275,14 +276,16 @@
 
      <main id="main">
 
-         <section>
+     <section>
              <div class="container">
                  <div class="row">
 
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/clipboard.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Affordable Price</h3>
-                         <p class="mini_para">“Our hospital offers high-quality medical care at affordable prices, ensuring everyone has access to essential health services. We prioritize cost-effective treatments without compromising patient safety or care.</p>
+                         <p class="mini_para">Our hospital offers high-quality medical care at affordable prices,
+                             ensuring everyone has access to essential health services.
+                             We prioritize cost-effective treatments without compromising on patient safety or care.</p>
                      </div>
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/tools.png" alt="" class="img-fluid">
@@ -332,7 +335,9 @@
                          <h2 class="welcome_text_oncology">
                              Srinivasa Multispeciality Dental Hospital Dentist In Kakinada</h2>
                          <p class=poetsen_font>
-                         We are dedicated to providing your family with a wide variety of dental services for complete care. We are confident you will find our clinic to be both friendly and professional every time you visit.
+                             We are dedicated to providing your family with the right variety of dental services for
+                             complete care. We are confident you will find our clinic to be as friendly as it is
+                             professional each and every time you visit.
                              <br>
                              Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada.
                          </p>
@@ -370,9 +375,14 @@
                          </svg></p>
 
 
-                     <p class="  text-center service_text">We recognize that every patient is unique and deserves to receive dental care that reflects their individual wants and needs. Using the latest advances in dental technology, our dentists strive to help you achieve a happy, healthy smile you can’t wait to show off.
+                     <p class="  text-center service_text">we recognize that every patient is unique and deserves to
+                         receive dental care that reflects their individual wants and needs. Using the latest advances
+                         in dental technology, our dentists strive to help you achieve a happy, healthy smile you can’t
+                         wait to show off.
                          <br><br>
-                         Srinivasa Dental Clinic has the best dentists in Kakinada. Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada.
+                         Srinivasa Dental Clinichaving best Dentist In kakinada 
+                         Our success is measured by each patient and each smile.Thats why we are Best dentist in
+                         kakinada
                      </p>
                  </div>
              </div>
@@ -563,8 +573,12 @@
                          <h2 class="welcome_text_oncology">
                              Hear Why We Love What We Do</h2>
                          <p class=poetsen_font>
-                         Your dental team, led by Dr. Kiran Raju, is dedicated to making our practice patient-centered. We want each patient to feel like a member of the Srinivasa Dentistry family, confidently putting their trust in our team. Check our testimonials to see why we are passionate about our patients’ experience.<br><br>
-                         We will help you choose a custom care plan designed to achieve the smile of your dreams. Find out more about our dentists in Kakinada in the 'What Patients Say' section.
+                             Your dental team, led by Dr. Kiran Raju, is dedicated to making our practice
+                             patient-centered. We want each patient to feel like a member of the Srinivasa Dentistry
+                             family, confidently putting their trust in our team. check our testimonials to see why we
+                             are passionate about our patients’ experience. <br><br>
+                             We will help you choose a custom care plan designed to help you accomplish the smile of
+                             your dreams find more about dentist in kakinada at our What Patients Say Section
                          </p>
 
 
@@ -1095,6 +1109,7 @@
 
              </div>
          </div>
+         
 
 
 
@@ -1113,10 +1128,9 @@
                     alt=""
                 /></a>
                 <p class="foot_para">
-                Srinivasa Multispeciality Dental Hospital
-Jawahar Street, Beside MRF Showroom
-Opposite Vivekananda Statue - Kulaicheruvu Park
-Kakinada - 1
+                  Srinivasa Multispeciality Dental Hospital Jawahar street, Beside
+                  MRF showroom, opp Vivekananda statue- kulaicheruvu park
+                  Kakinada-1
                 </p>
                 <p class="foot_para">
                   <svg
@@ -1385,10 +1399,10 @@ Kakinada - 1
                               </p>
                           </div>
                       </div> -->
-            </div>
-          </div>
-        </div>
-      </footer>
+                 </div>
+             </div>
+         </div>
+     </footer>
 
 
      <!-- End Footer -->
