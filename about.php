@@ -43,14 +43,7 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
-<style>
-  @media (min-width:992px) {
-
-    .showthisdiv {
-      /* padding-left: 100px !important; */
-    }
-  }
-</style>
+ 
 
 <body>
 
@@ -134,59 +127,50 @@
 
   <main id="main">
 
-  <section class="sectionForm">
-  <div class="container">
-    <div class="row servSect">
-      <div class="col-md-7 dr_content_padding order-1 order-md-1">
-        <h5 class="poetsen_font11">About us</h5>
-        <h2 class="dr_welcome_text1 mt-4 mb-4">Our History</h2>
-        <p class="poetsen_font1">
-          Our hospital, established in the year 2014, is equipped with advanced infrastructure to
-          provide specialized oral health care. Thousands of patients have been benefitted from
-          our comprehensive dental care improving their oral health and overall health. Dental
-          Clinic In Kakinada As a team, we continue to aim at bringing smiles into families
-          through ethical dental services in Kakinada. Dr. D.V.S. Kiran Raju M.D.S. Specialized in braces 
-        </p>
-        <div class="showthisdiv" style="display:none;">
-          <p class="poetsen_font1">
-             treatment for all ages, transforming
-            misaligned teeth into beautiful smiles. A dedicated clinician who has excellent skills in pain
-            management, replacement of missing teeth, ESTHETIC dentistry and strives to provide complete
-            care by utilizing the advanced techniques. We are the Best Dental Clinic In Kakinada.
-            Dr. D. Sree Lakshmi Deepika strongly believes that “Natural tooth is a God’s Gift”. As
-            a specialist in advanced gum care and surgical treatments, always aims at saving natural
-            teeth. Proficient in IMPLANTS and LASER therapies and committed to providing quality dental
-            care at Srinivasa Dental Clinic In Kakinada.
-          </p>
-        </div>
-        <div class="d-flex flex-row justify-content-start">
-          <p class="get_in_touch read_hide" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-            Read More <i class="fa-solid fa-arrow-right"></i>
-          </p>
+    <section class="sectionForm">
+      <div class="container">
+        <div class="row servSect">
+          <div class="col-md-7 dr_content_padding order-1 order-md-1">
+            <h5 class="poetsen_font11">About us</h5>
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Our History</h2>
+            <p class="poetsen_font1">
+            Our hospital, established in 2014, is equipped with advanced infrastructure to provide specialized oral health care. Thousands of patients have benefited from our comprehensive dental services, improving their oral and overall health. As a team, we continue to bring smiles to families through ethical dental practices in Kakinada. Dr. D.V.S. Kiran Raju, M.D.S., specializes in braces. At our clinic, we provide treatment for all ages,  transforming 
+            </p>
+
+            <div class="showthisdiv" style="display:none;">
+              <p class="poetsen_font1">
+            misaligned teeth into beautiful smiles. Our dedicated clinician excels in pain management, replacement of missing teeth, esthetic dentistry, and strives to offer complete care by utilizing advanced techniques. We are the best dental clinic in Kakinada. Dr. D. Sree Lakshmi Deepika strongly believes that ‘Natural tooth is a God’s gift.’ As a specialist in advanced gum care and surgical treatments, she is committed to saving natural teeth. Proficient in implants and laser therapies, she is dedicated to providing quality dental care at Srinivasa Dental Clinic in Kakinada.
+              </p>
+            </div>
+            
+            <div class="d-flex flex-row justify-content-start">
+              <p class="get_in_touch read_hide" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
+                Read More <i class="fa-solid fa-arrow-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
+            <img src="assets/img/services/s2.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="col-md-5 order-3 order-md-2 mt-5">
-        <img src="assets/img/services/s2.png" class="img-fluid dr_img_padding" alt="" class="servImg">
-      </div>
-    </div>
-  </div>
-</section>
+    <script>
+      function toggleReadMore() {
+        var showThisDiv = document.querySelector('.showthisdiv');
+        var readMoreText = document.querySelector('.get_in_touch');
 
-<script>
-  function toggleReadMore() {
-    var showThisDiv = document.querySelector('.showthisdiv');
-    var readMoreText = document.querySelector('.get_in_touch');
-
-    if (showThisDiv.style.display === "none") {
-      showThisDiv.style.display = "block";
-      readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-    } else {
-      showThisDiv.style.display = "none";
-      readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-    }
-  }
-</script>
+        if (showThisDiv.style.display === "none") {
+          showThisDiv.style.display = "block";
+          readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+        } else {
+          showThisDiv.style.display = "none";
+          readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+        }
+      }
+    </script>
 
 
   </main>
@@ -340,56 +324,56 @@
             </div>
           </div>
           <div class="col-6 col-md-6 col-lg-3 py-2">
-                         <h1 class="helpful_link">Helpful Link</h1>
-                         <a href="index.php">
-                             <p class="foot_para">Home</p>
-                         </a><a href="about.php">
-                             <p class="foot_para">About us</p>
-                         </a><a href="testimonials.php">
-                             <p class="foot_para">What Patients Say</p>
-                         </a><a href="blogs.php">
-                             <p class="foot_para">Blog</p>
-                         </a><a href="contact.php">
-                             <p class="foot_para">Contact</p>
-                         </a>
+            <h1 class="helpful_link">Helpful Link</h1>
+            <a href="index.php">
+              <p class="foot_para">Home</p>
+            </a><a href="about.php">
+              <p class="foot_para">About us</p>
+            </a><a href="testimonials.php">
+              <p class="foot_para">What Patients Say</p>
+            </a><a href="blogs.php">
+              <p class="foot_para">Blog</p>
+            </a><a href="contact.php">
+              <p class="foot_para">Contact</p>
+            </a>
 
-                         <div class="d-flex">
-                             <a
-                                 href="https://www.facebook.com/srinivasadentalkakinada/"
-                                 target="_blank">
-                                 <img
-                                     src="assets/img/srinivasa/facebook.png"
-                                     class="img-fluid"
-                                     alt="" /></a>
-                             &nbsp;&nbsp;
-                             <a
-                                 href="https://www.instagram.com/srinivasadentalkakinada/"
-                                 target="_blank">
-                                 <img
-                                     src="assets/img/srinivasa/instagram.png"
-                                     class="img-fluid"
-                                     alt="" /></a>
-                             &nbsp;&nbsp;
-                             <a
-                                 href=" https://www.linkedin.com/company/99449038/admin/dashboard/"
-                                 target="_blank">
-                                 <img
-                                     src="assets/img/srinivasa/linkedin.png"
-                                     class="img-fluid"
-                                     style="border-radius: 5px;"
-                                     alt="" /></a>
+            <div class="d-flex">
+              <a
+                href="https://www.facebook.com/srinivasadentalkakinada/"
+                target="_blank">
+                <img
+                  src="assets/img/srinivasa/facebook.png"
+                  class="img-fluid"
+                  alt="" /></a>
+              &nbsp;&nbsp;
+              <a
+                href="https://www.instagram.com/srinivasadentalkakinada/"
+                target="_blank">
+                <img
+                  src="assets/img/srinivasa/instagram.png"
+                  class="img-fluid"
+                  alt="" /></a>
+              &nbsp;&nbsp;
+              <a
+                href=" https://www.linkedin.com/company/99449038/admin/dashboard/"
+                target="_blank">
+                <img
+                  src="assets/img/srinivasa/linkedin.png"
+                  class="img-fluid"
+                  style="border-radius: 5px;"
+                  alt="" /></a>
 
-                             &nbsp;&nbsp;
+              &nbsp;&nbsp;
 
-                             <a
-                                 href=" https://www.youtube.com/@srinivasadentalkakinada"
-                                 target="_blank">
-                                 <img
-                                     src="assets/img/srinivasa/youtube.png"
-                                     class="img-fluid"
-                                     alt="" /></a>
-                         </div>
-                     </div>
+              <a
+                href=" https://www.youtube.com/@srinivasadentalkakinada"
+                target="_blank">
+                <img
+                  src="assets/img/srinivasa/youtube.png"
+                  class="img-fluid"
+                  alt="" /></a>
+            </div>
+          </div>
           <div class="col-6 col-md-6 col-lg-3 py-2">
             <h1 class="foot_head">Treatments</h1>
             <a href="rootcanal.php">

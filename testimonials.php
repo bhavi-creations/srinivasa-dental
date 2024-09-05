@@ -42,14 +42,7 @@
 
 </head>
 
-<style>
-    @media (min-width:992px) {
-
-        .showthisdiv {
-            padding-left: 100px !important;
-        }
-    }
-</style>
+ 
 
 <body>
 
@@ -586,14 +579,46 @@
         }
     </script>
     <script>
-        let currentSlide = 0;
+      let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+const totalSlides = slides.length;
+let slideInterval = setInterval(autoSlide, 5000); // Auto slide every 5 seconds
 
-        function moveSlide(step) {
-            const slides = document.querySelectorAll('.carousel .slide');
-            const totalSlides = slides.length;
-            currentSlide = (currentSlide + step + totalSlides) % totalSlides;
-            document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
-        }
+// Function to move the slide manually
+function moveSlide(step) {
+    clearInterval(slideInterval); // Clear the auto-slide interval when manually controlled
+    currentSlide += step;
+
+    // Handle slide wrap-around
+    if (currentSlide >= totalSlides) {
+        currentSlide = 0;
+    } else if (currentSlide < 0) {
+        currentSlide = totalSlides - 1;
+    }
+
+    updateSlides();
+    slideInterval = setInterval(autoSlide, 5000); // Restart auto-slide after manual change
+}
+
+// Function to update the slide display
+function updateSlides() {
+    slides.forEach((slide, index) => {
+        slide.style.display = index === currentSlide ? 'block' : 'none';
+    });
+}
+
+// Auto-slide function
+function autoSlide() {
+    currentSlide++;
+    if (currentSlide >= totalSlides) {
+        currentSlide = 0;
+    }
+    updateSlides();
+}
+
+// Initialize the first slide
+updateSlides();
+
     </script>
 
 

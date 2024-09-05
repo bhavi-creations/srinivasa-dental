@@ -276,29 +276,25 @@
 
      <main id="main">
 
-         <section>
+     <section>
              <div class="container">
                  <div class="row">
 
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/clipboard.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Affordable Price</h3>
-                         <p class="mini_para">Our hospital offers high-quality medical care at affordable prices,
-                             ensuring everyone has access to essential health services.
-                             We prioritize cost-effective treatments without compromising on patient safety or care.</p>
+                         <p class="mini_para">“Our hospital offers high-quality medical care at affordable prices, ensuring everyone has access to essential health services. We prioritize cost-effective treatments without compromising patient safety or care.</p>
                      </div>
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/tools.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Professional Dentist</h3>
-                         <p class="mini_para">Our hospital features highly skilled and experienced dentists committed to providing exceptional dental care. With state-of-the-art equipment and personalized treatment plans,
-                             we ensure your dental health is in expert hands.
+                         <p class="mini_para">Our hospital features highly skilled and experienced dentists committed to providing exceptional dental care. With state-of-the-art equipment and personalized treatment plans, we ensure your dental health is in expert hands.
                          </p>
                      </div>
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/chair.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Satisfactory Service</h3>
-                         <p class="mini_para">Our hospital is dedicated to providing patient-centered care that exceeds expectations.
-                             We ensure every visit is met with attentive service, compassionate staff, and a focus on your comfort and satisfaction.
+                         <p class="mini_para">Our hospital is dedicated to providing patient-centered care that exceeds expectations. We ensure every visit is met with attentive service, compassionate staff, and a focus on your comfort and satisfaction.
                          </p>
                      </div>
 
@@ -337,12 +333,9 @@
                          <h2 class="welcome_text_oncology">
                              Srinivasa Multispeciality Dental Hospital Dentist In Kakinada</h2>
                          <p class=poetsen_font>
-                             We are dedicated to providing your family with the right variety of dental services for
-                             complete care. We are confident you will find our clinic to be as friendly as it is
-                             professional each and every time you visit.
+                         We are dedicated to providing your family with a wide variety of dental services for complete care. We are confident you will find our clinic to be both friendly and professional every time you visit.
                              <br>
-                             Our success is measured by each patient and each smile.Thats why we are Best dentist in
-                             kakinada
+                             Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada.
                          </p>
 
 
@@ -378,14 +371,9 @@
                          </svg></p>
 
 
-                     <p class="  text-center service_text">we recognize that every patient is unique and deserves to
-                         receive dental care that reflects their individual wants and needs. Using the latest advances
-                         in dental technology, our dentists strive to help you achieve a happy, healthy smile you can’t
-                         wait to show off.
+                     <p class="  text-center service_text">We recognize that every patient is unique and deserves to receive dental care that reflects their individual wants and needs. Using the latest advances in dental technology, our dentists strive to help you achieve a happy, healthy smile you can’t wait to show off.
                          <br><br>
-                         Srinivasa Dental Clinichaving best Dentist In kakinada 
-                         Our success is measured by each patient and each smile.Thats why we are Best dentist in
-                         kakinada
+                         Srinivasa Dental Clinic has the best dentists in Kakinada. Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada.
                      </p>
                  </div>
              </div>
@@ -442,6 +430,7 @@
                              &nbsp; &nbsp;
 
                              <div class="">
+                                
                                  <h1 class="text_dental">8126 <span class="plus_symbol">+</span></h1>
                                  <p class="text_para">Happy  Patients</p>
                              </div>
@@ -575,12 +564,8 @@
                          <h2 class="welcome_text_oncology">
                              Hear Why We Love What We Do</h2>
                          <p class=poetsen_font>
-                             Your dental team, led by Dr. Kiran Raju, is dedicated to making our practice
-                             patient-centered. We want each patient to feel like a member of the Srinivasa Dentistry
-                             family, confidently putting their trust in our team. check our testimonials to see why we
-                             are passionate about our patients’ experience. <br><br>
-                             We will help you choose a custom care plan designed to help you accomplish the smile of
-                             your dreams find more about dentist in kakinada at our What Patients Say Section
+                         Your dental team, led by Dr. Kiran Raju, is dedicated to making our practice patient-centered. We want each patient to feel like a member of the Srinivasa Dentistry family, confidently putting their trust in our team. Check our testimonials to see why we are passionate about our patients’ experience.<br><br>
+                         We will help you choose a custom care plan designed to achieve the smile of your dreams. Find out more about our dentists in Kakinada in the 'What Patients Say' section.
                          </p>
 
 
@@ -591,7 +576,7 @@
                                  <p class="tetx_color_about"><i class=" check_mark fa-solid fa-circle-check "></i>
                                      Modern Equipment </p>
                                  <p class="tetx_color_about"><i class=" check_mark fa-solid fa-circle-check "></i>
-                                     Comfortable CIinic</p>
+                                     Comfortable Clinic</p>
 
                              </div>
 
@@ -653,9 +638,7 @@
                      <h2 class="apporach"> In kakinada include</h2>
 
 
-                     <p class="  text-center service_text mb-5">General & Cosmetic Dentistry can give you a smile you’re
-                         happy to show off. Modern cosmetic dentistry techniques make it easier than ever for you to
-                         have a bright, even smile. Srinivasa dentist in kakinada
+                     <p class="  text-center service_text mb-5">General and cosmetic dentistry can give you a smile you’re happy to show off. Modern cosmetic dentistry techniques make it easier than ever for you to have a bright, even smile. Visit Srinivasa Dental Clinic in Kakinada.
 
                      </p>
                  </div>
@@ -744,8 +727,7 @@
                      <h2 class="apporach"> And Can’t Wait To Meet You.</h2>
 
 
-                     <p class="  text-center service_text">We use only the best quality materials on the market in order
-                         to provide the best products to our patients.
+                     <p class="  text-center service_text">We use only the highest quality materials available to ensure we provide the best products for our patients.
                      </p>
 
 
@@ -940,9 +922,7 @@
                      <div class="col-lg-6">
                          <h1 class="service_test_text">The Honest Review
                              From<br> Our Client</h1>
-                         <p class="service_test_text_para">"I had an exceptional experience at Srinivasa Dental.
-                             The staff were incredibly attentive and made me feel comfortable throughout my treatment.
-                             I highly recommend this hospital for its professionalism and compassionate care."</p>
+                         <p class="service_test_text_para">"I had an exceptional experience at Srinivasa Dental. The staff were incredibly attentive and made me feel comfortable throughout my treatment. I highly recommend this clinic for its professionalism and compassionate care."</p>
                          <a href="testimonials.php" style="text-decoration: none;"> <button class="reviews_btn mb-5"> See All Review</button></a>
                      </div>
 
@@ -956,8 +936,7 @@
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
 
-                                         <p class="card-text  text_of_the_card">"Excellent care and a friendly staff made my experience at Srinivasa Dental outstanding.
-                                             Highly recommended!"</p>
+                                         <p class="card-text  text_of_the_card">"Excellent care and a friendly staff made my experience at Srinivasa Dental outstanding. Highly recommended!"</p>
                                          <h5 class="card-title name_of_the_card">Mr Eswar</h5>
                                          <!-- <p class="card-text work_of_the_card"><small
                                                  class="text-muted">Designer</small></p> -->
@@ -1036,9 +1015,7 @@
 
 
 
-                     <p class="mb-5  text-center service_text">General & Cosmetic Dentistry can give you a smile you’re
-                         happy to show off. Modern cosmetic dentistry techniques make it easier than ever for you to
-                         have a bright, even smile. Srinivasa dentist in kakinada
+                     <p class="mb-5  text-center service_text">General and cosmetic dentistry can give you a smile you’re proud to show off. Modern cosmetic dentistry techniques make it easier than ever to achieve a bright, even smile. Visit Srinivasa Dental Clinic in Kakinada.
 
                      </p>
                  </div>
@@ -1097,6 +1074,28 @@
              </div>
          </section>
 
+         <!-- End Testimonials Section -->
+
+
+         <div class="container last_container ">
+             <div class="row">
+                 <div class="col-md-6 padding_text_madam order-2 order-md-1">
+                     <h1 class="madam_text">Become The Next
+                         Our </h1>
+                     <p class="text_mam">Scheduling an appointment at Srinivasa Dental is easy and convenient. Simply call us at +91-9290019948 or use our online booking system to choose a time that works for you.
+                     </p>
+                     <div class=" btn_div   ">
+                         <a href="appointment.php">
+                             <button class="read_more_btn">Book an Appointment </button>
+                         </a>
+                     </div>
+                 </div>
+                 <div class="col-md-6 order-1 order-md-2">
+                     <img src="assets/img/srinivasa/pro_mam.png" class="img-fluid mam_image" alt="">
+                 </div>
+
+             </div>
+         </div>
          <!-- End Testimonials Section -->
 
 
