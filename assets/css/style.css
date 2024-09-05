@@ -3842,3 +3842,33 @@ img.img-fluid.yimg {
   border-left: 4px solid #0056b3; /* Add a left border */
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
 }
+
+
+.carsoule_first {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide_section {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 1s ease-in-out;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.slide_section.active {
+  display: block;
+  opacity: 1;
+  transform: translateX(0);
+  transition-delay: 0.2s; /* Adds a delay for lazy transformation */
+}
+
+.slide_section.previous {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition-delay: 0.2s; /* Delay for the previous slide too */
+}
