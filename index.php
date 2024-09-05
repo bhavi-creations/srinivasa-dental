@@ -224,14 +224,14 @@
                                      <rect width="14" height="14" fill="white" transform="translate(0.970215 0.5)" />
                                  </clipPath>
                              </defs>
-                         </svg> &nbsp; Hey! We Are Dentic</p>
+                         </svg> &nbsp; Hey!  Welcome to DentalPro</p>
 
                      <h1 class="transform_smile">Transform <span class="smile_text">Your Smile <img
                                  src="assets/img/services/2.png" alt="" class="img-fluid topimg">
                          </span> with Expert Dental
                          Care</h1>
                      <p class="mt-4 mb-4">Enjoy high-quality dental care in a comfortable and friendly setting. Start
-                         your journey to a
+                         your journey @ Srinivasa Dental for
                          healthier, brighter smile today!</p>
 
                      <div class="d-flex  buttons_section_banner">
@@ -283,7 +283,7 @@
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/clipboard.png" alt="" class="img-fluid">
                          <h3 class="mini_con mt-4">Affordable Price</h3>
-                         <p class="mini_para">“Our hospital offers high-quality medical care at affordable prices, ensuring everyone has access to essential health services. We prioritize cost-effective treatments without compromising patient safety or care.</p>
+                         <p class="mini_para">“Our hospital offers high-quality dental care at affordable prices, ensuring everyone has access to essential dental services. We prioritize cost-effective treatments without compromising patient safety or care.</p>
                      </div>
                      <div class="col-md-4 text-center">
                          <img src="assets/img/srinivasa/tools.png" alt="" class="img-fluid">
@@ -333,7 +333,7 @@
                          <h2 class="welcome_text_oncology">
                              Srinivasa Multispeciality Dental Hospital Dentist In Kakinada</h2>
                          <p class=poetsen_font>
-                         We are dedicated to providing your family with a wide variety of dental services for complete care. We are confident you will find our clinic to be both friendly and professional every time you visit.
+                         We are committed to offering your family a comprehensive range of dental services to ensure complete care. We are confident you will find our clinic to be both friendly and professional every time you visit.
                              <br>
                              Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada.
                          </p>
@@ -372,8 +372,7 @@
 
 
                      <p class="  text-center service_text">We recognize that every patient is unique and deserves to receive dental care that reflects their individual wants and needs. Using the latest advances in dental technology, our dentists strive to help you achieve a happy, healthy smile you can’t wait to show off.
-                         <br><br>
-                         Srinivasa Dental Clinic has the best dentists in Kakinada. Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada.
+                        
                      </p>
                  </div>
              </div>
@@ -564,8 +563,8 @@
                          <h2 class="welcome_text_oncology">
                              Hear Why We Love What We Do</h2>
                          <p class=poetsen_font>
-                         Your dental team, led by Dr. Kiran Raju, is dedicated to making our practice patient-centered. We want each patient to feel like a member of the Srinivasa Dentistry family, confidently putting their trust in our team. Check our testimonials to see why we are passionate about our patients’ experience.<br><br>
-                         We will help you choose a custom care plan designed to achieve the smile of your dreams. Find out more about our dentists in Kakinada in the 'What Patients Say' section.
+                         Your dental team, led by <strong> Dr. Kiran Raju</strong>, is dedicated to making our practice patient-centered. We want each patient to feel like a member of the Srinivasa Dentistry family, confidently putting their trust in our team.  <br><br>
+                         We are dedicated to guiding you in selecting a customized dental treatment plan specifically designed to achieve your ideal smile. For further insights into our expert dentists in Kakinada, please visit the  <a href="testimonials.php"> 'What Patients Say'</a> section.
                          </p>
 
 
@@ -1096,28 +1095,7 @@
 
              </div>
          </div>
-         <!-- End Testimonials Section -->
-
-
-         <div class="container last_container ">
-             <div class="row">
-                 <div class="col-md-6 padding_text_madam order-2 order-md-1">
-                     <h1 class="madam_text">Become The Next
-                         Our </h1>
-                     <p class="text_mam">Scheduling an appointment at Srinivasa Dental is easy and convenient. Simply call us at +91-9290019948 or use our online booking system to choose a time that works for you.
-                     </p>
-                     <div class=" btn_div   ">
-                         <a href="appointment.php">
-                             <button class="read_more_btn">Book an Appointment </button>
-                         </a>
-                     </div>
-                 </div>
-                 <div class="col-md-6 order-1 order-md-2">
-                     <img src="assets/img/srinivasa/pro_mam.png" class="img-fluid mam_image" alt="">
-                 </div>
-
-             </div>
-         </div>
+         
 
 
 
