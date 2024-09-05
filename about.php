@@ -340,46 +340,56 @@
             </div>
           </div>
           <div class="col-6 col-md-6 col-lg-3 py-2">
-            <h1 class="helpful_link">Helpful Link</h1>
-            <a href="index.php">
-              <p class="foot_para">Home</p>
-            </a><a href="about.php">
-              <p class="foot_para">About us</p>
-            </a><a href="testimonials.php">
-              <p class="foot_para">What Patients Say</p>
-            </a><a href="blogs.php">
-              <p class="foot_para">Blog</p>
-            </a><a href="contact.php">
-              <p class="foot_para">Contact</p>
-            </a>
+                         <h1 class="helpful_link">Helpful Link</h1>
+                         <a href="index.php">
+                             <p class="foot_para">Home</p>
+                         </a><a href="about.php">
+                             <p class="foot_para">About us</p>
+                         </a><a href="testimonials.php">
+                             <p class="foot_para">What Patients Say</p>
+                         </a><a href="blogs.php">
+                             <p class="foot_para">Blog</p>
+                         </a><a href="contact.php">
+                             <p class="foot_para">Contact</p>
+                         </a>
 
-            <div class="d-flex">
-              <a
-                href="https://www.facebook.com/srinivasadentalkakinada/"
-                target="_blank">
-                <img
-                  src="assets/img/srinivasa/facebook.png"
-                  class="img-fluid"
-                  alt="" /></a>
-              &nbsp;&nbsp;
-              <a
-                href="https://www.instagram.com/srinivasadentalkakinada/"
-                target="_blank">
-                <img
-                  src="assets/img/srinivasa/instagram.png"
-                  class="img-fluid"
-                  alt="" /></a>
-              &nbsp;&nbsp;
+                         <div class="d-flex">
+                             <a
+                                 href="https://www.facebook.com/srinivasadentalkakinada/"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/facebook.png"
+                                     class="img-fluid"
+                                     alt="" /></a>
+                             &nbsp;&nbsp;
+                             <a
+                                 href="https://www.instagram.com/srinivasadentalkakinada/"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/instagram.png"
+                                     class="img-fluid"
+                                     alt="" /></a>
+                             &nbsp;&nbsp;
+                             <a
+                                 href=" https://www.linkedin.com/company/99449038/admin/dashboard/"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/linkedin.png"
+                                     class="img-fluid"
+                                     style="border-radius: 5px;"
+                                     alt="" /></a>
 
-              <a
-                href=" https://www.youtube.com/@srinivasadentalkakinada"
-                target="_blank">
-                <img
-                  src="assets/img/srinivasa/youtube.png"
-                  class="img-fluid"
-                  alt="" /></a>
-            </div>
-          </div>
+                             &nbsp;&nbsp;
+
+                             <a
+                                 href=" https://www.youtube.com/@srinivasadentalkakinada"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/youtube.png"
+                                     class="img-fluid"
+                                     alt="" /></a>
+                         </div>
+                     </div>
           <div class="col-6 col-md-6 col-lg-3 py-2">
             <h1 class="foot_head">Treatments</h1>
             <a href="rootcanal.php">
