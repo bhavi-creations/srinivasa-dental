@@ -382,7 +382,7 @@
                          <br><br>
                          Srinivasa Dental Clinichaving best Dentist In kakinada 
                          Our success is measured by each patient and each smile.Thats why we are Best dentist in
-                         kakinada
+                         kakinada.
                      </p>
                  </div>
              </div>
