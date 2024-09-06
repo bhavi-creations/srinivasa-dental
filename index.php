@@ -1299,37 +1299,41 @@
                 </a>
   
                 <div class="d-flex">
-                  <a
-                    href="https://www.facebook.com/srinivasadentalkakinada/"
-                    target="_blank"
-                  >
-                    <img
-                      src="assets/img/srinivasa/facebook.png"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  &nbsp;&nbsp;
-                  <a
-                    href="https://www.instagram.com/srinivasadentalkakinada/"
-                    target="_blank"
-                  >
-                    <img
-                      src="assets/img/srinivasa/instagram.png"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                  &nbsp;&nbsp;
-  
-                  <a
-                    href=" https://www.youtube.com/@srinivasadentalkakinada"
-                    target="_blank"
-                  >
-                    <img
-                      src="assets/img/srinivasa/youtube.png"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                </div>
+              <a
+                href="https://www.facebook.com/srinivasadentalkakinada/"
+                target="_blank">
+                <img
+                  src="assets/img/srinivasa/facebook.png"
+                  class="img-fluid"
+                  alt="" /></a>
+              &nbsp;&nbsp;
+              <a
+                href="https://www.instagram.com/srinivasadentalkakinada/"
+                target="_blank">
+                <img
+                  src="assets/img/srinivasa/instagram.png"
+                  class="img-fluid"
+                  alt="" /></a>
+              &nbsp;&nbsp;
+              <a
+                href=" https://www.linkedin.com/company/99449038/admin/dashboard/"
+                target="_blank">
+                <img
+                  src="assets/img/srinivasa/linkedin.png"
+                  class="img-fluid"
+                  style="border-radius: 5px;"
+                  alt="" /></a>
+
+              &nbsp;&nbsp;
+
+              <a
+                href=" https://www.youtube.com/@srinivasadentalkakinada"
+                target="_blank">
+                <img
+                  src="assets/img/srinivasa/youtube.png"
+                  class="img-fluid"
+                  alt="" /></a>
+            </div>
               </div>
               <div class="col-6 col-md-6 col-lg-3 py-2">
                 <h1 class="foot_head">Treatments</h1>
