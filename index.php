@@ -578,7 +578,7 @@
                              family, confidently putting their trust in our team. check our testimonials to see why we
                              are passionate about our patients’ experience. <br><br>
                              We will help you choose a custom care plan designed to help you accomplish the smile of
-                             your dreams find more about dentist in kakinada at our What Patients Say Section
+                             your dreams find more about dentist in kakinada at our What Patients Say Section.
                          </p>
 
 
