@@ -168,6 +168,8 @@ section.sectionForm {
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   margin-left: 1px;
+  padding-left: 10px;
+  height: auto;
 }
 button.makee {
   border-radius: 5px;
@@ -279,4 +281,12 @@ img.iimage3 {
 }
  .servImgg11{
   width: 10% !important;
- }
+ }h6.kamall {
+  color: #101078;
+  font-size: 18px;
+  font-family: 'Manrope';
+  font-weight: 800;
+  text-decoration: underline;
+}p.get_in_touch.read_hide.readerr {
+  font-size: 15px !important;
+}

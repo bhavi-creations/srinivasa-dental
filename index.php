@@ -948,8 +948,9 @@
                                      <div class="card-body ">
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
+                                             <h6 class="kamall mb-2">Kamala Gandi</h6>
 
-                                         <p class="card-text  text_of_the_card">"Excellent care and a friendly staff made my experience at Srinivasa Dental outstanding. Highly recommended!"</p>
+                                         <p class="card-text  text_of_the_card">"I Came here with Broken Tooth, Doctor Explain Everything about Treatment Procedure very Nicely, After Treatment Make my Smile Happy.All Hospital Staff Respond Politely. Thank You Srinivasa Dental Hospital"</p>
                                          <h5 class="card-title name_of_the_card">Mr Eswar</h5>
                                          <!-- <p class="card-text work_of_the_card"><small
                                                  class="text-muted">Designer</small></p> -->
@@ -970,7 +971,9 @@
                                      <div class="card-body ">
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
-                                         <p class="card-text  text_of_the_card">"Fantastic service at Srinivasa Dental! The team was professional and made my visit comfortable and effective."</p>
+                                             <h6 class="kamall mb-2">Kamala Gandi</h6>
+
+                                         <p class="card-text  text_of_the_card">"Started Smile journey with ceramic braces Srinivasa dental. Had a very fantastic experience with friendly staff and environment.Dr.Kiran Raju is knowledgeable and compatible.must visit place for all dental treatments.100% recommended. Best Dental hospital in kakinada for sure."</p>
                                          <h5 class="card-title name_of_the_card">Mr Harsha</h5>
                                          <!-- <p class="card-text work_of_the_card"><small
                                                  class="text-muted">Designer</small></p> -->
