@@ -99,7 +99,7 @@
                              <rect width="14" height="14" fill="white" transform="matrix(1 0 0 -1 0 14)" />
                          </clipPath>
                      </defs>
-                 </svg> Monday - Saturday: 9am - 9.30pm
+                 </svg> Monday - Saturday: 9am - 8.30pm
                  &nbsp;
                  |
                  &nbsp;
@@ -224,15 +224,15 @@
                                      <rect width="14" height="14" fill="white" transform="translate(0.970215 0.5)" />
                                  </clipPath>
                              </defs>
-                         </svg> &nbsp; Hey!  Welcome to DentalPro</p>
+                         </svg> &nbsp;   Welcome to Srinivasa Dental !</p>
 
                      <h1 class="transform_smile">Transform <span class="smile_text">Your Smile <img
                                  src="assets/img/services/2.png" alt="" class="img-fluid topimg">
                          </span> with Expert Dental
                          Care</h1>
-                     <p class="mt-4 mb-4">Enjoy high-quality dental care in a comfortable and friendly setting. Start
+                     <p class="mt-4 mb-4">Enjoy high-quality dental care in a comfortable and friendly environment. Start
                          your journey @ Srinivasa Dental for
-                         healthier, brighter smile today!</p>
+                        <span class="heailther_text"> healthier, brighter smile</span> today!</p>
 
                      <div class="d-flex  buttons_section_banner">
                          <div class="">

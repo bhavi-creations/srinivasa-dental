@@ -3872,3 +3872,57 @@ img.img-fluid.yimg {
   opacity: 0;
   transition-delay: 0.2s; /* Delay for the previous slide too */
 }
+
+
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+.custom-swiper-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  /* No need for display: flex here */
+}
+
+.swiper-slide {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.heailther_text{
+  font-weight:900 ;
+  color: #000a2d;
+}

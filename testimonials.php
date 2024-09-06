@@ -42,14 +42,7 @@
 
 </head>
 
-<style>
-  @media (min-width:992px) {
 
-    .showthisdiv {
-      padding-left: 100px !important;
-    }
-  }
-</style>
 
 <body>
 
@@ -136,7 +129,7 @@
     <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
-          <div class="col-md-7 dr_content_padding  order-1 order-md-1">
+          <div class="col-md-7 dr_content_padding   ">
             <h5 class="poetsen_font11">What Patients Say</h2>
               <h2 class="dr_welcome_text1 mt-2 mb-0">Excellent</h2>
               <img src="assets/img/services/s3.png" class="img-fluid dr_img_padding servImgg" alt="">
@@ -257,10 +250,29 @@
               </div>
           </div>
 
-          <div class="col-md-5 order-3  order-md-2 mt-5">
-            
-            <img src="assets/img/services/s4.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+          <div class="col-md-5 mt-5 text-center">
+            <div class="custom-swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/services/s4.png" class="img-fluid custom-img-padding" alt="Dental Image 1" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/services/s2.png" class="img-fluid custom-img-padding" alt="Dental Braces" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/services/s1.png" class="img-fluid custom-img-padding" alt="Dental Image 2" loading="lazy">
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <!-- <div class="swiper-pagination"></div> -->
+
+              <!-- Add Navigation -->
+              <!-- <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
+            </div>
           </div>
+
+
 
 
         </div>
@@ -268,39 +280,63 @@
     </section>
 
     <script>
-  let currentSlide = 0;
-  const slides = document.querySelectorAll('.carousel .slide');
-  const totalSlides = slides.length;
-  let slideInterval = setInterval(autoSlide, 3000); // Auto slide every 3 seconds
+      let currentSlide = 0;
+      const slides = document.querySelectorAll('.carousel .slide');
+      const totalSlides = slides.length;
+      let slideInterval = setInterval(autoSlide, 3000); // Auto slide every 3 seconds
 
-  // Function to move the slide manually
-  function moveSlide(step) {
-    clearInterval(slideInterval); // Stop auto sliding when manually moving
-    currentSlide = (currentSlide - step + totalSlides) % totalSlides; // Reverse direction fix
-    updateSlide();
-    slideInterval = setInterval(autoSlide, 3000); // Restart auto sliding after manual move
-  }
+      // Function to move the slide manually
+      function moveSlide(step) {
+        clearInterval(slideInterval); // Stop auto sliding when manually moving
+        currentSlide = (currentSlide - step + totalSlides) % totalSlides; // Reverse direction fix
+        updateSlide();
+        slideInterval = setInterval(autoSlide, 3000); // Restart auto sliding after manual move
+      }
 
-  // Function to auto-slide
-  function autoSlide() {
-    currentSlide = (currentSlide + 1) % totalSlides;
-    updateSlide();
-  }
+      // Function to auto-slide
+      function autoSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateSlide();
+      }
 
-  // Function to update the slide position
-  function updateSlide() {
-    document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
-  }
+      // Function to update the slide position
+      function updateSlide() {
+        document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
+      }
 
-  // Event listeners for previous and next buttons
-  document.querySelector('.prev').addEventListener('click', function() {
-    moveSlide(-1); // Move to the previous slide
-  });
+      // Event listeners for previous and next buttons
+      document.querySelector('.prev').addEventListener('click', function() {
+        moveSlide(-1); // Move to the previous slide
+      });
 
-  document.querySelector('.next').addEventListener('click', function() {
-    moveSlide(1); // Move to the next slide
-  });
-</script>
+      document.querySelector('.next').addEventListener('click', function() {
+        moveSlide(1); // Move to the next slide
+      });
+    </script>
+
+
+     
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const swiper = new Swiper('.custom-swiper-container', {
+          loop: true,
+          effect: 'fade',
+          autoplay: {
+            delay: 2000, // 2 seconds interval
+            disableOnInteraction: false, // Continue autoplay after user interactions
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      });
+    </script>
 
 
 
