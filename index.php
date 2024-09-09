@@ -46,9 +46,9 @@
      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
-     <!-- Updated Font Awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
+ 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
 
  </head>
 
@@ -320,7 +320,7 @@
 
                      <div class="col-md-6 order-2 order-md-1" data-aos="fade-right">
                          <iframe class="video-frame   img_padding"
-                             src="https://www.youtube.com/embed/UEm0ustQR1I?start=7&autoplay=1&mute=1&loop=1"
+                             src="https://www.youtube.com/embed/UEm0ustQR1I?start=7&autoplay=1&mute=1&loop=10"
                              frameborder="0"
                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                              allowfullscreen>
@@ -1029,16 +1029,16 @@
                                      <div class="card-body ">
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
-                                         <h6 class="kamall mb-2">Kamala Gandi</h6>
+                                         
 
-                                         <p class="card-text  text_of_the_card">"I Came here with Broken Tooth, Doctor Explain Everything about Treatment Procedure very Nicely, After Treatment Make my Smile Happy.All Hospital Staff Respond Politely. Thank You Srinivasa Dental Hospital"</p>
-                                         <h5 class="card-title name_of_the_card">Mr Eswar</h5>
+                                         <p class="card-text  text_of_the_card">"My name is Kamala suffering from tooth pains severely and as suggested by my brother I have gone to the Srinivasa Multi Speciality Dental hospital Kakinada for the treatment. Dr. Kiran Raju garu checked and advised me for the full mouth rehabilitation due to cavities and deterioration..."</p>
+                                         <h6 class="card-title name_of_the_card kamall">Mrs.Kamala Gandi</h6>
                                          <!-- <p class="card-text work_of_the_card"><small
                                                  class="text-muted">Designer</small></p> -->
                                      </div>
                                  </div>
                                  <div class="col-md-4 d-flex flex-row justify-content-end">
-                                     <img src="assets/img/services/s5.png" class="img-fluid rounded-start" alt="...">
+                                     <img src="assets/img/services/kamalagandhi.png" class="img-fluid rounded-start" alt="...">
                                  </div>
 
 
@@ -1052,16 +1052,17 @@
                                      <div class="card-body ">
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
-                                         <h6 class="kamall mb-2">Kamala Gandi</h6>
+                                        
 
-                                         <p class="card-text  text_of_the_card">"Started Smile journey with ceramic braces Srinivasa dental. Had a very fantastic experience with friendly staff and environment.Dr.Kiran Raju is knowledgeable and compatible.must visit place for all dental treatments.100% recommended. Best Dental hospital in kakinada for sure."</p>
-                                         <h5 class="card-title name_of_the_card">Mr Harsha</h5>
+                                         <p class="card-text  text_of_the_card">" I am Ravi Babu and visited Srinivasa Multi Speciality Dental Hospital for replacement of metal crowns with zirconia crowns. The hospital ambiance is pleasant, elegant, neat and clean. Doctors and supporting staff are excellent..."</p>
+                                         <h6 class="card-title name_of_the_card kamall">Mr.M Ravi Babu</h6>
+
                                          <!-- <p class="card-text work_of_the_card"><small
                                                  class="text-muted">Designer</small></p> -->
                                      </div>
                                  </div>
                                  <div class="col-md-4 d-flex flex-row justify-content-end">
-                                     <img src="assets/img/services/t1.png" class="img-fluid rounded-start" alt="...">
+                                     <img src="assets/img/services/ravi.png" class="img-fluid rounded-start" alt="...">
                                  </div>
 
 
@@ -1155,14 +1156,14 @@
                      <?php endwhile; ?>
 
                      <div class="mt-5 d-none d-md-block">
-                         <a href="blogs.php">
+                         <a href="blogs.php" style="text-decoration: none;">
                              <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i
                                      class="fa-solid fa-arrow-right mt-1"></i></p>
                          </a>
                      </div>
 
                      <div class="d-flex flex-row justify-content-center mt-4">
-                         <a href="blogs.php">
+                         <a href="blogs.php"  style="text-decoration: none;">
                              <p class="view_more_btn d-md-none">View More<i class="fa-solid fa-arrow-right"></i></p>
                          </a>
                      </div>
@@ -1188,7 +1189,7 @@
                      </div>
                  </div>
                  <div class="col-md-6 order-1 order-md-2">
-                     <img src="assets/img/srinivasa/pro_mam.png" class="img-fluid mam_image" alt="">
+                     <img src="assets/img/srinivasa/deep.png" class="img-fluid mam_image" alt="">
                  </div>
 
              </div>
@@ -1350,7 +1351,7 @@
                          </div>
                      </div>
                      <div class="col-6 col-md-6 col-lg-3 py-2">
-                         <h1 class="helpful_link">Helpfull Link</h1>
+                         <h1 class="helpful_link">Helpful Link</h1>
                          <a href="index.php">
                              <p class="foot_para">Home</p>
                          </a><a href="about.php">
@@ -1448,38 +1449,38 @@
          </div>
 
          <div
-             class="footer-area-bottom theme-bg"
-             style="background-color: #000a2d">
-             <div class="container">
-                 <div class="row pt-4">
+      class="footer-area-bottom theme-bg"
+      style="background-color: #000a2d">
+      <div class="container">
+        <div class="row pt-4">
 
-                     <div class="  col-md-6 col-12">
-                         <div class="footer-widget__copyright-info info-direction">
-                             <p class="  last_text">
-                                 <a
-                                     href="terms.html"
-                                     style="text-decoration: none; color: #ffffff">Terms & conditions
-                                 </a>
-                                 <a
-                                     href="privacy.html"
-                                     style="text-decoration: none; color: #ffffff">
-                                     Privacy & policy</a>
-                             </p>
-                         </div>
-                     </div>
+          <div class="  col-md-6 col-12">
+            <div class="footer-widget__copyright-info info-direction">
+              <p class="  last_text">
+                <a
+                  href="terms.html"
+                  style="text-decoration: none; color: #ffffff">Terms & conditions
+                </a>
+                <a
+                  href="privacy.html"
+                  style="text-decoration: none; color: #ffffff">
+                  Privacy & policy</a>
+              </p>
+            </div>
+          </div>
 
-                     <div class="col-md-6 col-12 second_divv_end_brand">
-                         <div class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center">
-                             <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff; display: flex; align-items: center;">
-                                 <p class="mini_text last_text mb-0">
-                                     Branding By @
-                                 </p>
-                                 <img src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png" class="img-fluid brand_image" alt="">
-                             </a>
-                         </div>
-                     </div>
+          <div class="col-md-6 col-12 second_divv_end_brand">
+            <div class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center">
+              <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff; display: flex; align-items: center;">
+                <p class="mini_text last_text mb-0">
+                  Branding By @
+                </p>
+                <img src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png" class="img-fluid brand_image" alt="">
+              </a>
+            </div>
+          </div>
 
-                     <!--  
+          <!--  
                       <div class="col-xl-8 col-lg-9 col-md-12 col-12">
                           <div class="footer-widget__copyright">
                               <p class="mini_text last_text" style="color: #ffffff">
@@ -1490,9 +1491,9 @@
                               </p>
                           </div>
                       </div> -->
-                 </div>
-             </div>
-         </div>
+        </div>
+      </div>
+    </div>
      </footer>
 
 

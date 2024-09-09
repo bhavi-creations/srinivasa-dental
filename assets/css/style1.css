@@ -158,7 +158,7 @@ button.next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 img.img-fluid.rounded-start.crdImg {
-  padding: 6px 0px 0px 38px;
+  padding: 0px 0px 0px 38px;
 }
 section.sectionForm {
   padding-top: 0px;

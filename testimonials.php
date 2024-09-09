@@ -119,19 +119,19 @@
 
 
         <script>
-        // jQuery needed to manage hover and click behavior
-        $(document).ready(function() {
-            // Ensure that the dropdown opens on hover
-            $('#servicesDropdown').hover(function() {
-                $(this).dropdown('toggle');
-            });
+            // jQuery needed to manage hover and click behavior
+            $(document).ready(function() {
+                // Ensure that the dropdown opens on hover
+                $('#servicesDropdown').hover(function() {
+                    $(this).dropdown('toggle');
+                });
 
-            // Make sure the dropdown also works on click
-            $('#servicesDropdown').click(function(e) {
-                e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-                window.location.href = $(this).attr('href'); // Redirect to the link
+                // Make sure the dropdown also works on click
+                $('#servicesDropdown').click(function(e) {
+                    e.stopPropagation(); // Prevents the click from closing the dropdown immediately
+                    window.location.href = $(this).attr('href'); // Redirect to the link
+                });
             });
-        });
         </script>
     </header>
 
@@ -153,24 +153,26 @@
                                     <div class="slide">
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
-                                            <div class="col-md-8">
+                                                <div class="col-md-8">
 
-                                                <div class="card-body">
-                                                    
-                                                <h6 class="kamall mb-2">Kamala Gandi</h6>
+                                                    <div class="card-body">
 
-                                                         <p class="text_of_the_card">
+                                                        <h6 class="kamall mb-2">Mrs.Kamala Gandi</h6>
+
+                                                        <p class="text_of_the_card">
                                                             "My name is Kamala suffering from tooth pains severely and
                                                             as suggested by my brother I have gone to the Srinivasa
-                                                            Multi Speciality Dental hospital Kakinada for the treatment.
-                                                           
+                                                            Multi Speciality  Dental hospital Kakinada...
+                                                            <span class="get_in_touch read_hide readMoreBtn" style="color: #535460; cursor: pointer;" onclick="toggleReadMore()">
+                                                                Read More <i class="fa-solid fa-arrow-right"></i>
+                                                            </span>
                                                         </p>
 
-                                                        <div class="showthisdiv" style="display:none; " >
+                                                        <div class="showthisdiv" style="display:none; ">
                                                             <p class="text_of_the_card">
-                                                            Dr. Kiran Raju garu checked and advised me for the full
-                                                            mouth rehabilitation due to cavities and   deterioration of my
-                                                            teeth. I agreed and the treatment started.  Dr. Kiran Raju garu, Dr. Deepika, Dr.Deepa, Dr.Manogna,
+                                                            for the treatment.  Dr. Kiran Raju garu checked and advised me for the full
+                                                                mouth rehabilitation due to cavities and deterioration of my
+                                                                teeth. I agreed and the treatment started. Dr. Kiran Raju garu, Dr. Deepika, Dr.Deepa, Dr.Manogna,
                                                                 Dr. Krishna Teja have given very good treatment in a
                                                                 smooth manner so that I experienced less pain feeling.
                                                                 The Receptionists and assistants are also very polite
@@ -178,293 +180,280 @@
                                                                 satisfied with the treatment of Dr Kiran Raju garu and
                                                                 his team as I am happy with positive result in the
                                                                 Srinivasa Multi Speciality Dental Hospital Kakinada."
+
                                                             </p>
+                                                            <span class="get_in_touch read_hide readLessBtn" style="color: #535460; cursor: pointer;" onclick="toggleReadMore()">
+                                                                Read Less <i class="fa-solid fa-arrow-up"></i>
+                                                            </span>
                                                         </div>
 
-                                                        <div class="d-flex flex-row justify-content-start ">
-                                                            <p class="get_in_touch read_hide readerr"
-                                                                style="color: #535460; cursor: pointer;"
-                                                                onclick="toggleReadMore()">
-                                                                Read More <i class="fa-solid fa-arrow-right"></i>
-                                                            </p>
-                                                        </div>
 
- 
+
+
                                                     </div>
-                                            </div>
-                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/t3.png"
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="assets/img/services/kamalagandhi.png"
                                                         class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
-                                            <div class="col-md-8">
+                                                <div class="col-md-8">
 
-                                                <div class="card-body">
-                                                    <!-- <img src="assets/img/services/1.png" alt=""
+                                                    <div class="card-body">
+                                                        <!-- <img src="assets/img/services/1.png" alt=""
                                                         class="img-fluid testy1"> -->
-                                                        <h6 class="kamall mb-2">Kamala Gandi</h6>
+                                                        <h6 class="kamall mb-2">Mr.Sai Vishnu</h6>
 
-                                                         <p class="text_of_the_card">
-                                                         Dr Kiran Raju sir(Srinivasa dental kakinada) sir is an amazing dentist I have met in my life he treated me like family member in this entire period of my braces treatment process 
+                                                        <p class="text_of_the_card">
+                                                            Dr Kiran Raju sir(Srinivasa dental kakinada) sir is an amazing dentist I have met in my life he treated me like family member in this entire period of my braces treatment process... <span class="get_in_touch read_hide readMoreBtn1" style="color: #535460; cursor: pointer;" onclick="toggleReadMore1()">
+                                                                Read More <i class="fa-solid fa-arrow-right"></i>
+                                                            </span>
                                                         </p>
 
-                                                        <div class="showthisdiv1" style="display:none; " >
+                                                        <div class="showthisdiv1" style="display:none; ">
                                                             <p class="text_of_the_card">
-                                                            i'am glad to complete my treatment smoothly in this hospital last but not least supporting doctors and staff are also so friendly I really appreciate the staff members also finally a big thank you to all the members of Srinivasa.
-                                                            </p>
-                                                        </div>
-
-                                                        <div class="d-flex flex-row justify-content-start">
-                                                            <p class="get_in_touch read_hide readerr"
-                                                                style="color: #535460; cursor: pointer;"
-                                                                onclick="toggleReadMore1()">
-                                                                Read More <i class="fa-solid fa-arrow-right"></i>
-                                                            </p>
+                                                                i'am glad to complete my treatment smoothly in this hospital last but not least supporting doctors and staff are also so friendly I really appreciate the staff members also finally a big thank you to all the members of Srinivasa.
+                                                            </p> <span class="get_in_touch read_hide readLessBtn1" style="color: #535460; cursor: pointer;" onclick="toggleReadMore1()">
+                                                                Read Less <i class="fa-solid fa-arrow-up"></i>
+                                                            </span>
                                                         </div>
 
 
-                                                                                                           </div>
-                                            </div>
-                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/t3.png"
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="assets/img/services/sai vishnu.png"
                                                         class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slide">
-                                    <div class="card mb-3 testCard" style="max-width: auto;">
+                                        <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
-                                            <div class="col-md-8">
+                                                <div class="col-md-8">
 
-                                                <div class="card-body">
-                                                    <!-- <img src="assets/img/services/1.png" alt=""
+                                                    <div class="card-body">
+                                                        <!-- <img src="assets/img/services/1.png" alt=""
                                                         class="img-fluid testy1"> -->
-                                                        <h6 class="kamall mb-2">Kamala Gandi</h6>
+                                                        <h6 class="kamall mb-2">Mr.Ravi Babu</h6>
 
-                                                         <p class="text_of_the_card">
-                                                         I am Ravi Babu and visited Srinivasa Multi Speciality Dental Hospital for replacement of metal crowns with zirconia crowns. The hospital ambiance is pleasant, elegant, neat and clean. Doctors and supporting staff are excellent.
+                                                        <p class="text_of_the_card">
+                                                            I am Ravi Babu and visited Srinivasa Multi Speciality Dental Hospital for replacement of metal crowns with zirconia crowns. The hospital ambiance is pleasant, elegant...
+                                                            <span class="get_in_touch read_hide readMoreBtn2" style="color: #535460; cursor: pointer;" onclick="toggleReadMore2()">
+                                                                Read More <i class="fa-solid fa-arrow-right"></i>
+                                                            </span>
                                                         </p>
 
-                                                        <div class="showthisdiv2" style="display:none; " >
+                                                        <div class="showthisdiv2" style="display:none; ">
                                                             <p class="text_of_the_card">
-                                                            The approach of Dr Kiran Raju garu is excellent and felt that I am in safe hands. His patience, fun creating calibre, caring charter, creating comfortable atmosphere are exceptional. Thank you so much Dr Kiran Raju garu for your outstanding professionalism, other skilled doctors, hygiene maintenance in hospital and courteous staff.
-                                                            </p>
-                                                        </div>
-
-                                                        <div class="d-flex flex-row justify-content-start">
-                                                            <p class="get_in_touch read_hide readerr"
-                                                                style="color: #535460; cursor: pointer;"
-                                                                onclick="toggleReadMore2()">
-                                                                Read More <i class="fa-solid fa-arrow-right"></i>
-                                                            </p>
+                                                            , neat and clean. Doctors and supporting staff are excellent.  The approach of Dr Kiran Raju garu is excellent and felt that I am in safe hands. His patience, fun creating calibre, caring charter, creating comfortable atmosphere are exceptional. Thank you so much Dr Kiran Raju garu for your outstanding professionalism, other skilled doctors, hygiene maintenance in hospital and courteous staff.
+                                                            </p> <span class="get_in_touch read_hide readLessBtn2" style="color: #535460; cursor: pointer;" onclick="toggleReadMore2()">
+                                                                Read Less <i class="fa-solid fa-arrow-up"></i>
+                                                            </span>
                                                         </div>
 
 
-                                                      
+
                                                     </div>
-                                            </div>
-                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/t3.png"
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="assets/img/services/ravi.png"
                                                         class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
-                                    
+
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
-                                            <div class="col-md-8">
+                                                <div class="col-md-8">
 
-                                                <div class="card-body">
-                                                    <!-- <img src="assets/img/services/1.png" alt=""
+                                                    <div class="card-body">
+                                                        <!-- <img src="assets/img/services/1.png" alt=""
                                                         class="img-fluid testy1"> -->
-                                                        <h6 class="kamall mb-2">Kamala Gandi</h6>
+                                                        <h6 class="kamall mb-2">Mr.Eswar</h6>
 
-                                                         <p class="text_of_the_card">
-                                                         I Came here with Broken Tooth, Doctor Explain Everything about Treatment Procedure very Nicely, After Treatment Make my Smile Happy.All Hospital Staff Respond Politely.
+                                                        <p class="text_of_the_card">
+                                                            I Came here with Broken Tooth, Doctor Explain Everything about Treatment Procedure very Nicely, After Treatment Make my Smile Happy.All Hospital Staff Respond Politely...
+                                                            <span class="get_in_touch read_hide readMoreBtn3" style="color: #535460; cursor: pointer;" onclick="toggleReadMore3()">
+                                                                Read More <i class="fa-solid fa-arrow-right"></i>
+                                                            </span>
                                                         </p>
 
-                                                        <div class="showthisdiv3" style="display:none; " >
+                                                        <div class="showthisdiv3" style="display:none; ">
                                                             <p class="text_of_the_card">
-                                                            Thank You Srinivasa Dental Hospital
-                                                            </p>
-                                                        </div>
-
-                                                        <div class="d-flex flex-row justify-content-start">
-                                                            <p class="get_in_touch read_hide readerr"
-                                                                style="color: #535460; cursor: pointer;"
-                                                                onclick="toggleReadMore3()">
-                                                                Read More <i class="fa-solid fa-arrow-right"></i>
-                                                            </p>
+                                                                Thank You Srinivasa Dental Hospital
+                                                            </p> <span class="get_in_touch read_hide readLessBtn3" style="color: #535460; cursor: pointer;" onclick="toggleReadMore3()">
+                                                                Read Less <i class="fa-solid fa-arrow-up"></i>
+                                                            </span>
                                                         </div>
 
 
-                                                      
+
+
                                                     </div>
-                                            </div>
-                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/t3.png"
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="assets/img/services/eswar.png"
                                                         class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slide">
-                                    <div class="card mb-3 testCard" style="max-width: auto;">
+
+                                        <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
-                                            <div class="col-md-8">
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <h6 class="kamall mb-2">Ms. Ramya Thoti</h6>
 
-                                                <div class="card-body">
-                                                    <!-- <img src="assets/img/services/1.png" alt=""
-                                                        class="img-fluid testy1"> -->
-                                                        <h6 class="kamall mb-2">Kamala Gandi</h6>
-
-                                                         <p class="text_of_the_card">
-                                                         This is hands down the best dental hospital I've ever visited. The staff is incredibly warm and welcoming, and the doctor is exceptional. They made the entire treatment process feel personal and caring.
+                                                        <!-- First part of the text (visible by default) -->
+                                                        <p class="text_of_the_card">
+                                                            This is hands down the best dental hospital I've ever visited. The staff is incredibly warm and welcoming, and the doctor is exceptional. They made the entire ...
+                                                            <!-- "Read More" text included at the end of the first paragraph -->
+                                                            <span class="get_in_touch read_hide readMoreBtn4" style="color: #535460; cursor: pointer;" onclick="toggleReadMore4()">
+                                                                Read More <i class="fa-solid fa-arrow-right"></i>
+                                                            </span>
                                                         </p>
 
-                                                        <div class="showthisdiv4" style="display:none; " >
+                                                        <!-- Second part of the text (hidden initially) -->
+                                                        <div class="showthisdiv4" style="display:none;">
                                                             <p class="text_of_the_card">
-                                                            As someone with a low pain tolerance and a fear of dental visits, I was pleasantly surprised by how the doctor eased my anxiety and made the experience comfortable. I highly recommend this doctor and hospital to anyone seeking excellent dental care. Here's the proof!
+                                                            treatment process feel personal and caring.   As someone with a low pain tolerance and a fear of dental visits, I was pleasantly surprised by how the doctor eased my anxiety and made the experience comfortable. I highly recommend this doctor and hospital to anyone seeking excellent dental care. Here's the proof!
                                                             </p>
+                                                            <!-- "Read Less" link at the end of the second paragraph -->
+                                                            <span class="get_in_touch read_hide readLessBtn4" style="color: #535460; cursor: pointer;" onclick="toggleReadMore4()">
+                                                                Read Less <i class="fa-solid fa-arrow-up"></i>
+                                                            </span>
                                                         </div>
-
-                                                        <div class="d-flex flex-row justify-content-start">
-                                                            <p class="get_in_touch read_hide readerr"
-                                                                style="color: #535460; cursor: pointer;"
-                                                                onclick="toggleReadMore4()">
-                                                                Read More <i class="fa-solid fa-arrow-right"></i>
-                                                            </p>
-                                                        </div>
-
-
-                                                       
                                                     </div>
-                                            </div>
-                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/t3.png"
-                                                        class="img-fluid rounded-start crdImg" alt="...">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="assets/img/services/ramya.png" class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
-                                            <div class="col-md-8">
+                                                <div class="col-md-8">
 
-                                                <div class="card-body">
-                                                    <!-- <img src="assets/img/services/1.png" alt=""
+                                                    <div class="card-body">
+                                                        <!-- <img src="assets/img/services/1.png" alt=""
                                                         class="img-fluid testy1"> -->
-                                                        <h6 class="kamall mb-2">Kamala Gandi</h6>
+                                                        <h6 class="kamall mb-2">Mr.Venkata Reddy</h6>
 
-                                                         <p class="text_of_the_card">
-                                                         Hi lam Venkat reddy from Mamidada. I had a wonderful experience at my recent appointment. The staff was incredibly friendly and welcoming, making me feel at ease right away.
+                                                        <p class="text_of_the_card">
+                                                            Hi lam Venkat reddy from Mamidada. I had a wonderful experience at my recent appointment. The staff was incredibly friendly and welcoming, making me ...
+                                                            <span class="get_in_touch read_hide readMoreBtn5" style="color: #535460; cursor: pointer;" onclick="toggleReadMore5()">
+                                                                Read More <i class="fa-solid fa-arrow-right"></i>
+                                                            </span>
                                                         </p>
 
-                                                        <div class="showthisdiv5" style="display:none; " >
+                                                        <div class="showthisdiv5" style="display:none; ">
                                                             <p class="text_of_the_card">
-                                                            Dr. Kiran raju and Dr. Deepika are very knowledgeable and took the time to explain everything to me in a way that was easy to understand. The office was clean and modern and the greenery they maintain is top notch which added to the overall positive experience. I left feeling confident in the care I received and would highly recommend this dental practice to anyone in need of a great dentist!
-                                                            </p>
-                                                        </div>
-
-                                                        <div class="d-flex flex-row justify-content-start">
-                                                            <p class="get_in_touch read_hide readerr"
-                                                                style="color: #535460; cursor: pointer;"
-                                                                onclick="toggleReadMore5()">
-                                                                Read More <i class="fa-solid fa-arrow-right"></i>
-                                                            </p>
+                                                            feel at ease right away. Dr. Kiran raju and Dr. Deepika are very knowledgeable and took the time to explain everything to me in a way that was easy to understand. The office was clean and modern and the greenery they maintain is top notch which added to the overall positive experience. I left feeling confident in the care I received and would highly recommend this dental practice to anyone in need of a great dentist!
+                                                            </p> <span class="get_in_touch read_hide readLessBtn5" style="color: #535460; cursor: pointer;" onclick="toggleReadMore5()">
+                                                                Read Less <i class="fa-solid fa-arrow-up"></i>
+                                                            </span>
                                                         </div>
 
 
-                                                        
+
+
+
                                                     </div>
-                                            </div>
-                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/t3.png"
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="assets/img/services/venkat reddy.png"
                                                         class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="slide">
-                                    <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-                                            <div class="col-md-8">
 
-                                                <div class="card-body">
-                                                    <!-- <img src="assets/img/services/1.png" alt=""
-                                                        class="img-fluid testy1"> -->
-                                                        <h6 class="kamall mb-2">Kamala Gandi</h6>
-
-                                                         <p class="text_of_the_card">
-                                                         I am varma and visited [srinivasa Dental Clinic Name] for the replacement of metal crowns with zirconia crowns. The clinic ambiance is welcoming, elegant, neat, and clean. The doctors and supporting staff are exceptional. 
-
-
-                                                        </p>
-
-                                                        <div class="showthisdiv6" style="display:none; " >
-                                                            <p class="text_of_the_card">
-                                                            The approach of Dr. Kiran Raju garu is remarkable, and I felt I was in safe hands. His patience, ability to create a comfortable and relaxed environment, and caring nature are outstanding. I am incredibly grateful to Dr. Kiran Raju garu for his professionalism, the other skilled doctors, the high level of hygiene in the clinic, and the courteous staff.
-                                                            </p>
-                                                        </div>
-
-                                                        <div class="d-flex flex-row justify-content-start">
-                                                            <p class="get_in_touch read_hide readerr"
-                                                                style="color: #535460; cursor: pointer;"
-                                                                onclick="toggleReadMore6()">
-                                                                Read More <i class="fa-solid fa-arrow-right"></i>
-                                                            </p>
-                                                        </div>
-
-
-                                                   
-                                                    </div>
-                                            </div>
-                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/t3.png"
-                                                        class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
-                                            <div class="col-md-8">
+                                                <div class="col-md-8">
 
-                                                <div class="card-body">
-                                                    <!-- <img src="assets/img/services/1.png" alt=""
+                                                    <div class="card-body">
+                                                        <!-- <img src="assets/img/services/1.png" alt=""
                                                         class="img-fluid testy1"> -->
-                                                        <h6 class="kamall mb-2">Kamala Gandi</h6>
+                                                        <h6 class="kamall mb-2">Mrs.Venkata Durga</h6>
 
-                                                         <p class="text_of_the_card">
-                                                         Started Smile journey with ceramic braces Srinivasa dental. Had a very fantastic experience with friendly staff and environment.Dr.Kiran Raju is knowledgeable and compatible.
+                                                        <p class="text_of_the_card">
+                                                            Started Smile journey with ceramic braces Srinivasa dental. Had a very fantastic experience with friendly staff and environment.Dr.Kiran Raju is knowledgeable and compatible...
+                                                            <span class="get_in_touch read_hide readMoreBtn6" style="color: #535460; cursor: pointer;" onclick="toggleReadMore6()">
+                                                                Read More <i class="fa-solid fa-arrow-right"></i>
+                                                            </span>
                                                         </p>
 
-                                                        <div class="showthisdiv7" style="display:none; " >
+                                                        <div class="showthisdiv6" style="display:none; ">
                                                             <p class="text_of_the_card">
-                                                            must visit place for all dental treatments.100% recommended. Best Dental hospital in kakinada for sure.
-                                                            </p>
-                                                        </div>
-
-                                                        <div class="d-flex flex-row justify-content-start">
-                                                            <p class="get_in_touch read_hide readerr"
-                                                                style="color: #535460; cursor: pointer;"
-                                                                onclick="toggleReadMore7()">
-                                                                Read More <i class="fa-solid fa-arrow-right"></i>
-                                                            </p>
+                                                                must visit place for all dental treatments.100% recommended. Best Dental hospital in kakinada for sure.
+                                                            </p> <span class="get_in_touch read_hide readLessBtn6" style="color: #535460; cursor: pointer;" onclick="toggleReadMore6()">
+                                                                Read Less <i class="fa-solid fa-arrow-up"></i>
+                                                            </span>
                                                         </div>
 
 
-                                                       
+
+
+
                                                     </div>
-                                            </div>
-                                                 <div class="col-md-4">
-                                                    <img src="assets/img/services/t3.png"
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="assets/img/services/venkat durga.png"
                                                         class="img-fluid rounded-start crdImg" alt="...">
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <div class="card mb-3 testCard" style="max-width: auto;">
+                                            <div class="row g-0">
+                                                <div class="col-md-8">
+
+                                                    <div class="card-body">
+                                                        <!-- <img src="assets/img/services/1.png" alt=""
+                                                        class="img-fluid testy1"> -->
+                                                        <h6 class="kamall mb-2">Mr.Sarabha Kavi</h6>
+
+                                                        <p class="text_of_the_card">
+                                                        My name is Kavi, I came to Srinivasa multispecialty dental hospital Rama rao peta Kakinada for my wisdom tooth removal. Dr Kiranraju Garu treated me very well and the tooth ...
+                                                            <span class="get_in_touch read_hide readMoreBtn7" style="color: #535460; cursor: pointer;" onclick="toggleReadMore7()">
+                                                                Read More <i class="fa-solid fa-arrow-right"></i>
+                                                            </span>
+                                                        </p>
+
+                                                        <div class="showthisdiv7" style="display:none; ">
+                                                            <p class="text_of_the_card">
+                                                            removal was so smooth that I didn’t feel even a single point of pain.. here the Staff and doctors are very friendly and good knowledgeable. I can proudly say that this is the best dental hospital in and around Kakinada and I want to thank team Srinivas Dental for the best dental services you’re providing for the people of Kakinada.
+                                                            </p> <span class="get_in_touch read_hide readLessBtn7" style="color: #535460; cursor: pointer;" onclick="toggleReadMore7()">
+                                                                Read Less <i class="fa-solid fa-arrow-up"></i>
+                                                            </span>
+                                                        </div>
+
+
+
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="assets/img/services/kavi.png"
+                                                        class="img-fluid rounded-start crdImg" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+
+
                                     </div>
                                 </div>
                                 <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
@@ -493,7 +482,7 @@
 
                             <!-- Add Navigation -->
                             <!-- <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div> -->
+                            <div class="swiper-button-next"></div> -->
                         </div>
                     </div>
 
@@ -505,62 +494,62 @@
         </section>
 
         <script>
-        let currentSlide = 0;
-        const slides = document.querySelectorAll('.carousel .slide');
-        const totalSlides = slides.length;
-        let slideInterval = setInterval(autoSlide, 5000); // Auto slide every 3 seconds
+            let currentSlide = 0;
+            const slides = document.querySelectorAll('.carousel .slide');
+            const totalSlides = slides.length;
+            let slideInterval = setInterval(autoSlide, 5000); // Auto slide every 3 seconds
 
-        // Function to move the slide manually
-        function moveSlide(step) {
-            clearInterval(slideInterval); // Stop auto sliding when manually moving
-            currentSlide = (currentSlide - step + totalSlides) % totalSlides; // Reverse direction fix
-            updateSlide();
-            slideInterval = setInterval(autoSlide, 3000); // Restart auto sliding after manual move
-        }
+            // Function to move the slide manually
+            function moveSlide(step) {
+                clearInterval(slideInterval); // Stop auto sliding when manually moving
+                currentSlide = (currentSlide - step + totalSlides) % totalSlides; // Reverse direction fix
+                updateSlide();
+                slideInterval = setInterval(autoSlide, 3000); // Restart auto sliding after manual move
+            }
 
-        // Function to auto-slide
-        function autoSlide() {
-            currentSlide = (currentSlide + 1) % totalSlides;
-            updateSlide();
-        }
+            // Function to auto-slide
+            function autoSlide() {
+                currentSlide = (currentSlide + 1) % totalSlides;
+                updateSlide();
+            }
 
-        // Function to update the slide position
-        function updateSlide() {
-            document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
-        }
+            // Function to update the slide position
+            function updateSlide() {
+                document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
+            }
 
-        // Event listeners for previous and next buttons
-        document.querySelector('.prev').addEventListener('click', function() {
-            moveSlide(-1); // Move to the previous slide
-        });
+            // Event listeners for previous and next buttons
+            document.querySelector('.prev').addEventListener('click', function() {
+                moveSlide(-1); // Move to the previous slide
+            });
 
-        document.querySelector('.next').addEventListener('click', function() {
-            moveSlide(1); // Move to the next slide
-        });
+            document.querySelector('.next').addEventListener('click', function() {
+                moveSlide(1); // Move to the next slide
+            });
         </script>
 
 
 
 
         <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const swiper = new Swiper('.custom-swiper-container', {
-                loop: true,
-                effect: 'fade',
-                autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
+            document.addEventListener('DOMContentLoaded', function() {
+                const swiper = new Swiper('.custom-swiper-container', {
+                    loop: true,
+                    effect: 'fade',
+                    autoplay: {
+                        delay: 2000, // 2 seconds interval
+                        disableOnInteraction: false, // Continue autoplay after user interactions
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
             });
-        });
         </script>
 
 
@@ -809,48 +798,48 @@
     <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
     <script>
-    // Function to scroll to the top of the page
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth' // Optional, smooth scrolling animation
-        });
-    }
-
-    // Show scroll button when scrolling down
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("scrollBtn").style.display = "block";
-        } else {
-            document.getElementById("scrollBtn").style.display = "none";
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional, smooth scrolling animation
+            });
         }
-    }
+
+        // Show scroll button when scrolling down
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
     </script>
 
     <style>
-    #scrollBtn {
-        display: none;
-        /* Initially hide the button */
-        position: fixed;
-        /* Fix the position of the button */
-        bottom: 20px;
-        /* Adjust the bottom distance */
-        right: 20px;
-        /* Adjust the right distance */
-        z-index: 999;
-        /* Set a high z-index to ensure the button is on top */
-        padding: 10px 15px;
-        background-color: #01539D;
-        ;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-    }
+        #scrollBtn {
+            display: none;
+            /* Initially hide the button */
+            position: fixed;
+            /* Fix the position of the button */
+            bottom: 20px;
+            /* Adjust the bottom distance */
+            right: 20px;
+            /* Adjust the right distance */
+            z-index: 999;
+            /* Set a high z-index to ensure the button is on top */
+            padding: 10px 15px;
+            background-color: #01539D;
+            ;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+        }
     </style>
 
     <a href="https://api.whatsapp.com/send?phone=919290019948" style="color: #fff;" class="whatsapp-link"
@@ -864,116 +853,125 @@
 
     <!-- Vendor JS Files -->
     <script>
-    function toggleReadMore() {
-        var showThisDiv = document.querySelector('.showthisdiv');
-        var readMoreText = document.querySelector('.get_in_touch');
+        function toggleReadMore() {
+            var showThisDiv = document.querySelector('.showthisdiv');
+            var readMoreBtn = document.querySelector('.readMoreBtn');
+            var readLessBtn = document.querySelector('.readLessBtn');
 
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block"; // Show the remaining text
+                readMoreBtn.style.display = "none"; // Hide the "Read More" button
+            } else {
+                showThisDiv.style.display = "none"; // Hide the remaining text
+                readMoreBtn.style.display = "inline"; // Show the "Read More" button
+            }
         }
-    }
     </script>
     <script>
-    function toggleReadMore1() {
-        var showThisDiv = document.querySelector('.showthisdiv1');
-        var readMoreText = document.querySelector('.get_in_touch');
+        function toggleReadMore1() {
+            var showThisDiv = document.querySelector('.showthisdiv1');
+            var readMoreBtn = document.querySelector('.readMoreBtn1');
+            var readLessBtn = document.querySelector('.readLessBtn1');
 
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block"; // Show the remaining text
+                readMoreBtn.style.display = "none"; // Hide the "Read More" button
+            } else {
+                showThisDiv.style.display = "none"; // Hide the remaining text
+                readMoreBtn.style.display = "inline"; // Show the "Read More" button
+            }
         }
-    }
     </script>
     <script>
-    function toggleReadMore2() {
-        var showThisDiv = document.querySelector('.showthisdiv2');
-        var readMoreText = document.querySelector('.get_in_touch');
+        function toggleReadMore2() {
+            var showThisDiv = document.querySelector('.showthisdiv2');
+            var readMoreBtn = document.querySelector('.readMoreBtn2');
+            var readLessBtn = document.querySelector('.readLessBtn2');
 
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block"; // Show the remaining text
+                readMoreBtn.style.display = "none"; // Hide the "Read More" button
+            } else {
+                showThisDiv.style.display = "none"; // Hide the remaining text
+                readMoreBtn.style.display = "inline"; // Show the "Read More" button
+            }
         }
-    }
     </script>
     <script>
-    function toggleReadMore3() {
-        var showThisDiv = document.querySelector('.showthisdiv3');
-        var readMoreText = document.querySelector('.get_in_touch');
+        function toggleReadMore3() {
+            var showThisDiv = document.querySelector('.showthisdiv3');
+            var readMoreBtn = document.querySelector('.readMoreBtn3');
+            var readLessBtn = document.querySelector('.readLessBtn3');
 
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block"; // Show the remaining text
+                readMoreBtn.style.display = "none"; // Hide the "Read More" button
+            } else {
+                showThisDiv.style.display = "none"; // Hide the remaining text
+                readMoreBtn.style.display = "inline"; // Show the "Read More" button
+            }
         }
-    }
     </script>
     <script>
-    function toggleReadMore4() {
-        var showThisDiv = document.querySelector('.showthisdiv4');
-        var readMoreText = document.querySelector('.get_in_touch');
+        function toggleReadMore4() {
+            var showThisDiv = document.querySelector('.showthisdiv4');
+            var readMoreBtn = document.querySelector('.readMoreBtn4');
+            var readLessBtn = document.querySelector('.readLessBtn4');
 
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            // Toggling the display of "Read More" and "Read Less"
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block"; // Show the remaining text
+                readMoreBtn.style.display = "none"; // Hide the "Read More" button
+            } else {
+                showThisDiv.style.display = "none"; // Hide the remaining text
+                readMoreBtn.style.display = "inline"; // Show the "Read More" button
+            }
         }
-    }
     </script>
     <script>
-    function toggleReadMore5() {
-        var showThisDiv = document.querySelector('.showthisdiv5');
-        var readMoreText = document.querySelector('.get_in_touch');
+        function toggleReadMore5() {
+            var showThisDiv = document.querySelector('.showthisdiv5');
+            var readMoreBtn = document.querySelector('.readMoreBtn5');
+            var readLessBtn = document.querySelector('.readLessBtn5');
 
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block"; // Show the remaining text
+                readMoreBtn.style.display = "none"; // Hide the "Read More" button
+            } else {
+                showThisDiv.style.display = "none"; // Hide the remaining text
+                readMoreBtn.style.display = "inline"; // Show the "Read More" button
+            }
         }
-    }
     </script>
     <script>
-    function toggleReadMore6() {
-        var showThisDiv = document.querySelector('.showthisdiv6');
-        var readMoreText = document.querySelector('.get_in_touch');
+        function toggleReadMore6() {
+            var showThisDiv = document.querySelector('.showthisdiv6');
+            var readMoreBtn = document.querySelector('.readMoreBtn6');
+            var readLessBtn = document.querySelector('.readLessBtn6');
 
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block"; // Show the remaining text
+                readMoreBtn.style.display = "none"; // Hide the "Read More" button
+            } else {
+                showThisDiv.style.display = "none"; // Hide the remaining text
+                readMoreBtn.style.display = "inline"; // Show the "Read More" button
+            }
         }
-    }
     </script>
     <script>
-    function toggleReadMore7() {
-        var showThisDiv = document.querySelector('.showthisdiv7');
-        var readMoreText = document.querySelector('.get_in_touch');
+        function toggleReadMore7() {
+            var showThisDiv = document.querySelector('.showthisdiv7');
+            var readMoreBtn = document.querySelector('.readMoreBtn7');
+            var readLessBtn = document.querySelector('.readLessBtn7');
 
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block"; // Show the remaining text
+                readMoreBtn.style.display = "none"; // Hide the "Read More" button
+            } else {
+                showThisDiv.style.display = "none"; // Hide the remaining text
+                readMoreBtn.style.display = "inline"; // Show the "Read More" button
+            }
         }
-    }
     </script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
