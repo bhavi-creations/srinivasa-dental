@@ -508,7 +508,7 @@ h6 {
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  left: -82px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -2911,19 +2911,56 @@ section {
   margin-top: -20px !important;
 }
 
-.approc_image {
-  margin-top: 2px;
-}
+ 
+@media (min-width:768px) and (max-width:992px) {
+  .text_dental {
+    color: #000a2d;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    
+  }
+  .approc_image {
+    margin-top: -20px !important;
+    width: 65% !important;
+   
+  
+  }
 
+  .marging_img_dix{
+    margin-left: -34px;
+  }
+  .plus_symbol {
+    color: #93c237;
+  }
+  
+  .text_para {
+    color: #636571;
+    font-family: Archivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:2;
+     
+  }
+  
+}
+@media  (min-width:992px) and  (max-width:1200px) {
+  
 .text_dental {
   color: #000a2d;
   font-family: Manrope;
-  font-size: 38px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 800;
-  /* 160% */
+  
 }
+.approc_image {
+  margin-top: -20px !important;
+  width: 82% !important;
 
+}
 .plus_symbol {
   color: #93c237;
 }
@@ -2931,12 +2968,45 @@ section {
 .text_para {
   color: #636571;
   font-family: Archivo;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 25.6px;
-  /* 160% */
+   
 }
+
+ 
+}
+
+
+
+
+ 
+
+.text_dental {
+
+  color: #000A2D;
+}
+
+@media (min-width:1200px) {
+  
+
+  .text_dental {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000A2D;
+  }
+  
+
+  .text_para {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #757575; /* Example color, adjust as needed */
+  }
+  
+}
+
+
 
 .happpy_section {
   background: #f1f8ff;
@@ -3926,3 +3996,34 @@ img.img-fluid.yimg {
   font-weight:900 ;
   color: #000a2d;
 }
+
+
+
+
+
+
+
+
+
+.counter_section_spacing {
+  justify-content: space-between;
+  flex-wrap: wrap; /* Optional, for responsiveness */
+  gap: 20px; /* Adds space between items */
+}
+
+.approc_image {
+  
+  border-radius: 3px !important;
+}
+
+.plus_symbol {
+  font-size: 1.5rem;
+  color: #93C237; /* Example color, adjust as needed */
+}
+
+.flex_div {
+  display: flex;
+  align-items: center;
+}
+
+ 

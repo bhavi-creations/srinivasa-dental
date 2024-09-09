@@ -46,6 +46,9 @@
      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
+     <!-- Updated Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
  </head>
 
@@ -224,7 +227,7 @@
                                      <rect width="14" height="14" fill="white" transform="translate(0.970215 0.5)" />
                                  </clipPath>
                              </defs>
-                         </svg> &nbsp;   Welcome to Srinivasa Dental !</p>
+                         </svg> &nbsp; Welcome to Srinivasa Dental !</p>
 
                      <h1 class="transform_smile">Transform <span class="smile_text">Your Smile <img
                                  src="assets/img/services/2.png" alt="" class="img-fluid topimg">
@@ -232,7 +235,8 @@
                          Care</h1>
                      <p class="mt-4 mb-4">Enjoy high-quality dental care in a comfortable and friendly environment. Start
                          your journey @ Srinivasa Dental for
-                        <span class="heailther_text"> healthier, brighter smile</span> today!</p>
+                         <span class="heailther_text"> healthier, brighter smile</span> today!
+                     </p>
 
                      <div class="d-flex  buttons_section_banner">
                          <div class="">
@@ -276,7 +280,7 @@
 
      <main id="main">
 
-     <section>
+         <section>
              <div class="container">
                  <div class="row">
 
@@ -379,10 +383,7 @@
                          receive dental care that reflects their individual wants and needs. Using the latest advances
                          in dental technology, our dentists strive to help you achieve a happy, healthy smile you can’t
                          wait to show off.
-                         <br><br>
-                         Srinivasa Dental Clinichaving best Dentist In kakinada 
-                         Our success is measured by each patient and each smile.Thats why we are Best dentist in
-                         kakinada.
+                         
                      </p>
                  </div>
              </div>
@@ -403,7 +404,10 @@
                              &nbsp; &nbsp;
 
                              <div class="">
-                                 <h1 class="text_dental">10 <span class="plus_symbol">+</span></h1>
+
+                             <h1 class="text_dental counter  "  data-max="10"> <span class="plus_symbol">+</span></h1>
+
+                                 
                                  <p class="text_para">Year Experience</p>
                              </div>
 
@@ -421,7 +425,9 @@
                              &nbsp; &nbsp;
 
                              <div class="">
-                                 <h1 class="text_dental">10 <span class="plus_symbol">+</span></h1>
+                             <h1 class="text_dental counter  "  data-max="10"> <span class="plus_symbol">+</span></h1>
+
+                                
                                  <p class="text_para">Doctor & Staff</p>
                              </div>
 
@@ -439,9 +445,30 @@
                              &nbsp; &nbsp;
 
                              <div class="">
-                                
-                                 <h1 class="text_dental">8126 <span class="plus_symbol">+</span></h1>
+                             <h1 class="text_dental counter  "  data-max="8126"> <span class="plus_symbol">+</span></h1>
+
+                                 
                                  <p class="text_para">Happy  Patients</p>
+                             </div>
+
+                         </div>
+
+                     </div>
+                     <div class="col-6">
+
+                         <div class="">
+
+                             <div>
+                                 <img src="assets/img/srinivasa/implants.png" alt="" class="approc_image">
+                             </div>
+
+                             &nbsp; &nbsp;
+
+                             <div class="">
+                             <h1 class="text_dental counter  "  data-max="500"> <span class="plus_symbol">+</span></h1>
+
+                                 
+                                 <p class="text_para">Implants</p>
                              </div>
 
                          </div>
@@ -453,14 +480,16 @@
                          <div class="">
 
                              <div>
-                                 <img src="assets/img/srinivasa/appoitment.png" alt="" class="approc_image">
+                                 <img src="assets/img/srinivasa/invisligners.png" alt="" class="approc_image">
                              </div>
 
                              &nbsp; &nbsp;
 
                              <div class="">
-                                 <h1 class="text_dental">340 <span class="plus_symbol">+</span></h1>
-                                 <p class="text_para">Online Appointment</p>
+                             <h1 class="text_dental counter  "  data-max="120"> <span class="plus_symbol">+</span></h1>
+
+                                  
+                                 <p class="text_para">Invisalign</p>
                              </div>
 
                          </div>
@@ -470,84 +499,136 @@
              </div>
          </section>
 
-         <section class="happpy_section mt-3 d-none d-md-block ">
+         <section class="happpy_section mt-3 d-none d-md-block">
              <div class="container">
-                 <div class="row">
-                     <div class="col-md-6 col-lg-3">
-
-                         <div class="d-flex ">
-
+                 <div class="d-flex flex_div counter_section_spacing">
+                     <div class=" ">
+                         <div class="d-flex flex_div">
                              <div>
-                                 <img src="assets/img/srinivasa/happy.png" alt="" class="approc_image">
+                                 <img src="assets/img/srinivasa/happy.png" alt="" class="approc_image img-fluid">
                              </div>
-
                              &nbsp; &nbsp;
-
-                             <div class="">
-                                 <h1 class="text_dental">8126 <span class="plus_symbol">+</span></h1>
-                                 <p class="text_para">Happy  Patients</p>
+                             <div class="marging_img_dix">
+                                 <h1 class="text_dental counter  "  data-max="8126"> <span class="plus_symbol">+</span></h1>
+                                 <p class="text_para">Happy Patients</p>
+                                  
                              </div>
-
                          </div>
-
                      </div>
-                     <div class="col-md-6 col-lg-3">
 
-                         <div class="d-flex">
-
+                     <div class=" ">
+                         <div class="d-flex flex_div">
                              <div>
-                                 <img src="assets/img/srinivasa/experence.png" alt="" class="approc_image">
+                                 <img src="assets/img/srinivasa/experence.png" alt="" class="approc_image img-fluid">
                              </div>
-
                              &nbsp; &nbsp;
-
-                             <div class="">
-                                 <h1 class="text_dental">10 <span class="plus_symbol">+</span></h1>
+                             <div class="marging_img_dix">
+                                 <h1 class="text_dental counter  "  data-max="10"> <span class="plus_symbol">+</span></h1>
                                  <p class="text_para">Year Experience</p>
+                                
                              </div>
-
                          </div>
-
                      </div>
-                     <div class="col-md-6 col-lg-3">
 
-                         <div class="d-flex">
-
+                     <div class=" ">
+                         <div class="d-flex flex_div">
                              <div>
-                                 <img src="assets/img/srinivasa/docters.png" alt="" class="approc_image">
+                                 <img src="assets/img/srinivasa/docters.png" alt="" class="approc_image img-fluid">
                              </div>
-
                              &nbsp; &nbsp;
-
-                             <div class="">
-                                 <h1 class="text_dental">10 <span class="plus_symbol">+</span></h1>
+                             <div class="marging_img_dix">
+                                 <h1 class="text_dental counter  "  data-max="10"> <span class="plus_symbol">+</span></h1>
                                  <p class="text_para">Doctor & Staff</p>
+                                 
                              </div>
-
                          </div>
-
                      </div>
-                     <div class="col-md-6 col-lg-3">
 
-                         <div class="d-flex">
-
+                     <div class=" ">
+                         <div class="d-flex flex_div">
                              <div>
-                                 <img src="assets/img/srinivasa/appoitment.png" alt="" class="approc_image">
+                                 <img src="assets/img/srinivasa/implants.png" alt="" class="approc_image img-fluid">
                              </div>
-
                              &nbsp; &nbsp;
-
-                             <div class="">
-                                 <h1 class="text_dental">340 <span class="plus_symbol">+</span></h1>
-                                 <p class="text_para">Online Appointment</p>
+                             <div class="marging_img_dix">
+                                 <h1 class="text_dental counter  "  data-max="500"> <span class="plus_symbol">+</span></h1>
+                                 <p class="text_para">Implants</p>
                              </div>
-
                          </div>
+                     </div>
 
+                     <div class=" ">
+                         <div class="d-flex flex_div">
+                             <div>
+                                 <img src="assets/img/srinivasa/invisligners.png" alt="" class="approc_image img-fluid">
+                             </div>
+                             &nbsp; &nbsp;
+                             <div class="marging_img_dix">
+                                 <h1 class="text_dental counter  "  data-max="120"> <span class="plus_symbol">+</span></h1>
+                                 <p class="text_para">Invisalign</p>
+                             </div>
+                         </div>
                      </div>
                  </div>
              </div>
+
+             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+             <!-- Updated Bootstrap 5.2 JS -->
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>
+             <script>
+                 function inVisible(element) {
+                     // Checking if the element is visible in the viewport
+                     var WindowTop = $(window).scrollTop();
+                     var WindowBottom = WindowTop + $(window).height();
+                     var ElementTop = element.offset().top;
+                     var ElementBottom = ElementTop + element.height();
+                     // Animating the element if it is visible in the viewport
+                     if ((ElementBottom <= WindowBottom) && ElementTop >= WindowTop) {
+                         animate(element);
+                     }
+                 }
+
+                 function animate(element) {
+                     // Animating the element if not animated before
+                     if (!element.hasClass('ms-animated')) {
+                         var maxval = element.data('max');
+                         var html = element.html();
+                         element.addClass("ms-animated");
+                         $({
+                             countNum: element.html()
+                         }).animate({
+                             countNum: maxval
+                         }, {
+                             // Duration 5 seconds
+                             duration: 5000,
+                             easing: 'linear',
+                             step: function() {
+                                 element.html(Math.floor(this.countNum) + html);
+                             },
+                             complete: function() {
+                                 element.html(this.countNum + html);
+                             }
+                         });
+                     }
+                 }
+
+                 // When the document is ready
+                 $(function() {
+                     // This is triggered when the user scrolls the page
+                     $(window).scroll(function() {
+                         // Checking if each item to animate is visible in the viewport
+                         $("h1[data-max]").each(function() {
+                             inVisible($(this));
+                         });
+                     });
+                 });
+             </script>
          </section>
+
+
+
+
 
 
          <section id="about" class="about">
@@ -948,7 +1029,7 @@
                                      <div class="card-body ">
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
-                                             <h6 class="kamall mb-2">Kamala Gandi</h6>
+                                         <h6 class="kamall mb-2">Kamala Gandi</h6>
 
                                          <p class="card-text  text_of_the_card">"I Came here with Broken Tooth, Doctor Explain Everything about Treatment Procedure very Nicely, After Treatment Make my Smile Happy.All Hospital Staff Respond Politely. Thank You Srinivasa Dental Hospital"</p>
                                          <h5 class="card-title name_of_the_card">Mr Eswar</h5>
@@ -971,7 +1052,7 @@
                                      <div class="card-body ">
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
-                                             <h6 class="kamall mb-2">Kamala Gandi</h6>
+                                         <h6 class="kamall mb-2">Kamala Gandi</h6>
 
                                          <p class="card-text  text_of_the_card">"Started Smile journey with ceramic braces Srinivasa dental. Had a very fantastic experience with friendly staff and environment.Dr.Kiran Raju is knowledgeable and compatible.must visit place for all dental treatments.100% recommended. Best Dental hospital in kakinada for sure."</p>
                                          <h5 class="card-title name_of_the_card">Mr Harsha</h5>
@@ -1112,7 +1193,7 @@
 
              </div>
          </div>
-         
+
 
 
 
@@ -1120,282 +1201,285 @@
 
      <!-- ======= Footer ======= -->
      <footer id="footer">
-        <div class="footer-top">
-          <div class="container py-5">
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-3 py-2">
-                <a href="#">
-                  <img
-                    src="assets/img/srinivasa/image 1.png"
-                    class="img-fluid"
-                    alt=""
-                /></a>
-                <p class="foot_para">
-                  Srinivasa Multispeciality Dental Hospital Jawahar street, Beside
-                  MRF showroom, opp Vivekananda statue- kulaicheruvu park
-                  Kakinada-1
-                </p>
-                <p class="foot_para">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="17"
-                    height="17"
-                    viewBox="0 0 17 17"
-                    fill="none"
-                  >
-                    <g clip-path="url(#clip0_94_738)">
-                      <path
-                        d="M11.5289 10.0012L9.15863 8.22346V4.60227C9.15863 4.23816 8.86432 3.94385 8.50021 3.94385C8.13611 3.94385 7.8418 4.23816 7.8418 4.60227V8.55271C7.8418 8.76009 7.93925 8.95566 8.10516 9.07944L10.7388 11.0547C10.8573 11.1435 10.9956 11.1863 11.1332 11.1863C11.334 11.1863 11.5315 11.0961 11.6606 10.9223C11.8792 10.6319 11.8199 10.2191 11.5289 10.0012Z"
-                        fill=" #000A2D"
-                      />
-                      <path
-                        d="M8.5 0C3.81281 0 0 3.81281 0 8.5C0 13.1872 3.81281 17 8.5 17C13.1872 17 17 13.1872 17 8.5C17 3.81281 13.1872 0 8.5 0ZM8.5 15.6832C4.5397 15.6832 1.3168 12.4603 1.3168 8.5C1.3168 4.5397 4.5397 1.3168 8.5 1.3168C12.461 1.3168 15.6832 4.5397 15.6832 8.5C15.6832 12.4603 12.4603 15.6832 8.5 15.6832Z"
-                        fill=" #000A2D"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_94_738">
-                        <rect width="17" height="17" fill=" #000A2D" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  &nbsp; &nbsp; Clinic Time <br />
-                  Mon-Sat – 9:00 AM To 8:30 PM <br />
-                  Sun – 9:00 AM To 1:00 PM
-                </p>
-                <p class="foot_para d-none d-md-block">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="14"
-                    height="15"
-                    viewBox="0 0 14 15"
-                    fill="none"
-                  >
-                    <g clip-path="url(#clip0_94_734)">
-                      <path
-                        d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
-                        fill=" #000A2D"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_94_734">
-                        <rect
-                          width="14"
-                          height="14"
-                          fill="white"
-                          transform="translate(0 0.164062)"
-                        />
-                      </clipPath>
-                    </defs>
-                  </svg>
-  
-                  +91-08842342346 
-                </p>
-                <p class="foot_para d-none d-md-block">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="14"
-                    height="15"
-                    viewBox="0 0 14 15"
-                    fill="none"
-                  >
-                    <g clip-path="url(#clip0_94_734)">
-                      <path
-                        d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
-                        fill=" #000A2D"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_94_734">
-                        <rect
-                          width="14"
-                          height="14"
-                          fill=" #000A2D"
-                          transform="translate(0 0.164062)"
-                        />
-                      </clipPath>
-                    </defs>
-                  </svg>
-  
-                  +91-9290019948
-                </p>
-  
-                <div class="d-flex">
-                  <div class="d-md-none">
-                    <p class="foot_para">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="15"
-                        viewBox="0 0 14 15"
-                        fill="none"
-                      >
-                        <g clip-path="url(#clip0_94_734)">
-                          <path
-                            d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
-                            fill=" #000A2D"
-                          />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_94_734">
-                            <rect
-                              width="14"
-                              height="14"
-                              fill="white"
-                              transform="translate(0 0.164062)"
-                            />
-                          </clipPath>
-                        </defs>
-                      </svg>
-  
-                      +91-08842342346 
-                    </p>
-                  </div>
-                  &nbsp;&nbsp; &nbsp;&nbsp;
-                  <div class="d-md-none">
-                    <p class="foot_para">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="15"
-                        viewBox="0 0 14 15"
-                        fill="none"
-                      >
-                        <g clip-path="url(#clip0_94_734)">
-                          <path
-                            d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
-                            fill=" #000A2D"
-                          />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_94_734">
-                            <rect
-                              width="14"
-                              height="14"
-                              fill=" #000A2D"
-                              transform="translate(0 0.164062)"
-                            />
-                          </clipPath>
-                        </defs>
-                      </svg>
-  
-                      +91-9290019948
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6 col-md-6 col-lg-3 py-2">
-                <h1 class="helpful_link">Helpfull Link</h1>
-                <a href="index.php">
-                  <p class="foot_para">Home</p> </a
-                ><a href="about.php">
-                  <p class="foot_para">About us</p> </a
-                ><a href="testimonials.php">
-                  <p class="foot_para">What Patients Say</p> </a
-                ><a href="blogs.php">
-                  <p class="foot_para">Blog</p> </a
-                ><a href="contact.php">
-                  <p class="foot_para">Contact</p>
-                </a>
-  
-                <div class="d-flex">
-              <a
-                href="https://www.facebook.com/srinivasadentalkakinada/"
-                target="_blank">
-                <img
-                  src="assets/img/srinivasa/facebook.png"
-                  class="img-fluid"
-                  alt="" /></a>
-              &nbsp;&nbsp;
-              <a
-                href="https://www.instagram.com/srinivasadentalkakinada/"
-                target="_blank">
-                <img
-                  src="assets/img/srinivasa/instagram.png"
-                  class="img-fluid"
-                  alt="" /></a>
-              &nbsp;&nbsp;
-              <a
-                href=" https://www.linkedin.com/company/99449038/admin/dashboard/"
-                target="_blank">
-                <img
-                  src="assets/img/srinivasa/linkedin.png"
-                  class="img-fluid"
-                  style="border-radius: 5px;"
-                  alt="" /></a>
+         <div class="footer-top">
+             <div class="container py-5">
+                 <div class="row">
+                     <div class="col-12 col-md-6 col-lg-3 py-2">
+                         <a href="#">
+                             <img
+                                 src="assets/img/srinivasa/image 1.png"
+                                 class="img-fluid"
+                                 alt="" /></a>
+                         <p class="foot_para">
+                             Srinivasa Multispeciality Dental Hospital Jawahar street, Beside
+                             MRF showroom, opp Vivekananda statue- kulaicheruvu park
+                             Kakinada-1
+                         </p>
+                         <p class="foot_para">
+                             <svg
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 width="17"
+                                 height="17"
+                                 viewBox="0 0 17 17"
+                                 fill="none">
+                                 <g clip-path="url(#clip0_94_738)">
+                                     <path
+                                         d="M11.5289 10.0012L9.15863 8.22346V4.60227C9.15863 4.23816 8.86432 3.94385 8.50021 3.94385C8.13611 3.94385 7.8418 4.23816 7.8418 4.60227V8.55271C7.8418 8.76009 7.93925 8.95566 8.10516 9.07944L10.7388 11.0547C10.8573 11.1435 10.9956 11.1863 11.1332 11.1863C11.334 11.1863 11.5315 11.0961 11.6606 10.9223C11.8792 10.6319 11.8199 10.2191 11.5289 10.0012Z"
+                                         fill=" #000A2D" />
+                                     <path
+                                         d="M8.5 0C3.81281 0 0 3.81281 0 8.5C0 13.1872 3.81281 17 8.5 17C13.1872 17 17 13.1872 17 8.5C17 3.81281 13.1872 0 8.5 0ZM8.5 15.6832C4.5397 15.6832 1.3168 12.4603 1.3168 8.5C1.3168 4.5397 4.5397 1.3168 8.5 1.3168C12.461 1.3168 15.6832 4.5397 15.6832 8.5C15.6832 12.4603 12.4603 15.6832 8.5 15.6832Z"
+                                         fill=" #000A2D" />
+                                 </g>
+                                 <defs>
+                                     <clipPath id="clip0_94_738">
+                                         <rect width="17" height="17" fill=" #000A2D" />
+                                     </clipPath>
+                                 </defs>
+                             </svg>
+                             &nbsp; &nbsp; Clinic Time <br />
+                             Mon-Sat – 9:00 AM To 8:30 PM <br />
+                             Sun – 9:00 AM To 1:00 PM
+                         </p>
+                         <p class="foot_para d-none d-md-block">
+                             <svg
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 width="14"
+                                 height="15"
+                                 viewBox="0 0 14 15"
+                                 fill="none">
+                                 <g clip-path="url(#clip0_94_734)">
+                                     <path
+                                         d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
+                                         fill=" #000A2D" />
+                                 </g>
+                                 <defs>
+                                     <clipPath id="clip0_94_734">
+                                         <rect
+                                             width="14"
+                                             height="14"
+                                             fill="white"
+                                             transform="translate(0 0.164062)" />
+                                     </clipPath>
+                                 </defs>
+                             </svg>
 
-              &nbsp;&nbsp;
+                             +91-08842342346 
+                         </p>
+                         <p class="foot_para d-none d-md-block">
+                             <svg
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 width="14"
+                                 height="15"
+                                 viewBox="0 0 14 15"
+                                 fill="none">
+                                 <g clip-path="url(#clip0_94_734)">
+                                     <path
+                                         d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
+                                         fill=" #000A2D" />
+                                 </g>
+                                 <defs>
+                                     <clipPath id="clip0_94_734">
+                                         <rect
+                                             width="14"
+                                             height="14"
+                                             fill=" #000A2D"
+                                             transform="translate(0 0.164062)" />
+                                     </clipPath>
+                                 </defs>
+                             </svg>
 
-              <a
-                href=" https://www.youtube.com/@srinivasadentalkakinada"
-                target="_blank">
-                <img
-                  src="assets/img/srinivasa/youtube.png"
-                  class="img-fluid"
-                  alt="" /></a>
-            </div>
-              </div>
-              <div class="col-6 col-md-6 col-lg-3 py-2">
-                <h1 class="foot_head">Treatments</h1>
-            <a href="rootcanal.php">   <p class="foot_para">Root Canal</p></a> 
-            <a href="dentalbraces.php">    <p class="foot_para">Dental Braces</p>
-             <a href="dentalimplents.php">      <p class="foot_para">Dental Implants</p></a>
-             <a href="bridgetreatment.php">      <p class="foot_para">Tooth Crown & Bridges</p></a>
-             <a href="teethfilling.php">      <p class="foot_para">Teeth Filling</p></a>
-             <a href="dentures.php">      <p class="foot_para">Dentures</p></a>
-  
-  
-              </div>
-              <div class="col-12 col-md-6 col-lg-3 py-2">
-                  <h1 class="foot_head">Treatments</h1>
-             <a href="teethscaling.php">        <p class="foot_para">Teeth Scaling</p></a>
-             <a href="toothextraction.php">        <p class="foot_para">Tooth extraction</p></a>
-             <a href="teethcleaning.php">        <p class="foot_para">Teeth Cleaning</p></a>
-             <a href="teethwhitning.php">        <p class="foot_para">Teeth Whitening</p></a>
-             <a href="smilemakeover.php">      <p class="foot_para">Smile Makeover</p></a>
-             <a href="fullmouthrestrotion.php">      <p class="foot_para">Full Mouth Restoration</p></a>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <div
-          class="footer-area-bottom theme-bg"
-          style="background-color: #000a2d"
-        >
-          <div class="container">
-            <div class="row pt-4">
-  
-              <div class="  col-md-6 col-12">
-                <div class="footer-widget__copyright-info info-direction">
-                  <p class="  last_text"  >
-                    <a
-                      href="terms.html"
-                      style="text-decoration: none; color: #ffffff"
-                      >Terms & conditions
-                    </a>
-                    <a
-                      href="privacy.html"
-                      style="text-decoration: none; color: #ffffff"
-                    >
-                      Privacy & policy</a
-                    >
-                  </p>
-                </div>
-              </div>
-  
-              <div class="col-md-6 col-12 second_divv_end_brand"  >
-                  <div class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center">
-                      <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff; display: flex; align-items: center;">
-                          <p class="mini_text last_text mb-0">
-                              Branding By @
-                          </p>
-                          <img src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png" class="img-fluid brand_image"  alt="">
-                      </a>
-                  </div>
-              </div>
-              
-              <!--  
+                             +91-9290019948
+                         </p>
+
+                         <div class="d-flex">
+                             <div class="d-md-none">
+                                 <p class="foot_para">
+                                     <svg
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         width="14"
+                                         height="15"
+                                         viewBox="0 0 14 15"
+                                         fill="none">
+                                         <g clip-path="url(#clip0_94_734)">
+                                             <path
+                                                 d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
+                                                 fill=" #000A2D" />
+                                         </g>
+                                         <defs>
+                                             <clipPath id="clip0_94_734">
+                                                 <rect
+                                                     width="14"
+                                                     height="14"
+                                                     fill="white"
+                                                     transform="translate(0 0.164062)" />
+                                             </clipPath>
+                                         </defs>
+                                     </svg>
+
+                                     +91-08842342346 
+                                 </p>
+                             </div>
+                             &nbsp;&nbsp; &nbsp;&nbsp;
+                             <div class="d-md-none">
+                                 <p class="foot_para">
+                                     <svg
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         width="14"
+                                         height="15"
+                                         viewBox="0 0 14 15"
+                                         fill="none">
+                                         <g clip-path="url(#clip0_94_734)">
+                                             <path
+                                                 d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
+                                                 fill=" #000A2D" />
+                                         </g>
+                                         <defs>
+                                             <clipPath id="clip0_94_734">
+                                                 <rect
+                                                     width="14"
+                                                     height="14"
+                                                     fill=" #000A2D"
+                                                     transform="translate(0 0.164062)" />
+                                             </clipPath>
+                                         </defs>
+                                     </svg>
+
+                                     +91-9290019948
+                                 </p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-6 col-md-6 col-lg-3 py-2">
+                         <h1 class="helpful_link">Helpfull Link</h1>
+                         <a href="index.php">
+                             <p class="foot_para">Home</p>
+                         </a><a href="about.php">
+                             <p class="foot_para">About us</p>
+                         </a><a href="testimonials.php">
+                             <p class="foot_para">What Patients Say</p>
+                         </a><a href="blogs.php">
+                             <p class="foot_para">Blog</p>
+                         </a><a href="contact.php">
+                             <p class="foot_para">Contact</p>
+                         </a>
+
+                         <div class="d-flex">
+                             <a
+                                 href="https://www.facebook.com/srinivasadentalkakinada/"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/facebook.png"
+                                     class="img-fluid"
+                                     alt="" /></a>
+                             &nbsp;&nbsp;
+                             <a
+                                 href="https://www.instagram.com/srinivasadentalkakinada/"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/instagram.png"
+                                     class="img-fluid"
+                                     alt="" /></a>
+                             &nbsp;&nbsp;
+                             <a
+                                 href=" https://www.linkedin.com/company/99449038/admin/dashboard/"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/linkedin.png"
+                                     class="img-fluid"
+                                     style="border-radius: 5px;"
+                                     alt="" /></a>
+
+                             &nbsp;&nbsp;
+
+                             <a
+                                 href=" https://www.youtube.com/@srinivasadentalkakinada"
+                                 target="_blank">
+                                 <img
+                                     src="assets/img/srinivasa/youtube.png"
+                                     class="img-fluid"
+                                     alt="" /></a>
+                         </div>
+                     </div>
+                     <div class="col-6 col-md-6 col-lg-3 py-2">
+                         <h1 class="foot_head">Treatments</h1>
+                         <a href="rootcanal.php">
+                             <p class="foot_para">Root Canal</p>
+                         </a>
+                         <a href="dentalbraces.php">
+                             <p class="foot_para">Dental Braces</p>
+                             <a href="dentalimplents.php">
+                                 <p class="foot_para">Dental Implants</p>
+                             </a>
+                             <a href="bridgetreatment.php">
+                                 <p class="foot_para">Tooth Crown & Bridges</p>
+                             </a>
+                             <a href="teethfilling.php">
+                                 <p class="foot_para">Teeth Filling</p>
+                             </a>
+                             <a href="dentures.php">
+                                 <p class="foot_para">Dentures</p>
+                             </a>
+
+
+                     </div>
+                     <div class="col-12 col-md-6 col-lg-3 py-2">
+                         <h1 class="foot_head">Treatments</h1>
+                         <a href="teethscaling.php">
+                             <p class="foot_para">Teeth Scaling</p>
+                         </a>
+                         <a href="toothextraction.php">
+                             <p class="foot_para">Tooth extraction</p>
+                         </a>
+                         <a href="teethcleaning.php">
+                             <p class="foot_para">Teeth Cleaning</p>
+                         </a>
+                         <a href="teethwhitning.php">
+                             <p class="foot_para">Teeth Whitening</p>
+                         </a>
+                         <a href="smilemakeover.php">
+                             <p class="foot_para">Smile Makeover</p>
+                         </a>
+                         <a href="fullmouthrestrotion.php">
+                             <p class="foot_para">Full Mouth Restoration</p>
+                         </a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+         <div
+             class="footer-area-bottom theme-bg"
+             style="background-color: #000a2d">
+             <div class="container">
+                 <div class="row pt-4">
+
+                     <div class="  col-md-6 col-12">
+                         <div class="footer-widget__copyright-info info-direction">
+                             <p class="  last_text">
+                                 <a
+                                     href="terms.html"
+                                     style="text-decoration: none; color: #ffffff">Terms & conditions
+                                 </a>
+                                 <a
+                                     href="privacy.html"
+                                     style="text-decoration: none; color: #ffffff">
+                                     Privacy & policy</a>
+                             </p>
+                         </div>
+                     </div>
+
+                     <div class="col-md-6 col-12 second_divv_end_brand">
+                         <div class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center">
+                             <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff; display: flex; align-items: center;">
+                                 <p class="mini_text last_text mb-0">
+                                     Branding By @
+                                 </p>
+                                 <img src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png" class="img-fluid brand_image" alt="">
+                             </a>
+                         </div>
+                     </div>
+
+                     <!--  
                       <div class="col-xl-8 col-lg-9 col-md-12 col-12">
                           <div class="footer-widget__copyright">
                               <p class="mini_text last_text" style="color: #ffffff">
