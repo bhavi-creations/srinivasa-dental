@@ -383,7 +383,7 @@
                          receive dental care that reflects their individual wants and needs. Using the latest advances
                          in dental technology, our dentists strive to help you achieve a happy, healthy smile you can’t
                          wait to show off.
-                         
+
                      </p>
                  </div>
              </div>
@@ -405,9 +405,9 @@
 
                              <div class="">
 
-                             <h1 class="text_dental counter  "  data-max="10"> <span class="plus_symbol">+</span></h1>
+                                 <h1 class="text_dental counter  " data-max="10"> <span class="plus_symbol">+</span></h1>
 
-                                 
+
                                  <p class="text_para">Year Experience</p>
                              </div>
 
@@ -425,9 +425,9 @@
                              &nbsp; &nbsp;
 
                              <div class="">
-                             <h1 class="text_dental counter  "  data-max="10"> <span class="plus_symbol">+</span></h1>
+                                 <h1 class="text_dental counter  " data-max="10"> <span class="plus_symbol">+</span></h1>
 
-                                
+
                                  <p class="text_para">Doctor & Staff</p>
                              </div>
 
@@ -445,9 +445,9 @@
                              &nbsp; &nbsp;
 
                              <div class="">
-                             <h1 class="text_dental counter  "  data-max="8126"> <span class="plus_symbol">+</span></h1>
+                                 <h1 class="text_dental counter  " data-max="8126"> <span class="plus_symbol">+</span></h1>
 
-                                 
+
                                  <p class="text_para">Happy  Patients</p>
                              </div>
 
@@ -465,9 +465,9 @@
                              &nbsp; &nbsp;
 
                              <div class="">
-                             <h1 class="text_dental counter  "  data-max="500"> <span class="plus_symbol">+</span></h1>
+                                 <h1 class="text_dental counter  " data-max="500"> <span class="plus_symbol">+</span></h1>
 
-                                 
+
                                  <p class="text_para">Implants</p>
                              </div>
 
@@ -486,9 +486,9 @@
                              &nbsp; &nbsp;
 
                              <div class="">
-                             <h1 class="text_dental counter  "  data-max="120"> <span class="plus_symbol">+</span></h1>
+                                 <h1 class="text_dental counter  " data-max="120"> <span class="plus_symbol">+</span></h1>
 
-                                  
+
                                  <p class="text_para">Invisalign</p>
                              </div>
 
@@ -509,9 +509,9 @@
                              </div>
                              &nbsp; &nbsp;
                              <div class="marging_img_dix">
-                                 <h1 class="text_dental counter  "  data-max="8126"> <span class="plus_symbol">+</span></h1>
+                                 <h1 class="text_dental counter  " data-max="8126"> <span class="plus_symbol">+</span></h1>
                                  <p class="text_para">Happy Patients</p>
-                                  
+
                              </div>
                          </div>
                      </div>
@@ -523,9 +523,9 @@
                              </div>
                              &nbsp; &nbsp;
                              <div class="marging_img_dix">
-                                 <h1 class="text_dental counter  "  data-max="10"> <span class="plus_symbol">+</span></h1>
+                                 <h1 class="text_dental counter  " data-max="10"> <span class="plus_symbol">+</span></h1>
                                  <p class="text_para">Year Experience</p>
-                                
+
                              </div>
                          </div>
                      </div>
@@ -537,9 +537,9 @@
                              </div>
                              &nbsp; &nbsp;
                              <div class="marging_img_dix">
-                                 <h1 class="text_dental counter  "  data-max="10"> <span class="plus_symbol">+</span></h1>
+                                 <h1 class="text_dental counter  " data-max="10"> <span class="plus_symbol">+</span></h1>
                                  <p class="text_para">Doctor & Staff</p>
-                                 
+
                              </div>
                          </div>
                      </div>
@@ -551,7 +551,7 @@
                              </div>
                              &nbsp; &nbsp;
                              <div class="marging_img_dix">
-                                 <h1 class="text_dental counter  "  data-max="500"> <span class="plus_symbol">+</span></h1>
+                                 <h1 class="text_dental counter  " data-max="500"> <span class="plus_symbol">+</span></h1>
                                  <p class="text_para">Implants</p>
                              </div>
                          </div>
@@ -564,7 +564,7 @@
                              </div>
                              &nbsp; &nbsp;
                              <div class="marging_img_dix">
-                                 <h1 class="text_dental counter  "  data-max="120"> <span class="plus_symbol">+</span></h1>
+                                 <h1 class="text_dental counter  " data-max="120"> <span class="plus_symbol">+</span></h1>
                                  <p class="text_para">Invisalign</p>
                              </div>
                          </div>
@@ -756,22 +756,84 @@
                              </a>
                          </div>
                      </div>
+                     
+                     <style>
+                         /* Basic styles for the carousel */
+                         .carousel-container {
+                             position: relative;
+                             width: 100%;
+                             overflow: hidden;
+                         }
+
+                         .carousel {
+                             display: flex;
+                             transition: transform 0.5s ease-in-out;
+                             /* Smooth transition for sliding */
+                             width: 100%;
+                         }
+
+                         .slide {
+                             min-width: 100%;
+                             /* Each slide takes full width */
+                             box-sizing: border-box;
+                         }
+
+                         .imgCar {
+                             width: 100%;
+                             height: auto;
+
+                         }
+
+                         /* Buttons for previous and next */
+                         .prev1,
+                         .next1 {
+                             position: absolute;
+                             top: 50%;
+                             transform: translateY(-50%);
+                             background-color: rgba(0, 0, 0, 0.5);
+                             color: white;
+                             border: none;
+                             padding: 10px;
+                             cursor: pointer;
+                         }
+
+                         .prev1 {
+                             left: 10px;
+                         }
+
+                         .next1 {
+                             right: 10px;
+                         }
+
+                         /* Optional: Disable button text selection */
+                         .prev1,
+                         .next1 {
+                             user-select: none;
+                         }
+                     </style>
+
                      <div class="col-md-6 carPart">
                          <div class="row">
                              <div class="col-10">
                                  <div class="carousel-container">
-                                     <div class="carousel">
-                                         <div class="slide">
+                                     <div class="carousel" id="carouselSlider">
+                                         <!-- <div class="slide">
                                              <img src="assets/img/services/c.png" alt="" class="img-fluid imgCar">
-
                                          </div>
                                          <div class="slide">
                                              <img src="assets/img/services/d.png" alt="" class="img-fluid imgCar">
-
                                          </div>
                                          <div class="slide">
                                              <img src="assets/img/services/e.png" alt="" class="img-fluid imgCar">
-
+                                         </div> -->
+                                         <div class="slide">
+                                             <img src="assets/img/services/equip.jpg" alt="" class="img-fluid imgCar">
+                                         </div>
+                                         <div class="slide">
+                                             <img src="assets/img/services/equip1.jpg" alt="" class="img-fluid imgCar">
+                                         </div>
+                                         <div class="slide">
+                                             <img src="assets/img/services/equip2.jpg" alt="" class="img-fluid imgCar">
                                          </div>
                                      </div>
                                      <button class="prev1" onclick="moveSlide(-1)">&#10094;</button>
@@ -794,14 +856,50 @@
 
              <script>
                  document.addEventListener('DOMContentLoaded', function() {
-                     var carouselElement = document.getElementById('upCarousel');
-                     var carousel = new bootstrap.Carousel(carouselElement, {
-                         interval: 1000, // Set your desired slide interval
-                         wrap: true
+                     const carousel = document.getElementById('carouselSlider');
+                     const slides = document.querySelectorAll('.carousel .slide');
+                     const totalSlides = slides.length;
+                     let currentSlide = 0;
+                     let slideWidth = slides[0].offsetWidth;
+
+                     // Function to update the slide position
+                     function updateSlidePosition() {
+                         carousel.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+                     }
+
+                     // Function to move to the next or previous slide
+                     function moveSlide(n) {
+                         currentSlide += n;
+
+                         if (currentSlide >= totalSlides) {
+                             currentSlide = 0; // Loop back to the first slide
+                         } else if (currentSlide < 0) {
+                             currentSlide = totalSlides - 1; // Loop to the last slide
+                         }
+
+                         updateSlidePosition(); // Update the position to reflect the move
+                     }
+
+                     // Auto-slide functionality
+                     function autoSlide() {
+                         moveSlide(1); // Move to the next slide
+                     }
+
+                     // Set the auto-slide interval (adjust time as needed)
+                     setInterval(autoSlide, 3000); // Auto-slide every 3 seconds
+
+                     // Handle window resizing to adjust slide width
+                     window.addEventListener('resize', function() {
+                         slideWidth = slides[0].offsetWidth; // Recalculate slide width
+                         updateSlidePosition(); // Adjust the position after resizing
                      });
+
+                     // Initialize the first slide
+                     updateSlidePosition();
                  });
              </script>
          </section>
+
 
 
          <section>
@@ -1029,7 +1127,7 @@
                                      <div class="card-body ">
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
-                                         
+
 
                                          <p class="card-text  text_of_the_card">"My name is Kamala suffering from tooth pains severely and as suggested by my brother I have gone to the Srinivasa Multi Speciality Dental hospital Kakinada for the treatment. Dr. Kiran Raju garu checked and advised me for the full mouth rehabilitation due to cavities and deterioration..."</p>
                                          <h6 class="card-title name_of_the_card kamall">Mrs.Kamala Gandi</h6>
@@ -1052,7 +1150,7 @@
                                      <div class="card-body ">
                                          <img src="assets/img/services/1.png" alt=""
                                              class="img-fluid testy   d-none d-md-block">
-                                        
+
 
                                          <p class="card-text  text_of_the_card">" I am Ravi Babu and visited Srinivasa Multi Speciality Dental Hospital for replacement of metal crowns with zirconia crowns. The hospital ambiance is pleasant, elegant, neat and clean. Doctors and supporting staff are excellent..."</p>
                                          <h6 class="card-title name_of_the_card kamall">Mr.M Ravi Babu</h6>
@@ -1163,7 +1261,7 @@
                      </div>
 
                      <div class="d-flex flex-row justify-content-center mt-4">
-                         <a href="blogs.php"  style="text-decoration: none;">
+                         <a href="blogs.php" style="text-decoration: none;">
                              <p class="view_more_btn d-md-none">View More<i class="fa-solid fa-arrow-right"></i></p>
                          </a>
                      </div>
@@ -1449,38 +1547,38 @@
          </div>
 
          <div
-      class="footer-area-bottom theme-bg"
-      style="background-color: #000a2d">
-      <div class="container">
-        <div class="row pt-4">
+             class="footer-area-bottom theme-bg"
+             style="background-color: #000a2d">
+             <div class="container">
+                 <div class="row pt-4">
 
-          <div class="  col-md-6 col-12">
-            <div class="footer-widget__copyright-info info-direction">
-              <p class="  last_text">
-                <a
-                  href="terms.html"
-                  style="text-decoration: none; color: #ffffff">Terms & conditions
-                </a>
-                <a
-                  href="privacy.html"
-                  style="text-decoration: none; color: #ffffff">
-                  Privacy & policy</a>
-              </p>
-            </div>
-          </div>
+                     <div class="  col-md-6 col-12">
+                         <div class="footer-widget__copyright-info info-direction">
+                             <p class="  last_text">
+                                 <a
+                                     href="terms.html"
+                                     style="text-decoration: none; color: #ffffff">Terms & conditions
+                                 </a>
+                                 <a
+                                     href="privacy.html"
+                                     style="text-decoration: none; color: #ffffff">
+                                     Privacy & policy</a>
+                             </p>
+                         </div>
+                     </div>
 
-          <div class="col-md-6 col-12 second_divv_end_brand">
-            <div class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center">
-              <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff; display: flex; align-items: center;">
-                <p class="mini_text last_text mb-0">
-                  Branding By @
-                </p>
-                <img src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png" class="img-fluid brand_image" alt="">
-              </a>
-            </div>
-          </div>
+                     <div class="col-md-6 col-12 second_divv_end_brand">
+                         <div class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center">
+                             <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff; display: flex; align-items: center;">
+                                 <p class="mini_text last_text mb-0">
+                                     Branding By @
+                                 </p>
+                                 <img src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png" class="img-fluid brand_image" alt="">
+                             </a>
+                         </div>
+                     </div>
 
-          <!--  
+                     <!--  
                       <div class="col-xl-8 col-lg-9 col-md-12 col-12">
                           <div class="footer-widget__copyright">
                               <p class="mini_text last_text" style="color: #ffffff">
@@ -1491,9 +1589,9 @@
                               </p>
                           </div>
                       </div> -->
-        </div>
-      </div>
-    </div>
+                 </div>
+             </div>
+         </div>
      </footer>
 
 
