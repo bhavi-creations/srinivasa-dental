@@ -751,7 +751,7 @@
                              Dentures.</p>
                          <div class="    ">
                              <a href="services.php">
-                                 <button class="read_more_btn mt-4">Read More </button>
+                                 <button class="read_more_btn mt-4 mb-2">Read More </button>
                              </a>
                          </div>
                      </div>
@@ -762,6 +762,7 @@
                              position: relative;
                              width: 100%;
                              overflow: hidden;
+                             margin-top: 0px;
                          }
 
                          .carousel {
@@ -814,8 +815,8 @@
                      <div class="col-md-6 carPart">
                          <div class="row">
                              <div class="col-10">
-                                 <div class="carousel-container">
-                                     <div class="carousel" id="carouselSlider">
+                                 <div class="carousel-container"  >
+                                     <div class="carousel" id="carouselSlider" >
                                          <!-- <div class="slide">
                                              <img src="assets/img/services/c.png" alt="" class="img-fluid imgCar">
                                          </div>
@@ -826,13 +827,15 @@
                                              <img src="assets/img/services/e.png" alt="" class="img-fluid imgCar">
                                          </div> -->
                                          <div class="slide">
-                                             <img src="assets/img/services/equip.jpg" alt="" class="img-fluid imgCar">
+                                             <img src="assets/img/services/equip.jpg" alt="" class="img-fluid imgCar" >
                                          </div>
                                          <div class="slide">
                                              <img src="assets/img/services/equip1.jpg" alt="" class="img-fluid imgCar">
                                          </div>
                                          <div class="slide">
-                                             <img src="assets/img/services/equip2.jpg" alt="" class="img-fluid imgCar">
+                                             <img src="assets/img/services/equipmet.png" alt="" class="img-fluid imgCar">
+                                         </div>   <div class="slide">
+                                             <img src="assets/img/services/equi.png" alt="" class="img-fluid imgCar">
                                          </div>
                                      </div>
                                      <button class="prev1" onclick="moveSlide(-1)">&#10094;</button>

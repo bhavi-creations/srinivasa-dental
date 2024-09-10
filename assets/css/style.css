@@ -3820,12 +3820,12 @@ button.next1:hover {
 }
 
 .carPart {
-  background: aliceblue;
+  background: transparent !important;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
   /* padding-bottom: 30px; */
 }
 
