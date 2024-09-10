@@ -151,7 +151,7 @@
           </div>
 
           <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/services/s2.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+            <img src="assets/img/services/about.png" class="img-fluid dr_img_padding" alt="" class="servImg">
           </div>
         </div>
       </div>
