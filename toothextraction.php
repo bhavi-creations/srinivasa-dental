@@ -183,7 +183,7 @@
                 class="img-fluid"
                 alt="" /></a>
             <p class="foot_para">
-              Srinivasa Multispeciality Dental Hospital Jawahar street, Beside
+              Srinivasa Multispeciality Dental Hospital, Jawahar street, Beside
               MRF showroom, opp Vivekananda statue- kulaicheruvu park
               Kakinada-1
             </p>

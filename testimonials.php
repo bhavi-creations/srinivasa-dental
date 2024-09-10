@@ -149,7 +149,7 @@
                             <img src="assets/img/services/s3.png" class="img-fluid dr_img_padding servImgg" alt="">
 
                             <div class="carousel-container">
-                                <div class="carousel">
+                                <div class="carousel"  id="carouselSlider">
                                     <div class="slide">
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
@@ -162,7 +162,7 @@
                                                         <p class="text_of_the_card">
                                                             "My name is Kamala suffering from tooth pains severely and
                                                             as suggested by my brother I have gone to the Srinivasa
-                                                            Multi Speciality  Dental hospital Kakinada...
+                                                            Multi Speciality Dental hospital Kakinada...
                                                             <span class="get_in_touch read_hide readMoreBtn" style="color: #535460; cursor: pointer;" onclick="toggleReadMore()">
                                                                 Read More <i class="fa-solid fa-arrow-right"></i>
                                                             </span>
@@ -170,7 +170,7 @@
 
                                                         <div class="showthisdiv" style="display:none; ">
                                                             <p class="text_of_the_card">
-                                                            for the treatment.  Dr. Kiran Raju garu checked and advised me for the full
+                                                                for the treatment. Dr. Kiran Raju garu checked and advised me for the full
                                                                 mouth rehabilitation due to cavities and deterioration of my
                                                                 teeth. I agreed and the treatment started. Dr. Kiran Raju garu, Dr. Deepika, Dr.Deepa, Dr.Manogna,
                                                                 Dr. Krishna Teja have given very good treatment in a
@@ -252,7 +252,7 @@
 
                                                         <div class="showthisdiv2" style="display:none; ">
                                                             <p class="text_of_the_card">
-                                                            , neat and clean. Doctors and supporting staff are excellent.  The approach of Dr Kiran Raju garu is excellent and felt that I am in safe hands. His patience, fun creating calibre, caring charter, creating comfortable atmosphere are exceptional. Thank you so much Dr Kiran Raju garu for your outstanding professionalism, other skilled doctors, hygiene maintenance in hospital and courteous staff.
+                                                                , neat and clean. Doctors and supporting staff are excellent. The approach of Dr Kiran Raju garu is excellent and felt that I am in safe hands. His patience, fun creating calibre, caring charter, creating comfortable atmosphere are exceptional. Thank you so much Dr Kiran Raju garu for your outstanding professionalism, other skilled doctors, hygiene maintenance in hospital and courteous staff.
                                                             </p> <span class="get_in_touch read_hide readLessBtn2" style="color: #535460; cursor: pointer;" onclick="toggleReadMore2()">
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
@@ -325,7 +325,7 @@
                                                         <!-- Second part of the text (hidden initially) -->
                                                         <div class="showthisdiv4" style="display:none;">
                                                             <p class="text_of_the_card">
-                                                            treatment process feel personal and caring.   As someone with a low pain tolerance and a fear of dental visits, I was pleasantly surprised by how the doctor eased my anxiety and made the experience comfortable. I highly recommend this doctor and hospital to anyone seeking excellent dental care. Here's the proof!
+                                                                treatment process feel personal and caring. As someone with a low pain tolerance and a fear of dental visits, I was pleasantly surprised by how the doctor eased my anxiety and made the experience comfortable. I highly recommend this doctor and hospital to anyone seeking excellent dental care. Here's the proof!
                                                             </p>
                                                             <!-- "Read Less" link at the end of the second paragraph -->
                                                             <span class="get_in_touch read_hide readLessBtn4" style="color: #535460; cursor: pointer;" onclick="toggleReadMore4()">
@@ -358,7 +358,7 @@
 
                                                         <div class="showthisdiv5" style="display:none; ">
                                                             <p class="text_of_the_card">
-                                                            feel at ease right away. Dr. Kiran raju and Dr. Deepika are very knowledgeable and took the time to explain everything to me in a way that was easy to understand. The office was clean and modern and the greenery they maintain is top notch which added to the overall positive experience. I left feeling confident in the care I received and would highly recommend this dental practice to anyone in need of a great dentist!
+                                                                feel at ease right away. Dr. Kiran raju and Dr. Deepika are very knowledgeable and took the time to explain everything to me in a way that was easy to understand. The office was clean and modern and the greenery they maintain is top notch which added to the overall positive experience. I left feeling confident in the care I received and would highly recommend this dental practice to anyone in need of a great dentist!
                                                             </p> <span class="get_in_touch read_hide readLessBtn5" style="color: #535460; cursor: pointer;" onclick="toggleReadMore5()">
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
@@ -426,7 +426,7 @@
                                                         <h6 class="kamall mb-2">Mr.Sarabha Kavi</h6>
 
                                                         <p class="text_of_the_card">
-                                                        My name is Kavi, I came to Srinivasa multispecialty dental hospital Rama rao peta Kakinada for my wisdom tooth removal. Dr Kiranraju Garu treated me very well and the tooth ...
+                                                            My name is Kavi, I came to Srinivasa multispecialty dental hospital Rama rao peta Kakinada for my wisdom tooth removal. Dr Kiranraju Garu treated me very well and the tooth ...
                                                             <span class="get_in_touch read_hide readMoreBtn7" style="color: #535460; cursor: pointer;" onclick="toggleReadMore7()">
                                                                 Read More <i class="fa-solid fa-arrow-right"></i>
                                                             </span>
@@ -434,7 +434,7 @@
 
                                                         <div class="showthisdiv7" style="display:none; ">
                                                             <p class="text_of_the_card">
-                                                            removal was so smooth that I didn’t feel even a single point of pain.. here the Staff and doctors are very friendly and good knowledgeable. I can proudly say that this is the best dental hospital in and around Kakinada and I want to thank team Srinivas Dental for the best dental services you’re providing for the people of Kakinada.
+                                                                removal was so smooth that I didn’t feel even a single point of pain.. here the Staff and doctors are very friendly and good knowledgeable. I can proudly say that this is the best dental hospital in and around Kakinada and I want to thank team Srinivas Dental for the best dental services you’re providing for the people of Kakinada.
                                                             </p> <span class="get_in_touch read_hide readLessBtn7" style="color: #535460; cursor: pointer;" onclick="toggleReadMore7()">
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
@@ -459,23 +459,76 @@
                                 <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
                                 <button class="next" onclick="moveSlide(1)">&#10095;</button>
                             </div>
+
+                            <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const carousel = document.getElementById('carouselSlider');
+        const slides = document.querySelectorAll('.carousel .slide');
+        const totalSlides = slides.length;
+        let currentSlide = 0;
+        let slideWidth = slides[0].offsetWidth;
+
+        // Function to update the slide position
+        function updateSlidePosition() {
+            carousel.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+        }
+
+        // Function to move to the next or previous slide
+        window.moveSlide = function(n) { // Attach to the window object
+            currentSlide += n;
+
+            if (currentSlide >= totalSlides) {
+                currentSlide = 0; // Loop back to the first slide
+            } else if (currentSlide < 0) {
+                currentSlide = totalSlides - 1; // Loop to the last slide
+            }
+
+            updateSlidePosition(); // Update the position to reflect the move
+        };
+
+        // Auto-slide functionality
+        function autoSlide() {
+            moveSlide(1); // Move to the next slide
+        }
+
+        // Set the auto-slide interval (adjust time as needed)
+        setInterval(autoSlide, 3000); // Auto-slide every 3 seconds
+
+        // Handle window resizing to adjust slide width
+        window.addEventListener('resize', function() {
+            slideWidth = slides[0].offsetWidth; // Recalculate slide width
+            updateSlidePosition(); // Adjust the position after resizing
+        });
+
+        // Initialize the first slide
+        updateSlidePosition();
+    });
+</script>
+
+
+
                     </div>
 
                     <div class="col-md-5 mt-5 text-center">
                         <div class="custom-swiper-container">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <img src="assets/img/services/s4.png" class="img-fluid custom-img-padding"
                                         alt="Dental Image 1" loading="lazy">
-                                </div>
+                                </div> -->
                                 <div class="swiper-slide">
-                                    <img src="assets/img/services/s2.png" class="img-fluid custom-img-padding"
+                                    <img src="assets/img/services/reviews (1).png" class="img-fluid custom-img-padding"
                                         alt="Dental Braces" loading="lazy">
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="assets/img/services/s1.png" class="img-fluid custom-img-padding"
+                                    <img src="assets/img/services/reviews (2).png" class="img-fluid custom-img-padding"
                                         alt="Dental Image 2" loading="lazy">
                                 </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/img/services/reviews (3).png" class="img-fluid custom-img-padding"
+                                        alt="Dental Image 2" loading="lazy">
+                                </div>
+
                             </div>
                             <!-- Add Pagination -->
                             <!-- <div class="swiper-pagination"></div> -->
@@ -493,40 +546,40 @@
             </div>
         </section>
 
-        <script>
+        <!-- <script>
             let currentSlide = 0;
             const slides = document.querySelectorAll('.carousel .slide');
             const totalSlides = slides.length;
-            let slideInterval = setInterval(autoSlide, 5000); // Auto slide every 3 seconds
+            let slideInterval = setInterval(autoSlide, 5000); 
 
-            // Function to move the slide manually
+            
             function moveSlide(step) {
-                clearInterval(slideInterval); // Stop auto sliding when manually moving
-                currentSlide = (currentSlide - step + totalSlides) % totalSlides; // Reverse direction fix
+                clearInterval(slideInterval);  
+                currentSlide = (currentSlide - step + totalSlides) % totalSlides; 
                 updateSlide();
-                slideInterval = setInterval(autoSlide, 3000); // Restart auto sliding after manual move
+                slideInterval = setInterval(autoSlide, 3000);  
             }
 
-            // Function to auto-slide
+        
             function autoSlide() {
                 currentSlide = (currentSlide + 1) % totalSlides;
                 updateSlide();
             }
 
-            // Function to update the slide position
+           
             function updateSlide() {
                 document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
             }
 
-            // Event listeners for previous and next buttons
+             
             document.querySelector('.prev').addEventListener('click', function() {
-                moveSlide(-1); // Move to the previous slide
+                moveSlide(-1);  
             });
 
             document.querySelector('.next').addEventListener('click', function() {
-                moveSlide(1); // Move to the next slide
+                moveSlide(1);  
             });
-        </script>
+        </script> -->
 
 
 
@@ -563,7 +616,7 @@
                         <a href="#">
                             <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="" /></a>
                         <p class="foot_para">
-                            Srinivasa Multispeciality Dental Hospital Jawahar street, Beside
+                            Srinivasa Multispeciality Dental Hospital, Jawahar street, Beside
                             MRF showroom, opp Vivekananda statue- kulaicheruvu park
                             Kakinada-1
                         </p>

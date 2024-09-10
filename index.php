@@ -339,10 +339,9 @@
                          <h2 class="welcome_text_oncology">
                              Srinivasa Multispeciality Dental Hospital Dentist In Kakinada</h2>
                          <p class=poetsen_font>
-                             We are dedicated to providing your family with the right variety of dental services for
-                             complete care. We are confident you will find our clinic to be as friendly as it is
-                             professional each and every time you visit.
-                             <br>
+                         We offer a comprehensive range of dental services designed to meet the needs of your entire family. Our clinic is committed to providing exceptional care in a welcoming and professional environment. We strive to ensure that every visit is both friendly and thorough, reflecting our dedication to your family’s dental health.
+                         <br>
+                         <br>
                              Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada.
                          </p>
 
@@ -1310,7 +1309,7 @@
                                  class="img-fluid"
                                  alt="" /></a>
                          <p class="foot_para">
-                             Srinivasa Multispeciality Dental Hospital Jawahar street, Beside
+                             Srinivasa Multispeciality Dental Hospital, Jawahar street, Beside
                              MRF showroom, opp Vivekananda statue- kulaicheruvu park
                              Kakinada-1
                          </p>
