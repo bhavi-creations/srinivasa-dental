@@ -41,7 +41,7 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
- 
+
 
 <body>
 
@@ -135,24 +135,69 @@
               <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Tooth Extraction Treatment in
                 kakinada</h2>
               <p class="poetsen_font1">
-              Tooth extraction is a common dental procedure performed when a tooth is too damaged or decayed to be saved, or when it causes crowding or alignment issues. The process involves numbing the area with local anesthesia and carefully removing the tooth to minimize discomfort and trauma to the surrounding tissues. Extractions can be simple or surgical, depending on the tooth’s condition and position. After the procedure, proper care is essential to promote healing and prevent complications like infection or dry socket. While extractions may be necessary for dental health, they are often followed by restorative options like implants or bridges to maintain function and appearance.
+                Tooth extraction is a common dental procedure performed when a tooth is too damaged or decayed to be saved, or when it causes crowding or alignment issues. The process involves numbing the area with local anesthesia and carefully removing the tooth to minimize discomfort and trauma to the surrounding tissues. Extractions can be simple or surgical, depending on the tooth’s condition and position. After the procedure, proper care is essential to promote healing and prevent complications like infection or dry socket. While extractions may be necessary for dental health, they are often followed by restorative options like implants or bridges to maintain function and appearance.
 
               </p>
-<div class="showthisdiv  " style="display:none ">
-            <p class="poetsen_font1">
-            In addition to addressing dental decay or damage, tooth extraction is sometimes necessary for orthodontic reasons, such as creating space for proper alignment during braces treatment. Wisdom teeth, which often become impacted or cause overcrowding, are also commonly extracted to prevent future complications. The recovery process after extraction typically involves resting, avoiding certain foods, and following specific care instructions to ensure proper healing. Over-the-counter pain relievers and cold compresses can help manage discomfort in the days following the procedure. After healing, your dentist may discuss options for replacing the extracted tooth to restore both function and aesthetics.</p>
-          </div>
+              <div class="showthisdiv  " style="display:none ">
+                <p class="poetsen_font1">
+                  In addition to addressing dental decay or damage, tooth extraction is sometimes necessary for orthodontic reasons, such as creating space for proper alignment during braces treatment. Wisdom teeth, which often become impacted or cause overcrowding, are also commonly extracted to prevent future complications. The recovery process after extraction typically involves resting, avoiding certain foods, and following specific care instructions to ensure proper healing. Over-the-counter pain relievers and cold compresses can help manage discomfort in the days following the procedure. After healing, your dentist may discuss options for replacing the extracted tooth to restore both function and aesthetics.</p>
+              </div>
               <div class="d-flex flex-row justify-content-start">
                 <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
                   Read More <i class="fa-solid fa-arrow-right"></i></p>
               </div>
           </div>
 
-          <div class="col-md-5 order-3  order-md-2 mt-5">
-            <img src="assets/img/teethservices/tooth_ertraction.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
+            <div class="custom-swiper-container">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Tooth extraction sub service page 1.png" class="img-fluid custom-img-padding"
+                    alt="Dental Braces" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Tooth extraction sub service page 2.png" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div>
+                
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Tooth extraction sub service page 3.png" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <!-- <div class="swiper-pagination"></div> -->
+
+              <!-- Add Navigation -->
+              <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> -->
+            </div>
+
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const swiper = new Swiper('.custom-swiper-container', {
+                  loop: true,
+                  effect: 'fade',
+                  autoplay: {
+                    delay: 2000, // 2 seconds interval
+                    disableOnInteraction: false, // Continue autoplay after user interactions
+                  },
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                  },
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                  },
+                });
+              });
+            </script>
+
           </div>
 
-          
+
         </div>
       </div>
     </section>

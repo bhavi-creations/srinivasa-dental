@@ -41,7 +41,7 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
- 
+
 
 <body>
 
@@ -134,23 +134,71 @@
               <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Teeth Scaling Treatment in
                 kakinada</h2>
               <p class="poetsen_font1">
-              Teeth scaling is a preventive dental procedure focused on removing plaque, tartar, and bacteria from the surfaces of the teeth and beneath the gumline. This process is essential for preventing gum disease, as tartar buildup can lead to inflammation and infection in the gums. During the procedure, a dental professional uses specialized tools, such as ultrasonic scalers or manual instruments, to thoroughly clean the teeth. Scaling is often followed by root planing, which smooths the tooth roots to help the gums reattach and heal properly. Regular scaling, typically recommended every six months, plays a crucial role in maintaining both oral health and a bright, clean smile.
+                Teeth scaling is a preventive dental procedure focused on removing plaque, tartar, and bacteria from the surfaces of the teeth and beneath the gumline. This process is essential for preventing gum disease, as tartar buildup can lead to inflammation and infection in the gums. During the procedure, a dental professional uses specialized tools, such as ultrasonic scalers or manual instruments, to thoroughly clean the teeth. Scaling is often followed by root planing, which smooths the tooth roots to help the gums reattach and heal properly. Regular scaling, typically recommended every six months, plays a crucial role in maintaining both oral health and a bright, clean smile.
 
               </p>
-<div class="showthisdiv  " style="display:none ">
-            <p class="poetsen_font1"> Teeth scaling not only helps prevent gum disease but also improves overall oral hygiene by reducing bad breath caused by plaque and tartar buildup. The procedure is particularly important for individuals with periodontal disease, as it helps manage the condition and prevent it from progressing. For those with sensitive teeth or gums, a local anesthetic may be used to minimize discomfort during scaling. Regular scaling also contributes to the prevention of more serious dental issues, such as tooth decay and bone loss, by keeping harmful bacteria at bay. Consistent dental check-ups and scaling can significantly enhance the long-term health of your teeth and gums, leading to a healthier, more confident smile.</p>
-          </div>
+              <div class="showthisdiv  " style="display:none ">
+                <p class="poetsen_font1"> Teeth scaling not only helps prevent gum disease but also improves overall oral hygiene by reducing bad breath caused by plaque and tartar buildup. The procedure is particularly important for individuals with periodontal disease, as it helps manage the condition and prevent it from progressing. For those with sensitive teeth or gums, a local anesthetic may be used to minimize discomfort during scaling. Regular scaling also contributes to the prevention of more serious dental issues, such as tooth decay and bone loss, by keeping harmful bacteria at bay. Consistent dental check-ups and scaling can significantly enhance the long-term health of your teeth and gums, leading to a healthier, more confident smile.</p>
+              </div>
               <div class="d-flex flex-row justify-content-start">
                 <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
                   Read More <i class="fa-solid fa-arrow-right"></i></p>
               </div>
           </div>
 
-          <div class="col-md-5 order-3  order-md-2 mt-5">
-            <img src="assets/img/teethservices/tooth_scaling.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+          
+          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
+            <div class="custom-swiper-container">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Teeth scaling sub service page 1.png" class="img-fluid custom-img-padding"
+                    alt="Dental Braces" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Teeth scaling sub service page 2.png" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div>
+                
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Teeth scaling sub service page 3.png" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <!-- <div class="swiper-pagination"></div> -->
+
+              <!-- Add Navigation -->
+              <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> -->
+            </div>
+
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const swiper = new Swiper('.custom-swiper-container', {
+                  loop: true,
+                  effect: 'fade',
+                  autoplay: {
+                    delay: 2000, // 2 seconds interval
+                    disableOnInteraction: false, // Continue autoplay after user interactions
+                  },
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                  },
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                  },
+                });
+              });
+            </script>
+
           </div>
 
-          
+
+
+
         </div>
       </div>
     </section>

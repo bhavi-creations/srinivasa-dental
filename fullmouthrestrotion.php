@@ -135,12 +135,12 @@
               <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Full Mouth Restoration Treatment in
                 kakinada</h2>
               <p class="poetsen_font1">
-                Full mouth restoration is an extensive dental treatment plan designed to address multiple dental issues, restoring the health, function, and appearance of a patient’s entire mouth. This process often involves a combination of procedures, such as crowns, bridges, implants, veneers, and orthodontics, tailored to each patient’s unique needs. The goal is to rebuild damaged teeth, correct bite issues, and improve overall oral health, often transforming both the smile and quality of life. Full mouth restoration requires careful planning, including detailed evaluations and imaging to ensure precise and effective results. The treatment is typically carried out over multiple appointments, with each stage contributing to a complete and lasting dental transformation. Full mouth restoration not only 
+                Full mouth restoration is an extensive dental treatment plan designed to address multiple dental issues, restoring the health, function, and appearance of a patient’s entire mouth. This process often involves a combination of procedures, such as crowns, bridges, implants, veneers, and orthodontics, tailored to each patient’s unique needs. The goal is to rebuild damaged teeth, correct bite issues, and improve overall oral health, often transforming both the smile and quality of life. Full mouth restoration requires careful planning, including detailed evaluations and imaging to ensure precise and effective results. The treatment is typically carried out over multiple appointments, with each stage contributing to a complete and lasting dental transformation. Full mouth restoration not only
 
               </p>
               <div class="showthisdiv  " style="display:none ">
-            <p class="poetsen_font1"> addresses the functional aspects of the teeth and jaw but also significantly enhances the aesthetic appearance of the smile. It’s particularly beneficial for individuals with severe dental issues such as worn-down teeth, extensive decay, or trauma, offering a chance to completely rejuvenate their oral health. Advanced dental technologies, including digital imaging and 3D modeling, play a crucial role in planning and executing these complex procedures with precision. Throughout the process, a multidisciplinary approach may be required, involving specialists like prosthodontists, orthodontists, and periodontists, to achieve the best possible outcome. With proper care and maintenance, the results of a full mouth restoration can be long-lasting, providing patients with a renewed sense of confidence and a fully functional set of teeth.</p>
-          </div>
+                <p class="poetsen_font1"> addresses the functional aspects of the teeth and jaw but also significantly enhances the aesthetic appearance of the smile. It’s particularly beneficial for individuals with severe dental issues such as worn-down teeth, extensive decay, or trauma, offering a chance to completely rejuvenate their oral health. Advanced dental technologies, including digital imaging and 3D modeling, play a crucial role in planning and executing these complex procedures with precision. Throughout the process, a multidisciplinary approach may be required, involving specialists like prosthodontists, orthodontists, and periodontists, to achieve the best possible outcome. With proper care and maintenance, the results of a full mouth restoration can be long-lasting, providing patients with a renewed sense of confidence and a fully functional set of teeth.</p>
+              </div>
               <div class="d-flex flex-row justify-content-start">
                 <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
                   Read More <i class="fa-solid fa-arrow-right"></i></p>
@@ -148,10 +148,55 @@
           </div>
 
           <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/teethservices/full mouth restoration.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+            <div class="custom-swiper-container">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Full Mouth Restoration sub service page 1.png" class="img-fluid custom-img-padding"
+                    alt="Dental Braces" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Full Mouth Restoration sub service page 2.png" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Full Mouth Restoration sub service page 3.png" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <!-- <div class="swiper-pagination"></div> -->
+
+              <!-- Add Navigation -->
+              <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> -->
+            </div>
+
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const swiper = new Swiper('.custom-swiper-container', {
+                  loop: true,
+                  effect: 'fade',
+                  autoplay: {
+                    delay: 2000, // 2 seconds interval
+                    disableOnInteraction: false, // Continue autoplay after user interactions
+                  },
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                  },
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                  },
+                });
+              });
+            </script>
+
           </div>
 
-          
+
         </div>
       </div>
     </section>
