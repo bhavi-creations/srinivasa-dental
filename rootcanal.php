@@ -134,7 +134,7 @@
               <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Root Canal Treatment in
                 kakinada</h2>
               <p class="poetsen_font1">
-              A root canal is a dental treatment designed to address infection or damage within the pulp of a tooth. During the procedure, the dentist removes the infected or damaged tissue, cleans and disinfects the inner chambers, and then fills and seals the space. This treatment helps alleviate severe tooth pain and can prevent the need for tooth extraction. Root canals are often performed when cavities or trauma cause significant harm to the tooth's interior. After the procedure, the tooth is typically restored with a crown to ensure its strength and functionality.
+                A root canal is a dental treatment designed to address infection or damage within the pulp of a tooth. During the procedure, the dentist removes the infected or damaged tissue, cleans and disinfects the inner chambers, and then fills and seals the space. This treatment helps alleviate severe tooth pain and can prevent the need for tooth extraction. Root canals are often performed when cavities or trauma cause significant harm to the tooth's interior. After the procedure, the tooth is typically restored with a crown to ensure its strength and functionality.
               </p>
               <div class="showthisdiv " style="display:none ">
                 <p class="poetsen_font1"> A root canal procedure is crucial for saving a tooth that is severely damaged or infected. The process involves accessing the tooth's root canals, removing the affected pulp tissue, and thoroughly cleaning the area to eliminate bacteria. Once cleaned, the canals are filled with a special material to seal them and prevent future infections. Afterward, a crown or filling is placed on the tooth to restore its structure and function. This treatment can relieve significant pain and preserve the tooth, allowing patients to maintain a natural smile.</p>
@@ -146,13 +146,61 @@
           </div>
 
           <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/teethservices/root canal.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+            <div class="custom-swiper-container">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/services/root canal (1).jpg" class="img-fluid custom-img-padding"
+                    alt="Dental Braces" loading="lazy">
+                </div>
+                <!-- <div class="swiper-slide">
+                  <img src="assets/img/services/root canal (2).jpg" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div> -->
+                <div class="swiper-slide">
+                  <img src="assets/img/services/root (1).png" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div>
+
+              </div>
+              <!-- Add Pagination -->
+              <!-- <div class="swiper-pagination"></div> -->
+
+              <!-- Add Navigation -->
+              <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> -->
+            </div>
+
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const swiper = new Swiper('.custom-swiper-container', {
+                  loop: true,
+                  effect: 'fade',
+                  autoplay: {
+                    delay: 2000, // 2 seconds interval
+                    disableOnInteraction: false, // Continue autoplay after user interactions
+                  },
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                  },
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                  },
+                });
+              });
+            </script>
+
           </div>
 
 
         </div>
       </div>
     </section>
+
+
+
     <script>
       function toggleReadMore() {
         var showThisDiv = document.querySelector('.showthisdiv');

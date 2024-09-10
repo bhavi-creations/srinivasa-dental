@@ -147,7 +147,52 @@
           </div>
 
           <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/teethservices/dentures.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+            <div class="custom-swiper-container">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Dentures sub service page 1.png" class="img-fluid custom-img-padding"
+                    alt="Dental Braces" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Dentures sub service page 2.png" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/services/Dentures sub service page 3.png" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <!-- <div class="swiper-pagination"></div> -->
+
+              <!-- Add Navigation -->
+              <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> -->
+            </div>
+
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const swiper = new Swiper('.custom-swiper-container', {
+                  loop: true,
+                  effect: 'fade',
+                  autoplay: {
+                    delay: 2000, // 2 seconds interval
+                    disableOnInteraction: false, // Continue autoplay after user interactions
+                  },
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                  },
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                  },
+                });
+              });
+            </script>
+
           </div>
 
 

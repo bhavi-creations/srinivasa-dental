@@ -41,7 +41,7 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
- 
+
 
 <body>
 
@@ -134,13 +134,13 @@
               <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Braces Treatment in
                 kakinada</h2>
               <p class="poetsen_font1">
-              Dental braces are orthodontic devices designed to correct misaligned teeth and bite issues, offering both aesthetic and functional benefits. They work by applying continuous pressure over time, gradually moving teeth into the desired position. Braces are commonly made of metal, ceramic, or plastic, and include components such as brackets, wires, and bands. Treatment duration varies depending on the complexity of the case, but most people wear braces for one to three years. Proper care and regular adjustments by an orthodontist are essential for achieving optimal results.
+                Dental braces are orthodontic devices designed to correct misaligned teeth and bite issues, offering both aesthetic and functional benefits. They work by applying continuous pressure over time, gradually moving teeth into the desired position. Braces are commonly made of metal, ceramic, or plastic, and include components such as brackets, wires, and bands. Treatment duration varies depending on the complexity of the case, but most people wear braces for one to three years. Proper care and regular adjustments by an orthodontist are essential for achieving optimal results.
 
               </p>
 
               <div class="showthisdiv  " style="display:none ">
-            <p class="poetsen_font1">In addition to traditional metal braces, newer options like clear aligners offer a more discreet way to straighten teeth, making orthodontic treatment more appealing to adults and teens. Dental braces not only improve the alignment of teeth but also enhance oral health by making it easier to clean teeth and prevent issues like cavities and gum disease. While the process can sometimes cause discomfort, especially after adjustments, this is typically temporary and manageable. Wearing a retainer after braces are removed is crucial to maintain the results and prevent teeth from shifting back. Overall, dental braces provide a long-term solution for achieving a healthier, more confident smile.</p>
-          </div>
+                <p class="poetsen_font1">In addition to traditional metal braces, newer options like clear aligners offer a more discreet way to straighten teeth, making orthodontic treatment more appealing to adults and teens. Dental braces not only improve the alignment of teeth but also enhance oral health by making it easier to clean teeth and prevent issues like cavities and gum disease. While the process can sometimes cause discomfort, especially after adjustments, this is typically temporary and manageable. Wearing a retainer after braces are removed is crucial to maintain the results and prevent teeth from shifting back. Overall, dental braces provide a long-term solution for achieving a healthier, more confident smile.</p>
+              </div>
 
 
               <div class="d-flex flex-row justify-content-start">
@@ -150,10 +150,52 @@
           </div>
 
           <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/teethservices/dentak braces.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+            <div class="custom-swiper-container">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/services/dental braces (1).png" class="img-fluid custom-img-padding"
+                    alt="Dental Braces" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/services/dental braces (2).png" class="img-fluid custom-img-padding"
+                    alt="Dental Image 2" loading="lazy">
+                </div>
+                
+
+              </div>
+              <!-- Add Pagination -->
+              <!-- <div class="swiper-pagination"></div> -->
+
+              <!-- Add Navigation -->
+              <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> -->
+            </div>
+
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const swiper = new Swiper('.custom-swiper-container', {
+                  loop: true,
+                  effect: 'fade',
+                  autoplay: {
+                    delay: 2000, // 2 seconds interval
+                    disableOnInteraction: false, // Continue autoplay after user interactions
+                  },
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                  },
+                  navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                  },
+                });
+              });
+            </script>
+
           </div>
 
-         
+
         </div>
       </div>
     </section>

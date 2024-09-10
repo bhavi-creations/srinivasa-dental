@@ -149,7 +149,7 @@
                             <img src="assets/img/services/s3.png" class="img-fluid dr_img_padding servImgg" alt="">
 
                             <div class="carousel-container">
-                                <div class="carousel"  id="carouselSlider">
+                                <div class="carousel" id="carouselSlider">
                                     <div class="slide">
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
@@ -461,49 +461,49 @@
                             </div>
 
                             <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const carousel = document.getElementById('carouselSlider');
-        const slides = document.querySelectorAll('.carousel .slide');
-        const totalSlides = slides.length;
-        let currentSlide = 0;
-        let slideWidth = slides[0].offsetWidth;
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    const carousel = document.getElementById('carouselSlider');
+                                    const slides = document.querySelectorAll('.carousel .slide');
+                                    const totalSlides = slides.length;
+                                    let currentSlide = 0;
+                                    let slideWidth = slides[0].offsetWidth;
 
-        // Function to update the slide position
-        function updateSlidePosition() {
-            carousel.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
-        }
+                                    // Function to update the slide position
+                                    function updateSlidePosition() {
+                                        carousel.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+                                    }
 
-        // Function to move to the next or previous slide
-        window.moveSlide = function(n) { // Attach to the window object
-            currentSlide += n;
+                                    // Function to move to the next or previous slide
+                                    window.moveSlide = function(n) { // Attach to the window object
+                                        currentSlide += n;
 
-            if (currentSlide >= totalSlides) {
-                currentSlide = 0; // Loop back to the first slide
-            } else if (currentSlide < 0) {
-                currentSlide = totalSlides - 1; // Loop to the last slide
-            }
+                                        if (currentSlide >= totalSlides) {
+                                            currentSlide = 0; // Loop back to the first slide
+                                        } else if (currentSlide < 0) {
+                                            currentSlide = totalSlides - 1; // Loop to the last slide
+                                        }
 
-            updateSlidePosition(); // Update the position to reflect the move
-        };
+                                        updateSlidePosition(); // Update the position to reflect the move
+                                    };
 
-        // Auto-slide functionality
-        function autoSlide() {
-            moveSlide(1); // Move to the next slide
-        }
+                                    // Auto-slide functionality
+                                    function autoSlide() {
+                                        moveSlide(1); // Move to the next slide
+                                    }
 
-        // Set the auto-slide interval (adjust time as needed)
-        setInterval(autoSlide, 3000); // Auto-slide every 3 seconds
+                                    // Set the auto-slide interval (adjust time as needed)
+                                    setInterval(autoSlide, 3000); // Auto-slide every 3 seconds
 
-        // Handle window resizing to adjust slide width
-        window.addEventListener('resize', function() {
-            slideWidth = slides[0].offsetWidth; // Recalculate slide width
-            updateSlidePosition(); // Adjust the position after resizing
-        });
+                                    // Handle window resizing to adjust slide width
+                                    window.addEventListener('resize', function() {
+                                        slideWidth = slides[0].offsetWidth; // Recalculate slide width
+                                        updateSlidePosition(); // Adjust the position after resizing
+                                    });
 
-        // Initialize the first slide
-        updateSlidePosition();
-    });
-</script>
+                                    // Initialize the first slide
+                                    updateSlidePosition();
+                                });
+                            </script>
 
 
 
@@ -546,40 +546,6 @@
             </div>
         </section>
 
-        <!-- <script>
-            let currentSlide = 0;
-            const slides = document.querySelectorAll('.carousel .slide');
-            const totalSlides = slides.length;
-            let slideInterval = setInterval(autoSlide, 5000); 
-
-            
-            function moveSlide(step) {
-                clearInterval(slideInterval);  
-                currentSlide = (currentSlide - step + totalSlides) % totalSlides; 
-                updateSlide();
-                slideInterval = setInterval(autoSlide, 3000);  
-            }
-
-        
-            function autoSlide() {
-                currentSlide = (currentSlide + 1) % totalSlides;
-                updateSlide();
-            }
-
-           
-            function updateSlide() {
-                document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
-            }
-
-             
-            document.querySelector('.prev').addEventListener('click', function() {
-                moveSlide(-1);  
-            });
-
-            document.querySelector('.next').addEventListener('click', function() {
-                moveSlide(1);  
-            });
-        </script> -->
 
 
 
