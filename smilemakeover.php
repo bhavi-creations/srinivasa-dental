@@ -161,7 +161,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/services/Smile Makeover  sub service page 3.png" class="img-fluid custom-img-padding"
+                  <img src="assets/img/services/smile make over.png" class="img-fluid custom-img-padding"
                     alt="Dental Image 2" loading="lazy">
                 </div>
               </div>
