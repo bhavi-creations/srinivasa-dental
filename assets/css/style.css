@@ -888,7 +888,9 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
-
+.only_first{
+  padding: 0px !important;
+}
 .section-bg {
   background-color: rgba(238, 238, 238, 0.686);
 }

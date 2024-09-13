@@ -68,8 +68,8 @@
                     
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle  " href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Services
                         </a>
                         <ul class="dropdown-menu services_drop_menu mt-3" aria-labelledby="servicesDropdown" style="width:700px;">

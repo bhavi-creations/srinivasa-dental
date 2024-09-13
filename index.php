@@ -122,7 +122,7 @@
          </div>
      </header>
 
-     <header id="header" class="  onlypad">
+     <!-- <header id="header" class="  onlypad">
          <div class="container d-flex align-items-center">
              <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                  <a href="index.php">
@@ -191,16 +191,93 @@
                  });
              });
          </script>
+     </header> -->
+
+     <header id="header1" class="main_images onlypad">
+         <div class="container d-flex align-items-center">
+             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
+                 <a href="index.php">
+                     <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
+                 </a>
+             </div>
+
+             <nav id="navbar" class="navbar order-lg-0">
+                 <i class="bi bi-list mobile-nav-toggle"></i>
+                 <ul>
+
+                     <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
+                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Services
+                         </a>
+                         <ul class="dropdown-menu services_drop_menu mt-3" aria-labelledby="servicesDropdown" style="width:700px;">
+                             <div class="row  ">
+                                 <div class="col-md-4">
+                                     <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
+                                     <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
+                                     <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
+                                     <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
+                                 </div>
+                                 <div class="col-md-4">
+                                     <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
+                                     <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
+                                     <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
+                                     <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
+                                 </div>
+                                 <div class="col-md-4">
+                                     <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
+                                     <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth whitening</a></li>
+                                     <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
+                                     <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
+                                 </div>
+                             </div>
+                         </ul>
+                     </li>
+                     <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
+                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
+                     <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
+                     <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
+                             Appointment
+                         </a></li>
+                 </ul>
+             </nav>
+
+             <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
+                 For Appointment
+             </a>
+         </div>
+
+
+         <script>
+             // jQuery needed to manage hover and click behavior
+             $(document).ready(function() {
+                 // Ensure that the dropdown opens on hover
+                 $('#servicesDropdown').hover(function() {
+                     $(this).dropdown('toggle');
+                 });
+
+                 // Make sure the dropdown also works on click
+                 $('#servicesDropdown').click(function(e) {
+                     e.stopPropagation(); // Prevents the click from closing the dropdown immediately
+                     window.location.href = $(this).attr('href'); // Redirect to the link
+                 });
+             });
+         </script>
      </header>
 
+     <section class="only_first">
+         <video width="100%" height="auto" loop autoplay muted>
+             <source src="assets/img/srinivasa/srinivas slider video.mp4" type="video/mp4">
+             Your browser does not support the video tag.
+         </video>
+     </section>
 
 
 
 
-     <section class="bg_images">
-
+     <!-- <section class="bg_images">
          <div class="container bg_container">
-
              <div class="row">
                  <div class="col-md-6">
                      <p class="hello_border"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
@@ -271,12 +348,8 @@
                  </div>
 
              </div>
-
-
-
          </div>
-
-     </section>
+     </section> -->
 
      <main id="main">
 
@@ -339,9 +412,9 @@
                          <h2 class="welcome_text_oncology">
                              Srinivasa Multispeciality Dental Hospital Dentist In Kakinada</h2>
                          <p class=poetsen_font>
-                         We offer a comprehensive range of dental services designed to meet the needs of your entire family. Our clinic is committed to providing exceptional care in a welcoming and professional environment. We strive to ensure that every visit is both friendly and thorough, reflecting our dedication to your family’s dental health.
-                         <br>
-                         <br>
+                             We offer a comprehensive range of dental services designed to meet the needs of your entire family. Our clinic is committed to providing exceptional care in a welcoming and professional environment. We strive to ensure that every visit is both friendly and thorough, reflecting our dedication to your family’s dental health.
+                             <br>
+                             <br>
                              Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada.
                          </p>
 
@@ -755,7 +828,7 @@
                              </a>
                          </div>
                      </div>
-                     
+
                      <style>
                          /* Basic styles for the carousel */
                          .carousel-container {
@@ -815,8 +888,8 @@
                      <div class="col-md-6 carPart">
                          <div class="row">
                              <div class="col-10">
-                                 <div class="carousel-container"  >
-                                     <div class="carousel" id="carouselSlider" >
+                                 <div class="carousel-container">
+                                     <div class="carousel" id="carouselSlider">
                                          <!-- <div class="slide">
                                              <img src="assets/img/services/c.png" alt="" class="img-fluid imgCar">
                                          </div>
@@ -827,14 +900,15 @@
                                              <img src="assets/img/services/e.png" alt="" class="img-fluid imgCar">
                                          </div> -->
                                          <div class="slide">
-                                             <img src="assets/img/services/equip.jpg" alt="" class="img-fluid imgCar" >
+                                             <img src="assets/img/services/equip.jpg" alt="" class="img-fluid imgCar">
                                          </div>
                                          <div class="slide">
                                              <img src="assets/img/services/equip1.jpg" alt="" class="img-fluid imgCar">
                                          </div>
                                          <div class="slide">
                                              <img src="assets/img/services/equipmet.png" alt="" class="img-fluid imgCar">
-                                         </div>   <div class="slide">
+                                         </div>
+                                         <div class="slide">
                                              <img src="assets/img/services/equi.png" alt="" class="img-fluid imgCar">
                                          </div>
                                      </div>

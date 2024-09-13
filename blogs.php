@@ -91,7 +91,7 @@ $result = $conn->query($sql);
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-                    <li><a class="nav-link" href="blogs.php">Blogs</a></li>
+                    <li><a class="nav-link active" href="blogs.php">Blogs</a></li>
                     <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
                     <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
                             Appointment
