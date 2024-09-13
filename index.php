@@ -268,7 +268,7 @@
 
      <section class="only_first">
          <video width="100%" height="auto" loop autoplay muted>
-             <source src="assets/img/srinivasa/srinivas slider video.mp4" type="video/mp4">
+             <source src="assets/img/srinivasa/g.mp4" type="video/mp4">
              Your browser does not support the video tag.
          </video>
      </section>
