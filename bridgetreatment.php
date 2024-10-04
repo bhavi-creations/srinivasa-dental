@@ -219,6 +219,8 @@
         </div>
       </div>
     </section>
+    <?php include('./videotestimonials.php'); ?>
+
     <script>
       function toggleReadMore() {
         var showThisDiv = document.querySelector('.showthisdiv');

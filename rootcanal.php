@@ -214,6 +214,7 @@
       </div>
     </section>
 
+    <?php include('./videotestimonials.php'); ?>
 
 
     <script>
