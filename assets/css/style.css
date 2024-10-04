@@ -4029,4 +4029,32 @@ img.img-fluid.yimg {
   align-items: center;
 }
 
- 
+.social-icons {
+  z-index: 999;
+   position: fixed;
+   top: 50%;
+   right: 0;
+   transform: translateY(-50%);
+   display: flex;
+   flex-direction: column;
+   background-color: #f1f1f1;
+   padding: 5px;
+   border-radius: 10px 0 0 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons a {
+   text-decoration: none;
+   color: #333;
+   font-size: 16px;
+   padding: 10px 0;
+   transition: color 0.3s ease;
+}
+
+.social-icons a img{
+  width: 25px;
+}
+
+.social-icons a:hover {
+   color: #007bff;
+}

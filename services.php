@@ -51,6 +51,21 @@
 </style>
 
 <body>
+    <div class="social-icons text-center">
+        <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
+            <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""
+        /></a>
+        <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
+            <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""
+        /></a>
+        <a
+            href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
+            <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt=""
+        /></a>
+        <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
+            <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""
+        /></a>
+    </div>
 
 
 

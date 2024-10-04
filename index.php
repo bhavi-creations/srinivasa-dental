@@ -49,11 +49,26 @@
      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
  
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
-
  </head>
 
 
  <body>
+    <div class="social-icons text-center">
+        <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
+            <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""
+        /></a>
+        <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
+            <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""
+        /></a>
+        <a
+            href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
+            <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt=""
+        /></a>
+        <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
+            <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""
+        /></a>
+    </div>
+
 
      <!-- ======= Header ======= -->
      <header id="top-header" class="top-header d-none d-lg-block hearedr_spacing">
