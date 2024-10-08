@@ -7,7 +7,7 @@
         <div class="sidebar-brand-icon  ">
             <i class="fas fa-stethoscope"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Srinivasa</div>
+        <div class="sidebar-brand-text mx-3">Srinivasa Dental</div>
     </a>
  
     <!-- Divider -->

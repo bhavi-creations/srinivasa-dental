@@ -53,21 +53,17 @@
 
 
  <body>
-    <div class="social-icons text-center">
-        <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-            <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""
-        /></a>
-        <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-            <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""
-        /></a>
-        <a
-            href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-            <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt=""
-        /></a>
-        <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-            <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""
-        /></a>
-    </div>
+     <div class="social-icons text-center">
+         <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
+             <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
+         <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
+             <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
+         <a
+             href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
+             <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
+         <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
+             <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
+     </div>
 
 
      <!-- ======= Header ======= -->
@@ -226,7 +222,7 @@
                          <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                              Services
                          </a>
-                         <ul class="dropdown-menu services_drop_menu mt-3" aria-labelledby="servicesDropdown" style="width:700px;">
+                         <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
                              <div class="row  ">
                                  <div class="col-md-4">
                                      <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
@@ -1113,36 +1109,78 @@
 
 
 
+
+
+
+
+
+
+
                      <?php
                         include './db.connection/db_connection.php';
-                        // Fetch latest 3 blogs
-                        $sql = "SELECT * FROM blog ORDER BY time DESC LIMIT 3";
+
+                        // Fetch latest 3 blogs with video
+                        $sql = "SELECT id, title, main_content, main_image, video FROM blogs ORDER BY created_at DESC LIMIT 3";
                         $result = $conn->query($sql);
+
+                        if ($result->num_rows > 0) {
+                            echo "<div class='row'>"; // Start row for card layout
+
+                            while ($row = $result->fetch_assoc()) {
+                                $blog_id = $row['id'];
+                                $title = $row['title'];
+                                $main_content = $row['main_content'];
+                                $main_image = $row['main_image'];
+                                $video = $row['video'];
+
+                                echo "<div class='col-md-4 mb-4'>"; // Create 3 equal-width columns for medium devices
+                                echo "<div class='card h-100'>"; // Start card
+
+                                // Display the blog title
+                                echo "<div class='card-body'>";
+
+
+                                // Display video if available
+                                if (!empty($video)) {
+                                    $video_path = "./admin/uploads/videos/{$video}";
+                                    echo "<video class='main-video img-fluid' controls>
+                    <source src='{$video_path}' type='video/mp4'>
+                    Your browser does not support the video tag.
+                  </video>";
+                                }
+                                // If no video, display main image
+                                elseif (!empty($main_image)) {
+                                    $main_image_path = "./admin/uploads/photos/{$main_image}";
+                                    echo "<img class='card-img-top img-fluid' src='{$main_image_path}' alt='Blog Image'>";
+                                }
+                                echo "<h5 class='card-title my-3'>" . htmlspecialchars($title) . "</h5>";
+                                // Display a short portion of the blog content
+                                echo "<p class='card-text'>" . substr($main_content, 0,90) . "...</p>";
+
+                                // Link to full blog post
+                                echo "<a href='fullblog.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
+
+                                echo "</div>"; // End card body
+                                echo "</div>"; // End card
+                                echo "</div>"; // End column
+                            }
+
+                            echo "</div>"; // End row
+                        } else {
+                            echo "No blog posts found.";
+                        }
+
+                        $conn->close();
                         ?>
 
-                     <?php while ($row = $result->fetch_assoc()) : ?>
-                         <div class="col px-5 py-2">
-                             <div class="card h-100">
-                                 <video class="custom-video" autoplay muted controls style="width: 100%; height: auto;">
-                                     <source src="admin/public/uploads/videos/<?php echo $row['video']; ?>"
-                                         type="video/mp4">
-                                     Your browser does not support the video tag.
-                                 </video>
-                                 <div class="card-body">
 
 
-                                     <h5 class="card-title"><?php echo $row['title']; ?></h5>
-
-                                 </div>
 
 
-                                 <div class="card-footer">
-                                     <small class="text-muted">Posted On:
-                                         <?php echo date("F j, Y, g:i a", strtotime($row['time'])); ?></small>
-                                 </div>
-                             </div>
-                         </div>
-                     <?php endwhile; ?>
+
+
+
+
 
                      <div class="mt-5 d-none d-md-block">
                          <a href="blogs.php" style="text-decoration: none;">

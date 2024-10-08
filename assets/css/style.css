@@ -79,7 +79,7 @@
   }
 }
 
-@media (max-width:768px)  {
+@media (max-width:768px) {
 
 
   .second_divv_end_brand {
@@ -888,9 +888,11 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
-.only_first{
+
+.only_first {
   padding: 0px !important;
 }
+
 .section-bg {
   background-color: rgba(238, 238, 238, 0.686);
 }
@@ -2913,7 +2915,7 @@ section {
   margin-top: -20px !important;
 }
 
- 
+
 @media (min-width:768px) and (max-width:992px) {
   .text_dental {
     color: #000a2d;
@@ -2921,69 +2923,74 @@ section {
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
-    
+
   }
+
   .approc_image {
     margin-top: -20px !important;
     width: 65% !important;
-   
-  
+
+
   }
 
-  .marging_img_dix{
+  .marging_img_dix {
     margin-left: -34px;
   }
+
   .plus_symbol {
     color: #93c237;
   }
-  
+
   .text_para {
     color: #636571;
     font-family: Archivo;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height:2;
-     
+    line-height: 2;
+
   }
-  
-}
-@media  (min-width:992px) and  (max-width:1200px) {
-  
-.text_dental {
-  color: #000a2d;
-  font-family: Manrope;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 800;
-  
-}
-.approc_image {
-  margin-top: -20px !important;
-  width: 82% !important;
 
 }
-.plus_symbol {
-  color: #93c237;
+
+@media (min-width:992px) and (max-width:1200px) {
+
+  .text_dental {
+    color: #000a2d;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+
+  }
+
+  .approc_image {
+    margin-top: -20px !important;
+    width: 82% !important;
+
+  }
+
+  .plus_symbol {
+    color: #93c237;
+  }
+
+  .text_para {
+    color: #636571;
+    font-family: Archivo;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+
+  }
+
+
 }
 
-.text_para {
-  color: #636571;
-  font-family: Archivo;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25.6px;
-   
-}
-
- 
-}
-
- 
 
 
- 
+
+
 
 .text_dental {
 
@@ -2991,21 +2998,22 @@ section {
 }
 
 @media (min-width:1200px) {
-  
+
 
   .text_dental {
     font-size: 2rem;
     font-weight: bold;
     color: #000A2D;
   }
-  
+
 
   .text_para {
     margin: 0;
     font-size: 1.1rem;
-    color: #757575; /* Example color, adjust as needed */
+    color: #757575;
+    /* Example color, adjust as needed */
   }
-  
+
 }
 
 
@@ -3844,7 +3852,7 @@ button.next1:hover {
 
 img.img-fluid.imgCar {
   z-index: 99999999 !important;
-  
+
 }
 
 img.img-fluid.fimg {
@@ -3882,38 +3890,47 @@ img.img-fluid.yimg {
   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
     rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
- 
+
 
 .services_drop_menu {
-  background-color: #ccdcec64 !important; /* Adjust the color as needed */
-   
+  background-color: #ccdcec64 !important;
+  /* Adjust the color as needed */
+
 }
 
 .services_drop {
-    line-height: 2; /* Adjust the line height as needed */
-   width:100%!important;
-   color: #000a2d !important;
+  line-height: 2;
+  /* Adjust the line height as needed */
+  width: 100% !important;
+  color: #000a2d !important;
 }
 
 
 /* General styling for active service item */
 .dropdown-item.active_service {
-  background-color: #007bff; /* Change this to your preferred background color */
-  color: #fff !important; /* Change text color to white or any other contrasting color */
+  background-color: #007bff;
+  /* Change this to your preferred background color */
+  color: #fff !important;
+  /* Change text color to white or any other contrasting color */
   font-weight: bold;
 }
 
 /* Styling for hover effect on active service item */
 .dropdown-item.active_service:hover {
-  background-color: #0056b3; /* Darker shade for hover effect */
-  color: #fff !important; /* Ensure text color stays white on hover */
-  text-decoration: none; /* Remove underline on hover */
+  background-color: #0056b3;
+  /* Darker shade for hover effect */
+  color: #fff !important;
+  /* Ensure text color stays white on hover */
+  text-decoration: none;
+  /* Remove underline on hover */
 }
 
 /* Optional: Add a border or shadow for more emphasis */
 .dropdown-item.active_service {
-  border-left: 4px solid #0056b3; /* Add a left border */
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+  border-left: 4px solid #0056b3;
+  /* Add a left border */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Optional shadow effect */
 }
 
 
@@ -3937,20 +3954,22 @@ img.img-fluid.yimg {
   display: block;
   opacity: 1;
   transform: translateX(0);
-  transition-delay: 0.2s; /* Adds a delay for lazy transformation */
+  transition-delay: 0.2s;
+  /* Adds a delay for lazy transformation */
 }
 
 .slide_section.previous {
   transform: translateX(-100%);
   opacity: 0;
-  transition-delay: 0.2s; /* Delay for the previous slide too */
+  transition-delay: 0.2s;
+  /* Delay for the previous slide too */
 }
 
 
 
-  
 
- 
+
+
 
 
 
@@ -3995,8 +4014,8 @@ img.img-fluid.yimg {
 }
 
 
-.heailther_text{
-  font-weight:900 ;
+.heailther_text {
+  font-weight: 900;
   color: #000a2d;
 }
 
@@ -4010,18 +4029,21 @@ img.img-fluid.yimg {
 
 .counter_section_spacing {
   justify-content: space-between;
-  flex-wrap: wrap; /* Optional, for responsiveness */
-  gap: 20px; /* Adds space between items */
+  flex-wrap: wrap;
+  /* Optional, for responsiveness */
+  gap: 20px;
+  /* Adds space between items */
 }
 
 .approc_image {
-  
+
   border-radius: 3px !important;
 }
 
 .plus_symbol {
   font-size: 1.5rem;
-  color: #93C237; /* Example color, adjust as needed */
+  color: #93C237;
+  /* Example color, adjust as needed */
 }
 
 .flex_div {
@@ -4031,30 +4053,108 @@ img.img-fluid.yimg {
 
 .social-icons {
   z-index: 999;
-   position: fixed;
-   top: 50%;
-   right: 0;
-   transform: translateY(-50%);
-   display: flex;
-   flex-direction: column;
-   background-color: #f1f1f1;
-   padding: 5px;
-   border-radius: 10px 0 0 10px;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .social-icons a {
-   text-decoration: none;
-   color: #333;
-   font-size: 16px;
-   padding: 10px 0;
-   transition: color 0.3s ease;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 0;
+  transition: color 0.3s ease;
 }
 
-.social-icons a img{
+.social-icons a img {
   width: 25px;
 }
 
 .social-icons a:hover {
-   color: #007bff;
+  color: #007bff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* blogs_main_page   */
+
+
+.blog_main_btn {
+  /* Initial styles for the button */
+  border-width: 0px;
+  color: black;
+  border-radius: 22px;
+  padding: 9px 22px;
+  font-weight: 800;
+  background-color: transparent; /* initial background color */
+
+  /* Add transition to smooth the hover effects */
+  transition: background-color 0.4s ease, color 0.4s ease, border-radius 0.4s ease;
+  margin-bottom: 14px;
+}
+
+.blog_main_btn:hover {
+  border-width: 0px;
+  color: white;
+  border-radius: 22px;
+  padding: 9px 22px;
+  font-weight: 800;
+  margin-bottom: 14px;
+
+  background-color: rgb(0, 0, 31); /* Dark background on hover */
+}
+
+.box-title{
+  color: #28386a !important;
+}
+.box-title:hover{
+  color: #072bbc !important;
+}
+
+.blog-card-text{
+  color: #ffffff !important;
+font-weight: 700;
+}
+.blog-card-text:hover{
+  color: #070707 !important;
+
+  font-weight: 700;
+
+}
+.post-desc{
+  color: #848e9f;
+}
+.card_bg_div_box {
+  /* Initial styles for the card */
+  box-shadow: none; /* No shadow by default */
+  transition: box-shadow 0.3s ease; /* Smooth transition for the box-shadow */
+   padding: 20px;
+}
+
+.card_bg_div_box:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow when hovering */
+  padding: 20px;
+}
+
+.blog_box_image{
+  border-radius: 12px;
+}
+
+.background_sidebar{
+background-color: #94beeb;
 }
