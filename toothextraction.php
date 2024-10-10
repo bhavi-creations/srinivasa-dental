@@ -309,13 +309,13 @@
                     </div>
                   </div>
                 </div>
-                <div class="tile  ">
+                <!-- <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -339,14 +339,14 @@
                     </div>
                   </div>
                 </div>
-                <div class="tile  ">
+                 <!--  <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <!--   <div class="tile  ">
+                <div class="tile  ">
                   <div class="tile__media">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/KyI4GyczhTo?si=F0v0n60FOJLo5hKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

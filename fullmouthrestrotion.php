@@ -44,21 +44,17 @@
 
 
 <body>
-    <div class="social-icons text-center">
-        <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-            <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""
-        /></a>
-        <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-            <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""
-        /></a>
-        <a
-            href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-            <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt=""
-        /></a>
-        <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-            <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""
-        /></a>
-    </div>
+  <div class="social-icons text-center">
+    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
+      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
+    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
+      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
+    <a
+      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
+      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
+    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
+      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
+  </div>
 
 
 
@@ -215,7 +211,7 @@
         </div>
       </div>
     </section>
-   
+
     <script>
       function toggleReadMore() {
         var showThisDiv = document.querySelector('.showthisdiv');
@@ -231,11 +227,11 @@
       }
     </script>
 
-<section>
+    <section>
       <div class="container">
         <div class="section-title text-center">
 
-          <h2 class="apporach">  Full Mouth Restoration  </h2>
+          <h2 class="apporach"> Full Mouth Restoration </h2>
 
 
           <p class="svg_apporach_service"> <svg xmlns="http://www.w3.org/2000/svg" width="266" height="10"
@@ -245,7 +241,7 @@
                 fill="#25B4F8" />
             </svg>
           </p>
-          <h2 class="apporach">  Revitalize Your Smile and Restore Confidence</h2>
+          <h2 class="apporach"> Revitalize Your Smile and Restore Confidence</h2>
 
 
 
@@ -260,7 +256,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jL_1kmfc5wI?si=wCqn-avuPPZIPBpt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/UEm0ustQR1I?si=TUU2pZqAyn3iiiXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -275,7 +271,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jL_1kmfc5wI?si=wCqn-avuPPZIPBpt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/UEm0ustQR1I?si=TUU2pZqAyn3iiiXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -297,7 +293,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jL_1kmfc5wI?si=wCqn-avuPPZIPBpt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/UEm0ustQR1I?si=TUU2pZqAyn3iiiXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -327,7 +323,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jL_1kmfc5wI?si=wCqn-avuPPZIPBpt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/UEm0ustQR1I?si=TUU2pZqAyn3iiiXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>

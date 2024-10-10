@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +16,6 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
@@ -26,9 +24,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <?php
-        include 'sidebar.php';
-        ?>
+        <?php include 'sidebar.php'; ?>
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
@@ -38,9 +34,7 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <?php
-                include 'navbar.php';
-                ?>
+                <?php include 'navbar.php'; ?>
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
@@ -49,8 +43,6 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">CREATE BLOG</h1>
-                        <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
                     </div>
 
                     <!-- Content Row -->
@@ -65,15 +57,34 @@
                                 <div class="card-body">
                                     <form style='color:black;' id="addblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
 
-                                        <!-- <div class="mb-3">
-                                            <label for="formFileTitleImage" class="form-label text-primary my-2">CHOOSE TITLE IMAGE</label>
-                                            <input class="form-control" name="title_image" type="file" id="formFileTitleImage">
-                                        </div> -->
-
                                         <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label text-primary">ENTER TITLE</label>
                                             <input type="text" class="form-control text-grey-900" name='title' id="exampleFormControlInput1" placeholder="Title" required>
                                         </div>
+
+                                        <!-- Filter Section for Service -->
+                                        <div class="filter-section mb-3">
+                                            <label for="service" class="form-label text-primary">Select Service:</label>
+                                            <select id="service" name="service" class="form-control" required>
+                                                <option value="">Select a Service</option>
+                                                <option value="Root Canal">Root Canal</option>
+                                                <option value="Dental Braces">Dental Braces</option>
+                                                <option value="Dental Implants">Dental Implants</option>
+                                                <option value="Crown & Bridge">Crown & Bridge</option>
+                                                <option value="Teeth Filling">Teeth Filling</option>
+                                                <option value="Dentures">Dentures</option>
+                                                <option value="Teeth Scaling">Teeth Scaling</option>
+                                                <option value="Tooth Extraction">Tooth Extraction</option>
+                                                <option value="Teeth Cleaning">Teeth Cleaning</option>
+                                                <option value="Teeth Whitening">Teeth Whitening</option>
+                                                <option value="Smile Makeover">Smile Makeover</option>
+                                                <option value="Full Mouth Restoration">Full Mouth Restoration</option>
+                                            </select>
+                                        </div>
+
+
+                                
+
 
                                         <!-- Main Content Quill Editor -->
                                         <div class="mb-3">
@@ -88,11 +99,8 @@
                                         </div>
 
                                         <div class="mb-3">
-                                            <label for="formFileVideo" class="form-label text-primary">Choose
-                                                Video</label>
-                                            <input class="form-control" name="video" type="file" id="formFileVideo"
-                                                required>
-
+                                            <label for="formFileVideo" class="form-label text-primary">Choose Video</label>
+                                            <input class="form-control" name="video" type="file" id="formFileVideo" required>
                                         </div>
 
                                         <!-- Full Content Quill Editor -->
@@ -218,13 +226,10 @@
                                     </form>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
 
                     <!-- /.container-fluid -->
-
                 </div>
                 <!-- End of Main Content -->
 
@@ -233,9 +238,7 @@
                     <div class="container my-auto">
                         <div class="copyright text-center my-auto">
                             <div class="footer-widget__copyright">
-                                <p class="mini_text" style="color:black"> ©2024 Srinivasa Dental . All Rights Reserved. Designed &
-                                    Developed by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:black">Bhavi
-                                        Creations</a></p>
+                                <p class="mini_text" style="color:black"> ©2024 Srinivasa Dental . All Rights Reserved. Designed & Developed by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:black">Bhavi Creations</a></p>
                             </div>
                         </div>
                     </div>
@@ -253,25 +256,6 @@
             <i class="fas fa-angle-up"></i>
         </a>
 
-        <!-- Logout Modal-->
-        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                    <div class="modal-footer">
-                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                        <a class="btn btn-primary" href="login.php">Logout</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Bootstrap core JavaScript-->
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -281,13 +265,6 @@
 
         <!-- Custom scripts for all pages-->
         <script src="js/sb-admin-2.min.js"></script>
-
-        <!-- Page level plugins -->
-        <script src="vendor/chart.js/Chart.min.js"></script>
-
-        <!-- Page level custom scripts -->
-        <script src="js/demo/chart-area-demo.js"></script>
-        <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
 

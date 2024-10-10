@@ -7,10 +7,10 @@ $blog_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
 if ($blog_id > 0) {
     // Fetch blog data
-    $stmt = $conn->prepare("SELECT title, main_content, full_content FROM blogs WHERE id = ?");
+    $stmt = $conn->prepare("SELECT title, main_content, full_content, service FROM blogs WHERE id = ?");
     $stmt->bind_param("i", $blog_id);
     $stmt->execute();
-    $stmt->bind_result($title, $main_content, $full_content);
+    $stmt->bind_result($title, $main_content, $full_content, $service);
     $stmt->fetch();
     $stmt->close();
 } else {
@@ -62,16 +62,33 @@ $conn->close();
                                 </div>
                                 <div class="card-body">
                                     <form style='color:black;' id="editblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
-                                        <!-- Title Image Upload -->
-                                        <!-- <div class="mb-3">
-                                            <label for="formFileMultiple1" class="form-label text-primary my-2">CHOOSE TITLE IMAGE</label>
-                                            <input class="form-control" name="photos[]" type="file" id="formFileMultiple" multiple>
-                                        </div> -->
                                         <!-- Title Input -->
                                         <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label text-primary">ENTER TITLE</label>
                                             <input type="text" class="form-control text-grey-900" name='title' id="exampleFormControlInput1" value="<?php echo htmlspecialchars($title); ?>" placeholder="Title" required>
                                         </div>
+
+                                        <!-- Service Input -->
+                                        <!-- Service Dropdown -->
+                                        <div class="filter-section mb-3">
+                                            <label for="service" class="form-label text-primary">Select Service:</label>
+                                            <select id="service" name="service" class="form-control" required>
+                                                <option value="">Select a Service</option>
+                                                <option value="Root Canal" <?php echo ($service == 'Root Canal') ? 'selected' : ''; ?>>Root Canal</option>
+                                                <option value="Dental Braces" <?php echo ($service == 'Dental Braces') ? 'selected' : ''; ?>>Dental Braces</option>
+                                                <option value="Dental Implants" <?php echo ($service == 'Dental Implants') ? 'selected' : ''; ?>>Dental Implants</option>
+                                                <option value="Crown & Bridge" <?php echo ($service == 'Crown & Bridge') ? 'selected' : ''; ?>>Crown & Bridge</option>
+                                                <option value="Teeth Filling" <?php echo ($service == 'Teeth Filling') ? 'selected' : ''; ?>>Teeth Filling</option>
+                                                <option value="Dentures" <?php echo ($service == 'Dentures') ? 'selected' : ''; ?>>Dentures</option>
+                                                <option value="Teeth Scaling" <?php echo ($service == 'Teeth Scaling') ? 'selected' : ''; ?>>Teeth Scaling</option>
+                                                <option value="Tooth Extraction" <?php echo ($service == 'Tooth Extraction') ? 'selected' : ''; ?>>Tooth Extraction</option>
+                                                <option value="Teeth Cleaning" <?php echo ($service == 'Teeth Cleaning') ? 'selected' : ''; ?>>Teeth Cleaning</option>
+                                                <option value="Teeth Whitening" <?php echo ($service == 'Teeth Whitening') ? 'selected' : ''; ?>>Teeth Whitening</option>
+                                                <option value="Smile Makeover" <?php echo ($service == 'Smile Makeover') ? 'selected' : ''; ?>>Smile Makeover</option>
+                                                <option value="Full Mouth Restoration" <?php echo ($service == 'Full Mouth Restoration') ? 'selected' : ''; ?>>Full Mouth Restoration</option>
+                                            </select>
+                                        </div>
+
 
                                         <!-- Quill Editor for Main Content -->
                                         <div class="mb-3">
@@ -86,15 +103,10 @@ $conn->close();
                                             <input class="form-control" name="main_image" type="file" id="formFileMainImage" required>
                                         </div>
 
-
                                         <div class="mb-3">
-                                            <label for="formFileVideo" class="form-label text-primary">Choose
-                                                Video</label>
-                                            <input class="form-control" name="video" type="file" id="formFileVideo"
-                                                required>
-
+                                            <label for="formFileVideo" class="form-label text-primary">Choose Video</label>
+                                            <input class="form-control" name="video" type="file" id="formFileVideo" required>
                                         </div>
-
 
                                         <!-- Quill Editor for Full Content -->
                                         <label for="editor" class="form-label text-primary">ENTER FULL CONTENT</label>
@@ -148,7 +160,7 @@ $conn->close();
                     }, {
                         'background': []
                     }], // Color and background color options
-                    ['link', 'blockquote' ],
+                    ['link', 'blockquote'],
                     [{
                         'list': 'ordered'
                     }, {
@@ -196,7 +208,7 @@ $conn->close();
                     }, {
                         'background': []
                     }], // Color and background color options
-                    ['link', 'blockquote' ],
+                    ['link', 'blockquote'],
                     [{
                         'list': 'ordered'
                     }, {
@@ -234,7 +246,6 @@ $conn->close();
             document.querySelector('#formcontentdata').value = quillFull.root.innerHTML;
         };
     </script>
-
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>

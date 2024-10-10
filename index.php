@@ -277,12 +277,68 @@
          </script>
      </header>
 
-     <section class="only_first">
-         <video width="100%" height="auto" loop autoplay muted>
+
+
+     <!-- <section class="only_first">
+         <video id="myVideo" width="100%" height="auto" loop autoplay playsinline>
              <source src="assets/img/srinivasa/g.mp4" type="video/mp4">
              Your browser does not support the video tag.
          </video>
      </section>
+
+     <script>
+         // Wait for user interaction to enable sound
+         window.addEventListener('click', function() {
+             var video = document.getElementById('myVideo');
+             video.muted = false; // Unmute the video
+             video.play(); // Ensure the video starts playing
+         });
+
+         // Autoplay and unmute fallback for browsers that block autoplay with sound
+         document.addEventListener('DOMContentLoaded', function() {
+             var video = document.getElementById('myVideo');
+             video.muted = false; // Try unmuting right away
+             video.play().catch(function(error) {
+                 console.log('Autoplay with sound is blocked. Click to play.');
+             });
+         });
+     </script> -->
+
+     <section class="only_first">
+         <video id="myVideo" width="100%" height="auto" loop autoplay controls>
+             <source src="assets/img/srinivasa/g.mp4" type="video/mp4">
+             Your browser does not support the video tag.
+         </video>
+         <!-- <button id="unmuteButton">Unmute</button> -->
+     </section>
+
+     <script>
+         document.addEventListener('DOMContentLoaded', () => {
+             const video = document.getElementById('myVideo');
+             const unmuteButton = document.getElementById('unmuteButton');
+
+             // Function to unmute and play the video
+             unmuteButton.addEventListener('click', () => {
+                 video.muted = false; // Unmute the video
+                 video.play(); // Play the video
+                 unmuteButton.style.display = 'none'; // Hide the unmute button
+             });
+         });
+     </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1106,16 +1162,6 @@
              <div class="container">
                  <div class="row">
 
-
-
-
-
-
-
-
-
-
-
                      <?php
                         include './db.connection/db_connection.php';
 
@@ -1155,7 +1201,7 @@
                                 }
                                 echo "<h5 class='card-title my-3'>" . htmlspecialchars($title) . "</h5>";
                                 // Display a short portion of the blog content
-                                echo "<p class='card-text'>" . substr($main_content, 0,90) . "...</p>";
+                                echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
 
                                 // Link to full blog post
                                 echo "<a href='fullblog.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";

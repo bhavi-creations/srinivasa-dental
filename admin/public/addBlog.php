@@ -3,8 +3,7 @@
 include '../../db.connection/db_connection.php';
 
 // Function to generate a unique file name
-function generateUniqueFileName($fileName)
-{
+function generateUniqueFileName($fileName) {
     $ext = pathinfo($fileName, PATHINFO_EXTENSION);
     return uniqid() . '_' . time() . '.' . $ext;
 }
@@ -16,10 +15,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = isset($_POST['title']) ? $_POST['title'] : '';
     $main_content = isset($_POST['main_content']) ? $_POST['main_content'] : '';
     $full_content = isset($_POST['full_content']) ? $_POST['full_content'] : '';
+    $service = isset($_POST['service']) ? $_POST['service'] : '';  // Capture selected service
 
     // Ensure required fields are not empty
-    if (empty($title) || empty($main_content) || empty($full_content)) {
-        die("Error: Title, Main Content, and Full Content cannot be empty.");
+    if (empty($title) || empty($main_content) || empty($full_content) || empty($service)) {
+        die("Error: Title, Main Content, Full Content, and Service cannot be empty.");
     }
 
     // Handle file uploads for title image and main image
@@ -65,18 +65,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Prepare SQL statement based on whether it's an insert or update
     if ($blog_id > 0) {
         // Update existing blog post
-        $stmt = $conn->prepare("UPDATE blogs SET title = ?, main_content = ?, full_content = ?, title_image = ?, main_image = ?, video = ? WHERE id = ?");
-        $stmt->bind_param("ssssssi", $title, $main_content, $full_content, $title_image_path, $main_image_path, $video_path, $blog_id);
+        $stmt = $conn->prepare("UPDATE blogs SET title = ?, main_content = ?, full_content = ?, title_image = ?, main_image = ?, video = ?, service = ? WHERE id = ?");
+        $stmt->bind_param("sssssssi", $title, $main_content, $full_content, $title_image_path, $main_image_path, $video_path, $service, $blog_id);
     } else {
         // Insert new blog post
-        $stmt = $conn->prepare("INSERT INTO blogs (title, main_content, full_content, title_image, main_image, video, created_at) VALUES (?, ?, ?, ?, ?, ?, NOW())");
-        $stmt->bind_param("ssssss", $title, $main_content, $full_content, $title_image_path, $main_image_path, $video_path);
+        $stmt = $conn->prepare("INSERT INTO blogs (title, main_content, full_content, title_image, main_image, video, service, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, NOW())");
+        $stmt->bind_param("sssssss", $title, $main_content, $full_content, $title_image_path, $main_image_path, $video_path, $service);
     }
 
     // Execute the SQL statement
     if ($stmt->execute()) {
         echo "Blog post published/updated successfully!";
-        header("Location: allBlog.php");
+        header("Location: allBlog.php");  // Redirect after successful submission
         exit();
     } else {
         echo "Error: " . $stmt->error;

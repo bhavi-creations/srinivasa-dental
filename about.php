@@ -42,25 +42,24 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+
+
+
 </head>
- 
+
 
 <body>
-    <div class="social-icons text-center">
-        <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-            <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""
-        /></a>
-        <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-            <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""
-        /></a>
-        <a
-            href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-            <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt=""
-        /></a>
-        <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-            <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""
-        /></a>
-    </div>
+  <div class="social-icons text-center">
+    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
+      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
+    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
+      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
+    <a
+      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
+      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
+    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
+      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
+  </div>
 
 
 
@@ -142,6 +141,10 @@
 
   <main id="main">
 
+ 
+
+
+
     <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
@@ -149,15 +152,15 @@
             <h5 class="poetsen_font11">About us</h5>
             <h2 class="dr_welcome_text1 mt-4 mb-4">Our History</h2>
             <p class="poetsen_font1">
-            Our hospital, established in 2014, is equipped with advanced infrastructure to provide specialized oral health care. Thousands of patients have benefited from our comprehensive dental services, improving their oral and overall health. As a team, we continue to bring smiles to families through ethical dental practices in Kakinada. Dr. D.V.S. Kiran Raju, M.D.S., specializes in braces. At our clinic, we provide treatment for all ages,  transforming 
+              Our hospital, established in 2014, is equipped with advanced infrastructure to provide specialized oral health care. Thousands of patients have benefited from our comprehensive dental services, improving their oral and overall health. As a team, we continue to bring smiles to families through ethical dental practices in Kakinada. Dr. D.V.S. Kiran Raju, M.D.S., specializes in braces. At our clinic, we provide treatment for all ages, transforming misaligned teeth into beautiful smiles.
             </p>
 
             <div class="showthisdiv" style="display:none;">
               <p class="poetsen_font1">
-            misaligned teeth into beautiful smiles. Our dedicated clinician excels in pain management, replacement of missing teeth, esthetic dentistry, and strives to offer complete care by utilizing advanced techniques. We are the best dental clinic in Kakinada. Dr. D. Sree Lakshmi Deepika strongly believes that ‘Natural tooth is a God’s gift.’ As a specialist in advanced gum care and surgical treatments, she is committed to saving natural teeth. Proficient in implants and laser therapies, she is dedicated to providing quality dental care at Srinivasa Dental Clinic in Kakinada.
+                Our dedicated clinician excels in pain management, replacement of missing teeth, esthetic dentistry, and strives to offer complete care by utilizing advanced techniques. We are the best dental clinic in Kakinada. Dr. D. Sree Lakshmi Deepika strongly believes that ‘Natural tooth is a God’s gift.’ As a specialist in advanced gum care and surgical treatments, she is committed to saving natural teeth. Proficient in implants and laser therapies, she is dedicated to providing quality dental care at Srinivasa Dental Clinic in Kakinada.
               </p>
             </div>
-            
+
             <div class="d-flex flex-row justify-content-start">
               <p class="get_in_touch read_hide" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
                 Read More <i class="fa-solid fa-arrow-right"></i>
