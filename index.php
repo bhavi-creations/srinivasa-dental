@@ -133,7 +133,7 @@
          </div>
      </header>
 
-      
+
 
      <header id="header1" class="main_images onlypad">
          <div class="container d-flex align-items-center">
@@ -257,7 +257,7 @@
          });
      </script>
 
- 
+
      <!-- <section class="bg_images">
          <div class="container bg_container">
              <div class="row">
@@ -958,7 +958,46 @@
              </script>
          </section>
 
+         <section>
+             <div class="container">
+                 <div class="section-title text-center">
+                     <h2 class="apporach">Explore our virtual tour of the hospital!</h2>
+                 </div>
+             </div>
 
+             <div class="container ">
+                 <div class="row">
+
+                     
+
+                     <div class=" col-12 mt-5 d-block d-md-none">
+                         <div style="text-align: center;">
+                             <video controls style="width: 100%; max-width: 560px; height: auto;">
+                                 <source src="assets/img/hospital_video/WhatsApp Video 2024-10-25 at 11.05.18.mp4" type="video/mp4">
+                                 Your browser does not support the video tag.
+                             </video>
+                         </div>
+                     </div>
+
+
+                     <div class="   col-lg-6 mt-5 d-none d-md-block">
+                         <div style="text-align: center;">
+                             <video class="video_tag_messures" controls>
+                                 <source src="assets/img/hospital_video/WhatsApp Video 2024-10-25 at 11.05.18.mp4" type="video/mp4">
+                                 Your browser does not support the video tag.
+                             </video>
+                         </div>
+                     </div>
+
+                     <div class="col-12 col-lg-6 mt-5">
+                         <div style="text-align: center;">
+                             <img src="assets/img/hospital_video/WhatsApp Image 2024-10-25 at 11.05.18 (1).jpeg" alt="" class="img-fluid">
+                         </div>
+                     </div>
+
+                 </div>
+             </div>
+         </section>
 
          <?php include('./videotestimonials.php'); ?>
 

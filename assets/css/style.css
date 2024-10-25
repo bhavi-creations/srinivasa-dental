@@ -4178,4 +4178,28 @@ background-color: #94beeb;
   padding: 3px 15px;
 
 }
+@media (min-width:992px) and (max-width:1200px) {
+  
+  .video_tag_messures{
+    width: 475px !important;
+    height: 228px !important;
+  }
+}
 
+
+@media (min-width:1200px) and (max-width:1400px) {
+  
+  .video_tag_messures{
+    width: 560px !important;
+    height: 273px !important;
+  }
+}
+
+
+@media   (min-width:1400px) {
+  
+  .video_tag_messures{
+    width: 646px !important;
+    height: 317px !important;
+  }
+}
