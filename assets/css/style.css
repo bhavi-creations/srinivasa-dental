@@ -304,7 +304,7 @@ h6 {
     height: Hug (45px) px;
     top: 68px;
     left: 1103px;
-    padding: 10px 19px 10px 26px;
+    padding: 10px 10px 10px 10px;
     gap: 10px;
     border-radius: 6px;
     opacity: 0px;
@@ -313,6 +313,7 @@ h6 {
     font-weight: 800;
     margin-left: 10px;
     width: 15%;
+    font-size: 13px;
 
   }
 }
@@ -333,6 +334,7 @@ h6 {
     font-weight: 800;
     margin-left: 10px;
     width: 15%;
+    font-size: 13px;
 
   }
 }
@@ -439,8 +441,7 @@ h6 {
 .navbar li {
   position: relative;
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
 
   .navbar a,
   .navbar a:focus {
@@ -454,6 +455,22 @@ h6 {
     transition: 0.3s;
     font-weight: 800;
     padding: 10px 20px 10px 5px !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    color: #100f0f;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-weight: 800;
+    padding: 10px 10px 10px 10px !important;
   }
 }
 
@@ -470,7 +487,7 @@ h6 {
     white-space: nowrap;
     transition: 0.3s;
     font-weight: 800;
-    padding: 0px 3px 0px 30px !important;
+    padding: 0px 10px 0px 10px !important;
   }
 }
 
@@ -3294,7 +3311,7 @@ section {
   .foot_head {
     color: #000 !important;
     font-family: Manrope;
-    font-size: 22px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: 26.4px;
@@ -3308,7 +3325,7 @@ section {
   .helpful_link {
     color: #000 !important;
     font-family: Manrope;
-    font-size: 22px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: 26.4px;
@@ -3325,7 +3342,7 @@ section {
   .foot_head {
     color: #000 !important;
     font-family: Manrope;
-    font-size: 17px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 1000;
     line-height: 26.4px;
@@ -3339,7 +3356,7 @@ section {
   .helpful_link {
     color: #000 !important;
     font-family: Manrope;
-    font-size: 17px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 1000;
     line-height: 26.4px;
