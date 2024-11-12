@@ -70,7 +70,7 @@
                                                 <option value="Root Canal">Root Canal</option>
                                                 <option value="Dental Braces">Dental Braces</option>
                                                 <option value="Dental Implants">Dental Implants</option>
-                                                <option value="Crown & Bridge">Crown & Bridge</option>
+                                                <option value="Crown Bridge">Crown & Bridge</option>
                                                 <option value="Teeth Filling">Teeth Filling</option>
                                                 <option value="Dentures">Dentures</option>
                                                 <option value="Teeth Scaling">Teeth Scaling</option>

@@ -77,7 +77,7 @@ $conn->close();
                                                 <option value="Root Canal" <?php echo ($service == 'Root Canal') ? 'selected' : ''; ?>>Root Canal</option>
                                                 <option value="Dental Braces" <?php echo ($service == 'Dental Braces') ? 'selected' : ''; ?>>Dental Braces</option>
                                                 <option value="Dental Implants" <?php echo ($service == 'Dental Implants') ? 'selected' : ''; ?>>Dental Implants</option>
-                                                <option value="Crown & Bridge" <?php echo ($service == 'Crown & Bridge') ? 'selected' : ''; ?>>Crown & Bridge</option>
+                                                <option value="Crown Bridge" <?php echo ($service == 'Crown Bridge') ? 'selected' : ''; ?>>Crown & Bridge</option>
                                                 <option value="Teeth Filling" <?php echo ($service == 'Teeth Filling') ? 'selected' : ''; ?>>Teeth Filling</option>
                                                 <option value="Dentures" <?php echo ($service == 'Dentures') ? 'selected' : ''; ?>>Dentures</option>
                                                 <option value="Teeth Scaling" <?php echo ($service == 'Teeth Scaling') ? 'selected' : ''; ?>>Teeth Scaling</option>
