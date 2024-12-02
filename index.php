@@ -5,9 +5,43 @@
      <meta charset="utf-8">
      <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-     <title>Srinivasa</title>
-     <meta content="" name="description">
-     <meta content="" name="keywords">
+     <title>Srinivasa Multispecialty Dental Hospital Kakinada</title>
+     <meta name="title" content="Srinivasa Multispecialty Dental Hospital Kakinada | Best Dental Care">
+
+     <meta name="description" content="Discover exceptional dental care at Srinivasa Multispecialty Dental Hospital in Kakinada. Specializing in advanced treatments like dental implants, root canals, clear aligners, and cosmetic dentistry. Book your appointment today for a healthier smile!">
+     <meta name="keywords" content=" Best Dental Clinic in Kakinada
+Dental Implants Kakinada                                                    
+Painless Root Canal Treatment Kakinada                                             
+best dental hospital in Kakinada						
+Best Braces treatment in Kakinada                                                
+Best dental braces treatment in Kakinada
+painless wisdom teeth removal in Kakinada						
+ Best dentist in Kakinada
+Best dental doctor in Kakinada						
+Best root canal treatment in Kakinada	
+best dental near me                   
+Best Dental Clinic in Kakinada
+Affordable Dental Treatments in Kakinada
+Painless Root Canal Treatment in Kakinada
+Cosmetic Dentistry in Kakinada
+Orthodontic Services Kakinada
+Teeth Whitening in Kakinada
+Dental Implants in Kakinada
+Paediatric Dentist in Kakinada
+Emergency Dental Care in Kakinada
+Full Mouth Rehabilitation in Kakinada
+Smile Makeover in Kakinada
+Advanced Dental Care in Kakinada
+Crowns and Bridges in Kakinada
+Gum Disease Treatment in Kakinada
+Tooth Extraction in Kakinada
+Clear Aligners in Kakinada
+Invisible Braces in Kakinada
+Teeth Cleaning Services in Kakinada
+Preventive Dental Care in Kakinada
+Dental Veneers in Kakinada">
+
+<link ref="canonical"  href="https://srinivasadentalkakinada.com/" />
 
      <!-- Favicons -->
      <link href="assets/img/srinivasa/tittle.png" rel="icon">
@@ -50,15 +84,18 @@
  
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
+     </script>
+     <script>
+         window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'AW-10932795730');
-</script>
+         function gtag() {
+             dataLayer.push(arguments);
+         }
+         gtag('js', new Date());
+
+         gtag('config', 'AW-10932795730');
+     </script>
  </head>
 
 
@@ -1208,7 +1245,7 @@
 
                  </div>
              </div>
-             
+
          </section>
 
          <!-- End Testimonials Section -->
@@ -1239,7 +1276,7 @@
 
      </main><!-- End #main -->
 
-     <?php include ('./footer.php'); ?>
+     <?php include('./footer.php'); ?>
  </body>
 
  </html>

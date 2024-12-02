@@ -41,16 +41,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'AW-10932795730');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-10932795730');
+    </script>
 </head>
 
 
@@ -160,6 +163,12 @@
 
     <main id="main">
 
+
+        <div id="google-reviews">
+
+
+        </div>
+
         <section class="sectionForm">
             <div class="container">
                 <div class="row servSect">
@@ -183,9 +192,10 @@
                                                             "My name is Kamala suffering from tooth pains severely and
                                                             as suggested by my brother I have gone to the Srinivasa
                                                             Multi Speciality Dental hospital Kakinada...
-                                                            <span class="get_in_touch read_hide readMoreBtn" style="color: #535460; cursor: pointer;" onclick="toggleReadMore()">
+                                                            <span class="get_in_touch   readMoreBtn" style="color: #535460; cursor: pointer;" onclick="toggleReadMore()">
                                                                 Read More <i class="fa-solid fa-arrow-right"></i>
                                                             </span>
+
                                                         </p>
 
                                                         <div class="showthisdiv" style="display:none; ">
@@ -207,9 +217,6 @@
                                                             </span>
                                                         </div>
 
-
-
-
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
@@ -223,12 +230,11 @@
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                        <!-- <img src="assets/img/services/1.png" alt=""
-                                                        class="img-fluid testy1"> -->
+
                                                         <h6 class="kamall mb-2">Mr.Sai Vishnu</h6>
 
                                                         <p class="text_of_the_card">
-                                                            Dr Kiran Raju sir(Srinivasa dental kakinada) sir is an amazing dentist I have met in my life he treated me like family member in this entire period of my braces treatment process... <span class="get_in_touch read_hide readMoreBtn1" style="color: #535460; cursor: pointer;" onclick="toggleReadMore1()">
+                                                            Dr Kiran Raju sir(Srinivasa dental kakinada) sir is an amazing dentist I have met in my life he treated me like family member in this entire period of my braces treatment process... <span class="get_in_touch   readMoreBtn1" style="color: #535460; cursor: pointer;" onclick="toggleReadMore1()">
                                                                 Read More <i class="fa-solid fa-arrow-right"></i>
                                                             </span>
                                                         </p>
@@ -236,13 +242,11 @@
                                                         <div class="showthisdiv1" style="display:none; ">
                                                             <p class="text_of_the_card">
                                                                 i'am glad to complete my treatment smoothly in this hospital last but not least supporting doctors and staff are also so friendly I really appreciate the staff members also finally a big thank you to all the members of Srinivasa.
-                                                            </p> <span class="get_in_touch read_hide readLessBtn1" style="color: #535460; cursor: pointer;" onclick="toggleReadMore1()">
+                                                            </p>
+                                                            <span class="get_in_touch read_hide readLessBtn1" style="color: #535460; cursor: pointer;" onclick="toggleReadMore1()">
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
                                                         </div>
-
-
-
 
                                                     </div>
                                                 </div>
@@ -253,19 +257,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="slide">
+                                     <div class="slide">
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                        <!-- <img src="assets/img/services/1.png" alt=""
-                                                        class="img-fluid testy1"> -->
+                                                        
                                                         <h6 class="kamall mb-2">Mr.Ravi Babu</h6>
 
                                                         <p class="text_of_the_card">
                                                             I am Ravi Babu and visited Srinivasa Multi Speciality Dental Hospital for replacement of metal crowns with zirconia crowns. The hospital ambiance is pleasant, elegant...
-                                                            <span class="get_in_touch read_hide readMoreBtn2" style="color: #535460; cursor: pointer;" onclick="toggleReadMore2()">
+                                                            <span class="get_in_touch   readMoreBtn2" style="color: #535460; cursor: pointer;" onclick="toggleReadMore2()">
                                                                 Read More <i class="fa-solid fa-arrow-right"></i>
                                                             </span>
                                                         </p>
@@ -277,9 +280,7 @@
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
                                                         </div>
-
-
-
+ 
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
@@ -294,13 +295,12 @@
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                        <!-- <img src="assets/img/services/1.png" alt=""
-                                                        class="img-fluid testy1"> -->
+                                                     
                                                         <h6 class="kamall mb-2">Mr.Eswar</h6>
 
                                                         <p class="text_of_the_card">
                                                             I Came here with Broken Tooth, Doctor Explain Everything about Treatment Procedure very Nicely, After Treatment Make my Smile Happy.All Hospital Staff Respond Politely...
-                                                            <span class="get_in_touch read_hide readMoreBtn3" style="color: #535460; cursor: pointer;" onclick="toggleReadMore3()">
+                                                            <span class="get_in_touch   readMoreBtn3" style="color: #535460; cursor: pointer;" onclick="toggleReadMore3()">
                                                                 Read More <i class="fa-solid fa-arrow-right"></i>
                                                             </span>
                                                         </p>
@@ -312,10 +312,7 @@
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
                                                         </div>
-
-
-
-
+ 
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
@@ -333,21 +330,21 @@
                                                     <div class="card-body">
                                                         <h6 class="kamall mb-2">Ms. Ramya Thoti</h6>
 
-                                                        <!-- First part of the text (visible by default) -->
+                                                        
                                                         <p class="text_of_the_card">
                                                             This is hands down the best dental hospital I've ever visited. The staff is incredibly warm and welcoming, and the doctor is exceptional. They made the entire ...
-                                                            <!-- "Read More" text included at the end of the first paragraph -->
-                                                            <span class="get_in_touch read_hide readMoreBtn4" style="color: #535460; cursor: pointer;" onclick="toggleReadMore4()">
+                                                           
+                                                            <span class="get_in_touch   readMoreBtn4" style="color: #535460; cursor: pointer;" onclick="toggleReadMore4()">
                                                                 Read More <i class="fa-solid fa-arrow-right"></i>
                                                             </span>
                                                         </p>
 
-                                                        <!-- Second part of the text (hidden initially) -->
+                                                        
                                                         <div class="showthisdiv4" style="display:none;">
                                                             <p class="text_of_the_card">
                                                                 treatment process feel personal and caring. As someone with a low pain tolerance and a fear of dental visits, I was pleasantly surprised by how the doctor eased my anxiety and made the experience comfortable. I highly recommend this doctor and hospital to anyone seeking excellent dental care. Here's the proof!
                                                             </p>
-                                                            <!-- "Read Less" link at the end of the second paragraph -->
+                                                            
                                                             <span class="get_in_touch read_hide readLessBtn4" style="color: #535460; cursor: pointer;" onclick="toggleReadMore4()">
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
@@ -365,13 +362,12 @@
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                        <!-- <img src="assets/img/services/1.png" alt=""
-                                                        class="img-fluid testy1"> -->
+                                                      
                                                         <h6 class="kamall mb-2">Mr.Venkata Reddy</h6>
 
                                                         <p class="text_of_the_card">
                                                             Hi lam Venkat reddy from Mamidada. I had a wonderful experience at my recent appointment. The staff was incredibly friendly and welcoming, making me ...
-                                                            <span class="get_in_touch read_hide readMoreBtn5" style="color: #535460; cursor: pointer;" onclick="toggleReadMore5()">
+                                                            <span class="get_in_touch   readMoreBtn5" style="color: #535460; cursor: pointer;" onclick="toggleReadMore5()">
                                                                 Read More <i class="fa-solid fa-arrow-right"></i>
                                                             </span>
                                                         </p>
@@ -383,11 +379,7 @@
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
                                                         </div>
-
-
-
-
-
+ 
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
@@ -404,13 +396,12 @@
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                        <!-- <img src="assets/img/services/1.png" alt=""
-                                                        class="img-fluid testy1"> -->
+                                                        
                                                         <h6 class="kamall mb-2">Mrs.Venkata Durga</h6>
 
                                                         <p class="text_of_the_card">
                                                             Started Smile journey with ceramic braces Srinivasa dental. Had a very fantastic experience with friendly staff and environment.Dr.Kiran Raju is knowledgeable and compatible...
-                                                            <span class="get_in_touch read_hide readMoreBtn6" style="color: #535460; cursor: pointer;" onclick="toggleReadMore6()">
+                                                            <span class="get_in_touch   readMoreBtn6" style="color: #535460; cursor: pointer;" onclick="toggleReadMore6()">
                                                                 Read More <i class="fa-solid fa-arrow-right"></i>
                                                             </span>
                                                         </p>
@@ -422,10 +413,6 @@
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
                                                         </div>
-
-
-
-
 
                                                     </div>
                                                 </div>
@@ -441,8 +428,7 @@
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                        <!-- <img src="assets/img/services/1.png" alt=""
-                                                        class="img-fluid testy1"> -->
+                                                       
                                                         <h6 class="kamall mb-2">Mr.Sarabha Kavi</h6>
 
                                                         <p class="text_of_the_card">
@@ -459,12 +445,9 @@
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
                                                         </div>
-
-
-
-
-
+ 
                                                     </div>
+
                                                 </div>
                                                 <div class="col-md-4">
                                                     <img src="assets/img/services/kavi.png"
@@ -474,7 +457,7 @@
                                         </div>
 
 
-                                    </div>
+                                    </div>  
                                 </div>
                                 <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
                                 <button class="next" onclick="moveSlide(1)">&#10095;</button>
@@ -566,8 +549,113 @@
             </div>
         </section>
 
+        <script>
+            function toggleReadMore() {
+                var showThisDiv = document.querySelector('.showthisdiv');
+                var readMoreBtn = document.querySelector('.readMoreBtn');
+                var readLessBtn = document.querySelector('.readLessBtn');
 
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block"; // Show the additional content
+                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                } else {
+                    showThisDiv.style.display = "none"; // Hide content
+                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                }
+            }
 
+            function toggleReadMore1() {
+                var showThisDiv = document.querySelector('.showthisdiv1');
+                var readMoreBtn = document.querySelector('.readMoreBtn1');
+                var readLessBtn = document.querySelector('.readLessBtn1');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block"; // Show the additional content
+                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                } else {
+                    showThisDiv.style.display = "none"; // Hide content
+                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                }
+            }
+            function toggleReadMore2() {
+                var showThisDiv = document.querySelector('.showthisdiv2');
+                var readMoreBtn = document.querySelector('.readMoreBtn2');
+                var readLessBtn = document.querySelector('.readLessBtn2');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block"; // Show the additional content
+                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                } else {
+                    showThisDiv.style.display = "none"; // Hide content
+                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                }
+            }
+            function toggleReadMore3() {
+                var showThisDiv = document.querySelector('.showthisdiv3');
+                var readMoreBtn = document.querySelector('.readMoreBtn3');
+                var readLessBtn = document.querySelector('.readLessBtn3');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block"; // Show the additional content
+                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                } else {
+                    showThisDiv.style.display = "none"; // Hide content
+                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                }
+            }
+            function toggleReadMore4() {
+                var showThisDiv = document.querySelector('.showthisdiv4');
+                var readMoreBtn = document.querySelector('.readMoreBtn4');
+                var readLessBtn = document.querySelector('.readLessBtn4');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block"; // Show the additional content
+                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                } else {
+                    showThisDiv.style.display = "none"; // Hide content
+                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                }
+            }
+            function toggleReadMore5() {
+                var showThisDiv = document.querySelector('.showthisdiv5');
+                var readMoreBtn = document.querySelector('.readMoreBtn5');
+                var readLessBtn = document.querySelector('.readLessBtn5');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block"; // Show the additional content
+                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                } else {
+                    showThisDiv.style.display = "none"; // Hide content
+                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                }
+            }
+            function toggleReadMore6() {
+                var showThisDiv = document.querySelector('.showthisdiv6');
+                var readMoreBtn = document.querySelector('.readMoreBtn6');
+                var readLessBtn = document.querySelector('.readLessBtn6');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block"; // Show the additional content
+                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                } else {
+                    showThisDiv.style.display = "none"; // Hide content
+                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                }
+            }
+            function toggleReadMore7() {
+                var showThisDiv = document.querySelector('.showthisdiv7');
+                var readMoreBtn = document.querySelector('.readMoreBtn7');
+                var readLessBtn = document.querySelector('.readLessBtn7');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block"; // Show the additional content
+                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                } else {
+                    showThisDiv.style.display = "none"; // Hide content
+                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                }
+            }
+        </script>
 
 
         <script>
@@ -593,10 +681,6 @@
 
 
 
-
-
-
-
         <section>
             <div class="container">
                 <div class="section-title text-center">
@@ -611,9 +695,9 @@
                                 fill="#25B4F8" />
                         </svg>
                     </p>
-                    <h2 class="apporach">  Real Stories, Real Experiences</h2>
+                    <h2 class="apporach"> Real Stories, Real Experiences</h2>
 
- 
+
 
                     <div class="container slie_net_container d-md-none">
                         <div class="row slie_net_row">
@@ -621,7 +705,7 @@
                                 <div class="tile">
                                     <div class="tile__media">
                                         <div class="video-container">
-                                           
+
 
 
                                             <iframe width="560" height="315" src="https://www.youtube.com/embed/puYVtNBSV-w?si=XqMwpeo6mV1QKarR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -637,14 +721,14 @@
                                 <div class="tile">
                                     <div class="tile__media">
                                         <div class="video-container">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/puYVtNBSV-w?si=XqMwpeo6mV1QKarR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/puYVtNBSV-w?si=XqMwpeo6mV1QKarR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tile ">
                                     <div class="tile__media ">
                                         <div class="video-container  ">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ8ZKMUvnO0?si=8Zs386RAyk_cW_Pu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ8ZKMUvnO0?si=8Zs386RAyk_cW_Pu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -657,21 +741,21 @@
                                 <div class="tile">
                                     <div class="tile__media">
                                         <div class="video-container">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/puYVtNBSV-w?si=XqMwpeo6mV1QKarR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/puYVtNBSV-w?si=XqMwpeo6mV1QKarR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tile ">
                                     <div class="tile__media ">
                                         <div class="video-container  ">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ8ZKMUvnO0?si=8Zs386RAyk_cW_Pu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ8ZKMUvnO0?si=8Zs386RAyk_cW_Pu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tile  ">
                                     <div class="tile__media ">
                                         <div class="video-container">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DSX5HyeNhpM?si=K5Kw0ajEStUES33j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/DSX5HyeNhpM?si=K5Kw0ajEStUES33j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -684,35 +768,35 @@
                                 <div class="tile">
                                     <div class="tile__media">
                                         <div class="video-container">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/puYVtNBSV-w?si=XqMwpeo6mV1QKarR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/puYVtNBSV-w?si=XqMwpeo6mV1QKarR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tile ">
                                     <div class="tile__media ">
                                         <div class="video-container  ">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ8ZKMUvnO0?si=8Zs386RAyk_cW_Pu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ8ZKMUvnO0?si=8Zs386RAyk_cW_Pu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tile  ">
                                     <div class="tile__media ">
                                         <div class="video-container">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DSX5HyeNhpM?si=K5Kw0ajEStUES33j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/DSX5HyeNhpM?si=K5Kw0ajEStUES33j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tile  ">
                                     <div class="tile__media">
                                         <div class="video-container">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TsxlK-PsPRY?si=pylYtNYq1IMLMV5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TsxlK-PsPRY?si=pylYtNYq1IMLMV5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tile  ">
                                     <div class="tile__media">
                                         <div class="video-container">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZWytePzxHYs?si=D88C944rj-H05NJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZWytePzxHYs?si=D88C944rj-H05NJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -733,16 +817,8 @@
 
 
 
-
-
-
-
-
-
-
-
     </main>
-    <?php include ('./footer.php'); ?>
+    <?php include('./footer.php'); ?>
 </body>
 
 </html>
