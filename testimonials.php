@@ -179,6 +179,7 @@
 
                             <div class="carousel-container">
                                 <div class="carousel" id="carouselSlider">
+                                    
                                     <div class="slide">
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
@@ -257,13 +258,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                     <div class="slide">
+
+                                    <div class="slide">
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                        
+
                                                         <h6 class="kamall mb-2">Mr.Ravi Babu</h6>
 
                                                         <p class="text_of_the_card">
@@ -280,7 +282,7 @@
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
                                                         </div>
- 
+
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
@@ -295,7 +297,7 @@
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                     
+
                                                         <h6 class="kamall mb-2">Mr.Eswar</h6>
 
                                                         <p class="text_of_the_card">
@@ -312,7 +314,7 @@
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
                                                         </div>
- 
+
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
@@ -322,6 +324,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="slide">
 
                                         <div class="card mb-3 testCard" style="max-width: auto;">
@@ -330,21 +333,21 @@
                                                     <div class="card-body">
                                                         <h6 class="kamall mb-2">Ms. Ramya Thoti</h6>
 
-                                                        
+
                                                         <p class="text_of_the_card">
                                                             This is hands down the best dental hospital I've ever visited. The staff is incredibly warm and welcoming, and the doctor is exceptional. They made the entire ...
-                                                           
+
                                                             <span class="get_in_touch   readMoreBtn4" style="color: #535460; cursor: pointer;" onclick="toggleReadMore4()">
                                                                 Read More <i class="fa-solid fa-arrow-right"></i>
                                                             </span>
                                                         </p>
 
-                                                        
+
                                                         <div class="showthisdiv4" style="display:none;">
                                                             <p class="text_of_the_card">
                                                                 treatment process feel personal and caring. As someone with a low pain tolerance and a fear of dental visits, I was pleasantly surprised by how the doctor eased my anxiety and made the experience comfortable. I highly recommend this doctor and hospital to anyone seeking excellent dental care. Here's the proof!
                                                             </p>
-                                                            
+
                                                             <span class="get_in_touch read_hide readLessBtn4" style="color: #535460; cursor: pointer;" onclick="toggleReadMore4()">
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
@@ -362,7 +365,7 @@
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                      
+
                                                         <h6 class="kamall mb-2">Mr.Venkata Reddy</h6>
 
                                                         <p class="text_of_the_card">
@@ -379,7 +382,7 @@
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
                                                         </div>
- 
+
                                                     </div>
                                                 </div>
                                                 <div class="col-md-4">
@@ -389,6 +392,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="slide">
 
                                         <div class="card mb-3 testCard" style="max-width: auto;">
@@ -396,7 +400,7 @@
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                        
+
                                                         <h6 class="kamall mb-2">Mrs.Venkata Durga</h6>
 
                                                         <p class="text_of_the_card">
@@ -428,7 +432,7 @@
                                                 <div class="col-md-8">
 
                                                     <div class="card-body">
-                                                       
+
                                                         <h6 class="kamall mb-2">Mr.Sarabha Kavi</h6>
 
                                                         <p class="text_of_the_card">
@@ -445,7 +449,7 @@
                                                                 Read Less <i class="fa-solid fa-arrow-up"></i>
                                                             </span>
                                                         </div>
- 
+
                                                     </div>
 
                                                 </div>
@@ -457,7 +461,8 @@
                                         </div>
 
 
-                                    </div>  
+                                    </div>
+
                                 </div>
                                 <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
                                 <button class="next" onclick="moveSlide(1)">&#10095;</button>
@@ -577,6 +582,7 @@
                     readMoreBtn.style.display = "inline"; // Show 'Read More'
                 }
             }
+
             function toggleReadMore2() {
                 var showThisDiv = document.querySelector('.showthisdiv2');
                 var readMoreBtn = document.querySelector('.readMoreBtn2');
@@ -590,6 +596,7 @@
                     readMoreBtn.style.display = "inline"; // Show 'Read More'
                 }
             }
+
             function toggleReadMore3() {
                 var showThisDiv = document.querySelector('.showthisdiv3');
                 var readMoreBtn = document.querySelector('.readMoreBtn3');
@@ -603,6 +610,7 @@
                     readMoreBtn.style.display = "inline"; // Show 'Read More'
                 }
             }
+
             function toggleReadMore4() {
                 var showThisDiv = document.querySelector('.showthisdiv4');
                 var readMoreBtn = document.querySelector('.readMoreBtn4');
@@ -616,6 +624,7 @@
                     readMoreBtn.style.display = "inline"; // Show 'Read More'
                 }
             }
+
             function toggleReadMore5() {
                 var showThisDiv = document.querySelector('.showthisdiv5');
                 var readMoreBtn = document.querySelector('.readMoreBtn5');
@@ -629,6 +638,7 @@
                     readMoreBtn.style.display = "inline"; // Show 'Read More'
                 }
             }
+
             function toggleReadMore6() {
                 var showThisDiv = document.querySelector('.showthisdiv6');
                 var readMoreBtn = document.querySelector('.readMoreBtn6');
@@ -642,6 +652,7 @@
                     readMoreBtn.style.display = "inline"; // Show 'Read More'
                 }
             }
+
             function toggleReadMore7() {
                 var showThisDiv = document.querySelector('.showthisdiv7');
                 var readMoreBtn = document.querySelector('.readMoreBtn7');
