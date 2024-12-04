@@ -4,7 +4,7 @@
     $.googlePlaces = function(element, options) {
 
         var defaults = {
-              placeId: 'Enter PlaceID Here' // placeId provided by google api documentation
+              placeId: 'ChIJr3aL-wwoODoRwo0McKsf-iA' // placeId provided by google api documentation
             , render: ['reviews']
             , min_rating: 0
             , max_rows: 0

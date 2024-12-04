@@ -54,6 +54,15 @@
 
         gtag('config', 'AW-10932795730');
     </script>
+
+
+
+    <link rel="stylesheet" href="assets/css/google-reviews.css">
+    <script src="assets/js/google-reviews.js"></script>
+
+
+
+
 </head>
 
 
@@ -165,9 +174,41 @@
 
 
         <div id="google-reviews">
+            <script>
+                function initMap() {
+                    var service = new google.maps.places.PlacesService(document.createElement('div'));
 
+                    service.getDetails({
+                            placeId: 'ChIJr3aL-wwoODoRwo0McKsf-iA', // Replace with your Place ID
+                            fields: ['reviews'] // Specify the fields you want (e.g., reviews)
+                        },
+                        function(place, status) {
+                            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                                var reviewsDiv = document.getElementById('google-reviews');
+                                place.reviews.forEach(review => {
+                                    var reviewHTML = `
+              <div class="review">
+                <h4>${review.author_name}</h4>
+                <p>Rating: ${review.rating}</p>
+                <p>${review.text}</p>
+              </div>
+            `;
+                                    reviewsDiv.innerHTML += reviewHTML;
+                                });
+                            } else {
+                                console.error('Error fetching reviews:', status);
+                            }
+                        }
+                    );
+                }
+            </script>
+
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" defer></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=places" defer></script>
 
         </div>
+
+ 
 
         <section class="sectionForm">
             <div class="container">
@@ -179,7 +220,7 @@
 
                             <div class="carousel-container">
                                 <div class="carousel" id="carouselSlider">
-                                    
+
                                     <div class="slide">
                                         <div class="card mb-3 testCard" style="max-width: auto;">
                                             <div class="row g-0">

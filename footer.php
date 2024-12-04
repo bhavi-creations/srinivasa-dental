@@ -357,5 +357,6 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <script src="assets/js/main.js"></script>
-  <link rel="stylesheet" href="/google-reviews/google-reviews.css">
-  <script src="/google-reviews/google-reviews.js"></script>
+ 
+
+
