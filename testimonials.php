@@ -507,7 +507,7 @@
                                     }
 
                                     // Set the auto-slide interval (adjust time as needed)
-                                    setInterval(autoSlide, 3000); // Auto-slide every 3 seconds
+                                    setInterval(autoSlide, 7000); // Auto-slide every 3 seconds
 
                                     // Handle window resizing to adjust slide width
                                     window.addEventListener('resize', function() {
