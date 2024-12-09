@@ -86,6 +86,7 @@ Dental Veneers in Kakinada">
      <!-- Google tag (gtag.js) -->
      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
      </script>
+     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
      <script>
          window.dataLayer = window.dataLayer || [];
 
@@ -257,30 +258,7 @@ Dental Veneers in Kakinada">
 
 
 
-     <!-- <section class="only_first">
-         <video id="myVideo" width="100%" height="auto" loop autoplay playsinline>
-             <source src="assets/img/srinivasa/g.mp4" type="video/mp4">
-             Your browser does not support the video tag.
-         </video>
-     </section>
-
-     <script>
-         // Wait for user interaction to enable sound
-         window.addEventListener('click', function() {
-             var video = document.getElementById('myVideo');
-             video.muted = false; // Unmute the video
-             video.play(); // Ensure the video starts playing
-         });
-
-         // Autoplay and unmute fallback for browsers that block autoplay with sound
-         document.addEventListener('DOMContentLoaded', function() {
-             var video = document.getElementById('myVideo');
-             video.muted = false; // Try unmuting right away
-             video.play().catch(function(error) {
-                 console.log('Autoplay with sound is blocked. Click to play.');
-             });
-         });
-     </script> -->
+    
 
      <section class="only_first">
          <video id="myVideo" width="100%" height="auto" loop autoplay controls>
@@ -1277,6 +1255,33 @@ Dental Veneers in Kakinada">
      </main><!-- End #main -->
 
      <?php include('./footer.php'); ?>
+     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<!-- Google tag (gtag.js) -->
+<amp-analytics type="gtag" data-credentials="include">
+  <script type="application/json">
+  {
+    "vars": {
+      "gtag_id": "AW-10932795730",
+      "config": {
+        "AW-10932795730": {
+          "groups": "default"
+        }
+      }
+    },
+    "triggers": {
+      "conversionEvent": {
+        "on": "visible",
+        "request": "event",
+        "vars": {
+          "event_name": "conversion",
+          "send_to": ["AW-10932795730/UbfvCITsyZcYENLylN0o"]
+        }
+      }
+    }
+  }
+  </script>
+</amp-analytics>
+  
  </body>
 
  </html>

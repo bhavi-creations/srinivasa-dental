@@ -40,8 +40,8 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
-</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -381,6 +381,32 @@
 
   </main>
   <?php include ('./footer.php'); ?>
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<!-- Google tag (gtag.js) -->
+<amp-analytics type="gtag" data-credentials="include">
+  <script type="application/json">
+  {
+    "vars": {
+      "gtag_id": "AW-10932795730",
+      "config": {
+        "AW-10932795730": {
+          "groups": "default"
+        }
+      }
+    },
+    "triggers": {
+      "conversionEvent": {
+        "on": "visible",
+        "request": "event",
+        "vars": {
+          "event_name": "conversion",
+          "send_to": ["AW-10932795730/UbfvCITsyZcYENLylN0o"]
+        }
+      }
+    }
+  }
+  </script>
+</amp-analytics>
 
 </body>
 

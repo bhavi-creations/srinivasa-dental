@@ -42,6 +42,8 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
 </script>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -240,6 +242,33 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d15263.91014555985!2d82.23060610030991!3d16.975655241485622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a38280cfb8b76af%3A0x20fa1fab700c8dc2!2ssrinivasa%20dental%20clinic!3m2!1d16.9617979!2d82.2343163!5e0!3m2!1sen!2sin!4v1725952492416!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </main>
   <?php include ('./footer.php'); ?>
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<!-- Google tag (gtag.js) -->
+<amp-analytics type="gtag" data-credentials="include">
+  <script type="application/json">
+  {
+    "vars": {
+      "gtag_id": "AW-10932795730",
+      "config": {
+        "AW-10932795730": {
+          "groups": "default"
+        }
+      }
+    },
+    "triggers": {
+      "conversionEvent": {
+        "on": "visible",
+        "request": "event",
+        "vars": {
+          "event_name": "conversion",
+          "send_to": ["AW-10932795730/UbfvCITsyZcYENLylN0o"]
+        }
+      }
+    }
+  }
+  </script>
+</amp-analytics>
+
 </body>
 
 </html>
