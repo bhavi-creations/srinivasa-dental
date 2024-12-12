@@ -41,7 +41,7 @@ Teeth Cleaning Services in Kakinada
 Preventive Dental Care in Kakinada
 Dental Veneers in Kakinada">
 
-<link ref="canonical"  href="https://srinivasadentalkakinada.com/" />
+<link rel="canonical"  href="https://srinivasadentalkakinada.com/" />
 
      <!-- Favicons -->
      <link href="assets/img/srinivasa/tittle.png" rel="icon">
