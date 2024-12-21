@@ -35,7 +35,7 @@ $result = $stmt->get_result();
   <title>Srinivasa</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+  <meta name="google-site-verification"content="XNZHTr2i9snjmaOnilQUt823CAqyXT89mM9RXOQ4egE"/>
   <!-- Favicons -->
   <link href="assets/img/srinivasa/tittle.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">

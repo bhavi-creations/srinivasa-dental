@@ -7,7 +7,7 @@
 
      <title>Srinivasa Multispecialty Dental Hospital Kakinada</title>
      <meta name="title" content="Srinivasa Multispecialty Dental Hospital Kakinada | Best Dental Care">
-
+<meta name="google-site-verification"content="XNZHTr2i9snjmaOnilQUt823CAqyXT89mM9RXOQ4egE"/>
      <meta name="description" content="Discover exceptional dental care at Srinivasa Multispecialty Dental Hospital in Kakinada. Specializing in advanced treatments like dental implants, root canals, clear aligners, and cosmetic dentistry. Book your appointment today for a healthier smile!">
      <meta name="keywords" content=" Best Dental Clinic in Kakinada
 Dental Implants Kakinada                                                    
