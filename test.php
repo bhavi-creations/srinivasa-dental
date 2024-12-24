@@ -43,41 +43,23 @@
     <link rel="stylesheet" href="assets/css/google-reviews.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-  
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16759915963"></script>
+     <script>
+         window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+         function gtag() {
+             dataLayer.push(arguments);
+         }
+         gtag('js', new Date());
 
-        gtag('config', 'AW-10932795730');
-    </script>
+         gtag('config', 'AW-16759915963');
+     </script>
 
 
 
     <script src="assets/js/google-reviews.js"></script>
     <link rel="stylesheet" href="assets/css/google-reviews.css">
-     
  
-    <!-- <style>
-        .review {
-            border-bottom: 1px solid #ddd;
-            margin-bottom: 10px;
-            padding-bottom: 10px;
-        }
-
-        .review h4 {
-            margin: 0 0 5px;
-        }
-
-        .review p {
-            margin: 5px 0;
-        }
-    </style> -->
-
 
 
 </head>

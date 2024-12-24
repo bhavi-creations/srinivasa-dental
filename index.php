@@ -7,7 +7,7 @@
 
      <title>Srinivasa Multispecialty Dental Hospital Kakinada</title>
      <meta name="title" content="Srinivasa Multispecialty Dental Hospital Kakinada | Best Dental Care">
-<meta name="google-site-verification" content="XNZHTr2i9SNJMA0nilQUt823CAqyXT89mM9RX0Q4egE" />
+     <meta name="google-site-verification" content="XNZHTr2i9SNJMA0nilQUt823CAqyXT89mM9RX0Q4egE" />
      <meta name="description" content="Discover exceptional dental care at Srinivasa Multispecialty Dental Hospital in Kakinada. Specializing in advanced treatments like dental implants, root canals, clear aligners, and cosmetic dentistry. Book your appointment today for a healthier smile!">
      <meta name="keywords" content=" Best Dental Clinic in Kakinada
 Dental Implants Kakinada                                                    
@@ -41,7 +41,7 @@ Teeth Cleaning Services in Kakinada
 Preventive Dental Care in Kakinada
 Dental Veneers in Kakinada">
 
-<link rel="canonical"  href="https://srinivasadentalkakinada.com/" />
+     <link rel="canonical" href="https://srinivasadentalkakinada.com/" />
 
      <!-- Favicons -->
      <link href="assets/img/srinivasa/tittle.png" rel="icon">
@@ -83,10 +83,10 @@ Dental Veneers in Kakinada">
      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
  
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+     
+ 
      <!-- Google tag (gtag.js) -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
-     </script>
-   
+     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16759915963"></script>
      <script>
          window.dataLayer = window.dataLayer || [];
 
@@ -95,7 +95,7 @@ Dental Veneers in Kakinada">
          }
          gtag('js', new Date());
 
-         gtag('config', 'AW-10932795730');
+         gtag('config', 'AW-16759915963');
      </script>
  </head>
 
@@ -258,7 +258,7 @@ Dental Veneers in Kakinada">
 
 
 
-    
+
 
      <section class="only_first">
          <video id="myVideo" width="100%" height="auto" loop autoplay controls>
@@ -1256,32 +1256,32 @@ Dental Veneers in Kakinada">
 
      <?php include('./footer.php'); ?>
      <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-<!-- Google tag (gtag.js) -->
-<amp-analytics type="gtag" data-credentials="include">
-  <script type="application/json">
-  {
-    "vars": {
-      "gtag_id": "AW-10932795730",
-      "config": {
-        "AW-10932795730": {
-          "groups": "default"
-        }
-      }
-    },
-    "triggers": {
-      "conversionEvent": {
-        "on": "visible",
-        "request": "event",
-        "vars": {
-          "event_name": "conversion",
-          "send_to": ["AW-10932795730/UbfvCITsyZcYENLylN0o"]
-        }
-      }
-    }
-  }
-  </script>
-</amp-analytics>
-  
+     <!-- Google tag (gtag.js) -->
+     <amp-analytics type="gtag" data-credentials="include">
+         <script type="application/json">
+             {
+                 "vars": {
+                     "gtag_id": "AW-10932795730",
+                     "config": {
+                         "AW-10932795730": {
+                             "groups": "default"
+                         }
+                     }
+                 },
+                 "triggers": {
+                     "conversionEvent": {
+                         "on": "visible",
+                         "request": "event",
+                         "vars": {
+                             "event_name": "conversion",
+                             "send_to": ["AW-10932795730/UbfvCITsyZcYENLylN0o"]
+                         }
+                     }
+                 }
+             }
+         </script>
+     </amp-analytics>
+
  </body>
 
  </html>
