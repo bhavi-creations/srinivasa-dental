@@ -57,7 +57,7 @@ $result = $conn->query($sql);
   gtag('config', 'AW-10932795730');
 </script>
 
-
+<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 </head>
 
