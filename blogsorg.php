@@ -43,41 +43,37 @@ $result = $conn->query($sql);
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- 
-<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- 
+    <!-- Google tag (gtag.js) -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16759915963"></script>
-     <script>
-         window.dataLayer = window.dataLayer || [];
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
-         function gtag() {
-             dataLayer.push(arguments);
-         }
-         gtag('js', new Date());
 
-         gtag('config', 'AW-16759915963');
-     </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10932795730');
+</script>
+
+
+
 </head>
 
 <body>
     <div class="social-icons text-center">
         <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-            <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""
-        /></a>
+            <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
         <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-            <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""
-        /></a>
+            <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
         <a
             href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-            <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt=""
-        /></a>
+            <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
         <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-            <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""
-        /></a>
+            <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
     </div>
- 
+
     <!-- ======= Header ======= -->
     <header id="header1" class="main_images onlypad">
         <div class="container d-flex align-items-center">
@@ -86,11 +82,11 @@ $result = $conn->query($sql);
                     <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
                 </a>
             </div>
-    
+
             <nav id="navbar" class="navbar order-lg-0">
                 <i class="bi bi-list mobile-nav-toggle"></i>
                 <ul>
-                    
+
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
                     <li class="nav-item dropdown">
@@ -128,27 +124,28 @@ $result = $conn->query($sql);
                         </a></li>
                 </ul>
             </nav>
-    
+
             <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
                 For Appointment
             </a>
         </div>
 
 
-        <script>// jQuery needed to manage hover and click behavior
+        <script>
+            // jQuery needed to manage hover and click behavior
             $(document).ready(function() {
                 // Ensure that the dropdown opens on hover
                 $('#servicesDropdown').hover(function() {
                     $(this).dropdown('toggle');
                 });
-            
+
                 // Make sure the dropdown also works on click
                 $('#servicesDropdown').click(function(e) {
                     e.stopPropagation(); // Prevents the click from closing the dropdown immediately
                     window.location.href = $(this).attr('href'); // Redirect to the link
                 });
             });
-            </script>
+        </script>
     </header>
 
     <main>
@@ -366,33 +363,33 @@ $result = $conn->query($sql);
 
     </main>
     <!-- ======= Footer ======= -->
-    <?php include ('./footer.php'); ?>
+    <?php include('./footer.php'); ?>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-<!-- Google tag (gtag.js) -->
-<amp-analytics type="gtag" data-credentials="include">
-  <script type="application/json">
-  {
-    "vars": {
-      "gtag_id": "AW-10932795730",
-      "config": {
-        "AW-10932795730": {
-          "groups": "default"
-        }
-      }
-    },
-    "triggers": {
-      "conversionEvent": {
-        "on": "visible",
-        "request": "event",
-        "vars": {
-          "event_name": "conversion",
-          "send_to": ["AW-10932795730/UbfvCITsyZcYENLylN0o"]
-        }
-      }
-    }
-  }
-  </script>
-</amp-analytics>
+    <!-- Google tag (gtag.js) -->
+    <amp-analytics type="gtag" data-credentials="include">
+        <script type="application/json">
+            {
+                "vars": {
+                    "gtag_id": "AW-10932795730",
+                    "config": {
+                        "AW-10932795730": {
+                            "groups": "default"
+                        }
+                    }
+                },
+                "triggers": {
+                    "conversionEvent": {
+                        "on": "visible",
+                        "request": "event",
+                        "vars": {
+                            "event_name": "conversion",
+                            "send_to": ["AW-10932795730/UbfvCITsyZcYENLylN0o"]
+                        }
+                    }
+                }
+            }
+        </script>
+    </amp-analytics>
 
 </body>
 

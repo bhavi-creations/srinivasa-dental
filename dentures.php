@@ -39,9 +39,24 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- 
+  <!-- Google tag (gtag.js) -->
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+
+
+
+
 </head>
 
 
@@ -378,33 +393,33 @@
 
 
   </main>
-  <?php include ('./footer.php'); ?>
+  <?php include('./footer.php'); ?>
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-<!-- Google tag (gtag.js) -->
-<amp-analytics type="gtag" data-credentials="include">
-  <script type="application/json">
-  {
-    "vars": {
-      "gtag_id": "AW-10932795730",
-      "config": {
-        "AW-10932795730": {
-          "groups": "default"
-        }
-      }
-    },
-    "triggers": {
-      "conversionEvent": {
-        "on": "visible",
-        "request": "event",
+  <!-- Google tag (gtag.js) -->
+  <amp-analytics type="gtag" data-credentials="include">
+    <script type="application/json">
+      {
         "vars": {
-          "event_name": "conversion",
-          "send_to": ["AW-10932795730/UbfvCITsyZcYENLylN0o"]
+          "gtag_id": "AW-10932795730",
+          "config": {
+            "AW-10932795730": {
+              "groups": "default"
+            }
+          }
+        },
+        "triggers": {
+          "conversionEvent": {
+            "on": "visible",
+            "request": "event",
+            "vars": {
+              "event_name": "conversion",
+              "send_to": ["AW-10932795730/UbfvCITsyZcYENLylN0o"]
+            }
+          }
         }
       }
-    }
-  }
-  </script>
-</amp-analytics>
+    </script>
+  </amp-analytics>
 
 </body>
 

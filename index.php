@@ -86,17 +86,17 @@ Dental Veneers in Kakinada">
      
  
      <!-- Google tag (gtag.js) -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16759915963"></script>
-     <script>
-         window.dataLayer = window.dataLayer || [];
+     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-         function gtag() {
-             dataLayer.push(arguments);
-         }
-         gtag('js', new Date());
+  gtag('config', 'AW-10932795730');
+</script>
 
-         gtag('config', 'AW-16759915963');
-     </script>
+
+
  </head>
 
 
