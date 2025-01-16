@@ -1259,7 +1259,7 @@ Dental Veneers in Kakinada">
      <?php include('./footer.php'); ?>
      <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
      <!-- Google tag (gtag.js) -->
-     <!-- <amp-analytics type="gtag" data-credentials="include">
+     <amp-analytics type="gtag" data-credentials="include">
          <script type="application/json">
              {
                  "vars": {
@@ -1282,7 +1282,7 @@ Dental Veneers in Kakinada">
                  }
              }
          </script>
-     </amp-analytics> -->
+     </amp-analytics>
 
  </body>
 
