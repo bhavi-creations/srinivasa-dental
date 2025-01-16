@@ -171,7 +171,6 @@
 
     <main id="main">
 
-     
 
 
 
@@ -696,7 +695,9 @@
             });
         </script>
 
-
+         
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-bffd1098-3bb5-4713-9afe-b1c67ac278cc  my-5" data-elfsight-app-lazy></div>
 
         <section>
             <div class="container">
@@ -834,34 +835,12 @@
 
 
 
+
+
     </main>
     <?php include('./footer.php'); ?>
-    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-    <!-- Google tag (gtag.js) -->
-    <amp-analytics type="gtag" data-credentials="include">
-        <script type="application/json">
-            {
-                "vars": {
-                    "gtag_id": "AW-10932795730",
-                    "config": {
-                        "AW-10932795730": {
-                            "groups": "default"
-                        }
-                    }
-                },
-                "triggers": {
-                    "conversionEvent": {
-                        "on": "visible",
-                        "request": "event",
-                        "vars": {
-                            "event_name": "conversion",
-                            "send_to": ["AW-10932795730/UbfvCITsyZcYENLylN0o"]
-                        }
-                    }
-                }
-            }
-        </script>
-    </amp-analytics>
+  
+     
 
 </body>
 
