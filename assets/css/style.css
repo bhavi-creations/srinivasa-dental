@@ -4139,10 +4139,11 @@ img.img-fluid.yimg {
 }
 
 .box-title{
-  color: #28386a !important;
+  color: #1f3269 !important;
+  font-weight: 1000;
 }
 .box-title:hover{
-  color: #072bbc !important;
+  color: #0ba2dd !important;
 }
 
 .blog-card-text{
@@ -4156,7 +4157,9 @@ font-weight: 700;
 
 }
 .post-desc{
-  color: #848e9f;
+ color: #666769; 
+ font-weight: 700;
+  /* color: red; */
 }
 .card_bg_div_box {
   /* Initial styles for the card */
