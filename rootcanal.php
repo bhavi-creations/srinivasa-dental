@@ -172,12 +172,12 @@
     <section class="root_service_bg_img  service_slider_image_styles">
       <div class="container slider_service_content">
         <!-- <div class="row"> -->
-          <div class="service_slider_content_div">
-            <p class=" service_slider_name">Root Canal</p>
-            <a href="contact.php">
-              <button class="read_more__slider">Contact Us</button>
-            </a>
-          </div>
+        <div class="service_slider_content_div">
+          <p class=" service_slider_name">Root Canal</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
         <!-- </div> -->
       </div>
     </section>
@@ -188,7 +188,7 @@
       <div class="row">
         <div class="col-2"></div>
         <div class="col-8">
-          <h1> Root Canal Treatment</h1>
+          <p class="root_treatment"> Root Canal Treatment</p>
           <p>
             A root canal involves removing infected or damaged pulp from the tooth. The dentist makes an opening in the tooth to access and clean the pulp chamber. After cleaning, the chamber is filled with a sealing material to prevent further infection. The tooth is then restored with a filling or crown for strength and protection. </p>
           </p>
@@ -199,38 +199,42 @@
 
     <section class="section_color">
       <div class="container">
-        <h4 class=" root_step text-center">Steps to a pain free root canal treatment</h4>
+        <h4 class="root_step text-center mb-5">Steps to a Pain-Free ROOT CANAL treatment</h4>
         <div class="row my-3">
-          <div class="col-12 col-md-3 card ml-3">
-            <img src="./assets/img/services/rootcanal2.png" alt="" class="img-fluid">
-            <h4 class="canal_step">step1</h4>
-            <p>
-              The dentist examines the tooth and takes X-rays to assess damage.
-              Local anesthesia is applied to numb the area before the procedure begins.</p>
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/rootcanal2.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+                The dentist examines the tooth and takes X-rays to assess damage.
+                Local anesthesia is applied to numb the area before the procedure begins.
+              </p>
+            </div>
           </div>
-          <div class="col-12 col-md-3 card">
-            <img src="./assets/img/services/rootcanal3.png" alt="" class="img-fluid">
-
-            <h4 class="canal_step">step2</h4>
-
-            <p>
-              An opening is made in the tooth’s crown to access the pulp chamber.
-              The infected or damaged pulp tissue is carefully removed. </p>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/rootcanal3.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+                An opening is made in the tooth’s crown to access the pulp chamber.
+                The infected or damaged pulp tissue is carefully removed.
+              </p>
+            </div>
           </div>
-          <div class="col-12 col-md-3 card">
-            <img src="./assets/img/services/rootcanal1.png" alt="" class="img-fluid">
-
-            <h4 class="canal_step">step3</h4>
-
-            <p>
-              The pulp chamber is cleaned and sealed with a filling material.
-              The tooth is then restored, often with a crown for added strength. </p>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/rootcanal1.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <p>
+                The pulp chamber is cleaned and sealed with a filling material.
+                The tooth is then restored, often with a crown for added strength.
+              </p>
+            </div>
           </div>
-
         </div>
-
       </div>
     </section>
+
 
 
 

@@ -362,11 +362,13 @@ p.get_in_touch.read_hide.readerr {
 
 .section_color {
   background-color: rgb(241, 241, 241);
+  text-align: center;
 }
 
 .canal_step {
   padding: 10px;
   padding-top: 10px;
+  color: ;
 }
 
 .root_step {
@@ -529,3 +531,136 @@ p.get_in_touch.read_hide.readerr {
     
   }
 }
+
+
+
+.section_color{
+  background-color: rgb(241, 241, 241);
+}
+.canal_step{
+  padding: 10px;
+  padding-top: 10px;
+  color: #252b42;
+  font-weight: 700;
+}
+.root_step{
+  margin-bottom: 30px;
+  color: #252b42;
+  font-weight: 700;
+
+  /* width: 1200px; */
+}
+.root_treatment{
+  color: #1d2053 !important;
+  font-size: 39px;
+  font-weight: 700;
+  
+
+}
+
+
+
+
+/* Basic styling */
+.section_color {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.root_step {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Card wrapper styles */
+.card-wrapper {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.card img {
+  max-height: 200px;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card h4 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Hover effect */
+.card-wrapper:hover .card {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-wrapper:hover .card img {
+  transform: translateY(-10px);
+}
+
+/* Make the layout responsive */
+@media (max-width: 767px) {
+  .card-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .card img {
+    max-height: 150px;
+  }
+
+  .root_step {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Increase width of cards on tablet-sized devices */
+  .card-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .card img {
+    max-height: 180px;
+  }
+
+  .root_step {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Adjust card size for large devices */
+  .card-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .card img {
+    max-height: 200px;
+  }
+
+  .root_step {
+    font-size: 2rem;
+  }
+}
+
+
+
+
+
+
