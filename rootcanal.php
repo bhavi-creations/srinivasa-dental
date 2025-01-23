@@ -168,12 +168,17 @@
       </div>
     </section> -->
 
-    <section class="root_section">
-      <div class="container  root_content">
-        <p class="root_service">Root Canal </p>
-        <a href="contact.php">
-          <button class="read_more_btn1">Contact</button>
-        </a>
+
+    <section class="root_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+        <!-- <div class="row"> -->
+          <div class="service_slider_content_div">
+            <p class=" service_slider_name">Root Canal</p>
+            <a href="contact.php">
+              <button class="read_more__slider">Contact Us</button>
+            </a>
+          </div>
+        <!-- </div> -->
       </div>
     </section>
 
