@@ -185,16 +185,16 @@
 
 
     <section>
-      <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
+    
+        <div class="container">
+     
           <p class="root_treatment"> Root Canal Treatment</p>
           <p>
             A root canal involves removing infected or damaged pulp from the tooth. The dentist makes an opening in the tooth to access and clean the pulp chamber. After cleaning, the chamber is filled with a sealing material to prevent further infection. The tooth is then restored with a filling or crown for strength and protection. </p>
           </p>
-        </div>
-        <div class="col-2"></div>
-      </div>
+        
+          </div>
+    
     </section>
 
     <section class="section_color">
