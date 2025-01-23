@@ -290,3 +290,208 @@ img.iimage3 {
 }p.get_in_touch.read_hide.readerr {
   font-size: 15px !important;
 }
+
+
+
+
+.section_color{
+  background-color: rgb(241, 241, 241);
+}
+.canal_step{
+  padding: 10px;
+  padding-top: 10px;
+}
+.root_step{
+  margin-bottom: 30px;
+  /* width: 1200px; */
+}
+
+.card{
+ /* box-shadow: 2px spx 2ps solid grey; */
+}
+.card img{
+  border-radius: 7px;
+  margin-top: 5px;
+
+}
+/* .root_service11{
+ margin-top: 150px;
+
+} */
+
+
+
+
+/* .root_section{
+
+  background-image: url("..//img/services/rootcanal-1.png") ;
+  background-size: cover; 
+  background-position: center; 
+   background-repeat: no-repeat; 
+  height: 500px;
+} */
+
+
+/* Root Section Styling */
+
+/* General Styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px; /* Limit container width */
+  margin: 0 auto; /* Center content horizontally */
+  padding: 20px; /* Add padding inside the container */
+}
+
+/* Root Section Styling */
+.root_section {
+  background-image: url("../img/services/rootcanal-1.png"); /* Background image */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  /* min-height: 100vh; */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-end; /* Push content to the bottom */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  /* padding: 20px;  */
+  color: white; /* Default text color */
+}
+
+/* Service Title Styling */
+.root_service {
+  font-size: 2rem; /* Default font size */
+  margin-bottom: 20px; 
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
+}
+
+/* Button Styling */
+.read_more_btn {
+  padding: 12px 24px; /* Button size */
+  font-size: 1rem; /* Font size for button text */
+  background-color: #007bff; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded button edges */
+  cursor: pointer; /* Pointer on hover */
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.read_more_btn:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small Devices (Phones - max width: 768px) */
+@media (max-width: 768px) {
+  .root_section {
+    background-size: contain; /* Ensure the full image is visible */
+    padding: 20px; /* Add padding for small screens */
+    min-height: 70vh; 
+    margin-top: -80px;
+    margin-bottom: -150px;
+  }
+
+  .root_service {
+    font-size: 1.5rem;
+  }
+
+  .read_more_btn {
+    font-size: 0.9rem; /* Smaller button text */
+    padding: 10px 20px; /* Adjust button size */
+  }
+}
+
+/* Extra Small Devices (Phones - max width: 480px) */
+@media (max-width: 480px) {
+  .root_service{
+    color: #5f5f5f;
+  font-size: 15px;
+  margin-top: -140px !important;
+  margin-left: -70px;
+  margin-bottom: -5px;
+    /* margin-bottom: -15px; */
+  }
+  .root_content{
+    margin-top: -50px !important;
+  }
+  .root_section {
+    background-size: contain; /* Ensure image scales properly */
+    padding: 15px; /* Adjust padding */
+    min-height: 60vh; /* Reduce section height */
+  }
+
+  .root_service {
+    font-size: 1.2rem; /* Smaller font for very small devices */
+  }
+
+  .read_more_btn {
+    font-size: 0.85rem; /* Button text for small screens */
+    padding: 8px 16px; /* Smaller button */
+  }
+}
+
+/* Large Devices (Desktops - min width: 1200px) */
+@media (min-width: 1200px) {
+  .root_section {
+    background-size: cover; /* Maintain proportionality */
+    padding: 40px; /* Add more spacing for large devices */
+    min-height: 100vh; /* Ensure it covers full viewport height */
+  }
+
+  .root_service {
+    font-size: 2.5rem; /* Increase font size for large screens */
+  }
+
+  .read_more_btn {
+    font-size: 1.3rem; /* Larger button text */
+    padding: 16px 32px; /* Increase button size */
+  }
+}
+
+/* Extra Large Devices (4K Screens - min width: 1600px) */
+@media (min-width: 1600px) {
+  .root_section {
+    background-size: cover; /* Ensure the image still fits */
+    min-height: 120vh; /* Increase height for ultra-large screens */
+    padding: 60px; /* Add extra padding for ultra-large screens */
+  }
+
+  .root_service {
+    font-size: 3rem; /* Increase heading size */
+  }
+
+  .read_more_btn {
+    font-size: 1.5rem; /* Larger button text */
+    padding: 18px 36px; /* Adjust button size */
+  }
+}
+
+
+
+
+
+
+
+.read_more_btn1 {
+  /* padding: 6px 12px; Button size */
+  /* font-size: 1rem; / */
+  background-color: #62a6ee; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded button edges */
+  cursor: pointer; 
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.read_more_btn1:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}

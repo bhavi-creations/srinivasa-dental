@@ -39,20 +39,23 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- 
+  <!-- Google tag (gtag.js) -->
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
 
- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-10932795730');
-</script>
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 
@@ -150,81 +153,81 @@
 
   <main id="main">
 
-
-
-    <section class="sectionForm">
+    <!-- <section class="root_section">
       <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-            <h5 class="poetsen_font11">
-              A root canal is a dental procedure that removes infected tissue from inside a tooth to relieve pain and save the tooth</h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Root Canal Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-                A root canal is a dental treatment designed to address infection or damage within the pulp of a tooth. During the procedure, the dentist removes the infected or damaged tissue, cleans and disinfects the inner chambers, and then fills and seals the space. This treatment helps alleviate severe tooth pain and can prevent the need for tooth extraction. Root canals are often performed when cavities or trauma cause significant harm to the tooth's interior. After the procedure, the tooth is typically restored with a crown to ensure its strength and functionality.
-              </p>
-              <div class="showthisdiv " style="display:none ">
-                <p class="poetsen_font1"> A root canal procedure is crucial for saving a tooth that is severely damaged or infected. The process involves accessing the tooth's root canals, removing the affected pulp tissue, and thoroughly cleaning the area to eliminate bacteria. Once cleaned, the canals are filled with a special material to seal them and prevent future infections. Afterward, a crown or filling is placed on the tooth to restore its structure and function. This treatment can relieve significant pain and preserve the tooth, allowing patients to maintain a natural smile.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
+     
+            
+            <p class="root_service">Root Canal Treatment</p>
+            
+              <a href="contact.php">
+             
 
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
+                <button class="read_more_btn mt-4 mb-2">contact </button>
+              </a>
+           
+      </div>
+    </section> -->
 
-                <div class="swiper-slide">
-                  <img src="assets/img/services/root canal (1).jpg" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <!-- <div class="swiper-slide">
-                  <img src="assets/img/services/root canal (2).jpg" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div> -->
-                <div class="swiper-slide">
-                  <img src="assets/img/services/root (1).png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-
-              </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
-
-
-        </div>
+    <section class="root_section">
+      <div class="container  root_content">
+        <p class="root_service">Root Canal </p>
+        <a href="contact.php">
+          <button class="read_more_btn1">Contact</button>
+        </a>
       </div>
     </section>
+
+
+
+    <section>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <h1> Root Canal Treatment</h1>
+          <p>
+            A root canal involves removing infected or damaged pulp from the tooth. The dentist makes an opening in the tooth to access and clean the pulp chamber. After cleaning, the chamber is filled with a sealing material to prevent further infection. The tooth is then restored with a filling or crown for strength and protection. </p>
+          </p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class=" root_step text-center">Steps to a pain free root canal treatment</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-3 card ml-3">
+            <img src="./assets/img/services/rootcanal2.png" alt="" class="img-fluid">
+            <h4 class="canal_step">step1</h4>
+            <p>
+              The dentist examines the tooth and takes X-rays to assess damage.
+              Local anesthesia is applied to numb the area before the procedure begins.</p>
+          </div>
+          <div class="col-12 col-md-3 card">
+            <img src="./assets/img/services/rootcanal3.png" alt="" class="img-fluid">
+
+            <h4 class="canal_step">step2</h4>
+
+            <p>
+              An opening is made in the tooth’s crown to access the pulp chamber.
+              The infected or damaged pulp tissue is carefully removed. </p>
+          </div>
+          <div class="col-12 col-md-3 card">
+            <img src="./assets/img/services/rootcanal1.png" alt="" class="img-fluid">
+
+            <h4 class="canal_step">step3</h4>
+
+            <p>
+              The pulp chamber is cleaned and sealed with a filling material.
+              The tooth is then restored, often with a crown for added strength. </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
 
 
 
@@ -387,8 +390,8 @@
     </section>
 
   </main>
-  <?php include ('./footer.php'); ?>
- 
+  <?php include('./footer.php'); ?>
+
 
 </body>
 
