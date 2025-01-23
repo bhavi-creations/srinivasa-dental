@@ -368,7 +368,7 @@ p.get_in_touch.read_hide.readerr {
 .canal_step {
   padding: 10px;
   padding-top: 10px;
-  color: ;
+  color:#1d2053 ;
 }
 
 .root_step {
@@ -633,9 +633,7 @@ p.get_in_touch.read_hide.readerr {
   .card-wrapper {
     margin-bottom: 30px;
   }
-.slider_service_content{
-  margin-bottom: -70px;
-}
+
   .card img {
     max-height: 180px;
   }
@@ -659,20 +657,13 @@ p.get_in_touch.read_hide.readerr {
     font-size: 2rem;
   }
 }
-@media (min-width:1200px) and (max-width:1400px) {
-  .slider_service_content{
-    margin-bottom: -140px;
-  }
-  
-}
-@media (min-width:1400px) and (max-width:1600px) {
-  .slider_service_content{
-    margin-bottom: -140px;
-  }
-  
-}
 
+@media (min-width:768px) {
+  
 
+.service_contain_text{
+  padding: 0px 50px ;
+}}
 
 
 
