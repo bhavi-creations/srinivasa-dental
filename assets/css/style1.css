@@ -439,7 +439,7 @@ p.get_in_touch.read_hide.readerr {
 }
 
 .service_slider_content_div {
-  margin-top: 17%;
+  margin-top: 15%;
   margin-left: 1%;
 }
 }
@@ -478,12 +478,14 @@ p.get_in_touch.read_hide.readerr {
 }
 
 .service_slider_content_div {
-  margin-top: 12%;
-  margin-left: -5%;
+  margin-top: 8%;
+  margin-left: -2%;
 }
 }
 
-
+@media (min-width:992px) and (max-width:1200px) {
+  
+}
 
 @media (max-width:768px)  {
   
@@ -497,7 +499,7 @@ p.get_in_touch.read_hide.readerr {
 }
 
 .service_slider_content_div {
-  margin-top: -2%;
+  margin-top: -3%;
   margin-left: 1%;
 }
 }
