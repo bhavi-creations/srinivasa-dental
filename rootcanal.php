@@ -171,14 +171,14 @@
 
     <section class="root_service_bg_img  service_slider_image_styles">
       <div class="container slider_service_content">
-        <!-- <div class="row"> -->
+       
         <div class="service_slider_content_div">
           <p class=" service_slider_name">Root Canal</p>
           <a href="contact.php">
             <button class="read_more__slider">Contact Us</button>
           </a>
         </div>
-        <!-- </div> -->
+    
       </div>
     </section>
 
@@ -225,7 +225,7 @@
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/rootcanal1.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/rootcanal1.jpg" alt="" class="img-fluid">
               <h4 class="canal_step">Step3</h4>
               <p>
                 The pulp chamber is cleaned and sealed with a filling material.
@@ -238,6 +238,18 @@
     </section>
 
 
+
+    <!-- <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 "> 
+          </div>
+          <div class="col-6">
+            <img src="./assets/img/srinivasa/srinivasa-image.jpg" alt="" class="img-fluid"  style="width:500px; height:700px;">
+          </div>
+        </div>
+      </div>
+    </section> -->
 
 
 

@@ -150,7 +150,7 @@
   <main id="main">
 
 
-
+<!-- 
     <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
@@ -190,12 +190,7 @@
                     alt="Dental Image 2" loading="lazy">
                 </div>
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+              
             </div>
 
             <script>
@@ -204,8 +199,8 @@
                   loop: true,
                   effect: 'fade',
                   autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
+                    delay: 2000, 
+                    disableOnInteraction: false,
                   },
                   pagination: {
                     el: '.swiper-pagination',
@@ -240,7 +235,78 @@
           readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
         }
       }
-    </script>
+    </script> -->
+
+
+
+    <section class="cleaning_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+       
+        <div class="service_slider_content_div">
+          <p class=" teeth_slider_name">Teethcleaning</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
+    
+      </div>
+    </section>
+
+
+
+    <section class="service_section">
+      <div class="container">
+      <div class="row">
+        
+        <div class="service_contain_text">
+     
+          <p class="root_treatment"> Teethcleaning Treatment</p>
+          <p>
+          Teeth cleaning is a professional dental procedure that removes plaque, tartar, and stains from your teeth, helping to maintain oral health. It prevents cavities, gum disease, and bad breath by thoroughly cleaning areas that are hard to reach with regular brushing. During the process, a dentist or hygienist uses specialized tools to scrape off buildup and polish the teeth. It is recommended to have teeth cleaning every 6 months for optimal oral hygiene. Regular cleanings not only protect your teeth but also support overall health by reducing the risk of infections.          </p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">Steps for a Sparkling Clean Smile
+
+
+</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/toothcleaning/Scaling.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+              Scaling: The dentist or hygienist uses a scaler to remove plaque and tartar from the tooth surfaces and around the gumline. This step targets buildup in hard-to-reach areas that brushing and flossing may miss.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/toothcleaning/polishing.jpeg" alt="" class="img-fluid">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+              Polishing: A high-powered electric brush and gritty toothpaste are used to polish the teeth, removing stains and leaving them smooth. This step helps prevent future plaque buildup by creating a slick surface.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/toothcleaning/Fluoride-Treatment.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <p>
+                Fluoride Treatment: A fluoride gel or varnish is applied to the teeth to strengthen enamel and protect against cavities. This final step provides long-lasting protection until your next cleaning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+
 
 
     <section>

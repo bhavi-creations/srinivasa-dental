@@ -398,6 +398,14 @@ p.get_in_touch.read_hide.readerr {
   background-image: url("../img/services/rootcanal-1.png");
 
 }
+.teeth_service_bg_img {
+  background-image: url("../img/services/teethfilling/teethfilling.png");
+
+}
+.cleaning_service_bg_img{
+  background-image: url("../img/services/toothcleaning/1.png");
+
+}
 
 .service_slider_image_styles {
   background-size: contain;
@@ -437,6 +445,11 @@ p.get_in_touch.read_hide.readerr {
   color: #1d2053;
   font-weight: 800;
 }
+.teeth_slider_name{
+  font-size: 50px;
+  color: #1d2053;
+  font-weight: 800;
+}
 
 .service_slider_content_div {
   margin-top: 15%;
@@ -457,7 +470,11 @@ p.get_in_touch.read_hide.readerr {
   color: #1d2053;
   font-weight: 800;
 }
-
+.teeth_slider_name{
+  font-size: 50px;
+  color: #1d2053;
+  font-weight: 800;
+}
 .service_slider_content_div {
   margin-top: 12%;
   margin-left: 2%;
@@ -473,6 +490,11 @@ p.get_in_touch.read_hide.readerr {
   
   .service_slider_name {
     font-size:43px;
+  color: #1d2053;
+  font-weight: 800;
+}
+.teeth_slider_name{
+  font-size: 43px;
   color: #1d2053;
   font-weight: 800;
 }
@@ -497,7 +519,12 @@ p.get_in_touch.read_hide.readerr {
   font-weight: 800;
   margin-bottom:0px;
 }
-
+.teeth_slider_name{
+  font-size: 17px;
+  color: #1d2053;
+  font-weight: 800;
+  margin-bottom:0px;
+}
 .service_slider_content_div {
   margin-top: -3%;
   margin-left: 1%;

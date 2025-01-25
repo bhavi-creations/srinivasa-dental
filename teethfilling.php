@@ -149,8 +149,8 @@
   <main id="main">
 
 
-
-    <section class="sectionForm">
+<!-- 
+  <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-7 dr_content_padding  ">
@@ -187,12 +187,8 @@
                     alt="Dental Image 2" loading="lazy">
                 </div>
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+            
+              
             </div>
 
             <script>
@@ -201,8 +197,8 @@
                   loop: true,
                   effect: 'fade',
                   autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
+                    delay: 2000, 
+                    disableOnInteraction: false, 
                   },
                   pagination: {
                     el: '.swiper-pagination',
@@ -222,10 +218,10 @@
 
         </div>
       </div>
-    </section>
+    </section> -->
 
 
-    <script>
+  <script>
       function toggleReadMore() {
         var showThisDiv = document.querySelector('.showthisdiv');
         var readMoreText = document.querySelector('.get_in_touch');
@@ -238,8 +234,78 @@
           readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
         }
       }
-    </script>
+    </script> 
 
+
+
+
+  
+    <section class="teeth_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+       
+        <div class="service_slider_content_div">
+          <p class=" service_slider_name"> Teethfilling</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
+    
+      </div>
+    </section>
+
+
+
+    <section class="service_section">
+      <div class="container">
+      <div class="row">
+        
+        <div class="service_contain_text">
+     
+          <p class="root_treatment"> Teethfeeling Treatment</p>
+          <p>
+          Teeth Filling is a common dental procedure used to restore teeth damaged by decay or minor fractures. The dentist removes the decayed portion of the tooth and fills the cavity with materials like composite resin, amalgam, or porcelain. This process helps prevent further decay, restores the tooth's functionality, and maintains its natural appearance. Modern fillings are durable, tooth-colored, and blend seamlessly with your smile. Regular dental checkups ensure fillings remain intact and effective for years.          </p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">Essential Steps for a Seamless Tooth Filling Treatment</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/teethfilling/teeth-filling-1.jpg" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <!-- Diagnosis and Preparation -->
+              <p>
+                The dentist examines the tooth using X-rays to detect cavities or damage. The area around the tooth is numbed to ensure a painless procedure.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/teethfilling/decly.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step2</h4>
+              <!-- Decay Removal -->
+              <p>
+              he decayed or damaged part of the tooth is carefully removed using specialized tools. The tooth is then cleaned to prepare for the filling material.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/teethfilling/filling.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <!-- Filling and Shaping -->
+              <p>
+              The filling material is applied in layers and hardened with a special light. The dentist shapes and polishes the filling to restore the tooth's natural appearance and function.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
@@ -291,13 +357,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="tile ">
-                  <div class="tile__media ">
-                    <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div> -->
+               
               </div>
             </div>
           </div>
@@ -313,20 +373,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="tile ">
-                  <div class="tile__media ">
-                    <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-                <div class="tile  ">
-                  <div class="tile__media ">
-                    <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div> -->
+               
               </div>
             </div>
           </div>
@@ -343,34 +390,7 @@
                     </div>
                   </div>
                 </div>
-                <!--    <div class="tile ">
-                  <div class="tile__media ">
-                    <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-                <div class="tile  ">
-                  <div class="tile__media ">
-                    <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-                  <div class="tile  ">
-                  <div class="tile__media">
-                    <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/KyI4GyczhTo?si=F0v0n60FOJLo5hKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-                <div class="tile  ">
-                  <div class="tile__media">
-                    <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ8ZKMUvnO0?si=j4Hq_teDJzjMlKeW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div> -->
+               
               </div>
             </div>
           </div>
@@ -387,6 +407,7 @@
     </section>
 
 
+   
   </main>
   <?php include ('./footer.php'); ?>
  
