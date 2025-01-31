@@ -151,7 +151,77 @@
 
 
 
-    <section class="sectionForm">
+  <section class="dentalimplents_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+
+        <div class="service_slider_content_div">
+          <p class=" teeth_slider_name1">Dental implents</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <section class="service_section">
+      <div class="container">
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> Dental implents Treatment</p>
+            <p>
+            Dental implants are a modern and effective way to replace missing teeth, offering a permanent and natural-looking solution. An implant consists of a titanium post surgically placed into the jawbone, acting as an artificial tooth root. Once healed, a custom-made crown is attached to the implant, restoring the appearance and function of your natural teeth.            </p>
+            <p>
+            Unlike traditional dentures or bridges, dental implants are durable, stable, and designed to last a lifetime with proper care. They prevent bone loss, maintain facial structure, and provide a confident, comfortable smile. Whether you're missing one tooth or several, dental implants are the gold standard for restoring oral health and aesthetics.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">Advanced Dental Implants for a Healthy and Beautiful Smile
+</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/dental-implents/placement.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+              The first step involves surgically placing a titanium implant into the jawbone. This acts as an artificial tooth root and provides a stable foundation for the replacement tooth. The area is numbed to ensure comfort during the procedure.
+
+</div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/dental-implents/osseointegration.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+              Over the next few months, the implant fuses with the jawbone in a natural process called osseointegration. This creates a strong and durable bond, ensuring long-term stability.
+
+</div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/dental-implents/crown.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <p>
+              Once healing is complete, a custom-made dental crown is securely attached to the implant. This crown is designed to match the color, shape, and size of your natural teeth, restoring functionality and appearance.
+
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-7 dr_content_padding   ">
@@ -191,12 +261,7 @@
 
 
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+            
             </div>
 
             <script>
@@ -225,7 +290,7 @@
 
         </div>
       </div>
-    </section>
+    </section> -->
 
 
     <script>

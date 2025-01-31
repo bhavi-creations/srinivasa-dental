@@ -39,19 +39,22 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- 
+  <!-- Google tag (gtag.js) -->
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-10932795730');
-</script>
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 
@@ -152,7 +155,7 @@
 
 
 
-    <section class="sectionForm">
+    <!-- <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-7 dr_content_padding  ">
@@ -191,12 +194,7 @@
                     alt="Dental Image 2" loading="lazy">
                 </div>
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+             
             </div>
 
             <script>
@@ -205,8 +203,8 @@
                   loop: true,
                   effect: 'fade',
                   autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
+                    delay: 2000, 
+                    disableOnInteraction: false, 
                   },
                   pagination: {
                     el: '.swiper-pagination',
@@ -225,7 +223,100 @@
 
         </div>
       </div>
+    </section> -->
+
+
+
+    <section class="makeover_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+
+        <div class="service_slider_content_div">
+          <p class=" teeth_slider_name">Smilemakeover</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
+
+      </div>
     </section>
+
+
+
+    <section class="service_section">
+      <div class="container">
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> Smilemakeover Treatment</p>
+            <p>
+              A smile makeover is a comprehensive treatment plan that combines various cosmetic dental procedures to enhance the appearance of your smile. Whether you're looking to improve the shape, size, or color of your teeth, or address issues like gaps, misalignment, or stains, a smile makeover can give you the smile you’ve always dreamed of.
+
+            </p>
+            <p>
+              Using a combination of treatments such as teeth whitening, veneers, crowns, and bonding, a smile makeover can dramatically improve your overall appearance and boost your self-confidence. The results are customized to fit your unique facial features and preferences, ensuring a natural, beautiful smile.
+
+
+            </p>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">
+        Transform Your Smile, Transform Your Life</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/smile-make-over/1.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+                Your dentist will evaluate your dental health, discuss your aesthetic goals, and create a personalized treatment plan that includes the procedures best suited for you.
+
+
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/smile-make-over/2.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+                Depending on your needs, treatments like teeth whitening, veneers, crowns, bonding, or Invisalign may be used to enhance the appearance, shape, and alignment of your teeth.
+
+
+
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/smile-make-over/3.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <p>
+                After completing the treatments, your smile will be beautifully transformed, ensuring you leave with a natural, radiant, and confident smile that suits your unique features.
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <script>
@@ -261,7 +352,7 @@
                 fill="#25B4F8" />
             </svg>
           </p>
-          <h2 class="apporach">   Transforming Smiles, Changing Lives</h2>
+          <h2 class="apporach"> Transforming Smiles, Changing Lives</h2>
 
 
 
@@ -276,7 +367,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AbjxpyL9_-0?si=JkhzKPH00r077q_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/AbjxpyL9_-0?si=JkhzKPH00r077q_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -291,7 +382,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AbjxpyL9_-0?si=JkhzKPH00r077q_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/AbjxpyL9_-0?si=JkhzKPH00r077q_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -313,7 +404,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AbjxpyL9_-0?si=JkhzKPH00r077q_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/AbjxpyL9_-0?si=JkhzKPH00r077q_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -343,7 +434,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AbjxpyL9_-0?si=JkhzKPH00r077q_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/AbjxpyL9_-0?si=JkhzKPH00r077q_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -399,8 +490,8 @@
 
 
   </main>
-  <?php include ('./footer.php'); ?>
-   
+  <?php include('./footer.php'); ?>
+
 
 </body>
 

@@ -39,19 +39,22 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- 
+  <!-- Google tag (gtag.js) -->
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-10932795730');
-</script>
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 </head>
@@ -151,7 +154,7 @@
 
 
 
-    <section class="sectionForm">
+    <!-- <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-7 dr_content_padding  order-1 order-md-1">
@@ -190,12 +193,7 @@
                     alt="Dental Image 2" loading="lazy">
                 </div>
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+            
             </div>
 
             <script>
@@ -224,7 +222,96 @@
 
         </div>
       </div>
+    </section> -->
+
+
+    <section class="mouth_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+
+        <div class="service_slider_content_div">
+          <p class=" teeth_slider_name-mouth">Full mouth restoration</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
+
+      </div>
     </section>
+
+
+
+    <section class="service_section">
+      <div class="container">
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> Full mouth restoration Treatment</p>
+            <p>
+              Full mouth restoration is a comprehensive dental treatment designed to rebuild and restore the function, aesthetics, and health of your entire mouth. It is ideal for individuals with multiple dental issues, including missing, damaged, worn-out, or misaligned teeth.
+
+
+            </p>
+            <p>
+              The process involves a combination of restorative and cosmetic procedures such as dental implants, crowns, bridges, veneers, and orthodontics. Each treatment plan is customized to improve bite alignment, chewing efficiency, and overall smile appearance.
+
+            </p>
+            <p>
+              A full mouth restoration not only enhances your smile but also improves oral health, boosts confidence, and enhances your quality of life. Ready for a transformation? Schedule a consultation today!
+            </p>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">
+        Rebuild, Restore, and Renew Your Smile</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/full-teeth/1.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+              Your dentist performs a detailed examination, including X-rays, scans, and impressions, to assess your oral health. A customized treatment plan is created to address specific issues such as missing, damaged, or misaligned teeth.
+
+</p>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/full-teeth/2.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+              Based on the treatment plan, procedures like dental implants, crowns, bridges, veneers, or orthodontics are performed in phases to restore function, alignment, and aesthetics.
+
+</p>
+
+
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/full-teeth/3.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <p>
+              Once all procedures are completed, the dentist makes final adjustments for a perfect fit, comfort, and a natural look. The result is a fully restored, functional, and confident smile!
+
+</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
 
     <script>
       function toggleReadMore() {
@@ -388,8 +475,8 @@
 
 
   </main>
-  <?php include ('./footer.php'); ?>
- 
+  <?php include('./footer.php'); ?>
+
 
 </body>
 

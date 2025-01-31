@@ -39,20 +39,23 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- 
+  <!-- Google tag (gtag.js) -->
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
 
- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-10932795730');
-</script>
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 
@@ -152,8 +155,102 @@
   <main id="main">
 
 
+    <section class="scaling_service_bg_img  service_slider_image_styles">
+      <!-- <div class="container slider_service_content">
 
-    <section class="sectionForm">
+        <div class="service_slider_content_div">
+          <p class=" teeth_slider_name_mouth">Teethscaling</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div> -->
+
+        <div class="container slider_service_content">
+
+<div class="service_slider_content_div">
+  <p class=" teeth_slider_name">Teethscaling</p>
+  <a href="contact.php">
+    <button class="read_more__slider">Contact Us</button>
+  </a>
+</div>
+
+</div>
+
+      </div>
+    </section>
+
+
+
+    <section class="service_section">
+      <div class="container">
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> Teethscaling Treatment</p>
+            <p>
+            Teeth scaling is a professional dental cleaning procedure that removes plaque, tartar, and stains from the surfaces of your teeth and below the gumline. Over time, these deposits can build up despite regular brushing and flossing, leading to gum disease, bad breath, and tooth decay.
+
+            </p>
+            <p>
+            The process involves using specialized tools to gently clean hard-to-reach areas, preventing bacterial buildup and promoting healthier gums. Teeth scaling not only enhances your oral hygiene but also leaves your teeth feeling smoother and looking brighter.
+
+
+            </p>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">
+        Deep Clean for a Healthier, Brighter Smile</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/Teethscaling/examination.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+              Your dentist or hygienist will examine your teeth and gums to assess the buildup of plaque and tartar and identify areas requiring cleaning.
+
+</div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/Teethscaling/scaling.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+              Specialized tools are used to remove plaque and hardened tartar from the surface of your teeth and below the gumline. This step helps prevent gum disease and improves oral hygiene.
+
+
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/Teethscaling/polishing.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <p>
+              After scaling, your teeth are polished to remove surface stains, leaving them smooth, clean, and bright, while also reducing future plaque buildup.
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-7 dr_content_padding  ">
@@ -192,12 +289,7 @@
                     alt="Dental Image 2" loading="lazy">
                 </div>
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+            
             </div>
 
             <script>
@@ -206,8 +298,8 @@
                   loop: true,
                   effect: 'fade',
                   autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
+                    delay: 2000, 
+                    disableOnInteraction: false, 
                   },
                   pagination: {
                     el: '.swiper-pagination',
@@ -228,7 +320,7 @@
 
         </div>
       </div>
-    </section>
+    </section> -->
 
 
     <script>
@@ -406,8 +498,8 @@
 
 
   </main>
-  <?php include ('./footer.php'); ?>
- 
+  <?php include('./footer.php'); ?>
+
 
 </body>
 

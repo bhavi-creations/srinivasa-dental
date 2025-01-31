@@ -304,7 +304,7 @@
     </section> -->
 
 
-        <section class="background-section">
+        <!-- <section class="background-section">
             <div class="content">
                 <img src="assets/img/srinivasa/ff.png" alt="" class=" img-fluid">
 
@@ -313,9 +313,7 @@
                     <button>Contact Us</button>
                 </a>
             </div>
-        </section>
-
-
+        </section> -->
 
 
         <section class="service_section">

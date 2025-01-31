@@ -45,14 +45,17 @@
 
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'AW-10932795730');
-</script>
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 </head>
@@ -152,7 +155,7 @@
 
 
 
-    <section class="sectionForm">
+    <!-- <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-7 dr_content_padding   ">
@@ -194,12 +197,7 @@
                     alt="Dental Image 2" loading="lazy">
                 </div>
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+            
             </div>
 
             <script>
@@ -208,8 +206,8 @@
                   loop: true,
                   effect: 'fade',
                   autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
+                    delay: 2000,
+                    disableOnInteraction: false, 
                   },
                   pagination: {
                     el: '.swiper-pagination',
@@ -229,7 +227,107 @@
 
         </div>
       </div>
+    </section> -->
+
+    <section class="crowns_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+
+        <div class="service_slider_content_div">
+          <p class=" teeth_slider_name">crowns & bridges</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
+
+      </div>
     </section>
+
+
+
+    <section class="service_section">
+      <div class="container">
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> crowns & bridges Treatment</p>
+            <p>
+              Crowns and bridges are fixed dental restorations designed to repair damaged teeth and replace missing ones, restoring both function and aesthetics.
+
+
+            </p>
+            <p>
+              <strong>Crowns </strong>are custom-made caps placed over weakened or decayed teeth, protecting them while enhancing their strength and appearance.
+
+
+            </p>
+            <p>
+              <strong> Bridges</strong> are used to fill gaps left by missing teeth, consisting of artificial teeth anchored to adjacent natural teeth or implants for a seamless, secure fit.
+
+            </p>
+            <p>
+              Both crowns and bridges improve chewing ability, speech, and overall dental health while providing a natural, confident smile
+            </p>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">
+          Restore Strength, Function, and Your Smile</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/crowns/1.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+                The affected tooth (for a crown) or surrounding teeth (for a bridge) are prepared by removing any decay and reshaping them. Precise impressions are taken to create a custom-fit restoration.
+
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/crowns/2.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+                A temporary crown or bridge may be placed to protect the teeth while the permanent restoration is being fabricated in a dental lab for a perfect fit and natural appearance.
+
+
+              </p>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/crowns/3.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <p>
+                Once ready, the custom crown or bridge is securely bonded to the tooth or supporting teeth. Adjustments are made for comfort, ensuring a strong, functional, and aesthetically pleasing smile.
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <script>
@@ -397,7 +495,7 @@
   </main>
 
   <?php include('./footer.php'); ?>
-   
+
 
 </body>
 

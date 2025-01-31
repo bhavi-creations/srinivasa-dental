@@ -39,20 +39,23 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- 
+  <!-- Google tag (gtag.js) -->
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
 
- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-10932795730');
-</script>
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 
@@ -152,7 +155,7 @@
 
 
 
-    <section class="sectionForm">
+    <!-- <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-7 dr_content_padding  ">
@@ -191,12 +194,7 @@
                     alt="Dental Image 2" loading="lazy">
                 </div>
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+             
             </div>
 
             <script>
@@ -225,7 +223,91 @@
 
         </div>
       </div>
+    </section> -->
+
+
+    <section class="whitning_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+
+        <div class="service_slider_content_div">
+          <p class=" teeth_slider_name">Teethwhitning</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
+
+      </div>
     </section>
+
+
+
+    <section class="service_section">
+      <div class="container">
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> Teethwhitning Treatment</p>
+            <p>
+              Teeth whitening is a cosmetic dental procedure that removes stains and discoloration, giving your teeth a brighter, more radiant appearance. It is ideal for addressing stains caused by coffee, tea, smoking, or aging.
+              <br>
+              There are two common methods:
+            </p>
+            <P><strong>1. In-Office Whitening:</strong> Performed by a dentist using professional-grade bleaching agents for quick and noticeable results.</P>
+            <P><strong>2. At-Home Whitening Kits: </strong> Custom trays or over-the-counter products for gradual whitening.</P>
+            <!-- <P><strong>. Lingual Braces:</strong> Placed behind the teeth, making them nearly invisible</P>
+            <P><strong>. Clear Aligners:</strong> Removable, transparent trays that straighten teeth without wires.</P> -->
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">
+          Brighten Your Smile with Professional Teeth Whitening</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/teeth-whitning/teethwhitning-1.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+              The dentist examines your teeth and gums to determine if teeth whitening is suitable for you. They identify the cause of discoloration and recommend the best whitening method.            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <!-- <img src="./assets/img/services/dentalbraces/dentalbraces.png" alt="" class="img-fluid"> -->
+               <img src="./assets/img/services/teeth-whitning/teethwhitnng-2.png" alt="">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+              For in-office whitening, a professional-grade whitening gel is applied to your teeth, often activated with a special light for faster results. For at-home kits, custom-fitted trays with whitening gel are provided for daily use over a prescribed period.
+
+</div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/teeth-whitning/teethwhitning-3.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <p>
+              After achieving the desired results, the dentist provides guidelines for maintaining your bright smile, including avoiding stain-causing foods, using whitening toothpaste, and scheduling regular check-ups.
+
+
+
+
+
+
+
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
 
     <script>
       function toggleReadMore() {
@@ -392,10 +474,10 @@
 
 
   </main>
-  
 
-  <?php include ('./footer.php'); ?>
-  
+
+  <?php include('./footer.php'); ?>
+
 
 </body>
 

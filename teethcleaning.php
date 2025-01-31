@@ -262,7 +262,7 @@
      
           <p class="root_treatment"> Teethcleaning Treatment</p>
           <p>
-          Teeth cleaning is a professional dental procedure that removes plaque, tartar, and stains from your teeth, helping to maintain oral health. It prevents cavities, gum disease, and bad breath by thoroughly cleaning areas that are hard to reach with regular brushing. During the process, a dentist or hygienist uses specialized tools to scrape off buildup and polish the teeth. It is recommended to have teeth cleaning every 6 months for optimal oral hygiene. Regular cleanings not only protect your teeth but also support overall health by reducing the risk of infections.          </p>
+          Teeth cleaning is a professional dental procedure that removes plaque, tartar, and stains from your teeth, helping to maintain oral health. It prevents cavities, gum disease, and bad breath by thoroughly cleaning areas that are hard to reach with regular brushing. During the process, a dentist or hygienist uses specialized tools to scrape off buildup and polish the teeth. It is recommended to have teeth cleaning every 6 months for optimal oral hygiene.   </p>
         </div>
         </div>
       </div>

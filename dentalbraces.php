@@ -39,45 +39,44 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- 
-<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- 
+  <!-- Google tag (gtag.js) -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
-  gtag('config', 'AW-10932795730');
-</script>
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 </head>
 
 
 <body>
-    <div class="social-icons text-center">
-        <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-            <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""
-        /></a>
-        <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-            <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""
-        /></a>
-        <a
-            href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-            <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt=""
-        /></a>
-        <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-            <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""
-        /></a>
-    </div>
+  <div class="social-icons text-center">
+    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
+      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
+    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
+      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
+    <a
+      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
+      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
+    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
+      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
+  </div>
 
 
 
-  <header id="header1" class="main_images onlypad">
+ <header id="header1" class="main_images onlypad">
     <div class="container d-flex align-items-center">
       <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
         <a href="index.php">
@@ -156,7 +155,7 @@
 
 
 
-    <section class="sectionForm">
+    <!-- <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-7 dr_content_padding   ">
@@ -194,12 +193,7 @@
                 
 
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+             
             </div>
 
             <script>
@@ -208,8 +202,8 @@
                   loop: true,
                   effect: 'fade',
                   autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
+                    delay: 2000, 
+                    disableOnInteraction: false,
                   },
                   pagination: {
                     el: '.swiper-pagination',
@@ -228,8 +222,76 @@
 
         </div>
       </div>
+    </section> -->
+
+    <section class="braces_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+
+        <div class="service_slider_content_div">
+          <p class=" teeth_slider_name">Dental Braces</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
+
+      </div>
     </section>
-    
+
+
+
+    <section class="service_section">
+      <div class="container">
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> Dentalbraces Treatment</p>
+            <p>
+              Dental braces are orthodontic devices used to correct misaligned teeth and jaws, improving oral health and aesthetics. They apply continuous pressure to gradually shift teeth into their ideal positions over time. Braces come in various types, including:
+            </p>
+            <P><strong>. Metal Braces:</strong> Traditional braces with metal brackets and wires.</P>
+            <P><strong>. Ceramic Braces: </strong> Tooth-colored brackets for a more discreet look.</P>
+            <P><strong>. Lingual Braces:</strong> Placed behind the teeth, making them nearly invisible</P>
+            <P><strong>. Clear Aligners:</strong> Removable, transparent trays that straighten teeth without wires.</P>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">Achieve a Perfect Smile with Dental Braces</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/dentalbraces/jaws.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+                The orthodontist conducts a thorough examination of your teeth, jaws, and bite using X-rays, photographs, and dental impressions. Based on the evaluation, a personalized treatment plan is created. </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/dentalbraces/dentalbraces.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+                The braces are fitted onto your teeth, and adjustments are made periodically to ensure gradual movement of the teeth into their correct positions. For clear aligners, a series of trays are provided to wear in sequence. </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/dentalbraces/retending.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <p>
+                Once the desired alignment is achieved, the braces are removed. A retainer is provided to maintain the new position of your teeth and prevent shifting </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
@@ -239,7 +301,7 @@
       <div class="container">
         <div class="section-title text-center">
 
-          <h2 class="apporach">Watch the Journey of a Perfect Smile  </h2>
+          <h2 class="apporach">Watch the Journey of a Perfect Smile </h2>
 
 
           <p class="svg_apporach_service"> <svg xmlns="http://www.w3.org/2000/svg" width="266" height="10"
@@ -249,7 +311,7 @@
                 fill="#25B4F8" />
             </svg>
           </p>
-          <h2 class="apporach">with Our Dental Braces Treatment   </h2>
+          <h2 class="apporach">with Our Dental Braces Treatment </h2>
 
 
 
@@ -265,7 +327,8 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -279,7 +342,8 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  </div>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
                 <!-- <div class="tile ">
@@ -300,7 +364,8 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  </div>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
                 <!-- <div class="tile ">
@@ -329,8 +394,8 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                      </div>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
                 <!-- <div class="tile ">
@@ -399,8 +464,8 @@
     </script>
 
   </main>
-  <?php include ('./footer.php'); ?>
-   
+  <?php include('./footer.php'); ?>
+
 
 </body>
 

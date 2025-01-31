@@ -39,18 +39,21 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'AW-10932795730');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+    gtag('config', 'AW-10932795730');
+  </script>
+
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 </head>
@@ -149,7 +152,7 @@
   <main id="main">
 
 
-
+    <!-- 
     <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
@@ -190,12 +193,7 @@
                     alt="Dental Image 2" loading="lazy">
                 </div>
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+             
             </div>
 
             <script>
@@ -224,7 +222,99 @@
 
         </div>
       </div>
+    </section> -->
+
+
+
+
+    <section class="extraction_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+
+        <div class="service_slider_content_div">
+          <p class=" teeth_slider_name">Tooth extraction</p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
+
+      </div>
     </section>
+
+
+
+    <section class="service_section">
+      <div class="container">
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> Tooth extraction Treatment</p>
+            <p>
+              Tooth extraction is a common dental procedure performed to remove a tooth that is damaged, decayed, or causing complications such as crowding or infection. While preserving natural teeth is always a priority, extraction becomes necessary when a tooth cannot be saved or poses a risk to your oral health.
+
+
+            </p>
+            <p>
+              The procedure is performed under local anesthesia to ensure a pain-free experience. After removal, your dentist will provide aftercare instructions to promote healing and prevent discomfort. Tooth extractions are often the first step toward restoring a healthy, functional smile through replacement options like implants or bridges.
+
+
+
+            </p>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">
+        Safe and Precise Tooth Removal</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/teeth-extraction/1.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+                Your dentist examines the tooth and surrounding area using X-rays to assess its condition. Local anesthesia is applied to numb the area, ensuring a comfortable and pain-free procedure.
+
+              </p>
+
+            </div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/teeth-extraction/2.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+                The dentist carefully loosens the tooth using specialized tools and removes it. For impacted teeth or surgical extractions, a small incision may be made to access the tooth.
+
+              </p>
+            </div>
+
+
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+          <div class="card">
+            <img src="./assets/img/services/teeth-extraction/3.png" alt="" class="img-fluid">
+            <h4 class="canal_step">Step3</h4>
+            <p>
+              After the extraction, the area is cleaned, and gauze is placed to control bleeding. Your dentist will provide aftercare instructions, including tips for managing pain, swelling, and promoting healing.
+
+            </p>
+          </div>
+        </div>
+        </div>
+      
+      </div>
+ 
+    </section>
+
+
+
+
+
 
     <script>
       function toggleReadMore() {
@@ -240,6 +330,15 @@
         }
       }
     </script>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -352,7 +451,7 @@
                     </div>
                   </div>
                 </div>
-                 <!--  <div class="tile  ">
+                <!--  <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -395,14 +494,14 @@
 
 
   </main>
-  <?php include ('./footer.php'); ?>
-  
+  <?php include('./footer.php'); ?>
+
 
   <script>
-  gtag('event', 'conversion', {
-    'send_to': 'AW-10932795730/UbfvCITsyZcYENLylN0o'
-  });
-</script>
+    gtag('event', 'conversion', {
+      'send_to': 'AW-10932795730/UbfvCITsyZcYENLylN0o'
+    });
+  </script>
 
 </body>
 

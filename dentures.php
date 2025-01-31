@@ -154,7 +154,9 @@
 
 
 
-    <section class="sectionForm">
+
+
+    <!-- <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-7 dr_content_padding  order-1 order-md-1">
@@ -192,12 +194,7 @@
                     alt="Dental Image 2" loading="lazy">
                 </div>
               </div>
-              <!-- Add Pagination -->
-              <!-- <div class="swiper-pagination"></div> -->
-
-              <!-- Add Navigation -->
-              <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+              
             </div>
 
             <script>
@@ -206,8 +203,8 @@
                   loop: true,
                   effect: 'fade',
                   autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
+                    delay: 2000, 
+                    disableOnInteraction: false, 
                   },
                   pagination: {
                     el: '.swiper-pagination',
@@ -226,7 +223,96 @@
 
         </div>
       </div>
+    </section> -->
+
+
+    <section class="dentures_service_bg_img  service_slider_image_styles">
+      <div class="container slider_service_content">
+
+        <div class="service_slider_content_div">
+          <p class=" teeth_slider_name">Dentures </p>
+          <a href="contact.php">
+            <button class="read_more__slider">Contact Us</button>
+          </a>
+        </div>
+
+      </div>
     </section>
+
+
+
+    <section class="service_section">
+      <div class="container">
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> Dentures Treatment</p>
+            <p>
+            Dentures are removable dental appliances designed to replace missing teeth and restore functionality, appearance, and confidence. They come in two main types:            </p>
+
+            <p><strong> 1. Complete Dentures: </strong> Used when all teeth are missing, designed to fit snugly on the gums.
+           </p>
+           <p><strong>2. Partial Dentures:</strong>  Replace a few missing teeth and are attached to the remaining natural teeth for support.</p>
+           <p>Modern dentures are made from durable materials like acrylic or metal, providing a natural look and comfortable fit. They help improve chewing, speech, and facial structure. Regular cleaning and proper maintenance are essential to ensure their longevity and hygiene.</p> 
+           <!-- <P><strong>. Metal Braces:</strong> Traditional braces with metal brackets and wires.</P>
+            <P><strong>. Ceramic Braces: </strong> Tooth-colored brackets for a more discreet look.</P>
+            <P><strong>. Lingual Braces:</strong> Placed behind the teeth, making them nearly invisible</P>
+            <P><strong>. Clear Aligners:</strong> Removable, transparent trays that straighten teeth without wires.</P> -->
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_color">
+      <div class="container">
+        <h4 class="root_step text-center mb-5">Restore Your Smile and Confidence with Dentures
+</h4>
+        <div class="row my-3">
+          <div class="col-12 col-md-4  card-wrapper ">
+            <div class="card">
+              <img src="./assets/img/services/dentures/2.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step1</h4>
+              <p>
+              The dentist evaluates your oral health through an examination and diagnostic tools like X-rays. Impressions of your gums and any remaining teeth are taken to create a custom-fit denture plan tailored to your needs.
+
+</div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <!-- <img src="./assets/img/services/dentures/1.png" alt="" class="img-fluid"> -->
+               <img src="./assets/img/services/dentures/denture-2.png" alt="">
+              <h4 class="canal_step">Step2</h4>
+              <p>
+              Based on the impressions, the dentures are crafted in a dental lab to ensure comfort and functionality. Once ready, the dentures are fitted, and adjustments are made to achieve a proper fit and natural appearance.
+</p>
+</div>
+          </div>
+          <div class="col-12 col-md-4  card-wrapper">
+            <div class="card">
+              <img src="./assets/img/services/dentures/1.png" alt="" class="img-fluid">
+              <h4 class="canal_step">Step3</h4>
+              <p>
+              After placement, follow-up visits are scheduled to make any necessary refinements. The dentist provides guidance on wearing, cleaning, and maintaining the dentures for long-lasting comfort and optimal oral health.
+
+
+
+
+    </p>
+
+
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
 
     <script>
       function toggleReadMore() {
