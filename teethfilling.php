@@ -244,7 +244,7 @@
       <div class="container slider_service_content">
        
         <div class="service_slider_content_div">
-          <p class=" service_slider_name"> Teethfilling</p>
+          <p class=" service_slider_name"> Teeth filling</p>
           <a href="contact.php">
             <button class="read_more__slider">Contact Us</button>
           </a>
@@ -261,7 +261,7 @@
         
         <div class="service_contain_text">
      
-          <p class="root_treatment"> Teethfeeling Treatment</p>
+          <p class="root_treatment"> Teeth filling Treatment</p>
           <p>
           Teeth Filling is a common dental procedure used to restore teeth damaged by decay or minor fractures. The dentist removes the decayed portion of the tooth and fills the cavity with materials like composite resin, amalgam, or porcelain. This process helps prevent further decay, restores the tooth's functionality, and maintains its natural appearance. Modern fillings are durable, tooth-colored, and blend seamlessly with your smile. Regular dental checkups ensure fillings remain intact and effective for years.          </p>
         </div>
@@ -289,7 +289,7 @@
               <h4 class="canal_step">Step2</h4>
               <!-- Decay Removal -->
               <p>
-              he decayed or damaged part of the tooth is carefully removed using specialized tools. The tooth is then cleaned to prepare for the filling material.
+              The decayed or damaged part of the tooth is carefully removed using specialized tools. The tooth is then cleaned to prepare for the filling material.
               </p>
             </div>
           </div>

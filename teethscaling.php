@@ -168,7 +168,7 @@
         <div class="container slider_service_content">
 
 <div class="service_slider_content_div">
-  <p class=" teeth_slider_name">Teethscaling</p>
+  <p class=" teeth_slider_name">Teeth Scaling</p>
   <a href="contact.php">
     <button class="read_more__slider">Contact Us</button>
   </a>
@@ -187,7 +187,7 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Teethscaling Treatment</p>
+            <p class="root_treatment"> Teeth Scaling Treatment</p>
             <p>
             Teeth scaling is a professional dental cleaning procedure that removes plaque, tartar, and stains from the surfaces of your teeth and below the gumline. Over time, these deposits can build up despite regular brushing and flossing, leading to gum disease, bad breath, and tooth decay.
 

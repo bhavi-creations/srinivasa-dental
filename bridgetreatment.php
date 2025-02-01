@@ -233,7 +233,7 @@
       <div class="container slider_service_content">
 
         <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">crowns & bridges</p>
+          <p class=" teeth_slider_name">Crowns & Bridges</p>
           <a href="contact.php">
             <button class="read_more__slider">Contact Us</button>
           </a>
@@ -250,7 +250,7 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> crowns & bridges Treatment</p>
+            <p class="root_treatment"> Crowns & Bridges Treatment</p>
             <p>
               Crowns and bridges are fixed dental restorations designed to repair damaged teeth and replace missing ones, restoring both function and aesthetics.
 
@@ -285,8 +285,7 @@
               <img src="./assets/img/services/crowns/1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-                The affected tooth (for a crown) or surrounding teeth (for a bridge) are prepared by removing any decay and reshaping them. Precise impressions are taken to create a custom-fit restoration.
-
+              Latest 3dimensional intraoral scans are used at Srinivasa dental to minimise discomfort for the patient and get the accurate fitting of crown
               </p>
             </div>
           </div>

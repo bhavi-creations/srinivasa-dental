@@ -230,7 +230,7 @@
       <div class="container slider_service_content">
 
         <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">Teethwhitning</p>
+          <p class=" teeth_slider_name">Teeth Whitening </p>
           <a href="contact.php">
             <button class="read_more__slider">Contact Us</button>
           </a>
@@ -247,7 +247,7 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Teethwhitning Treatment</p>
+            <p class="root_treatment"> Teeth Whitening  Treatment</p>
             <p>
               Teeth whitening is a cosmetic dental procedure that removes stains and discoloration, giving your teeth a brighter, more radiant appearance. It is ideal for addressing stains caused by coffee, tea, smoking, or aging.
               <br>

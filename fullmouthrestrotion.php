@@ -246,7 +246,7 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Full mouth restoration Treatment</p>
+            <p class="root_treatment"> Full Mouth rehabilitation Treatment</p>
             <p>
               Full mouth restoration is a comprehensive dental treatment designed to rebuild and restore the function, aesthetics, and health of your entire mouth. It is ideal for individuals with multiple dental issues, including missing, damaged, worn-out, or misaligned teeth.
 
@@ -270,39 +270,43 @@
     <section class="section_color">
       <div class="container">
         <h4 class="root_step text-center mb-5">
-        Rebuild, Restore, and Renew Your Smile</h4>
+          Rebuild, Restore, and Renew Your Smile</h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
               <img src="./assets/img/services/full-teeth/1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-              Your dentist performs a detailed examination, including X-rays, scans, and impressions, to assess your oral health. A customized treatment plan is created to address specific issues such as missing, damaged, or misaligned teeth.
+                Your dentist performs a detailed examination, including X-rays, scans, and impressions, to assess your oral health. A customized treatment plan is created to address specific issues such as missing, damaged, or misaligned teeth.
 
-</p>
+              </p>
 
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/full-teeth/2.png" alt="" class="img-fluid">
+            <img src="./assets/img/services/full-teeth/3.png" alt="" class="img-fluid">
+
+              <!-- <img src="./assets/img/services/full-teeth/2.png" alt="" class="img-fluid"> -->
               <h4 class="canal_step">Step2</h4>
               <p>
-              Based on the treatment plan, procedures like dental implants, crowns, bridges, veneers, or orthodontics are performed in phases to restore function, alignment, and aesthetics.
+                Based on the treatment plan, procedures like dental implants, crowns, bridges, veneers, or orthodontics are performed in phases to restore function, alignment, and aesthetics.
 
-</p>
+              </p>
 
 
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/full-teeth/3.png" alt="" class="img-fluid">
+              <!-- <img src="./assets/img/services/full-teeth/3.png" alt="" class="img-fluid"> -->
+              <img src="./assets/img/services/full-teeth/2.png" alt="" class="img-fluid">
+
               <h4 class="canal_step">Step3</h4>
               <p>
-              Once all procedures are completed, the dentist makes final adjustments for a perfect fit, comfort, and a natural look. The result is a fully restored, functional, and confident smile!
+                Once all procedures are completed, the dentist makes final adjustments for a perfect fit, comfort, and a natural look. The result is a fully restored, functional, and confident smile!
 
-</p>
+              </p>
 
             </div>
           </div>
