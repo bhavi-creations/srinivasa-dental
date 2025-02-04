@@ -1,26 +1,26 @@
 <div class="social-icons text-center">
-    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
-    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
-    <a
-      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
-    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
-  </div>
+  <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
+    <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
+  <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
+    <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
+  <a
+    href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
+    <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
+  <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
+    <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
+</div>
 
 
-  <?php 
-  $current_page = basename($_SERVER['PHP_SELF']); 
+<?php
+$current_page = basename($_SERVER['PHP_SELF']);
 ?>
 
 <header id="header1" class="main_images onlypad">
   <div class="container d-flex align-items-center">
     <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
       <a href="index.php">
-      <img src="assets/img/srinivasa/image 1.png" class="img-fluid d-lg-none d-xl-block"  alt="">
-                    <img src="assets/img/srinivasa/image 1.png" class="   d-none d-lg-block d-xl-none" style="width:200px;  height:70px"  alt="">
+        <img src="assets/img/srinivasa/image 1.png" class="img-fluid d-lg-none d-xl-block" alt="">
+        <img src="assets/img/srinivasa/image 1.png" class="   d-none d-lg-block d-xl-none" style="width:200px;  height:70px" alt="">
 
       </a>
     </div>
@@ -30,9 +30,11 @@
       <ul>
         <li><a class="nav-link <?= ($current_page == 'index.php') ? 'active' : ''; ?>" href="index.php">Home</a></li>
         <li><a class="nav-link <?= ($current_page == 'about.php') ? 'active' : ''; ?>" href="about.php">About</a></li>
+
+
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle <?= ($current_page == 'services.php') ? 'active' : ''; ?>" 
-            href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle <?= ($current_page == 'services.php') ? 'active' : ''; ?>"
+            href="services.php" id="servicesDropdown" role="button">
             Services
           </a>
           <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
@@ -58,6 +60,7 @@
             </div>
           </ul>
         </li>
+
         <li><a class="nav-link <?= ($current_page == 'gallery.php') ? 'active' : ''; ?>" href="gallery.php">Gallery</a></li>
         <li><a class="nav-link <?= ($current_page == 'blogs.php') ? 'active' : ''; ?>" href="blogs.php">Blogs</a></li>
         <li><a class="nav-link <?= ($current_page == 'testimonials.php') ? 'active' : ''; ?>" href="testimonials.php">What Patients Say</a></li>
@@ -72,3 +75,18 @@
     </a>
   </div>
 </header>
+
+
+<script>
+  $(document).ready(function() {
+    // Open dropdown on hover
+    $('.nav-item.dropdown').hover(
+      function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
+      },
+      function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
+      }
+    );
+  });
+</script>
