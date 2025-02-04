@@ -4223,3 +4223,54 @@ background-color: #94beeb;
     height: 317px !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card_img_border{
+  border-radius: 15px !important;
+}
+
+@media (max-width:768px) {
+  
+  
+  .service_img_cad_text{
+    margin-top: -77px;
+  }
+}
+
+
+@media (min-width:768px) and (max-width:1200px) {
+  
+  
+  .service_img_cad_text{
+    margin-top: -150px;
+    margin-bottom: 50px;
+
+  }
+}
+
+
+
+@media (min-width:1200px) {
+  
+  
+  .service_img_cad_text{
+    margin-top: -200px;
+    margin-bottom: 100px;
+  }
+}
+
+
+ 

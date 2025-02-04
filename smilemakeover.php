@@ -62,92 +62,7 @@
 
 
 <body>
-  <div class="social-icons text-center">
-    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
-    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
-    <a
-      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
-    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
-  </div>
-
-
-
-  <header id="header1" class="main_images onlypad">
-    <div class="container d-flex align-items-center">
-      <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-        <a href="index.php">
-          <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
-        </a>
-      </div>
-
-      <nav id="navbar" class="navbar order-lg-0">
-        <i class="bi bi-list mobile-nav-toggle"></i>
-        <ul>
-
-          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.php">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
-              <div class="row  ">
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
-                  <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
-                  <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth whitening</a></li>
-                  <li><a class="dropdown-item services_drop active_service" href="smilemakeover.php">Smile Makeover</a></li>
-                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
-                </div>
-              </div>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-          <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-          <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
-              Appointment
-            </a></li>
-        </ul>
-      </nav>
-
-      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
-        For Appointment
-      </a>
-    </div>
-
-
-    <script>
-      // jQuery needed to manage hover and click behavior
-      $(document).ready(function() {
-        // Ensure that the dropdown opens on hover
-        $('#servicesDropdown').hover(function() {
-          $(this).dropdown('toggle');
-        });
-
-        // Make sure the dropdown also works on click
-        $('#servicesDropdown').click(function(e) {
-          e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-          window.location.href = $(this).attr('href'); // Redirect to the link
-        });
-      });
-    </script>
-  </header>
+<?php include 'navbar.php'; ?>
 
 
 
@@ -268,7 +183,7 @@
     <section class="section_color">
       <div class="container">
         <h4 class="root_step text-center mb-5">
-        Transform Your Smile, Transform Your Life</h4>
+          Transform Your Smile, Transform Your Life</h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">

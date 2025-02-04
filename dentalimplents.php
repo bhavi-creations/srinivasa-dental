@@ -39,111 +39,30 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- 
+  <!-- Google tag (gtag.js) -->
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-10932795730');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 </head>
 
 
 <body>
-  <div class="social-icons text-center">
-    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
-    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
-    <a
-      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
-    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
-  </div>
+<?php include 'navbar.php'; ?>
 
-
-
-  <header id="header1" class="main_images onlypad">
-    <div class="container d-flex align-items-center">
-      <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-        <a href="index.php">
-          <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
-        </a>
-      </div>
-
-      <nav id="navbar" class="navbar order-lg-0">
-        <i class="bi bi-list mobile-nav-toggle"></i>
-        <ul>
-
-          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.php">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
-              <div class="row  ">
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop active_service" href="dentalimplents.php">Dental Implants</a></li>
-                  <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
-                  <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth whitening</a></li>
-                  <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
-                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
-                </div>
-              </div>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-          <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-          <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
-              Appointment
-            </a></li>
-        </ul>
-      </nav>
-
-      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
-        For Appointment
-      </a>
-    </div>
-
-
-    <script>
-      // jQuery needed to manage hover and click behavior
-      $(document).ready(function() {
-        // Ensure that the dropdown opens on hover
-        $('#servicesDropdown').hover(function() {
-          $(this).dropdown('toggle');
-        });
-
-        // Make sure the dropdown also works on click
-        $('#servicesDropdown').click(function(e) {
-          e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-          window.location.href = $(this).attr('href'); // Redirect to the link
-        });
-      });
-    </script>
-  </header>
 
 
 
@@ -151,7 +70,7 @@
 
 
 
-  <section class="dentalimplents_service_bg_img  service_slider_image_styles">
+    <section class="dentalimplents_service_bg_img  service_slider_image_styles">
       <div class="container slider_service_content">
 
         <div class="service_slider_content_div">
@@ -174,9 +93,9 @@
 
             <p class="root_treatment"> Dental implents Treatment</p>
             <p>
-            Dental implants are a modern and effective way to replace missing teeth, offering a permanent and natural-looking solution. An implant consists of a titanium post surgically placed into the jawbone, acting as an artificial tooth root. Once healed, a custom-made crown is attached to the implant, restoring the appearance and function of your natural teeth.            </p>
+              Dental implants are a modern and effective way to replace missing teeth, offering a permanent and natural-looking solution. An implant consists of a titanium post surgically placed into the jawbone, acting as an artificial tooth root. Once healed, a custom-made crown is attached to the implant, restoring the appearance and function of your natural teeth. </p>
             <p>
-            Unlike traditional dentures or bridges, dental implants are durable, stable, and designed to last a lifetime with proper care. They prevent bone loss, maintain facial structure, and provide a confident, comfortable smile. Whether you're missing one tooth or several, dental implants are the gold standard for restoring oral health and aesthetics.
+              Unlike traditional dentures or bridges, dental implants are durable, stable, and designed to last a lifetime with proper care. They prevent bone loss, maintain facial structure, and provide a confident, comfortable smile. Whether you're missing one tooth or several, dental implants are the gold standard for restoring oral health and aesthetics.
             </p>
 
           </div>
@@ -187,34 +106,34 @@
     <section class="section_color">
       <div class="container">
         <h4 class="root_step text-center mb-5">Advanced Dental Implants for a Healthy and Beautiful Smile
-</h4>
+        </h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
               <img src="./assets/img/services/dental-implents/placement.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-              The first step involves surgically placing a titanium implant into the jawbone. This acts as an artificial tooth root and provides a stable foundation for the replacement tooth. The area is numbed to ensure comfort during the procedure.
+                The first step involves surgically placing a titanium implant into the jawbone. This acts as an artificial tooth root and provides a stable foundation for the replacement tooth. The area is numbed to ensure comfort during the procedure.
 
-</div>
+            </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
               <img src="./assets/img/services/dental-implents/osseointegration.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step2</h4>
               <p>
-              Over the next few months, the implant fuses with the jawbone in a natural process called osseointegration. This creates a strong and durable bond, ensuring long-term stability.
+                Over the next few months, the implant fuses with the jawbone in a natural process called osseointegration. This creates a strong and durable bond, ensuring long-term stability.
 
-</div>
+            </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
               <img src="./assets/img/services/dental-implents/crown.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step3</h4>
               <p>
-              Once healing is complete, a custom-made dental crown is securely attached to the implant. This crown is designed to match the color, shape, and size of your natural teeth, restoring functionality and appearance.
+                Once healing is complete, a custom-made dental crown is securely attached to the implant. This crown is designed to match the color, shape, and size of your natural teeth, restoring functionality and appearance.
 
-</div>
+            </div>
           </div>
         </div>
       </div>
@@ -356,7 +275,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh29WN2jeo?si=Vl-HDG8qJp3o81oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh29WN2jeo?si=Vl-HDG8qJp3o81oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -378,7 +297,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh29WN2jeo?si=Vl-HDG8qJp3o81oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh29WN2jeo?si=Vl-HDG8qJp3o81oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -408,7 +327,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh29WN2jeo?si=Vl-HDG8qJp3o81oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh29WN2jeo?si=Vl-HDG8qJp3o81oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -458,8 +377,8 @@
 
 
   </main>
-  <?php include ('./footer.php'); ?>
- 
+  <?php include('./footer.php'); ?>
+
 
 </body>
 

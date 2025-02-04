@@ -39,18 +39,21 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- 
-<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
 
-  gtag('config', 'AW-10932795730');
-</script>
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 
@@ -58,99 +61,15 @@
 
 
 <body>
-  <div class="social-icons text-center">
-    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
-    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
-    <a
-      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
-    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
-  </div>
+<?php include 'navbar.php'; ?>
 
-
-
-  <header id="header1" class="main_images onlypad">
-    <div class="container d-flex align-items-center">
-      <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-        <a href="index.php">
-          <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
-        </a>
-      </div>
-
-      <nav id="navbar" class="navbar order-lg-0">
-        <i class="bi bi-list mobile-nav-toggle"></i>
-        <ul>
-
-          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.php">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
-              <div class="row  ">
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
-                  <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
-                  <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop active_service" href="teethcleaning.php">Teeth Cleaning</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth whitening</a></li>
-                  <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
-                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
-                </div>
-              </div>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-          <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-          <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
-              Appointment
-            </a></li>
-        </ul>
-      </nav>
-
-      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
-        For Appointment
-      </a>
-    </div>
-
-
-    <script>
-      // jQuery needed to manage hover and click behavior
-      $(document).ready(function() {
-        // Ensure that the dropdown opens on hover
-        $('#servicesDropdown').hover(function() {
-          $(this).dropdown('toggle');
-        });
-
-        // Make sure the dropdown also works on click
-        $('#servicesDropdown').click(function(e) {
-          e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-          window.location.href = $(this).attr('href'); // Redirect to the link
-        });
-      });
-    </script>
-  </header>
 
 
 
   <main id="main">
 
 
-<!-- 
+    <!-- 
     <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
@@ -241,14 +160,14 @@
 
     <section class="cleaning_service_bg_img  service_slider_image_styles">
       <div class="container slider_service_content">
-       
+
         <div class="service_slider_content_div">
           <p class=" teeth_slider_name">Teethcleaning</p>
           <a href="contact.php">
             <button class="read_more__slider">Contact Us</button>
           </a>
         </div>
-    
+
       </div>
     </section>
 
@@ -256,14 +175,14 @@
 
     <section class="service_section">
       <div class="container">
-      <div class="row">
-        
-        <div class="service_contain_text">
-     
-          <p class="root_treatment"> Teethcleaning Treatment</p>
-          <p>
-          Teeth cleaning is a professional dental procedure that removes plaque, tartar, and stains from your teeth, helping to maintain oral health. It prevents cavities, gum disease, and bad breath by thoroughly cleaning areas that are hard to reach with regular brushing. During the process, a dentist or hygienist uses specialized tools to scrape off buildup and polish the teeth. It is recommended to have teeth cleaning every 6 months for optimal oral hygiene.   </p>
-        </div>
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> Teethcleaning Treatment</p>
+            <p>
+              Teeth cleaning is a professional dental procedure that removes plaque, tartar, and stains from your teeth, helping to maintain oral health. It prevents cavities, gum disease, and bad breath by thoroughly cleaning areas that are hard to reach with regular brushing. During the process, a dentist or hygienist uses specialized tools to scrape off buildup and polish the teeth. It is recommended to have teeth cleaning every 6 months for optimal oral hygiene. </p>
+          </div>
         </div>
       </div>
     </section>
@@ -273,14 +192,14 @@
         <h4 class="root_step text-center mb-5">Steps for a Sparkling Clean Smile
 
 
-</h4>
+        </h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
               <img src="./assets/img/services/toothcleaning/Scaling.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-              Scaling: The dentist or hygienist uses a scaler to remove plaque and tartar from the tooth surfaces and around the gumline. This step targets buildup in hard-to-reach areas that brushing and flossing may miss.
+                Scaling: The dentist or hygienist uses a scaler to remove plaque and tartar from the tooth surfaces and around the gumline. This step targets buildup in hard-to-reach areas that brushing and flossing may miss.
               </p>
             </div>
           </div>
@@ -289,7 +208,7 @@
               <img src="./assets/img/services/toothcleaning/polishing.jpeg" alt="" class="img-fluid">
               <h4 class="canal_step">Step2</h4>
               <p>
-              Polishing: A high-powered electric brush and gritty toothpaste are used to polish the teeth, removing stains and leaving them smooth. This step helps prevent future plaque buildup by creating a slick surface.
+                Polishing: A high-powered electric brush and gritty toothpaste are used to polish the teeth, removing stains and leaving them smooth. This step helps prevent future plaque buildup by creating a slick surface.
               </p>
             </div>
           </div>
@@ -305,7 +224,7 @@
         </div>
       </div>
     </section>
-   
+
 
 
 
@@ -323,7 +242,7 @@
                 fill="#25B4F8" />
             </svg>
           </p>
-          <h2 class="apporach">  Watch Our Teeth Cleaning Procedure!</h2>
+          <h2 class="apporach"> Watch Our Teeth Cleaning Procedure!</h2>
 
 
 
@@ -339,7 +258,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -354,7 +273,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -376,7 +295,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -406,7 +325,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -455,8 +374,8 @@
 
 
   </main>
-  <?php include ('./footer.php'); ?>
- 
+  <?php include('./footer.php'); ?>
+
 
 </body>
 
