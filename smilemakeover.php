@@ -62,7 +62,7 @@
 
 
 <body>
-<?php include 'navbar.php'; ?>
+  <?php include 'navbar.php'; ?>
 
 
 
@@ -70,90 +70,19 @@
 
 
 
-    <!-- <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding  ">
-            <h5 class="poetsen_font11">A smile makeover is a comprehensive cosmetic dental treatment designed to enhance the overall appearance of your smile through a combination of procedures.
-              </h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Smile Makeover Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-                A smile makeover is a customized cosmetic treatment plan aimed at transforming the appearance of your smile to achieve a more harmonious and attractive look. It often involves a combination of procedures such as teeth whitening, veneers, bonding, and orthodontics to address issues like discoloration, misalignment, and chipped or missing teeth. Each smile makeover is tailored to individual needs and preferences, ensuring that the final result complements the patient’s facial features and personal style. The process begins with a comprehensive consultation and often includes digital imaging to visualize potential outcomes. With advancements in dental technology, smile makeovers can provide dramatic, long-lasting improvements and boost self-confidence. A smile makeover not only
-              </p>
-              <div class="showthisdiv  " style="display:none ">
-                <p class="poetsen_font1"> focuses
-                  on aesthetics but also aims to improve functional aspects of your teeth and bite, addressing both beauty and health. The treatment plan may include restorative options like crowns or implants to replace missing teeth and enhance the overall functionality of your smile. During the makeover, your dentist will work closely with you to understand your goals and use advanced techniques to achieve the best possible results. The process often involves multiple visits and may take several weeks to complete, but the outcome is a revitalized, confident smile that can significantly impact your personal and professional life. Regular maintenance and care are essential to preserve the results and ensure long-term satisfaction with your newly enhanced smile.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
-
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Smile Makeover  sub service page 1.png" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Smile Makeover  sub service page 2.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/smile make over.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-              </div>
-             
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000, 
-                    disableOnInteraction: false, 
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
-
-
-        </div>
-      </div>
-    </section> -->
 
 
 
-    <section class="makeover_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
 
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">Smilemakeover</p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div>
+    <img src="assets/img/services/smile-make-over/11.png" alt="" class="img-fluid">
 
-      </div>
-    </section>
+    <div class="container service_img_cad_text">
+      <p class=" service_slider_name">  Smilemakeover </p>
+      <a href="contact.php">
+        <button class="read_more__slider">Contact Us</button>
+      </a>
+    </div>
+
 
 
 

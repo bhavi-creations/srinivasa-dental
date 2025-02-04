@@ -60,116 +60,29 @@
 
 
 <body>
-<?php include 'navbar.php'; ?>
+  <?php include 'navbar.php'; ?>
 
 
 
   <main id="main">
 
 
-    <!-- 
-  <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding  ">
-            <h5 class="poetsen_font11">A teeth filling is a dental procedure to restore the function and integrity of a damaged tooth by filling cavities with materials like composite resin or amalgam.</h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Teeth Filling Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-                A teeth filling is a common dental procedure used to repair cavities caused by tooth decay. During the process, the dentist removes the decayed portion of the tooth, cleans the area, and then fills the cavity with a material such as composite resin, amalgam, or glass ionomer. This restoration helps restore the tooth's normal function and shape while preventing further decay. Fillings also alleviate pain and sensitivity caused by the cavity. Proper dental care and regular check-ups can extend the lifespan of a filling and ensure overall oral health.
-              </p>
-              <div class="showthisdiv  " style="display:none ">
-                <p class="poetsen_font1">Teeth fillings are essential for addressing damage and decay within a tooth, restoring its strength and functionality. The procedure begins with the removal of the decayed part of the tooth, followed by cleaning the cavity to ensure no bacteria remain. The empty space is then filled with a material designed to bond with the tooth structure, such as composite resin or amalgam. This helps prevent further decay and protects the tooth from additional damage. Regular dental visits are important for monitoring the condition of fillings and maintaining overall oral health.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
 
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
-                  <img src="assets/img/services/teeth filling 1.png" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/services/teeth filling 2.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/teeth filling 3.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-              </div>
-            
-              
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000, 
-                    disableOnInteraction: false, 
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
+ 
 
 
 
-        </div>
-      </div>
-    </section> -->
+ 
 
+        <img src="assets/img/services/teethfilling/teethfilling.png" alt="" class="img-fluid">
 
-    <script>
-      function toggleReadMore() {
-        var showThisDiv = document.querySelector('.showthisdiv');
-        var readMoreText = document.querySelector('.get_in_touch');
-
-        if (showThisDiv.style.display === "none") {
-          showThisDiv.style.display = "block";
-          readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-          showThisDiv.style.display = "none";
-          readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-        }
-      }
-    </script>
-
-
-
-
-
-    <section class="teeth_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
-
-        <div class="service_slider_content_div">
-          <p class=" service_slider_name"> Teeth filling</p>
+        <div class="container service_img_cad_text">
+          <p class=" service_slider_name">Teeth filling</p>
           <a href="contact.php">
             <button class="read_more__slider">Contact Us</button>
           </a>
         </div>
-
-      </div>
-    </section>
 
 
 
@@ -193,7 +106,7 @@
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
-              <img src="./assets/img/services/teethfilling/teeth-filling-1.jpg" alt="" class="img-fluid">
+              <img src="./assets/img/services/teethfilling/teeth-filling-1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <!-- Diagnosis and Preparation -->
               <p>

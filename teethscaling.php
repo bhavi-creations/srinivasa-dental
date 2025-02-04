@@ -71,29 +71,14 @@
   <main id="main">
 
 
-    <section class="scaling_service_bg_img  service_slider_image_styles">
-      <!-- <div class="container slider_service_content">
+  <img src="assets/img/services/Teethscaling/11111111111111.png" alt="" class="img-fluid">
 
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name_mouth">Teethscaling</p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div> -->
-
-      <div class="container slider_service_content">
-
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">Teeth Scaling</p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div>
-
-      </div>
-
-      </div>
-    </section>
+<div class="container service_img_cad_text">
+  <p class=" service_slider_name">Teeth Scaling  </p>
+  <a href="contact.php">
+    <button class="read_more__slider">Contact Us</button>
+  </a>
+</div>
 
 
 

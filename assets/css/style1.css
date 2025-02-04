@@ -385,62 +385,7 @@ p.get_in_touch.read_hide.readerr {
 
 
 
-
-
-
-
-
-
-
-
-
-.root_service_bg_img {
-  background-image: url("../img/services/rootcanal-1.png");
-
-}
-
-.teeth_service_bg_img {
-  background-image: url("../img/services/teethfilling/teethfilling.png");
-
-}
-
-.cleaning_service_bg_img {
-  background-image: url("../img/services/toothcleaning/1.png");
-
-}
-
-.braces_service_bg_img {
-  background-image: url("../img/services/dentalbraces/1.png");
-}
-
-.dentures_service_bg_img {
-  background-image: url("../img/services/dentures/dentures.png");
-}
-.dentalimplents_service_bg_img {
-  background-image: url("../img/services/dental-implents/dentalimplents.png");
-}
-
- .scaling_service_bg_img{
-  background-image: url("../img/services/Teethscaling/11111111111111.png");
- }
- .makeover_service_bg_img{
- background-image: url("../img/services/smile-make-over/smile-makeover.png");
- }
- .mouth_service_bg_img{
-  background-image: url("../img/services/full-teeth/fullteethmouth1.png");
- }
-.whitning_service_bg_img{
-  background-image: url("../img/services/teeth-whitning/full-teeth.png");
-}
-.extraction_service_bg_img{
-  background-image: url("../img/services/teeth-extraction/tooth-extraction1.png");
-}
-.bridge_service_bg_img{
-  background-image: url("../img/services/teeth-extraction/tooth-extraction1.png");
-}
-.crowns_service_bg_img{
-  background-image: url("../img/services/crowns/crowns-bridge1.png");
-}
+ 
 
 .service_slider_image_styles {
   background-size: contain;

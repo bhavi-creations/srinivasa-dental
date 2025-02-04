@@ -68,92 +68,16 @@
 
   <main id="main">
 
+  
 
+    <img src="assets/img/services/dentures/dentures.png" alt="" class="img-fluid">
 
-
-
-    <!-- <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-            <h5 class="poetsen_font11">
-              Dentures are removable prosthetic devices designed to replace missing teeth and restore function and appearance to the mouth.</h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dentures Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-                Dentures are custom-made, removable prosthetic devices used to replace missing teeth and restore the ability to chew and speak effectively. They come in two main types: complete dentures, which replace all the teeth in either the upper or lower jaw, and partial dentures, which fill gaps left by missing teeth while preserving the remaining natural teeth. Made from materials such as acrylic resin, porcelain, or metal, dentures are designed to mimic the appearance of natural teeth and gums. The fitting process involves creating impressions of the mouth and may require several adjustments to ensure a comfortable and secure fit. Regular maintenance and proper care are essential to keep dentures in good condition and ensure optimal oral health.
-              </p>
-              <div class="showthisdiv  " style="display:none ">
-                <p class="poetsen_font1"> Dentures offer a practical solution for individuals who have lost teeth due to various reasons, such as decay, injury, or age-related wear. They help restore facial structure and improve the overall aesthetic of a person’s smile, boosting self-confidence. Modern dentures are designed with advanced techniques to enhance comfort and functionality, often featuring a more natural-looking appearance and improved fit. Regular dental visits are important to check the condition of dentures and make necessary adjustments, as changes in the mouth can affect their fit over time. Additionally, proper cleaning and handling are crucial to avoid issues such as bad breath, staining, and infections.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
-
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Dentures sub service page 1.png" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Dentures sub service page 2.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Dentures sub service page 3.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-              </div>
-              
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000, 
-                    disableOnInteraction: false, 
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
-
-
-        </div>
-      </div>
-    </section> -->
-
-
-    <section class="dentures_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
-
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">Dentures </p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div>
-
-      </div>
-    </section>
+    <div class="container service_img_cad_text">
+      <p class=" service_slider_name">Dentures  </p>
+      <a href="contact.php">
+        <button class="read_more__slider">Contact Us</button>
+      </a>
+    </div>
 
 
 

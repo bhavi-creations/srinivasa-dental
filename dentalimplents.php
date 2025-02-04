@@ -61,7 +61,7 @@
 
 
 <body>
-<?php include 'navbar.php'; ?>
+  <?php include 'navbar.php'; ?>
 
 
 
@@ -70,18 +70,16 @@
 
 
 
-    <section class="dentalimplents_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
+  
 
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name1">Dental implents</p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div>
+    <img src="assets/img/services/dentalbraces/1.png" alt="" class="img-fluid">
 
-      </div>
-    </section>
+    <div class="container service_img_cad_text">
+      <p class=" service_slider_name">Dental implents</p>
+      <a href="contact.php">
+        <button class="read_more__slider">Contact Us</button>
+      </a>
+    </div>
 
 
 

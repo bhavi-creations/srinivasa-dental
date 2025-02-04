@@ -61,7 +61,7 @@
 
 
 <body>
-<?php include 'navbar.php'; ?>
+  <?php include 'navbar.php'; ?>
 
 
 
@@ -69,108 +69,20 @@
   <main id="main">
 
 
-    <!-- 
-    <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding  ">
-            <h5 class="poetsen_font11">Dental cleaning is a professional procedure to remove plaque, tartar, and stains from teeth, promoting oral health and preventing gum disease.
-              </h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Cleaning Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-
-                Dental cleaning is a crucial preventive measure that helps maintain oral health by removing plaque and tartar buildup that regular brushing and flossing can't eliminate. During the procedure, a dental hygienist or dentist uses specialized tools to clean the teeth, including the areas between the teeth and along the gumline. This process not only prevents cavities and gum disease but also helps detect early signs of oral health issues. Dental cleanings are typically recommended every six months to keep your mouth healthy and your smile bright. Regular cleanings also contribute to fresher breath and a more polished appearance of your teeth. In addition to
-              </p>
-              <div class="showthisdiv " style="display:none ">
-                <p class="poetsen_font1">maintaining oral health, regular dental cleanings can also have broader health benefits, as gum disease has been linked to other systemic conditions like heart disease and diabetes. The procedure can include fluoride treatments or sealants to further protect teeth, especially for children or individuals prone to cavities. Dental cleanings are usually painless, but for those with sensitive teeth or gums, a topical anesthetic can be applied to ensure comfort. The removal of surface stains during cleaning also helps enhance the natural whiteness of teeth, contributing to a more confident smile. Overall, consistent dental cleanings are a key component of a comprehensive oral care routine.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
-
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Teeth cleaning sub service page 1.png" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Teeth cleaning sub service page 2.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Teeth cleaning sub service page 3.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-              </div>
-              
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000, 
-                    disableOnInteraction: false,
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
-
-
-        </div>
-      </div>
-    </section>
-
-
-    <script>
-      function toggleReadMore() {
-        var showThisDiv = document.querySelector('.showthisdiv');
-        var readMoreText = document.querySelector('.get_in_touch');
-
-        if (showThisDiv.style.display === "none") {
-          showThisDiv.style.display = "block";
-          readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-          showThisDiv.style.display = "none";
-          readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-        }
-      }
-    </script> -->
 
 
 
-    <section class="cleaning_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
 
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">Teethcleaning</p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div>
 
-      </div>
-    </section>
 
+    <img src="assets/img/services/clear_aligner/11.png" alt="" class="img-fluid">
+
+    <div class="container service_img_cad_text">
+      <p class=" service_slider_name">Clear aligners </p>
+      <a href="contact.php">
+        <button class="read_more__slider">Contact Us</button>
+      </a>
+    </div>
 
 
     <section class="service_section">
@@ -179,9 +91,9 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Teethcleaning Treatment</p>
+            <p class="root_treatment"> Clear aligners Treatment</p>
             <p>
-              Teeth cleaning is a professional dental procedure that removes plaque, tartar, and stains from your teeth, helping to maintain oral health. It prevents cavities, gum disease, and bad breath by thoroughly cleaning areas that are hard to reach with regular brushing. During the process, a dentist or hygienist uses specialized tools to scrape off buildup and polish the teeth. It is recommended to have teeth cleaning every 6 months for optimal oral hygiene. </p>
+              Clear aligners are a modern orthodontic solution designed to straighten teeth discreetly and comfortably. These custom-made, transparent trays gradually shift teeth into the desired position without the need for traditional braces. They are removable, making it easier to eat, brush, and floss without restrictions. Clear aligners help correct misalignment, gaps, and bite issues while providing a nearly invisible treatment option. For the best results, they should be worn for 20-22 hours a day and changed every few weeks as directed by your dentist or orthodontist. </p>
           </div>
         </div>
       </div>
@@ -196,28 +108,32 @@
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
-              <img src="./assets/img/services/toothcleaning/Scaling.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/clear_aligner/1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-                Scaling: The dentist or hygienist uses a scaler to remove plaque and tartar from the tooth surfaces and around the gumline. This step targets buildup in hard-to-reach areas that brushing and flossing may miss.
+                Consultation & Digital Scanning : The treatment begins with a consultation where the dentist assesses your teeth and takes digital scans or impressions. These scans help create a customized treatment plan, mapping out the gradual movement of your teeth with clear aligners.
               </p>
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/toothcleaning/polishing.jpeg" alt="" class="img-fluid">
+            <img src="./assets/img/services/clear_aligner/2.png" alt="" class="img-fluid">
+
               <h4 class="canal_step">Step2</h4>
               <p>
-                Polishing: A high-powered electric brush and gritty toothpaste are used to polish the teeth, removing stains and leaving them smooth. This step helps prevent future plaque buildup by creating a slick surface.
+                Wearing Aligners & Adjustments :
+                Custom-made aligners are provided, which must be worn for 20-22 hours daily. Every few weeks, you switch to a new set of aligners, gradually shifting your teeth into alignment. Regular check-ups ensure progress and adjustments if needed.
               </p>
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/toothcleaning/Fluoride-Treatment.png" alt="" class="img-fluid">
+            <img src="./assets/img/services/clear_aligner/3.png" alt="" class="img-fluid">
+
               <h4 class="canal_step">Step3</h4>
               <p>
-                Fluoride Treatment: A fluoride gel or varnish is applied to the teeth to strengthen enamel and protect against cavities. This final step provides long-lasting protection until your next cleaning.
+                Retainers for Long-Term Results :
+                Once the treatment is complete, retainers are recommended to maintain the new alignment. These retainers prevent teeth from shifting back, ensuring long-lasting results and a perfectly straight smile.
               </p>
             </div>
           </div>

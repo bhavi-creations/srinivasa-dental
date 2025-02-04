@@ -42,7 +42,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
               <div class="col-md-4">
                 <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
                 <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                <li><a class="dropdown-item services_drop" href="dentalimplants.php">Dental Implants</a></li>
+                <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
                 <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
               </div>
               <div class="col-md-4">
@@ -52,10 +52,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
               </div>
               <div class="col-md-4">
-                <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
-                <li><a class="dropdown-item services_drop" href="teethwhitening.php">Teeth Whitening</a></li>
+                <li><a class="dropdown-item services_drop" href="clearaligners.php"> Clear Aligners</a></li>
+                <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth Whitening</a></li>
                 <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
-                <li><a class="dropdown-item services_drop" href="fullmouthrestoration.php">Full Mouth Restoration</a></li>
+                <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
               </div>
             </div>
           </ul>

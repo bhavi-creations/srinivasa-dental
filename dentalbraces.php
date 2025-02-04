@@ -71,87 +71,18 @@
 
 
 
-    <!-- <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding   ">
-            <h5 class="poetsen_font11">Dental braces are orthodontic devices used to align and straighten teeth, improving dental health and appearance.</h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Braces Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-                Dental braces are orthodontic devices designed to correct misaligned teeth and bite issues, offering both aesthetic and functional benefits. They work by applying continuous pressure over time, gradually moving teeth into the desired position. Braces are commonly made of metal, ceramic, or plastic, and include components such as brackets, wires, and bands. Treatment duration varies depending on the complexity of the case, but most people wear braces for one to three years. Proper care and regular adjustments by an orthodontist are essential for achieving optimal results.
-
-              </p>
-
-              <div class="showthisdiv  " style="display:none ">
-                <p class="poetsen_font1">In addition to traditional metal braces, newer options like clear aligners offer a more discreet way to straighten teeth, making orthodontic treatment more appealing to adults and teens. Dental braces not only improve the alignment of teeth but also enhance oral health by making it easier to clean teeth and prevent issues like cavities and gum disease. While the process can sometimes cause discomfort, especially after adjustments, this is typically temporary and manageable. Wearing a retainer after braces are removed is crucial to maintain the results and prevent teeth from shifting back. Overall, dental braces provide a long-term solution for achieving a healthier, more confident smile.</p>
-              </div>
+ 
+ 
 
 
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
+    <img src="assets/img/services/dentalbraces/1.png" alt="" class="img-fluid">
 
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/dental braces (1).png" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/services/dental braces (2).png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-                
-
-              </div>
-             
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000, 
-                    disableOnInteraction: false,
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
-
-
-        </div>
-      </div>
-    </section> -->
-
-    <section class="braces_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
-
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">Dental Braces</p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div>
-
-      </div>
-    </section>
+    <div class="container service_img_cad_text">
+      <p class=" service_slider_name">Dental Braces</p>
+      <a href="contact.php">
+        <button class="read_more__slider">Contact Us</button>
+      </a>
+    </div>
 
 
 
