@@ -253,7 +253,7 @@
 
         <div class="  col-md-6 col-12">
           <div class="footer-widget__copyright-info info-direction">
-            <p class="  last_text">
+            <p class=" last_text">
               <a
                 href="terms.php"
                 style="text-decoration: none; color: #ffffff">Terms & conditions
