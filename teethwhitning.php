@@ -62,92 +62,8 @@
 </head>
 
 <body>
-  <div class="social-icons text-center">
-    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
-    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
-    <a
-      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
-    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
-  </div>
+  <?php include 'navbar.php'; ?>
 
-
-
-  <header id="header1" class="main_images onlypad">
-    <div class="container d-flex align-items-center">
-      <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-        <a href="index.php">
-          <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
-        </a>
-      </div>
-
-      <nav id="navbar" class="navbar order-lg-0">
-        <i class="bi bi-list mobile-nav-toggle"></i>
-        <ul>
-
-          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.php">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
-              <div class="row  ">
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
-                  <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
-                  <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
-                  <li><a class="dropdown-item services_drop active_service" href="teethwhitning.php">Teeth whitening</a></li>
-                  <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
-                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
-                </div>
-              </div>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-          <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-          <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
-              Appointment
-            </a></li>
-        </ul>
-      </nav>
-
-      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
-        For Appointment
-      </a>
-    </div>
-
-
-    <script>
-      // jQuery needed to manage hover and click behavior
-      $(document).ready(function() {
-        // Ensure that the dropdown opens on hover
-        $('#servicesDropdown').hover(function() {
-          $(this).dropdown('toggle');
-        });
-
-        // Make sure the dropdown also works on click
-        $('#servicesDropdown').click(function(e) {
-          e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-          window.location.href = $(this).attr('href'); // Redirect to the link
-        });
-      });
-    </script>
-  </header>
 
 
 
@@ -155,89 +71,17 @@
 
 
 
-    <!-- <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding  ">
-            <h5 class="poetsen_font11">Teeth whitening is a cosmetic procedure that lightens the color of teeth to enhance their brightness and improve your smile's appearance.
-              </h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Teeth whitening Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-                Teeth whitening is a popular cosmetic dental procedure designed to remove stains and discoloration, giving your smile a brighter, more youthful appearance. It can be done professionally in a dentist's office or at home using over-the-counter products like whitening strips or trays. The treatment works by breaking down stains on the enamel, often using bleaching agents like hydrogen peroxide. While effective, it's important to note that results can vary depending on the cause of discoloration and the method used. Regular maintenance and avoiding stain-causing foods and beverages are key to keeping your teeth white after the procedure. In
-
-              </p>
-              <div class="showthisdiv " style="display:none ">
-                <p class="poetsen_font1">to its cosmetic benefits, teeth whitening can boost self-confidence by enhancing the overall appearance of your smile. Professional whitening treatments typically offer more dramatic and longer-lasting results compared to over-the-counter options, with some procedures able to lighten teeth by several shades in just one session. However, it’s important to consult with a dentist before whitening to ensure the treatment is appropriate, especially if you have sensitive teeth or dental restorations. While teeth whitening is generally safe, overuse or improper application can lead to tooth sensitivity or gum irritation. To prolong the effects, maintaining good oral hygiene and avoiding habits like smoking or drinking coffee can help preserve your brightened smile.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
-
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Teeth whitening  sub service page 1.png" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Teeth whitening  sub service page 2.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Teeth whitening  sub service page 3.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-              </div>
-             
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
 
 
-        </div>
-      </div>
-    </section> -->
 
+    <img src="assets/img/services/teeth-whitning/full-teeth.png" alt="" class="img-fluid">
 
-    <section class="whitning_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
-
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">Teeth Whitening </p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div>
-
-      </div>
-    </section>
+    <div class="container service_img_cad_text">
+      <p class=" service_slider_name">Teeth Whitening </p>
+      <a href="contact.php">
+        <button class="read_more__slider">Contact Us</button>
+      </a>
+    </div>
 
 
 
@@ -247,7 +91,7 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Teeth Whitening  Treatment</p>
+            <p class="root_treatment"> Teeth Whitening Treatment</p>
             <p>
               Teeth whitening is a cosmetic dental procedure that removes stains and discoloration, giving your teeth a brighter, more radiant appearance. It is ideal for addressing stains caused by coffee, tea, smoking, or aging.
               <br>
@@ -275,24 +119,25 @@
               <img src="./assets/img/services/teeth-whitning/teethwhitning-1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-              The dentist examines your teeth and gums to determine if teeth whitening is suitable for you. They identify the cause of discoloration and recommend the best whitening method.            </div>
+                The dentist examines your teeth and gums to determine if teeth whitening is suitable for you. They identify the cause of discoloration and recommend the best whitening method.
+            </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
               <!-- <img src="./assets/img/services/dentalbraces/dentalbraces.png" alt="" class="img-fluid"> -->
-               <img src="./assets/img/services/teeth-whitning/teethwhitnng-2.png" alt="">
+              <img src="./assets/img/services/teeth-whitning/teethwhitnng-2.png" alt="">
               <h4 class="canal_step">Step2</h4>
               <p>
-              For in-office whitening, a professional-grade whitening gel is applied to your teeth, often activated with a special light for faster results. For at-home kits, custom-fitted trays with whitening gel are provided for daily use over a prescribed period.
+                For in-office whitening, a professional-grade whitening gel is applied to your teeth, often activated with a special light for faster results. For at-home kits, custom-fitted trays with whitening gel are provided for daily use over a prescribed period.
 
-</div>
+            </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
               <img src="./assets/img/services/teeth-whitning/teethwhitning-3.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step3</h4>
               <p>
-              After achieving the desired results, the dentist provides guidelines for maintaining your bright smile, including avoiding stain-causing foods, using whitening toothpaste, and scheduling regular check-ups.
+                After achieving the desired results, the dentist provides guidelines for maintaining your bright smile, including avoiding stain-causing foods, using whitening toothpaste, and scheduling regular check-ups.
 
 
 
@@ -300,7 +145,7 @@
 
 
 
-</div>
+            </div>
           </div>
         </div>
       </div>

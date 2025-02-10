@@ -62,92 +62,7 @@
 
 
 <body>
-  <div class="social-icons text-center">
-    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
-    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
-    <a
-      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
-    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
-  </div>
-
-
-
-  <header id="header1" class="main_images onlypad">
-    <div class="container d-flex align-items-center">
-      <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-        <a href="index.php">
-          <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
-        </a>
-      </div>
-
-      <nav id="navbar" class="navbar order-lg-0">
-        <i class="bi bi-list mobile-nav-toggle"></i>
-        <ul>
-
-          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.php">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
-              <div class="row  ">
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
-                  <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
-                  <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth whitening</a></li>
-                  <li><a class="dropdown-item services_drop active_service" href="smilemakeover.php">Smile Makeover</a></li>
-                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
-                </div>
-              </div>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-          <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-          <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
-              Appointment
-            </a></li>
-        </ul>
-      </nav>
-
-      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
-        For Appointment
-      </a>
-    </div>
-
-
-    <script>
-      // jQuery needed to manage hover and click behavior
-      $(document).ready(function() {
-        // Ensure that the dropdown opens on hover
-        $('#servicesDropdown').hover(function() {
-          $(this).dropdown('toggle');
-        });
-
-        // Make sure the dropdown also works on click
-        $('#servicesDropdown').click(function(e) {
-          e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-          window.location.href = $(this).attr('href'); // Redirect to the link
-        });
-      });
-    </script>
-  </header>
+  <?php include 'navbar.php'; ?>
 
 
 
@@ -155,90 +70,19 @@
 
 
 
-    <!-- <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding  ">
-            <h5 class="poetsen_font11">A smile makeover is a comprehensive cosmetic dental treatment designed to enhance the overall appearance of your smile through a combination of procedures.
-              </h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Smile Makeover Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-                A smile makeover is a customized cosmetic treatment plan aimed at transforming the appearance of your smile to achieve a more harmonious and attractive look. It often involves a combination of procedures such as teeth whitening, veneers, bonding, and orthodontics to address issues like discoloration, misalignment, and chipped or missing teeth. Each smile makeover is tailored to individual needs and preferences, ensuring that the final result complements the patient’s facial features and personal style. The process begins with a comprehensive consultation and often includes digital imaging to visualize potential outcomes. With advancements in dental technology, smile makeovers can provide dramatic, long-lasting improvements and boost self-confidence. A smile makeover not only
-              </p>
-              <div class="showthisdiv  " style="display:none ">
-                <p class="poetsen_font1"> focuses
-                  on aesthetics but also aims to improve functional aspects of your teeth and bite, addressing both beauty and health. The treatment plan may include restorative options like crowns or implants to replace missing teeth and enhance the overall functionality of your smile. During the makeover, your dentist will work closely with you to understand your goals and use advanced techniques to achieve the best possible results. The process often involves multiple visits and may take several weeks to complete, but the outcome is a revitalized, confident smile that can significantly impact your personal and professional life. Regular maintenance and care are essential to preserve the results and ensure long-term satisfaction with your newly enhanced smile.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
-
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Smile Makeover  sub service page 1.png" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Smile Makeover  sub service page 2.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/smile make over.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-              </div>
-             
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000, 
-                    disableOnInteraction: false, 
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
-
-
-        </div>
-      </div>
-    </section> -->
 
 
 
-    <section class="makeover_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
 
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">Smilemakeover</p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div>
+    <img src="assets/img/services/smile-make-over/11.png" alt="" class="img-fluid">
 
-      </div>
-    </section>
+    <div class="container service_img_cad_text">
+      <p class=" service_slider_name">  Smilemakeover </p>
+      <a href="contact.php">
+        <button class="read_more__slider">Contact Us</button>
+      </a>
+    </div>
+
 
 
 
@@ -268,7 +112,7 @@
     <section class="section_color">
       <div class="container">
         <h4 class="root_step text-center mb-5">
-        Transform Your Smile, Transform Your Life</h4>
+          Transform Your Smile, Transform Your Life</h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">

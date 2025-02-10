@@ -228,8 +228,8 @@
           <a href="toothextraction.php">
             <p class="foot_para">Best Tooth extraction in kakinada</p>
           </a>
-          <a href="teethcleaning.php">
-            <p class="foot_para"> Best Teeth Cleaning in kakinada</p>
+          <a href="clearaligners.php">
+            <p class="foot_para"> Best Clear Aligners in kakinada</p>
           </a>
           <a href="teethwhitning.php">
             <p class="foot_para"> Best Teeth Whitening in kakinada</p>

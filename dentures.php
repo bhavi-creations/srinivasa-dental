@@ -53,7 +53,7 @@
 
     gtag('config', 'AW-10932795730');
   </script>
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 
@@ -61,183 +61,23 @@
 
 
 <body>
-  <div class="social-icons text-center">
-    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
-    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
-    <a
-      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
-    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
-  </div>
+<?php include 'navbar.php'; ?>
 
-
-
-  <header id="header1" class="main_images onlypad">
-    <div class="container d-flex align-items-center">
-      <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-        <a href="index.php">
-          <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
-        </a>
-      </div>
-
-      <nav id="navbar" class="navbar order-lg-0">
-        <i class="bi bi-list mobile-nav-toggle"></i>
-        <ul>
-
-          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.php">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
-              <div class="row  ">
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
-                  <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
-                  <li><a class="dropdown-item services_drop active_service" href="dentures.php ">Dentures</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
-                  <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth whitening</a></li>
-                  <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
-                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
-                </div>
-              </div>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-          <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-          <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
-              Appointment
-            </a></li>
-        </ul>
-      </nav>
-
-      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
-        For Appointment
-      </a>
-    </div>
-
-
-    <script>
-      // jQuery needed to manage hover and click behavior
-      $(document).ready(function() {
-        // Ensure that the dropdown opens on hover
-        $('#servicesDropdown').hover(function() {
-          $(this).dropdown('toggle');
-        });
-
-        // Make sure the dropdown also works on click
-        $('#servicesDropdown').click(function(e) {
-          e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-          window.location.href = $(this).attr('href'); // Redirect to the link
-        });
-      });
-    </script>
-  </header>
 
 
 
   <main id="main">
 
+  
 
+    <img src="assets/img/services/dentures/dentures.png" alt="" class="img-fluid">
 
-
-
-    <!-- <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-            <h5 class="poetsen_font11">
-              Dentures are removable prosthetic devices designed to replace missing teeth and restore function and appearance to the mouth.</h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dentures Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-                Dentures are custom-made, removable prosthetic devices used to replace missing teeth and restore the ability to chew and speak effectively. They come in two main types: complete dentures, which replace all the teeth in either the upper or lower jaw, and partial dentures, which fill gaps left by missing teeth while preserving the remaining natural teeth. Made from materials such as acrylic resin, porcelain, or metal, dentures are designed to mimic the appearance of natural teeth and gums. The fitting process involves creating impressions of the mouth and may require several adjustments to ensure a comfortable and secure fit. Regular maintenance and proper care are essential to keep dentures in good condition and ensure optimal oral health.
-              </p>
-              <div class="showthisdiv  " style="display:none ">
-                <p class="poetsen_font1"> Dentures offer a practical solution for individuals who have lost teeth due to various reasons, such as decay, injury, or age-related wear. They help restore facial structure and improve the overall aesthetic of a person’s smile, boosting self-confidence. Modern dentures are designed with advanced techniques to enhance comfort and functionality, often featuring a more natural-looking appearance and improved fit. Regular dental visits are important to check the condition of dentures and make necessary adjustments, as changes in the mouth can affect their fit over time. Additionally, proper cleaning and handling are crucial to avoid issues such as bad breath, staining, and infections.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
-
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Dentures sub service page 1.png" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Dentures sub service page 2.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/Dentures sub service page 3.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-              </div>
-              
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000, 
-                    disableOnInteraction: false, 
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
-
-
-        </div>
-      </div>
-    </section> -->
-
-
-    <section class="dentures_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
-
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">Dentures </p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div>
-
-      </div>
-    </section>
+    <div class="container service_img_cad_text">
+      <p class=" service_slider_name">Dentures  </p>
+      <a href="contact.php">
+        <button class="read_more__slider">Contact Us</button>
+      </a>
+    </div>
 
 
 
@@ -249,13 +89,13 @@
 
             <p class="root_treatment"> Dentures Treatment</p>
             <p>
-            Dentures are removable dental appliances designed to replace missing teeth and restore functionality, appearance, and confidence. They come in two main types:            </p>
+              Dentures are removable dental appliances designed to replace missing teeth and restore functionality, appearance, and confidence. They come in two main types: </p>
 
             <p><strong> 1. Complete Dentures: </strong> Used when all teeth are missing, designed to fit snugly on the gums.
-           </p>
-           <p><strong>2. Partial Dentures:</strong>  Replace a few missing teeth and are attached to the remaining natural teeth for support.</p>
-           <p>Modern dentures are made from durable materials like acrylic or metal, providing a natural look and comfortable fit. They help improve chewing, speech, and facial structure. Regular cleaning and proper maintenance are essential to ensure their longevity and hygiene.</p> 
-           <!-- <P><strong>. Metal Braces:</strong> Traditional braces with metal brackets and wires.</P>
+            </p>
+            <p><strong>2. Partial Dentures:</strong> Replace a few missing teeth and are attached to the remaining natural teeth for support.</p>
+            <p>Modern dentures are made from durable materials like acrylic or metal, providing a natural look and comfortable fit. They help improve chewing, speech, and facial structure. Regular cleaning and proper maintenance are essential to ensure their longevity and hygiene.</p>
+            <!-- <P><strong>. Metal Braces:</strong> Traditional braces with metal brackets and wires.</P>
             <P><strong>. Ceramic Braces: </strong> Tooth-colored brackets for a more discreet look.</P>
             <P><strong>. Lingual Braces:</strong> Placed behind the teeth, making them nearly invisible</P>
             <P><strong>. Clear Aligners:</strong> Removable, transparent trays that straighten teeth without wires.</P> -->
@@ -269,41 +109,41 @@
     <section class="section_color">
       <div class="container">
         <h4 class="root_step text-center mb-5">Restore Your Smile and Confidence with Dentures
-</h4>
+        </h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
               <img src="./assets/img/services/dentures/2.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-              The dentist evaluates your oral health through an examination and diagnostic tools like X-rays. Impressions of your gums and any remaining teeth are taken to create a custom-fit denture plan tailored to your needs.
+                The dentist evaluates your oral health through an examination and diagnostic tools like X-rays. Impressions of your gums and any remaining teeth are taken to create a custom-fit denture plan tailored to your needs.
 
-</div>
+            </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
               <!-- <img src="./assets/img/services/dentures/1.png" alt="" class="img-fluid"> -->
-               <img src="./assets/img/services/dentures/denture-2.png" alt="">
+              <img src="./assets/img/services/dentures/denture-2.png" alt="">
               <h4 class="canal_step">Step2</h4>
               <p>
-              Based on the impressions, the dentures are crafted in a dental lab to ensure comfort and functionality. Once ready, the dentures are fitted, and adjustments are made to achieve a proper fit and natural appearance.
-</p>
-</div>
+                Based on the impressions, the dentures are crafted in a dental lab to ensure comfort and functionality. Once ready, the dentures are fitted, and adjustments are made to achieve a proper fit and natural appearance.
+              </p>
+            </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
               <img src="./assets/img/services/dentures/1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step3</h4>
               <p>
-              After placement, follow-up visits are scheduled to make any necessary refinements. The dentist provides guidance on wearing, cleaning, and maintaining the dentures for long-lasting comfort and optimal oral health.
+                After placement, follow-up visits are scheduled to make any necessary refinements. The dentist provides guidance on wearing, cleaning, and maintaining the dentures for long-lasting comfort and optimal oral health.
 
 
 
 
-    </p>
+              </p>
 
 
-</div>
+            </div>
           </div>
         </div>
       </div>
@@ -480,7 +320,7 @@
 
   </main>
   <?php include('./footer.php'); ?>
- 
+
 
 </body>
 

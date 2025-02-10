@@ -39,17 +39,20 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- Google tag (gtag.js) -->
- <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'AW-10932795730');
-</script>
-<meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-10932795730');
+  </script>
+  <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
 
@@ -57,214 +60,42 @@
 
 
 <body>
-  <div class="social-icons text-center">
-    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
-    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
-    <a
-      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
-    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
-  </div>
-
-
-
-  <header id="header1" class="main_images onlypad">
-    <div class="container d-flex align-items-center">
-      <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-        <a href="index.php">
-          <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
-        </a>
-      </div>
-
-      <nav id="navbar" class="navbar order-lg-0">
-        <i class="bi bi-list mobile-nav-toggle"></i>
-        <ul>
-
-          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.php">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
-              <div class="row  ">
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
-                  <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop active_service" href="teethfilling.php">Teeth Filling</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
-                  <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth whitening</a></li>
-                  <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
-                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
-                </div>
-              </div>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-          <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-          <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
-              Appointment
-            </a></li>
-        </ul>
-      </nav>
-
-      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
-        For Appointment
-      </a>
-    </div>
-
-
-    <script>
-      // jQuery needed to manage hover and click behavior
-      $(document).ready(function() {
-        // Ensure that the dropdown opens on hover
-        $('#servicesDropdown').hover(function() {
-          $(this).dropdown('toggle');
-        });
-
-        // Make sure the dropdown also works on click
-        $('#servicesDropdown').click(function(e) {
-          e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-          window.location.href = $(this).attr('href'); // Redirect to the link
-        });
-      });
-    </script>
-  </header>
+  <?php include 'navbar.php'; ?>
 
 
 
   <main id="main">
 
 
-<!-- 
-  <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding  ">
-            <h5 class="poetsen_font11">A teeth filling is a dental procedure to restore the function and integrity of a damaged tooth by filling cavities with materials like composite resin or amalgam.</h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Teeth Filling Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-                A teeth filling is a common dental procedure used to repair cavities caused by tooth decay. During the process, the dentist removes the decayed portion of the tooth, cleans the area, and then fills the cavity with a material such as composite resin, amalgam, or glass ionomer. This restoration helps restore the tooth's normal function and shape while preventing further decay. Fillings also alleviate pain and sensitivity caused by the cavity. Proper dental care and regular check-ups can extend the lifespan of a filling and ensure overall oral health.
-              </p>
-              <div class="showthisdiv  " style="display:none ">
-                <p class="poetsen_font1">Teeth fillings are essential for addressing damage and decay within a tooth, restoring its strength and functionality. The procedure begins with the removal of the decayed part of the tooth, followed by cleaning the cavity to ensure no bacteria remain. The empty space is then filled with a material designed to bond with the tooth structure, such as composite resin or amalgam. This helps prevent further decay and protects the tooth from additional damage. Regular dental visits are important for monitoring the condition of fillings and maintaining overall oral health.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
 
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
 
-                <div class="swiper-slide">
-                  <img src="assets/img/services/teeth filling 1.png" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/services/teeth filling 2.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/teeth filling 3.png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-              </div>
-            
-              
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000, 
-                    disableOnInteraction: false, 
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
+ 
 
 
 
-        </div>
-      </div>
-    </section> -->
+ 
 
+        <img src="assets/img/services/teethfilling/teethfilling.png" alt="" class="img-fluid">
 
-  <script>
-      function toggleReadMore() {
-        var showThisDiv = document.querySelector('.showthisdiv');
-        var readMoreText = document.querySelector('.get_in_touch');
-
-        if (showThisDiv.style.display === "none") {
-          showThisDiv.style.display = "block";
-          readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-          showThisDiv.style.display = "none";
-          readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-        }
-      }
-    </script> 
-
-
-
-
-  
-    <section class="teeth_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
-       
-        <div class="service_slider_content_div">
-          <p class=" service_slider_name"> Teeth filling</p>
+        <div class="container service_img_cad_text">
+          <p class=" service_slider_name">Teeth filling</p>
           <a href="contact.php">
             <button class="read_more__slider">Contact Us</button>
           </a>
         </div>
-    
-      </div>
-    </section>
 
 
 
     <section class="service_section">
       <div class="container">
-      <div class="row">
-        
-        <div class="service_contain_text">
-     
-          <p class="root_treatment"> Teeth filling Treatment</p>
-          <p>
-          Teeth Filling is a common dental procedure used to restore teeth damaged by decay or minor fractures. The dentist removes the decayed portion of the tooth and fills the cavity with materials like composite resin, amalgam, or porcelain. This process helps prevent further decay, restores the tooth's functionality, and maintains its natural appearance. Modern fillings are durable, tooth-colored, and blend seamlessly with your smile. Regular dental checkups ensure fillings remain intact and effective for years.          </p>
-        </div>
+        <div class="row">
+
+          <div class="service_contain_text">
+
+            <p class="root_treatment"> Teeth filling Treatment</p>
+            <p>
+              Teeth Filling is a common dental procedure used to restore teeth damaged by decay or minor fractures. The dentist removes the decayed portion of the tooth and fills the cavity with materials like composite resin, amalgam, or porcelain. This process helps prevent further decay, restores the tooth's functionality, and maintains its natural appearance. Modern fillings are durable, tooth-colored, and blend seamlessly with your smile. Regular dental checkups ensure fillings remain intact and effective for years. </p>
+          </div>
         </div>
       </div>
     </section>
@@ -275,7 +106,7 @@
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
-              <img src="./assets/img/services/teethfilling/teeth-filling-1.jpg" alt="" class="img-fluid">
+              <img src="./assets/img/services/teethfilling/teeth-filling-1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <!-- Diagnosis and Preparation -->
               <p>
@@ -289,7 +120,11 @@
               <h4 class="canal_step">Step2</h4>
               <!-- Decay Removal -->
               <p>
+<<<<<<< HEAD
               The decayed or damaged part of the tooth is carefully removed using specialized tools. The tooth is then cleaned to place the filling material.
+=======
+                The decayed or damaged part of the tooth is carefully removed using specialized tools. The tooth is then Cleaned to place the filling material
+>>>>>>> 17ef3219e71f25f2749e6a5f6ecb6397260cc6e7
               </p>
             </div>
           </div>
@@ -299,7 +134,7 @@
               <h4 class="canal_step">Step3</h4>
               <!-- Filling and Shaping -->
               <p>
-              The filling material is applied in layers and hardened with a special light. The dentist shapes and polishes the filling to restore the tooth's natural appearance and function.
+                The filling material is applied in layers and hardened with a special light. The dentist shapes and polishes the filling to restore the tooth's natural appearance and function.
               </p>
             </div>
           </div>
@@ -357,7 +192,7 @@
                     </div>
                   </div>
                 </div>
-               
+
               </div>
             </div>
           </div>
@@ -373,7 +208,7 @@
                     </div>
                   </div>
                 </div>
-               
+
               </div>
             </div>
           </div>
@@ -390,7 +225,7 @@
                     </div>
                   </div>
                 </div>
-               
+
               </div>
             </div>
           </div>
@@ -407,10 +242,10 @@
     </section>
 
 
-   
+
   </main>
-  <?php include ('./footer.php'); ?>
- 
+  <?php include('./footer.php'); ?>
+
 
 </body>
 

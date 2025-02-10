@@ -42,8 +42,6 @@
   <!-- Google tag (gtag.js) -->
 
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -58,11 +56,12 @@
   <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
 
 
+
 </head>
 
 
 <body>
-<?php include 'navbar.php'; ?>
+  <?php include 'navbar.php'; ?>
 
 
 
@@ -71,19 +70,19 @@
 
 
 
- 
- 
 
 
-    <img src="assets/img/services/dentalbraces/1.png" alt="" class="img-fluid">
+
+
+
+    <img src="assets/img/services/clear_aligner/11.png" alt="" class="img-fluid">
 
     <div class="container service_img_cad_text">
-      <p class=" service_slider_name">Dental Braces</p>
+      <p class=" service_slider_name">Clear aligners </p>
       <a href="contact.php">
         <button class="read_more__slider">Contact Us</button>
       </a>
     </div>
-
 
 
     <section class="service_section">
@@ -92,17 +91,9 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Dentalbraces Treatment</p>
+            <p class="root_treatment"> Clear aligners Treatment</p>
             <p>
-              Dental braces are orthodontic devices used to correct misaligned teeth and jaws, improving oral health and aesthetics. They apply continuous pressure to gradually shift teeth into their ideal positions over time. Braces come in various types, including:
-            </p>
-            <P><strong>. Metal Braces:</strong> Traditional braces with metal brackets and wires.</P>
-            <P><strong>. Ceramic Braces: </strong> Tooth-colored brackets for a more discreet look.</P>
-            <P><strong>. Lingual Braces:</strong> Placed behind the teeth, making them nearly invisible</P>
-            <P><strong>. Clear Aligners:</strong> Removable, transparent trays that straighten teeth without wires.</P>
-
-
-
+              Clear aligners are a modern orthodontic solution designed to straighten teeth discreetly and comfortably. These custom-made, transparent trays gradually shift teeth into the desired position without the need for traditional braces. They are removable, making it easier to eat, brush, and floss without restrictions. Clear aligners help correct misalignment, gaps, and bite issues while providing a nearly invisible treatment option. For the best results, they should be worn for 20-22 hours a day and changed every few weeks as directed by your dentist or orthodontist. </p>
           </div>
         </div>
       </div>
@@ -110,36 +101,45 @@
 
     <section class="section_color">
       <div class="container">
-        <h4 class="root_step text-center mb-5">Achieve a Perfect Smile with Dental Braces</h4>
+        <h4 class="root_step text-center mb-5">Steps for a Sparkling Clean Smile
+
+
+        </h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
-              <img src="./assets/img/services/dentalbraces/jaws.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/clear_aligner/1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-                The orthodontist conducts a thorough examination of your teeth, jaws, and bite using X-rays, photographs, and dental impressions. Based on the evaluation, a personalized treatment plan is created. </p>
+                Consultation & Digital Scanning : The treatment begins with a consultation where the dentist assesses your teeth and takes digital scans or impressions. These scans help create a customized treatment plan, mapping out the gradual movement of your teeth with clear aligners.
+              </p>
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/dentalbraces/dentalbraces.png" alt="" class="img-fluid">
+            <img src="./assets/img/services/clear_aligner/2.png" alt="" class="img-fluid">
+
               <h4 class="canal_step">Step2</h4>
               <p>
-                The braces are fitted onto your teeth, and adjustments are made periodically to ensure gradual movement of the teeth into their correct positions. For clear aligners, a series of trays are provided to wear in sequence. </p>
+                Wearing Aligners & Adjustments :
+                Custom-made aligners are provided, which must be worn for 20-22 hours daily. Every few weeks, you switch to a new set of aligners, gradually shifting your teeth into alignment. Regular check-ups ensure progress and adjustments if needed.
+              </p>
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/dentalbraces/retending.png" alt="" class="img-fluid">
+            <img src="./assets/img/services/clear_aligner/3.png" alt="" class="img-fluid">
+
               <h4 class="canal_step">Step3</h4>
               <p>
-                Once the desired alignment is achieved, the braces are removed. A retainer is provided to maintain the new position of your teeth and prevent shifting </p>
+                Retainers for Long-Term Results :
+                Once the treatment is complete, retainers are recommended to maintain the new alignment. These retainers prevent teeth from shifting back, ensuring long-lasting results and a perfectly straight smile.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
 
 
 
@@ -148,7 +148,7 @@
       <div class="container">
         <div class="section-title text-center">
 
-          <h2 class="apporach">Watch the Journey of a Perfect Smile </h2>
+          <h2 class="apporach">Experience the Sparkle </h2>
 
 
           <p class="svg_apporach_service"> <svg xmlns="http://www.w3.org/2000/svg" width="266" height="10"
@@ -158,7 +158,7 @@
                 fill="#25B4F8" />
             </svg>
           </p>
-          <h2 class="apporach">with Our Dental Braces Treatment </h2>
+          <h2 class="apporach"> Watch Our Teeth Cleaning Procedure!</h2>
 
 
 
@@ -174,7 +174,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -189,14 +189,14 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
                 <!-- <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/0zKTSrA6Bg0?si=gyJMbDo4Mx7X3P7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div> -->
@@ -211,21 +211,21 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
                 <!-- <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/0zKTSrA6Bg0?si=gyJMbDo4Mx7X3P7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
                 <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/-asbtKCvyh0?si=HB3W_Z5W3BOlSjnL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div> -->
@@ -241,25 +241,25 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/s51XJeeia4o?si=cnytEUFo59Hdlvw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <!-- <div class="tile ">
+                <!--    <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/0zKTSrA6Bg0?si=gyJMbDo4Mx7X3P7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
                 <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/-asbtKCvyh0?si=HB3W_Z5W3BOlSjnL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <div class="tile  ">
+                 <div class="tile  ">
                   <div class="tile__media">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/KyI4GyczhTo?si=F0v0n60FOJLo5hKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -288,27 +288,6 @@
       </div>
     </section>
 
-
-
-
-
-
-
-
-    <script>
-      function toggleReadMore() {
-        var showThisDiv = document.querySelector('.showthisdiv');
-        var readMoreText = document.querySelector('.get_in_touch');
-
-        if (showThisDiv.style.display === "none") {
-          showThisDiv.style.display = "block";
-          readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-          showThisDiv.style.display = "none";
-          readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-        }
-      }
-    </script>
 
   </main>
   <?php include('./footer.php'); ?>

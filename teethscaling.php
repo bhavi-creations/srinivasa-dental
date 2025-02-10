@@ -63,121 +63,22 @@
 
 
 <body>
-  <div class="social-icons text-center">
-    <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt="" /></a>
-    <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
-      <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt="" /></a>
-    <a
-      href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
-      <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a>
-    <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
-      <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
-  </div>
+<?php include 'navbar.php'; ?>
 
-
-
-  <header id="header1" class="main_images onlypad">
-    <div class="container d-flex align-items-center">
-      <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-        <a href="index.php">
-          <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
-        </a>
-      </div>
-
-      <nav id="navbar" class="navbar order-lg-0">
-        <i class="bi bi-list mobile-nav-toggle"></i>
-        <ul>
-
-          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.php">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="services.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
-              <div class="row  ">
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
-                  <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
-                  <li><a class="dropdown-item services_drop active_service" href="teethscaling.php">Teeth Scaling</a></li>
-                  <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
-                </div>
-                <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethcleaning.php">Teeth Cleaning</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth whitening</a></li>
-                  <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
-                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
-                </div>
-              </div>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-          <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
-          <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
-              Appointment
-            </a></li>
-        </ul>
-      </nav>
-
-      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
-        For Appointment
-      </a>
-    </div>
-
-
-    <script>
-      // jQuery needed to manage hover and click behavior
-      $(document).ready(function() {
-        // Ensure that the dropdown opens on hover
-        $('#servicesDropdown').hover(function() {
-          $(this).dropdown('toggle');
-        });
-
-        // Make sure the dropdown also works on click
-        $('#servicesDropdown').click(function(e) {
-          e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-          window.location.href = $(this).attr('href'); // Redirect to the link
-        });
-      });
-    </script>
-  </header>
 
 
 
   <main id="main">
 
 
-    <section class="scaling_service_bg_img  service_slider_image_styles">
-      <!-- <div class="container slider_service_content">
+  <img src="assets/img/services/Teethscaling/11111111111111.png" alt="" class="img-fluid">
 
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name_mouth">Teethscaling</p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div> -->
-
-        <div class="container slider_service_content">
-
-<div class="service_slider_content_div">
-  <p class=" teeth_slider_name">Teeth Scaling</p>
+<div class="container service_img_cad_text">
+  <p class=" service_slider_name">Teeth Scaling  </p>
   <a href="contact.php">
     <button class="read_more__slider">Contact Us</button>
   </a>
 </div>
-
-</div>
-
-      </div>
-    </section>
 
 
 
@@ -189,11 +90,11 @@
 
             <p class="root_treatment"> Teeth Scaling Treatment</p>
             <p>
-            Teeth scaling is a professional dental cleaning procedure that removes plaque, tartar, and stains from the surfaces of your teeth and below the gumline. Over time, these deposits can build up despite regular brushing and flossing, leading to gum disease, bad breath, and tooth decay.
+              Teeth scaling is a professional dental cleaning procedure that removes plaque, tartar, and stains from the surfaces of your teeth and below the gumline. Over time, these deposits can build up despite regular brushing and flossing, leading to gum disease, bad breath, and tooth decay.
 
             </p>
             <p>
-            The process involves using specialized tools to gently clean hard-to-reach areas, preventing bacterial buildup and promoting healthier gums. Teeth scaling not only enhances your oral hygiene but also leaves your teeth feeling smoother and looking brighter.
+              The process involves using specialized tools to gently clean hard-to-reach areas, preventing bacterial buildup and promoting healthier gums. Teeth scaling not only enhances your oral hygiene but also leaves your teeth feeling smoother and looking brighter.
 
 
             </p>
@@ -208,23 +109,23 @@
     <section class="section_color">
       <div class="container">
         <h4 class="root_step text-center mb-5">
-        Deep Clean for a Healthier, Brighter Smile</h4>
+          Deep Clean for a Healthier, Brighter Smile</h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
               <img src="./assets/img/services/Teethscaling/examination.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-              Your dentist or hygienist will examine your teeth and gums to assess the buildup of plaque and tartar and identify areas requiring cleaning.
+                Your dentist or hygienist will examine your teeth and gums to assess the buildup of plaque and tartar and identify areas requiring cleaning.
 
-</div>
+            </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
               <img src="./assets/img/services/Teethscaling/scaling.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step2</h4>
               <p>
-              Specialized tools are used to remove plaque and hardened tartar from the surface of your teeth and below the gumline. This step helps prevent gum disease and improves oral hygiene.
+                Specialized tools are used to remove plaque and hardened tartar from the surface of your teeth and below the gumline. This step helps prevent gum disease and improves oral hygiene.
 
 
             </div>
@@ -234,7 +135,7 @@
               <img src="./assets/img/services/Teethscaling/polishing.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step3</h4>
               <p>
-              After scaling, your teeth are polished to remove surface stains, leaving them smooth, clean, and bright, while also reducing future plaque buildup.
+                After scaling, your teeth are polished to remove surface stains, leaving them smooth, clean, and bright, while also reducing future plaque buildup.
 
             </div>
           </div>
