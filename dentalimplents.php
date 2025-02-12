@@ -72,7 +72,7 @@
 
   
 
-    <img src="assets/img/services/dentalbraces/1.png" alt="" class="img-fluid">
+    <img src="assets/img/services/dental-implents/dentalimplents.png" alt="" class="img-fluid">
 
     <div class="container service_img_cad_text">
       <p class=" service_slider_name">Dental implants</p>
