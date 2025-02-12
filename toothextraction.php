@@ -70,7 +70,7 @@
   <img src="assets/img/services/teeth-extraction/tooth-extraction1.png" alt="" class="img-fluid">
 
 <div class="container service_img_cad_text">
-  <p class=" service_slider_name">  Tooth extraction  </p>
+  <p class=" service_slider_name">  Tooth Extraction  </p>
   <a href="contact.php">
     <button class="read_more__slider">Contact Us</button>
   </a>
@@ -84,14 +84,14 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Tooth extraction Treatment</p>
+            <p class="root_treatment"> Tooth Extraction Treatment</p>
             <p>
               Tooth extraction is a common dental procedure performed to remove a tooth that is damaged, decayed, or causing complications such as crowding or infection. While preserving natural teeth is always a priority, extraction becomes necessary when a tooth cannot be saved or poses a risk to your oral health.
 
 
             </p>
             <p>
-              The procedure is performed under local anesthesia to ensure a pain-free experience. After removal, your dentist will provide aftercare instructions to promote healing and prevent discomfort. Tooth extractions are often the first step toward restoring a healthy, functional smile through replacement options like implants or bridges.
+              The procedure is performed under local anesthesia to ensure a pain-free experience. After removal we provide Laser PBM for faster healing of socket and to stay  painless even after tooth removalyour dentist will provide aftercare instructions to promote healing and prevent discomfort. Tooth extractions are often the first step toward restoring a healthy, functional smile through replacement options like implants or bridges.
 
 
 

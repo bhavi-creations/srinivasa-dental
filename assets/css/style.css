@@ -2921,7 +2921,7 @@ section {
 .apporach {
   color: #1d2053;
   font-family: "FONTSPRING DEMO - Tenon Bold";
-  font-size: 42px;
+  /* font-size: 42px; */
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
@@ -4246,7 +4246,7 @@ background-color: #94beeb;
   
   
   .service_img_cad_text{
-    margin-top: -77px;
+    margin-top: -98px;
   }
 }
 

@@ -75,7 +75,7 @@
     <img src="assets/img/services/dentalbraces/1.png" alt="" class="img-fluid">
 
     <div class="container service_img_cad_text">
-      <p class=" service_slider_name">Dental implents</p>
+      <p class=" service_slider_name">Dental implants</p>
       <a href="contact.php">
         <button class="read_more__slider">Contact Us</button>
       </a>
@@ -89,7 +89,7 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Dental implents Treatment</p>
+            <p class="root_treatment"> Dental implants Treatment</p>
             <p>
               Dental implants are a modern and effective way to replace missing teeth, offering a permanent and natural-looking solution. An implant consists of a titanium post surgically placed into the jawbone, acting as an artificial tooth root. Once healed, a custom-made crown is attached to the implant, restoring the appearance and function of your natural teeth. </p>
             <p>

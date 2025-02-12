@@ -239,7 +239,19 @@
       }
     </script>
 
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-12">
+        <h1>We are 1st in Kakinada to introduce GBT ( painless and deep cleaning) equipment to Kakinada which is one of the best equipment in dentistry.</h1>
+      </div>
+      <div class="col-md-4 col-12  ">
+        <img src="assets/img/services/gbt.png" alt=" " class="img-fluid gbt_content" style="width:250px; height: 350px;">
 
+      </div>
+    </div>
+  </div>
+</section>
 
 
 

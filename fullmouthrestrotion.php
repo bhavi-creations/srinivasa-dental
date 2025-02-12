@@ -75,7 +75,7 @@
     <img src="assets/img/services/full-teeth/11.png" alt="" class="img-fluid">
 
     <div class="container service_img_cad_text">
-      <p class=" service_slider_name">  Full mouth restoration</p>
+      <p class=" service_slider_name" id="full_mouth">  Full mouth rehabilitation</p>
       <a href="contact.php">
         <button class="read_more__slider">Contact Us</button>
       </a>

@@ -475,12 +475,17 @@ p.get_in_touch.read_hide.readerr {
   .slider_service_content {
     height: 53vh;
 
+}
+
+    #full_mouth{
+      font-size: 29px !important;
+    } 
   }
 
 
 
   .service_slider_name {
-    font-size: 50px;
+    font-size: 37px;
     color: #1d2053;
     font-weight: 800;
   }
@@ -510,7 +515,7 @@ p.get_in_touch.read_hide.readerr {
   }
 
   .service_slider_name {
-    font-size: 43px;
+    font-size:30px;
     color: #1d2053;
     font-weight: 800;
   }
@@ -726,6 +731,10 @@ p.get_in_touch.read_hide.readerr {
 } */
 
 @media (min-width:768px) and (max-width:992px) {
+
+  #full_mouth{
+    font-size: 23px !important;
+  } 
   .slider_service_content {
     height: 40vh;
     /* Adjust the height for proper scaling */
@@ -742,13 +751,19 @@ p.get_in_touch.read_hide.readerr {
     /* Adjust horizontal alignment */
   }
 }
+
+
 @media(min-width:425px) and (max-width:768px){
-  
+
     .service_slider_name {
-      font-size: 25px;
+      font-size: 18px;
       color: #1d2053;
       font-weight: 800;
       margin-bottom: 0px;
+    }
+
+    #full_mouth{
+      font-size: 16px !important;
     }
   
     .teeth_slider_name {
@@ -771,8 +786,9 @@ p.get_in_touch.read_hide.readerr {
 
 
 @media (max-width:425px) {
+ 
   .service_slider_name {
-    font-size: 25px;
+    /* font-size: 25px; */
     color: #1d2053;
     font-weight: 800;
     margin-bottom: 0px;
@@ -802,4 +818,10 @@ p.get_in_touch.read_hide.readerr {
 
 
 
+.gbt_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 50px;
+}
 

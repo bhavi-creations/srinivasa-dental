@@ -120,11 +120,11 @@
               <h4 class="canal_step">Step2</h4>
               <!-- Decay Removal -->
               <p>
-<<<<<<< HEAD
+
               The decayed or damaged part of the tooth is carefully removed using specialized tools. The tooth is then cleaned to place the filling material.
-=======
-                The decayed or damaged part of the tooth is carefully removed using specialized tools. The tooth is then Cleaned to place the filling material
->>>>>>> 17ef3219e71f25f2749e6a5f6ecb6397260cc6e7
+
+                <!-- The decayed or damaged part of the tooth is carefully removed using specialized tools. The tooth is then Cleaned to place the filling material -->
+
               </p>
             </div>
           </div>

@@ -68,10 +68,17 @@
 
 
   <main id="main">
+  
+  <img src="assets/img/services/crowns/crowns_bridge.png" alt="" class="img-fluid">
 
+<div class="container service_img_cad_text">
+    <p class=" service_slider_name">Crowns & Bridges</p>
+    <a href="contact.php">
+        <button class="read_more__slider">Contact Us</button>
+    </a>
+</div>
 
-
-    <!-- <section class="sectionForm">
+     <!-- <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-7 dr_content_padding   ">
@@ -143,10 +150,11 @@
 
         </div>
       </div>
-    </section> -->
+    </section>  -->
 
-    <section class="crowns_service_bg_img  service_slider_image_styles">
+    <!-- <section class="crowns_service_bg_img  service_slider_image_styles">
       <div class="container slider_service_content">
+        
 
         <div class="service_slider_content_div">
           <p class=" teeth_slider_name">Crowns & Bridges</p>
@@ -156,7 +164,7 @@
         </div>
 
       </div>
-    </section>
+    </section> -->
 
 
 
@@ -201,8 +209,7 @@
               <img src="./assets/img/services/crowns/1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-              Latest 3dimensional intraoral scans are used at Srinivasa dental to minimise discomfort for the patient and get the accurate fitting of crown
-              </p>
+              Latest 3dimensional intraoral scans are used at Srinivasa dental to minimise discomfort for the patient and get the accurate fitting of crown              </p>
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
