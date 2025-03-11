@@ -291,6 +291,15 @@
     </div>
   </div>
 
+  <!-- spped -->
+  <script src="your-script.js" async></script>
+
+<script src="your-script.js" defer></script>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
 
   <!-- Scroll Up Button  -->
   <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
