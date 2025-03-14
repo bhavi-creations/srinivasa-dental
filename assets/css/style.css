@@ -902,8 +902,8 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 
-section {
-  padding: 20px 0;
+section{
+  padding: 20px 0 ;
   overflow: hidden;
 }
 
