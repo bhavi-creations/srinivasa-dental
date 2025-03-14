@@ -907,6 +907,13 @@ section{
   overflow: hidden;
 }
 
+.blogs_section_new{
+  margin-bottom: -60px !important;
+}
+
+/* .last_container{
+  margin-top: 40px !important;
+} */
 
 /* 
 @media (max-width:767px) {

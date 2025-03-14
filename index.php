@@ -896,7 +896,7 @@
 
 
 
-    <section>
+    <section class="blogs_section_new">
         <div class="container">
             <div class="section-title text-center">
                 <p class="our_blogs my-2">Our Blogs</p>
@@ -1000,7 +1000,7 @@
     <!-- End Testimonials Section -->
 
 
-    <div class="container last_container ">
+    <div class="container last_container  ">
         <div class="row">
             <div class="col-md-6 padding_text_madam order-2 order-md-1">
                 <h1 class="madam_text">Do You Want Smile Like A Celebrity
