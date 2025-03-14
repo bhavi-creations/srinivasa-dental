@@ -903,8 +903,8 @@
                 <h2 class="apporach">Blogs & Articles </h2>
 
 
-
-                <p class="mb-5  text-center service_text">General and cosmetic dentistry can give you a smile you’re proud to show off. Modern cosmetic dentistry techniques make it easier than ever to achieve a bright, even smile. Visit Srinivasa Dental Clinic in Kakinada.
+                <!-- text-center service_text -->
+                <p class="mb-5  ">General and cosmetic dentistry can give you a smile you’re proud to show off. Modern cosmetic dentistry techniques make it easier than ever to achieve a bright, even smile. Visit Srinivasa Dental Clinic in Kakinada.
 
                 </p>
             </div>
@@ -1003,8 +1003,8 @@
     <div class="container last_container ">
         <div class="row">
             <div class="col-md-6 padding_text_madam order-2 order-md-1">
-                <h1 class="madam_text">Become The Next
-                    Our </h1>
+                <h1 class="madam_text">Do You Want Smile Like A Celebrity
+                     </h1>
                 <p class="text_mam">Scheduling an appointment at Srinivasa Dental is easy and convenient. Simply call us at +91-9290019948 or use our online booking system to choose a time that works for you.
                 </p>
                 <div class=" btn_div   ">
