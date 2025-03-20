@@ -3182,10 +3182,38 @@ section{
   letter-spacing: -2px;
 }
 
+
+@media (min-width:375px) and (max-width:460px) {
+  .madam_text{
+    margin-top: -50px;
+  } 
+  
+}
+
+@media (min-width:461px) and (max-width:768px) {
+  .madam_text{
+    margin-top: -85px;
+  } 
+  
+}
+@media (min-width:769px) and (max-width:992px) {
+  .madam_text{
+    margin-top: -20px;
+  } 
+  
+}
+@media (min-width:993px) and (max-width:1200px) {
+  .madam_text{
+    margin-top: -20px;
+  } 
+  
+}
+
+
 .text_mam {
   color: #fafafa;
   font-family: "Readex Pro";
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 152%;
@@ -3252,7 +3280,7 @@ section{
 
   .padding_text_madam {
     padding-top: 70px;
-    padding-left: 100px;
+    padding-left: 100px;   
   }
 }
 
@@ -3316,10 +3344,15 @@ section{
     margin-bottom: 20px;
   }
 
+
+
   .madam_text {
     color: #fff;
 
     /* Bold/52px */
+    
+    margin-top: -95px !important;
+
     font-family: Poppins;
     font-size: 30px;
     font-style: normal;
@@ -4321,4 +4354,15 @@ background-color: #94beeb;
 }
 
 
+
+
+
+
+/* alignment  */
+@media (min-width:375px) and (max-width:425px) {
+  .madam_text{
+         margin-top: -50px;
+
+        }
+}
  
