@@ -3349,11 +3349,7 @@ section{
   .madam_text {
     color: #fff;
 
-    /* Bold/52px */
-    
-    margin-top: -95px !important;
-
-    font-family: Poppins;
+    /* Bold/52px */ font-family: Poppins;
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
