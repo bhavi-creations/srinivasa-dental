@@ -3332,7 +3332,7 @@ section{
 
 @media (max-width: 768px) {
   .mam_image {
-    margin-top: -140px;
+    margin-top: -119px;
   }
 
   .padding_text_madam {
@@ -4362,3 +4362,13 @@ background-color: #94beeb;
         }
 }
  
+
+@media (max-width:768px) {
+  .view_more_btn{
+
+  }
+  .blog_section{
+    margin-bottom: 20px !important;
+  }
+  
+}
