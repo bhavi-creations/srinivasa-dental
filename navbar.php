@@ -165,7 +165,7 @@
 
 <body>
 
-<header id="top-header" class="top-header d-none d-md-block  d-xl-none hearedr_spacing">
+  <header id="top-header" class="top-header d-none d-md-block  d-xl-none hearedr_spacing">
     <div class="container d-flex justify-content-between align-items-center">
       <div class="contact-info">
 
@@ -188,9 +188,9 @@
           </defs>
         </svg> +91-9290019948
 
-       
-<br>
-        
+
+        <br>
+
         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
           <path
             d="M15.5059 2.52344H1.49414C0.671965 2.52344 0 3.19245 0 4.01758V12.9824C0 13.8079 0.672396 14.4766 1.49414 14.4766H15.5059C16.328 14.4766 17 13.8076 17 12.9824V4.01758C17 3.19225 16.3277 2.52344 15.5059 2.52344ZM15.2764 3.51953C14.7934 4.0042 9.11907 9.69697 8.88595 9.93086C8.69125 10.1262 8.30885 10.1263 8.11405 9.93086L1.72357 3.51953H15.2764ZM0.996094 12.7993V4.20069L5.28146 8.5L0.996094 12.7993ZM1.72357 13.4805L5.98466 9.2055L7.40858 10.6341C7.99209 11.2195 9.00814 11.2192 9.59145 10.6341L11.0154 9.20553L15.2764 13.4805H1.72357ZM16.0039 12.7993L11.7185 8.5L16.0039 4.20069V12.7993Z"
@@ -212,9 +212,9 @@
             </clipPath>
           </defs>
         </svg> Monday - Saturday: 9am - 8.30pm
-        
 
-       <br>
+
+        <br>
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
           <g clip-path="url(#clip0_91_199)">
             <path
@@ -259,7 +259,7 @@
         |
         &nbsp;
 
-        
+
         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
           <path
             d="M15.5059 2.52344H1.49414C0.671965 2.52344 0 3.19245 0 4.01758V12.9824C0 13.8079 0.672396 14.4766 1.49414 14.4766H15.5059C16.328 14.4766 17 13.8076 17 12.9824V4.01758C17 3.19225 16.3277 2.52344 15.5059 2.52344ZM15.2764 3.51953C14.7934 4.0042 9.11907 9.69697 8.88595 9.93086C8.69125 10.1262 8.30885 10.1263 8.11405 9.93086L1.72357 3.51953H15.2764ZM0.996094 12.7993V4.20069L5.28146 8.5L0.996094 12.7993ZM1.72357 13.4805L5.98466 9.2055L7.40858 10.6341C7.99209 11.2195 9.00814 11.2192 9.59145 10.6341L11.0154 9.20553L15.2764 13.4805H1.72357ZM16.0039 12.7993L11.7185 8.5L16.0039 4.20069V12.7993Z"
@@ -285,7 +285,7 @@
         |
         &nbsp;
 
-       
+
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
           <g clip-path="url(#clip0_91_199)">
             <path
@@ -371,7 +371,18 @@
           </li>
 
           <li><a class="nav-link <?= ($current_page == 'gallery.php') ? 'active' : ''; ?>" href="gallery.php">Gallery</a></li>
-          <li><a class="nav-link <?= ($current_page == 'blogs.php') ? 'active' : ''; ?>" href="blogs.php">Blogs</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link <?= ($current_page == 'blogs.php') ? 'active' : ''; ?> dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="false">
+              Posts
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="blogs.php">Blogs</a></li>
+              <li><a class="dropdown-item" href="news.php">News letter</a></li>
+              <!-- <li><a class="dropdown-item" href="blog3.php">Blog 3</a></li> -->
+          
+            </ul>
+          </li>
+
           <li><a class="nav-link <?= ($current_page == 'testimonials.php') ? 'active' : ''; ?>" href="testimonials.php">What Patients Say</a></li>
           <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
               Appointment
@@ -397,5 +408,25 @@
           $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
         }
       );
+    });
+  </script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const dropdownToggle = document.querySelector('#navbarDropdown');
+      const dropdownMenu = document.querySelector('.dropdown-menu');
+
+      dropdownToggle.addEventListener('click', function(event) {
+        event.stopPropagation(); // Prevents the dropdown from immediately closing
+        dropdownMenu.classList.toggle('show'); // Toggles visibility of the dropdown
+      });
+
+      // Close the dropdown if clicked anywhere else
+      document.addEventListener('click', function(event) {
+        if (!dropdownMenu.contains(event.target) && !dropdownToggle.contains(event.target)) {
+          dropdownMenu.classList.remove('show');
+        }
+      });
     });
   </script>

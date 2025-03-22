@@ -42,6 +42,19 @@
     </li>
 
 
+    <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePDFMenu" aria-expanded="true" aria-controls="collapsePDFMenu">
+        <i class="fas fa-fw fa-file-pdf"></i>
+        <span>PDF</span>
+    </a>
+    <div id="collapsePDFMenu" class="collapse" aria-labelledby="headingPDFMenu" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">NEW BLOG</h6>
+            <a class="collapse-item" href="newPDF.php"> <i class="fas fa-fw fa-upload"></i> UPLOAD PDF</a>
+            <a class="collapse-item" href="allPDF.php"> <i class="fas fa-fw fa-list"></i> All PDF'S</a>
+        </div>
+    </div>
+</li>
 
 
     <!-- Divider -->
@@ -54,5 +67,7 @@
 
     <!-- Sidebar Message -->
 
+
+   
 
 </ul>

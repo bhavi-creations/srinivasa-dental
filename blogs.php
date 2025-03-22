@@ -25,44 +25,48 @@ $stmt->execute();
 // Get the result
 $result = $stmt->get_result();
 ?>
- 
 
 
 
-  <?php include 'navbar.php'; ?>
+
+<?php include 'navbar.php'; ?>
 
 
-  <main>
-    <!-- Filter Buttons -->
-    <div class="container">
-      <div class="filter_buttons redirect_section mt-4">
-        <a href="blogs.php?service="><button class="redirect_blog_srivice">All</button></a>
-        <a href="blogs.php?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
-        <a href="blogs.php?service=Dental Braces"><button class="redirect_blog_srivice">Dental Braces</button></a>
-        <a href="blogs.php?service=Dental Implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
-        <a href="blogs.php?service=Crown Bridge"><button class="redirect_blog_srivice">Crown & Bridge</button></a>
-        <a href="blogs.php?service=Teeth Filling"><button class="redirect_blog_srivice">Teeth Filling</button></a>
-        <a href="blogs.php?service=Dentures"><button class="redirect_blog_srivice">Dentures</button></a>
-        <a href="blogs.php?service=Teeth Scaling"><button class="redirect_blog_srivice">Teeth Scaling</button></a>
-        <a href="blogs.php?service=Tooth Extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
-        <a href="blogs.php?service=Teeth Cleaning"><button class="redirect_blog_srivice">Teeth Cleaning</button></a>
-        <a href="blogs.php?service=Teeth Whitening"><button class="redirect_blog_srivice">Teeth Whitening</button></a>
-        <a href="blogs.php?service=Smile Makeover"><button class="redirect_blog_srivice">Smile Makeover</button></a>
-        <a href="blogs.php?service=Full Mouth Restoration"><button class="redirect_blog_srivice">Full Mouth Restoration</button></a>
+<main>
+  <!-- Filter Buttons -->
+  <div class="container">
+    <div class="filter_buttons redirect_section mt-4">
+      <a href="blogs.php?service="><button class="redirect_blog_srivice">All</button></a>
+      <a href="blogs.php?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
+      <a href="blogs.php?service=Dental Braces"><button class="redirect_blog_srivice">Dental Braces</button></a>
+      <a href="blogs.php?service=Dental Implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
+      <a href="blogs.php?service=Crown Bridge"><button class="redirect_blog_srivice">Crown & Bridge</button></a>
+      <a href="blogs.php?service=Teeth Filling"><button class="redirect_blog_srivice">Teeth Filling</button></a>
+      <a href="blogs.php?service=Dentures"><button class="redirect_blog_srivice">Dentures</button></a>
+      <a href="blogs.php?service=Teeth Scaling"><button class="redirect_blog_srivice">Teeth Scaling</button></a>
+      <a href="blogs.php?service=Tooth Extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
+      <a href="blogs.php?service=Teeth Cleaning"><button class="redirect_blog_srivice">Teeth Cleaning</button></a>
+      <a href="blogs.php?service=Teeth Whitening"><button class="redirect_blog_srivice">Teeth Whitening</button></a>
+      <a href="blogs.php?service=Smile Makeover"><button class="redirect_blog_srivice">Smile Makeover</button></a>
+      <a href="blogs.php?service=Full Mouth Restoration"><button class="redirect_blog_srivice">Full Mouth Restoration</button></a>
 
-      </div>
     </div>
+  </div>
 
-    <!-- Blogs Section -->
-    <div class="container blog-sidebar-list" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="grid row">
-            <?php
-            if ($result->num_rows > 0) {
-              while ($row = $result->fetch_assoc()) {
-                $image_path = !empty($row['main_image']) ? "admin/uploads/photos/{$row['main_image']}" : "default_image.png";
-                echo "
+  <!-- Blogs Section -->
+  <div class="container blog-sidebar-list" style="padding-top: 20px; padding-bottom: 20px;">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="grid row">
+          <?php
+          if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+
+              
+              $image_path = !empty($row['main_image']) ? "admin/uploads/photos/{$row['main_image']}" : "default_image.png";
+            
+            
+              echo "
                                     <div class='grid-item col-sm-12 col-lg-4 mb-5'>
                                         <div class='post-box card_bg_div_box'>
                                             <figure>
@@ -77,22 +81,22 @@ $result = $stmt->get_result();
                                             </div>
                                         </div>
                                     </div>";
-              }
-            } else {
-              echo "<p>No blog posts found.</p>";
             }
-            ?>
-          </div>
+          } else {
+            echo "<p>No blog posts found.</p>";
+          }
+          ?>
         </div>
       </div>
     </div>
-  </main>
+  </div>
+</main>
 
 
 
-  <!-- ======= Footer ======= -->
-  <?php include('./footer.php'); ?>
-  
+<!-- ======= Footer ======= -->
+<?php include('./footer.php'); ?>
+
 
 
 </body>

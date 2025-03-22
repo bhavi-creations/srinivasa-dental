@@ -3274,8 +3274,8 @@ section{
 
 @media (min-width: 1400px) {
   .mam_image {
-    margin-top: -27px;
-    z-index: 999 !important;
+    margin-top: -270px;
+    /* z-index: 999 !important; */
   }
 
   .padding_text_madam {
@@ -4372,4 +4372,5 @@ background-color: #94beeb;
   }
   
 }
+
 
