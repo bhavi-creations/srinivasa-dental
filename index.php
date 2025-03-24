@@ -1062,7 +1062,7 @@
 
 
 
-  <section  >
+  <section class="mam_images_section"  >
   <div class="container last_container   ">
         <div class="row">
             <div class="col-md-6 padding_text_madam order-2 order-md-1">

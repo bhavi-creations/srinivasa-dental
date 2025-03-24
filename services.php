@@ -152,15 +152,16 @@
                     </div>
 
                     <div class="col">
-                        <a href="teethcleaning.php" style="text-decoration: none;">
+                        <a href="clearaligners.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
-                                <img src="assets/img/services/9.jpg" class="card-img-top" alt="...">
+                                <img src="assets/img/services/clearaligners.png" class="card-img-top" alt="...">
 
                                 <div class="card-body d-flex flex-column">
                                     <div>
-                                        <h5 class="card-title">Teeth Cleaning</h5>
-                                        <p class="card-text">Dental cleaning is a professional procedure to remove plaque, tartar, and stains from teeth, promoting oral health and preventing gum disease.</p>
-                                    </div>
+                                        <h5 class="card-title">
+                                        Clear Aligners
+                                        </h5>
+                                        <p class="card-text">Clear aligners are transparent, custom trays that straighten teeth by gradually shifting them into proper alignment</p></div>
                                     <div class="mt-auto d-flex justify-content-end">
                                         <button class="service_card_read_more_btn"> Read More...</button>
                                     </div>
