@@ -4378,3 +4378,86 @@ background-color: #94beeb;
 
 
  
+
+
+.custom_blogs_section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+.custom_container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+.custom_section_title {
+    margin-bottom: 30px;
+}
+.custom_our_blogs {
+    font-size: 18px;
+    color: #555;
+}
+.custom_approach {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+.custom_description {
+    font-size: 16px;
+    color: #666;
+}
+.custom_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.custom_col-md-4 {
+    width: 32%;
+}
+.custom_col-sm-12 {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .custom_col-md-4 {
+        width: 100%;
+    }
+}
+.custom_card {
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.custom_card_body {
+    padding: 20px;
+    text-align: center;
+}
+.custom_card_img, .custom_main_video {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.custom_card_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+}
+.custom_card_text {
+    font-size: 14px;
+    color: #666;
+}
+.custom_btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.custom_btn:hover {
+    background-color: #0056b3;
+}
+.custom_view_more {
+    margin-top: 30px;
+}
