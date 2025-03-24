@@ -979,18 +979,18 @@
 
 
 
-                <!-- <div class="mt-5 d-none d-md-block">
+               <div class="mt-5 d-none d-md-block">
                     <a href="blogs.php" style="text-decoration: none;">
                         <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i
                                 class="fa-solid fa-arrow-right mt-1"></i></p>
                     </a>
                 </div>
 
-                <div class="d-flex flex-row  mt-4">
+                <div class="d-flex flex-row  mt-4 d-md-none">
                     <a href="blogs.php" style="text-decoration: none;">
                         <p class="view_more_btn ">View More<i class="fa-solid fa-arrow-right"></i></p>
                     </a>
-                </div> -->
+                </div> 
 
             </div>
         </div>
