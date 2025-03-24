@@ -907,9 +907,11 @@ section{
   overflow: hidden;
 }
 
-.blogs_section_new{
+#blogs_section_new{
   margin-bottom: 60px !important;
 }
+
+
 
 /* .last_container{
   margin-top: 40px !important;
@@ -3297,7 +3299,8 @@ section{
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .mam_image {
-    margin-top: -160px;
+    /* margin-top: -160px; */
+    margin-top: -98px;
   }
 
   .padding_text_madam {
@@ -4374,3 +4377,4 @@ background-color: #94beeb;
 }
 
 
+ 

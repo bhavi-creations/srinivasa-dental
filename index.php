@@ -895,8 +895,8 @@
     </script>
 
 
-<!-- 
-    <section class="blogs_section_new ">
+
+    <section id="blogs_section_new">
         <div class="container">
             <div class="section-title text-center">
                 <p class="our_blogs my-2">Our Blogs</p>
@@ -979,7 +979,7 @@
 
 
 
-               <div class="mt-5 d-none d-md-block">
+               <div class="mt-5 d-none d-md-block" >
                     <a href="blogs.php" style="text-decoration: none;">
                         <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i
                                 class="fa-solid fa-arrow-right mt-1"></i></p>
@@ -995,16 +995,16 @@
             </div>
         </div>
 
-    </section> -->
+    </section> 
 
 
-
+<!-- 
     <section class="blog_section ">
      <div class="container">
        <div class="section-title text-center">
 
-         <h2 class="ask_heading mb-5">Blogs & articles </h2>
-         <p class="mb-5  ">General and cosmetic dentistry can give you a smile you’re proud to show off. Modern cosmetic dentistry techniques make it easier than ever to achieve a bright, even smile. Visit Srinivasa Dental Clinic in Kakinada.
+         <h2 class="ask_heading">Blogs & articles </h2>
+         <p class="mb-3  ">General and cosmetic dentistry can give you a smile you’re proud to show off. Modern cosmetic dentistry techniques make it easier than ever to achieve a bright, even smile. Visit Srinivasa Dental Clinic in Kakinada.
 
        </div>
      </div>
@@ -1087,7 +1087,7 @@
        </div>
      </div>
 
-   </section>
+   </section> -->
 
 
 
@@ -1100,7 +1100,8 @@
 
 
 
-   <div class="container last_container   ">
+  <section >
+  <div class="container last_container   ">
         <div class="row">
             <div class="col-md-6 padding_text_madam order-2 order-md-1">
                 <h1 class="madam_text">Do You Want Smile Like A Celebrity
@@ -1120,6 +1121,7 @@
         </div>
     </div>
  
+  </section>
 
 
 
