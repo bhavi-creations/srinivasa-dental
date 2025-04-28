@@ -415,11 +415,11 @@ p.get_in_touch.read_hide.readerr {
 
   }
 
-  .service_slider_name {
+  /* .service_slider_name {
     font-size: 50px;
     color: #1d2053;
     font-weight: 800;
-  }
+  } */
 
   .teeth_slider_name {
     font-size: 50px;
@@ -480,8 +480,7 @@ p.get_in_touch.read_hide.readerr {
     #full_mouth{
       font-size: 29px !important;
     } 
-  }
-
+ 
 
 
   .service_slider_name {
@@ -788,7 +787,8 @@ p.get_in_touch.read_hide.readerr {
 @media (max-width:425px) {
  
   .service_slider_name {
-    /* font-size: 25px; */
+    font-size: 23px;
+    margin-top: 22px;
     color: #1d2053;
     font-weight: 800;
     margin-bottom: 0px;
