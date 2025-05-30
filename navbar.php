@@ -379,9 +379,10 @@
               <li><a class="dropdown-item" href="blogs.php">Blogs</a></li>
               <li><a class="dropdown-item" href="news.php">News letter</a></li>
               <!-- <li><a class="dropdown-item" href="blog3.php">Blog 3</a></li> -->
-          
+
             </ul>
           </li>
+          <li><a class="nav-link  " target="_blank" href="https://smile-view.invisalign.in/?campaign_name=SmileView-Consumer_IN_India-Consumer">Smile test</a></li>
 
           <li><a class="nav-link <?= ($current_page == 'testimonials.php') ? 'active' : ''; ?>" href="testimonials.php">What Patients Say</a></li>
           <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">

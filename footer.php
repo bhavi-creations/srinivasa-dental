@@ -160,6 +160,9 @@
           </a><a href="contact.php">
             <p class="foot_para">Contact</p>
           </a>
+          <a target="_blank" href="https://smile-view.invisalign.in/?campaign_name=SmileView-Consumer_IN_India-Consumer">
+            <p class="foot_para">Smile test</p>
+          </a>
 
           <div class="d-flex">
             <a
@@ -294,8 +297,8 @@
   <!-- spped -->
   <script src="your-script.js" async></script>
 
-<script src="your-script.js" defer></script>
-<!-- <IfModule mod_expires.c>
+  <script src="your-script.js" defer></script>
+  <!-- <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType text/css "access plus 1 month"
   ExpiresByType application/javascript "access plus 1 month"

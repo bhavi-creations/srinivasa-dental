@@ -10,7 +10,7 @@
 
 
 
-        <section class="sectionForm">
+        <!-- <section class="sectionForm">
             <div class="container">
                 <div class="row servSect">
                     <div class="col-md-7 dr_content_padding   ">
@@ -317,39 +317,39 @@
                                     let currentSlide = 0;
                                     let slideWidth = slides[0].offsetWidth;
 
-                                    // Function to update the slide position
+                                     
                                     function updateSlidePosition() {
                                         carousel.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
                                     }
 
-                                    // Function to move to the next or previous slide
-                                    window.moveSlide = function(n) { // Attach to the window object
+                                     
+                                    window.moveSlide = function(n) {  
                                         currentSlide += n;
 
                                         if (currentSlide >= totalSlides) {
-                                            currentSlide = 0; // Loop back to the first slide
+                                            currentSlide = 0;  
                                         } else if (currentSlide < 0) {
-                                            currentSlide = totalSlides - 1; // Loop to the last slide
+                                            currentSlide = totalSlides - 1;  
                                         }
 
-                                        updateSlidePosition(); // Update the position to reflect the move
+                                        updateSlidePosition();  
                                     };
 
-                                    // Auto-slide functionality
+                                     
                                     function autoSlide() {
-                                        moveSlide(1); // Move to the next slide
+                                        moveSlide(1);  
                                     }
 
-                                    // Set the auto-slide interval (adjust time as needed)
-                                    setInterval(autoSlide, 7000); // Auto-slide every 3 seconds
+                                   
+                                    setInterval(autoSlide, 7000);  
 
-                                    // Handle window resizing to adjust slide width
+                                   
                                     window.addEventListener('resize', function() {
-                                        slideWidth = slides[0].offsetWidth; // Recalculate slide width
-                                        updateSlidePosition(); // Adjust the position after resizing
+                                        slideWidth = slides[0].offsetWidth; 
+                                        updateSlidePosition();  
                                     });
 
-                                    // Initialize the first slide
+                                    
                                     updateSlidePosition();
                                 });
                             </script>
@@ -361,10 +361,7 @@
                     <div class="col-md-5 mt-5 text-center">
                         <div class="custom-swiper-container">
                             <div class="swiper-wrapper">
-                                <!-- <div class="swiper-slide">
-                                    <img src="assets/img/services/s4.png" class="img-fluid custom-img-padding"
-                                        alt="Dental Image 1" loading="lazy">
-                                </div> -->
+                                
                                 <div class="swiper-slide">
                                     <img src="assets/img/services/reviews (1).png" class="img-fluid custom-img-padding"
                                         alt="Dental Braces" loading="lazy">
@@ -379,12 +376,7 @@
                                 </div>
 
                             </div>
-                            <!-- Add Pagination -->
-                            <!-- <div class="swiper-pagination"></div> -->
-
-                            <!-- Add Navigation -->
-                            <!-- <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div> -->
+                          
                         </div>
                     </div>
 
@@ -402,11 +394,11 @@
                 var readLessBtn = document.querySelector('.readLessBtn');
 
                 if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block"; // Show the additional content
-                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                    showThisDiv.style.display = "block";  
+                    readMoreBtn.style.display = "none";  
                 } else {
-                    showThisDiv.style.display = "none"; // Hide content
-                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                    showThisDiv.style.display = "none";  
+                    readMoreBtn.style.display = "inline"; 
                 }
             }
 
@@ -416,11 +408,11 @@
                 var readLessBtn = document.querySelector('.readLessBtn1');
 
                 if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block"; // Show the additional content
-                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                    showThisDiv.style.display = "block";  
+                    readMoreBtn.style.display = "none";  
                 } else {
-                    showThisDiv.style.display = "none"; // Hide content
-                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                    showThisDiv.style.display = "none";  
+                    readMoreBtn.style.display = "inline";  
                 }
             }
 
@@ -430,11 +422,11 @@
                 var readLessBtn = document.querySelector('.readLessBtn2');
 
                 if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block"; // Show the additional content
-                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                    showThisDiv.style.display = "block";  
+                    readMoreBtn.style.display = "none";  
                 } else {
-                    showThisDiv.style.display = "none"; // Hide content
-                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                    showThisDiv.style.display = "none";  
+                    readMoreBtn.style.display = "inline";  
                 }
             }
 
@@ -444,11 +436,11 @@
                 var readLessBtn = document.querySelector('.readLessBtn3');
 
                 if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block"; // Show the additional content
-                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                    showThisDiv.style.display = "block";  
+                    readMoreBtn.style.display = "none";  
                 } else {
-                    showThisDiv.style.display = "none"; // Hide content
-                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                    showThisDiv.style.display = "none";  
+                    readMoreBtn.style.display = "inline";  
                 }
             }
 
@@ -458,11 +450,11 @@
                 var readLessBtn = document.querySelector('.readLessBtn4');
 
                 if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block"; // Show the additional content
-                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                    showThisDiv.style.display = "block";  
+                    readMoreBtn.style.display = "none";  
                 } else {
-                    showThisDiv.style.display = "none"; // Hide content
-                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                    showThisDiv.style.display = "none";  
+                    readMoreBtn.style.display = "inline";  
                 }
             }
 
@@ -472,11 +464,11 @@
                 var readLessBtn = document.querySelector('.readLessBtn5');
 
                 if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block"; // Show the additional content
-                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                    showThisDiv.style.display = "block";  
+                    readMoreBtn.style.display = "none";  
                 } else {
-                    showThisDiv.style.display = "none"; // Hide content
-                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                    showThisDiv.style.display = "none";  
+                    readMoreBtn.style.display = "inline";  
                 }
             }
 
@@ -486,11 +478,11 @@
                 var readLessBtn = document.querySelector('.readLessBtn6');
 
                 if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block"; // Show the additional content
-                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                    showThisDiv.style.display = "block";  
+                    readMoreBtn.style.display = "none";  
                 } else {
-                    showThisDiv.style.display = "none"; // Hide content
-                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                    showThisDiv.style.display = "none";  
+                    readMoreBtn.style.display = "inline";  
                 }
             }
 
@@ -500,11 +492,11 @@
                 var readLessBtn = document.querySelector('.readLessBtn7');
 
                 if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block"; // Show the additional content
-                    readMoreBtn.style.display = "none"; // Hide 'Read More'
+                    showThisDiv.style.display = "block";  
+                    readMoreBtn.style.display = "none";  
                 } else {
-                    showThisDiv.style.display = "none"; // Hide content
-                    readMoreBtn.style.display = "inline"; // Show 'Read More'
+                    showThisDiv.style.display = "none";  
+                    readMoreBtn.style.display = "inline";  
                 }
             }
         </script>
@@ -516,8 +508,8 @@
                     loop: true,
                     effect: 'fade',
                     autoplay: {
-                        delay: 2000, // 2 seconds interval
-                        disableOnInteraction: false, // Continue autoplay after user interactions
+                        delay: 2000,  
+                        disableOnInteraction: false,  
                     },
                     pagination: {
                         el: '.swiper-pagination',
@@ -529,7 +521,7 @@
                     },
                 });
             });
-        </script>
+        </script> -->
 
 
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
