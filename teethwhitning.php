@@ -111,7 +111,7 @@
       <div class="container">
         <div class="section-title text-center">
 
-          <h2 class="apporach">Experience a Smooth Recovery </h2>
+          <h2 class="apporach">Brighten your smile effortlessly </h2>
 
 
           <p class="svg_apporach_service"> <svg xmlns="http://www.w3.org/2000/svg" width="266" height="10"
@@ -121,7 +121,7 @@
                 fill="#25B4F8" />
             </svg>
           </p>
-          <h2 class="apporach"> Watch Our Tooth Extraction Procedure</h2>
+          <h2 class="apporach">with teeth whitening — brilliance you can feel confident in!</h2>
 
 
 
@@ -137,7 +137,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLKqhEROGo?si=BsgdLMzAmlueIwZX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLKqhEROGo?si=qF45WRsRIItp_UoV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -152,7 +152,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLKqhEROGo?si=BsgdLMzAmlueIwZX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLKqhEROGo?si=qF45WRsRIItp_UoV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -174,7 +174,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLKqhEROGo?si=BsgdLMzAmlueIwZX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLKqhEROGo?si=qF45WRsRIItp_UoV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -204,7 +204,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLKqhEROGo?si=BsgdLMzAmlueIwZX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLKqhEROGo?si=qF45WRsRIItp_UoV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
