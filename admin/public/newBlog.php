@@ -69,7 +69,7 @@
                                                 <option value="">Select a Service</option>
                                                 <option value="Root Canal">Root Canal</option>
                                                 <option value="Dental Braces">Dental Braces</option>
-                                                <option value="Clear Aligners">Clear Aligners</option>
+                                                <!-- <option value="Clear Aligners">Clear Aligners</option> -->
                                                 <option value="Dental Implants">Dental Implants</option>
                                                 <option value="Crown Bridge">Crown & Bridge</option>
                                                 <option value="Teeth Filling">Teeth Filling</option>

@@ -39,7 +39,7 @@ $result = $stmt->get_result();
       <a href="blogs.php?service="><button class="redirect_blog_srivice">All</button></a>
       <a href="blogs.php?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
       <a href="blogs.php?service=Dental Braces"><button class="redirect_blog_srivice">Dental Braces</button></a>
-      <a href="blogs.php?service=Clear Aligners"><button class="redirect_blog_srivice">Clear Aligners</button></a>
+      <!-- <a href="blogs.php?service=Clear Aligners"><button class="redirect_blog_srivice">Clear Aligners</button></a> -->
       <a href="blogs.php?service=Dental Implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
       <a href="blogs.php?service=Crown Bridge"><button class="redirect_blog_srivice">Crown & Bridge</button></a>
       <a href="blogs.php?service=Teeth Filling"><button class="redirect_blog_srivice">Teeth Filling</button></a>
