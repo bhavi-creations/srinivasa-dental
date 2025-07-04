@@ -125,42 +125,146 @@
   }
 
   // Generate JSON-LD Schema Markup
-  $schema_data = [
-    "@context" => "https://schema.org",
-    "@type" => "Dentist",
-    "name" => $hospital_name,
-    "url" => $hospital_url,
-    "logo" => $hospital_logo,
-    "description" => $hospital_description,
-    "telephone" => $hospital_phone,
-    "address" => [
-      "@type" => "PostalAddress",
-      "streetAddress" => $hospital_address["streetAddress"],
-      "addressLocality" => $hospital_address["addressLocality"],
-      "addressRegion" => $hospital_address["addressRegion"],
-      "postalCode" => $hospital_address["postalCode"],
-      "addressCountry" => $hospital_address["addressCountry"]
-    ],
-    "medicalSpecialty" => $hospital_specialties,
-    "openingHours" => $opening_hours_array,
-    "founder" => [
-      "@type" => "Person",
-      "name" => "Dr. D.V.S. Kiran Raju, M.D.S.",
-      "jobTitle" => "Chief Dental Surgeon",
-      "sameAs" => "https://srinivasadentalkakinada.com/about-doctor"
-    ],
-    "sameAs" => [
-      "https://www.facebook.com/srinivasadentalhospital",
-      "https://www.instagram.com/srinivasadentalhospital",
-      "https://www.linkedin.com/company/srinivasadentalhospital"
-    ],
-  ];
+  // <script type="application/ld+json">
+  // {
+  //   "@context": "https://schema.org",
+  //   "@type": "Dentist",
+  //   "name": "Srinivasa Multispecialty Dental Hospital",
+  //   "url": "https://srinivasadentalkakinada.com/",
+  //   "logo": "https://srinivasadentalkakinada.com/wp-content/uploads/2024/01/logo.png",
+  //   "description": "Srinivasa Multispecialty Dental Hospital in Kakinada offers expert dental care, including root canals, braces, implants, and cosmetic dentistry.",
+  //   "image": "https://srinivasadentalkakinada.com/wp-content/uploads/2024/01/clinic-front.jpg",
+  //   "telephone": "+91-9290019948",
+  //   "contactPoint": {
+  //     "@type": "ContactPoint",
+  //     "telephone": "+91-08842342346",
+  //     "contactType": "Customer Service"
+  //   },
+  //   "address": {
+  //     "@type": "PostalAddress",
+  //     "streetAddress": "Jawahar Street, Beside MRF Showroom, Opp Vivekananda Statue - Kulaicheruvu Park",
+  //     "addressLocality": "Kakinada",
+  //     "addressRegion": "Andhra Pradesh",
+  //     "postalCode": "533001",
+  //     "addressCountry": "India"
+  //   },
+  //   "geo": {
+  //     "@type": "GeoCoordinates",
+  //     "latitude": 16.9617981,
+  //     "longitude": 82.2343152
+  //   },
+  //   "medicalSpecialty": [
+  //     "Dentistry",
+  //     "Orthodontics",
+  //     "Cosmetic Dentistry",
+  //     "Implant Dentistry"
+  //   ],
+  //   "openingHours": [
+  //     "Monday-Saturday 09:00-21:00",
+  //     "Sunday Closed"
+  //   ],
+  //   "founder": {
+  //     "@type": "Person",
+  //     "name": "Dr. D.V.S. Kiran Raju, M.D.S.",
+  //     "jobTitle": "Chief Dental Surgeon",
+  //     "sameAs": "https://srinivasadentalkakinada.com/about-doctor"
+  //   },
+  //   "priceRange": "₹₹",
+  //   "sameAs": [
+  //     "https://www.facebook.com/srinivasadentalhospital",
+  //     "https://www.instagram.com/srinivasadentalhospital",
+  //     "https://www.linkedin.com/company/srinivasadentalhospital",
+  //     "https://g.co/kgs/e3XWa3t"
+  //   ]
+  // }
+  // </script> 
 
   ?>
   <script type="application/ld+json">
     <?= json_encode($schema_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES); ?>
   </script>
 </head>
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+        "@type": "Question",
+        "name": "What are clear aligners and how do they work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Clear aligners are transparent, removable trays designed to gradually straighten your teeth. They are a modern alternative to braces and are nearly invisible when worn."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Invisalign better than traditional braces?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Invisalign and other clear aligners are more comfortable, discreet, and removable compared to traditional metal braces. They are ideal for adults and teens seeking aesthetic treatment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does clear aligner treatment usually take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most clear aligner treatments last between 6 to 18 months, depending on the case complexity. Regular dental visits ensure proper progress and timely results."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are clear aligners painful?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They are usually painless. You may feel slight pressure or tightness when starting a new aligner tray, but this is temporary and a sign the treatment is working."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide clear aligner treatments in Kakinada?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Srinivasa Dental Hospital offers advanced clear aligner solutions in Kakinada using 3D scanning and customized treatment plans for precise smile correction."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who is the best dentist in Kakinada ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dr. D.V.S. Kiran Raju, MDS, at Srinivasa Multispecialty Dental Hospital is widely known for his expertise in orthodontics and cosmetic dentistry, delivering excellent results with aligners and braces."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What makes Srinivasa Dental Hospital the best in Kakinada?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "With expert dentists, state-of-the-art equipment, and personalized care, Srinivasa Dental stands out as one of the top-rated dental hospitals in Kakinada, especially for orthodontic treatments like aligners."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I book a consultation at Srinivasa Dental Hospital?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can book your appointment online through our website or by calling us directly. We also provide walk-in consultations based on availability."
+        }
+      }
+    ]
+  }
+</script>
+
+
+
+
 
 
 <body>
@@ -370,15 +474,35 @@
             </ul>
           </li>
 
+          <!-- <li><a class="nav-link <?= ($current_page == 'gallery.php') ? 'active' : ''; ?>" href="gallery.php">Gallery</a></li> -->
+
+
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle <?= ($current_page == 'gallery.php') ? 'active' : ''; ?>"
+              href="gallery.php" id="servicesDropdown" role="button">
+              Gallery
+            </a>
+            <ul>
+
+              <li><a class="dropdown-item services_drop" href="smile_make_over.php">Smile Make Over</a></li>
+            </ul>
+          </li> -->
+
           <li><a class="nav-link <?= ($current_page == 'gallery.php') ? 'active' : ''; ?>" href="gallery.php">Gallery</a></li>
+    
+
+
+
+
+
           <li class="nav-item dropdown">
             <a class="nav-link <?= ($current_page == 'blogs.php') ? 'active' : ''; ?> dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="false">
               Posts
             </a>
-            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu post_section " aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="blogs.php">Blogs</a></li>
               <li><a class="dropdown-item" href="news.php">News letter</a></li>
-              <!-- <li><a class="dropdown-item" href="blog3.php">Blog 3</a></li> -->
+              <li><a class="dropdown-item" href="smile_stories.php">Smile Stories</a></li>
 
             </ul>
           </li>

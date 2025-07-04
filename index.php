@@ -1088,6 +1088,195 @@
 
 
 
+
+
+
+  
+<section >
+    <div class="container">
+
+        <h1 class="text-center">Frequently Ask Question (FAQ)</h1>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="accordion">
+                    <!-- Accordion 1 -->
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section">What are clear aligners and how do they work?
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            Clear aligners are transparent, removable trays designed to gradually straighten your teeth. They are a modern alternative to braces and are nearly invisible when worn                        </div>
+                    </div>
+                    <!-- Accordion 2 -->
+                    <div class="faq_section">
+
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section">Is Invisalign better than traditional braces?
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            Yes. Invisalign and other clear aligners are more comfortable, discreet, and removable compared to traditional metal braces. They are ideal for adults and teens seeking aesthetic treatment                        </div>
+                    </div>
+
+
+
+                    <!-- Accordion 3 -->
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section">How long does clear aligner treatment usually take?
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            Most clear aligner treatments last between 6 to 18 months, depending on the case complexity. Regular dental visits ensure proper progress and timely results                        </div>
+                    </div>
+
+                    <!-- Accordion 4 -->
+
+
+
+
+
+
+
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section"> Are clear aligners painful?
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            They are usually painless. You may feel slight pressure or tightness when starting a new aligner tray, but this is temporary and a sign the treatment is working                        </div>
+                    </div>
+
+                    <!-- Accordion 5 -->
+                    <!-- <div class="faq_section">
+              <div class="accordion-header" onclick="toggleAccordion(this)">
+                <h2  class="faq_heading_section" >Can cancer be prevented?
+                </h2>
+                <h2 class="accordion-icon">+</h2>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Not all cancers are preventable, but up to 30-50% of cases can be avoided through healthy lifestyle choices, regular screenings, vaccinations (like HPV), and avoiding carcinogens such as tobacco and processed foods
+                </p>
+              </div>
+            </div> -->
+
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6">
+
+
+                <div class="accordion">
+                    <!-- Accordion 1 -->
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section">Do you provide clear aligner treatments in Kakinada?
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            Yes, Srinivasa Dental Hospital offers advanced clear aligner solutions in Kakinada using 3D scanning and customized treatment plans for precise smile correction                        </div>
+                    </div>
+                    <!-- Accordion 2 -->
+                    <div class="faq_section">
+
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section"> Who is the best dentist in Kakinada ?
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            Dr. D.V.S. Kiran Raju, MDS, at Srinivasa Multispecialty Dental Hospital is widely known for his expertise in orthodontics and cosmetic dentistry, delivering excellent results with aligners and braces                        </div>
+                    </div>
+
+
+
+                    <!-- Accordion 3 -->
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section"> What makes Srinivasa Dental Hospital the best in Kakinada?
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            With expert dentists, state-of-the-art equipment, and personalized care, Srinivasa Dental stands out as one of the top-rated dental hospitals in Kakinada, especially for orthodontic treatments like aligners                        </div>
+                    </div>
+                    <!-- Accordion 4 -->
+                    <div class="faq_section">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h2 class="faq_heading_section"> How can I book a consultation at Srinivasa Dental Hospital?
+
+
+                            </h2>
+                            <h2 class="accordion-icon">+</h2>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                            You can book your appointment online through our website or by calling us directly. We also provide walk-in consultations based on availability                            </p>
+                        </div>
+                    </div>
+                    <!-- Accordion 5 -->
+                    <!-- <div class="faq_section">
+              <div class="accordion-header" onclick="toggleAccordion(this)">
+                <h2 class="faq_heading_section"> Can cancer be cured if detected early?
+                </h2>
+                <h2 class="accordion-icon">+</h2>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Yes, many types of cancer can be effectively treated or even cured if detected at an early stage. Regular screenings, awareness of symptoms, and early intervention improve survival rates significantly
+                </p>
+              </div>
+            </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script>
+    function toggleAccordion(header) {
+        const content = header.nextElementSibling;
+        const icon = header.querySelector(".accordion-icon");
+
+        content.classList.toggle("open");
+        icon.classList.toggle("rotate");
+
+        icon.textContent = content.classList.contains("open") ? "−" : "+";
+    }
+</script>
+
+
+
+
+
+
+
 </main><!-- End #main -->
 
 <?php include('./footer.php'); ?>

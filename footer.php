@@ -165,6 +165,14 @@
           </a>
 
           <div class="d-flex">
+
+          <a
+              href=" https://g.co/kgs/MndBkhZ"
+              target="_blank" style="margin-top: -5px ;" >
+              <img
+                src="assets/img/srinivasa//gmb2.png"
+                class="img-fluid  last_gmb_section"
+                alt="" /></a>
             <a
               href="https://www.facebook.com/srinivasadentalkakinada/"
               target="_blank">
@@ -192,6 +200,7 @@
 
             &nbsp;&nbsp;
 
+            
             <a
               href=" https://www.youtube.com/@srinivasadentalkakinada"
               target="_blank">
@@ -199,6 +208,8 @@
                 src="assets/img/srinivasa/youtube.png"
                 class="img-fluid"
                 alt="" /></a>
+
+
           </div>
         </div>
         <div class="col-7 col-md-6 col-lg-3 py-2">
