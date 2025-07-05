@@ -67,7 +67,67 @@ img.img-fluid.dr_img_padding {
     position: relative;
     left: 49px !important;
   }
+
+
+
+  img.imgg4 {
+   
+    top: 41px !important;
+    left: 53px !important;
+  }
+
+  img.imgg5 {
+
+    top: 40px !important;
+    left: 70px !important;
+  }
+  img.imgg7 {
+top: 20px !important;
+left: 70px !important ;
+  }
+
+
+
+  img.imgg8 {
+    left:50px  !important;
+    top: 30px !important;
+    
+  }
+
+  img.imgg9 {
+    left: 90px !important;
+    top: 40px !important;
+    
+  }
+
+  img.imgg10 {
+    top: 50px !important;
+    left: 80px !important;
+  }
+
+
 }
+
+
+
+@media (min-width:768px) and (max-width:992px) {
+  
+img.imgg10 {
+ 
+  top: -124px !important;
+  left: 8px !important;
+}
+}
+
+
+@media (min-width:992px) and (max-width:1400px) {
+  
+  img.imgg10 {
+   
+    top: -150px !important;
+    left: 8px !important;
+  }
+  }
 
 img.imgg1 {
   position: relative;
@@ -115,6 +175,10 @@ img.imgg5 {
   position: relative;
   left: 28px;
 }
+
+
+
+
 
 img.imgg10 {
   width: 58%;
