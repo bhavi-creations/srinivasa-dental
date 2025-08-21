@@ -86,6 +86,21 @@
 
 
   <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RH7959MKP3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-RH7959MKP3');
+  </script>
+
+
+
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -96,7 +111,9 @@
     gtag('js', new Date());
 
     gtag('config', 'AW-10932795730');
+
   </script>
+  
   <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
   <?php
   // Define hospital details dynamically
@@ -489,7 +506,7 @@
           </li> -->
 
           <li><a class="nav-link <?= ($current_page == 'gallery.php') ? 'active' : ''; ?>" href="gallery.php">Gallery</a></li>
-    
+
 
 
 

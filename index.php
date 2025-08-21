@@ -21,19 +21,21 @@
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    let video = document.getElementById("myVideo");
+    document.addEventListener("DOMContentLoaded", function() {
+        let video = document.getElementById("myVideo");
 
-    // Try playing immediately (some browsers may block it)
-    video.play().then(() => {
-      console.log("Autoplay with sound worked!");
-    }).catch((error) => {
-      console.log("Autoplay blocked. Waiting for user interaction...");
-      document.body.addEventListener("click", function () {
-        video.play();
-      }, { once: true }); // Play on first click
+        // Try playing immediately (some browsers may block it)
+        video.play().then(() => {
+            console.log("Autoplay with sound worked!");
+        }).catch((error) => {
+            console.log("Autoplay blocked. Waiting for user interaction...");
+            document.body.addEventListener("click", function() {
+                video.play();
+            }, {
+                once: true
+            }); // Play on first click
+        });
     });
-  });
 </script>
 
 
@@ -801,7 +803,7 @@
     <?php include('./videotestimonials.php'); ?>
 
 
- 
+
     <section>
         <div class="container">
             <p class="welcome_text">Our Happy Client Testimonial</p>
@@ -900,10 +902,10 @@
 
 
 
- 
 
 
- 
+
+
     <!-- <section class="blog_section ">
      <div class="container">
        <div class="section-title text-center">
@@ -918,61 +920,61 @@
        <div class="row">
 
          <?php
-          include './db.connection/db_connection.php';
-
-       
-          $sql = "SELECT id, title, main_content, main_image, video FROM blogs ORDER BY created_at DESC LIMIT 3";
-          $result = $conn->query($sql);
-
-          if ($result->num_rows > 0) {
-            echo "<div class='row'>"; // Start row for card layout
-
-            while ($row = $result->fetch_assoc()) {
-              $blog_id = $row['id'];
-              $title = $row['title'];
-              $main_content = $row['main_content'];
-              $main_image = $row['main_image'];
-              $video = $row['video'];
-
-              echo "<div class='col-md-4 mb-4'>"; // Create 3 equal-width columns for medium devices
-              echo "<div class='card h-100'>"; // Start card
-
-              // Display the blog title
-              echo "<div class='card-body'>";
+            include './db.connection/db_connection.php';
 
 
-              // Display video if available
-              if (!empty($video)) {
-                $video_path = "./admin/uploads/videos/{$video}";
-                echo "<video class='main-video img-fluid' controls>
+            $sql = "SELECT id, title, main_content, main_image, video FROM blogs ORDER BY created_at DESC LIMIT 3";
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                echo "<div class='row'>"; // Start row for card layout
+
+                while ($row = $result->fetch_assoc()) {
+                    $blog_id = $row['id'];
+                    $title = $row['title'];
+                    $main_content = $row['main_content'];
+                    $main_image = $row['main_image'];
+                    $video = $row['video'];
+
+                    echo "<div class='col-md-4 mb-4'>"; // Create 3 equal-width columns for medium devices
+                    echo "<div class='card h-100'>"; // Start card
+
+                    // Display the blog title
+                    echo "<div class='card-body'>";
+
+
+                    // Display video if available
+                    if (!empty($video)) {
+                        $video_path = "./admin/uploads/videos/{$video}";
+                        echo "<video class='main-video img-fluid' controls>
                     <source src='{$video_path}' type='video/mp4'>
                     Your browser does not support the video tag.
                   </video>";
-              }
-              // If no video, display main image
-              elseif (!empty($main_image)) {
-                $main_image_path = "./admin/uploads/photos/{$main_image}";
-                echo "<img class='card-img-top img-fluid' src='{$main_image_path}' alt='Blog Image'>";
-              }
-              echo "<h5 class='card-title my-3'>" . htmlspecialchars($title) . "</h5>";
-              // Display a short portion of the blog content
-              echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
+                    }
+                    // If no video, display main image
+                    elseif (!empty($main_image)) {
+                        $main_image_path = "./admin/uploads/photos/{$main_image}";
+                        echo "<img class='card-img-top img-fluid' src='{$main_image_path}' alt='Blog Image'>";
+                    }
+                    echo "<h5 class='card-title my-3'>" . htmlspecialchars($title) . "</h5>";
+                    // Display a short portion of the blog content
+                    echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
 
-              // Link to full blog post
-              echo "<a href='fullblog.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
+                    // Link to full blog post
+                    echo "<a href='fullblog.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
 
-              echo "</div>"; // End card body
-              echo "</div>"; // End card
-              echo "</div>"; // End column
+                    echo "</div>"; // End card body
+                    echo "</div>"; // End card
+                    echo "</div>"; // End column
+                }
+
+                echo "</div>"; // End row
+            } else {
+                echo "No blog posts found.";
             }
 
-            echo "</div>"; // End row
-          } else {
-            echo "No blog posts found.";
-          }
-
-          $conn->close();
-          ?>
+            $conn->close();
+            ?>
 
 
 
@@ -997,93 +999,93 @@
 
 
 
-   <section class="custom_blogs_section">
-    <div class="custom_container">
-        <div class="custom_section_title text-center">
-            <p class="custom_our_blogs my-2">Our Blogs</p>
-            <h2 class="custom_approach">Blogs & Articles</h2>
-            <p class="custom_description mb-5">General and cosmetic dentistry can give you a smile you’re proud to show off. Modern cosmetic dentistry techniques make it easier than ever to achieve a bright, even smile. Visit Srinivasa Dental Clinic in Kakinada.</p>
+    <section class="custom_blogs_section">
+        <div class="custom_container">
+            <div class="custom_section_title text-center">
+                <p class="custom_our_blogs my-2">Our Blogs</p>
+                <h2 class="custom_approach">Blogs & Articles</h2>
+                <p class="custom_description mb-5">General and cosmetic dentistry can give you a smile you’re proud to show off. Modern cosmetic dentistry techniques make it easier than ever to achieve a bright, even smile. Visit Srinivasa Dental Clinic in Kakinada.</p>
+            </div>
         </div>
-    </div>
 
-    <div class="custom_container">
-        <div class="custom_row">
-            <?php
-            include './db.connection/db_connection.php';
-            $sql = "SELECT id, title, main_content, main_image, video FROM blogs ORDER BY created_at DESC LIMIT 3";
-            $result = $conn->query($sql);
+        <div class="custom_container">
+            <div class="custom_row">
+                <?php
+                include './db.connection/db_connection.php';
+                $sql = "SELECT id, title, main_content, main_image, video FROM blogs ORDER BY created_at DESC LIMIT 3";
+                $result = $conn->query($sql);
 
-            if ($result->num_rows > 0) {
-                echo "<div class='custom_row'>";
-                while ($row = $result->fetch_assoc()) {
-                    $blog_id = $row['id'];
-                    $title = $row['title'];
-                    $main_content = $row['main_content'];
-                    $main_image = $row['main_image'];
-                    $video = $row['video'];
+                if ($result->num_rows > 0) {
+                    echo "<div class='custom_row'>";
+                    while ($row = $result->fetch_assoc()) {
+                        $blog_id = $row['id'];
+                        $title = $row['title'];
+                        $main_content = $row['main_content'];
+                        $main_image = $row['main_image'];
+                        $video = $row['video'];
 
-                    echo "<div class='custom_col-md-4 mb-4'>";
-                    echo "<div class='custom_card h-100'>";
-                    echo "<div class='custom_card_body'>";
-                    
-                    if (!empty($video)) {
-                        $video_path = "./admin/uploads/videos/{$video}";
-                        echo "<video class='custom_main_video img-fluid' controls>
+                        echo "<div class='custom_col-md-4 mb-4'>";
+                        echo "<div class='custom_card h-100'>";
+                        echo "<div class='custom_card_body'>";
+
+                        if (!empty($video)) {
+                            $video_path = "./admin/uploads/videos/{$video}";
+                            echo "<video class='custom_main_video img-fluid' controls>
                                 <source src='{$video_path}' type='video/mp4'>
                                 Your browser does not support the video tag.
                               </video>";
-                    } elseif (!empty($main_image)) {
-                        $main_image_path = "./admin/uploads/photos/{$main_image}";
-                        echo "<img class='custom_card_img img-fluid' src='{$main_image_path}' alt='Blog Image'>";
+                        } elseif (!empty($main_image)) {
+                            $main_image_path = "./admin/uploads/photos/{$main_image}";
+                            echo "<img class='custom_card_img img-fluid' src='{$main_image_path}' alt='Blog Image'>";
+                        }
+                        echo "<h5 class='custom_card_title my-3'>" . htmlspecialchars($title) . "</h5>";
+                        echo "<p class='custom_card_text'>" . substr($main_content, 0, 90) . "...</p>";
+                        echo "<a href='fullblog.php?id={$blog_id}' class='custom_btn custom_btn_primary'>Read more</a>";
+                        echo "</div>";
+                        echo "</div>";
+                        echo "</div>";
                     }
-                    echo "<h5 class='custom_card_title my-3'>" . htmlspecialchars($title) . "</h5>";
-                    echo "<p class='custom_card_text'>" . substr($main_content, 0, 90) . "...</p>";
-                    echo "<a href='fullblog.php?id={$blog_id}' class='custom_btn custom_btn_primary'>Read more</a>";
                     echo "</div>";
-                    echo "</div>";
-                    echo "</div>";
+                } else {
+                    echo "No blog posts found.";
                 }
-                echo "</div>";
-            } else {
-                echo "No blog posts found.";
-            }
-            $conn->close();
-            ?>
+                $conn->close();
+                ?>
+            </div>
         </div>
-    </div>
 
-    <div class="custom_view_more text-center mt-4">
-        <a href="blogs.php" class="custom_btn custom_btn_primary">View More</a>
-    </div>
-</section>
+        <div class="custom_view_more text-center mt-4">
+            <a href="blogs.php" class="custom_btn custom_btn_primary">View More</a>
+        </div>
+    </section>
 
 
     <!-- End Testimonials Section -->
 
 
 
-  <section class="mam_images_section"  >
-  <div class="container last_container   ">
-        <div class="row">
-            <div class="col-md-6 padding_text_madam order-2 order-md-1">
-                <h1 class="madam_text">Do You Want Smile Like A Celebrity
-                     </h1>
-                <p class="text_mam">Scheduling an appointment at Srinivasa Dental is easy and convenient. Simply call us at +91-9290019948 or use our online booking system to choose a time that works for you.
-                </p>
-                <div class=" btn_div   ">
-                    <a href="appointment.php">
-                        <button class="read_more_btn">Book an Appointment </button>
-                    </a>
+    <section class="mam_images_section">
+        <div class="container last_container   ">
+            <div class="row">
+                <div class="col-md-6 padding_text_madam order-2 order-md-1">
+                    <h1 class="madam_text">Do You Want Smile Like A Celebrity
+                    </h1>
+                    <p class="text_mam">Scheduling an appointment at Srinivasa Dental is easy and convenient. Simply call us at +91-9290019948 or use our online booking system to choose a time that works for you.
+                    </p>
+                    <div class=" btn_div   ">
+                        <a href="appointment.php">
+                            <button class="read_more_btn">Book an Appointment </button>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 order-1 order-md-2">
-                <img src="assets/img/srinivasa/deep.png" class="img-fluid mam_image" alt="">
-            </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <img src="assets/img/srinivasa/deep.png" class="img-fluid mam_image" alt="">
+                </div>
 
+            </div>
         </div>
-    </div>
- 
-  </section>
+
+    </section>
 
 
 
@@ -1091,56 +1093,59 @@
 
 
 
-  
-<section >
-    <div class="container">
 
-        <h1 class="text-center">Frequently Ask Question (FAQ)</h1>
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="accordion">
-                    <!-- Accordion 1 -->
-                    <div class="faq_section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <h2 class="faq_heading_section">What are clear aligners and how do they work?
+    <section>
+        <div class="container">
 
-                            </h2>
-                            <h2 class="accordion-icon">+</h2>
+            <h1 class="text-center">Frequently Ask Question (FAQ)</h1>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="accordion">
+                        <!-- Accordion 1 -->
+                        <div class="faq_section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h2 class="faq_heading_section">What are clear aligners and how do they work?
+
+                                </h2>
+                                <h2 class="accordion-icon">+</h2>
+                            </div>
+                            <div class="accordion-content">
+                                <p>
+                                    Clear aligners are transparent, removable trays designed to gradually straighten your teeth. They are a modern alternative to braces and are nearly invisible when worn
+                            </div>
                         </div>
-                        <div class="accordion-content">
-                            <p>
-                            Clear aligners are transparent, removable trays designed to gradually straighten your teeth. They are a modern alternative to braces and are nearly invisible when worn                        </div>
-                    </div>
-                    <!-- Accordion 2 -->
-                    <div class="faq_section">
+                        <!-- Accordion 2 -->
+                        <div class="faq_section">
 
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <h2 class="faq_heading_section">Is Invisalign better than traditional braces?
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h2 class="faq_heading_section">Is Invisalign better than traditional braces?
 
-                            </h2>
-                            <h2 class="accordion-icon">+</h2>
+                                </h2>
+                                <h2 class="accordion-icon">+</h2>
+                            </div>
+                            <div class="accordion-content">
+                                <p>
+                                    Yes. Invisalign and other clear aligners are more comfortable, discreet, and removable compared to traditional metal braces. They are ideal for adults and teens seeking aesthetic treatment
+                            </div>
                         </div>
-                        <div class="accordion-content">
-                            <p>
-                            Yes. Invisalign and other clear aligners are more comfortable, discreet, and removable compared to traditional metal braces. They are ideal for adults and teens seeking aesthetic treatment                        </div>
-                    </div>
 
 
 
-                    <!-- Accordion 3 -->
-                    <div class="faq_section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <h2 class="faq_heading_section">How long does clear aligner treatment usually take?
+                        <!-- Accordion 3 -->
+                        <div class="faq_section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h2 class="faq_heading_section">How long does clear aligner treatment usually take?
 
-                            </h2>
-                            <h2 class="accordion-icon">+</h2>
+                                </h2>
+                                <h2 class="accordion-icon">+</h2>
+                            </div>
+                            <div class="accordion-content">
+                                <p>
+                                    Most clear aligner treatments last between 6 to 18 months, depending on the case complexity. Regular dental visits ensure proper progress and timely results
+                            </div>
                         </div>
-                        <div class="accordion-content">
-                            <p>
-                            Most clear aligner treatments last between 6 to 18 months, depending on the case complexity. Regular dental visits ensure proper progress and timely results                        </div>
-                    </div>
 
-                    <!-- Accordion 4 -->
+                        <!-- Accordion 4 -->
 
 
 
@@ -1148,20 +1153,21 @@
 
 
 
-                    <div class="faq_section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <h2 class="faq_heading_section"> Are clear aligners painful?
+                        <div class="faq_section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h2 class="faq_heading_section"> Are clear aligners painful?
 
-                            </h2>
-                            <h2 class="accordion-icon">+</h2>
+                                </h2>
+                                <h2 class="accordion-icon">+</h2>
+                            </div>
+                            <div class="accordion-content">
+                                <p>
+                                    They are usually painless. You may feel slight pressure or tightness when starting a new aligner tray, but this is temporary and a sign the treatment is working
+                            </div>
                         </div>
-                        <div class="accordion-content">
-                            <p>
-                            They are usually painless. You may feel slight pressure or tightness when starting a new aligner tray, but this is temporary and a sign the treatment is working                        </div>
-                    </div>
 
-                    <!-- Accordion 5 -->
-                    <!-- <div class="faq_section">
+                        <!-- Accordion 5 -->
+                        <!-- <div class="faq_section">
               <div class="accordion-header" onclick="toggleAccordion(this)">
                 <h2  class="faq_heading_section" >Can cancer be prevented?
                 </h2>
@@ -1174,69 +1180,72 @@
               </div>
             </div> -->
 
+                    </div>
+
                 </div>
-
-            </div>
-            <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6">
 
 
-                <div class="accordion">
-                    <!-- Accordion 1 -->
-                    <div class="faq_section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <h2 class="faq_heading_section">Do you provide clear aligner treatments in Kakinada?
+                    <div class="accordion">
+                        <!-- Accordion 1 -->
+                        <div class="faq_section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h2 class="faq_heading_section">Do you provide clear aligner treatments in Kakinada?
 
-                            </h2>
-                            <h2 class="accordion-icon">+</h2>
+                                </h2>
+                                <h2 class="accordion-icon">+</h2>
+                            </div>
+                            <div class="accordion-content">
+                                <p>
+                                    Yes, Srinivasa Dental Hospital offers advanced clear aligner solutions in Kakinada using 3D scanning and customized treatment plans for precise smile correction
+                            </div>
                         </div>
-                        <div class="accordion-content">
-                            <p>
-                            Yes, Srinivasa Dental Hospital offers advanced clear aligner solutions in Kakinada using 3D scanning and customized treatment plans for precise smile correction                        </div>
-                    </div>
-                    <!-- Accordion 2 -->
-                    <div class="faq_section">
+                        <!-- Accordion 2 -->
+                        <div class="faq_section">
 
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <h2 class="faq_heading_section"> Who is the best dentist in Kakinada ?
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h2 class="faq_heading_section"> Who is the best dentist in Kakinada ?
 
-                            </h2>
-                            <h2 class="accordion-icon">+</h2>
+                                </h2>
+                                <h2 class="accordion-icon">+</h2>
+                            </div>
+                            <div class="accordion-content">
+                                <p>
+                                    Dr. D.V.S. Kiran Raju, MDS, at Srinivasa Multispecialty Dental Hospital is widely known for his expertise in orthodontics and cosmetic dentistry, delivering excellent results with aligners and braces
+                            </div>
                         </div>
-                        <div class="accordion-content">
-                            <p>
-                            Dr. D.V.S. Kiran Raju, MDS, at Srinivasa Multispecialty Dental Hospital is widely known for his expertise in orthodontics and cosmetic dentistry, delivering excellent results with aligners and braces                        </div>
-                    </div>
 
 
 
-                    <!-- Accordion 3 -->
-                    <div class="faq_section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <h2 class="faq_heading_section"> What makes Srinivasa Dental Hospital the best in Kakinada?
+                        <!-- Accordion 3 -->
+                        <div class="faq_section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h2 class="faq_heading_section"> What makes Srinivasa Dental Hospital the best in Kakinada?
 
-                            </h2>
-                            <h2 class="accordion-icon">+</h2>
+                                </h2>
+                                <h2 class="accordion-icon">+</h2>
+                            </div>
+                            <div class="accordion-content">
+                                <p>
+                                    With expert dentists, state-of-the-art equipment, and personalized care, Srinivasa Dental stands out as one of the top-rated dental hospitals in Kakinada, especially for orthodontic treatments like aligners
+                            </div>
                         </div>
-                        <div class="accordion-content">
-                            <p>
-                            With expert dentists, state-of-the-art equipment, and personalized care, Srinivasa Dental stands out as one of the top-rated dental hospitals in Kakinada, especially for orthodontic treatments like aligners                        </div>
-                    </div>
-                    <!-- Accordion 4 -->
-                    <div class="faq_section">
-                        <div class="accordion-header" onclick="toggleAccordion(this)">
-                            <h2 class="faq_heading_section"> How can I book a consultation at Srinivasa Dental Hospital?
+                        <!-- Accordion 4 -->
+                        <div class="faq_section">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h2 class="faq_heading_section"> How can I book a consultation at Srinivasa Dental Hospital?
 
 
-                            </h2>
-                            <h2 class="accordion-icon">+</h2>
+                                </h2>
+                                <h2 class="accordion-icon">+</h2>
+                            </div>
+                            <div class="accordion-content">
+                                <p>
+                                    You can book your appointment online through our website or by calling us directly. We also provide walk-in consultations based on availability </p>
+                            </div>
                         </div>
-                        <div class="accordion-content">
-                            <p>
-                            You can book your appointment online through our website or by calling us directly. We also provide walk-in consultations based on availability                            </p>
-                        </div>
-                    </div>
-                    <!-- Accordion 5 -->
-                    <!-- <div class="faq_section">
+                        <!-- Accordion 5 -->
+                        <!-- <div class="faq_section">
               <div class="accordion-header" onclick="toggleAccordion(this)">
                 <h2 class="faq_heading_section"> Can cancer be cured if detected early?
                 </h2>
@@ -1249,27 +1258,27 @@
               </div>
             </div> -->
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
 
 
-<script>
-    function toggleAccordion(header) {
-        const content = header.nextElementSibling;
-        const icon = header.querySelector(".accordion-icon");
+    <script>
+        function toggleAccordion(header) {
+            const content = header.nextElementSibling;
+            const icon = header.querySelector(".accordion-icon");
 
-        content.classList.toggle("open");
-        icon.classList.toggle("rotate");
+            content.classList.toggle("open");
+            icon.classList.toggle("rotate");
 
-        icon.textContent = content.classList.contains("open") ? "−" : "+";
-    }
-</script>
+            icon.textContent = content.classList.contains("open") ? "−" : "+";
+        }
+    </script>
 
 
 
