@@ -522,10 +522,17 @@ h6 {
   color: #0598d2;
 }
 
+.service_subservice_secton{
+  left: -82px !important;  
+
+}
+
+
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: -82px;
+
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -4475,7 +4482,16 @@ padding-left: -50px !important;
 
 .post_section li a {
   line-height: 40px !important;
+  left: 0px !important ;  
 }
+
+
+.review_section{
+  line-height: 40px !important;
+}
+
+
+
 
 
 /* before after image stylings  */

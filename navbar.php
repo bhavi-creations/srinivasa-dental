@@ -111,9 +111,8 @@
     gtag('js', new Date());
 
     gtag('config', 'AW-10932795730');
-
   </script>
-  
+
   <meta name="google-site-verification" content="DTcGCIR9IfsrwdT9-mWW0E5SAgsnh3ampaFCbajjoZg" />
   <?php
   // Define hospital details dynamically
@@ -467,7 +466,7 @@
               href="services.php" id="servicesDropdown" role="button">
               Services
             </a>
-            <ul class="dropdown-menu services_drop_menu mt-1" aria-labelledby="servicesDropdown" style="width:700px;">
+            <ul class="dropdown-menu services_drop_menu mt-1 service_subservice_secton" aria-labelledby="servicesDropdown" style="width:700px;">
               <div class="row">
                 <div class="col-md-4">
                   <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
@@ -523,9 +522,23 @@
 
             </ul>
           </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link <?= ($current_page == 'blogs.php') ? 'active' : ''; ?> dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="false">
+              What Patients Say
+            </a>
+            <ul class="dropdown-menu post_section  " aria-labelledby="navbarDropdown">
+
+
+              <li><a class="nav-link dropdown-item <?= ($current_page == 'testimonials.php') ?  : ''; ?>" href="testimonials.php">What Patients Say</a></li>
+
+              <li><a class="dropdown-item" href="video_reviews.php">Video testimonials</a></li>
+
+            </ul>
+          </li>
           <li><a class="nav-link  " target="_blank" href="https://smile-view.invisalign.in/?campaign_name=SmileView-Consumer_IN_India-Consumer">Smile test</a></li>
 
-          <li><a class="nav-link <?= ($current_page == 'testimonials.php') ? 'active' : ''; ?>" href="testimonials.php">What Patients Say</a></li>
           <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
               Appointment
             </a></li>
