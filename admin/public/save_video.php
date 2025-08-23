@@ -1,4 +1,9 @@
 <?php
+// Enable error reporting (for debugging, remove in production)
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 // Database connection
 include '../../db.connection/db_connection.php';
 
@@ -14,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Validate
     if (empty($title)) {
-        die("Error: Title cannot be empty.");
+        die("❌ Error: Title cannot be empty.");
     }
 
     // Handle video upload
@@ -26,26 +31,33 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Ensure the video upload folder exists
         if (!is_dir($video_directory)) {
-            mkdir($video_directory, 0777, true);
+            if (!mkdir($video_directory, 0777, true)) {
+                die("❌ Error: Failed to create video upload directory.");
+            }
         }
 
+        // Move uploaded file
         if (!move_uploaded_file($_FILES['video']['tmp_name'], $video_directory . $video_name)) {
-            die("Error uploading video.");
+            die("❌ Error uploading video. Check folder permissions.");
         }
     } else {
-        die("Error: No video file selected.");
+        die("❌ Error: No video file selected.");
     }
 
     // Insert into videos table
     $stmt = $conn->prepare("INSERT INTO videos (title, video_path) VALUES (?, ?)");
+    if (!$stmt) {
+        die("❌ Prepare failed: " . $conn->error);
+    }
+
     $stmt->bind_param("ss", $title, $video_path);
 
     if ($stmt->execute()) {
-        echo "✅ Video uploaded successfully!";
-        header("Location: list_videos.php"); // Redirect to video list page
+        // Redirect without echo (fixes header already sent issue)
+        header("Location: list_videos.php?success=1");
         exit();
     } else {
-        echo "Error: " . $stmt->error;
+        die("❌ Database Error: " . $stmt->error);
     }
 
     $stmt->close();
