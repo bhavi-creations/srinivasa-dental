@@ -199,6 +199,22 @@
   <script type="application/ld+json">
     <?= json_encode($schema_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES); ?>
   </script>
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17501822247">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17501822247');
+</script>
+
+
+
+
+
 </head>
 
 
@@ -277,6 +293,12 @@
     ]
   }
 </script>
+
+
+
+
+
+<!-- Google tag (gtag.js) -->
 
 
 
