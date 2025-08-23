@@ -1,33 +1,12 @@
 <?php include 'navbar.php'; ?>
-<style>
-    .video-wrapper {
-        position: relative;
-        width: 100%;
-        padding-top: 177.78%;
-        /* 16:9 aspect ratio -> 9/16*100 = 56.25, for reels (9:16) use 177.78 */
-        background: #000;
-        border-radius: 10px;
-        overflow: hidden;
-    }
 
-    .video-wrapper video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        /* for full coverage (like Instagram reels) */
-    }
-</style>
 
 
 <section>
 
-
-    <div class="container-fluid">
-        <h1 class="text-center py-3">Video Testimonials</h1>
-        <div class="row g-3">
+    <div class="container">
+        <h1 class="text-center py-2">Video Testimonials</h1>
+        <div class="row">
             <?php
             include __DIR__ . '/db.connection/db_connection.php';
 
@@ -37,12 +16,22 @@
             if ($result && $result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
             ?>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="video-wrapper shadow-sm">
-                            <video class="w-100 h-100" controls playsinline>
-                                <source src="./admin/uploads/video_reviews/<?php echo htmlspecialchars($row['video_path']); ?>" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+                    <div class="col-md-6 col-lg-4 col-12 mb-3">
+                        <div class="card shadow-sm border-0">
+                            <div class="video-container">
+                                <video controls>
+                                    <source src="./admin/uploads/video_reviews/<?php echo htmlspecialchars($row['video_path']); ?>" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <!-- If you want title under video, uncomment this -->
+                            <!--
+                        <div class="card-body p-2">
+                            <h6 class="text-center text-primary mb-0">
+                                <?php echo htmlspecialchars($row['title']); ?>
+                            </h6>
+                        </div>
+                        -->
                         </div>
                     </div>
             <?php
@@ -56,15 +45,32 @@
         </div>
     </div>
 
+    <style>
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%;
+            /* 16:9 Aspect Ratio */
+            background: #000;
+            /* black background */
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            /* ensures video fits fully */
+        }
+    </style>
+
 </section>
 
 
 
 
 <?php include 'footer.php'; ?>
-
-
-
-
-
-
