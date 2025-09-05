@@ -57,6 +57,26 @@
                                 <div class="card-body">
                                     <form style='color:black;' id="addblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
 
+
+
+
+                                        <div class="mb-3">
+                                            <label for="formFileLogo" class="form-label text-primary">Choose Logo</label>
+                                            <input class="form-control" name="logo" type="file" id="formFileLogo">
+                                        </div>
+
+                                        <!-- ✅ New Logo Link Field -->
+                                        <div class="mb-3">
+                                            <label for="logoLink" class="form-label text-primary">Logo Link</label>
+                                            <input type="url" class="form-control text-grey-900" name="logo_link" id="logoLink" placeholder="https://example.com">
+                                        </div>
+
+
+
+
+
+
+
                                         <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label text-primary">ENTER TITLE</label>
                                             <input type="text" class="form-control text-grey-900" name='title' id="exampleFormControlInput1" placeholder="Title" required>
