@@ -286,7 +286,7 @@ if ($blog_id > 0) {
 
 
                     <!-- Left Sidebar (First Half Blogs) -->
-                    <div class="col-lg-3 col-md-6 blogs_left_blogs" >
+                    <div class="col-lg-3 col-md-6 blogs_left_blogs">
                         <div class="ul-service-details-sidebar fixed-sidebar">
                             <!-- Show only 2 blogs at a time, scroll for rest -->
                             <div class="ul-service-details-sidebar-widget" style="max-height:200px; overflow-y:auto;">
@@ -360,8 +360,8 @@ if ($blog_id > 0) {
 
                     <div class="col-lg-3 col-md-2">
 
-                        <img src="assets2/img/banner 1.jpeg" alt="" style="height: 310px; width: 330px;">
-                        
+                        <img src="./assets/img/services/service_side_image1.jpg" alt="" style="height:280px; width: 330px;">
+
 
                         <div class="card" style="display:flex; justify-content:center; align-items:center; flex-direction:column;">
                             <h3 class="mani">Contact Us</h3>
@@ -375,7 +375,7 @@ if ($blog_id > 0) {
                     </div>
                     <div class="col-lg-6 col-md-8 middle_content">
                         <?php if ($blog): ?>
-                            <div style="max-height: 420px; overflow-y: auto; padding-right:10px;">
+                            <div style="max-height: 380px; overflow-y: auto; padding-right:10px;">
                                 <!-- Logo -->
                                 <!-- <?php if (!empty($blog['logo'])): ?>
                                     <div class="text-center mb-3">
@@ -419,16 +419,146 @@ if ($blog_id > 0) {
                                 </div>
 
 
+
+
+
+
+
+                                
+
+
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
                                     <div class="ul-service-details-full-content mt-3">
                                         <?php echo nl2br(htmlspecialchars($blog['full_content'])); ?>
                                     </div>
                                 <?php endif; ?>
+
+
+
+
+                                <!-- <button class="prs-btn" onclick="openModal()">Click to Review</button> -->
+
+<!-- <div id="reviewModal" class="prs-modal">
+  <div class="prs-modal-content">
+  
+    <button class="prs-form-close-btn" onclick="closeModal()">×</button>
+    <h3 style="margin-bottom:15px;">Write a Review</h3>
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+
+    <div class="prs-star-rating" id="starRating">
+      <span class="prs-star" data-value="1">&#9733;</span>
+      <span class="prs-star" data-value="2">&#9733;</span>
+      <span class="prs-star" data-value="3">&#9733;</span>
+      <span class="prs-star" data-value="4">&#9733;</span>
+      <span class="prs-star" data-value="5">&#9733;</span>
+    </div>
+
+    <textarea id="review" placeholder="Your Review"></textarea>
+    <button class="prs-btn" onclick="submitReview()">Submit</button>
+  </div>
+</div>
+
+
+<div class="prs-reviews" id="reviewsContainer"></div> -->
+
+<!-- <script>
+  let selectedRating = 0;
+
+  // Modal Functions
+  function openModal() { document.getElementById("reviewModal").style.display = "flex"; }
+  function closeModal() { document.getElementById("reviewModal").style.display = "none"; }
+
+  // Star Rating
+  document.querySelectorAll(".prs-star").forEach(star => {
+    star.addEventListener("click", function () {
+      selectedRating = this.dataset.value;
+      document.querySelectorAll(".prs-star").forEach(s => s.classList.remove("selected"));
+      for (let i = 0; i < selectedRating; i++) {
+        document.querySelectorAll(".prs-star")[i].classList.add("selected");
+      }
+    });
+  });
+
+  // Submit Review
+  function submitReview() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let review = document.getElementById("review").value;
+
+    if (!name || !email || !review || selectedRating == 0) {
+      alert("Please fill all fields and select rating!");
+      return;
+    }
+
+    let container = document.getElementById("reviewsContainer");
+
+    let card = document.createElement("div");
+    card.className = "prs-review-card";
+    card.innerHTML = `
+      <button class="prs-close-btn" onclick="this.parentElement.remove()">×</button>
+      <h4>${name}</h4>
+      <div class="prs-stars">${"★".repeat(selectedRating)}${"☆".repeat(5 - selectedRating)}</div>
+      <p>${review}</p>
+      <button class="prs-btn" style="background:#28a745;" onclick="replyForm(this)">Reply</button>
+      <div class="prs-reply-box"></div>
+      <div class="prs-reply-list"></div>
+    `;
+
+    container.appendChild(card);
+
+    // Reset form
+    closeModal();
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("review").value = "";
+    selectedRating = 0;
+    document.querySelectorAll(".prs-star").forEach(s => s.classList.remove("selected"));
+  }
+
+  // Reply Form
+  function replyForm(button) {
+    let replyBox = button.nextElementSibling;
+    replyBox.innerHTML = `
+      <input type="text" placeholder="Write reply..." style="width:80%;margin-top:5px;padding:6px;">
+      <button class="prs-btn" style="background:#6c757d;margin-top:5px;" onclick="submitReply(this)">Send</button>
+    `;
+  }
+
+  // Submit Reply
+  function submitReply(button) {
+    let input = button.previousElementSibling;
+    if (input.value.trim() === "") {
+      alert("Reply cannot be empty");
+      return;
+    }
+    let replyList = button.parentElement.nextElementSibling;
+    let reply = document.createElement("div");
+    reply.className = "prs-reply";
+    reply.innerHTML = `<strong>Anna:</strong> ${input.value}`;
+
+    replyList.appendChild(reply);
+
+    // Clear reply input
+    button.parentElement.innerHTML = "";
+  }
+</script> -->
                             </div>
                         <?php else: ?>
                             <p>No blog details found.</p>
                         <?php endif; ?>
+
+
+
+
+
+
+
+
+
+
+                        
                     </div>
 
 
@@ -464,7 +594,7 @@ if ($blog_id > 0) {
                                             class="flaticon-arrow-up-right"></i></a>
                                 </div> -->
                         <!-- </div> -->
-                        <img src="assets2/img/banner 1.jpeg" alt="" style="height: 250px; width: 330px;">
+                        <img src="./assets/img/services/service_side_image2.jpg" alt="" style="height: 280px; width: 330px;">
                         <div class="card" style="display:flex; justify-content:center; align-items:center; flex-direction:column;">
                             <h3 class="mani">Contact Us</h3>
                             <p>For Digital Marketing Agency</p>
