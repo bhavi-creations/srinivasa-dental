@@ -181,22 +181,8 @@ if ($blog_id > 0) {
                             $redirect_link = !empty($blog['logo_link']) ? htmlspecialchars($blog['logo_link']) : '#';
                             ?>
 
-                            <!-- Logo -->
-                            <?php if (!empty($blog['logo'])): ?>
-                                <a href="<?php echo $redirect_link; ?>" target="_blank">
-                                    <img src="./admin/uploads/logos/<?php echo htmlspecialchars($blog['logo']); ?>"
-                                        class="img-fluid mb-3"
-                                        alt="Blog Logo"
-                                        style="max-height:150px; width:auto;">
-                                </a>
-                            <?php else: ?>
-                                <a href="<?php echo $redirect_link; ?>" target="_blank">
-                                    <img src="assets/img/default-logo.png"
-                                        class="img-fluid mb-3"
-                                        alt="Default Logo"
-                                        style="max-height:150px; width:auto;">
-                                </a>
-                            <?php endif; ?>
+                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+
 
                             <!-- Title -->
                             <?php if (!empty($blog['title'])): ?>
@@ -255,6 +241,11 @@ if ($blog_id > 0) {
                             ?>
 
                             <!-- Logo -->
+
+                            <!-- <a href=""> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid"></a> -->
+
+
+
                             <?php if (!empty($blog['logo'])): ?>
                                 <a href="<?php echo $redirect_link; ?>" target="_blank">
                                     <img src="./admin/uploads/logos/<?php echo htmlspecialchars($blog['logo']); ?>"
@@ -396,10 +387,14 @@ if ($blog_id > 0) {
 
                                 <!-- Main Content -->
                                 <?php if (!empty($blog['main_content'])): ?>
-                                    <p class="ul-service-details-descr">
-                                        <?php echo nl2br(strip_tags($blog['main_content'])); ?>
-                                    </p>
+                                    <div class="ul-service-details-descr">
+                                        <?php
+                                        // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
+                                        echo strip_tags($blog['main_content'], '<p><br><ul><ol><li><b><i><strong><em>');
+                                        ?>
+                                    </div>
                                 <?php endif; ?>
+
 
 
 
