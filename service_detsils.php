@@ -160,7 +160,7 @@ if ($blog_id > 0) {
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
                                     <a href='service_detsils.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
-                                        <img src='{$image_path}' class='me-2' style='width:70px; height:70px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
+                                        <img src='{$image_path}' class='me-2' style='width:30px; height:30px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
                                         <h6 class='mb-0 text-dark'>" . get_words($row['title'], 6) . "...</h6>
                                     </a>
                                 ";
@@ -200,11 +200,11 @@ if ($blog_id > 0) {
 
                             <!-- Title -->
                             <?php if (!empty($blog['title'])): ?>
-                                <h5>
+                                <p>
                                     <a href="<?php echo $redirect_link; ?>" target="_blank" style="text-decoration:none; color:inherit;">
                                         <?php echo htmlspecialchars($blog['title']); ?>
                                     </a>
-                                </h5>
+                                </p>
                             <?php endif; ?>
                         </div>
                     </div>
@@ -223,7 +223,7 @@ if ($blog_id > 0) {
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
                                     <a href='service_detsils.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
-                                        <img src='{$image_path}' class='me-2' style='width:70px; height:70px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
+                                        <img src='{$image_path}' class='me-2' style='width:30px; height:30px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
                                         <h6 class='mb-0 text-dark'>" . get_words($row['title'], 6) . "...</h6>
                                     </a>
                                 ";
@@ -299,7 +299,7 @@ if ($blog_id > 0) {
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
                                     <a href='service_detsils.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
-                                        <img src='{$image_path}' class='me-2' style='width:70px; height:70px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
+                                        <img src='{$image_path}' class='me-2' style='width:50px; height:50px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
                                         <h6 class='mb-0 text-dark'>" . get_words($row['title'], 6) . "...</h6>
                                     </a>
                                 ";
@@ -327,7 +327,7 @@ if ($blog_id > 0) {
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
                                     <a href='service_detsils.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
-                                        <img src='{$image_path}' class='me-2' style='width:70px; height:70px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
+                                        <img src='{$image_path}' class='me-2' style='width:50px; height:50px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
                                         <h6 class='mb-0 text-dark'>" . get_words($row['title'], 6) . "...</h6>
                                     </a>
                                 ";
@@ -424,7 +424,7 @@ if ($blog_id > 0) {
 
 
 
-                                
+
 
 
                                 <!-- Full Content -->
@@ -437,113 +437,260 @@ if ($blog_id > 0) {
 
 
 
-                                <!-- <button class="prs-btn" onclick="openModal()">Click to Review</button> -->
-
-<!-- <div id="reviewModal" class="prs-modal">
-  <div class="prs-modal-content">
-  
-    <button class="prs-form-close-btn" onclick="closeModal()">×</button>
-    <h3 style="margin-bottom:15px;">Write a Review</h3>
-    <input type="text" id="name" placeholder="Your Name">
-    <input type="email" id="email" placeholder="Your Email">
-
-    <div class="prs-star-rating" id="starRating">
-      <span class="prs-star" data-value="1">&#9733;</span>
-      <span class="prs-star" data-value="2">&#9733;</span>
-      <span class="prs-star" data-value="3">&#9733;</span>
-      <span class="prs-star" data-value="4">&#9733;</span>
-      <span class="prs-star" data-value="5">&#9733;</span>
-    </div>
-
-    <textarea id="review" placeholder="Your Review"></textarea>
-    <button class="prs-btn" onclick="submitReview()">Submit</button>
-  </div>
-</div>
+                                <button class="prs-btn mt-3" onclick="openModal()">Click to Review</button>
 
 
-<div class="prs-reviews" id="reviewsContainer"></div> -->
+                                <div id="reviewModal" class="prs-modal">
+                                    <div class="prs-modal-content">
+                                        <button class="prs-form-close-btn" onclick="closeModal()">×</button>
+                                        <h3 style="margin-bottom:15px;">Write a Review</h3>
+                                        <input type="text" id="name" placeholder="Your Name">
+                                        <input type="email" id="email" placeholder="Your Email">
 
-<!-- <script>
-  let selectedRating = 0;
+                                        <div class="prs-star-rating" id="starRating">
+                                            <span class="prs-star" data-value="1">&#9733;</span>
+                                            <span class="prs-star" data-value="2">&#9733;</span>
+                                            <span class="prs-star" data-value="3">&#9733;</span>
+                                            <span class="prs-star" data-value="4">&#9733;</span>
+                                            <span class="prs-star" data-value="5">&#9733;</span>
+                                        </div>
 
-  // Modal Functions
-  function openModal() { document.getElementById("reviewModal").style.display = "flex"; }
-  function closeModal() { document.getElementById("reviewModal").style.display = "none"; }
+                                        <textarea id="review" placeholder="Your Review"></textarea>
+                                        <button class="prs-btn" onclick="submitReview()">Submit</button>
+                                    </div>
+                                </div>
 
-  // Star Rating
-  document.querySelectorAll(".prs-star").forEach(star => {
-    star.addEventListener("click", function () {
-      selectedRating = this.dataset.value;
-      document.querySelectorAll(".prs-star").forEach(s => s.classList.remove("selected"));
-      for (let i = 0; i < selectedRating; i++) {
-        document.querySelectorAll(".prs-star")[i].classList.add("selected");
-      }
-    });
-  });
+                                <div class="prs-reviews" id="reviewsContainer" style="margin-top:15px;"></div>
 
-  // Submit Review
-  function submitReview() {
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let review = document.getElementById("review").value;
+                                <script>
+                                    let selectedRating = 0;
 
-    if (!name || !email || !review || selectedRating == 0) {
-      alert("Please fill all fields and select rating!");
-      return;
-    }
+                                    // Modal Functions
+                                    function openModal() {
+                                        document.getElementById("reviewModal").style.display = "flex";
+                                    }
 
-    let container = document.getElementById("reviewsContainer");
+                                    function closeModal() {
+                                        document.getElementById("reviewModal").style.display = "none";
+                                    }
 
-    let card = document.createElement("div");
-    card.className = "prs-review-card";
-    card.innerHTML = `
-      <button class="prs-close-btn" onclick="this.parentElement.remove()">×</button>
-      <h4>${name}</h4>
-      <div class="prs-stars">${"★".repeat(selectedRating)}${"☆".repeat(5 - selectedRating)}</div>
-      <p>${review}</p>
-      <button class="prs-btn" style="background:#28a745;" onclick="replyForm(this)">Reply</button>
-      <div class="prs-reply-box"></div>
-      <div class="prs-reply-list"></div>
+                                    // Star Rating
+                                    document.querySelectorAll(".prs-star").forEach(star => {
+                                        star.addEventListener("click", function() {
+                                            selectedRating = this.dataset.value;
+                                            document.querySelectorAll(".prs-star").forEach(s => s.classList.remove("selected"));
+                                            for (let i = 0; i < selectedRating; i++) {
+                                                document.querySelectorAll(".prs-star")[i].classList.add("selected");
+                                            }
+                                        });
+                                    });
+
+                                    // Load Reviews
+                                    function loadReviews() {
+                                        let container = document.getElementById("reviewsContainer");
+                                        container.innerHTML = "";
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+
+                                        if (reviews.length === 0) {
+                                            container.innerHTML = "<p>No reviews yet. Be the first to review!</p>";
+                                            return;
+                                        }
+
+                                        reviews.forEach((rev, index) => {
+                                            let replyCount = rev.replies ? rev.replies.length : 0;
+                                            let card = document.createElement("div");
+                                            card.className = "prs-review-card";
+                                            card.innerHTML = `
+                <h4>${rev.name}</h4>
+                <div class="prs-stars">${"★".repeat(rev.rating)}${"☆".repeat(5 - rev.rating)}</div>
+                <p>${rev.review}</p>
+                <button class="prs-btn" style="background:#28a745;" onclick="replyForm(this, ${index})">Reply</button>
+                <div class="prs-reply-box"></div>
+                <button class="prs-btn" style="background:#6c757d;margin-top:8px;" onclick="toggleReplies(${index})">
+                  View Replies (${replyCount})
+                </button>
+                <div class="prs-reply-list" id="replies-${index}" style="display:none; margin-top:8px;">
+                  ${(rev.replies || []).map((r, ridx) => `
+                      <div class='prs-reply'>
+                        <strong>${r.name}:</strong> ${r.text}
+                        <button class="prs-btn" style="background:#17a2b8;margin-left:10px;" onclick="replyToReplyForm(${index}, ${ridx})">Reply</button>
+                        <div id="nested-reply-box-${index}-${ridx}" style="margin-left:20px;"></div>
+                        ${(r.replies || []).map(nr => `
+                            <div class='prs-reply' style="margin-left:20px;">
+                                <strong>${nr.name}:</strong> ${nr.text}
+                            </div>
+                        `).join("")}
+                      </div>
+                  `).join("")}
+                </div>
+            `;
+                                            container.appendChild(card);
+                                        });
+                                    }
+
+                                    // Show All Reviews (button click)
+                                    function showAllReviews() {
+                                        document.getElementById("reviewsContainer").style.display = "block";
+                                        loadReviews();
+                                    }
+
+                                    // Submit Review
+                                    function submitReview() {
+                                        let name = document.getElementById("name").value;
+                                        let email = document.getElementById("email").value;
+                                        let review = document.getElementById("review").value;
+
+                                        if (!name || !email || !review || selectedRating == 0) {
+                                            alert("Please fill all fields and select rating!");
+                                            return;
+                                        }
+
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews.push({
+                                            name,
+                                            email,
+                                            review,
+                                            rating: selectedRating,
+                                            replies: []
+                                        });
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+
+                                        closeModal();
+                                        document.getElementById("name").value = "";
+                                        document.getElementById("email").value = "";
+                                        document.getElementById("review").value = "";
+                                        selectedRating = 0;
+                                        document.querySelectorAll(".prs-star").forEach(s => s.classList.remove("selected"));
+
+                                        loadReviews();
+                                    }
+
+                                    // Delete Review
+                                    function deleteReview(index) {
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews.splice(index, 1);
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+                                        loadReviews();
+                                    }
+
+                                    // Reply Form
+                                    function replyForm(button, index) {
+                                        let replyBox = button.nextElementSibling;
+                                        replyBox.innerHTML = `
+            <input type="text" placeholder="Your Name" style="width:80%;margin-top:5px;padding:6px;">
+            <input type="text" placeholder="Write reply..." style="width:80%;margin-top:5px;padding:6px;">
+            <button class="prs-btn" style="background:#6c757d;margin-top:5px;" onclick="submitReply(this, ${index})">Send</button>
+        `;
+                                    }
+
+                                    // Submit Reply
+                                    function submitReply(button, index) {
+                                        let inputs = button.parentElement.querySelectorAll("input");
+                                        let replyName = inputs[0].value.trim();
+                                        let replyText = inputs[1].value.trim();
+
+                                        if (!replyName || !replyText) {
+                                            alert("Please enter name and reply!");
+                                            return;
+                                        }
+
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews[index].replies = reviews[index].replies || [];
+                                        reviews[index].replies.push({
+                                            name: replyName,
+                                            text: replyText,
+                                            replies: []
+                                        });
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+
+                                        loadReviews();
+                                    }
+
+                                    // Reply-to-Reply Form
+                                    function replyToReplyForm(reviewIndex, replyIndex) {
+                                        let box = document.getElementById(`nested-reply-box-${reviewIndex}-${replyIndex}`);
+                                        box.innerHTML = `
+            <input type="text" placeholder="Your Name" style="width:70%;margin-top:5px;padding:6px;">
+            <input type="text" placeholder="Write reply..." style="width:70%;margin-top:5px;padding:6px;">
+            <button class="prs-btn" style="background:#17a2b8;margin-top:5px;" onclick="submitNestedReply(${reviewIndex}, ${replyIndex}, this)">Send</button>
+        `;
+                                    }
+
+                                    // Submit Nested Reply
+                                    function submitNestedReply(reviewIndex, replyIndex, button) {
+                                        let inputs = button.parentElement.querySelectorAll("input");
+                                        let replyName = inputs[0].value.trim();
+                                        let replyText = inputs[1].value.trim();
+
+                                        if (!replyName || !replyText) {
+                                            alert("Please enter name and reply!");
+                                            return;
+                                        }
+
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews[reviewIndex].replies[replyIndex].replies = reviews[reviewIndex].replies[replyIndex].replies || [];
+                                        reviews[reviewIndex].replies[replyIndex].replies.push({
+                                            name: replyName,
+                                            text: replyText
+                                        });
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+
+                                        loadReviews();
+                                    }
+
+                                    // Toggle Replies
+                                    function toggleReplies(index) {
+                                        let repliesDiv = document.getElementById(`replies-${index}`);
+                                        repliesDiv.style.display = repliesDiv.style.display === "none" ? "block" : "none";
+                                    }
+
+                                    // Load on page refresh
+                                    document.addEventListener("DOMContentLoaded", loadReviews);
+
+
+
+
+
+
+                                    // Reply Form (toggle)
+                                    function replyForm(button, index) {
+                                        let replyBox = button.nextElementSibling;
+                                        if (replyBox.innerHTML.trim() !== "") {
+                                            // already open → close
+                                            replyBox.innerHTML = "";
+                                            return;
+                                        }
+                                        replyBox.innerHTML = `
+        <input type="text" placeholder="Your Name" style="width:80%;margin-top:5px;padding:6px;">
+        <input type="text" placeholder="Write reply..." style="width:80%;margin-top:5px;padding:6px;">
+        <button class="prs-btn" style="background:#6c757d;margin-top:5px;" onclick="submitReply(this, ${index})">Send</button>
     `;
+                                    }
 
-    container.appendChild(card);
-
-    // Reset form
-    closeModal();
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("review").value = "";
-    selectedRating = 0;
-    document.querySelectorAll(".prs-star").forEach(s => s.classList.remove("selected"));
-  }
-
-  // Reply Form
-  function replyForm(button) {
-    let replyBox = button.nextElementSibling;
-    replyBox.innerHTML = `
-      <input type="text" placeholder="Write reply..." style="width:80%;margin-top:5px;padding:6px;">
-      <button class="prs-btn" style="background:#6c757d;margin-top:5px;" onclick="submitReply(this)">Send</button>
+                                    // Reply-to-Reply Form (toggle)
+                                    function replyToReplyForm(reviewIndex, replyIndex) {
+                                        let box = document.getElementById(`nested-reply-box-${reviewIndex}-${replyIndex}`);
+                                        if (box.innerHTML.trim() !== "") {
+                                            // already open → close
+                                            box.innerHTML = "";
+                                            return;
+                                        }
+                                        box.innerHTML = `
+        <input type="text" placeholder="Your Name" style="width:70%;margin-top:5px;padding:6px;">
+        <input type="text" placeholder="Write reply..." style="width:70%;margin-top:5px;padding:6px;">
+        <button class="prs-btn" style="background:#17a2b8;margin-top:5px;" onclick="submitNestedReply(${reviewIndex}, ${replyIndex}, this)">Send</button>
     `;
-  }
+                                    }
+                                </script>
 
-  // Submit Reply
-  function submitReply(button) {
-    let input = button.previousElementSibling;
-    if (input.value.trim() === "") {
-      alert("Reply cannot be empty");
-      return;
-    }
-    let replyList = button.parentElement.nextElementSibling;
-    let reply = document.createElement("div");
-    reply.className = "prs-reply";
-    reply.innerHTML = `<strong>Anna:</strong> ${input.value}`;
 
-    replyList.appendChild(reply);
 
-    // Clear reply input
-    button.parentElement.innerHTML = "";
-  }
-</script> -->
+
+
+
+
+
+
                             </div>
                         <?php else: ?>
                             <p>No blog details found.</p>
@@ -558,7 +705,7 @@ if ($blog_id > 0) {
 
 
 
-                        
+
                     </div>
 
 

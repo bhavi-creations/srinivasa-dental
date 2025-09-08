@@ -6577,8 +6577,8 @@ margin-top: -100px !important;
 
 .prs-modal-content {
   position: relative;
-  /* background: #fff; */
-  background:#c4e3f9 ;
+  background: #fff;
+  /* background:#c4e3f9 ; */
   padding: 20px 40px 20px 20px;
   
   border-radius: 12px;
