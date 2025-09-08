@@ -159,7 +159,7 @@ if ($blog_id > 0) {
                                             ? "./admin/uploads/photos/{$row['main_image']}"
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
-                                    <a href='service_detsils.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
+                                    <a href='fullblog.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
                                         <img src='{$image_path}' class='me-2' style='width:30px; height:30px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
                                         <h6 class='mb-0 text-dark'>" . get_words($row['title'], 6) . "...</h6>
                                     </a>
@@ -222,7 +222,7 @@ if ($blog_id > 0) {
                                             ? "./admin/uploads/photos/{$row['main_image']}"
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
-                                    <a href='service_detsils.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
+                                    <a href='fullblog.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
                                         <img src='{$image_path}' class='me-2' style='width:30px; height:30px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
                                         <h6 class='mb-0 text-dark'>" . get_words($row['title'], 6) . "...</h6>
                                     </a>
@@ -298,7 +298,7 @@ if ($blog_id > 0) {
                                             ? "./admin/uploads/photos/{$row['main_image']}"
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
-                                    <a href='service_detsils.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
+                                    <a href='fullblog.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
                                         <img src='{$image_path}' class='me-2' style='width:50px; height:50px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
                                         <h6 class='mb-0 text-dark'>" . get_words($row['title'], 6) . "...</h6>
                                     </a>
@@ -326,7 +326,7 @@ if ($blog_id > 0) {
                                             ? "./admin/uploads/photos/{$row['main_image']}"
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
-                                    <a href='service_detsils.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
+                                    <a href='fullblog.php?id={$row['id']}' class='d-flex align-items-center mb-3 text-decoration-none'>
                                         <img src='{$image_path}' class='me-2' style='width:50px; height:50px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
                                         <h6 class='mb-0 text-dark'>" . get_words($row['title'], 6) . "...</h6>
                                     </a>
@@ -396,8 +396,11 @@ if ($blog_id > 0) {
 
                                 <!-- Main Content -->
                                 <?php if (!empty($blog['main_content'])): ?>
-                                    <p class="ul-service-details-descr"><?php echo nl2br(htmlspecialchars($blog['main_content'])); ?></p>
+                                    <p class="ul-service-details-descr">
+                                        <?php echo nl2br(strip_tags($blog['main_content'])); ?>
+                                    </p>
                                 <?php endif; ?>
+
 
 
 
@@ -430,7 +433,7 @@ if ($blog_id > 0) {
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
                                     <div class="ul-service-details-full-content mt-3">
-                                        <?php echo nl2br(htmlspecialchars($blog['full_content'])); ?>
+                                        <?php echo nl2br(strip_tags($blog['full_content'])); ?>
                                     </div>
                                 <?php endif; ?>
 
