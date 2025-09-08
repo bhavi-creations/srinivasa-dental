@@ -186,11 +186,11 @@ if ($blog_id > 0) {
 
                             <!-- Title -->
                             <?php if (!empty($blog['title'])): ?>
-                                <p>
+                                <h3>
                                     <a href="<?php echo $redirect_link; ?>" target="_blank" style="text-decoration:none; color:inherit;">
                                         <?php echo htmlspecialchars($blog['title']); ?>
                                     </a>
-                                </p>
+                                </h3>
                             <?php endif; ?>
                         </div>
                     </div>
@@ -242,11 +242,11 @@ if ($blog_id > 0) {
 
                             <!-- Logo -->
 
-                            <!-- <a href=""> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid"></a> -->
+                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
 
 
 
-                            <?php if (!empty($blog['logo'])): ?>
+                            <!-- <?php if (!empty($blog['logo'])): ?>
                                 <a href="<?php echo $redirect_link; ?>" target="_blank">
                                     <img src="./admin/uploads/logos/<?php echo htmlspecialchars($blog['logo']); ?>"
                                         class="img-fluid mb-3"
@@ -260,15 +260,15 @@ if ($blog_id > 0) {
                                         alt="Default Logo"
                                         style="max-height:150px; width:auto;">
                                 </a>
-                            <?php endif; ?>
+                            <?php endif; ?> -->
 
                             <!-- Title -->
                             <?php if (!empty($blog['title'])): ?>
-                                <h5>
+                                <h3>
                                     <a href="<?php echo $redirect_link; ?>" target="_blank" style="text-decoration:none; color:inherit;">
                                         <?php echo htmlspecialchars($blog['title']); ?>
                                     </a>
-                                </h5>
+                                </h3>
                             <?php endif; ?>
                         </div>
                     </div>
@@ -334,15 +334,6 @@ if ($blog_id > 0) {
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
-
-
 
 
         <section class="ul-service-details  second_section_blogs">
