@@ -428,7 +428,10 @@ if ($blog_id > 0) {
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
                                     <div class="ul-service-details-full-content mt-3">
-                                        <?php echo nl2br(strip_tags($blog['full_content'])); ?>
+                                        <?php
+                                        // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
+                                        echo strip_tags($blog['full_content'], '<p><br><ul><ol><li><b><i><strong><em>');
+                                        ?>
                                     </div>
                                 <?php endif; ?>
 
