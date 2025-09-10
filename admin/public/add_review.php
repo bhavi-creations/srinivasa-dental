@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Execute SQL
     if ($stmt->execute()) {
         echo "Review saved successfully!";
-        header("Location: ../../../../service_detsils.php"); // 👈 Reviews list page
+        header("Location: ../../../../allreviews.php"); // 👈 Reviews list page
         exit();
     } else {
         echo "Error: " . $stmt->error;

@@ -202,14 +202,17 @@
 
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17501822247">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'AW-17501822247');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17501822247');
+  </script>
 
 
 
@@ -307,6 +310,8 @@
 
 <body>
 
+
+ 
   <header id="top-header" class="top-header d-none d-md-block  d-xl-none hearedr_spacing">
     <div class="container d-flex justify-content-between align-items-center">
       <div class="contact-info">
@@ -553,7 +558,7 @@
             <ul class="dropdown-menu post_section  " aria-labelledby="navbarDropdown">
 
 
-              <li><a class="nav-link dropdown-item <?= ($current_page == 'testimonials.php') ?  : ''; ?>" href="testimonials.php">What Patients Say</a></li>
+              <li><a class="nav-link dropdown-item <?= ($current_page == 'testimonials.php') ?: ''; ?>" href="testimonials.php">What Patients Say</a></li>
 
               <li><a class="dropdown-item" href="video_reviews.php">Video testimonials</a></li>
 
