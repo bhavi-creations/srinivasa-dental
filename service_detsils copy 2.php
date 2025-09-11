@@ -751,16 +751,16 @@ if ($blog_id > 0) {
                                 }
 
                                 // Get blog id
-                                $blog_id = intval($blog['id']); // assuming $blog['id'] exists
+                                $blog_id = intval($blog['id']);
 
-                                // Fetch all comments for this blog, newest first
+                                // Fetch comments for this blog
                                 $comment_sql = "SELECT user_name, comment 
                 FROM blog_comments 
                 WHERE blog_id = $blog_id 
-                ORDER BY created_at DESC"; // removed LIMIT 5
+                ORDER BY created_at DESC 
+                LIMIT 5"; // latest 5 comments
                                 $comment_result = $conn->query($comment_sql);
                                 ?>
-
 
                                 <!-- Write Comment Button -->
                                 <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
@@ -817,11 +817,11 @@ if ($blog_id > 0) {
 
 
 
+                                <!-- Display Comments -->
                                 <div class="comment-list">
                                     <h4>📝 Latest Comments</h4>
                                     <div class="row">
                                         <?php
-                                        // All comments fetch
                                         $all_comments_sql = "SELECT * FROM blog_comments WHERE blog_id = '$blog_id' ORDER BY id DESC";
                                         $all_comment_result = $conn->query($all_comments_sql);
 
@@ -839,7 +839,6 @@ if ($blog_id > 0) {
                         <strong>$user_name</strong>
                         <p class='mb-0'>$comment</p>
 
-                        <!-- Like / Dislike buttons -->
                         <div class='mt-2 d-flex justify-content-between'>
                             <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
                                 👍 Like (<span id='like-count-$comment_id'>$likes</span>)
@@ -859,7 +858,7 @@ if ($blog_id > 0) {
                                     </div>
                                 </div>
 
-                                <!-- JS: AJAX for Like/Dislike -->
+                                <!-- AJAX for Like/Dislike -->
                                 <script>
                                     function updateReaction(commentId, type) {
                                         let xhr = new XMLHttpRequest();
