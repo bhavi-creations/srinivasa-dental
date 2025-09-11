@@ -745,20 +745,19 @@ if ($blog_id > 0) {
                                 <!-- Write a Comment Button -->
                                 <?php
                                 // Database connection
-                                $conn = new mysqli("localhost", "root", "", "srinivasa"); // replace DB name
+                                $conn = new mysqli("localhost", "root", "", "srinivasa"); // replace with your DB info
                                 if ($conn->connect_error) {
                                     die("Connection failed: " . $conn->connect_error);
                                 }
 
-                                // Get blog id
-                                $blog_id = intval($blog['id']);
+                                // Get blog id (make sure $blog['id'] is defined)
+                                $blog_id = intval($blog['id']); // or get it from $_GET['blog_id'] if needed
 
-                                // Fetch comments for this blog
-                                $comment_sql = "SELECT user_name, comment 
+                                // Fetch all comments for this blog (no LIMIT)
+                                $comment_sql = "SELECT user_name, comment, created_at 
                 FROM blog_comments 
                 WHERE blog_id = $blog_id 
-                ORDER BY created_at DESC 
-                LIMIT 5"; // latest 5 comments
+                ORDER BY created_at DESC"; // latest first
                                 $comment_result = $conn->query($comment_sql);
                                 ?>
 
@@ -783,23 +782,109 @@ if ($blog_id > 0) {
                                 </div>
 
                                 <!-- Display Comments -->
+                                <?php
+                                include 'db.connection/db_connection.php';
+
+                                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                                    $comment_id = intval($_POST['comment_id']);
+                                    $type = $_POST['type'];
+
+                                    if ($type === "like") {
+                                        $sql = "UPDATE blog_comments SET likes = likes + 1 WHERE id = $comment_id";
+                                    } elseif ($type === "dislike") {
+                                        $sql = "UPDATE blog_comments SET dislikes = dislikes + 1 WHERE id = $comment_id";
+                                    } else {
+                                        echo json_encode(["success" => false, "message" => "Invalid type"]);
+                                        exit;
+                                    }
+
+                                    if ($conn->query($sql)) {
+                                        // Fetch updated counts
+                                        $res = $conn->query("SELECT likes, dislikes FROM blog_comments WHERE id = $comment_id");
+                                        $row = $res->fetch_assoc();
+
+                                        echo json_encode([
+                                            "success" => true,
+                                            "likes" => $row['likes'],
+                                            "dislikes" => $row['dislikes']
+                                        ]);
+                                    } else {
+                                        echo json_encode(["success" => false, "message" => $conn->error]);
+                                    }
+                                }
+                                ?>
+
+
+
+                                <!-- Display Comments -->
                                 <div class="comment-list">
                                     <h4>📝 Latest Comments</h4>
-                                    <?php
-                                    if ($comment_result->num_rows > 0) {
-                                        while ($row = $comment_result->fetch_assoc()) {
-                                            echo '
-            <div class="comment-item">
-                <strong>' . htmlspecialchars($row['user_name']) . '</strong>
-                <p>' . htmlspecialchars($row['comment']) . '</p>
-            </div>
-            ';
+                                    <div class="row">
+                                        <?php
+                                        $all_comments_sql = "SELECT * FROM blog_comments WHERE blog_id = '$blog_id' ORDER BY id DESC";
+                                        $all_comment_result = $conn->query($all_comments_sql);
+
+                                        if ($all_comment_result && $all_comment_result->num_rows > 0) {
+                                            while ($row = $all_comment_result->fetch_assoc()) {
+                                                $comment_id = $row['id'];
+                                                $user_name  = htmlspecialchars($row['user_name']);
+                                                $comment    = htmlspecialchars($row['comment']);
+                                                $likes      = (int)$row['likes'];
+                                                $dislikes   = (int)$row['dislikes'];
+
+                                                echo "
+                <div class='col-md-6 mb-3'>
+                    <div class='comment-item p-3 border rounded shadow-sm h-100'>
+                        <strong>$user_name</strong>
+                        <p class='mb-0'>$comment</p>
+
+                        <div class='mt-2 d-flex justify-content-between'>
+                            <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
+                                👍 Like (<span id='like-count-$comment_id'>$likes</span>)
+                            </button>
+                            <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
+                                👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                ";
+                                            }
+                                        } else {
+                                            echo "<div class='col-12'><p>No comments yet. Be the first to comment!</p></div>";
                                         }
-                                    } else {
-                                        echo "<p>No comments yet. Be the first to comment!</p>";
-                                    }
-                                    ?>
+                                        ?>
+                                    </div>
                                 </div>
+
+                                <!-- AJAX for Like/Dislike -->
+                                <script>
+                                    function updateReaction(commentId, type) {
+                                        let xhr = new XMLHttpRequest();
+                                        xhr.open("POST", "update_reaction.php", true);
+                                        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                                        xhr.onreadystatechange = function() {
+                                            if (xhr.readyState === 4 && xhr.status === 200) {
+                                                try {
+                                                    let res = JSON.parse(xhr.responseText);
+                                                    if (res.success) {
+                                                        document.getElementById("like-count-" + commentId).innerText = res.likes;
+                                                        document.getElementById("dislike-count-" + commentId).innerText = res.dislikes;
+                                                    } else {
+                                                        alert("❌ Failed to update reaction");
+                                                    }
+                                                } catch (e) {
+                                                    console.error("Invalid JSON:", xhr.responseText);
+                                                }
+                                            }
+                                        };
+                                        xhr.send("comment_id=" + commentId + "&type=" + type);
+                                    }
+                                </script>
+
+
+
+
 
                                 <!-- JS -->
                                 <script>

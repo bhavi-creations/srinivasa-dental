@@ -3,27 +3,30 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "srinivasa"; // change as per your DB
+$db   = "srinivasa"; 
 $conn = new mysqli($host, $user, $pass, $db);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Check form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $blog_id   = intval($_POST['blog_id']);
-    $user_name = $conn->real_escape_string($_POST['user_name']);
-    $user_email = $conn->real_escape_string($_POST['user_email']);
-    $comment   = $conn->real_escape_string($_POST['comment']);
+    $blog_id    = intval($_POST['blog_id']);
+    $user_name  = trim($conn->real_escape_string($_POST['user_name']));
+    $user_email = trim($conn->real_escape_string($_POST['user_email']));
+    $comment    = trim($conn->real_escape_string($_POST['comment']));
 
-    $sql = "INSERT INTO blog_comments (blog_id, user_name, user_email, comment) 
-            VALUES ('$blog_id', '$user_name', '$user_email', '$comment')";
+    // Insert new comment
+    $sql = "INSERT INTO blog_comments (blog_id, user_name, user_email, comment, likes, dislikes) 
+            VALUES ('$blog_id', '$user_name', '$user_email', '$comment', 0, 0)";
 
     if ($conn->query($sql) === TRUE) {
-        echo "<script>alert('✅ Comment added successfully!'); window.history.back();</script>";
+        echo "<script>
+                alert('✅ Comment added successfully!');
+                window.location.href = document.referrer;
+              </script>";
     } else {
-        echo "Error: " . $conn->error;
+        echo "<script>alert('❌ Error: " . addslashes($conn->error) . "');</script>";
     }
 }
 ?>
