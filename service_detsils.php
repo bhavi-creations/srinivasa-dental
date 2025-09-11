@@ -159,7 +159,7 @@ if ($blog_id > 0) {
                                             ? "./admin/uploads/photos/{$row['main_image']}"
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
-              <a href='fullblog.php?id={$row['id']}' class='blog-item d-flex align-items-center mb-3 text-decoration-none'>
+              <a href='service_detsils.php?id={$row['id']}' class='blog-item d-flex align-items-center mb-3 text-decoration-none'>
                   <img src='{$image_path}' class='me-2 blog-thumb' alt='Blog Image'>
                   <h6 class='mb-0 blog-title'>" . get_words($row['title'], 6) . "...</h6>
               </a>
@@ -210,7 +210,7 @@ if ($blog_id > 0) {
                                             ? "./admin/uploads/photos/{$row['main_image']}"
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
-                        <a href='fullblog.php?id={$row['id']}' class='more-blog-link blog-item d-flex align-items-center w-100 mb-3 text-decoration-none'>
+                        <a href='service_detsils.php?id={$row['id']}' class='more-blog-link blog-item d-flex align-items-center w-100 mb-3 text-decoration-none'>
                             <img src='{$image_path}' class='me-2 blog-thumb' style='width:30px; height:30px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
                             <h6 class='mb-0 blog-title'>" . get_words($row['title'], 6) . "...</h6>
                         </a>
@@ -295,7 +295,7 @@ if ($blog_id > 0) {
                                             ? "./admin/uploads/photos/{$row['main_image']}"
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
-              <a href='fullblog.php?id={$row['id']}' class='blog-item d-flex align-items-center mb-3 text-decoration-none'>
+              <a href='service_detsils.php?id={$row['id']}' class='blog-item d-flex align-items-center mb-3 text-decoration-none'>
                   <img src='{$image_path}' class='me-2 blog-thumb' alt='Blog Image'>
                   <h6 class='mb-0 blog-title'>" . get_words($row['title'], 6) . "...</h6>
               </a>
@@ -324,7 +324,7 @@ if ($blog_id > 0) {
                                             ? "./admin/uploads/photos/{$row['main_image']}"
                                             : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
                                         echo "
-                        <a href='fullblog.php?id={$row['id']}' class='more-blog-link blog-item d-flex align-items-center w-100 mb-3 text-decoration-none'>
+                        <a href='service_detsils.php?id={$row['id']}' class='more-blog-link blog-item d-flex align-items-center w-100 mb-3 text-decoration-none'>
                             <img src='{$image_path}' class='me-2 blog-thumb' style='width:30px; height:30px; object-fit:cover; border-radius:5px;' alt='Blog Image'>
                             <h6 class='mb-0 blog-title'>" . get_words($row['title'], 6) . "...</h6>
                         </a>

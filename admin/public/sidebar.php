@@ -79,6 +79,24 @@
 
 
 
+    
+    <!-- PDF Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePDFs" aria-expanded="true" aria-controls="collapsePDFs">
+            <i class="fas fa-fw fa-file-pdf"></i>
+            <span>PDFs</span>
+        </a>
+        <div id="collapsePDFs" class="collapse" aria-labelledby="headingPDFs" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">PDF Options</h6>
+                <a class="collapse-item" href="newPDF.php"><i class="fas fa-fw fa-upload"></i> Upload PDF</a>
+                <a class="collapse-item" href="allPDF.php"><i class="fas fa-fw fa-list"></i> All PDFs</a>
+            </div>
+        </div>
+    </li>
+
+
+
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">

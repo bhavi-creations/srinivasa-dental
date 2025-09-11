@@ -40,7 +40,7 @@ $result = $conn->query($sql);
                                 All Blog Comments
                             <?php } ?>
                         </h2>
-                        <a href="dashboard.php" class="btn btn-sm btn-primary shadow-sm">
+                        <a href="blog_commets.php" class="btn btn-sm btn-primary shadow-sm">
                             <i class="fas fa-arrow-left fa-sm text-white-50"></i> Back to Blogs
                         </a>
                     </div>
