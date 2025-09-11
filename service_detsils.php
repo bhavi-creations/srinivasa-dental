@@ -859,7 +859,7 @@ if ($blog_id > 0) {
                                     </div>
                                 </div>
 
-                                <!-- JS: AJAX for Like/Dislike -->
+                             
                                 <script>
                                     function updateReaction(commentId, type) {
                                         let xhr = new XMLHttpRequest();
