@@ -344,7 +344,7 @@ if ($blog_id > 0) {
         </section>
 
 
-        <section class="ul-service-details  second_section_blogs">
+        <section class="ul-service-details  second_section_blogs  d-none  d-lg-block">
             <div class="container-fluid">
                 <d class="row g-xl-5 g-4 mx-3">
 
@@ -353,7 +353,7 @@ if ($blog_id > 0) {
                         <img src="./assets/img/services/service_side_image1.jpg" alt="" style="height:280px; width: 330px;">
 
 
-                        
+
 
 
 
@@ -388,7 +388,7 @@ if ($blog_id > 0) {
 
 
                     </div>
-                    <div class="col-lg-8 col-md-8 middle_content">
+                    <div class="col-lg-8 col-md-8 ">
                         <?php if ($blog): ?>
                             <div style="max-height: 380px; overflow-y: auto; padding-right:10px;">
                                 <!-- Logo -->
@@ -444,7 +444,7 @@ if ($blog_id > 0) {
                                     <?php if (!empty($blog['main_image'])): ?>
                                         <div class="col-12 col-lg-6 mb-3 mb-md-0 text-center">
                                             <img src="./admin/uploads/photos/<?php echo htmlspecialchars($blog['main_image']); ?>"
-                                                alt="Main Image" class="img-fluid" style="max-height:150px; width:auto; object-fit:cover;">
+                                                alt="Main Image" class="img-fluid" style="max-height:200px; width:auto; object-fit:cover;">
                                         </div>
                                     <?php endif; ?>
 
@@ -452,7 +452,7 @@ if ($blog_id > 0) {
                                         <div class="col-12 col-lg-6 text-center  blog_video_section">
                                             <video src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
                                                 controls style="max-height:200px; width:auto; object-fit:cover;"></video>
-                                                <!-- controls style="max-height:200px; width:auto; object-fit:cover;"></video> -->
+                                            <!-- controls style="max-height:200px; width:auto; object-fit:cover;"></video> -->
                                         </div>
                                     <?php endif; ?>
                                 </div>
@@ -853,25 +853,545 @@ if ($blog_id > 0) {
 
 
                     <div class="col-lg-2 col-md-2">
-                        <!--<div class="ul-service-details-sidebar">
-                             <div class="ul-service-details-sidebar-widget">
-                                <span class="ul-service-details-sidebar-widget-title">Our Services</span>
-                                <ul class="ul-service-details-sidebar-links">
-                                    <li><a href="service-details.html" class="active">General Health Consultation <i
-                                                class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="service-details.html">Chronic Disease Management <i
-                                                class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="service-details.html">Online Video Consultation <i
-                                                class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="service-details.html">Preventive Health Checkups <i
-                                                class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="service-details.html">Women's & Men's Health <i
-                                                class="flaticon-arrow-up-right"></i></a></li>
-                                    <li><a href="service-details.html">Family Health Services <i
-                                                class="flaticon-arrow-up-right"></i></a></li>
-                                </ul>
-                            </div> -->
 
+
+                        <img src="./assets/img/services/service_side_image2.jpg" alt="" style="height: 280px; width: 330px;">
+
+
+                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:20px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
+
+
+
+                            <p style="font-size:18px; margin:5px 0; color:#444;">
+                                Srinivasa
+                            </p>
+
+                            <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
+                                Dental <span style="color:#e63946;">Hospital</span>
+                            </p>
+
+
+                        </div>
+
+
+
+
+                    </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+
+        <section class="ul-service-details  second_section_blogs  d-block     d-lg-none">
+            <div class="container-fluid">
+                <d class="row g-xl-5 g-4 mx-3">
+
+
+                    <div class=" col-md-12 ">
+                        <?php if ($blog): ?>
+                            <div style="max-height: 380px; overflow-y: auto; padding-right:10px;">
+                                <!-- Logo -->
+                                <!-- <?php if (!empty($blog['logo'])): ?>
+                                    <div class="text-center mb-3">
+                                        <a href="<?php echo !empty($blog['logo_link']) ? htmlspecialchars($blog['logo_link']) : '#'; ?>" target="_blank">
+                                            <img src="uploads/logos/<?php echo htmlspecialchars($blog['logo']); ?>"
+                                                style="max-height:100px; width:auto;" alt="Blog Logo">
+                                        </a>
+                                    </div>
+                                <?php endif; ?> -->
+
+                                <!-- Service Name -->
+                                <?php if (!empty($blog['service'])): ?>
+                                    <h2 class="ul-service-details-title text-center"><?php echo htmlspecialchars($blog['service']); ?></h2>
+                                <?php endif; ?>
+
+
+
+
+                                <!-- Main Content -->
+                                <?php if (!empty($blog['main_content'])): ?>
+                                    <div class="ul-service-details-descr">
+                                        <?php
+                                        // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
+                                        echo strip_tags($blog['main_content'], '<p><br><ul><ol><li><b><i><strong><em>');
+                                        ?>
+                                    </div>
+                                <?php endif; ?>
+
+
+
+
+
+                                <!-- 
+                                <div class="row mb-3 mx-2">
+                                    <?php if (!empty($blog['main_image'])): ?>
+                                        <div class="col-12 col-md-6 mb-3 mb-md-0 text-center">
+                                            <img src="./admin/uploads/photos/<?php echo htmlspecialchars($blog['main_image']); ?>"
+                                                alt="Main Image" class="img-fluid" style="max-height:200px; width:auto;">
+                                        </div>
+                                    <?php endif; ?>
+
+                                    <?php if (!empty($blog['video'])): ?>
+                                        <div class="col-12 col-md-6 text-center">
+                                            <video src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
+                                                controls style="max-width:100%; height:auto;"></video>
+                                        </div>
+                                    <?php endif; ?>
+                                </div> -->
+
+                                <div class="row mb-3">
+                                    <?php if (!empty($blog['main_image'])): ?>
+                                        <div class="col-12 col-lg-6 mb-3 mb-md-0 text-center">
+                                            <img src="./admin/uploads/photos/<?php echo htmlspecialchars($blog['main_image']); ?>"
+                                                alt="Main Image" class="img-fluid" style="max-height:200px; width:auto; object-fit:cover;">
+                                        </div>
+                                    <?php endif; ?>
+
+                                    <?php if (!empty($blog['video'])): ?>
+                                        <div class="col-12 col-lg-6 text-center  blog_video_section">
+                                            <video src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
+                                                controls style="max-height:200px; width:auto; object-fit:cover;"></video>
+                                            <!-- controls style="max-height:200px; width:auto; object-fit:cover;"></video> -->
+                                        </div>
+                                    <?php endif; ?>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+                                <!-- Full Content -->
+                                <?php if (!empty($blog['full_content'])): ?>
+                                    <div class="ul-service-details-full-content mt-3">
+                                        <?php
+                                        // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
+                                        echo strip_tags($blog['full_content'], '<p><br><ul><ol><li><b><i><strong><em>');
+                                        ?>
+                                    </div>
+                                <?php endif; ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <style>
+                                    .comment-overlay {
+                                        position: fixed;
+                                        top: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        background: rgba(0, 0, 0, 0.5);
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        z-index: 999;
+                                    }
+
+                                    .comment-box {
+                                        background: #fff;
+                                        padding: 20px;
+                                        border-radius: 8px;
+                                        width: 90%;
+                                        max-width: 500px;
+                                        position: relative;
+                                    }
+
+                                    .close-btn {
+                                        position: absolute;
+                                        top: 10px;
+                                        right: 15px;
+                                        font-size: 24px;
+                                        cursor: pointer;
+                                        color: #333;
+                                    }
+
+                                    .comment-box input,
+                                    .comment-box textarea,
+                                    .comment-box button {
+                                        width: 100%;
+                                        margin-bottom: 10px;
+                                        padding: 10px;
+                                        border-radius: 5px;
+                                        border: 1px solid #ccc;
+                                    }
+
+                                    .comment-box button {
+                                        background-color: #007bff;
+                                        color: #fff;
+                                        border: none;
+                                        cursor: pointer;
+                                    }
+
+                                    .comment-list {
+                                        margin-top: 20px;
+                                        padding: 10px;
+                                        background: #f9f9f9;
+                                        border-radius: 8px;
+                                    }
+
+                                    .comment-item {
+                                        padding: 10px;
+                                        border-bottom: 1px solid #ddd;
+                                    }
+
+                                    .comment-item:last-child {
+                                        border-bottom: none;
+                                    }
+
+                                    .comment-item strong {
+                                        display: block;
+                                        margin-bottom: 5px;
+                                    }
+
+                                    .comment-item p {
+                                        margin: 0;
+                                    }
+                                </style>
+
+
+
+                                <!-- Styling -->
+                                <style>
+                                    .show-comment-btn {
+                                        background: #007bff;
+                                        color: white;
+                                        padding: 10px 18px;
+                                        border: none;
+                                        border-radius: 6px;
+                                        cursor: pointer;
+                                        margin-bottom: 10px;
+                                        transition: background 0.3s ease;
+                                    }
+
+                                    .show-comment-btn:hover {
+                                        background: #0056b3;
+                                    }
+
+                                    .comment-box {
+                                        /* background: red; */
+                                        background-image: radial-gradient(circle, #e8f2f9, #dcedf9, #d0e8f9, #c4e3f9, #b7def9, #b1dcf9, #abd9f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9) !important;
+                                        padding: 20px;
+                                        border-radius: 8px;
+                                        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+                                        max-width: 600px;
+                                    }
+
+                                    .comment-box h3 {
+                                        margin-bottom: 15px;
+                                        color: #333;
+                                    }
+
+                                    .comment-box input,
+                                    .comment-box textarea {
+                                        width: 100%;
+                                        padding: 10px;
+                                        margin-bottom: 12px;
+                                        border: 1px solid #ddd;
+                                        border-radius: 5px;
+                                    }
+
+                                    .comment-box button {
+                                        background: #28a745;
+                                        color: white;
+                                        padding: 10px 16px;
+                                        border: none;
+                                        border-radius: 6px;
+                                        cursor: pointer;
+                                        transition: background 0.3s ease;
+                                    }
+
+                                    .comment-box button:hover {
+                                        background: #1e7e34;
+                                    }
+                                </style>
+
+
+
+
+
+
+
+                                <?php
+                                // Auto DB Connection (localhost / live)
+                                $host = 'localhost';
+                                if ($_SERVER['SERVER_NAME'] == 'localhost') {
+                                    $user = "root";
+                                    $pass = "";
+                                    $db   = "srinivasa";
+                                } else {
+                                    $user = "srinivasadentalkakinada";
+                                    $pass = "sTNcxCDh5cdERAZ";
+                                    $db   = "srinivasadentalkakinada";
+                                }
+
+                                try {
+                                    $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
+                                    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+                                    // ✅ Blog ID check
+                                    $blog_id = isset($blog['id']) ? intval($blog['id']) : 0;
+
+                                    // ✅ Fetch all comments for this blog
+                                    $stmt = $pdo->prepare("SELECT user_name, comment 
+                           FROM blog_comments 
+                           WHERE blog_id = :blog_id 
+                           ORDER BY created_at DESC");
+                                    $stmt->bindParam(':blog_id', $blog_id, PDO::PARAM_INT);
+                                    $stmt->execute();
+                                    $comment_result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                } catch (PDOException $e) {
+                                    die("❌ DB Error: " . $e->getMessage());
+                                }
+                                ?>
+
+
+                                <!-- Write Comment Button -->
+                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
+
+                                <!-- Comment Form Popup -->
+                                <div id="comment-overlay" class="comment-overlay" style="display:none;">
+                                    <div class="comment-box">
+                                        <span class="close-btn" onclick="toggleCommentBox()">&times;</span>
+                                        <h3>💬 Leave a Comment</h3>
+                                        <form action="save_comment.php" method="POST">
+                                            <input type="hidden" name="blog_id" value="<?php echo $blog_id; ?>">
+
+                                            <input type="text" name="user_name" placeholder="Your Name" required>
+                                            <input type="email" name="user_email" placeholder="Your Email" required>
+                                            <textarea name="comment" rows="4" placeholder="Write your comment..." required></textarea>
+
+                                            <button type="submit">Post Comment</button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <!-- Display Comments -->
+                                <?php
+
+
+                                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                                    $comment_id = intval($_POST['comment_id']);
+                                    $type = $_POST['type'];
+
+                                    if (!in_array($type, ['like', 'dislike'])) {
+                                        echo json_encode(["success" => false, "message" => "Invalid type"]);
+                                        exit;
+                                    }
+
+                                    if (!isset($_SESSION['reactions'])) {
+                                        $_SESSION['reactions'] = [];
+                                    }
+
+                                    // Check if user already reacted
+                                    if (isset($_SESSION['reactions'][$comment_id])) {
+                                        echo json_encode(["success" => false, "message" => "You can only react once."]);
+                                        exit;
+                                    }
+
+                                    // Update database count
+                                    if ($type === 'like') {
+                                        $conn->query("UPDATE blog_comments SET likes = likes + 1 WHERE id=$comment_id");
+                                    } else {
+                                        $conn->query("UPDATE blog_comments SET dislikes = dislikes + 1 WHERE id=$comment_id");
+                                    }
+
+                                    // Store reaction in session
+                                    $_SESSION['reactions'][$comment_id] = $type;
+
+                                    // Fetch updated counts
+                                    $res = $conn->query("SELECT likes, dislikes FROM blog_comments WHERE id=$comment_id");
+                                    $row = $res->fetch_assoc();
+
+                                    echo json_encode([
+                                        "success" => true,
+                                        "likes" => (int)$row['likes'],
+                                        "dislikes" => (int)$row['dislikes']
+                                    ]);
+                                }
+                                ?>
+
+
+
+
+                                <div class="comment-list">
+                                    <h4>📝 Latest Comments</h4>
+                                    <div class="row">
+                                        <?php
+                                        // All comments fetch
+                                        $all_comments_sql = "SELECT * FROM blog_comments WHERE blog_id = '$blog_id' ORDER BY id DESC";
+                                        $all_comment_result = $conn->query($all_comments_sql);
+
+                                        if ($all_comment_result && $all_comment_result->num_rows > 0) {
+                                            while ($row = $all_comment_result->fetch_assoc()) {
+                                                $comment_id = $row['id'];
+                                                $user_name  = htmlspecialchars($row['user_name']);
+                                                $comment    = htmlspecialchars($row['comment']);
+                                                $likes      = (int)$row['likes'];
+                                                $dislikes   = (int)$row['dislikes'];
+
+                                                echo "
+                    <div class='col-md-6 mb-3'>
+                        <div class='comment-item p-3 border rounded shadow-sm h-100'>
+                            <strong>$user_name</strong>
+                            <p class='mb-0'>$comment</p>
+
+                            <!-- Like / Dislike buttons -->
+                            <div class='mt-2 d-flex justify-content-between'>
+                                <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
+                                    👍 Like (<span id='like-count-$comment_id'>$likes</span>)
+                                </button>
+                                <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
+                                    👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    ";
+                                            }
+                                        } else {
+                                            echo "<div class='col-12'><p>No comments yet. Be the first to comment!</p></div>";
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+
+
+                                <script>
+                                    function updateReaction(commentId, type) {
+                                        let xhr = new XMLHttpRequest();
+                                        xhr.open("POST", "update_reaction.php", true);
+                                        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                                        xhr.onreadystatechange = function() {
+                                            if (xhr.readyState === 4 && xhr.status === 200) {
+                                                try {
+                                                    let res = JSON.parse(xhr.responseText);
+                                                    if (res.success) {
+                                                        document.getElementById("like-count-" + commentId).innerText = res.likes;
+                                                        document.getElementById("dislike-count-" + commentId).innerText = res.dislikes;
+                                                    } else {
+                                                        alert("❌ Failed to update reaction");
+                                                    }
+                                                } catch (e) {
+                                                    console.error("Invalid JSON:", xhr.responseText);
+                                                }
+                                            }
+                                        };
+                                        xhr.send("comment_id=" + commentId + "&type=" + type);
+                                    }
+                                </script>
+
+
+
+
+
+                                <!-- JS -->
+                                <script>
+                                    function toggleCommentBox() {
+                                        var overlay = document.getElementById("comment-overlay");
+                                        if (overlay.style.display === "none" || overlay.style.display === "") {
+                                            overlay.style.display = "flex"; // show
+                                        } else {
+                                            overlay.style.display = "none"; // hide
+                                        }
+                                    }
+                                </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+                            <!-- CSS -->
+
+
+
+
+
+
+
+
+
+                        <?php else: ?>
+                            <p>No blog details found.</p>
+                        <?php endif; ?>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <div class=" col-md-6 blogs_side_branding ">
+
+                        <img src="./assets/img/services/service_side_image1.jpg" alt="" style="height:280px; width: 330px;">
+
+
+
+
+
+
+                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:20px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
+
+                            <!-- <h3 class="mani" style="color:#333; font-weight:600; margin-bottom:10px;">
+                                Contact Us
+                            </h3> -->
+
+                            <p style="font-size:18px; margin:5px 0; color:#444;">
+                                Clear Aligners
+                            </p>
+
+                            <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
+                                Starting at <span style="color:#e63946;">₹9,999</span>
+                            </p>
+
+                            <!-- <strong>
+                                <a href="tel:+919290019948"
+                                    style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; border-radius:8px; font-size:16px; display:inline-block; margin-top:10px; transition:0.3s;">
+                                    📞 Call Now: +91 9290019948
+                                </a>
+                            </strong> -->
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class=" col-md-6  blogs_side_branding">
 
 
                         <img src="./assets/img/services/service_side_image2.jpg" alt="" style="height: 280px; width: 330px;">

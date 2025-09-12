@@ -6537,7 +6537,16 @@ button {
 
 }
 
-@media (min-width:992px) and (max-width:1600px) {
+@media (min-width:992px) and (max-width:1200px) {
+  .second_section_blogs {
+    margin-top: -80px !important;
+  }
+
+}
+
+
+
+@media (min-width:1200px) and (max-width:1600px) {
   .second_section_blogs {
     margin-top: -100px !important;
   }
@@ -6547,8 +6556,8 @@ button {
 
 
 @media (max-width:992px) {
-  .blog_video_section{
-    margin-top: 50px ;
+  .blog_video_section {
+    margin-top: 50px;
   }
 }
 
@@ -6800,11 +6809,11 @@ button {
   margin-top: 10px !important;
 }
 
-@media (max-width:768px) {
-  .blogs_side_branding {
-    margin-top: 10px !important;
-  }
-}
+/* @media (max-width:768px) {
+    .blogs_side_branding {
+      margin-top: 10px !important;
+    }
+  } */
 
 .latest_blog_section {
   font-weight: 700 !important;
@@ -6957,3 +6966,30 @@ button {
 margin-top: 100px !important;
   }
 } */
+
+/* styling for side cards  */
+
+/* Mobile responsive fix for blogs_side_branding */
+@media (max-width: 767px) {
+  .blogs_side_branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* center align image + card */
+    text-align: center;
+  }
+
+  .blogs_side_branding img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    /* responsive maintain */
+  }
+
+  .blogs_side_branding .card {
+    width: 330px;
+    /* same width as image */
+    margin-top: 15px;
+  }
+}
