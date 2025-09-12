@@ -1,4 +1,7 @@
 <?php
+// ✅ Always start with output buffering to avoid "headers already sent"
+ob_start();
+
 // Database connection
 $host = "localhost";
 $user = "root";
@@ -16,16 +19,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user_email = trim($conn->real_escape_string($_POST['user_email']));
     $comment    = trim($conn->real_escape_string($_POST['comment']));
 
-    // Insert new comment
+    // ✅ Insert new comment
     $sql = "INSERT INTO blog_comments (blog_id, user_name, user_email, comment, likes, dislikes) 
             VALUES ('$blog_id', '$user_name', '$user_email', '$comment', 0, 0)";
 
     if ($conn->query($sql) === TRUE) {
-        // ✅ Direct redirect to service_detsils.php with blog_id
-        header("Location: service_detsils.php?id=" . $blog_id);
+        // ✅ Clear any output before redirect
+        if (ob_get_length()) {
+            ob_end_clean();
+        }
+
+        // ✅ Redirect to blog details page (check spelling: service_details.php)
+        header("Location: service_details.php?id=" . $blog_id);
         exit();
     } else {
-        die("❌ SQL Error: " . $conn->error);
+        // Debug error message
+        echo "❌ SQL Error: " . $conn->error;
     }
 }
 ?>
