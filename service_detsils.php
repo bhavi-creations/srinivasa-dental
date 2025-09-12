@@ -467,6 +467,14 @@ if ($blog_id > 0) {
 
 
 
+
+
+
+
+
+
+
+
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
                                     <div class="ul-service-details-full-content mt-3">
@@ -480,10 +488,265 @@ if ($blog_id > 0) {
 
 
 
+
+
+                                <!-- <button class="prs-btn mt-3" onclick="openModal()">Click to Review</button>
+
+
+                                <div id="reviewModal" class="prs-modal">
+                                    <div class="prs-modal-content">
+                                        <button class="prs-form-close-btn" onclick="closeModal()">×</button>
+                                        <h3 style="margin-bottom:15px;">Write a Review</h3>
+                                        <input type="text" id="name" placeholder="Your Name">
+                                        <input type="email" id="email" placeholder="Your Email">
+
+                                        <div class="prs-star-rating" id="starRating">
+                                            <span class="prs-star" data-value="1">&#9733;</span>
+                                            <span class="prs-star" data-value="2">&#9733;</span>
+                                            <span class="prs-star" data-value="3">&#9733;</span>
+                                            <span class="prs-star" data-value="4">&#9733;</span>
+                                            <span class="prs-star" data-value="5">&#9733;</span>
+                                        </div>
+
+                                        <textarea id="review" placeholder="Your Review"></textarea>
+                                        <button class="prs-btn" onclick="submitReview()">Submit</button>
+                                    </div>
+                                </div>
+
+                                <div class="prs-reviews" id="reviewsContainer" style="margin-top:15px;"></div>
+
+                                <script>
+                                    let selectedRating = 0;
+
+                                    // Modal Functions
+                                    function openModal() {
+                                        document.getElementById("reviewModal").style.display = "flex";
+                                    }
+
+                                    function closeModal() {
+                                        document.getElementById("reviewModal").style.display = "none";
+                                    }
+
+                                    // Star Rating
+                                    document.querySelectorAll(".prs-star").forEach(star => {
+                                        star.addEventListener("click", function() {
+                                            selectedRating = this.dataset.value;
+                                            document.querySelectorAll(".prs-star").forEach(s => s.classList.remove("selected"));
+                                            for (let i = 0; i < selectedRating; i++) {
+                                                document.querySelectorAll(".prs-star")[i].classList.add("selected");
+                                            }
+                                        });
+                                    });
+
+                                    // Load Reviews
+                                    function loadReviews() {
+                                        let container = document.getElementById("reviewsContainer");
+                                        container.innerHTML = "";
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+
+                                        if (reviews.length === 0) {
+                                            container.innerHTML = "<p>No reviews yet. Be the first to review!</p>";
+                                            return;
+                                        }
+
+                                        reviews.forEach((rev, index) => {
+                                            let replyCount = rev.replies ? rev.replies.length : 0;
+                                            let card = document.createElement("div");
+                                            card.className = "prs-review-card";
+                                            card.innerHTML = `
+                <h4>${rev.name}</h4>
+                <div class="prs-stars">${"★".repeat(rev.rating)}${"☆".repeat(5 - rev.rating)}</div>
+                <p>${rev.review}</p>
+                <button class="prs-btn" style="background:#28a745;" onclick="replyForm(this, ${index})">Reply</button>
+                <div class="prs-reply-box"></div>
+                <button class="prs-btn" style="background:#6c757d;margin-top:8px;" onclick="toggleReplies(${index})">
+                  View Replies (${replyCount})
+                </button>
+                <div class="prs-reply-list" id="replies-${index}" style="display:none; margin-top:8px;">
+                  ${(rev.replies || []).map((r, ridx) => `
+                      <div class='prs-reply'>
+                        <strong>${r.name}:</strong> ${r.text}
+                        <button class="prs-btn" style="background:#17a2b8;margin-left:10px;" onclick="replyToReplyForm(${index}, ${ridx})">Reply</button>
+                        <div id="nested-reply-box-${index}-${ridx}" style="margin-left:20px;"></div>
+                        ${(r.replies || []).map(nr => `
+                            <div class='prs-reply' style="margin-left:20px;">
+                                <strong>${nr.name}:</strong> ${nr.text}
+                            </div>
+                        `).join("")}
+                      </div>
+                  `).join("")}
+                </div>
+            `;
+                                            container.appendChild(card);
+                                        });
+                                    }
+
+                                    // Show All Reviews (button click)
+                                    function showAllReviews() {
+                                        document.getElementById("reviewsContainer").style.display = "block";
+                                        loadReviews();
+                                    }
+
+                                    // Submit Review
+                                    function submitReview() {
+                                        let name = document.getElementById("name").value;
+                                        let email = document.getElementById("email").value;
+                                        let review = document.getElementById("review").value;
+
+                                        if (!name || !email || !review || selectedRating == 0) {
+                                            alert("Please fill all fields and select rating!");
+                                            return;
+                                        }
+
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews.push({
+                                            name,
+                                            email,
+                                            review,
+                                            rating: selectedRating,
+                                            replies: []
+                                        });
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+
+                                        closeModal();
+                                        document.getElementById("name").value = "";
+                                        document.getElementById("email").value = "";
+                                        document.getElementById("review").value = "";
+                                        selectedRating = 0;
+                                        document.querySelectorAll(".prs-star").forEach(s => s.classList.remove("selected"));
+
+                                        loadReviews();
+                                    }
+
+                                    // Delete Review
+                                    function deleteReview(index) {
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews.splice(index, 1);
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+                                        loadReviews();
+                                    }
+
+                                    // Reply Form
+                                    function replyForm(button, index) {
+                                        let replyBox = button.nextElementSibling;
+                                        replyBox.innerHTML = `
+            <input type="text" placeholder="Your Name" style="width:80%;margin-top:5px;padding:6px;">
+            <input type="text" placeholder="Write reply..." style="width:80%;margin-top:5px;padding:6px;">
+            <button class="prs-btn" style="background:#6c757d;margin-top:5px;" onclick="submitReply(this, ${index})">Send</button>
+        `;
+                                    }
+
+                                    // Submit Reply
+                                    function submitReply(button, index) {
+                                        let inputs = button.parentElement.querySelectorAll("input");
+                                        let replyName = inputs[0].value.trim();
+                                        let replyText = inputs[1].value.trim();
+
+                                        if (!replyName || !replyText) {
+                                            alert("Please enter name and reply!");
+                                            return;
+                                        }
+
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews[index].replies = reviews[index].replies || [];
+                                        reviews[index].replies.push({
+                                            name: replyName,
+                                            text: replyText,
+                                            replies: []
+                                        });
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+
+                                        loadReviews();
+                                    }
+
+                                    // Reply-to-Reply Form
+                                    function replyToReplyForm(reviewIndex, replyIndex) {
+                                        let box = document.getElementById(`nested-reply-box-${reviewIndex}-${replyIndex}`);
+                                        box.innerHTML = `
+            <input type="text" placeholder="Your Name" style="width:70%;margin-top:5px;padding:6px;">
+            <input type="text" placeholder="Write reply..." style="width:70%;margin-top:5px;padding:6px;">
+            <button class="prs-btn" style="background:#17a2b8;margin-top:5px;" onclick="submitNestedReply(${reviewIndex}, ${replyIndex}, this)">Send</button>
+        `;
+                                    }
+
+                                    // Submit Nested Reply
+                                    function submitNestedReply(reviewIndex, replyIndex, button) {
+                                        let inputs = button.parentElement.querySelectorAll("input");
+                                        let replyName = inputs[0].value.trim();
+                                        let replyText = inputs[1].value.trim();
+
+                                        if (!replyName || !replyText) {
+                                            alert("Please enter name and reply!");
+                                            return;
+                                        }
+
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews[reviewIndex].replies[replyIndex].replies = reviews[reviewIndex].replies[replyIndex].replies || [];
+                                        reviews[reviewIndex].replies[replyIndex].replies.push({
+                                            name: replyName,
+                                            text: replyText
+                                        });
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+
+                                        loadReviews();
+                                    }
+
+                                    // Toggle Replies
+                                    function toggleReplies(index) {
+                                        let repliesDiv = document.getElementById(`replies-${index}`);
+                                        repliesDiv.style.display = repliesDiv.style.display === "none" ? "block" : "none";
+                                    }
+
+                                    // Load on page refresh
+                                    document.addEventListener("DOMContentLoaded", loadReviews);
+
+
+
+
+
+
+                                    // Reply Form (toggle)
+                                    function replyForm(button, index) {
+                                        let replyBox = button.nextElementSibling;
+                                        if (replyBox.innerHTML.trim() !== "") {
+                                            // already open → close
+                                            replyBox.innerHTML = "";
+                                            return;
+                                        }
+                                        replyBox.innerHTML = `
+        <input type="text" placeholder="Your Name" style="width:80%;margin-top:5px;padding:6px;">
+        <input type="text" placeholder="Write reply..." style="width:80%;margin-top:5px;padding:6px;">
+        <button class="prs-btn" style="background:#6c757d;margin-top:5px;" onclick="submitReply(this, ${index})">Send</button>
+    `;
+                                    }
+
+                                    // Reply-to-Reply Form (toggle)
+                                    function replyToReplyForm(reviewIndex, replyIndex) {
+                                        let box = document.getElementById(`nested-reply-box-${reviewIndex}-${replyIndex}`);
+                                        if (box.innerHTML.trim() !== "") {
+                                            // already open → close
+                                            box.innerHTML = "";
+                                            return;
+                                        }
+                                        box.innerHTML = `
+        <input type="text" placeholder="Your Name" style="width:70%;margin-top:5px;padding:6px;">
+        <input type="text" placeholder="Write reply..." style="width:70%;margin-top:5px;padding:6px;">
+        <button class="prs-btn" style="background:#17a2b8;margin-top:5px;" onclick="submitNestedReply(${reviewIndex}, ${replyIndex}, this)">Send</button>
+    `;
+                                    }
+                                </script> -->
+
+
+
+
+
+
+
+                                <!-- Write a Comment Button -->
                                 <?php
                                 $host = 'localhost';
 
-                                // 🔑 Auto switch: Localhost vs Live
+                                // Database credentials for localhost vs live
                                 if ($_SERVER['SERVER_NAME'] == 'localhost') {
                                     $user = "root";
                                     $pass = "";
@@ -495,22 +758,22 @@ if ($blog_id > 0) {
                                 }
 
                                 try {
-                                    $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
+                                    // PDO Connection
+                                    $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
                                     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-                                    // ✅ Get blog id safely
-                                    $blog_id = isset($blog['id']) ? intval($blog['id']) : 0;
+                                    // Get blog id safely
+                                    $blog_id = isset($blog['id']) ? (int)$blog['id'] : 0;
 
-                                    // ✅ Fetch comments
+                                    // Fetch all comments for this blog (newest first)
                                     $stmt = $pdo->prepare("SELECT user_name, comment 
                            FROM blog_comments 
                            WHERE blog_id = :blog_id 
                            ORDER BY created_at DESC");
-                                    $stmt->bindParam(':blog_id', $blog_id, PDO::PARAM_INT);
-                                    $stmt->execute();
-                                    $comment_result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                    $stmt->execute(['blog_id' => $blog_id]);
+                                    $comments = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 } catch (PDOException $e) {
-                                    die("❌ DB Error: " . $e->getMessage());
+                                    die("Database error: " . $e->getMessage());
                                 }
                                 ?>
 
@@ -537,7 +800,7 @@ if ($blog_id > 0) {
                                 </div>
 
                                 <!-- Display Comments -->
-                                <!-- <?php
+                                <?php
                                 include 'db.connection/db_connection.php';
 
                                 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -567,7 +830,7 @@ if ($blog_id > 0) {
                                         echo json_encode(["success" => false, "message" => $conn->error]);
                                     }
                                 }
-                                ?> -->
+                                ?>
 
 
 
