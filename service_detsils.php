@@ -787,29 +787,24 @@ if ($blog_id > 0) {
                                         let xhr = new XMLHttpRequest();
                                         xhr.open("POST", "update_reaction.php", true);
                                         xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-
                                         xhr.onreadystatechange = function() {
                                             if (xhr.readyState === 4 && xhr.status === 200) {
                                                 try {
                                                     let res = JSON.parse(xhr.responseText);
-
                                                     if (res.success) {
-                                                        // Update like/dislike counts in the page
                                                         document.getElementById("like-count-" + commentId).innerText = res.likes;
                                                         document.getElementById("dislike-count-" + commentId).innerText = res.dislikes;
                                                     } else {
-                                                        alert(res.message); // show error message
+                                                        alert("❌ Failed to update reaction");
                                                     }
                                                 } catch (e) {
-                                                    console.error("Invalid JSON response:", xhr.responseText);
+                                                    console.error("Invalid JSON:", xhr.responseText);
                                                 }
                                             }
                                         };
-
                                         xhr.send("comment_id=" + commentId + "&type=" + type);
                                     }
                                 </script>
-
 
 
 
