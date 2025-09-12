@@ -1,15 +1,29 @@
 <?php
-ob_start();
+// ✅ Show errors in live (remove after testing)
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 // Database connection
 $host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "srinivasa"; 
+
+// Check if running locally or live
+if ($_SERVER['SERVER_NAME'] == "localhost") {
+    // Localhost credentials
+    $user = "root";
+    $pass = "";
+    $db   = "srinivasa";
+} else {
+    // Live server credentials (update with your cPanel DB name + user + pass)
+    $user = "srinivasadentalkakinada";
+    $pass = "sTNcxCDh5cdERAZ";
+    $db   = "srinivasadentalkakinada";
+}
+
 $conn = new mysqli($host, $user, $pass, $db);
 
+// Check connection
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("❌ Connection failed: " . $conn->connect_error);
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -23,14 +37,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             VALUES ('$blog_id', '$user_name', '$user_email', '$comment', 0, 0)";
 
     if ($conn->query($sql) === TRUE) {
-        if (ob_get_length()) {
-            ob_end_clean();
-        }
-        // 🔑 Redirect to correct file spelling
-        header("Location: service_detsils.php?id=" . $blog_id);
-        exit();
+        echo "<script>
+                alert('✅ Comment added successfully!');
+                window.location.href = document.referrer;
+              </script>";
     } else {
-        echo "❌ SQL Error: " . $conn->error;
+        echo "<script>alert('❌ SQL Error: " . addslashes($conn->error) . "');</script>";
     }
 }
 ?>
