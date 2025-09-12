@@ -467,6 +467,14 @@ if ($blog_id > 0) {
 
 
 
+
+
+
+
+
+
+
+
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
                                     <div class="ul-service-details-full-content mt-3">
@@ -480,181 +488,15 @@ if ($blog_id > 0) {
 
 
 
-                                <?php
-                                $host = 'localhost';
-
-                                // 🔑 Auto switch: Localhost vs Live
-                                if ($_SERVER['SERVER_NAME'] == 'localhost') {
-                                    $user = "root";
-                                    $pass = "";
-                                    $db   = "srinivasa";
-                                } else {
-                                    $user = "srinivasadentalkakinada";
-                                    $pass = "sTNcxCDh5cdERAZ";
-                                    $db   = "srinivasadentalkakinada";
-                                }
-
-                                try {
-                                    $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
-                                    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-                                    // ✅ Get blog id safely
-                                    $blog_id = isset($blog['id']) ? intval($blog['id']) : 0;
-
-                                    // ✅ Fetch comments
-                                    $stmt = $pdo->prepare("SELECT user_name, comment 
-                           FROM blog_comments 
-                           WHERE blog_id = :blog_id 
-                           ORDER BY created_at DESC");
-                                    $stmt->bindParam(':blog_id', $blog_id, PDO::PARAM_INT);
-                                    $stmt->execute();
-                                    $comment_result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-                                } catch (PDOException $e) {
-                                    die("❌ DB Error: " . $e->getMessage());
-                                }
-                                ?>
-
-
-
-                                <!-- Write Comment Button -->
-                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
-
-                                <!-- Comment Form Popup -->
-                                <div id="comment-overlay" class="comment-overlay" style="display:none;">
-                                    <div class="comment-box">
-                                        <span class="close-btn" onclick="toggleCommentBox()">&times;</span>
-                                        <h3>💬 Leave a Comment</h3>
-                                        <form action="save_comment.php" method="POST">
-                                            <input type="hidden" name="blog_id" value="<?php echo $blog_id; ?>">
-
-                                            <input type="text" name="user_name" placeholder="Your Name" required>
-                                            <input type="email" name="user_email" placeholder="Your Email" required>
-                                            <textarea name="comment" rows="4" placeholder="Write your comment..." required></textarea>
-
-                                            <button type="submit">Post Comment</button>
-                                        </form>
-                                    </div>
-                                </div>
-
-                                <!-- Display Comments -->
-                                <!-- <?php
-                                        include 'db.connection/db_connection.php';
-
-                                        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                                            $comment_id = intval($_POST['comment_id']);
-                                            $type = $_POST['type'];
-
-                                            if ($type === "like") {
-                                                $sql = "UPDATE blog_comments SET likes = likes + 1 WHERE id = $comment_id";
-                                            } elseif ($type === "dislike") {
-                                                $sql = "UPDATE blog_comments SET dislikes = dislikes + 1 WHERE id = $comment_id";
-                                            } else {
-                                                echo json_encode(["success" => false, "message" => "Invalid type"]);
-                                                exit;
-                                            }
-
-                                            if ($conn->query($sql)) {
-                                                // Fetch updated counts
-                                                $res = $conn->query("SELECT likes, dislikes FROM blog_comments WHERE id = $comment_id");
-                                                $row = $res->fetch_assoc();
-
-                                                echo json_encode([
-                                                    "success" => true,
-                                                    "likes" => $row['likes'],
-                                                    "dislikes" => $row['dislikes']
-                                                ]);
-                                            } else {
-                                                echo json_encode(["success" => false, "message" => $conn->error]);
-                                            }
-                                        }
-                                        ?> -->
-
-
-
-                                <div class="comment-list">
-                                    <h4>📝 Latest Comments</h4>
-                                    <div class="row">
-                                        <?php
-                                        // All comments fetch
-                                        $all_comments_sql = "SELECT * FROM blog_comments WHERE blog_id = '$blog_id' ORDER BY id DESC";
-                                        $all_comment_result = $conn->query($all_comments_sql);
-
-                                        if ($all_comment_result && $all_comment_result->num_rows > 0) {
-                                            while ($row = $all_comment_result->fetch_assoc()) {
-                                                $comment_id = $row['id'];
-                                                $user_name  = htmlspecialchars($row['user_name']);
-                                                $comment    = htmlspecialchars($row['comment']);
-                                                $likes      = (int)$row['likes'];
-                                                $dislikes   = (int)$row['dislikes'];
-
-                                                echo "
-                <div class='col-md-6 mb-3'>
-                    <div class='comment-item p-3 border rounded shadow-sm h-100'>
-                        <strong>$user_name</strong>
-                        <p class='mb-0'>$comment</p>
-
-                        <!-- Like / Dislike buttons -->
-                        <div class='mt-2 d-flex justify-content-between'>
-                            <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
-                                👍 Like (<span id='like-count-$comment_id'>$likes</span>)
-                            </button>
-                            <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
-                                👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                ";
-                                            }
-                                        } else {
-                                            echo "<div class='col-12'><p>No comments yet. Be the first to comment!</p></div>";
-                                        }
-                                        ?>
-                                    </div>
-                                </div>
-
-
-                                <script>
-                                    function updateReaction(commentId, type) {
-                                        let xhr = new XMLHttpRequest();
-                                        xhr.open("POST", "update_reaction.php", true);
-                                        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-                                        xhr.onreadystatechange = function() {
-                                            if (xhr.readyState === 4 && xhr.status === 200) {
-                                                try {
-                                                    let res = JSON.parse(xhr.responseText);
-                                                    if (res.success) {
-                                                        document.getElementById("like-count-" + commentId).innerText = res.likes;
-                                                        document.getElementById("dislike-count-" + commentId).innerText = res.dislikes;
-                                                    } else {
-                                                        alert("❌ Failed to update reaction");
-                                                    }
-                                                } catch (e) {
-                                                    console.error("Invalid JSON:", xhr.responseText);
-                                                }
-                                            }
-                                        };
-                                        xhr.send("comment_id=" + commentId + "&type=" + type);
-                                    }
-                                </script>
 
 
 
 
 
-                                <!-- JS -->
-                                <script>
-                                    function toggleCommentBox() {
-                                        var overlay = document.getElementById("comment-overlay");
-                                        if (overlay.style.display === "none" || overlay.style.display === "") {
-                                            overlay.style.display = "flex"; // show
-                                        } else {
-                                            overlay.style.display = "none"; // hide
-                                        }
-                                    }
-                                </script>
 
-                                <!-- CSS -->
+
+
+
                                 <style>
                                     .comment-overlay {
                                         position: fixed;
@@ -789,14 +631,184 @@ if ($blog_id > 0) {
 
 
 
-                                <?php
-                                // Database connection
-                                $conn = new mysqli("localhost", "root", "", "srinivasa"); // localhost, username, password, database
 
-                                if ($conn->connect_error) {
-                                    die("Connection failed: " . $conn->connect_error);
+
+
+
+                                <?php
+                                // Auto DB Connection (localhost / live)
+                                $host = 'localhost';
+                                if ($_SERVER['SERVER_NAME'] == 'localhost') {
+                                    $user = "root";
+                                    $pass = "";
+                                    $db   = "srinivasa";
+                                } else {
+                                    $user = "srinivasadentalkakinada";
+                                    $pass = "sTNcxCDh5cdERAZ";
+                                    $db   = "srinivasadentalkakinada";
+                                }
+
+                                try {
+                                    $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
+                                    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+                                    // ✅ Blog ID check
+                                    $blog_id = isset($blog['id']) ? intval($blog['id']) : 0;
+
+                                    // ✅ Fetch all comments for this blog
+                                    $stmt = $pdo->prepare("SELECT user_name, comment 
+                           FROM blog_comments 
+                           WHERE blog_id = :blog_id 
+                           ORDER BY created_at DESC");
+                                    $stmt->bindParam(':blog_id', $blog_id, PDO::PARAM_INT);
+                                    $stmt->execute();
+                                    $comment_result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                } catch (PDOException $e) {
+                                    die("❌ DB Error: " . $e->getMessage());
                                 }
                                 ?>
+
+
+                                <!-- Write Comment Button -->
+                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
+
+                                <!-- Comment Form Popup -->
+                                <div id="comment-overlay" class="comment-overlay" style="display:none;">
+                                    <div class="comment-box">
+                                        <span class="close-btn" onclick="toggleCommentBox()">&times;</span>
+                                        <h3>💬 Leave a Comment</h3>
+                                        <form action="save_comment.php" method="POST">
+                                            <input type="hidden" name="blog_id" value="<?php echo $blog_id; ?>">
+
+                                            <input type="text" name="user_name" placeholder="Your Name" required>
+                                            <input type="email" name="user_email" placeholder="Your Email" required>
+                                            <textarea name="comment" rows="4" placeholder="Write your comment..." required></textarea>
+
+                                            <button type="submit">Post Comment</button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <!-- Display Comments -->
+                                <?php
+                                include 'db.connection/db_connection.php';
+
+                                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                                    $comment_id = intval($_POST['comment_id']);
+                                    $type = $_POST['type'];
+
+                                    if ($type === "like") {
+                                        $sql = "UPDATE blog_comments SET likes = likes + 1 WHERE id = $comment_id";
+                                    } elseif ($type === "dislike") {
+                                        $sql = "UPDATE blog_comments SET dislikes = dislikes + 1 WHERE id = $comment_id";
+                                    } else {
+                                        echo json_encode(["success" => false, "message" => "Invalid type"]);
+                                        exit;
+                                    }
+
+                                    if ($conn->query($sql)) {
+                                        // Fetch updated counts
+                                        $res = $conn->query("SELECT likes, dislikes FROM blog_comments WHERE id = $comment_id");
+                                        $row = $res->fetch_assoc();
+
+                                        echo json_encode([
+                                            "success" => true,
+                                            "likes" => $row['likes'],
+                                            "dislikes" => $row['dislikes']
+                                        ]);
+                                    } else {
+                                        echo json_encode(["success" => false, "message" => $conn->error]);
+                                    }
+                                }
+                                ?>
+
+
+
+                                <div class="comment-list">
+                                    <h4>📝 Latest Comments</h4>
+                                    <div class="row">
+                                        <?php
+                                        // All comments fetch
+                                        $all_comments_sql = "SELECT * FROM blog_comments WHERE blog_id = '$blog_id' ORDER BY id DESC";
+                                        $all_comment_result = $conn->query($all_comments_sql);
+
+                                        if ($all_comment_result && $all_comment_result->num_rows > 0) {
+                                            while ($row = $all_comment_result->fetch_assoc()) {
+                                                $comment_id = $row['id'];
+                                                $user_name  = htmlspecialchars($row['user_name']);
+                                                $comment    = htmlspecialchars($row['comment']);
+                                                $likes      = (int)$row['likes'];
+                                                $dislikes   = (int)$row['dislikes'];
+
+                                                echo "
+                <div class='col-md-6 mb-3'>
+                    <div class='comment-item p-3 border rounded shadow-sm h-100'>
+                        <strong>$user_name</strong>
+                        <p class='mb-0'>$comment</p>
+
+                        <!-- Like / Dislike buttons -->
+                        <div class='mt-2 d-flex justify-content-between'>
+                            <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
+                                👍 Like (<span id='like-count-$comment_id'>$likes</span>)
+                            </button>
+                            <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
+                                👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                ";
+                                            }
+                                        } else {
+                                            echo "<div class='col-12'><p>No comments yet. Be the first to comment!</p></div>";
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+
+
+                                <script>
+                                    function updateReaction(commentId, type) {
+                                        let xhr = new XMLHttpRequest();
+                                        xhr.open("POST", "update_reaction.php", true);
+                                        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                                        xhr.onreadystatechange = function() {
+                                            if (xhr.readyState === 4 && xhr.status === 200) {
+                                                try {
+                                                    let res = JSON.parse(xhr.responseText);
+                                                    if (res.success) {
+                                                        document.getElementById("like-count-" + commentId).innerText = res.likes;
+                                                        document.getElementById("dislike-count-" + commentId).innerText = res.dislikes;
+                                                    } else {
+                                                        alert("❌ Failed to update reaction");
+                                                    }
+                                                } catch (e) {
+                                                    console.error("Invalid JSON:", xhr.responseText);
+                                                }
+                                            }
+                                        };
+                                        xhr.send("comment_id=" + commentId + "&type=" + type);
+                                    }
+                                </script>
+
+
+
+
+
+                                <!-- JS -->
+                                <script>
+                                    function toggleCommentBox() {
+                                        var overlay = document.getElementById("comment-overlay");
+                                        if (overlay.style.display === "none" || overlay.style.display === "") {
+                                            overlay.style.display = "flex"; // show
+                                        } else {
+                                            overlay.style.display = "none"; // hide
+                                        }
+                                    }
+                                </script>
+
+
+
 
 
 
@@ -808,15 +820,7 @@ if ($blog_id > 0) {
 
 
                             </div>
-
-
-
-
-                            <!-- // Fetch reviews (replace 'reviews' with your table name)
-                            $sql = "SELECT user_name, comment FROM reviews ORDER BY created_at DESC";
-                            $result = $conn->query($sql);
-                            ?> -->
-
+                            <!-- CSS -->
 
 
 
