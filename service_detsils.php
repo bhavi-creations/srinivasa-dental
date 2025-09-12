@@ -691,36 +691,51 @@ if ($blog_id > 0) {
 
                                 <!-- Display Comments -->
                                 <?php
+                                session_start();
                                 include 'db.connection/db_connection.php';
+                                header("Content-Type: application/json");
 
                                 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     $comment_id = intval($_POST['comment_id']);
                                     $type = $_POST['type'];
 
-                                    if ($type === "like") {
-                                        $sql = "UPDATE blog_comments SET likes = likes + 1 WHERE id = $comment_id";
-                                    } elseif ($type === "dislike") {
-                                        $sql = "UPDATE blog_comments SET dislikes = dislikes + 1 WHERE id = $comment_id";
-                                    } else {
+                                    if (!in_array($type, ['like', 'dislike'])) {
                                         echo json_encode(["success" => false, "message" => "Invalid type"]);
                                         exit;
                                     }
 
-                                    if ($conn->query($sql)) {
-                                        // Fetch updated counts
-                                        $res = $conn->query("SELECT likes, dislikes FROM blog_comments WHERE id = $comment_id");
-                                        $row = $res->fetch_assoc();
-
-                                        echo json_encode([
-                                            "success" => true,
-                                            "likes" => $row['likes'],
-                                            "dislikes" => $row['dislikes']
-                                        ]);
-                                    } else {
-                                        echo json_encode(["success" => false, "message" => $conn->error]);
+                                    if (!isset($_SESSION['reactions'])) {
+                                        $_SESSION['reactions'] = [];
                                     }
+
+                                    // Check if user already reacted
+                                    if (isset($_SESSION['reactions'][$comment_id])) {
+                                        echo json_encode(["success" => false, "message" => "You can only react once."]);
+                                        exit;
+                                    }
+
+                                    // Update database count
+                                    if ($type === 'like') {
+                                        $conn->query("UPDATE blog_comments SET likes = likes + 1 WHERE id=$comment_id");
+                                    } else {
+                                        $conn->query("UPDATE blog_comments SET dislikes = dislikes + 1 WHERE id=$comment_id");
+                                    }
+
+                                    // Store reaction in session
+                                    $_SESSION['reactions'][$comment_id] = $type;
+
+                                    // Fetch updated counts
+                                    $res = $conn->query("SELECT likes, dislikes FROM blog_comments WHERE id=$comment_id");
+                                    $row = $res->fetch_assoc();
+
+                                    echo json_encode([
+                                        "success" => true,
+                                        "likes" => (int)$row['likes'],
+                                        "dislikes" => (int)$row['dislikes']
+                                    ]);
                                 }
                                 ?>
+
 
 
 
@@ -772,24 +787,29 @@ if ($blog_id > 0) {
                                         let xhr = new XMLHttpRequest();
                                         xhr.open("POST", "update_reaction.php", true);
                                         xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
                                         xhr.onreadystatechange = function() {
                                             if (xhr.readyState === 4 && xhr.status === 200) {
                                                 try {
                                                     let res = JSON.parse(xhr.responseText);
+
                                                     if (res.success) {
+                                                        // Update like/dislike counts in the page
                                                         document.getElementById("like-count-" + commentId).innerText = res.likes;
                                                         document.getElementById("dislike-count-" + commentId).innerText = res.dislikes;
                                                     } else {
-                                                        alert("❌ Failed to update reaction");
+                                                        alert(res.message); // show error message
                                                     }
                                                 } catch (e) {
-                                                    console.error("Invalid JSON:", xhr.responseText);
+                                                    console.error("Invalid JSON response:", xhr.responseText);
                                                 }
                                             }
                                         };
+
                                         xhr.send("comment_id=" + commentId + "&type=" + type);
                                     }
                                 </script>
+
 
 
 
@@ -868,33 +888,13 @@ if ($blog_id > 0) {
                             </div> -->
 
 
-                        <!-- <div class="ul-service-details-sidebar-widget ul-service-details-sidebar-cta">
-                                <span class="ul-service-details-sidebar-widget-title">Have Additional Questions?</span>
-                                <div class="ul-service-details-sidebar-cta-content">
-                                    <p class="contact-info">3rd Avenue, 83 Manhattan, London, UK</p>
-                                    <span class="contact-info number"><a href="tel:+1890123456">+1890 123 456</a></span>
-                                    <p class="contact-info"><a href="mailto:support@example.com">support@example.com</a>
-                                    </p>
-                                    <a href="contact.html" class="ul-btn">Contact Us <i
-                                            class="flaticon-arrow-up-right"></i></a>
-                                </div> -->
-                        <!-- </div> -->
+
                         <img src="./assets/img/services/service_side_image2.jpg" alt="" style="height: 280px; width: 330px;">
-                        <!-- <div class="card" style="display:flex; justify-content:center; align-items:center; flex-direction:column;">
-                            <h3 class="mani">Contact Us</h3>
-                            <p>For Digital Marketing Agency</p>
-                            <strong>
-                                <a href="tel:+919290019948" style="text-decoration:none; color:#007bff;">
-                                    +91 9290019948
-                                </a>
-                            </strong>
-                        </div> -->
+
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:20px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
-                            <!-- <h3 class="mani" style="color:#333; font-weight:600; margin-bottom:10px;">
-    Contact Us
-</h3> -->
+
 
                             <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Srinivasa
@@ -904,12 +904,7 @@ if ($blog_id > 0) {
                                 Dental <span style="color:#e63946;">Hospital</span>
                             </p>
 
-                            <!-- <strong>
-    <a href="tel:+919290019948"
-        style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; border-radius:8px; font-size:16px; display:inline-block; margin-top:10px; transition:0.3s;">
-        📞 Call Now: +91 9290019948
-    </a>
-</strong> -->
+
                         </div>
 
 
