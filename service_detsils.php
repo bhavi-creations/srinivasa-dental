@@ -745,9 +745,8 @@ if ($blog_id > 0) {
                                 <!-- Write a Comment Button -->
 
                                 <?php
+                                // Auto DB Connection (localhost / live)
                                 $host = 'localhost';
-
-                                // Database credentials for localhost vs live
                                 if ($_SERVER['SERVER_NAME'] == 'localhost') {
                                     $user = "root";
                                     $pass = "";
@@ -759,25 +758,24 @@ if ($blog_id > 0) {
                                 }
 
                                 try {
-                                    // PDO Connection
-                                    $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
+                                    $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
                                     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-                                    // Get blog id safely
-                                    $blog_id = isset($blog['id']) ? (int)$blog['id'] : 0;
+                                    // ✅ Blog ID check
+                                    $blog_id = isset($blog['id']) ? intval($blog['id']) : 0;
 
-                                    // Fetch all comments for this blog (newest first)
+                                    // ✅ Fetch all comments for this blog
                                     $stmt = $pdo->prepare("SELECT user_name, comment 
                            FROM blog_comments 
                            WHERE blog_id = :blog_id 
                            ORDER BY created_at DESC");
-                                    $stmt->execute(['blog_id' => $blog_id]);
-                                    $comments = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                    $stmt->bindParam(':blog_id', $blog_id, PDO::PARAM_INT);
+                                    $stmt->execute();
+                                    $comment_result = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 } catch (PDOException $e) {
-                                    die("Database error: " . $e->getMessage());
+                                    die("❌ DB Error: " . $e->getMessage());
                                 }
                                 ?>
-
 
 
 
