@@ -142,12 +142,12 @@ if ($blog_id > 0) {
 
 
 
-        <section class="ul-service-details ul-section-spacing full_blogs_section d-none d-lg-block">
+        <section class="ul-service-details ul-section-spacing full_blogs_section d-none d-lg-block ">
             <div class="container-fluid">
                 <div class="row g-xl-5 g-4 mx-3">
 
                     <!-- Left Sidebar (First Half Blogs) -->
-                    <div class="col-lg-3 col-md-5">
+                    <div class="col-lg-3 col-md-5 mt-5">
                         <div class="ul-service-details-sidebar fixed-sidebar">
                             <!-- Show only 2 blogs at a time, scroll for rest -->
                             <div class="ul-service-details-sidebar-widget blog-sidebar-list" style="max-height:200px; overflow-y:auto;">
@@ -198,7 +198,7 @@ if ($blog_id > 0) {
 
 
                     <!-- Right Sidebar (Second Half Blogs) -->
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 mt-5">
                         <div class="ul-service-details-sidebar fixed-sidebar">
                             <div class="ul-service-details-sidebar-widget blog-sidebar-list" style="max-height:200px; overflow-y:auto;">
                                 <h4 class="text-center mb-3 latest_blog_section">More Blogs</h4>
@@ -283,7 +283,7 @@ if ($blog_id > 0) {
 
 
                     <!-- Left Sidebar (First Half Blogs) -->
-                    <div class="col-lg-3 col-md-5">
+                    <div class="col-lg-3 col-md-6 ">
                         <div class="ul-service-details-sidebar fixed-sidebar">
                             <!-- Show only 2 blogs at a time, scroll for rest -->
                             <div class="ul-service-details-sidebar-widget blog-sidebar-list" style="max-height:200px; overflow-y:auto;">
@@ -312,7 +312,7 @@ if ($blog_id > 0) {
 
 
                     <!-- Right Sidebar (Second Half Blogs) -->
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="ul-service-details-sidebar fixed-sidebar">
                             <div class="ul-service-details-sidebar-widget blog-sidebar-list" style="max-height:200px; overflow-y:auto;">
                                 <h4 class="text-center mb-3 latest_blog_section">More Blogs</h4>
@@ -353,15 +353,7 @@ if ($blog_id > 0) {
                         <img src="./assets/img/services/service_side_image1.jpg" alt="" style="height:280px; width: 330px;">
 
 
-                        <!-- <div class="card" style="display:flex; justify-content:center; align-items:center; flex-direction:column;">
-                            <h3 class="mani">Contact Us</h3>
-                            <p>Clear Aligners</p>
-                            <strong>
-                                <a href="tel:+919290019948" style="text-decoration:none; color:#007bff;">
-                                    +91 9290019948
-                                </a>
-                            </strong>
-                        </div> -->
+                        
 
 
 
@@ -448,19 +440,21 @@ if ($blog_id > 0) {
                                     <?php endif; ?>
                                 </div> -->
 
-                                <div class="row mb-3 mx-2">
+                                <div class="row mb-3">
                                     <?php if (!empty($blog['main_image'])): ?>
-                                        <div class="col-12 col-md-6 mb-3 mb-md-0 text-center">
+                                        <div class="col-12 col-lg-6 mb-3 mb-md-0 text-center">
                                             <img src="./admin/uploads/photos/<?php echo htmlspecialchars($blog['main_image']); ?>"
                                                 alt="Main Image" class="img-fluid"
-                                                style="max-height:200px; width:auto; object-fit:cover;">
+                                                >
+                                                <!-- style="max-height:150px; width:auto; object-fit:cover;"> -->
                                         </div>
                                     <?php endif; ?>
 
                                     <?php if (!empty($blog['video'])): ?>
-                                        <div class="col-12 col-md-6 text-center">
+                                        <div class="col-12 col-lg-6 text-center  blog_video_section">
                                             <video src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
-                                                controls style="max-height:200px; width:auto; object-fit:cover;"></video>
+                                                controls style="max-height:150px; width:auto; object-fit:cover;"></video>
+                                                <!-- controls style="max-height:200px; width:auto; object-fit:cover;"></video> -->
                                         </div>
                                     <?php endif; ?>
                                 </div>
@@ -691,9 +685,7 @@ if ($blog_id > 0) {
 
                                 <!-- Display Comments -->
                                 <?php
-                                session_start();
-                                include 'db.connection/db_connection.php';
-                                header("Content-Type: application/json");
+
 
                                 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     $comment_id = intval($_POST['comment_id']);
@@ -756,23 +748,23 @@ if ($blog_id > 0) {
                                                 $dislikes   = (int)$row['dislikes'];
 
                                                 echo "
-                <div class='col-md-6 mb-3'>
-                    <div class='comment-item p-3 border rounded shadow-sm h-100'>
-                        <strong>$user_name</strong>
-                        <p class='mb-0'>$comment</p>
+                    <div class='col-md-6 mb-3'>
+                        <div class='comment-item p-3 border rounded shadow-sm h-100'>
+                            <strong>$user_name</strong>
+                            <p class='mb-0'>$comment</p>
 
-                        <!-- Like / Dislike buttons -->
-                        <div class='mt-2 d-flex justify-content-between'>
-                            <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
-                                👍 Like (<span id='like-count-$comment_id'>$likes</span>)
-                            </button>
-                            <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
-                                👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
-                            </button>
+                            <!-- Like / Dislike buttons -->
+                            <div class='mt-2 d-flex justify-content-between'>
+                                <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
+                                    👍 Like (<span id='like-count-$comment_id'>$likes</span>)
+                                </button>
+                                <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
+                                    👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                ";
+                    ";
                                             }
                                         } else {
                                             echo "<div class='col-12'><p>No comments yet. Be the first to comment!</p></div>";

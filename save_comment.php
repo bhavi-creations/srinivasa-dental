@@ -1,29 +1,13 @@
 <?php
-// ✅ Show errors in live (remove after testing)
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 // Database connection
 $host = "localhost";
-
-// Check if running locally or live
-if ($_SERVER['SERVER_NAME'] == "localhost") {
-    // Localhost credentials
-    $user = "root";
-    $pass = "";
-    $db   = "srinivasa";
-} else {
-    // Live server credentials (update with your cPanel DB name + user + pass)
-    $user = "srinivasadentalkakinada";
-    $pass = "sTNcxCDh5cdERAZ";
-    $db   = "srinivasadentalkakinada";
-}
-
+$user = "root";
+$pass = "";
+$db   = "srinivasa"; 
 $conn = new mysqli($host, $user, $pass, $db);
 
-// Check connection
 if ($conn->connect_error) {
-    die("❌ Connection failed: " . $conn->connect_error);
+    die("Connection failed: " . $conn->connect_error);
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -42,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 window.location.href = document.referrer;
               </script>";
     } else {
-        echo "<script>alert('❌ SQL Error: " . addslashes($conn->error) . "');</script>";
+        echo "<script>alert('❌ Error: " . addslashes($conn->error) . "');</script>";
     }
 }
 ?>
