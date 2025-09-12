@@ -1,37 +1,142 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title></title>
-</head>
-<body style='font-family: Arial, Times New Roman, Verdana, Sans-Serif; padding: 5px 5px 5px 5px; margin: 0px; border-style: none; background-color: #ffffff'>
-<div><p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px"><img src= "https://tas-cognizant.taleo.net/smartorg/CorrespondenceLogo.jss?logo=company_logo_02&instant=1757108751862"> </img></p>
-<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px">&nbsp;</p>
-<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px">&nbsp;</p></div><div><p style="margin-top:0px;margin-bottom:0px"><span style="font-family:arial"><span style="font-size:1em">Hi Padala Venkata<br />
-<br />
-TEAMLEASE DIGITAL  PVT LTD&nbsp;thinks you&#39;d be great addition to the cognizant team!&nbsp;They just submitted you as a referral for the position of&nbsp;PE-CX-Multi Channel Helpdesk&nbsp;and we’re excited to review your application.</span></span></p>
-<div><span style="font-family:arial"><span style="font-size:1em">&nbsp;</span></span></div>
-<p style="margin-top:0px;margin-bottom:0px"><span style="font-family:arial"><span style="font-size:1em">To submit an application and be under consideration for the position, please follow these instructions carefully.</span></span></p>
-<div><span style="font-family:arial"><span style="font-size:1em">&nbsp;</span></span></div>
-<div><span style="font-family:arial"><span style="font-size:1em">&nbsp;<strong><em>Previously applied to Cognizant?</em></strong></span></span></div>
-<ul style="list-style-type:disc">
-<li><span style="font-family:arial"><span style="font-size:1em">Log in to the applicant system with your existing credentials.</span></span></li>
-</ul>
-<p style="margin-top:0px;margin-bottom:0px"><strong><em><span style="font-family:arial"><span style="font-size:1em">&nbsp;First time applying to Cognizant?</span></span></em></strong></p>
-<ul style="list-style-type:disc">
-<li><span style="font-size:1em"><span style="font-family:arial">An account has already been created for you. Log in to the applicant system with these temporary credentials.</span></span> 
 
-<ul style="list-style-type:circle">
-<li><span style="font-family:arial"><span style="font-size:1em">Username:&nbsp;38257138</span></span></li>
-<li><span style="font-family:arial"><span style="font-size:1em">Password: u=VAO4$Kw</span></span></li>
-</ul>
-</li>
-</ul>
-<div><strong><em><span style="font-family:arial"><span style="font-size:1em">&nbsp;</span></span></em></strong></div>
-<p style="margin-top:0px;margin-bottom:0px"><span style="font-size:1em"><span style="color:#00b050"><span style="font-family:arial"><a href="https://careers.cognizant.com/global-en/jobs/00064363141">&lt;Click here&gt;</a></span></span><span style="font-family:arial">&nbsp;to complete your application.</span></span></p>
-<div><strong><em><span style="font-family:arial"><span style="font-size:1em">&nbsp;</span></span></em></strong></div>
-<p style="margin-top:0px;margin-bottom:0px"><span style="font-family:arial"><span style="font-size:1em">Once you have finished, we will send you an email confirming we received your application.</span></span></p>
-<div><span style="font-family:arial"><span style="font-size:1em">&nbsp;</span></span></div>
-<div><span style="font-family:arial"><span style="font-size:1em">Thank you for your interest in joining Cognizant!</span></span></div>
-<div><span style="font-family:arial"><span style="font-size:1em">Cognizant Talent Acquisition</span></span></div>
-<div><span style="font-size:1em">&nbsp;</span></div></div></body>
-</html>
+                                <!-- Write a Comment Button -->
+                                <?php
+                                // Database connection
+                                $conn = new mysqli("localhost", "root", "", "srinivasa"); // replace DB name
+                                if ($conn->connect_error) {
+                                    die("Connection failed: " . $conn->connect_error);
+                                }
+
+                                // Get blog id
+                                $blog_id = intval($blog['id']); // assuming $blog['id'] exists
+
+                                // Fetch all comments for this blog, newest first
+                                $comment_sql = "SELECT user_name, comment 
+                FROM blog_comments 
+                WHERE blog_id = $blog_id 
+                ORDER BY created_at DESC"; // removed LIMIT 5
+                                $comment_result = $conn->query($comment_sql);
+                                ?>
+
+
+                                <!-- Write Comment Button -->
+                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
+
+                                <!-- Comment Form Popup -->
+                                <div id="comment-overlay" class="comment-overlay" style="display:none;">
+                                    <div class="comment-box">
+                                        <span class="close-btn" onclick="toggleCommentBox()">&times;</span>
+                                        <h3>💬 Leave a Comment</h3>
+                                        <form action="save_comment.php" method="POST">
+                                            <input type="hidden" name="blog_id" value="<?php echo $blog_id; ?>">
+
+                                            <input type="text" name="user_name" placeholder="Your Name" required>
+                                            <input type="email" name="user_email" placeholder="Your Email" required>
+                                            <textarea name="comment" rows="4" placeholder="Write your comment..." required></textarea>
+
+                                            <button type="submit">Post Comment</button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <!-- Display Comments -->
+                                <?php
+                                include 'db.connection/db_connection.php';
+
+                                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                                    $comment_id = intval($_POST['comment_id']);
+                                    $type = $_POST['type'];
+
+                                    if ($type === "like") {
+                                        $sql = "UPDATE blog_comments SET likes = likes + 1 WHERE id = $comment_id";
+                                    } elseif ($type === "dislike") {
+                                        $sql = "UPDATE blog_comments SET dislikes = dislikes + 1 WHERE id = $comment_id";
+                                    } else {
+                                        echo json_encode(["success" => false, "message" => "Invalid type"]);
+                                        exit;
+                                    }
+
+                                    if ($conn->query($sql)) {
+                                        // Fetch updated counts
+                                        $res = $conn->query("SELECT likes, dislikes FROM blog_comments WHERE id = $comment_id");
+                                        $row = $res->fetch_assoc();
+
+                                        echo json_encode([
+                                            "success" => true,
+                                            "likes" => $row['likes'],
+                                            "dislikes" => $row['dislikes']
+                                        ]);
+                                    } else {
+                                        echo json_encode(["success" => false, "message" => $conn->error]);
+                                    }
+                                }
+                                ?>
+
+
+
+                                <div class="comment-list">
+                                    <h4>📝 Latest Comments</h4>
+                                    <div class="row">
+                                        <?php
+                                        // All comments fetch
+                                        $all_comments_sql = "SELECT * FROM blog_comments WHERE blog_id = '$blog_id' ORDER BY id DESC";
+                                        $all_comment_result = $conn->query($all_comments_sql);
+
+                                        if ($all_comment_result && $all_comment_result->num_rows > 0) {
+                                            while ($row = $all_comment_result->fetch_assoc()) {
+                                                $comment_id = $row['id'];
+                                                $user_name  = htmlspecialchars($row['user_name']);
+                                                $comment    = htmlspecialchars($row['comment']);
+                                                $likes      = (int)$row['likes'];
+                                                $dislikes   = (int)$row['dislikes'];
+
+                                                echo "
+                <div class='col-md-6 mb-3'>
+                    <div class='comment-item p-3 border rounded shadow-sm h-100'>
+                        <strong>$user_name</strong>
+                        <p class='mb-0'>$comment</p>
+
+                        <!-- Like / Dislike buttons -->
+                        <div class='mt-2 d-flex justify-content-between'>
+                            <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
+                                👍 Like (<span id='like-count-$comment_id'>$likes</span>)
+                            </button>
+                            <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
+                                👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                ";
+                                            }
+                                        } else {
+                                            echo "<div class='col-12'><p>No comments yet. Be the first to comment!</p></div>";
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+
+                             
+                                <script>
+                                    function updateReaction(commentId, type) {
+                                        let xhr = new XMLHttpRequest();
+                                        xhr.open("POST", "update_reaction.php", true);
+                                        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                                        xhr.onreadystatechange = function() {
+                                            if (xhr.readyState === 4 && xhr.status === 200) {
+                                                try {
+                                                    let res = JSON.parse(xhr.responseText);
+                                                    if (res.success) {
+                                                        document.getElementById("like-count-" + commentId).innerText = res.likes;
+                                                        document.getElementById("dislike-count-" + commentId).innerText = res.dislikes;
+                                                    } else {
+                                                        alert("❌ Failed to update reaction");
+                                                    }
+                                                } catch (e) {
+                                                    console.error("Invalid JSON:", xhr.responseText);
+                                                }
+                                            }
+                                        };
+                                        xhr.send("comment_id=" + commentId + "&type=" + type);
+                                    }
+                                </script>
