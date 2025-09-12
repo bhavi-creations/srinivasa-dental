@@ -490,144 +490,251 @@ if ($blog_id > 0) {
 
 
 
+                                <!-- <button class="prs-btn mt-3" onclick="openModal()">Click to Review</button>
 
 
+                                <div id="reviewModal" class="prs-modal">
+                                    <div class="prs-modal-content">
+                                        <button class="prs-form-close-btn" onclick="closeModal()">×</button>
+                                        <h3 style="margin-bottom:15px;">Write a Review</h3>
+                                        <input type="text" id="name" placeholder="Your Name">
+                                        <input type="email" id="email" placeholder="Your Email">
 
+                                        <div class="prs-star-rating" id="starRating">
+                                            <span class="prs-star" data-value="1">&#9733;</span>
+                                            <span class="prs-star" data-value="2">&#9733;</span>
+                                            <span class="prs-star" data-value="3">&#9733;</span>
+                                            <span class="prs-star" data-value="4">&#9733;</span>
+                                            <span class="prs-star" data-value="5">&#9733;</span>
+                                        </div>
 
+                                        <textarea id="review" placeholder="Your Review"></textarea>
+                                        <button class="prs-btn" onclick="submitReview()">Submit</button>
+                                    </div>
+                                </div>
 
+                                <div class="prs-reviews" id="reviewsContainer" style="margin-top:15px;"></div>
 
+                                <script>
+                                    let selectedRating = 0;
 
-                                <style>
-                                    .comment-overlay {
-                                        position: fixed;
-                                        top: 0;
-                                        left: 0;
-                                        width: 100%;
-                                        height: 100%;
-                                        background: rgba(0, 0, 0, 0.5);
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        z-index: 999;
+                                    // Modal Functions
+                                    function openModal() {
+                                        document.getElementById("reviewModal").style.display = "flex";
                                     }
 
-                                    .comment-box {
-                                        background: #fff;
-                                        padding: 20px;
-                                        border-radius: 8px;
-                                        width: 90%;
-                                        max-width: 500px;
-                                        position: relative;
+                                    function closeModal() {
+                                        document.getElementById("reviewModal").style.display = "none";
                                     }
 
-                                    .close-btn {
-                                        position: absolute;
-                                        top: 10px;
-                                        right: 15px;
-                                        font-size: 24px;
-                                        cursor: pointer;
-                                        color: #333;
+                                    // Star Rating
+                                    document.querySelectorAll(".prs-star").forEach(star => {
+                                        star.addEventListener("click", function() {
+                                            selectedRating = this.dataset.value;
+                                            document.querySelectorAll(".prs-star").forEach(s => s.classList.remove("selected"));
+                                            for (let i = 0; i < selectedRating; i++) {
+                                                document.querySelectorAll(".prs-star")[i].classList.add("selected");
+                                            }
+                                        });
+                                    });
+
+                                    // Load Reviews
+                                    function loadReviews() {
+                                        let container = document.getElementById("reviewsContainer");
+                                        container.innerHTML = "";
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+
+                                        if (reviews.length === 0) {
+                                            container.innerHTML = "<p>No reviews yet. Be the first to review!</p>";
+                                            return;
+                                        }
+
+                                        reviews.forEach((rev, index) => {
+                                            let replyCount = rev.replies ? rev.replies.length : 0;
+                                            let card = document.createElement("div");
+                                            card.className = "prs-review-card";
+                                            card.innerHTML = `
+                <h4>${rev.name}</h4>
+                <div class="prs-stars">${"★".repeat(rev.rating)}${"☆".repeat(5 - rev.rating)}</div>
+                <p>${rev.review}</p>
+                <button class="prs-btn" style="background:#28a745;" onclick="replyForm(this, ${index})">Reply</button>
+                <div class="prs-reply-box"></div>
+                <button class="prs-btn" style="background:#6c757d;margin-top:8px;" onclick="toggleReplies(${index})">
+                  View Replies (${replyCount})
+                </button>
+                <div class="prs-reply-list" id="replies-${index}" style="display:none; margin-top:8px;">
+                  ${(rev.replies || []).map((r, ridx) => `
+                      <div class='prs-reply'>
+                        <strong>${r.name}:</strong> ${r.text}
+                        <button class="prs-btn" style="background:#17a2b8;margin-left:10px;" onclick="replyToReplyForm(${index}, ${ridx})">Reply</button>
+                        <div id="nested-reply-box-${index}-${ridx}" style="margin-left:20px;"></div>
+                        ${(r.replies || []).map(nr => `
+                            <div class='prs-reply' style="margin-left:20px;">
+                                <strong>${nr.name}:</strong> ${nr.text}
+                            </div>
+                        `).join("")}
+                      </div>
+                  `).join("")}
+                </div>
+            `;
+                                            container.appendChild(card);
+                                        });
                                     }
 
-                                    .comment-box input,
-                                    .comment-box textarea,
-                                    .comment-box button {
-                                        width: 100%;
-                                        margin-bottom: 10px;
-                                        padding: 10px;
-                                        border-radius: 5px;
-                                        border: 1px solid #ccc;
+                                    // Show All Reviews (button click)
+                                    function showAllReviews() {
+                                        document.getElementById("reviewsContainer").style.display = "block";
+                                        loadReviews();
                                     }
 
-                                    .comment-box button {
-                                        background-color: #007bff;
-                                        color: #fff;
-                                        border: none;
-                                        cursor: pointer;
+                                    // Submit Review
+                                    function submitReview() {
+                                        let name = document.getElementById("name").value;
+                                        let email = document.getElementById("email").value;
+                                        let review = document.getElementById("review").value;
+
+                                        if (!name || !email || !review || selectedRating == 0) {
+                                            alert("Please fill all fields and select rating!");
+                                            return;
+                                        }
+
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews.push({
+                                            name,
+                                            email,
+                                            review,
+                                            rating: selectedRating,
+                                            replies: []
+                                        });
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+
+                                        closeModal();
+                                        document.getElementById("name").value = "";
+                                        document.getElementById("email").value = "";
+                                        document.getElementById("review").value = "";
+                                        selectedRating = 0;
+                                        document.querySelectorAll(".prs-star").forEach(s => s.classList.remove("selected"));
+
+                                        loadReviews();
                                     }
 
-                                    .comment-list {
-                                        margin-top: 20px;
-                                        padding: 10px;
-                                        background: #f9f9f9;
-                                        border-radius: 8px;
+                                    // Delete Review
+                                    function deleteReview(index) {
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews.splice(index, 1);
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+                                        loadReviews();
                                     }
 
-                                    .comment-item {
-                                        padding: 10px;
-                                        border-bottom: 1px solid #ddd;
+                                    // Reply Form
+                                    function replyForm(button, index) {
+                                        let replyBox = button.nextElementSibling;
+                                        replyBox.innerHTML = `
+            <input type="text" placeholder="Your Name" style="width:80%;margin-top:5px;padding:6px;">
+            <input type="text" placeholder="Write reply..." style="width:80%;margin-top:5px;padding:6px;">
+            <button class="prs-btn" style="background:#6c757d;margin-top:5px;" onclick="submitReply(this, ${index})">Send</button>
+        `;
                                     }
 
-                                    .comment-item:last-child {
-                                        border-bottom: none;
+                                    // Submit Reply
+                                    function submitReply(button, index) {
+                                        let inputs = button.parentElement.querySelectorAll("input");
+                                        let replyName = inputs[0].value.trim();
+                                        let replyText = inputs[1].value.trim();
+
+                                        if (!replyName || !replyText) {
+                                            alert("Please enter name and reply!");
+                                            return;
+                                        }
+
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews[index].replies = reviews[index].replies || [];
+                                        reviews[index].replies.push({
+                                            name: replyName,
+                                            text: replyText,
+                                            replies: []
+                                        });
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
+
+                                        loadReviews();
                                     }
 
-                                    .comment-item strong {
-                                        display: block;
-                                        margin-bottom: 5px;
+                                    // Reply-to-Reply Form
+                                    function replyToReplyForm(reviewIndex, replyIndex) {
+                                        let box = document.getElementById(`nested-reply-box-${reviewIndex}-${replyIndex}`);
+                                        box.innerHTML = `
+            <input type="text" placeholder="Your Name" style="width:70%;margin-top:5px;padding:6px;">
+            <input type="text" placeholder="Write reply..." style="width:70%;margin-top:5px;padding:6px;">
+            <button class="prs-btn" style="background:#17a2b8;margin-top:5px;" onclick="submitNestedReply(${reviewIndex}, ${replyIndex}, this)">Send</button>
+        `;
                                     }
 
-                                    .comment-item p {
-                                        margin: 0;
-                                    }
-                                </style>
+                                    // Submit Nested Reply
+                                    function submitNestedReply(reviewIndex, replyIndex, button) {
+                                        let inputs = button.parentElement.querySelectorAll("input");
+                                        let replyName = inputs[0].value.trim();
+                                        let replyText = inputs[1].value.trim();
 
+                                        if (!replyName || !replyText) {
+                                            alert("Please enter name and reply!");
+                                            return;
+                                        }
 
+                                        let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+                                        reviews[reviewIndex].replies[replyIndex].replies = reviews[reviewIndex].replies[replyIndex].replies || [];
+                                        reviews[reviewIndex].replies[replyIndex].replies.push({
+                                            name: replyName,
+                                            text: replyText
+                                        });
+                                        localStorage.setItem("reviews", JSON.stringify(reviews));
 
-                                <!-- Styling -->
-                                <style>
-                                    .show-comment-btn {
-                                        background: #007bff;
-                                        color: white;
-                                        padding: 10px 18px;
-                                        border: none;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        margin-bottom: 10px;
-                                        transition: background 0.3s ease;
-                                    }
-
-                                    .show-comment-btn:hover {
-                                        background: #0056b3;
+                                        loadReviews();
                                     }
 
-                                    .comment-box {
-                                        /* background: red; */
-                                        background-image: radial-gradient(circle, #e8f2f9, #dcedf9, #d0e8f9, #c4e3f9, #b7def9, #b1dcf9, #abd9f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9) !important;
-                                        padding: 20px;
-                                        border-radius: 8px;
-                                        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-                                        max-width: 600px;
+                                    // Toggle Replies
+                                    function toggleReplies(index) {
+                                        let repliesDiv = document.getElementById(`replies-${index}`);
+                                        repliesDiv.style.display = repliesDiv.style.display === "none" ? "block" : "none";
                                     }
 
-                                    .comment-box h3 {
-                                        margin-bottom: 15px;
-                                        color: #333;
+                                    // Load on page refresh
+                                    document.addEventListener("DOMContentLoaded", loadReviews);
+
+
+
+
+
+
+                                    // Reply Form (toggle)
+                                    function replyForm(button, index) {
+                                        let replyBox = button.nextElementSibling;
+                                        if (replyBox.innerHTML.trim() !== "") {
+                                            // already open → close
+                                            replyBox.innerHTML = "";
+                                            return;
+                                        }
+                                        replyBox.innerHTML = `
+        <input type="text" placeholder="Your Name" style="width:80%;margin-top:5px;padding:6px;">
+        <input type="text" placeholder="Write reply..." style="width:80%;margin-top:5px;padding:6px;">
+        <button class="prs-btn" style="background:#6c757d;margin-top:5px;" onclick="submitReply(this, ${index})">Send</button>
+    `;
                                     }
 
-                                    .comment-box input,
-                                    .comment-box textarea {
-                                        width: 100%;
-                                        padding: 10px;
-                                        margin-bottom: 12px;
-                                        border: 1px solid #ddd;
-                                        border-radius: 5px;
+                                    // Reply-to-Reply Form (toggle)
+                                    function replyToReplyForm(reviewIndex, replyIndex) {
+                                        let box = document.getElementById(`nested-reply-box-${reviewIndex}-${replyIndex}`);
+                                        if (box.innerHTML.trim() !== "") {
+                                            // already open → close
+                                            box.innerHTML = "";
+                                            return;
+                                        }
+                                        box.innerHTML = `
+        <input type="text" placeholder="Your Name" style="width:70%;margin-top:5px;padding:6px;">
+        <input type="text" placeholder="Write reply..." style="width:70%;margin-top:5px;padding:6px;">
+        <button class="prs-btn" style="background:#17a2b8;margin-top:5px;" onclick="submitNestedReply(${reviewIndex}, ${replyIndex}, this)">Send</button>
+    `;
                                     }
-
-                                    .comment-box button {
-                                        background: #28a745;
-                                        color: white;
-                                        padding: 10px 16px;
-                                        border: none;
-                                        border-radius: 6px;
-                                        cursor: pointer;
-                                        transition: background 0.3s ease;
-                                    }
-
-                                    .comment-box button:hover {
-                                        background: #1e7e34;
-                                    }
-                                </style>
+                                </script> -->
 
 
 
@@ -635,6 +742,7 @@ if ($blog_id > 0) {
 
 
 
+                                <!-- Write a Comment Button -->
                                 <?php
                                 // Auto DB Connection (localhost / live)
                                 $host = 'localhost';
@@ -807,8 +915,149 @@ if ($blog_id > 0) {
                                     }
                                 </script>
 
+                                <!-- CSS -->
+                                <style>
+                                    .comment-overlay {
+                                        position: fixed;
+                                        top: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        background: rgba(0, 0, 0, 0.5);
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        z-index: 999;
+                                    }
+
+                                    .comment-box {
+                                        background: #fff;
+                                        padding: 20px;
+                                        border-radius: 8px;
+                                        width: 90%;
+                                        max-width: 500px;
+                                        position: relative;
+                                    }
+
+                                    .close-btn {
+                                        position: absolute;
+                                        top: 10px;
+                                        right: 15px;
+                                        font-size: 24px;
+                                        cursor: pointer;
+                                        color: #333;
+                                    }
+
+                                    .comment-box input,
+                                    .comment-box textarea,
+                                    .comment-box button {
+                                        width: 100%;
+                                        margin-bottom: 10px;
+                                        padding: 10px;
+                                        border-radius: 5px;
+                                        border: 1px solid #ccc;
+                                    }
+
+                                    .comment-box button {
+                                        background-color: #007bff;
+                                        color: #fff;
+                                        border: none;
+                                        cursor: pointer;
+                                    }
+
+                                    .comment-list {
+                                        margin-top: 20px;
+                                        padding: 10px;
+                                        background: #f9f9f9;
+                                        border-radius: 8px;
+                                    }
+
+                                    .comment-item {
+                                        padding: 10px;
+                                        border-bottom: 1px solid #ddd;
+                                    }
+
+                                    .comment-item:last-child {
+                                        border-bottom: none;
+                                    }
+
+                                    .comment-item strong {
+                                        display: block;
+                                        margin-bottom: 5px;
+                                    }
+
+                                    .comment-item p {
+                                        margin: 0;
+                                    }
+                                </style>
 
 
+
+                                <!-- Styling -->
+                                <style>
+                                    .show-comment-btn {
+                                        background: #007bff;
+                                        color: white;
+                                        padding: 10px 18px;
+                                        border: none;
+                                        border-radius: 6px;
+                                        cursor: pointer;
+                                        margin-bottom: 10px;
+                                        transition: background 0.3s ease;
+                                    }
+
+                                    .show-comment-btn:hover {
+                                        background: #0056b3;
+                                    }
+
+                                    .comment-box {
+                                        /* background: red; */
+                                        background-image: radial-gradient(circle, #e8f2f9, #dcedf9, #d0e8f9, #c4e3f9, #b7def9, #b1dcf9, #abd9f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9) !important;
+                                        padding: 20px;
+                                        border-radius: 8px;
+                                        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+                                        max-width: 600px;
+                                    }
+
+                                    .comment-box h3 {
+                                        margin-bottom: 15px;
+                                        color: #333;
+                                    }
+
+                                    .comment-box input,
+                                    .comment-box textarea {
+                                        width: 100%;
+                                        padding: 10px;
+                                        margin-bottom: 12px;
+                                        border: 1px solid #ddd;
+                                        border-radius: 5px;
+                                    }
+
+                                    .comment-box button {
+                                        background: #28a745;
+                                        color: white;
+                                        padding: 10px 16px;
+                                        border: none;
+                                        border-radius: 6px;
+                                        cursor: pointer;
+                                        transition: background 0.3s ease;
+                                    }
+
+                                    .comment-box button:hover {
+                                        background: #1e7e34;
+                                    }
+                                </style>
+
+
+
+                                <?php
+                                // Database connection
+                                $conn = new mysqli("localhost", "root", "", "srinivasa"); // localhost, username, password, database
+
+                                if ($conn->connect_error) {
+                                    die("Connection failed: " . $conn->connect_error);
+                                }
+                                ?>
 
 
 
@@ -820,7 +1069,15 @@ if ($blog_id > 0) {
 
 
                             </div>
-                            <!-- CSS -->
+
+
+
+
+                            <!-- // Fetch reviews (replace 'reviews' with your table name)
+                            $sql = "SELECT user_name, comment FROM reviews ORDER BY created_at DESC";
+                            $result = $conn->query($sql);
+                            ?> -->
+
 
 
 
