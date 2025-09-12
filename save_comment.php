@@ -21,12 +21,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             VALUES ('$blog_id', '$user_name', '$user_email', '$comment', 0, 0)";
 
     if ($conn->query($sql) === TRUE) {
-        echo "<script>
-                alert('✅ Comment added successfully!');
-                window.location.href = document.referrer;
-              </script>";
+        // ✅ Direct redirect to service_detsils.php with blog_id
+        header("Location: service_detsils.php?id=" . $blog_id);
+        exit();
     } else {
-        echo "<script>alert('❌ Error: " . addslashes($conn->error) . "');</script>";
+        die("❌ SQL Error: " . $conn->error);
     }
 }
 ?>
