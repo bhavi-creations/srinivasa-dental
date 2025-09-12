@@ -41,6 +41,24 @@ if ($blog_id > 0) {
     $blog = $result->fetch_assoc();
     $stmt->close();
 }
+
+
+
+$blog = null;
+if ($blog_id > 0) {
+    $stmt = $conn->prepare("SELECT id, title, service, main_content, full_content, main_image, video, logo, logo_link 
+                            FROM blogs WHERE id = ?");
+    $stmt->bind_param("i", $blog_id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $blog = $result->fetch_assoc();
+    $stmt->close();
+}
+
+if (!$blog) {
+    echo "<h2>❌ Blog not found!</h2>";
+    exit;
+}
 ?>
 
 
