@@ -735,9 +735,17 @@ if ($blog_id > 0) {
     `;
                                     }
                                 </script> -->
+
+
+
+
+
+
+
                                 <?php
-                                // Auto DB Connection (localhost / live)
                                 $host = 'localhost';
+
+                                // 🔑 Auto switch: Localhost vs Live
                                 if ($_SERVER['SERVER_NAME'] == 'localhost') {
                                     $user = "root";
                                     $pass = "";
@@ -752,10 +760,10 @@ if ($blog_id > 0) {
                                     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
                                     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-                                    // ✅ Blog ID check
+                                    // ✅ Get blog id safely
                                     $blog_id = isset($blog['id']) ? intval($blog['id']) : 0;
 
-                                    // ✅ Fetch all comments for this blog
+                                    // ✅ Fetch comments
                                     $stmt = $pdo->prepare("SELECT user_name, comment 
                            FROM blog_comments 
                            WHERE blog_id = :blog_id 
@@ -767,12 +775,6 @@ if ($blog_id > 0) {
                                     die("❌ DB Error: " . $e->getMessage());
                                 }
                                 ?>
-
-
-
-
-
-
 
 
 
@@ -797,7 +799,37 @@ if ($blog_id > 0) {
                                 </div>
 
                                 <!-- Display Comments -->
+                                <?php
+                                include 'db.connection/db_connection.php';
 
+                                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                                    $comment_id = intval($_POST['comment_id']);
+                                    $type = $_POST['type'];
+
+                                    if ($type === "like") {
+                                        $sql = "UPDATE blog_comments SET likes = likes + 1 WHERE id = $comment_id";
+                                    } elseif ($type === "dislike") {
+                                        $sql = "UPDATE blog_comments SET dislikes = dislikes + 1 WHERE id = $comment_id";
+                                    } else {
+                                        echo json_encode(["success" => false, "message" => "Invalid type"]);
+                                        exit;
+                                    }
+
+                                    if ($conn->query($sql)) {
+                                        // Fetch updated counts
+                                        $res = $conn->query("SELECT likes, dislikes FROM blog_comments WHERE id = $comment_id");
+                                        $row = $res->fetch_assoc();
+
+                                        echo json_encode([
+                                            "success" => true,
+                                            "likes" => $row['likes'],
+                                            "dislikes" => $row['dislikes']
+                                        ]);
+                                    } else {
+                                        echo json_encode(["success" => false, "message" => $conn->error]);
+                                    }
+                                }
+                                ?>
 
 
 
