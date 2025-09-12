@@ -444,16 +444,14 @@ if ($blog_id > 0) {
                                     <?php if (!empty($blog['main_image'])): ?>
                                         <div class="col-12 col-lg-6 mb-3 mb-md-0 text-center">
                                             <img src="./admin/uploads/photos/<?php echo htmlspecialchars($blog['main_image']); ?>"
-                                                alt="Main Image" class="img-fluid"
-                                                >
-                                                <!-- style="max-height:150px; width:auto; object-fit:cover;"> -->
+                                                alt="Main Image" class="img-fluid" style="max-height:150px; width:auto; object-fit:cover;">
                                         </div>
                                     <?php endif; ?>
 
                                     <?php if (!empty($blog['video'])): ?>
                                         <div class="col-12 col-lg-6 text-center  blog_video_section">
                                             <video src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
-                                                controls style="max-height:150px; width:auto; object-fit:cover;"></video>
+                                                controls style="max-height:200px; width:auto; object-fit:cover;"></video>
                                                 <!-- controls style="max-height:200px; width:auto; object-fit:cover;"></video> -->
                                         </div>
                                     <?php endif; ?>
