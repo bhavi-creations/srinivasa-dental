@@ -743,6 +743,7 @@ if ($blog_id > 0) {
 
 
                                 <!-- Write a Comment Button -->
+
                                 <?php
                                 $host = 'localhost';
 
@@ -776,6 +777,10 @@ if ($blog_id > 0) {
                                     die("Database error: " . $e->getMessage());
                                 }
                                 ?>
+
+
+
+
 
 
 
