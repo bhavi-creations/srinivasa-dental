@@ -411,7 +411,7 @@ if ($blog_id > 0) {
 
                                 <!-- Main Content -->
                                 <?php if (!empty($blog['main_content'])): ?>
-                                    <div class="ul-service-details-descr">
+                                    <div class="ul-service-details-descr" style="font-size:18px; ">
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['main_content'], '<p><br><ul><ol><li><b><i><strong><em>');
@@ -469,7 +469,7 @@ if ($blog_id > 0) {
 
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
-                                    <div class="ul-service-details-full-content mt-3">
+                                    <div class="ul-service-details-full-content mt-3" style="font-size:18px; ">
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['full_content'], '<p><br><ul><ol><li><b><i><strong><em>');
@@ -862,13 +862,16 @@ if ($blog_id > 0) {
 
 
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
+                                                    <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+
+
+                            <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Srinivasa
                             </p>
 
                             <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                 Dental <span style="color:#e63946;">Hospital</span>
-                            </p>
+                            </p> -->
 
 
                         </div>
@@ -911,7 +914,7 @@ if ($blog_id > 0) {
 
                                 <!-- Main Content -->
                                 <?php if (!empty($blog['main_content'])): ?>
-                                    <div class="ul-service-details-descr">
+                                    <div class="ul-service-details-descr" style="font-size:18px; ">
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['main_content'], '<p><br><ul><ol><li><b><i><strong><em>');
@@ -969,7 +972,7 @@ if ($blog_id > 0) {
 
                                 <!-- Full Content -->
                                 <?php if (!empty($blog['full_content'])): ?>
-                                    <div class="ul-service-details-full-content mt-3">
+                                    <div class="ul-service-details-full-content mt-3" style="font-size:18px; ">
                                         <?php
                                         // Allow basic formatting tags: p, br, ul, ol, li, b, i, strong, em
                                         echo strip_tags($blog['full_content'], '<p><br><ul><ol><li><b><i><strong><em>');
@@ -1401,13 +1404,15 @@ if ($blog_id > 0) {
 
 
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
+                                                    <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+
+                            <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Srinivasa
                             </p>
 
                             <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                 Dental <span style="color:#e63946;">Hospital</span>
-                            </p>
+                            </p> -->
 
 
                         </div>
