@@ -363,13 +363,23 @@ if ($blog_id > 0) {
                                 Contact Us
                             </h3> -->
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
+                            <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Clear Aligners
+                            </p> -->
+
+
+                            <p class="logo-link">
+                                Clear Aligners
+
+
+
+
+
+                                <!-- <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
+                                        Starting at <span style="color:#e63946;">₹9,999</span>
+                                    </p> -->
                             </p>
 
-                            <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
-                                Starting at <span style="color:#e63946;">₹9,999</span>
-                            </p>
 
                             <!-- <strong>
                                 <a href="tel:+919290019948"
@@ -862,7 +872,22 @@ if ($blog_id > 0) {
 
 
 
-                                                    <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+                            <!-- <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a> -->
+
+
+
+
+
+                            <a href="https://srinivasadentalkakinada.com/" class="shake-link">
+                                <img src="./assets/img/srinivasa/image 1 old.png"
+                                    alt="Vision Dental"
+                                    class="img-fluid shake-img" style="width: 100px ; height: 100px;">
+                            </a>
+
+
+
+
+
 
 
                             <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
@@ -1369,12 +1394,19 @@ if ($blog_id > 0) {
                                 Contact Us
                             </h3> -->
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
+                            <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Clear Aligners
-                            </p>
+                            </p> -->
+                            <p class="logo-link">
+                                Clear Aligners
+
+
+
+                                <!-- Clear
 
                             <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
                                 Starting at <span style="color:#e63946;">₹9,999</span>
+                            </p> -->
                             </p>
 
                             <!-- <strong>
@@ -1404,7 +1436,7 @@ if ($blog_id > 0) {
 
 
 
-                                                    <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
 
                             <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Srinivasa
