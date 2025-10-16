@@ -3,8 +3,15 @@
 include './db.connection/db_connection.php';
 
 // 1️⃣ Fetch ALL blogs (latest first)
-$sql = "SELECT id, title, service, main_content, full_content, main_image, video, logo, logo_link 
-        FROM blogs ORDER BY created_at DESC";
+$sql = "SELECT 
+            id, title, service, 
+            main_content, full_content, 
+            section1_content, section2_content, section3_content,
+            section1_image, section2_image, section3_image,
+            main_image, video, logo, logo_link 
+        FROM blogs 
+        ORDER BY created_at DESC";
+
 $result = $conn->query($sql);
 
 $blogs = [];
@@ -33,8 +40,14 @@ $blog_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
 $blog = null;
 if ($blog_id > 0) {
-    $stmt = $conn->prepare("SELECT id, title, service, main_content, full_content, main_image, video, logo, logo_link 
-                            FROM blogs WHERE id = ?");
+    $stmt = $conn->prepare("SELECT 
+                                id, title, service, 
+                                main_content, full_content, 
+                                section1_content, section2_content, section3_content,
+                                section1_image, section2_image, section3_image,
+                                main_image, video, logo, logo_link 
+                            FROM blogs 
+                            WHERE id = ?");
     $stmt->bind_param("i", $blog_id);
     $stmt->execute();
     $result = $stmt->get_result();
@@ -42,6 +55,7 @@ if ($blog_id > 0) {
     $stmt->close();
 }
 ?>
+
 
 
 
