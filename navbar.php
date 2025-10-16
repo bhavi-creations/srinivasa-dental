@@ -214,9 +214,7 @@
     gtag('config', 'AW-17501822247');
   </script>
 
-
-
-
+  
 
 </head>
 
@@ -299,8 +297,6 @@
 
 
 
-
-
 <!-- Google tag (gtag.js) -->
 
 
@@ -311,7 +307,10 @@
 <body>
 
 
- 
+
+
+
+
   <header id="top-header" class="top-header d-none d-md-block  d-xl-none hearedr_spacing">
     <div class="container d-flex justify-content-between align-items-center">
       <div class="contact-info">
@@ -546,6 +545,8 @@
               <li><a class="dropdown-item" href="blogs.php">Blogs</a></li>
               <li><a class="dropdown-item" href="news.php">News letter</a></li>
               <li><a class="dropdown-item" href="smile_stories.php">Smile Stories</a></li>
+              <li><a class="dropdown-item" href="youtube_gallery.php">Youtube Gallery</a></li>
+
 
             </ul>
           </li>

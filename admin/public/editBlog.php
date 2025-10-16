@@ -1,82 +1,24 @@
 <?php
-include __DIR__ . '/../../db.connection/db_connection.php';
+// Database connection (replace with your actual database connection details)
+include '../../db.connection/db_connection.php';
 
-// Get blog id
+// Get blog ID from URL
 $blog_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
-// Fetch blog details
-$stmt = $conn->prepare("SELECT * FROM blogs WHERE id = ?");
-$stmt->bind_param("i", $blog_id);
-$stmt->execute();
-$result = $stmt->get_result();
-$blog = $result->fetch_assoc();
-
-if (!$blog) {
-    die("Blog not found!");
+if ($blog_id > 0) {
+    // Fetch blog data
+    $stmt = $conn->prepare("SELECT title, main_content, full_content, service FROM blogs WHERE id = ?");
+    $stmt->bind_param("i", $blog_id);
+    $stmt->execute();
+    $stmt->bind_result($title, $main_content, $full_content, $service);
+    $stmt->fetch();
+    $stmt->close();
+} else {
+    echo "Invalid blog ID.";
+    exit;
 }
 
-// Function to generate unique file names
-function generateUniqueFileName($fileName)
-{
-    $ext = pathinfo($fileName, PATHINFO_EXTENSION);
-    return uniqid() . '_' . time() . '.' . $ext;
-}
-
-// Handle form submission
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $title = $_POST['title'] ?? '';
-    $service = $_POST['service'] ?? '';
-    $main_content = $_POST['main_content'] ?? '';
-    $full_content = $_POST['full_content'] ?? '';
-    $logo_link = $_POST['logo_link'] ?? '';
-
-    // --- Handle Main Image ---
-    $main_image = $_POST['old_main_image'] ?? '';
-    if (!empty($_FILES['main_image']['name'])) {
-        $target_dir = __DIR__ . "/../uploads/photos/";
-        if (!is_dir($target_dir)) mkdir($target_dir, 0777, true);
-
-        $new_file = generateUniqueFileName($_FILES['main_image']['name']);
-        if (move_uploaded_file($_FILES['main_image']['tmp_name'], $target_dir . $new_file)) {
-            $main_image = $new_file;
-        }
-    }
-
-    // --- Handle Video ---
-    $video = $_POST['old_video'] ?? '';
-    if (!empty($_FILES['video']['name'])) {
-        $target_dir = __DIR__ . "/../uploads/videos/";
-        if (!is_dir($target_dir)) mkdir($target_dir, 0777, true);
-
-        $new_file = generateUniqueFileName($_FILES['video']['name']);
-        if (move_uploaded_file($_FILES['video']['tmp_name'], $target_dir . $new_file)) {
-            $video = $new_file;
-        }
-    }
-
-    // --- Handle Logo ---
-    $logo = $_POST['old_logo'] ?? '';
-    if (!empty($_FILES['logo']['name'])) {
-        $target_dir = __DIR__ . "/../uploads/logos/";
-        if (!is_dir($target_dir)) mkdir($target_dir, 0777, true);
-
-        $new_file = generateUniqueFileName($_FILES['logo']['name']);
-        if (move_uploaded_file($_FILES['logo']['tmp_name'], $target_dir . $new_file)) {
-            $logo = $new_file;
-        }
-    }
-
-    // --- Update Database ---
-    $stmt = $conn->prepare("UPDATE blogs SET title=?, service=?, main_content=?, full_content=?, main_image=?, video=?, logo=?, logo_link=? WHERE id=?");
-    $stmt->bind_param("ssssssssi", $title, $service, $main_content, $full_content, $main_image, $video, $logo, $logo_link, $blog_id);
-
-    if ($stmt->execute()) {
-        header("Location: allBlog.php?updated=1");
-        exit;
-    } else {
-        echo "Error updating blog: " . $stmt->error;
-    }
-}
+$conn->close();
 ?>
 
 <!DOCTYPE html>
@@ -88,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Srinivasa Dental - Dashboard</title>
+    <title>Vision Dental Hospital  </title>
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -119,62 +61,157 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     <h6 class="m-0 font-weight-bold text-success">EDIT CONTENT</h6>
                                 </div>
                                 <div class="card-body">
-                                    <form action="" method="POST" enctype="multipart/form-data">
-                                        <input type="hidden" name="old_main_image" value="<?= htmlspecialchars($blog['main_image']); ?>">
-                                        <input type="hidden" name="old_video" value="<?= htmlspecialchars($blog['video']); ?>">
-                                        <input type="hidden" name="old_logo" value="<?= htmlspecialchars($blog['logo']); ?>">
+                                    <?php
+                                    include '../../db.connection/db_connection.php';
 
+                                    // Initialize variables
+                                    $blog_id = $_GET['id'] ?? 0;
+                                    $blog_id = intval($blog_id);
+
+                                    // Fetch blog data if editing
+                                    $title = $service = $main_content = $full_content = '';
+                                    $main_image = $video = '';
+                                    $section_contents = [1 => '', 2 => '', 3 => ''];
+                                    $section_images = [1 => '', 2 => '', 3 => ''];
+
+                                    if ($blog_id > 0) {
+                                        $result = $conn->query("SELECT * FROM blogs WHERE id=$blog_id");
+                                        if ($result->num_rows > 0) {
+                                            $row = $result->fetch_assoc();
+                                            $title = $row['title'];
+                                            $service = $row['service'];
+                                            $main_content = $row['main_content'];
+                                            $full_content = $row['full_content'];
+                                            $main_image = $row['main_image'];
+                                            $video = $row['video'];
+                                            $section_contents[1] = $row['section1_content'];
+                                            $section_contents[2] = $row['section2_content'];
+                                            $section_contents[3] = $row['section3_content'];
+                                            $section_images[1] = $row['section1_image'];
+                                            $section_images[2] = $row['section2_image'];
+                                            $section_images[3] = $row['section3_image'];
+                                        }
+                                    }
+                                    ?>
+
+                                    <form style='color:black;' id="editblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
+
+                                        <input type="hidden" name="id" value="<?php echo $blog_id; ?>">
+
+                                        <!-- Title -->
                                         <div class="mb-3">
-                                            <label>Title</label>
-                                            <input type="text" name="title" class="form-control" value="<?= htmlspecialchars($blog['title']); ?>" required>
+                                            <label class="form-label text-primary">ENTER TITLE</label>
+                                            <input type="text" class="form-control" name='title' value="<?php echo htmlspecialchars($title); ?>" placeholder="Title" required>
                                         </div>
 
-                                        <div class="mb-3">
-                                            <label>Service</label>
-                                            <input type="text" name="service" class="form-control" value="<?= htmlspecialchars($blog['service']); ?>">
+                                        <!-- Service Dropdown -->
+                                        <div class="filter-section mb-3">
+                                            <label class="form-label text-primary">Select Service:</label>
+                                            <select name="service" class="form-control" required>
+                                                <option value="">Select a Service</option>
+                                                <?php
+                                                $services = ["Root Canal", "Wisdom Tooth Removal", "Bad Breath Treatment", "Gum Treatment", "Teeth Cleaning", "Orthodontic Treatment", "Dental Crown & Bridge", "Invisible Aligners", "Dental Veneers", "Smile Makeover", "Teeth Whitening", "Dental Implants", "Dentures", "Smile Designing", "Full Mouth Rehabilitation Treatment"];
+                                                foreach ($services as $s) {
+                                                    $selected = ($service == $s) ? 'selected' : '';
+                                                    echo "<option value=\"$s\" $selected>$s</option>";
+                                                }
+                                                ?>
+                                            </select>
                                         </div>
 
+                                        <!-- Main Content Quill -->
                                         <div class="mb-3">
-                                            <label>Main Content</label>
-                                            <textarea name="main_content" class="form-control" rows="4"><?= htmlspecialchars($blog['main_content']); ?></textarea>
+                                            <label class="form-label text-primary">ENTER MAIN CONTENT</label>
+                                            <div id="mainEditor" style="height:200px;"></div>
+                                            <input type="hidden" name="main_content" id="mainContentData">
                                         </div>
 
+                                        <!-- Main Image -->
                                         <div class="mb-3">
-                                            <label>Full Content</label>
-                                            <textarea name="full_content" class="form-control" rows="6"><?= htmlspecialchars($blog['full_content']); ?></textarea>
+                                            <label class="form-label text-primary">Choose Main Image</label>
+                                            <input type="file" name="main_image" class="form-control">
+                                            <?php if (!empty($main_image)) { ?>
+                                                <img src="uploads/blogs/<?php echo $main_image; ?>" style="max-width:200px;" class="img-thumbnail mt-2">
+                                            <?php } ?>
                                         </div>
 
+                                        <!-- Video -->
                                         <div class="mb-3">
-                                            <label>Main Image</label><br>
-                                            <?php if (!empty($blog['main_image'])): ?>
-                                                <img src="../uploads/photos/<?= htmlspecialchars($blog['main_image']); ?>" width="150" class="mb-2"><br>
-                                            <?php endif; ?>
-                                            <input type="file" name="main_image" class="form-control" accept="image/*">
+                                            <label class="form-label text-primary">Choose Video</label>
+                                            <input type="file" name="video" class="form-control">
+                                            <?php if (!empty($video)) { ?>
+                                                <video width="300" controls class="mt-2">
+                                                    <source src="uploads/blogs/<?php echo $video; ?>" type="video/mp4">
+                                                </video>
+                                            <?php } ?>
                                         </div>
 
+                                        <!-- Full Content Quill -->
                                         <div class="mb-3">
-                                            <label>Video</label><br>
-                                            <?php if (!empty($blog['video'])): ?>
-                                                <video src="../uploads/videos/<?= htmlspecialchars($blog['video']); ?>" width="200" controls class="mb-2"></video><br>
-                                            <?php endif; ?>
-                                            <input type="file" name="video" class="form-control" accept="video/*">
+                                            <label class="form-label text-primary">ENTER FULL CONTENT</label>
+                                            <div id="editor" style="height:400px;"></div>
+                                            <input type="hidden" name="full_content" id="formcontentdata">
                                         </div>
 
-                                        <div class="mb-3">
-                                            <label>Logo</label><br>
-                                            <?php if (!empty($blog['logo'])): ?>
-                                                <img src="../uploads/logos/<?= htmlspecialchars($blog['logo']); ?>" width="100" class="mb-2"><br>
-                                            <?php endif; ?>
-                                            <input type="file" name="logo" class="form-control" accept="image/*">
-                                        </div>
+                                        <!-- Sections -->
+                                        <?php for ($i = 1; $i <= 3; $i++): ?>
+                                            <div class="mb-3">
+                                                <label class="form-label text-primary">Section <?php echo $i; ?> Content</label>
+                                                <div id="editor<?php echo $i; ?>" style="height:200px;"></div>
+                                                <input type="hidden" name="section<?php echo $i; ?>_content" id="sectionContent<?php echo $i; ?>">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label text-primary">Section <?php echo $i; ?> Image (optional)</label>
+                                                <input type="file" name="section<?php echo $i; ?>_image" class="form-control">
+                                                <?php if (!empty($section_images[$i])) { ?>
+                                                    <img src="uploads/blogs/<?php echo $section_images[$i]; ?>" style="max-width:200px;" class="img-thumbnail mt-2">
+                                                <?php } ?>
+                                            </div>
+                                        <?php endfor; ?>
 
-                                        <div class="mb-3">
-                                            <label>Logo Link</label>
-                                            <input type="url" name="logo_link" class="form-control" value="<?= htmlspecialchars($blog['logo_link']); ?>">
+                                        <div class='row p-3'>
+                                            <div class='col-xl-7 col-sm-2'></div>
+                                            <button type='reset' class='btn btn-danger mx-1 my-2 col-xl-2'>Clear</button>
+                                            <button type='submit' class='btn btn-success mx-1 my-2 col-xl-2'>Update</button>
                                         </div>
-
-                                        <button type="submit" class="btn btn-success">Update Blog</button>
                                     </form>
+
+                                    <!-- Quill JS -->
+                                    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+                                    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+                                    <script>
+                                        const quillMain = new Quill('#mainEditor', {
+                                            theme: 'snow'
+                                        });
+                                        const quillFull = new Quill('#editor', {
+                                            theme: 'snow'
+                                        });
+                                        const quill1 = new Quill('#editor1', {
+                                            theme: 'snow'
+                                        });
+                                        const quill2 = new Quill('#editor2', {
+                                            theme: 'snow'
+                                        });
+                                        const quill3 = new Quill('#editor3', {
+                                            theme: 'snow'
+                                        });
+
+                                        // Load existing content
+                                        quillMain.root.innerHTML = <?php echo json_encode($main_content); ?>;
+                                        quillFull.root.innerHTML = <?php echo json_encode($full_content); ?>;
+                                        quill1.root.innerHTML = <?php echo json_encode($section_contents[1]); ?>;
+                                        quill2.root.innerHTML = <?php echo json_encode($section_contents[2]); ?>;
+                                        quill3.root.innerHTML = <?php echo json_encode($section_contents[3]); ?>;
+
+                                        // On submit, set hidden inputs
+                                        document.querySelector('#editblogform').onsubmit = function() {
+                                            document.querySelector('#mainContentData').value = quillMain.root.innerHTML;
+                                            document.querySelector('#formcontentdata').value = quillFull.root.innerHTML;
+                                            document.querySelector('#sectionContent1').value = quill1.root.innerHTML;
+                                            document.querySelector('#sectionContent2').value = quill2.root.innerHTML;
+                                            document.querySelector('#sectionContent3').value = quill3.root.innerHTML;
+                                        };
+                                    </script>
 
                                 </div>
                             </div>
@@ -182,11 +219,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
                 </div>
             </div>
+            <!-- Footer -->
+            <!-- End of Footer -->
         </div>
-    </div>
-    <!-- Footer -->
-    <!-- End of Footer -->
-    </div>
     </div>
 
     <!-- Include Quill JS -->

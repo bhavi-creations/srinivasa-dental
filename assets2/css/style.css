@@ -7044,3 +7044,66 @@ margin-top: 100px !important;
   animation: shake 0.5s;
 }
 
+
+
+
+/* pre loading styles  */
+
+#loading {
+  background-color: var(--white);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 9999999;
+  margin-top: 0px;
+  top: 0px;
+}
+
+#loading #loading-center {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#loading #loading-center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 25%;
+  transform: translate(-50%, -50%);
+}
+
+#loading .loading-icon .loading-logo {
+  width: 150px;
+  height: 150px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  #loading #loading-center-absolute {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #loading #loading-center-absolute {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #loading #loading-center-absolute {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #loading #loading-center-absolute {
+    width: 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  #loading #loading-center-absolute {
+    width: 60%;
+  }
+}
