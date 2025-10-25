@@ -78,11 +78,20 @@ if ($blog_id > 0) {
 
     <!-- custom CSS -->
     <link rel="stylesheet" href="assets2/css/style.css">
+
+
+
+
+
+    <!-- Favicons -->
+  <link href="assets/img/srinivasa/tittle.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
 
 <body>
     <div class="preloader" id="preloader">
-        <div class="loader"></div>
+        <!-- <div class="loader"></div> -->
+         <img src="assets/img/srinivasa/image 1.png" >
     </div>
 
     <!-- SIDEBAR SECTION START -->
