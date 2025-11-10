@@ -219,7 +219,7 @@
           </a>
           <a href="dentalbraces.php">
             <p class="foot_para"> Best Dental Braces in kakinada</p>
-            <a href="dentalimplents.php">
+            <a href="dentalimplants.php">
               <p class="foot_para"> Best Dental Implants in kakinada</p>
             </a>
             <a href="bridgetreatment.php">

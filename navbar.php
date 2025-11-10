@@ -509,7 +509,7 @@
                 <div class="col-md-4">
                   <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
                   <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
+                  <li><a class="dropdown-item services_drop" href="dentalimplants.php">Dental Implants</a></li>
                   <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
                 </div>
                 <div class="col-md-4">

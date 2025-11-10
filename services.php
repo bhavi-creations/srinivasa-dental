@@ -49,7 +49,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="dentalimplents.php" style="text-decoration: none;">
+                        <a href="dentalimplants.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/3.jpg" class="card-img-top" alt="...">
 
