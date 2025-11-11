@@ -192,10 +192,24 @@
                     <h2 class="welcome_text_oncology">
                         Srinivasa Multispeciality Dental Hospital Dentist In Kakinada</h2>
                     <p class=poetsen_font>
-                        We offer a comprehensive range of dental services designed to meet the needs of your entire family. Our clinic is committed to providing exceptional care in a welcoming and professional environment. We strive to ensure that every visit is both friendly and thorough, reflecting our dedication to your family’s dental health.
+                        <!-- We offer a comprehensive range of dental services designed to meet the needs of your entire family. Our clinic is committed to providing exceptional care in a welcoming and professional environment. We strive to ensure that every visit is both friendly and thorough, reflecting our dedication to your family’s dental health. -->
+                        At Srinivasa Multispeciality Dental Hospital, Kakinada, we blend advanced technology, expert care, and a personal touch to ensure every smile stays healthy and confident.
+
                         <br>
                         <br>
-                        Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada.
+                        From check-ups and root canals to implants, aligners, and smile makeovers, we offer complete dental care for the entire family in a safe, hygienic, and friendly environment.
+
+                        <!-- Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada. -->
+                        <br>
+                        <br>
+                        <!-- Our success is measured by each patient and each smile. That’s why we are the best dentist in Kakinada. -->
+
+                        Our commitment to sterilization, transparency, and patient comfort makes us one of the most trusted dental hospitals in Kakinada.
+                        <br>
+
+                        At Srinivasa Dental — your smile is our pride.
+
+
                     </p>
 
 
@@ -800,7 +814,7 @@
              </div>
          </section>-->
 
-   
+
 
 
 
@@ -1286,7 +1300,10 @@
 
 
 
-</main><!-- End #main -->
+</main>
+
+
+<!-- End #main -->
 
 <?php include('./footer.php'); ?>
 
