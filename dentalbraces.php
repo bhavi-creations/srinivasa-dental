@@ -29,7 +29,7 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Dentalbraces Treatment</p>
+            <p class="root_treatment"> Dental Braces Treatment</p>
             <p>
               Dental braces are orthodontic devices used to correct misaligned teeth and jaws, improving oral health and aesthetics. They apply continuous pressure to gradually shift teeth into their ideal positions over time. Braces come in various types, including:
             </p>

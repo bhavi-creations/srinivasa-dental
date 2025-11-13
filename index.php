@@ -516,16 +516,16 @@
 
 
 
-                    <p class="welcome_text">About us</p>
+                    <p class="welcome_text">About Us</p>
                     <h2 class="welcome_text_oncology">
                         Hear Why We Love What We Do</h2>
                     <p class=poetsen_font>
                         Your dental team, led by <a href="https://drdvskiranrajukakinada.blogspot.com/2025/11/dr-dvs-kiran-raju-chief-dentist.html" target="_blank">Dr. Kiran Raju</a> , is dedicated to making our practice
                         patient-centered. We want each patient to feel like a member of the Srinivasa Dentistry
-                        family, confidently putting their trust in our team. check our testimonials to see why we
+                        family, confidently putting their trust in our team. Check our testimonials to see why we
                         are passionate about our patients’ experience. <br><br>
                         We will help you choose a custom care plan designed to help you accomplish the smile of
-                        your dreams find more about dentist in kakinada at our What Patients Say Section.
+                        your dreams. Find more about dentists in kakinada at our What Patients Say Section.
                     </p>
 
 
@@ -584,7 +584,7 @@
     <section>
         <div class="container mb-5">
             <div class="section-title text-center">
-                <p class="welcome_text">Our services</p>
+                <p class="welcome_text">Our Services</p>
                 <h2 class="apporach">Comprehensive Dental Services </h2>
 
 
@@ -595,7 +595,7 @@
                             fill="#25B4F8" />
                     </svg>
                 </p>
-                <h2 class="apporach"> In kakinada include</h2>
+                <h2 class="apporach"> In Kakinada include</h2>
 
 
                 <p class="  text-center service_text mb-5">General and cosmetic dentistry can give you a smile you’re happy to show off. Modern cosmetic dentistry techniques make it easier than ever for you to have a bright, even smile. Visit Srinivasa Dental Clinic in Kakinada.
@@ -612,10 +612,14 @@
                                 fill="#25B4F8" />
                         </svg>
                     </p>
-                    <p class="poetsen_font mt-4">Srinivasa Dental Clinic provides treatments like Dental crowns,
+                    <!-- <p class="poetsen_font mt-4">Srinivasa Dental Clinic provides treatments like Dental crowns,
                         Dental
                         Bridges, and
-                        Dentures.</p>
+                        Dentures.</p> -->
+
+
+                    <p class="poetsen_font mt-4">Srinivasa Dental Clinic provides treatments such as dental crowns, dental bridges , and dentures .</p>
+
                     <div class="    ">
                         <a href="services.php">
                             <button class="read_more_btn mt-4 mb-2">Read More </button>
@@ -772,7 +776,7 @@
 
 
 
-    
+
 
 
 
@@ -851,8 +855,10 @@
                                         class="img-fluid testy   d-none d-md-block">
 
 
-                                    <p class="card-text  text_of_the_card">"My name is Kamala suffering from tooth pains severely and as suggested by my brother I have gone to the Srinivasa Multi Speciality Dental hospital Kakinada for the treatment. Dr. Kiran Raju garu checked and advised me for the full mouth rehabilitation due to cavities and deterioration..."</p>
-                                    <h6 class="card-title name_of_the_card kamall">Mrs.Kamala Gandi</h6>
+                                    <!-- <p class="card-text  text_of_the_card">"My name is Kamala suffering from tooth pains severely and as suggested by my brother I have gone to the Srinivasa Multi Speciality Dental hospital Kakinada for the treatment. Dr. Kiran Raju garu checked and advised me for the full mouth rehabilitation due to cavities and deterioration..."</p> -->
+                                    <p class="card-text  text_of_the_card">""My name is Kamala, and I am suffering from severe tooth pain. As suggested by my brother , I have gone to the Srinivasa Multi-Speciality Dental Hospital in Kakinada for treatment. Dr. Kiran Raju Garu checked and advised me for full mouth rehabilitation due to cavities and deterioration...""</p>
+                                    <h6 class="card-title name_of_the_card kamall">Mrs. Kamala Gandi</h6>
+                                                                           
                                     <!-- <p class="card-text work_of_the_card"><small
                                                  class="text-muted">Designer</small></p> -->
                                 </div>
@@ -874,7 +880,7 @@
                                         class="img-fluid testy   d-none d-md-block">
 
 
-                                    <p class="card-text  text_of_the_card">" I am Ravi Babu and visited Srinivasa Multi Speciality Dental Hospital for replacement of metal crowns with zirconia crowns. The hospital ambiance is pleasant, elegant, neat and clean. Doctors and supporting staff are excellent..."</p>
+                                    <p class="card-text  text_of_the_card">" I am Ravi Babu and visited Srinivasa Multi Speciality Dental Hospital for replacement of metal crowns with zirconia crowns. The hospital ambiance is pleasant, elegant, neat and clean. The Doctors and supporting staff are excellent..."</p>
                                     <h6 class="card-title name_of_the_card kamall">Mr.M Ravi Babu</h6>
 
                                     <!-- <p class="card-text work_of_the_card"><small
@@ -1147,7 +1153,7 @@
                             </div>
                             <div class="accordion-content">
                                 <p>
-                                    Clear aligners are transparent, removable trays designed to gradually straighten your teeth. They are a modern alternative to braces and are nearly invisible when worn
+                                    Clear aligners are transparent, removable trays designed to gradually straighten your teeth. They are a modern alternative to braces and are nearly invisible when worn .
                             </div>
                         </div>
                         <!-- Accordion 2 -->
@@ -1161,7 +1167,7 @@
                             </div>
                             <div class="accordion-content">
                                 <p>
-                                    Yes. Invisalign and other clear aligners are more comfortable, discreet, and removable compared to traditional metal braces. They are ideal for adults and teens seeking aesthetic treatment
+                                    Yes. Invisalign and other clear aligners are more comfortable, discreet, and removable compared to traditional metal braces. They are ideal for adults and teens seeking aesthetic treatment .
                             </div>
                         </div>
 
@@ -1177,7 +1183,7 @@
                             </div>
                             <div class="accordion-content">
                                 <p>
-                                    Most clear aligner treatments last between 6 to 18 months, depending on the case complexity. Regular dental visits ensure proper progress and timely results
+                                    Most clear aligner treatments last between 6 to 18 months, depending on the case complexity  of the case . Regular dental visits ensure proper progress and timely results .
                             </div>
                         </div>
 
@@ -1198,7 +1204,7 @@
                             </div>
                             <div class="accordion-content">
                                 <p>
-                                    They are usually painless. You may feel slight pressure or tightness when starting a new aligner tray, but this is temporary and a sign the treatment is working
+                                    They are usually painless. You may feel slight pressure or tightness when starting a new aligner tray, but this is temporary and a sign the treatment is working.
                             </div>
                         </div>
 
@@ -1233,7 +1239,7 @@
                             </div>
                             <div class="accordion-content">
                                 <p>
-                                    Yes, Srinivasa Dental Hospital offers advanced clear aligner solutions in Kakinada using 3D scanning and customized treatment plans for precise smile correction
+                                    Yes, Srinivasa Dental Hospital offers advanced clear aligner solutions in Kakinada using 3D scanning and customized treatment plans for precise smile correction.
                             </div>
                         </div>
                         <!-- Accordion 2 -->
@@ -1247,7 +1253,7 @@
                             </div>
                             <div class="accordion-content">
                                 <p>
-                                    Dr. D.V.S. Kiran Raju, MDS, at Srinivasa Multispecialty Dental Hospital is widely known for his expertise in orthodontics and cosmetic dentistry, delivering excellent results with aligners and braces
+                                    Dr. D.V.S. Kiran Raju, MDS, at Srinivasa Multispecialty Dental Hospital , is widely known for his expertise in orthodontics and cosmetic dentistry, delivering excellent results with aligners and braces .
                             </div>
                         </div>
 
@@ -1263,7 +1269,7 @@
                             </div>
                             <div class="accordion-content">
                                 <p>
-                                    With expert dentists, state-of-the-art equipment, and personalized care, Srinivasa Dental stands out as one of the top-rated dental hospitals in Kakinada, especially for orthodontic treatments like aligners
+                                    With expert dentists, state-of-the-art equipment, and personalized care, Srinivasa Dental stands out as one of the top-rated dental hospitals in Kakinada, especially for orthodontic treatments like aligners .
                             </div>
                         </div>
                         <!-- Accordion 4 -->
@@ -1277,7 +1283,7 @@
                             </div>
                             <div class="accordion-content">
                                 <p>
-                                    You can book your appointment online through our website or by calling us directly. We also provide walk-in consultations based on availability </p>
+                                    You can book your appointment online through our website or by calling us directly. We also provide walk-in consultations based on availability . </p>
                             </div>
                         </div>
                         <!-- Accordion 5 -->

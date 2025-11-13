@@ -71,7 +71,7 @@
                                 <img src="assets/img/services/4.jpg" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
                                     <div>
-                                        <h5 class="card-title">Tooth Crown & Bridges</h5>
+                                        <h5 class="card-title">Tooth Crowns & Bridges</h5>
                                         <p class="card-text">Tooth crowns and bridges are restorative dental solutions used to restore damaged teeth and replace missing ones, improving both function and appearance.</p>
                                     </div>
                                     <div class="mt-auto d-flex justify-content-end">
@@ -124,7 +124,7 @@
                                 <div class="card-body d-flex flex-column">
                                     <div>
                                         <h5 class="card-title">Teeth Scaling</h5>
-                                        <p class="card-text">Teeth scaling is a dental procedure that removes plaque and tartar buildup from the tooth surfaces and below the gumline to maintain oral health.</p>
+                                        <p class="card-text">Teeth scaling is a dental procedure that removes plaque and tartar buildup from the tooth surfaces and below the gum line to maintain oral health.</p>
                                     </div>
                                     <div class="mt-auto d-flex justify-content-end">
                                         <button class="service_card_read_more_btn"> Read More...</button>
@@ -236,3 +236,8 @@
 </body>
 
 </html>
+
+
+
+
+not intreasted for treatnt

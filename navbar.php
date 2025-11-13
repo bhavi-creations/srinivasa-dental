@@ -493,7 +493,7 @@
 
 
 
-          <img src="assets/img/srinivasa/srinivasa.png" class="img-fluid d-lg-none d-xl-block" alt="">
+          <img src="assets/img/srinivasa/srinivasa.png" class="img-fluid d-lg-none d-xl-block" alt="" style="width:250px;  height:90px">
           <img src="assets/img/srinivasa/srinivasa.png" class="   d-none d-lg-block d-xl-none" style="width:200px;  height:70px" alt=""> 
 
 

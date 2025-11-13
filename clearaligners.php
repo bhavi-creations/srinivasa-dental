@@ -16,7 +16,7 @@
     <img src="assets/img/services/clear_aligner/11.png" alt="" class="img-fluid">
 
     <div class="container service_img_cad_text">
-      <p class=" service_slider_name">Clear aligners </p>
+      <p class=" service_slider_name">Clear Aligners </p>
       <a href="contact.php">
         <button class="read_more__slider">Contact Us</button>
       </a>
@@ -29,7 +29,7 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Clear aligners Treatment</p>
+            <p class="root_treatment"> Clear Aligners Treatment</p>
             <p>
               Clear aligners are a modern orthodontic solution designed to straighten teeth discreetly and comfortably. These custom-made, transparent trays gradually shift teeth into the desired position without the need for traditional braces. They are removable, making it easier to eat, brush, and floss without restrictions. Clear aligners help correct misalignment, gaps, and bite issues while providing a nearly invisible treatment option. For the best results, they should be worn for 20-22 hours a day and changed every few weeks as directed by your dentist or orthodontist. </p>
           </div>

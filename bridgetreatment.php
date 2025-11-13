@@ -146,7 +146,7 @@
               <img src="./assets/img/services/crowns/1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-              Latest 3dimensional intraoral scans are used at Srinivasa dental to minimise discomfort for the patient and get the accurate fitting of crown              </p>
+              The latest three-dimensional intraoral scans are used at Srinivasa Dental to minimise discomfort for the patient and get the accurate fitting of the crown.             </p>
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">

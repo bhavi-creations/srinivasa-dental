@@ -42,7 +42,7 @@
     </section>
 
 
-    
+    <?php include 'bio.php'; ?>
 
 
     

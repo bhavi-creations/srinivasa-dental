@@ -25,7 +25,7 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Full Mouth rehabilitation Treatment</p>
+            <p class="root_treatment"> Full Mouth Rehabilitation Treatment</p>
             <p>
               Full mouth restoration is a comprehensive dental treatment designed to rebuild and restore the function, aesthetics, and health of your entire mouth. It is ideal for individuals with multiple dental issues, including missing, damaged, worn-out, or misaligned teeth.
 

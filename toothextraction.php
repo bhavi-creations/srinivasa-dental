@@ -30,7 +30,7 @@
 
             </p>
             <p>
-              The procedure is performed under local anesthesia to ensure a pain-free experience. After removal we provide Laser PBM for faster healing of socket and to stay  painless even after tooth removalyour dentist will provide aftercare instructions to promote healing and prevent discomfort. Tooth extractions are often the first step toward restoring a healthy, functional smile through replacement options like implants or bridges.
+              The procedure is performed under local anesthesia to ensure a pain-free experience. After removal we provide Laser PBM for faster healing of socket and to stay  painless even after tooth removal. Your dentist will provide aftercare instructions to promote healing and prevent discomfort. Tooth extractions are often the first step toward restoring a healthy, functional smile through replacement options like implants or bridges.
 
 
 
