@@ -205,7 +205,7 @@ if ($blog_id > 0) {
                             $redirect_link = !empty($blog['logo_link']) ? htmlspecialchars($blog['logo_link']) : '#';
                             ?>
 
-                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/srinivasa.png" alt="" class="img-fluid" style="width: 200px ;"></a>
 
 
                             <!-- Title -->
@@ -271,7 +271,7 @@ if ($blog_id > 0) {
 
                             <!-- Logo -->
 
-                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/srinivasa.png" alt="" class="img-fluid" style="width: 200px ;"></a>
 
 
 
@@ -387,7 +387,7 @@ if ($blog_id > 0) {
 
                             <!-- Logo -->
 
-                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/srinivasa.png" alt="" class="img-fluid" style="width: 200px ;"></a>
 
 
 
@@ -1049,7 +1049,7 @@ if ($blog_id > 0) {
 
 
 
-                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/srinivasa.png" alt="" class="img-fluid" style="width: 200px ;"></a>
 
                             <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Srinivasa
@@ -1734,7 +1734,7 @@ if ($blog_id > 0) {
 
 
                             <a href="https://srinivasadentalkakinada.com/" class="shake-link">
-                                <img src="./assets/img/srinivasa/image 1 old.png"
+                                <img src="./assets/img/srinivasa/srinivasa.png"
                                     alt="Vision Dental"
                                     class="img-fluid shake-img" style="width: 100px ; height: 100px;">
                             </a>
@@ -2356,7 +2356,7 @@ if ($blog_id > 0) {
 
 
 
-                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/image 1 old.png" alt="" class="img-fluid" style="width: 200px ;"></a>
+                            <a href="https://srinivasadentalkakinada.com/"> <img src="./assets/img/srinivasa/srinivasa.png" alt="" class="img-fluid" style="width: 200px ;"></a>
 
                             <!-- <p style="font-size:18px; margin:5px 0; color:#444;">
                                 Srinivasa

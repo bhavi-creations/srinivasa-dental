@@ -5,7 +5,7 @@
         <div class="col-12 col-md-6 col-lg-3 py-2">
           <a href="#">
             <img
-              src="assets/img/srinivasa/image 1.png"
+              src="assets/img/srinivasa/srinivasa.png"
               class="img-fluid"
               alt="" /></a>
           <p class="foot_para">

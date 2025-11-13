@@ -520,7 +520,7 @@
                     <h2 class="welcome_text_oncology">
                         Hear Why We Love What We Do</h2>
                     <p class=poetsen_font>
-                        Your dental team, led by Dr. Kiran Raju, is dedicated to making our practice
+                        Your dental team, led by <a href="https://drdvskiranrajukakinada.blogspot.com/2025/11/dr-dvs-kiran-raju-chief-dentist.html" target="_blank">Dr. Kiran Raju</a> , is dedicated to making our practice
                         patient-centered. We want each patient to feel like a member of the Srinivasa Dentistry
                         family, confidently putting their trust in our team. check our testimonials to see why we
                         are passionate about our patients’ experience. <br><br>
@@ -772,6 +772,15 @@
 
 
 
+    
+
+
+
+
+
+
+
+
 
     <!--<section>
              <div class="container">
@@ -920,6 +929,13 @@
 
 
 
+
+
+
+
+
+
+
     <!-- <section class="blog_section ">
      <div class="container">
        <div class="section-title text-center">
@@ -1009,6 +1025,12 @@
      </div>
 
    </section>  -->
+
+
+
+
+
+
 
 
 
