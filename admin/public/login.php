@@ -44,7 +44,7 @@
                                         </div>
 
 
-                                        <form class="user" action="../includes/login_handler.php" method="POST">
+                                        <form class="user" action="../includes/login_handler" method="POST">
                                             <div class="form-group">
                                                 <input type="email" class="form-control form-control-user" id="email" name="email" required placeholder="Email Address">
 
@@ -60,7 +60,7 @@
                                                         Me</label>
                                                 </div>
                                             </div>
-                                            <a href="index.php">
+                                            <a href="index">
                                                 <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
                                             </a>
 
@@ -78,7 +78,7 @@
                                         <hr>
 
                                         <div class="text-center">
-                                            <a class="small" href="register.php">Create an Account!</a>
+                                            <a class="small" href="register">Create an Account!</a>
                                         </div>
                                     </div>
                                 </div>

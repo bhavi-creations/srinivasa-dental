@@ -14,7 +14,7 @@ if (isset($_GET['id'])) {
     if ($stmt->execute()) {
         echo "Blog post deleted successfully.";
         // Redirect to the blogs page
-        header("Location: allBlog.php");
+        header("Location: allBlog");
     } else {
         echo "Error deleting blog post: " . $stmt->error;
     }
@@ -23,10 +23,10 @@ if (isset($_GET['id'])) {
     $stmt->close();
 } else {
     echo "No blog ID provided.";
-    header("Location: allBlog.php");
+    header("Location: allBlog");
 }
 
 // Close the connection
-header("Location: allBlog.php");
+header("Location: allBlog");
 $conn->close();
 ?>

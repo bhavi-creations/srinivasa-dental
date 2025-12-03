@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($stmt->execute()) {
         // Redirect without echo (fixes header already sent issue)
-        header("Location: list_videos.php?success=1");
+        header("Location: list_videos?success=1");
         exit();
     } else {
         die("❌ Database Error: " . $stmt->error);

@@ -38,7 +38,7 @@
                                     <h6 class="m-0 font-weight-bold text-success">Add Comment</h6>
                                 </div>
                                 <div class="card-body">
-                                    <form action="add_review.php" method="POST">
+                                    <form action="add_review" method="POST">
                                         <div class="mb-3">
                                             <label class="form-label text-primary">Name</label>
                                             <input type="text" name="name" class="form-control" required>
@@ -89,7 +89,7 @@
                                             echo "<small>{$row['created_at']}</small>";
 
                                             // Reply Form
-                                            echo "<form action='add_review.php' method='POST' class='mt-2'>";
+                                            echo "<form action='add_review' method='POST' class='mt-2'>";
                                             echo "<input type='hidden' name='parent_id' value='{$row['id']}'>";
                                             echo "<input type='text' name='name' class='form-control mb-2' placeholder='Your Name' required>";
                                             echo "<input type='email' name='email' class='form-control mb-2' placeholder='Your Email'>";

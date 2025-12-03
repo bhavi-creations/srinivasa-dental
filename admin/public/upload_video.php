@@ -54,7 +54,7 @@
                                 </div>
 
                                 <div class="card-body">
-                                    <form style="color:black;" id="uploadvideoform" action="save_video.php" method="POST" enctype="multipart/form-data">
+                                    <form style="color:black;" id="uploadvideoform" action="save_video" method="POST" enctype="multipart/form-data">
 
                                         <div class="mb-3">
                                             <label class="form-label text-primary">Video Title</label>

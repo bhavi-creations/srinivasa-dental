@@ -57,7 +57,7 @@
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <form style="color:black;" id="addblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
+                                    <form style="color:black;" id="addblogform" action="addBlog" method="POST" enctype="multipart/form-data">
 
                                         <!-- Blog Title -->
                                         <div class="mb-3">

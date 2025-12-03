@@ -1,7 +1,7 @@
 <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #A9A8D4;">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center bg-light text-primary" href="./index.php">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center bg-light text-primary" href="./index">
         <div class="sidebar-brand-icon">
             <i class="fas fa-stethoscope"></i>
         </div>
@@ -13,7 +13,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index.php">
+        <a class="nav-link" href="index">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -35,8 +35,8 @@
         <div id="collapseBlogs" class="collapse" aria-labelledby="headingBlogs" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Blog Options</h6>
-                <a class="collapse-item" href="newBlog.php"><i class="fas fa-fw fa-plus"></i> Create Blog</a>
-                <a class="collapse-item" href="allBlog.php"><i class="fas fa-fw fa-list"></i> All Blogs</a>
+                <a class="collapse-item" href="newBlog"><i class="fas fa-fw fa-plus"></i> Create Blog</a>
+                <a class="collapse-item" href="allBlog"><i class="fas fa-fw fa-list"></i> All Blogs</a>
             </div>
         </div>
     </li>
@@ -53,8 +53,8 @@
         <div id="collapseVideos" class="collapse" aria-labelledby="headingVideos" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Video Options</h6>
-                <a class="collapse-item" href="upload_video.php"><i class="fas fa-fw fa-upload"></i> Upload Video</a>
-                <a class="collapse-item" href="list_videos.php"><i class="fas fa-fw fa-list"></i> All Videos</a>
+                <a class="collapse-item" href="upload_video"><i class="fas fa-fw fa-upload"></i> Upload Video</a>
+                <a class="collapse-item" href="list_videos"><i class="fas fa-fw fa-list"></i> All Videos</a>
             </div>
         </div>
     </li>
@@ -71,8 +71,8 @@
         <div id="collapsePDFs" class="collapse" aria-labelledby="headingPDFs" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">PDF Options</h6>
-                <a class="collapse-item" href="newPDF.php"><i class="fas fa-fw fa-upload"></i> Upload PDF</a>
-                <a class="collapse-item" href="allPDF.php"><i class="fas fa-fw fa-list"></i> All PDFs</a>
+                <a class="collapse-item" href="newPDF"><i class="fas fa-fw fa-upload"></i> Upload PDF</a>
+                <a class="collapse-item" href="allPDF"><i class="fas fa-fw fa-list"></i> All PDFs</a>
             </div>
         </div>
     </li>
@@ -89,7 +89,7 @@
         <div id="collapsecommets" class="collapse" aria-labelledby="headingcomments" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">comments</h6>
-                <a class="collapse-item" href="blog_commets.php"><i class="fas fa-fw fa-upload"></i> comments</a>
+                <a class="collapse-item" href="blog_commets"><i class="fas fa-fw fa-upload"></i> comments</a>
                 <!-- <a class="collapse-item" href="allPDF.php"><i class="fas fa-fw fa-list"></i> All PDFs</a> -->
             </div>
         </div>

@@ -25,7 +25,7 @@ if (isset($_GET['id'])) {
         }
 
         // Redirect after success
-        header("Location: list_videos.php?msg=deleted");
+        header("Location: list_videos?msg=deleted");
         exit();
     } else {
         echo "Error deleting video: " . $stmt->error;
@@ -34,7 +34,7 @@ if (isset($_GET['id'])) {
     $stmt->close();
 } else {
     echo "No video ID provided.";
-    header("Location: allVideos.php");
+    header("Location: allVideos");
     exit();
 }
 

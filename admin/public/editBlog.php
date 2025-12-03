@@ -94,7 +94,7 @@ $conn->close();
                                     }
                                     ?>
 
-                                    <form style='color:black;' id="editblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
+                                    <form style='color:black;' id="editblogform" action="addBlog" method="POST" enctype="multipart/form-data">
 
                                         <input type="hidden" name="id" value="<?php echo $blog_id; ?>">
 

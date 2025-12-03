@@ -40,7 +40,7 @@ $result = $conn->query($sql);
                                 All Blog Comments
                             <?php } ?>
                         </h2>
-                        <a href="blog_commets.php" class="btn btn-sm btn-primary shadow-sm">
+                        <a href="blog_commets" class="btn btn-sm btn-primary shadow-sm">
                             <i class="fas fa-arrow-left fa-sm text-white-50"></i> Back to Blogs
                         </a>
                     </div>
@@ -80,9 +80,9 @@ $result = $conn->query($sql);
                                                     <td><?php echo $row['dislikes']; ?></td>
                                                     <td><?php echo $row['created_at']; ?></td>
                                                     <td>
-                                                        <a href="reply_comment.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-info">💬 Reply</a>
-                                                        <a href="edit_comment.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-warning">✏️ Edit</a>
-                                                        <a href="delete_comment.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-danger"
+                                                        <a href="reply_comment?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-info">💬 Reply</a>
+                                                        <a href="edit_comment?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-warning">✏️ Edit</a>
+                                                        <a href="delete_comment?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-danger"
                                                            onclick="return confirm('Are you sure you want to delete this comment?');">🗑 Delete</a>
                                                     </td>
                                                 </tr>

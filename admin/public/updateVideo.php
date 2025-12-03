@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($stmt->execute()) {
         $stmt->close();
         $conn->close();
-        header("Location: list_videos.php?success=1");
+        header("Location: list_videos?success=1");
         exit();
     } else {
         echo "Error: " . $stmt->error;

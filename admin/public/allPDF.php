@@ -72,7 +72,7 @@ include '../../db.connection/db_connection.php';
                         <div class="container">
                             <div class="d-sm-flex align-items-center justify-content-between mb-4">
                                 <h2 class="h2 mb-0 text-info mx-2"> Published PDF'S</h2>
-                                <a href="newPDF.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-upload fa-sm text-white-50"></i>Upload Blog</a>
+                                <a href="newPDF" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-upload fa-sm text-white-50"></i>Upload Blog</a>
 
                             </div>
 
@@ -95,8 +95,8 @@ include '../../db.connection/db_connection.php';
                         <h5 class='card-title'>{$pdf_row['title']}</h5>
                         <p class='card-text'>Uploaded PDF: <a href='{$pdf_row['pdf_path']}' target='_blank'>View PDF</a></p>
                         <div class='row'>
-                            <a href='edit_pdf.php?id={$pdf_row['id']}' class='btn btn-warning col-xl-4 mx-3 my-2'>Edit PDF</a>
-                            <a href='delete_pdf.php?id={$pdf_row['id']}' class='col-xl-4 btn btn-danger mx-3 my-2'>Delete PDF</a>
+                            <a href='edit_pdf?id={$pdf_row['id']}' class='btn btn-warning col-xl-4 mx-3 my-2'>Edit PDF</a>
+                            <a href='delete_pdf?id={$pdf_row['id']}' class='col-xl-4 btn btn-danger mx-3 my-2'>Delete PDF</a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@ include '../../db.connection/db_connection.php';
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.php">Logout</a>
+                    <a class="btn btn-primary" href="login">Logout</a>
                 </div>
             </div>
         </div>

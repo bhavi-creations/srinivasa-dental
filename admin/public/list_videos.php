@@ -32,7 +32,7 @@
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h2 class="h2 mb-0 text-info mx-2"> Uploaded Videos </h2>
-                        <a href="upload_video.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                        <a href="upload_video" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                             <i class="fas fa-upload fa-sm text-white-50"></i> Upload New Video
                         </a>
                     </div>
@@ -57,8 +57,8 @@
                                                 Your browser does not support the video tag.
                                             </video>
                                             <div class='row mt-3'>
-                                                <a href='editVideo.php?id={$row['id']}' class='btn btn-warning col mx-2'>Edit</a>
-                                                <a href='delete_video.php?id={$row['id']}' class='btn btn-danger col mx-2'>Delete</a>
+                                                <a href='editVideo?id={$row['id']}' class='btn btn-warning col mx-2'>Edit</a>
+                                                <a href='delete_video?id={$row['id']}' class='btn btn-danger col mx-2'>Delete</a>
                                             </div>
                                         </div>
                                     </div>

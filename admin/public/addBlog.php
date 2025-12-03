@@ -127,11 +127,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Execute SQL
     if ($stmt->execute()) {
         echo "Blog post published/updated successfully!";
-        header("Location: allBlog.php");
+        header("Location: allBlog");
         exit();
     } else {
         echo "Error: " . $stmt->error;
-        header("Location: newBlog.php");
+        header("Location: newBlog");
         exit();
     }
 

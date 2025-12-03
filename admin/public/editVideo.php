@@ -59,7 +59,7 @@ $conn->close();
                                     <h6 class="m-0 font-weight-bold text-success">EDIT VIDEO</h6>
                                 </div>
                                 <div class="card-body">
-                                    <form style='color:black;' id="editvideoform" action="updateVideo.php" method="POST" enctype="multipart/form-data">
+                                    <form style='color:black;' id="editvideoform" action="updateVideo" method="POST" enctype="multipart/form-data">
                                         <!-- Title Input -->
                                         <div class="mb-3">
                                             <label class="form-label text-primary">Enter Title</label>

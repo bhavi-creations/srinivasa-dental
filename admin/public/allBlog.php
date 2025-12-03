@@ -64,7 +64,7 @@
                         <div class="container">
                             <div class="d-sm-flex align-items-center justify-content-between mb-4">
                                 <h2 class="h2 mb-0 text-info mx-2"> Published Blogs</h2>
-                                <a href="newBlog.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Create Blog</a>
+                                <a href="newBlog" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Create Blog</a>
 
                             </div>
                             <div class='row row-custom no-gutters'>
@@ -89,8 +89,8 @@
                         <h5 class='card-title' style='color:black;'>{$row['title']}</h5>
                         <p class='card-text'>" . substr(strip_tags($row['main_content']), 0, 100) . "...</p>
                         <div class='row'>
-                            <a href='editBlog.php?id={$row['id']}' class='btn btn-warning col-xl-4 mx-3 my-2'>Edit Blog</a>
-                            <a href='deleteBlog.php?id={$row['id']}' class='col-xl-4 btn btn-danger mx-3 my-2'>Delete</a>
+                            <a href='editBlog?id={$row['id']}' class='btn btn-warning col-xl-4 mx-3 my-2'>Edit Blog</a>
+                            <a href='deleteBlog?id={$row['id']}' class='col-xl-4 btn btn-danger mx-3 my-2'>Delete</a>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.php">Logout</a>
+                    <a class="btn btn-primary" href="login">Logout</a>
                 </div>
             </div>
         </div>

@@ -18,11 +18,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($user) {
         $_SESSION['user_id'] = $user['id'];
         $_SESSION['username'] = $user['first_name'];
-        header('Location: ../public/index.php');
+        header('Location: ../public/index');
        exit();
     } else {
         echo "error2";
-      header('Location: ../public/login.php?error=Invalid email or password');
+      header('Location: ../public/login?error=Invalid email or password');
       exit();
     }
 }

@@ -81,7 +81,7 @@ $conn->close();
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <form style='color:black;' id="editpdfform" action="update_pdf.php" method="POST"
+                                    <form style='color:black;' id="editpdfform" action="update_pdf" method="POST"
                                         enctype="multipart/form-data">
                                         <div class="mb-3">
                                             <label for="pdfTitle" class="form-label text-primary">PDF Title</label>

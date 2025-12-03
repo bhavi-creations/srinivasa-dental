@@ -35,11 +35,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Execute SQL
     if ($stmt->execute()) {
         echo "Review saved successfully!";
-        header("Location: ../../../../allreviews.php"); // 👈 Reviews list page
+        header("Location: ../../../../allreviews"); // 👈 Reviews list page
         exit();
     } else {
         echo "Error: " . $stmt->error;
-        header("Location: newReview.php"); // 👈 Review form page
+        header("Location: newReview"); // 👈 Review form page
         exit();
     }
 
