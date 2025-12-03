@@ -505,39 +505,39 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
         <ul>
           <li><a class="nav-link <?= ($current_page == 'index.php') ? 'active' : ''; ?>" href="index.php">Home</a></li>
-          <li><a class="nav-link <?= ($current_page == 'about.php') ? 'active' : ''; ?>" href="about.php">About</a></li>
+          <li><a class="nav-link <?= ($current_page == 'about_srinivasa_multispeciality_dental_hospital.php') ? 'active' : ''; ?>" href="about_srinivasa_multispeciality_dental_hospital.php">About</a></li>
 
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle <?= ($current_page == 'services.php') ? 'active' : ''; ?>"
-              href="services.php" id="servicesDropdown" role="button">
+            <a class="nav-link dropdown-toggle <?= ($current_page == 'services_srinivasa_multispeciality_dental_hospital.php') ? 'active' : ''; ?>"
+              href="services_srinivasa_multispeciality_dental_hospital.php" id="servicesDropdown" role="button">
               Services
             </a>
             <ul class="dropdown-menu services_drop_menu mt-1 service_subservice_secton" aria-labelledby="servicesDropdown" style="width:700px;">
               <div class="row">
                 <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentalimplants.php">Dental Implants</a></li>
-                  <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
+                  <li><a class="dropdown-item services_drop" href="root_canal_treatment.php">Root Canal</a></li>
+                  <li><a class="dropdown-item services_drop" href="dental_braces_treatment.php">Dental Braces</a></li>
+                  <li><a class="dropdown-item services_drop" href="dental_implants_treatment.php">Dental Implants</a></li>
+                  <li><a class="dropdown-item services_drop" href="bridge_treatment_treatment.php">Crown & Bridge</a></li>
                 </div>
                 <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
-                  <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
+                  <li><a class="dropdown-item services_drop" href="teeth_filling_treatment.php">Teeth Filling</a></li>
+                  <li><a class="dropdown-item services_drop" href="dentures_treatment.php">Dentures</a></li>
+                  <li><a class="dropdown-item services_drop" href="teeth_scaling_treatment.php">Teeth Scaling</a></li>
+                  <li><a class="dropdown-item services_drop" href="tooth_extraction_treatment.php">Tooth Extraction</a></li>
                 </div>
                 <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="clearaligners.php"> Clear Aligners</a></li>
-                  <li><a class="dropdown-item services_drop" href="teethwhitning.php">Teeth Whitening</a></li>
-                  <li><a class="dropdown-item services_drop" href="smilemakeover.php">Smile Makeover</a></li>
-                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion.php">Full Mouth Restoration</a></li>
+                  <li><a class="dropdown-item services_drop" href="clear_aligners_treatment.php"> Clear Aligners</a></li>
+                  <li><a class="dropdown-item services_drop" href="teeth_whitning_treatment.php">Teeth Whitening</a></li>
+                  <li><a class="dropdown-item services_drop" href="smile_makeover_treatment.php">Smile Makeover</a></li>
+                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion_treatment.php">Full Mouth Restoration</a></li>
                 </div>
               </div>
             </ul>
           </li>
 
-          <!-- <li><a class="nav-link <?= ($current_page == 'gallery.php') ? 'active' : ''; ?>" href="gallery.php">Gallery</a></li> -->
+          <!-- <li><a class="nav-link <?= ($current_page == 'gallery_srinivasa_multispeciality_dental_hospital.php') ? 'active' : ''; ?>" href="gallery.php">Gallery</a></li> -->
 
 
           <!-- <li class="nav-item dropdown">
@@ -551,7 +551,7 @@
             </ul>
           </li> -->
 
-          <li><a class="nav-link <?= ($current_page == 'gallery.php') ? 'active' : ''; ?>" href="gallery.php">Gallery</a></li>
+          <li><a class="nav-link <?= ($current_page == 'gallery_srinivasa_multispeciality_dental_hospital.php') ? 'active' : ''; ?>" href="gallery_srinivasa_multispeciality_dental_hospital.php">Gallery</a></li>
 
 
 
@@ -559,14 +559,14 @@
 
 
           <li class="nav-item dropdown">
-            <a class="nav-link <?= ($current_page == 'blogs.php') ? 'active' : ''; ?> dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="false">
+            <a class="nav-link <?= ($current_page == 'blogs_srinivasa_multispeciality_dental_hospital.php') ? 'active' : ''; ?> dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="false">
               Posts
             </a>
             <ul class="dropdown-menu post_section " aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="blogs.php">Blogs</a></li>
-              <li><a class="dropdown-item" href="news.php">News letter</a></li>
-              <li><a class="dropdown-item" href="smile_stories.php">Smile Stories</a></li>
-              <li><a class="dropdown-item" href="youtube_gallery.php">Youtube Gallery</a></li>
+              <li><a class="dropdown-item" href="blogs_srinivasa_multispeciality_dental_hospital.php">Blogs</a></li>
+              <li><a class="dropdown-item" href="news_srinivasa_multispeciality_dental_hospital.php">News letter</a></li>
+              <li><a class="dropdown-item" href="smile_stories_srinivasa_multispeciality_dental_hospital.php">Smile Stories</a></li>
+              <li><a class="dropdown-item" href="youtube_gallery_srinivasa_multispeciality_dental_hospital.php">Youtube Gallery</a></li>
 
 
             </ul>
@@ -580,21 +580,21 @@
             <ul class="dropdown-menu post_section  " aria-labelledby="navbarDropdown">
 
 
-              <li><a class="nav-link dropdown-item <?= ($current_page == 'testimonials.php') ?: ''; ?>" href="testimonials.php">What Patients Say</a></li>
+              <li><a class="nav-link dropdown-item <?= ($current_page == 'testimonials_srinivasa_multispeciality_dental_hospital.php') ?: ''; ?>" href="testimonials_srinivasa_multispeciality_dental_hospital.php">What Patients Say</a></li>
 
-              <li><a class="dropdown-item" href="video_reviews.php">Video testimonials</a></li>
+              <li><a class="dropdown-item" href="video_reviews_srinivasa_multispeciality_dental_hospital.php">Video testimonials</a></li>
 
             </ul>
           </li>
           <li><a class="nav-link  " target="_blank" href="https://smile-view.invisalign.in/?campaign_name=SmileView-Consumer_IN_India-Consumer">Smile test</a></li>
 
-          <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
+          <li><a href="appointment_srinivasa_dental_hospital.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
               Appointment
             </a></li>
         </ul>
       </nav>
 
-      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
+      <a href="appointment_srinivasa_dental_hospital.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
         For Appointment
       </a>
     </div>

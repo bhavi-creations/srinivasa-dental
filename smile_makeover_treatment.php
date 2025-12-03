@@ -1,19 +1,25 @@
  
-<?php include 'navbar.php'; ?>
-
+  <?php include 'navbar.php'; ?>
 
 
 
   <main id="main">
 
-  <img src="assets/img/services/teeth-extraction/tooth-extraction1.png" alt="" class="img-fluid">
 
-<div class="container service_img_cad_text">
-  <p class=" service_slider_name">  Tooth Extraction  </p>
-  <a href="contact.php">
-    <button class="read_more__slider">Contact Us</button>
-  </a>
-</div>
+
+
+
+
+
+    <img src="assets/img/services/smile-make-over/11.png" alt="" class="img-fluid">
+
+    <div class="container service_img_cad_text">
+      <p class=" service_slider_name">  Smilemakeover </p>
+      <a href="contact_srinivasa_multispeciality_dental_hospital.php">
+        <button class="read_more__slider">Contact Us</button>
+      </a>
+    </div>
+
 
 
 
@@ -23,15 +29,13 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Tooth Extraction Treatment</p>
+            <p class="root_treatment"> Smilemakeover Treatment</p>
             <p>
-              Tooth extraction is a common dental procedure performed to remove a tooth that is damaged, decayed, or causing complications such as crowding or infection. While preserving natural teeth is always a priority, extraction becomes necessary when a tooth cannot be saved or poses a risk to your oral health.
-
+              A smile makeover is a comprehensive treatment plan that combines various cosmetic dental procedures to enhance the appearance of your smile. Whether you're looking to improve the shape, size, or color of your teeth, or address issues like gaps, misalignment, or stains, a smile makeover can give you the smile you’ve always dreamed of.
 
             </p>
             <p>
-              The procedure is performed under local anesthesia to ensure a pain-free experience. After removal we provide Laser PBM for faster healing of socket and to stay  painless even after tooth removal. Your dentist will provide aftercare instructions to promote healing and prevent discomfort. Tooth extractions are often the first step toward restoring a healthy, functional smile through replacement options like implants or bridges.
-
+              Using a combination of treatments such as teeth whitening, veneers, crowns, and bonding, a smile makeover can dramatically improve your overall appearance and boost your self-confidence. The results are customized to fit your unique facial features and preferences, ensuring a natural, beautiful smile.
 
 
             </p>
@@ -45,46 +49,51 @@
     <section class="section_color">
       <div class="container">
         <h4 class="root_step text-center mb-5">
-          Safe and Precise Tooth Removal</h4>
+          Transform Your Smile, Transform Your Life</h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
-              <img src="./assets/img/services/teeth-extraction/1.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/smile-make-over/1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-                Your dentist examines the tooth and surrounding area using X-rays to assess its condition. Local anesthesia is applied to numb the area, ensuring a comfortable and pain-free procedure.
+                Your dentist will evaluate your dental health, discuss your aesthetic goals, and create a personalized treatment plan that includes the procedures best suited for you.
 
-              </p>
 
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/teeth-extraction/2.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/smile-make-over/2.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step2</h4>
               <p>
-                The dentist carefully loosens the tooth using specialized tools and removes it. For impacted teeth or surgical extractions, a small incision may be made to access the tooth.
+                Depending on your needs, treatments like teeth whitening, veneers, crowns, bonding, or Invisalign may be used to enhance the appearance, shape, and alignment of your teeth.
 
-              </p>
+
+
             </div>
-
-
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/teeth-extraction/3.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/smile-make-over/3.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step3</h4>
               <p>
-                After the extraction, the area is cleaned, and gauze is placed to control bleeding. Your dentist will provide aftercare instructions, including tips for managing pain, swelling, and promoting healing.
+                After completing the treatments, your smile will be beautifully transformed, ensuring you leave with a natural, radiant, and confident smile that suits your unique features.
 
-              </p>
+
             </div>
           </div>
         </div>
-
       </div>
-
     </section>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -110,19 +119,11 @@
 
 
 
-
-
-
-
-
-
-
-
     <section>
       <div class="container">
         <div class="section-title text-center">
 
-          <h2 class="apporach">Experience a Smooth Recovery </h2>
+          <h2 class="apporach"> Experience the Power of a Smile Makeover </h2>
 
 
           <p class="svg_apporach_service"> <svg xmlns="http://www.w3.org/2000/svg" width="266" height="10"
@@ -132,8 +133,7 @@
                 fill="#25B4F8" />
             </svg>
           </p>
-          <h2 class="apporach"> Watch Our Tooth Extraction Procedure</h2>
-
+          <h2 class="apporach"> Transforming Smiles, Changing Lives</h2>
 
 
 
@@ -148,7 +148,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/PbZjygD7UfQ?si=-Rz9S9sIQKm7ilqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/FUfqiw_w5QM?si=NfCC1N_hFEzclErw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -163,17 +163,17 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/PbZjygD7UfQ?si=-Rz9S9sIQKm7ilqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/FUfqiw_w5QM?si=NfCC1N_hFEzclErw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <div class="tile ">
+                <!-- <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -185,18 +185,18 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/PbZjygD7UfQ?si=-Rz9S9sIQKm7ilqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/FUfqiw_w5QM?si=NfCC1N_hFEzclErw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <div class="tile ">
+                <!-- <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <!-- <div class="tile  ">
+                <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -215,25 +215,25 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/PbZjygD7UfQ?si=-Rz9S9sIQKm7ilqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/FUfqiw_w5QM?si=NfCC1N_hFEzclErw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <div class="tile ">
+                <!--    <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <!--  <div class="tile  ">
+                <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <div class="tile  ">
+                  <div class="tile  ">
                   <div class="tile__media">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/KyI4GyczhTo?si=F0v0n60FOJLo5hKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -268,15 +268,11 @@
 
 
 
+
+
   </main>
   <?php include('./footer.php'); ?>
 
-
-  <script>
-    gtag('event', 'conversion', {
-      'send_to': 'AW-10932795730/UbfvCITsyZcYENLylN0o'
-    });
-  </script>
 
 </body>
 

@@ -5,103 +5,17 @@
 
 
   <main id="main">
+
   
-  <img src="assets/img/services/crowns/crowns_bridge.png" alt="" class="img-fluid">
 
-<div class="container service_img_cad_text">
-    <p class=" service_slider_name">Crowns & Bridges</p>
-    <a href="contact.php">
+    <img src="assets/img/services/dentures/dentures.png" alt="" class="img-fluid">
+
+    <div class="container service_img_cad_text">
+      <p class=" service_slider_name">Dentures  </p>
+      <a href="contact_srinivasa_multispeciality_dental_hospital.php">
         <button class="read_more__slider">Contact Us</button>
-    </a>
-</div>
-
-     <!-- <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="col-md-7 dr_content_padding   ">
-            <h5 class="poetsen_font11">Tooth crowns and bridges are restorative dental solutions used to restore damaged teeth and replace missing ones, improving both function and appearance.
-              </h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Crown and bridge Treatment in
-                kakinada</h2>
-              <p class="poetsen_font1">
-                Tooth crowns and bridges are effective restorative dental treatments designed to enhance the function and appearance of damaged or missing teeth. A crown is a cap placed over a damaged tooth to restore its shape, size, and strength, while a bridge consists of one or more artificial teeth anchored by crowns on adjacent teeth to fill gaps left by missing teeth. Crowns and bridges are custom-made to match the color and shape of natural teeth, providing a seamless and aesthetically pleasing result. The procedure involves shaping the existing tooth or teeth, taking impressions, and placing temporary restorations until the permanent ones are ready. With proper care, crowns and bridges can last for many years, offering a durable solution to common dental issues.
-
-              </p>
-
-              <div class="showthisdiv  " style="display:none ">
-                <p class="poetsen_font1">Crowns and bridges are often crafted from durable materials such as porcelain, ceramic, or metal, ensuring both strength and a natural appearance. The process typically begins with a thorough examination and preparation of the affected teeth, followed by the creation of detailed impressions to ensure a precise fit. Modern advancements in dental technology, such as digital scanning, have streamlined the fitting process, resulting in more accurate and comfortable restorations. While crowns and bridges can significantly improve oral function and aesthetics, maintaining good oral hygiene and regular dental check-ups are crucial for their longevity and overall oral health. This approach helps prevent issues such as decay around the crown or bridge and ensures that the surrounding teeth remain healthy.</p>
-              </div>
-
-
-              <div class="d-flex flex-row justify-content-start">
-                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                  Read More <i class="fa-solid fa-arrow-right"></i></p>
-              </div>
-          </div>
-
-          <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
-            <div class="custom-swiper-container">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/crown&bridge (1).png" class="img-fluid custom-img-padding"
-                    alt="Dental Braces" loading="lazy">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/services/crown&bridge (2).png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/services/crown&bridge (3).png" class="img-fluid custom-img-padding"
-                    alt="Dental Image 2" loading="lazy">
-                </div>
-              </div>
-            
-            </div>
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const swiper = new Swiper('.custom-swiper-container', {
-                  loop: true,
-                  effect: 'fade',
-                  autoplay: {
-                    delay: 2000,
-                    disableOnInteraction: false, 
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                  navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                  },
-                });
-              });
-            </script>
-
-          </div>
-
-
-
-        </div>
-      </div>
-    </section>  -->
-
-    <!-- <section class="crowns_service_bg_img  service_slider_image_styles">
-      <div class="container slider_service_content">
-        
-
-        <div class="service_slider_content_div">
-          <p class=" teeth_slider_name">Crowns & Bridges</p>
-          <a href="contact.php">
-            <button class="read_more__slider">Contact Us</button>
-          </a>
-        </div>
-
-      </div>
-    </section> -->
+      </a>
+    </div>
 
 
 
@@ -111,24 +25,18 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Crowns & Bridges Treatment</p>
+            <p class="root_treatment"> Dentures Treatment</p>
             <p>
-              Crowns and bridges are fixed dental restorations designed to repair damaged teeth and replace missing ones, restoring both function and aesthetics.
+              Dentures are removable dental appliances designed to replace missing teeth and restore functionality, appearance, and confidence. They come in two main types: </p>
 
-
+            <p><strong> 1. Complete Dentures: </strong> Used when all teeth are missing, designed to fit snugly on the gums.
             </p>
-            <p>
-              <strong>Crowns </strong>are custom-made caps placed over weakened or decayed teeth, protecting them while enhancing their strength and appearance.
-
-
-            </p>
-            <p>
-              <strong> Bridges</strong> are used to fill gaps left by missing teeth, consisting of artificial teeth anchored to adjacent natural teeth or implants for a seamless, secure fit.
-
-            </p>
-            <p>
-              Both crowns and bridges improve chewing ability, speech, and overall dental health while providing a natural, confident smile
-            </p>
+            <p><strong>2. Partial Dentures:</strong> Replace a few missing teeth and are attached to the remaining natural teeth for support.</p>
+            <p>Modern dentures are made from durable materials like acrylic or metal, providing a natural look and comfortable fit. They help improve chewing, speech, and facial structure. Regular cleaning and proper maintenance are essential to ensure their longevity and hygiene.</p>
+            <!-- <P><strong>. Metal Braces:</strong> Traditional braces with metal brackets and wires.</P>
+            <P><strong>. Ceramic Braces: </strong> Tooth-colored brackets for a more discreet look.</P>
+            <P><strong>. Lingual Braces:</strong> Placed behind the teeth, making them nearly invisible</P>
+            <P><strong>. Clear Aligners:</strong> Removable, transparent trays that straighten teeth without wires.</P> -->
 
 
           </div>
@@ -138,51 +46,46 @@
 
     <section class="section_color">
       <div class="container">
-        <h4 class="root_step text-center mb-5">
-          Restore Strength, Function, and Your Smile</h4>
+        <h4 class="root_step text-center mb-5">Restore Your Smile and Confidence with Dentures
+        </h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
-              <img src="./assets/img/services/crowns/1.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/dentures/2.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-              The latest three-dimensional intraoral scans are used at Srinivasa Dental to minimise discomfort for the patient and get the accurate fitting of the crown.             </p>
+                The dentist evaluates your oral health through an examination and diagnostic tools like X-rays. Impressions of your gums and any remaining teeth are taken to create a custom-fit denture plan tailored to your needs.
+
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/crowns/2.png" alt="" class="img-fluid">
+              <!-- <img src="./assets/img/services/dentures/1.png" alt="" class="img-fluid"> -->
+              <img src="./assets/img/services/dentures/denture-2.png" alt="">
               <h4 class="canal_step">Step2</h4>
               <p>
-                A temporary crown or bridge may be placed to protect the teeth while the permanent restoration is being fabricated in a dental lab for a perfect fit and natural appearance.
-
-
+                Based on the impressions, the dentures are crafted in a dental lab to ensure comfort and functionality. Once ready, the dentures are fitted, and adjustments are made to achieve a proper fit and natural appearance.
               </p>
-
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/crowns/3.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/dentures/1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step3</h4>
               <p>
-                Once ready, the custom crown or bridge is securely bonded to the tooth or supporting teeth. Adjustments are made for comfort, ensuring a strong, functional, and aesthetically pleasing smile.
+                After placement, follow-up visits are scheduled to make any necessary refinements. The dentist provides guidance on wearing, cleaning, and maintaining the dentures for long-lasting comfort and optimal oral health.
+
+
 
 
               </p>
+
+
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
-
-
-
-
-
-
 
 
 
@@ -206,11 +109,12 @@
 
 
 
+
     <section>
       <div class="container">
         <div class="section-title text-center">
 
-          <h2 class="apporach"> Discover the Power of Restorative Care </h2>
+          <h2 class="apporach"> Smile confidently </h2>
 
 
           <p class="svg_apporach_service"> <svg xmlns="http://www.w3.org/2000/svg" width="266" height="10"
@@ -220,7 +124,7 @@
                 fill="#25B4F8" />
             </svg>
           </p>
-          <h2 class="apporach"> Watch Our Bridge and Cap Treatment</h2>
+          <h2 class="apporach"> With custom dentures for a natural, comfortable fit!</h2>
 
 
 
@@ -235,7 +139,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/T9uDdLztHnE?si=rDqkJJco-72BOeaD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/UEm0ustQR1I?si=TUU2pZqAyn3iiiXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -250,7 +154,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/T9uDdLztHnE?si=rDqkJJco-72BOeaD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/UEm0ustQR1I?si=TUU2pZqAyn3iiiXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -272,7 +176,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/T9uDdLztHnE?si=rDqkJJco-72BOeaD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/UEm0ustQR1I?si=TUU2pZqAyn3iiiXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -302,7 +206,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/T9uDdLztHnE?si=rDqkJJco-72BOeaD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/UEm0ustQR1I?si=TUU2pZqAyn3iiiXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -351,8 +255,8 @@
 
 
 
-  </main>
 
+  </main>
   <?php include('./footer.php'); ?>
 
 

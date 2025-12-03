@@ -151,13 +151,13 @@
           <h1 class="helpful_link">Helpful Link</h1>
           <a href="index.php">
             <p class="foot_para">Home</p>
-          </a><a href="about.php">
+          </a><a href="about_srinivasa_multispeciality_dental_hospital.php">
             <p class="foot_para">About us</p>
-          </a><a href="testimonials.php">
+          </a><a href="testimonials_srinivasa_multispeciality_dental_hospital.php">
             <p class="foot_para">What Patients Say</p>
-          </a><a href="blogs.php">
+          </a><a href="blogs_srinivasa_multispeciality_dental_hospital.php">
             <p class="foot_para">Blog</p>
-          </a><a href="contact.php">
+          </a><a href="contact_srinivasa_multispeciality_dental_hospital.php">
             <p class="foot_para">Contact</p>
           </a>
           <a target="_blank" href="https://smile-view.invisalign.in/?campaign_name=SmileView-Consumer_IN_India-Consumer">
@@ -214,21 +214,21 @@
         </div>
         <div class="col-7 col-md-6 col-lg-3 py-2">
           <h1 class="foot_head">Quick Links</h1>
-          <a href="rootcanal.php">
+          <a href="root_canal_treatment.php">
             <p class="foot_para"> Root Canal service in kakinada</p>
           </a>
-          <a href="dentalbraces.php">
+          <a href="dental_braces_treatment.php">
             <p class="foot_para"> Best Dental Braces in kakinada</p>
-            <a href="dentalimplants.php">
+            <a href="dental_implants_treatment.php">
               <p class="foot_para"> Best Dental Implants in kakinada</p>
             </a>
-            <a href="bridgetreatment.php">
+            <a href="bridge_treatment_treatment.php">
               <p class="foot_para">Tooth Crown & Bridges</p>
             </a>
-            <a href="teethfilling.php">
+            <a href="teeth_filling_treatment.php">
               <p class="foot_para"> Teeth Filling service in kakinada</p>
             </a>
-            <a href="dentures.php">
+            <a href="dentures_treatment.php">
               <p class="foot_para"> Best Dentures treatment in kakinada</p>
             </a>
 
@@ -236,22 +236,22 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3 py-2">
           <h1 class="foot_head">Quick Links</h1>
-          <a href="teethscaling.php">
+          <a href="teeth_scaling_treatment.php">
             <p class="foot_para"> Teeth Scaling in kakinada</p>
           </a>
-          <a href="toothextraction.php">
+          <a href="tooth_extraction_treatment.php">
             <p class="foot_para">Best Tooth extraction in kakinada</p>
           </a>
-          <a href="clearaligners.php">
+          <a href="clear_aligners_treatment.php">
             <p class="foot_para"> Best Clear Aligners in kakinada</p>
           </a>
-          <a href="teethwhitning.php">
+          <a href="teeth_whitning_treatment.php">
             <p class="foot_para"> Best Teeth Whitening in kakinada</p>
           </a>
-          <a href="smilemakeover.php">
+          <a href="smile_makeover_treatment.php">
             <p class="foot_para">Best Smile Makeover in kakinada</p>
           </a>
-          <a href="fullmouthrestrotion.php">
+          <a href="fullmouthrestrotion_treatment.php">
             <p class="foot_para"> Full Mouth Restoration</p>
           </a>
         </div>

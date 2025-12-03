@@ -18,7 +18,7 @@
 
         <div class="container service_img_cad_text">
           <p class=" service_slider_name">Teeth filling</p>
-          <a href="contact.php">
+          <a href="contact_srinivasa_multispeciality_dental_hospital.php">
             <button class="read_more__slider">Contact Us</button>
           </a>
         </div>

@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4  g-4">
                     <div class="col">
-                        <a href="rootcanal.php" style="text-decoration: none;">
+                        <a href="root_canal_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/one.jpg" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
@@ -29,7 +29,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="dentalbraces.php" style="text-decoration: none;">
+                        <a href="dental_braces_treatment.php" style="text-decoration: none;">
                             <div class="card shadow h-100" style="border: none;">
                                 <img src="assets/img/services/two.jpg" class="card-img-top" alt="Dental Braces">
 
@@ -49,7 +49,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="dentalimplants.php" style="text-decoration: none;">
+                        <a href="dental_implants_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/3.jpg" class="card-img-top" alt="...">
 
@@ -66,7 +66,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="bridgetreatment.php" style="text-decoration: none;">
+                        <a href="bridge_treatment_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/4.jpg" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
@@ -83,7 +83,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="teethfilling.php" style="text-decoration: none;">
+                        <a href="teeth_filling_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/5.jpg" class="card-img-top" alt="...">
 
@@ -100,7 +100,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="dentures.php" style="text-decoration: none;">
+                        <a href="dentures_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/6.jpg" class="card-img-top" alt="...">
 
@@ -117,7 +117,7 @@
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="teethscaling.php" style="text-decoration: none;">
+                        <a href="teeth_scaling_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/7.jpg" class="card-img-top" alt="...">
 
@@ -134,7 +134,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="toothextraction.php" style="text-decoration: none;">
+                        <a href="tooth_extraction_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/8.jpg" class="card-img-top" alt="...">
 
@@ -152,7 +152,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="clearaligners.php" style="text-decoration: none;">
+                        <a href="clear_aligners_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/clearaligners.png" class="card-img-top" alt="...">
 
@@ -171,7 +171,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="teethwhitning.php" style="text-decoration: none;">
+                        <a href="teeth_whitning_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/10.jpg" class="card-img-top" alt="...">
 
@@ -189,7 +189,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="smilemakeover.php" style="text-decoration: none;">
+                        <a href="smile_makeover_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/11.jpg" class="card-img-top" alt="...">
 
@@ -206,7 +206,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="fullmouthrestrotion.php" style="text-decoration: none;">
+                        <a href="fullmouthrestrotion_treatment.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/12.jpg" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">

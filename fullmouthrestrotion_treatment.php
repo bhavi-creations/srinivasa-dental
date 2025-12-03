@@ -7,21 +7,17 @@
   <main id="main">
 
 
-
  
  
 
-
-    <img src="assets/img/services/dentalbraces/1.png" alt="" class="img-fluid">
+    <img src="assets/img/services/full-teeth/11.png" alt="" class="img-fluid">
 
     <div class="container service_img_cad_text">
-      <p class=" service_slider_name">Dental Braces</p>
-      <a href="contact.php">
+      <p class=" service_slider_name" id="full_mouth">  Full mouth rehabilitation</p>
+      <a href="contact_srinivasa_multispeciality_dental_hospital.php">
         <button class="read_more__slider">Contact Us</button>
       </a>
     </div>
-
-
 
     <section class="service_section">
       <div class="container">
@@ -29,14 +25,19 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Dental Braces Treatment</p>
+            <p class="root_treatment"> Full Mouth Rehabilitation Treatment</p>
             <p>
-              Dental braces are orthodontic devices used to correct misaligned teeth and jaws, improving oral health and aesthetics. They apply continuous pressure to gradually shift teeth into their ideal positions over time. Braces come in various types, including:
+              Full mouth restoration is a comprehensive dental treatment designed to rebuild and restore the function, aesthetics, and health of your entire mouth. It is ideal for individuals with multiple dental issues, including missing, damaged, worn-out, or misaligned teeth.
+
+
             </p>
-            <P><strong>. Metal Braces:</strong> Traditional braces with metal brackets and wires.</P>
-            <P><strong>. Ceramic Braces: </strong> Tooth-colored brackets for a more discreet look.</P>
-            <P><strong>. Lingual Braces:</strong> Placed behind the teeth, making them nearly invisible</P>
-            <P><strong>. Clear Aligners:</strong> Removable, transparent trays that straighten teeth without wires.</P>
+            <p>
+              The process involves a combination of restorative and cosmetic procedures such as dental implants, crowns, bridges, veneers, and orthodontics. Each treatment plan is customized to improve bite alignment, chewing efficiency, and overall smile appearance.
+
+            </p>
+            <p>
+              A full mouth restoration not only enhances your smile but also improves oral health, boosts confidence, and enhances your quality of life. Ready for a transformation? Schedule a consultation today!
+            </p>
 
 
 
@@ -47,30 +48,45 @@
 
     <section class="section_color">
       <div class="container">
-        <h4 class="root_step text-center mb-5">Achieve a Perfect Smile with Dental Braces</h4>
+        <h4 class="root_step text-center mb-5">
+          Rebuild, Restore, and Renew Your Smile</h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
-              <img src="./assets/img/services/dentalbraces/jaws.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/full-teeth/1.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-                The orthodontist conducts a thorough examination of your teeth, jaws, and bite using X-rays, photographs, and dental impressions. Based on the evaluation, a personalized treatment plan is created. </p>
+                Your dentist performs a detailed examination, including X-rays, scans, and impressions, to assess your oral health. A customized treatment plan is created to address specific issues such as missing, damaged, or misaligned teeth.
+
+              </p>
+
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/dentalbraces/dentalbraces.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/full-teeth/3.png" alt="" class="img-fluid">
+
+              <!-- <img src="./assets/img/services/full-teeth/2.png" alt="" class="img-fluid"> -->
               <h4 class="canal_step">Step2</h4>
               <p>
-                The braces are fitted onto your teeth, and adjustments are made periodically to ensure gradual movement of the teeth into their correct positions. For clear aligners, a series of trays are provided to wear in sequence. </p>
+                Based on the treatment plan, procedures like dental implants, crowns, bridges, veneers, or orthodontics are performed in phases to restore function, alignment, and aesthetics.
+
+              </p>
+
+
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/dentalbraces/retending.png" alt="" class="img-fluid">
+              <!-- <img src="./assets/img/services/full-teeth/3.png" alt="" class="img-fluid"> -->
+              <img src="./assets/img/services/full-teeth/2.png" alt="" class="img-fluid">
+
               <h4 class="canal_step">Step3</h4>
               <p>
-                Once the desired alignment is achieved, the braces are removed. A retainer is provided to maintain the new position of your teeth and prevent shifting </p>
+                Once all procedures are completed, the dentist makes final adjustments for a perfect fit, comfort, and a natural look. The result is a fully restored, functional, and confident smile!
+
+              </p>
+
             </div>
           </div>
         </div>
@@ -80,12 +96,26 @@
 
 
 
+    <script>
+      function toggleReadMore() {
+        var showThisDiv = document.querySelector('.showthisdiv');
+        var readMoreText = document.querySelector('.get_in_touch');
+
+        if (showThisDiv.style.display === "none") {
+          showThisDiv.style.display = "block";
+          readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+        } else {
+          showThisDiv.style.display = "none";
+          readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+        }
+      }
+    </script>
 
     <section>
       <div class="container">
         <div class="section-title text-center">
 
-          <h2 class="apporach">Watch the Journey of a Perfect Smile </h2>
+          <h2 class="apporach"> Full Mouth Restoration </h2>
 
 
           <p class="svg_apporach_service"> <svg xmlns="http://www.w3.org/2000/svg" width="266" height="10"
@@ -95,8 +125,7 @@
                 fill="#25B4F8" />
             </svg>
           </p>
-          <h2 class="apporach">with Our Dental Braces Treatment </h2>
-
+          <h2 class="apporach"> Revitalize Your Smile and Restore Confidence</h2>
 
 
 
@@ -111,7 +140,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/mvQOOhK_aLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -126,14 +155,14 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/mvQOOhK_aLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
                 <!-- <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/0zKTSrA6Bg0?si=gyJMbDo4Mx7X3P7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div> -->
@@ -148,21 +177,21 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/mvQOOhK_aLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
                 <!-- <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/0zKTSrA6Bg0?si=gyJMbDo4Mx7X3P7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
                 <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/-asbtKCvyh0?si=HB3W_Z5W3BOlSjnL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div> -->
@@ -178,25 +207,25 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/rBygYmSqetQ?si=Hj_M9Kegksy3WGdz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/mvQOOhK_aLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <!-- <div class="tile ">
+                <!--    <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/0zKTSrA6Bg0?si=gyJMbDo4Mx7X3P7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/lUgGU6rrzw4?si=TMkcX5Hm_53Ap7K2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
                 <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/-asbtKCvyh0?si=HB3W_Z5W3BOlSjnL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/3k6l_L5BZh8?si=KOt9r7MmPgK_fNUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <div class="tile  ">
+                  <div class="tile  ">
                   <div class="tile__media">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/KyI4GyczhTo?si=F0v0n60FOJLo5hKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -227,25 +256,6 @@
 
 
 
-
-
-
-
-
-    <script>
-      function toggleReadMore() {
-        var showThisDiv = document.querySelector('.showthisdiv');
-        var readMoreText = document.querySelector('.get_in_touch');
-
-        if (showThisDiv.style.display === "none") {
-          showThisDiv.style.display = "block";
-          readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-          showThisDiv.style.display = "none";
-          readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-        }
-      }
-    </script>
 
   </main>
   <?php include('./footer.php'); ?>

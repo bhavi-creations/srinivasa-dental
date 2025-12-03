@@ -558,12 +558,12 @@
 
                     <div class="d-flex flex-content justify-content-between">
                         <div class="    ">
-                            <a href="about.php">
+                            <a href="about_srinivasa_multispeciality_dental_hospital.php">
                                 <button class="read_more_btn">Read More </button>
                             </a>
                         </div>
                         <div class="   ">
-                            <a href="appointment.php">
+                            <a href="appointment_srinivasa_dental_hospital.php">
                                 <button class="app_more_btn">Make an Appointment </button>
                             </a>
                         </div>
@@ -621,7 +621,7 @@
                     <p class="poetsen_font mt-4">Srinivasa Dental Clinic provides treatments such as dental crowns, dental bridges , and dentures .</p>
 
                     <div class="    ">
-                        <a href="services.php">
+                        <a href="services_srinivasa_multispeciality_dental_hospital.php">
                             <button class="read_more_btn mt-4 mb-2">Read More </button>
                         </a>
                     </div>
@@ -841,7 +841,7 @@
                     <h1 class="service_test_text">The Honest Review
                         From<br> Our Client</h1>
                     <p class="service_test_text_para">"I had an exceptional experience at Srinivasa Dental. The staff were incredibly attentive and made me feel comfortable throughout my treatment. I highly recommend this clinic for its professionalism and compassionate care."</p>
-                    <a href="testimonials.php" style="text-decoration: none;"> <button class="reviews_btn mb-5"> See All Review</button></a>
+                    <a href="testimonials_srinivasa_multispeciality_dental_hospital.php" style="text-decoration: none;"> <button class="reviews_btn mb-5"> See All Review</button></a>
                 </div>
 
                 <div class="col-lg-6">
@@ -997,7 +997,7 @@
                     echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
 
                     // Link to full blog post
-                    echo "<a href='fullblog.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
+                    echo "<a href='service_detsils.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
 
                     echo "</div>"; // End card body
                     echo "</div>"; // End card
@@ -1082,7 +1082,7 @@
                         }
                         echo "<h5 class='custom_card_title my-3'>" . htmlspecialchars($title) . "</h5>";
                         echo "<p class='custom_card_text'>" . substr($main_content, 0, 90) . "...</p>";
-                        echo "<a href='fullblog.php?id={$blog_id}' class='custom_btn custom_btn_primary'>Read more</a>";
+                        echo "<a href='service_detsils.php?id={$blog_id}' class='custom_btn custom_btn_primary'>Read more</a>";
                         echo "</div>";
                         echo "</div>";
                         echo "</div>";
@@ -1097,7 +1097,7 @@
         </div>
 
         <div class="custom_view_more text-center mt-4">
-            <a href="blogs.php" class="custom_btn custom_btn_primary">View More</a>
+            <a href="blogs_srinivasa_multispeciality_dental_hospital.php" class="custom_btn custom_btn_primary">View More</a>
         </div>
     </section>
 
@@ -1115,7 +1115,7 @@
                     <p class="text_mam">Scheduling an appointment at Srinivasa Dental is easy and convenient. Simply call us at +91-9290019948 or use our online booking system to choose a time that works for you.
                     </p>
                     <div class=" btn_div   ">
-                        <a href="appointment.php">
+                        <a href="appointment_srinivasa_dental_hospital.php">
                             <button class="read_more_btn">Book an Appointment </button>
                         </a>
                     </div>

@@ -1,5 +1,5 @@
  
-  <?php include 'navbar.php'; ?>
+<?php include 'navbar.php'; ?>
 
 
 
@@ -7,17 +7,14 @@
   <main id="main">
 
 
+  <img src="assets/img/services/Teethscaling/11111111111111.png" alt="" class="img-fluid">
 
-  
-
-    <img src="assets/img/services/dental-implents/dentalimplents.png" alt="" class="img-fluid">
-
-    <div class="container service_img_cad_text">
-      <p class=" service_slider_name">Dental implants</p>
-      <a href="contact.php">
-        <button class="read_more__slider">Contact Us</button>
-      </a>
-    </div>
+<div class="container service_img_cad_text">
+  <p class=" service_slider_name">Teeth Scaling  </p>
+  <a href="contact_srinivasa_multispeciality_dental_hospital.php">
+    <button class="read_more__slider">Contact Us</button>
+  </a>
+</div>
 
 
 
@@ -27,12 +24,18 @@
 
           <div class="service_contain_text">
 
-            <p class="root_treatment"> Dental implants Treatment</p>
+            <p class="root_treatment"> Teeth Scaling Treatment</p>
             <p>
-              Dental implants are a modern and effective way to replace missing teeth, offering a permanent and natural-looking solution. An implant consists of a titanium post surgically placed into the jawbone, acting as an artificial tooth root. Once healed, a custom-made crown is attached to the implant, restoring the appearance and function of your natural teeth. </p>
-            <p>
-              Unlike traditional dentures or bridges, dental implants are durable, stable, and designed to last a lifetime with proper care. They prevent bone loss, maintain facial structure, and provide a confident, comfortable smile. Whether you're missing one tooth or several, dental implants are the gold standard for restoring oral health and aesthetics.
+              Teeth scaling is a professional dental cleaning procedure that removes plaque, tartar, and stains from the surfaces of your teeth and below the gumline. Over time, these deposits can build up despite regular brushing and flossing, leading to gum disease, bad breath, and tooth decay.
+
             </p>
+            <p>
+              The process involves using specialized tools to gently clean hard-to-reach areas, preventing bacterial buildup and promoting healthier gums. Teeth scaling not only enhances your oral hygiene but also leaves your teeth feeling smoother and looking brighter.
+
+
+            </p>
+
+
 
           </div>
         </div>
@@ -41,33 +44,34 @@
 
     <section class="section_color">
       <div class="container">
-        <h4 class="root_step text-center mb-5">Advanced Dental Implants for a Healthy and Beautiful Smile
-        </h4>
+        <h4 class="root_step text-center mb-5">
+          Deep Clean for a Healthier, Brighter Smile</h4>
         <div class="row my-3">
           <div class="col-12 col-md-4  card-wrapper ">
             <div class="card">
-              <img src="./assets/img/services/dental-implents/placement.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/Teethscaling/examination.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step1</h4>
               <p>
-                The first step involves surgically placing a titanium implant into the jawbone. This acts as an artificial tooth root and provides a stable foundation for the replacement tooth. The area is numbed to ensure comfort during the procedure.
+                Your dentist or hygienist will examine your teeth and gums to assess the buildup of plaque and tartar and identify areas requiring cleaning.
 
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/dental-implents/osseointegration.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/Teethscaling/scaling.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step2</h4>
               <p>
-                Over the next few months, the implant fuses with the jawbone in a natural process called osseointegration. This creates a strong and durable bond, ensuring long-term stability.
+                Specialized tools are used to remove plaque and hardened tartar from the surface of your teeth and below the gumline. This step helps prevent gum disease and improves oral hygiene.
+
 
             </div>
           </div>
           <div class="col-12 col-md-4  card-wrapper">
             <div class="card">
-              <img src="./assets/img/services/dental-implents/crown.png" alt="" class="img-fluid">
+              <img src="./assets/img/services/Teethscaling/polishing.png" alt="" class="img-fluid">
               <h4 class="canal_step">Step3</h4>
               <p>
-                Once healing is complete, a custom-made dental crown is securely attached to the implant. This crown is designed to match the color, shape, and size of your natural teeth, restoring functionality and appearance.
+                After scaling, your teeth are polished to remove surface stains, leaving them smooth, clean, and bright, while also reducing future plaque buildup.
 
             </div>
           </div>
@@ -76,20 +80,26 @@
     </section>
 
 
+
+
+
+
+
+
+
     <!-- <section class="sectionForm">
       <div class="container">
         <div class="row servSect">
-          <div class="col-md-7 dr_content_padding   ">
-            <h5 class="poetsen_font11">
-              Dental implants are artificial tooth roots placed in the jawbone to support and anchor replacement teeth or bridges.</h2>
-              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Implants Treatment in
+          <div class="col-md-7 dr_content_padding  ">
+            <h5 class="poetsen_font11">Teeth scaling is a dental procedure that removes plaque and tartar buildup from the tooth surfaces and below the gumline to maintain oral health.</h2>
+              <h2 class="dr_welcome_text1 mt-4 mb-4">Best in Class Dental Teeth Scaling Treatment in
                 kakinada</h2>
               <p class="poetsen_font1">
-                Dental implants are a highly effective solution for replacing missing teeth, offering a stable and natural-looking alternative to traditional dentures or bridges. The procedure involves surgically placing a titanium post into the jawbone, which serves as a replacement root for the new tooth. Over time, the implant integrates with the bone through a process called osseointegration, providing a strong foundation for the artificial tooth. Implants offer benefits such as improved chewing ability, comfort, and preservation of jawbone structure. With proper care and regular dental visits, dental implants can last for many years, making them a durable and reliable option for restoring a complete smile.
+                Teeth scaling is a preventive dental procedure focused on removing plaque, tartar, and bacteria from the surfaces of the teeth and beneath the gumline. This process is essential for preventing gum disease, as tartar buildup can lead to inflammation and infection in the gums. During the procedure, a dental professional uses specialized tools, such as ultrasonic scalers or manual instruments, to thoroughly clean the teeth. Scaling is often followed by root planing, which smooths the tooth roots to help the gums reattach and heal properly. Regular scaling, typically recommended every six months, plays a crucial role in maintaining both oral health and a bright, clean smile.
 
               </p>
-              <div class="showthisdiv " style="display:none ">
-                <p class="poetsen_font1"> Dental implants not only enhance the function and appearance of your smile but also contribute to overall oral health by preventing bone loss that often occurs with missing teeth. They offer a permanent solution, unlike removable dentures, and can support single crowns, bridges, or even full dentures, making them versatile for various needs. The implant process typically involves multiple stages, including the initial placement of the implant, a healing period, and the attachment of the final restoration. Although the procedure is considered safe, it requires a thorough evaluation to ensure the patient has adequate bone density and overall health. Post-implant care involves regular dental check-ups and good oral hygiene to ensure the longevity and success of the implants.</p>
+              <div class="showthisdiv  " style="display:none ">
+                <p class="poetsen_font1"> Teeth scaling not only helps prevent gum disease but also improves overall oral hygiene by reducing bad breath caused by plaque and tartar buildup. The procedure is particularly important for individuals with periodontal disease, as it helps manage the condition and prevent it from progressing. For those with sensitive teeth or gums, a local anesthetic may be used to minimize discomfort during scaling. Regular scaling also contributes to the prevention of more serious dental issues, such as tooth decay and bone loss, by keeping harmful bacteria at bay. Consistent dental check-ups and scaling can significantly enhance the long-term health of your teeth and gums, leading to a healthier, more confident smile.</p>
               </div>
               <div class="d-flex flex-row justify-content-start">
                 <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
@@ -97,24 +107,24 @@
               </div>
           </div>
 
+
           <div class="col-md-5 order-3  order-md-2 mt-5 text-center">
             <div class="custom-swiper-container">
               <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/services/dental implants sub service page 1.png" class="img-fluid custom-img-padding"
+                  <img src="assets/img/services/Teeth scaling sub service page 1.png" class="img-fluid custom-img-padding"
                     alt="Dental Braces" loading="lazy">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/services/implents.png" class="img-fluid custom-img-padding"
+                  <img src="assets/img/services/Teeth scaling sub service page 2.png" class="img-fluid custom-img-padding"
                     alt="Dental Image 2" loading="lazy">
                 </div>
+
                 <div class="swiper-slide">
-                  <img src="assets/img/services/dental implants sub service page 3.png" class="img-fluid custom-img-padding"
+                  <img src="assets/img/services/Teeth scaling sub service page 3.png" class="img-fluid custom-img-padding"
                     alt="Dental Image 2" loading="lazy">
                 </div>
-
-
               </div>
             
             </div>
@@ -125,8 +135,8 @@
                   loop: true,
                   effect: 'fade',
                   autoplay: {
-                    delay: 2000, // 2 seconds interval
-                    disableOnInteraction: false, // Continue autoplay after user interactions
+                    delay: 2000, 
+                    disableOnInteraction: false, 
                   },
                   pagination: {
                     el: '.swiper-pagination',
@@ -141,6 +151,8 @@
             </script>
 
           </div>
+
+
 
 
         </div>
@@ -163,6 +175,19 @@
       }
     </script>
 
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-12">
+        <h1>We are 1st in Kakinada to introduce GBT ( painless and deep cleaning) equipment to Kakinada which is one of the best equipment in dentistry.</h1>
+      </div>
+      <div class="col-md-4 col-12  ">
+        <img src="assets/img/services/gbt.png" alt=" " class="img-fluid gbt_content" style="width:250px; height: 350px;">
+
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -170,7 +195,7 @@
       <div class="container">
         <div class="section-title text-center">
 
-          <h2 class="apporach">Watch the Transformation </h2>
+          <h2 class="apporach">Discover the Brightness </h2>
 
 
           <p class="svg_apporach_service"> <svg xmlns="http://www.w3.org/2000/svg" width="266" height="10"
@@ -180,7 +205,7 @@
                 fill="#25B4F8" />
             </svg>
           </p>
-          <h2 class="apporach">Dental Implants Treatment in Action </h2>
+          <h2 class="apporach"> Watch Our Teeth Scaling Procedure for a Healthier Smile</h2>
 
 
 
@@ -196,7 +221,7 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh29WN2jeo?si=Vl-HDG8qJp3o81oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/TiGKMJkJNiM?si=pW_CupSI08DbPE9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
@@ -211,17 +236,17 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh29WN2jeo?si=Vl-HDG8qJp3o81oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/TiGKMJkJNiM?si=pW_CupSI08DbPE9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <!-- <div class="tile ">
+                <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/0zKTSrA6Bg0?si=gyJMbDo4Mx7X3P7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/zgpUuMsR9vs?si=e6ZOPoRmo5A9kJw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
-                </div> -->
+                </div>
               </div>
             </div>
           </div>
@@ -233,18 +258,18 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh29WN2jeo?si=Vl-HDG8qJp3o81oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/TiGKMJkJNiM?si=pW_CupSI08DbPE9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <!-- <div class="tile ">
+                <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/0zKTSrA6Bg0?si=gyJMbDo4Mx7X3P7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/zgpUuMsR9vs?si=e6ZOPoRmo5A9kJw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <div class="tile  ">
+                <!-- <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/-asbtKCvyh0?si=HB3W_Z5W3BOlSjnL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -263,18 +288,18 @@
                 <div class="tile">
                   <div class="tile__media">
                     <div class="video-container">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/CGh29WN2jeo?si=Vl-HDG8qJp3o81oe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/TiGKMJkJNiM?si=pW_CupSI08DbPE9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <!-- <div class="tile ">
+                <div class="tile ">
                   <div class="tile__media ">
                     <div class="video-container  ">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/0zKTSrA6Bg0?si=gyJMbDo4Mx7X3P7v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/zgpUuMsR9vs?si=e6ZOPoRmo5A9kJw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
-                <div class="tile  ">
+                <!--   <div class="tile  ">
                   <div class="tile__media ">
                     <div class="video-container">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/-asbtKCvyh0?si=HB3W_Z5W3BOlSjnL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -309,6 +334,15 @@
         </div>
       </div>
     </section>
+
+
+
+
+
+
+
+
+
 
 
 

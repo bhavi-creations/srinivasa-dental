@@ -22,7 +22,7 @@
 
 
           <div class="col-md-6 mt-5">
-            <form action="appointmentform.php" method="post" role="form" class="php-email-form"
+            <form action="appointment_srinivasa_dental_hospital.php" method="post" role="form" class="php-email-form"
               data-aos-delay="100">
               <div class="row">
                 <div class="col-md-6 form-group mt-4 mt-md-0 mb-4">
