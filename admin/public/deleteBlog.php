@@ -29,7 +29,7 @@ if (isset($_GET['id'])) {
         $stmt->close();
         $conn->close();
         // Redirect after successful deletion
-        header("Location: allBlog");
+        header("Location: allBlog.php");
         exit;
     } else {
         $stmt->close();
@@ -39,7 +39,7 @@ if (isset($_GET['id'])) {
 } else {
     // No ID provided, redirect back
     $conn->close();
-    header("Location: allBlog");
+    header("Location: allBlog.php");
     exit;
 }
 ?>

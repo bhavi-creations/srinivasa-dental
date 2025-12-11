@@ -39,7 +39,7 @@
                                 </div>
 
                                 <div class="card-body">
-                                    <form id="addblogform" action="addBlog" method="POST" enctype="multipart/form-data">
+                                    <form id="addblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
 
                                         <!-- ENGLISH SECTION -->
                                         <h4 class="text-primary mt-3">English Content</h4>

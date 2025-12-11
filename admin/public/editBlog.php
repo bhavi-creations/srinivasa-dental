@@ -49,7 +49,7 @@ $conn->close();
                                 <h6 class="m-0 font-weight-bold text-success">EDIT CONTENT</h6>
                             </div>
                             <div class="card-body">
-                                <form id="editblogform" action="addBlog" method="POST" enctype="multipart/form-data">
+                                <form id="editblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
 
                                     <!-- English Title -->
                                     <div class="mb-3">

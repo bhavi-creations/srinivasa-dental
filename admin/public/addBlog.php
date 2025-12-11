@@ -130,7 +130,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Execute SQL
     if ($stmt->execute()) {
-        header("Location: allBlog");
+        header("Location: allBlog.php");
         exit();
     } else {
         die("Error: " . $stmt->error);
