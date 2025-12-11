@@ -166,9 +166,9 @@
 
           <div class="d-flex">
 
-          <a
+            <a
               href=" https://g.co/kgs/MndBkhZ"
-              target="_blank" style="margin-top: -5px ;" >
+              target="_blank" style="margin-top: -5px ;">
               <img
                 src="assets/img/srinivasa//gmb2.png"
                 class="img-fluid  last_gmb_section"
@@ -200,7 +200,7 @@
 
             &nbsp;&nbsp;
 
-            
+
             <a
               href=" https://www.youtube.com/@srinivasadentalkakinada"
               target="_blank">
@@ -367,6 +367,46 @@
     target="_blank">
     <i class="fab fa-whatsapp"></i>
   </a>
+
+
+
+  <div class="share_link">
+    <button id="share-btn" class="btn btn-sm"
+      style="background-color:#e83e8c; color:#fff; border:none; border-radius:5px;">
+      <i class="bi bi-share-fill" style="font-size:18px;"></i>
+    </button>
+
+    <span id="copy-message"
+      style="display:none; margin-left:10px; padding:5px 10px; 
+             background-color:#d4edda; color:#155724; border:1px solid #c3e6cb; 
+             border-radius:5px;">
+      Copied Successfully!
+    </span>
+
+  </div>
+
+  <script>
+    document.getElementById('share-btn').addEventListener('click', function() {
+
+      const pageUrl = window.location.href; // Current page URL
+      const copyMessage = document.getElementById('copy-message');
+
+      navigator.clipboard.writeText(pageUrl)
+        .then(() => {
+          copyMessage.style.display = "inline";
+
+          setTimeout(() => {
+            copyMessage.style.display = "none";
+          }, 1000);
+        })
+        .catch(err => {
+          console.error("Copy failed:", err);
+        });
+    });
+  </script>
+
+
+
 
 
   <div id="preloader"></div>

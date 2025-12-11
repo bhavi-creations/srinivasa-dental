@@ -21,6 +21,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $service = $_POST['service'] ?? '';
     $logo_link = $_POST['logo_link'] ?? '';
 
+    // Telugu fields
+    $telugu_title = $_POST['telugu_title'] ?? '';
+    $telugu_main_content = $_POST['telugu_main_content'] ?? '';
+    $telugu_full_content = $_POST['telugu_full_content'] ?? '';
+
     // Section contents
     $section1_content = $_POST['section1_content'] ?? '';
     $section2_content = $_POST['section2_content'] ?? '';
@@ -41,9 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
 
             $directory = __DIR__ . "/../uploads/$directoryName/";
-            if (!is_dir($directory)) {
-                mkdir($directory, 0777, true);
-            }
+            if (!is_dir($directory)) mkdir($directory, 0777, true);
 
             $fileName = generateUniqueFileName($_FILES[$fileKey]['name']);
             $path = $fileName;
@@ -64,9 +67,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $video_path = '';
     if (!empty($_FILES['video']['name'])) {
         $video_directory = __DIR__ . "/../uploads/videos/";
-        if (!is_dir($video_directory)) {
-            mkdir($video_directory, 0777, true);
-        }
+        if (!is_dir($video_directory)) mkdir($video_directory, 0777, true);
+
         $video_name = generateUniqueFileName($_FILES['video']['name']);
         $video_path = $video_name;
 
@@ -82,19 +84,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Prepare SQL (Insert or Update)
     if ($blog_id > 0) {
-        // Update
+        // UPDATE
         $stmt = $conn->prepare("UPDATE blogs 
-            SET title = ?, main_content = ?, full_content = ?, 
-                title_image = ?, main_image = ?, video = ?, 
-                service = ?, logo = ?, logo_link = ?,
-                section1_content = ?, section1_image = ?,
-                section2_content = ?, section2_image = ?,
-                section3_content = ?, section3_image = ?
-            WHERE id = ?");
+            SET title=?, main_content=?, full_content=?, 
+                telugu_title=?, telugu_main_content=?, telugu_full_content=?,
+                title_image=?, main_image=?, video=?, 
+                service=?, logo=?, logo_link=?,
+                section1_content=?, section1_image=?,
+                section2_content=?, section2_image=?,
+                section3_content=?, section3_image=?
+            WHERE id=?");
 
         $stmt->bind_param(
-            "sssssssssssssssi",
+            "ssssssssssssssssssi",
             $title, $main_content, $full_content,
+            $telugu_title, $telugu_main_content, $telugu_full_content,
             $title_image_path, $main_image_path, $video_path,
             $service, $logo_path, $logo_link,
             $section1_content, $section1_image,
@@ -104,18 +108,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         );
 
     } else {
-        // Insert
+        // INSERT
         $stmt = $conn->prepare("INSERT INTO blogs 
-            (title, main_content, full_content, title_image, main_image, video, 
-             service, logo, logo_link,
+            (title, main_content, full_content, telugu_title, telugu_main_content, telugu_full_content,
+             title_image, main_image, video, service, logo, logo_link,
              section1_content, section1_image,
              section2_content, section2_image,
              section3_content, section3_image, created_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
 
         $stmt->bind_param(
-            "sssssssssssssss",
-            $title, $main_content, $full_content,
+            "ssssssssssssssssss",
+            $title, $main_content, $full_content, $telugu_title, $telugu_main_content, $telugu_full_content,
             $title_image_path, $main_image_path, $video_path,
             $service, $logo_path, $logo_link,
             $section1_content, $section1_image,
@@ -126,13 +130,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Execute SQL
     if ($stmt->execute()) {
-        echo "Blog post published/updated successfully!";
         header("Location: allBlog");
         exit();
     } else {
-        echo "Error: " . $stmt->error;
-        header("Location: newBlog");
-        exit();
+        die("Error: " . $stmt->error);
     }
 
     $stmt->close();

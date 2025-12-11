@@ -997,7 +997,7 @@
                     echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
 
                     // Link to full blog post
-                    echo "<a href='service_detsils.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
+                    echo "<a href='fullblog.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
 
                     echo "</div>"; // End card body
                     echo "</div>"; // End card
@@ -1082,7 +1082,7 @@
                         }
                         echo "<h5 class='custom_card_title my-3'>" . htmlspecialchars($title) . "</h5>";
                         echo "<p class='custom_card_text'>" . substr($main_content, 0, 90) . "...</p>";
-                        echo "<a href='service_detsils.php?id={$blog_id}' class='custom_btn custom_btn_primary'>Read more</a>";
+                        echo "<a href='fullblog.php?id={$blog_id}' class='custom_btn custom_btn_primary'>Read more</a>";
                         echo "</div>";
                         echo "</div>";
                         echo "</div>";

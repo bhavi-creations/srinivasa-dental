@@ -98,6 +98,22 @@
 
 
 
+    <!-- telugu blog  -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsecommets" aria-expanded="true" aria-controls="collapsecommets">
+            <i class="fas fa-fw fa-file-pdf"></i>
+            <span>Telugu blogs</span>
+        </a>
+        <div id="collapsecommets" class="collapse" aria-labelledby="headingcomments" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Telugu blogs</h6>
+                <a class="collapse-item" href="create_telugu_blog"><i class="fas fa-fw fa-upload"></i> add telugu blog</a>
+                <a class="collapse-item" href="list_telugu_blogs"><i class="fas fa-fw fa-list"></i> All telugu blog</a>
+            </div>
+        </div>
+    </li>
+
+
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
 
