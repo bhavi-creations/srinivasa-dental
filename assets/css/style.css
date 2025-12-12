@@ -2268,20 +2268,20 @@ section {
 @media (max-width:992px) {
   
 .share_link{
-  bottom: 170px !important;
+  bottom: 150px !important;
 }
 }
 @media (min-width:992px) and  (max-width:1200px) {
   
   .share_link{
-    bottom: 250px !important;
+    bottom: 150px !important;
   }
   }
 
   @media (min-width:1200px)  {
   
     .share_link{
-      bottom: 240px !important;
+      bottom: 180px !important;
     }
     }
 
@@ -4869,13 +4869,43 @@ img.img-fluid.yimg {
 @media (min-width:1200px) {
 
   .blogs_side {
-    margin-left: 100px !important;
-
+    margin-left: 40px !important;
+    
 
   }
 }
 
 
+.lang-btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
 
+.english-btn {
+  background: #ffc107;
+  color: #000;
+}
 
+.telugu-btn {
+  background: #28a745;
+  color: #fff;
+}
+.telugu-btn:hover{
+background-color:#c7f1ff  !important;
+}
 
+/* Smooth Hover Animation */
+.lang-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  opacity: 0.9;
+}
+
+/* Active Click Animation */
+.lang-btn:active {
+  transform: scale(0.95);
+}

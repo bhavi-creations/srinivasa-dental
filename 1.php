@@ -36,29 +36,52 @@
 </style>
 
 <script>
-function copyPageLink() {
-    const pageURL = window.location.href;
-    navigator.clipboard.writeText(pageURL).then(() => {
-        document.getElementById("copyMessage").style.display = "block";
+    function copyPageLink() {
+        const pageURL = window.location.href;
+        navigator.clipboard.writeText(pageURL).then(() => {
+            document.getElementById("copyMessage").style.display = "block";
 
-        setTimeout(() => {
-            document.getElementById("copyMessage").style.display = "none";
-        }, 2000);
-    });
-}
+            setTimeout(() => {
+                document.getElementById("copyMessage").style.display = "none";
+            }, 2000);
+        });
+    }
 
-function shareWhatsApp() {
-    const url = encodeURIComponent(window.location.href);
-    window.open(`https://wa.me/?text=${url}`, "_blank");
-}
+    function shareWhatsApp() {
+        const url = encodeURIComponent(window.location.href);
+        window.open(`https://wa.me/?text=${url}`, "_blank");
+    }
 
-function shareFacebook() {
-    const url = encodeURIComponent(window.location.href);
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, "_blank");
-}
+    function shareFacebook() {
+        const url = encodeURIComponent(window.location.href);
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, "_blank");
+    }
 
-function shareTwitter() {
-    const url = encodeURIComponent(window.location.href);
-    window.open(`https://twitter.com/intent/tweet?url=${url}`, "_blank");
-}
+    function shareTwitter() {
+        const url = encodeURIComponent(window.location.href);
+        window.open(`https://twitter.com/intent/tweet?url=${url}`, "_blank");
+    }
 </script>
+
+
+
+
+
+<!-- imgages  -->
+
+<div class="d-none d-lg-block">
+
+    <?php
+    if (!empty($video)) {
+        $video_path = "./admin/uploads/videos/{$video}";
+        echo "<video class='main-video' controls
+            style='width:700px; height:425px; object-fit:contain; display:block; margin:0 auto;'>
+            <source src='{$video_path}' type='video/mp4'>
+            Your browser does not support the video tag.
+          </video>";
+    } elseif (!empty($main_image)) {
+        $main_image_path = "./admin/uploads/photos/{$main_image}";
+        echo "<img class='main-image img-fluid blog_main_img' 
+              src='{$main_image_path}' alt='Main Image'>";
+    }
+    ?>

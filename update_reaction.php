@@ -1,48 +1,73 @@
 <?php
-session_start();
-include 'db.connection/db_connection.php'; // Your DB connection
+// update_reaction.php
+header('Content-Type: application/json');
 
-header("Content-Type: application/json");
+// Database connection 
+// Assuming db_connection.php sets $conn, $servername, $username, $password, $dbname
+include './db.connection/db_connection.php'; 
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+// Check if connection was successful
+if (!isset($conn) || $conn->connect_error) {
+    echo json_encode(['success' => false, 'message' => 'Database connection failed at PHP script start.']);
+    exit;
+}
 
-    $comment_id = intval($_POST['comment_id']);
-    $type = $_POST['type'];
+// Check if request method is POST
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    // This is the line generating your error. If you see this, the browser sent a GET request.
+    echo json_encode(['success' => false, 'message' => 'Invalid request method. (Must be POST)']);
+    exit;
+}
 
-    if (!in_array($type, ['like', 'dislike'])) {
-        echo json_encode(["success" => false, "message" => "Invalid type"]);
-        exit;
-    }
+// Get and sanitize input
+$blog_id = isset($_POST['blog_id']) ? intval($_POST['blog_id']) : 0;
+$reaction_type = isset($_POST['reaction_type']) ? $_POST['reaction_type'] : '';
 
-    // Initialize session reactions array if not exists
-    if (!isset($_SESSION['reactions'])) {
-        $_SESSION['reactions'] = [];
-    }
+// Data Validation
+if ($blog_id <= 0 || !in_array($reaction_type, ['like', 'dislike'])) {
+    echo json_encode(['success' => false, 'message' => 'Invalid blog ID or reaction type provided.']);
+    exit;
+}
 
-    // Prevent multiple clicks
-    if (isset($_SESSION['reactions'][$comment_id])) {
-        echo json_encode(["success" => false, "message" => "You already reacted"]);
-        exit;
-    }
+// Database Update
+$column_to_update = ($reaction_type === 'like') ? 'likes' : 'dislikes';
 
-    // Update DB counts
-    if ($type === 'like') {
-        $conn->query("UPDATE blog_comments SET likes = likes + 1 WHERE id=$comment_id");
-    } else {
-        $conn->query("UPDATE blog_comments SET dislikes = dislikes + 1 WHERE id=$comment_id");
-    }
+// Increment the corresponding column
+$update_sql = "UPDATE blogs SET $column_to_update = $column_to_update + 1 WHERE id = ?";
+$stmt = $conn->prepare($update_sql);
 
-    // Store reaction in session
-    $_SESSION['reactions'][$comment_id] = $type;
+if ($stmt === false) {
+    echo json_encode(['success' => false, 'message' => 'SQL Prepare failed: ' . $conn->error]);
+    exit;
+}
 
-    // Fetch updated counts
-    $res = $conn->query("SELECT likes, dislikes FROM blog_comments WHERE id=$comment_id");
-    $row = $res->fetch_assoc();
+$stmt->bind_param("i", $blog_id);
 
+if ($stmt->execute()) {
+    $stmt->close();
+    
+    // Fetch New Counts
+    $stmt = $conn->prepare("SELECT likes, dislikes FROM blogs WHERE id = ?");
+    $stmt->bind_param("i", $blog_id);
+    $stmt->execute();
+    $stmt->bind_result($new_likes, $new_dislikes);
+    $stmt->fetch();
+    $stmt->close();
+
+    // Send successful response
     echo json_encode([
-        "success" => true,
-        "likes" => (int)$row['likes'],
-        "dislikes" => (int)$row['dislikes']
+        'success' => true,
+        'likes' => $new_likes,
+        'dislikes' => $new_dislikes,
+        'message' => 'Count updated successfully.'
+    ]);
+} else {
+    // Send error response if execution failed
+    echo json_encode([
+        'success' => false,
+        'message' => 'Database execution failed: ' . $stmt->error
     ]);
 }
+
+$conn->close();
 ?>
