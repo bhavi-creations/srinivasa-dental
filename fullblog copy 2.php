@@ -51,6 +51,24 @@ $count_stmt->close();
 $conn->close();
 ?>
 
+
+
+<!-- english to telugu auto translate -->
+
+
+<!-- <script type="text/javascript">
+ function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    {pageLanguage: 'en', includedLanguages: 'te,en'},
+    'google_translate_element'
+  );
+}
+</script>
+
+ <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+
+ <!-- end  english to telugu auto translate -->
+
 <?php include 'navbar.php'; ?>
 
 <main>

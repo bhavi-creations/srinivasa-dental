@@ -75,11 +75,45 @@ $conn->close();
                     class="img-fluid "
                     style="">
             <?php else: ?>
-                <p>No Image Available</p>
+                <!-- <p>No Image Available</p> -->
             <?php endif; ?>
         </div>
 
+        <!-- Video / Image -->
+        <div class="d-block d-lg-none"><?php
+                                        if (!empty($video)) {
+                                            $video_path = "./admin/uploads/videos/{$video}";
+                                            echo "<video class='main-video' controls
+            style='max-width:100%; height:auto; object-fit:contain; display:block; margin:0 auto;'>
+            <source src='{$video_path}' type='video/mp4'>
+            Your browser does not support the video tag.
+          </video>";
+                                        } elseif (!empty($main_image)) {
+                                            $main_image_path = "./admin/uploads/photos/{$main_image}";
+                                            echo "<img class='main-image img-fluid blog_main_img' 
+              src='{$main_image_path}' alt='Main Image'>";
+                                        }
+                                        ?>
+        </div>
 
+
+        <div class="d-none d-lg-block">
+
+            <?php
+            if (!empty($video)) {
+                $video_path = "./admin/uploads/videos/{$video}";
+                echo "<video class='main-video' controls
+            style='width:700px; height:425px; object-fit:contain; display:block; margin:0 auto;'>
+            <source src='{$video_path}' type='video/mp4'>
+            Your browser does not support the video tag.
+          </video>";
+            } elseif (!empty($main_image)) {
+                $main_image_path = "./admin/uploads/photos/{$main_image}";
+                echo "<img class='main-image img-fluid blog_main_img' 
+              src='{$main_image_path}' alt='Main Image'>";
+            }
+            ?>
+        </div>
 
         <!-- Title -->
         <h4 class="blog-title text-center" style="color:#283779; font-weight:800;">

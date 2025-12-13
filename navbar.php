@@ -206,6 +206,8 @@
   // }
   // </script> 
 
+  
+
   ?>
   <script type="application/ld+json">
     <?= json_encode($schema_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES); ?>
