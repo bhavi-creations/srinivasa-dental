@@ -60,7 +60,7 @@
                                                         Me</label>
                                                 </div>
                                             </div>
-                                            <a href="index">
+                                            <a href="index.php">
                                                 <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
                                             </a>
 
@@ -78,7 +78,7 @@
                                         <hr>
 
                                         <div class="text-center">
-                                            <a class="small" href="register">Create an Account!</a>
+                                            <a class="small" href="register.php">Create an Account!</a>
                                         </div>
                                     </div>
                                 </div>

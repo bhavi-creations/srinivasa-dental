@@ -16,11 +16,11 @@ if (isset($_GET['id'])) {
     // Execute the statement
     if ($stmt->execute()) {
         // ✅ Redirect back to comments page with success flag
-        header("Location:blog_commets?deleted=1");
+        header("Location:blog_commets.php?deleted=1");
         exit;
     } else {
         // ✅ Redirect with error message
-        header("Location:blog_commets?error=" . urlencode($stmt->error));
+        header("Location:blog_commets.php?error=" . urlencode($stmt->error));
         exit;
     }
     
@@ -28,7 +28,7 @@ if (isset($_GET['id'])) {
     $stmt->close();
 } else {
     // No comment ID given
-    header("Location:blog_commets?error=No+ID+Provided");
+    header("Location:blog_commets.php?error=No+ID+Provided");
     exit;
 }
 

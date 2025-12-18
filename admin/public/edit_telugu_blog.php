@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->bind_param("ssssssssi", $title, $service, $main_content, $full_content, $section1_content, $section1_image, $main_image, $video, $id);
 
     if ($stmt->execute()) {
-        echo "<script>alert('Blog updated successfully'); window.location.href='list_telugu_blogs';</script>";
+        echo "<script>alert('Blog updated successfully'); window.location.href='list_telugu_blogs.php';</script>";
     } else {
         echo "Error: " . $stmt->error;
     }

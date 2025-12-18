@@ -370,20 +370,13 @@
 
 
 
-  <div class="share_link">
-    <button id="share-btn" class="btn btn-sm"
-      style="background-color:#e83e8c; color:#fff; border:none; border-radius:5px;">
-      <i class="bi bi-share-fill" style="font-size:18px;"></i>
-    </button>
 
-    <span id="copy-message"
-      style="display:none; margin-left:10px; padding:5px 10px; 
-             background-color:#d4edda; color:#155724; border:1px solid #c3e6cb; 
-             border-radius:5px;">
-      Copied Successfully!
-    </span>
 
-  </div>
+  <a href="tel:+919290019948" style="color: #fff;" class="call_link  "
+    target="_blank">
+    <img src="assets\img\srinivasa\phone-call.png" alt="" style="width:50px;  height:50px;" ;>
+  </a>
+
 
   <script>
     document.getElementById('share-btn').addEventListener('click', function() {

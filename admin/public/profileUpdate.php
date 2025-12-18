@@ -21,9 +21,9 @@ else{
 if ($conn->query($sql) === TRUE) {
     
   echo "Record updated successfully";
-  header('Location: profile');
+  header('Location: profile.php');
 } else {
-    header('Location: profile');
+    header('Location: profile.php');
 }
 
 $conn->close();

@@ -25,7 +25,7 @@ $result = $conn->query("SELECT * FROM telugu_blogs ORDER BY id DESC");
 
             <div class="container-fluid">
                 <h1 class="h3 mb-4 text-gray-800">Telugu Blogs List</h1>
-                <a href="create_telugu_blog" class="btn btn-primary mb-3">Add New Blog</a>
+                <a href="create_telugu_blog.php" class="btn btn-primary mb-3">Add New Blog</a>
 
                 <div class="card shadow mb-4">
                     <div class="card-body">
@@ -66,8 +66,8 @@ $result = $conn->query("SELECT * FROM telugu_blogs ORDER BY id DESC");
                                             <?php endif; ?>
                                         </td>
                                         <td>
-                                            <a href="edit_telugu_blog?id=<?= $row['id'] ?>" class="btn btn-sm btn-success">Edit</a>
-                                            <a href="delete_telugu_blog?id=<?= $row['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')">Delete</a>
+                                            <a href="edit_telugu_blog.php?id=<?= $row['id'] ?>" class="btn btn-sm btn-success">Edit</a>
+                                            <a href="delete_telugu_blog.php?id=<?= $row['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')">Delete</a>
                                         </td>
                                     </tr>
                                     <?php endwhile; ?>

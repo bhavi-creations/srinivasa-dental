@@ -38,7 +38,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
         $conn->close();
 
         // Redirect to index.php
-        header("Location: index");
+        header("Location: index.php");
         exit(); // Ensure no further code is executed after the redirect
     } else {
         // Error occurred while deleting

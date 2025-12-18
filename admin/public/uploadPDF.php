@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 if ($stmt->execute()) {
                     // Redirect to index.php after successful upload
-                    header('Location: index');
+                    header('Location: index.php');
                     exit();
                 } else {
                     echo "Database error: " . $conn->error;

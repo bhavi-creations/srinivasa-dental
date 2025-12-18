@@ -269,7 +269,8 @@ h6 {
       #a5d7f9); */
 
   /* background-color: #97c9d9 !important; */
-  background-color: #c7f1ff !important;
+  /* background-color: #c7f1ff !important; */
+  background-color: #d6eaff !important;
   /* background-color: #cce9f3 !important; */
   position: sticky;
   top: 0;
@@ -4896,7 +4897,8 @@ img.img-fluid.yimg {
   color: #fff;
 }
 
-.telugu-btn:hover ,.english-btn:hover {
+.telugu-btn:hover,
+.english-btn:hover {
   background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%);
   color: #fff;
 }
@@ -4916,4 +4918,99 @@ img.img-fluid.yimg {
 /* Active Click Animation */
 .lang-btn:active {
   transform: scale(0.95);
+}
+
+.call_link {
+
+  position: fixed;
+  bottom: 160px;
+  right: 20px;
+  /* background-color: #25d366; */
+  color: #fff;
+  /* padding: 5px; */
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 35px;
+  text-align: center;
+  z-index: 99999;
+}
+
+
+
+
+
+
+
+
+
+
+/* blogs auto slide  */
+@media (max-width:768px) {
+  .blog-swiper {
+    margin-bottom: 800px !important;
+  }
+
+}
+
+
+
+/* telugu english   */
+
+.lang-btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.english-btn {
+  background: #ffc107;
+  color: #000;
+}
+
+.telugu-btn {
+  background: #28a745 !important;
+  color: #fff !important;
+}
+
+.telugu-btn:hover,
+.english-btn:hover {
+  background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%) !important;
+  color: #fff !important;
+}
+
+
+
+
+/* Smooth Hover Animation */
+.lang-btn:hover {
+  transform: scale(1.08);
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); */
+  opacity: 0.9;
+}
+
+/* Active Click Animation */
+.lang-btn:active {
+  transform: scale(0.95);
+}
+
+
+
+
+
+
+.badge_service_name {
+  display: inline-block;
+  background: linear-gradient(135deg, #283779, #4e6cef);
+  /* premium look */
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 10px 22px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }

@@ -56,7 +56,7 @@ $conn->close();
 <!-- english to telugu auto translate -->
 
 
-<!-- <script type="text/javascript">
+<script type="text/javascript">
  function googleTranslateElementInit() {
   new google.translate.TranslateElement(
     {pageLanguage: 'en', includedLanguages: 'te,en'},
@@ -65,7 +65,7 @@ $conn->close();
 }
 </script>
 
- <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+ <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
  <!-- end  english to telugu auto translate -->
 

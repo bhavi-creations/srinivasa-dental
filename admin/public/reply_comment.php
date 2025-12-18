@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if ($stmt->execute()) {
             // Redirect back to comments list
-            header("Location: blog_commets?blog_id=" . $comment['blog_id'] . "&reply_added=1");
+            header("Location: blog_commets.php?blog_id=" . $comment['blog_id'] . "&reply_added=1");
             exit;
         } else {
             echo "Error saving reply: " . $stmt->error;
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="container-fluid">
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
                     <h2 class="h3 mb-0 text-info">Reply for Comment</h2>
-                    <a href="blog_commets?blog_id=<?= $comment['blog_id']; ?>" class="btn btn-sm btn-primary shadow-sm">
+                    <a href="blog_commets.php?blog_id=<?= $comment['blog_id']; ?>" class="btn btn-sm btn-primary shadow-sm">
                         <i class="fas fa-arrow-left fa-sm text-white-50"></i> Back to Comments
                     </a>
                 </div>
@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             </div>
 
                             <button type="submit" class="btn btn-success">Submit Reply</button>
-                            <a href="blog_commets?blog_id=<?= $comment['blog_id']; ?>" class="btn btn-secondary">Cancel</a>
+                            <a href="blog_commets.php?blog_id=<?= $comment['blog_id']; ?>" class="btn btn-secondary">Cancel</a>
                         </form>
                     </div>
                 </div>

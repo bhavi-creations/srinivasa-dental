@@ -28,7 +28,7 @@ if ($id > 0) {
     $conn->query("DELETE FROM telugu_blogs WHERE id=$id");
 
     // Redirect to the list page
-    header('Location: list_telugu_blogs');
+    header('Location: list_telugu_blogs.php');
     exit;
 } else {
     echo "Invalid Blog ID.";

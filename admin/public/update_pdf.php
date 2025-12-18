@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $stmt->bind_param("ssi", $title, $target_file, $pdf_id);
                 if ($stmt->execute()) {
                     // Redirect to index.php after successful update
-                    header("Location: index");
+                    header("Location: index.php");
                     exit();
                 } else {
                     echo "Error updating PDF details: " . $stmt->error;
@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("si", $title, $pdf_id);
         if ($stmt->execute()) {
             // Redirect to index.php after successful update
-            header("Location: index");
+            header("Location: index.php");
             exit();
         } else {
             echo "Error updating PDF details: " . $stmt->error;
