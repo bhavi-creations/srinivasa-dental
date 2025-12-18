@@ -51,57 +51,6 @@
 
 
 
-
-
-
-
-
-
-/* Bootstrap */
-@import url("bootstrap.min.css");
-
-/* Bootstrap Icons (ONLY ONE ICON SET) */
-@import url("bootstrap-icons.css");
-
-/* Swiper */
-@import url("swiper-bundle.min.css");
-
-/* AOS */
-@import url("aos.css");
-
-/* Animate (optional – use only if needed) */
-@import url("animate.min.css");
-
-/* GLightbox (optional) */
-@import url("glightbox.min.css");
-
-/* Your Custom Styles */
-@import url("style.css");
-
-
-
-
-
-/* Disable heavy animations on mobile */
-@media (max-width: 768px) {
-  [data-aos],
-  .animate__animated {
-    animation: none !important;
-    transition: none !important;
-  }
-}
-
-/* Desktop Enhancements */
-@media (min-width: 769px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-
-
-
-
 @media (min-width:1200px) {
 
 

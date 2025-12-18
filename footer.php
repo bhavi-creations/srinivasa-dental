@@ -413,28 +413,6 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
 
-
-
-
-
-<!-- rendering  -->
-
-  <script defer>
-  const isMobile = window.innerWidth <= 768;
-
-  if (!isMobile) {
-    // Desktop only animations
-    const aos = document.createElement('script');
-    aos.src = 'assets/aos/aos.js';
-    aos.defer = true;
-    document.body.appendChild(aos);
-
-    aos.onload = () => AOS.init({ once: true });
-  }
-</script>
-
-<script src="assets/js/bootstrap.bundle.min.js" defer></script>
-<script src="assets/swiper/swiper-bundle.min.js" defer></script>
-<script src="assets/js/main.js" defer></script>
+  
 
   <script src="assets/js/main.js"></script>
