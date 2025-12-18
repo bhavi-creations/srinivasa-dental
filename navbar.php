@@ -237,17 +237,41 @@
 
 
   <!-- rendering speed decrease cheyyadaniki code  -->
+  <!-- ======================
+       Google Fonts (Optimized)
+  ======================= -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <!-- =========================
-       MAIN CSS (MERGED FILE)
-  ========================== -->
-  <link rel="stylesheet" href="assets/css/main.min.css">
+  <!-- Desktop + Mobile SAFE weights -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- ======================
+       Critical CSS (INLINE)
+  ======================= -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+    }
+
+    header,
+    nav {
+      min-height: 70px;
+    }
+  </style>
+
+  <!-- ======================
+       Main CSS (NON BLOCKING)
+  ======================= -->
+  <link rel="preload" href="assets/css/main.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="assets/css/main.min.css">
+  </noscript>
 
 
-  
+
 
 
 </head>

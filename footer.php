@@ -417,20 +417,24 @@
 
 
 
+<!-- rendering  -->
 
+  <script defer>
+  const isMobile = window.innerWidth <= 768;
 
-  <!-- =========================
-     JS FILES (DEFERRED)
-========================== -->
-  <script src="assets/js/bootstrap.bundle.min.js" defer></script>
-  <script src="assets/swiper/swiper-bundle.min.js" defer></script>
-  <script src="assets/aos/aos.js" defer></script>
-  <script src="assets/glightbox/js/glightbox.min.js" defer></script>
-  <script src="assets/js/main.js" defer></script>
+  if (!isMobile) {
+    // Desktop only animations
+    const aos = document.createElement('script');
+    aos.src = 'assets/aos/aos.js';
+    aos.defer = true;
+    document.body.appendChild(aos);
 
-  <script>
-    AOS.init();
-  </script>
+    aos.onload = () => AOS.init({ once: true });
+  }
+</script>
 
+<script src="assets/js/bootstrap.bundle.min.js" defer></script>
+<script src="assets/swiper/swiper-bundle.min.js" defer></script>
+<script src="assets/js/main.js" defer></script>
 
   <script src="assets/js/main.js"></script>
