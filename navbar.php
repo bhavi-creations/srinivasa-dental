@@ -492,10 +492,10 @@
 
   <header id="header1" class="main_images onlypad">
     <div class="container d-flex align-items-center">
-      <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
+      <!-- <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
         <a href="index.php">
-          <!-- <img src="assets/img/srinivasa/image 1.png" class="img-fluid d-lg-none d-xl-block" alt="">
-          <img src="assets/img/srinivasa/image 1.png" class="   d-none d-lg-block d-xl-none" style="width:200px;  height:70px" alt=""> -->
+          <img src="assets/img/srinivasa/image 1.png" class="img-fluid d-lg-none d-xl-block" alt="">
+          <img src="assets/img/srinivasa/image 1.png" class="   d-none d-lg-block d-xl-none" style="width:200px;  height:70px" alt=""> 
 
 
 
@@ -505,6 +505,23 @@
           <img src="assets/img/srinivasa/srinivasa.png" class="   d-none d-lg-block d-xl-none" style="width:200px;  height:70px" alt="">
 
 
+
+        </a>
+      </div>-->
+
+
+      <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
+        <a href="index.php" class="logo-bg">
+
+          <!-- Desktop XL -->
+          <img src="assets/img/srinivasa/srinivasa.png"
+            class="img-fluid d-lg-none d-xl-block"
+            alt="Logo" style="width:250px;  height:90px">
+
+          <!-- Desktop LG -->
+          <img src="assets/img/srinivasa/srinivasa.png"
+            class="d-none d-lg-block d-xl-none"
+            alt="Logo" style="width:200px;  height:70px" alt="">
 
         </a>
       </div>

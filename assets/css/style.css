@@ -254,10 +254,10 @@ h6 {
   /* top: 40px; */
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   /* background: aliceblue; */
-  /* background-image: radial-gradient(circle,
-      #e8f2f9,
-      #dcedf9,
-      #d0e8f9,
+  background-image: radial-gradient(circle,
+  #b7dcf7,
+      #b7dcf7,
+      #b7dcf7,
       #c4e3f9,
       #b7def9,
       #b1dcf9,
@@ -266,11 +266,12 @@ h6 {
       #a5d7f9,
       #a5d7f9,
       #a5d7f9,
-      #a5d7f9); */
+      #a5d7f9);
 
   /* background-color: #97c9d9 !important; */
   /* background-color: #c7f1ff !important; */
-  background-color: #d6eaff !important;
+  /* background-color: #d6eaff !important; */
+  /* background-color: #a5d7f9 !important; */
   /* background-color: #cce9f3 !important; */
   position: sticky;
   top: 0;
@@ -5013,4 +5014,19 @@ img.img-fluid.yimg {
   text-align: center;
   letter-spacing: 0.5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.logo-bg {
+  background-color: #ffffff;   /* white background */
+  padding: 6px 10px;            /* small gap around logo */
+  border-radius: 4px;           /* optional soft corners */
+  display: inline-block;        /* ONLY logo size */
+}
+
+.logo-bg img {
+  display: block;               /* remove extra spacing */
+  width: auto;
+  height: auto;
 }
