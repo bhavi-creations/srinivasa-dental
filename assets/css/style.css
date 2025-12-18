@@ -49,6 +49,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
+
+
+
+
+
+
+
+
+/* Bootstrap */
+@import url("bootstrap.min.css");
+
+/* Bootstrap Icons (ONLY ONE ICON SET) */
+@import url("bootstrap-icons.css");
+
+/* Swiper */
+@import url("swiper-bundle.min.css");
+
+/* AOS */
+@import url("aos.css");
+
+/* Animate (optional – use only if needed) */
+@import url("animate.min.css");
+
+/* GLightbox (optional) */
+@import url("glightbox.min.css");
+
+/* Your Custom Styles */
+@import url("style.css");
+
+
+
+
+
+
+
 @media (min-width:1200px) {
 
 

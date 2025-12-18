@@ -412,4 +412,25 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
+
+
+
+
+
+
+
+  <!-- =========================
+     JS FILES (DEFERRED)
+========================== -->
+  <script src="assets/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/swiper/swiper-bundle.min.js" defer></script>
+  <script src="assets/aos/aos.js" defer></script>
+  <script src="assets/glightbox/js/glightbox.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+
   <script src="assets/js/main.js"></script>

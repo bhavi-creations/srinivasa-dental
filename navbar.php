@@ -206,7 +206,7 @@
   // }
   // </script> 
 
-  
+
 
   ?>
   <script type="application/ld+json">
@@ -233,6 +233,21 @@
       'phone_conversion_number': '9290019948'
     });
   </script>
+
+
+
+  <!-- rendering speed decrease cheyyadaniki code  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- =========================
+       MAIN CSS (MERGED FILE)
+  ========================== -->
+  <link rel="stylesheet" href="assets/css/main.min.css">
+
+
+  
 
 
 </head>
