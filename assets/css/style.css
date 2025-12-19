@@ -4724,6 +4724,7 @@ img.img-fluid.yimg {
   max-width: 500px;
   margin: 20px auto;
   font-family: Arial, sans-serif;
+  color: black !important ;
 }
 
 .accordion-header {
@@ -4759,6 +4760,7 @@ img.img-fluid.yimg {
   transition: max-height 0.4s ease;
   padding: 0 20px;
   background-color: #E7F3FE80;
+  color: grey !important;
 }
 
 .accordion-content.open {
