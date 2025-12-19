@@ -858,7 +858,7 @@
                                     <!-- <p class="card-text  text_of_the_card">"My name is Kamala suffering from tooth pains severely and as suggested by my brother I have gone to the Srinivasa Multi Speciality Dental hospital Kakinada for the treatment. Dr. Kiran Raju garu checked and advised me for the full mouth rehabilitation due to cavities and deterioration..."</p> -->
                                     <p class="card-text  text_of_the_card">""My name is Kamala, and I am suffering from severe tooth pain. As suggested by my brother , I have gone to the Srinivasa Multi-Speciality Dental Hospital in Kakinada for treatment. Dr. Kiran Raju Garu checked and advised me for full mouth rehabilitation due to cavities and deterioration...""</p>
                                     <h6 class="card-title name_of_the_card kamall">Mrs. Kamala Gandi</h6>
-                                                                           
+
                                     <!-- <p class="card-text work_of_the_card"><small
                                                  class="text-muted">Designer</small></p> -->
                                 </div>
@@ -997,7 +997,7 @@
                     echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
 
                     // Link to full blog post
-                    echo "<a href='fullblog.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
+                    echo "<a href='service_detsils.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
 
                     echo "</div>"; // End card body
                     echo "</div>"; // End card
@@ -1082,7 +1082,7 @@
                         }
                         echo "<h5 class='custom_card_title my-3'>" . htmlspecialchars($title) . "</h5>";
                         echo "<p class='custom_card_text'>" . substr($main_content, 0, 90) . "...</p>";
-                        echo "<a href='fullblog.php?id={$blog_id}' class='custom_btn custom_btn_primary'>Read more</a>";
+                        echo "<a href='service_detsils.php?id={$blog_id}' class='custom_btn custom_btn_primary'>Read more</a>";
                         echo "</div>";
                         echo "</div>";
                         echo "</div>";
@@ -1146,15 +1146,22 @@
                         <!-- Accordion 1 -->
                         <div class="faq_section">
                             <div class="accordion-header" onclick="toggleAccordion(this)">
-                                <h2 class="faq_heading_section">What are clear aligners and how do they work?
+                                <h2 class="faq_heading_section">Do I really need dental check-ups if I don’t have pain?
 
                                 </h2>
                                 <h2 class="accordion-icon">+</h2>
                             </div>
                             <div class="accordion-content">
                                 <p>
-                                    Clear aligners are transparent, removable trays designed to gradually straighten your teeth. They are a modern alternative to braces and are nearly invisible when worn .
-                            </div>
+                                    Yes. Many dental problems like cavities, gum disease, and early infections do not cause pain initially. By the time pain starts, the problem is usually advanced and needs more treatment.
+                                    <br>  <br>
+                                    Regular check-ups (once every 6 months) help us detect issues early and keep treatment simple and affordable. At our Kakinada clinic, a routine dental check-up helps prevent future pain and expenses.
+                                    <br>
+                                    <p>
+                                    If you live in or around Kakinada, a simple dental check-up can save you from bigger problems later. <a href="https://srinivasadentalkakinada.com/appointment_srinivasa_dental_hospital">Book an appointment today.</a> </p>
+                                  <br>
+                                 <strong>Consultation charges usually range from ₹200-₹500.</strong>
+                                </div>
                         </div>
                         <!-- Accordion 2 -->
                         <div class="faq_section">
@@ -1183,7 +1190,7 @@
                             </div>
                             <div class="accordion-content">
                                 <p>
-                                    Most clear aligner treatments last between 6 to 18 months, depending on the case complexity  of the case . Regular dental visits ensure proper progress and timely results .
+                                    Most clear aligner treatments last between 6 to 18 months, depending on the case complexity of the case . Regular dental visits ensure proper progress and timely results .
                             </div>
                         </div>
 

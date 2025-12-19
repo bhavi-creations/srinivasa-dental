@@ -521,7 +521,7 @@
 
           <!-- Desktop XL -->
           <img src="assets/img/srinivasa/srinivasa.png"
-            class="img-fluid d-lg-none d-xl-block"
+            class="img-fluid d-block d-lg-none d-xl-block"
             alt="Logo" style="width:250px;  height:90px">
 
           <!-- Desktop LG -->
