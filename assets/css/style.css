@@ -256,7 +256,7 @@ h6 {
   /* top: 40px; */
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   /* background: aliceblue; */
-  background-image: radial-gradient(circle,
+  /* background-image: radial-gradient(circle,
   #b7dcf7,
       #b7dcf7,
       #b7dcf7,
@@ -268,13 +268,22 @@ h6 {
       #a5d7f9,
       #a5d7f9,
       #a5d7f9,
-      #a5d7f9);
+      #a5d7f9); */
 
   /* background-color: #97c9d9 !important; */
   /* background-color: #c7f1ff !important; */
   /* background-color: #d6eaff !important; */
   /* background-color: #a5d7f9 !important; */
   /* background-color: #cce9f3 !important; */
+  /* background: linear-gradient(90deg, #e0f7fa 0% ,  #e0f7fa 100%) !important; */
+  /* background: linear-gradient(90deg, #000a2d8f 0%, #000a2d8a 100%); */
+  /* background: linear-gradient(90deg, #a5b9ffad 0%, #bbcaff8a 100%); */
+  /* background: linear-gradient(90deg, #8aa3fc 0%, #b3bfef 100%); */
+  /* background-color: 
+  #d9e3ff;
+  ; */
+  background-color: #4c79f7;
+  
   position: sticky;
   top: 0;
 }
@@ -397,7 +406,8 @@ h6 {
     gap: 10px;
     border-radius: 6px;
     opacity: 0px;
-    background-color: #007be5;
+    background-color: #97c033;
+    /* background-color: #007be5; */
     color: white;
     font-weight: 800;
     margin-left: 10px;
@@ -407,7 +417,8 @@ h6 {
 
 
 .appointment-btn:hover {
-  background: #0598d2;
+  /* background: #0598d2; */
+  background: #97c033 !important;
   color: #fff;
 }
 
@@ -549,7 +560,8 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #4c7af7;
+  /* background: #fff; */
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -607,7 +619,8 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #555555;
+  color: #ffffff;
+  /* color: #555555; */
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -656,7 +669,8 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #4c79f7;
+  /* background-color: #fff; */
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -710,7 +724,8 @@ h6 {
 
 /* General styles for the navigation links */
 .navbar ul li a {
-  color: #333;
+  /* color: #333; */
+  color: #ffffff;
   /* Default link color */
   padding: 10px 15px;
   text-decoration: none;
@@ -722,7 +737,9 @@ h6 {
 .navbar ul li a.active {
   color: #fff;
   /* Text color when active */
-  background-color: #007bff;
+  /* background-color: #007bff; */
+  background-color: #97c033;
+ 
   /* Background color when active */
   border-radius: 5px;
   /* Optional: rounded corners */
@@ -4049,7 +4066,8 @@ img.img-fluid.yimg {
 
 
 .services_drop_menu {
-  background-color: #ccdcec64 !important;
+  background-color: #ccdcecb9 !important;
+  /* background-color: #ccdcec64 !important; */
   /* Adjust the color as needed */
 
 }
