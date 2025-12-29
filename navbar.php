@@ -1,3 +1,4 @@
+<?php include 'view_count.php' ; ?>
 <!DOCTYPE html>
 <html lang="en">
 
