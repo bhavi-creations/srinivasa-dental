@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4  g-4">
                     <div class="col">
-                        <a href="root_canal_treatment.php" style="text-decoration: none;">
+                        <a href="root_canal_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/one.jpg" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
@@ -29,7 +29,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="dental_braces_treatment.php" style="text-decoration: none;">
+                        <a href="dental_braces_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow h-100" style="border: none;">
                                 <img src="assets/img/services/two.jpg" class="card-img-top" alt="Dental Braces">
 
@@ -49,7 +49,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="dental_implants_treatment.php" style="text-decoration: none;">
+                        <a href="dental_implants_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/3.jpg" class="card-img-top" alt="...">
 
@@ -66,7 +66,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="bridge_treatment_treatment.php" style="text-decoration: none;">
+                        <a href="dentalcrown_bridge_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/4.jpg" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">
@@ -83,7 +83,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="teeth_filling_treatment.php" style="text-decoration: none;">
+                        <a href="teeth_filling_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/5.jpg" class="card-img-top" alt="...">
 
@@ -100,7 +100,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="dentures_treatment.php" style="text-decoration: none;">
+                        <a href="dentaldentures_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/6.jpg" class="card-img-top" alt="...">
 
@@ -117,7 +117,7 @@
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="teeth_scaling_treatment.php" style="text-decoration: none;">
+                        <a href="teeth_scaling_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/7.jpg" class="card-img-top" alt="...">
 
@@ -134,7 +134,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="tooth_extraction_treatment.php" style="text-decoration: none;">
+                        <a href="tooth_extraction_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/8.jpg" class="card-img-top" alt="...">
 
@@ -152,7 +152,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="clear_aligners_treatment.php" style="text-decoration: none;">
+                        <a href="invisalignaligners_clearaligners_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/clearaligners.png" class="card-img-top" alt="...">
 
@@ -171,7 +171,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="teeth_whitning_treatment.php" style="text-decoration: none;">
+                        <a href="teeth_whitning_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/10.jpg" class="card-img-top" alt="...">
 
@@ -189,7 +189,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="smile_makeover_treatment.php" style="text-decoration: none;">
+                        <a href="smile_makeover_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/11.jpg" class="card-img-top" alt="...">
 
@@ -206,7 +206,7 @@
                         </a>
                     </div>
                     <div class="col">
-                        <a href="fullmouthrestrotion_treatment.php" style="text-decoration: none;">
+                        <a href="fullmouthrestrotion_treatment_in_kakinada.php" style="text-decoration: none;">
                             <div class="card shadow  h-100" style="border: none;">
                                 <img src="assets/img/services/12.jpg" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column">

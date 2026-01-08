@@ -172,12 +172,23 @@
 
 
                 <div class="col-md-6 order-2 order-md-1" data-aos="fade-right">
-                    <iframe class="video-frame   img_padding"
+                    <!-- <iframe class="video-frame   img_padding"
                         src="https://www.youtube.com/embed/UEm0ustQR1I?start=7&autoplay=1&mute=1&loop=10"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  picture-in-picture"
+                        allowfullscreen>
+                    </iframe> -->
+
+
+
+
+                    <iframe class="video-frame img_padding"
+                        src="https://www.youtube.com/embed/UEm0ustQR1I?start=7&autoplay=1&mute=1&loop=1&playlist=UEm0ustQR1I"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen>
                     </iframe>
+
                 </div>
 
 
@@ -997,7 +1008,7 @@
                     echo "<p class='card-text'>" . substr($main_content, 0, 90) . "...</p>";
 
                     // Link to full blog post
-                    echo "<a href='service_detsils.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
+                    echo "<a href='fullblog.php?id={$blog_id}' class='btn btn-primary'>Read more</a>";
 
                     echo "</div>"; // End card body
                     echo "</div>"; // End card
@@ -1082,7 +1093,7 @@
                         }
                         echo "<h5 class='custom_card_title my-3'>" . htmlspecialchars($title) . "</h5>";
                         echo "<p class='custom_card_text'>" . substr($main_content, 0, 90) . "...</p>";
-                        echo "<a href='service_detsils.php?id={$blog_id}' class='custom_btn custom_btn_primary'>Read more</a>";
+                        echo "<a href='fullblog.php?id={$blog_id}' class='custom_btn custom_btn_primary'>Read more</a>";
                         echo "</div>";
                         echo "</div>";
                         echo "</div>";

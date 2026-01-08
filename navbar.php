@@ -1,4 +1,3 @@
-<?php include 'view_count.php' ; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -334,6 +333,9 @@
 
 
 
+  <?php include 'view_count.php'; ?>
+
+
 
 
 
@@ -548,22 +550,22 @@
             <ul class="dropdown-menu services_drop_menu mt-1 service_subservice_secton" aria-labelledby="servicesDropdown" style="width:700px;">
               <div class="row">
                 <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="root_canal_treatment.php">Root Canal</a></li>
-                  <li><a class="dropdown-item services_drop" href="dental_braces_treatment.php">Dental Braces</a></li>
-                  <li><a class="dropdown-item services_drop" href="dental_implants_treatment.php">Dental Implants</a></li>
-                  <li><a class="dropdown-item services_drop" href="bridge_treatment_treatment.php">Crown & Bridge</a></li>
+                  <li><a class="dropdown-item services_drop" href="root_canal_treatment_in_kakinada.php">Root Canal</a></li>
+                  <li><a class="dropdown-item services_drop" href="dental_braces_treatment_in_kakinada.php">Dental Braces</a></li>
+                  <li><a class="dropdown-item services_drop" href="dental_implants_treatment_in_kakinada.php">Dental Implants</a></li>
+                  <li><a class="dropdown-item services_drop" href="dentalcrown_bridge_treatment_in_kakinada.php">Crown & Bridge</a></li>
                 </div>
                 <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="teeth_filling_treatment.php">Teeth Filling</a></li>
-                  <li><a class="dropdown-item services_drop" href="dentures_treatment.php">Dentures</a></li>
-                  <li><a class="dropdown-item services_drop" href="teeth_scaling_treatment.php">Teeth Scaling</a></li>
-                  <li><a class="dropdown-item services_drop" href="tooth_extraction_treatment.php">Tooth Extraction</a></li>
+                  <li><a class="dropdown-item services_drop" href="teeth_filling_treatment_in_kakinada.php">Teeth Filling</a></li>
+                  <li><a class="dropdown-item services_drop" href="dentaldentures_treatment_in_kakinada.php">Dentures</a></li>
+                  <li><a class="dropdown-item services_drop" href="teeth_scaling_treatment_in_kakinada.php">Teeth Scaling</a></li>
+                  <li><a class="dropdown-item services_drop" href="tooth_extraction_treatment_in_kakinada.php">Tooth Extraction</a></li>
                 </div>
                 <div class="col-md-4">
-                  <li><a class="dropdown-item services_drop" href="clear_aligners_treatment.php"> Clear Aligners</a></li>
-                  <li><a class="dropdown-item services_drop" href="teeth_whitning_treatment.php">Teeth Whitening</a></li>
-                  <li><a class="dropdown-item services_drop" href="smile_makeover_treatment.php">Smile Makeover</a></li>
-                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion_treatment.php">Full Mouth Restoration</a></li>
+                  <li><a class="dropdown-item services_drop" href="invisalignaligners_clearaligners_treatment_in_kakinada.php"> Clear Aligners</a></li>
+                  <li><a class="dropdown-item services_drop" href="teeth_whitning_treatment_in_kakinada.php">Teeth Whitening</a></li>
+                  <li><a class="dropdown-item services_drop" href="smile_makeover_treatment_in_kakinada.php">Smile Makeover</a></li>
+                  <li><a class="dropdown-item services_drop" href="fullmouthrestrotion_treatment_in_kakinada.php">Full Mouth Restoration</a></li>
                 </div>
               </div>
             </ul>

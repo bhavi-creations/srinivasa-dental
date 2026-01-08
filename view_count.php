@@ -24,7 +24,7 @@ $totalCount = $totalRes->fetch_assoc()['total'] ?? 0;
 <html>
 
 <head>
-    <title>Visitor Counter</title>
+    <title>Srinivasa Multispeciality Dental Hospital Kakinada</title>
 </head>
 
 <body>  

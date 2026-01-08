@@ -10,7 +10,7 @@ $cookie_name = "visited_page_" . md5($page);
 if (!isset($_COOKIE[$cookie_name])) {
 
     // Set cookie for 1 year (device-based)
-    setcookie($cookie_name, 'yes', time() + (60 * 60 * 24 * 365), "/");
+    // setcookie($cookie_name, 'yes', time() + (60 * 60 * 24 * 365), "/");
 
     // Check if page exists in DB
     $stmt = $conn->prepare(
