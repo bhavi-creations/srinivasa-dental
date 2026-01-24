@@ -283,7 +283,7 @@ h6 {
   #d9e3ff;
   ; */
   background-color: #4c79f7;
-  
+
   position: sticky;
   top: 0;
 }
@@ -739,7 +739,7 @@ h6 {
   /* Text color when active */
   /* background-color: #007bff; */
   background-color: #97c033;
- 
+
   /* Background color when active */
   border-radius: 5px;
   /* Optional: rounded corners */
@@ -4742,7 +4742,7 @@ img.img-fluid.yimg {
   max-width: 500px;
   margin: 20px auto;
   font-family: Arial, sans-serif;
-  color: black !important ;
+  color: black !important;
 }
 
 .accordion-header {
@@ -4979,7 +4979,7 @@ img.img-fluid.yimg {
 
 /* telugu english   */
 
-.lang-btn {
+/* .lang-btn {
   padding: 8px 18px;
   border: none;
   border-radius: 5px;
@@ -5002,22 +5002,44 @@ img.img-fluid.yimg {
 .english-btn:hover {
   background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%) !important;
   color: #fff !important;
-}
+} */
 
 
 
 
 /* Smooth Hover Animation */
-.lang-btn:hover {
-  transform: scale(1.08);
-  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); */
-  opacity: 0.9;
+.lang-btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-/* Active Click Animation */
-.lang-btn:active {
-  transform: scale(0.95);
+/* Default colors */
+.english-btn {
+  background-color: #ffc107;
+  color: #000;
 }
+
+.telugu-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Hover effect (only for NON-active buttons) */
+.lang-btn:not(.active):hover {
+  background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%);
+  color: #fff;
+}
+
+/* Active (clicked) button */
+.lang-btn.active {
+  background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%) !important;
+  color: #fff !important;
+}
+
 
 
 
@@ -5041,14 +5063,19 @@ img.img-fluid.yimg {
 
 
 .logo-bg {
-  background-color: #ffffff;   /* white background */
-  padding: 6px 10px;            /* small gap around logo */
-  border-radius: 4px;           /* optional soft corners */
-  display: inline-block;        /* ONLY logo size */
+  background-color: #ffffff;
+  /* white background */
+  padding: 6px 10px;
+  /* small gap around logo */
+  border-radius: 4px;
+  /* optional soft corners */
+  display: inline-block;
+  /* ONLY logo size */
 }
 
 .logo-bg img {
-  display: block;               /* remove extra spacing */
+  display: block;
+  /* remove extra spacing */
   width: auto;
   height: auto;
 }
@@ -5091,7 +5118,7 @@ img.img-fluid.yimg {
   border-radius: 8px;
   width: 220px;
   font-size: 13px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.25);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
 }
 
 #visitor-eye:hover .visitor-tooltip {
@@ -5101,11 +5128,11 @@ img.img-fluid.yimg {
 
 
 
-  /* live visters  */
-  .page-views {
-    font-size: 16px;
-    color: #555;
-    margin-top: 10px;
+/* live visters  */
+.page-views {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
 }
 
 
@@ -5149,7 +5176,7 @@ img.img-fluid.yimg {
   color: #000;
   padding: 10px 12px;
   border-radius: 8px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.25);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
   font-size: 13px;
   width: 220px;
 }
@@ -5163,14 +5190,27 @@ img.img-fluid.yimg {
 
 /* Pulse animation */
 #visitor-eye {
-    animation: eyeLook 5s infinite;
+  animation: eyeLook 5s infinite;
 }
 
 @keyframes eyeLook {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-4px); }
-    50% { transform: translateX(4px); }
-    75% { transform: translateX(-4px); }
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-4px);
+  }
+
+  50% {
+    transform: translateX(4px);
+  }
+
+  75% {
+    transform: translateX(-4px);
+  }
 }
 
 
@@ -5183,21 +5223,70 @@ img.img-fluid.yimg {
 @media (max-width: 768px) {
 
   table {
-      table-layout: fixed;
-      width: 100%;
+    table-layout: fixed;
+    width: 100%;
   }
 
   .page-name {
-      max-width: 100%;
-      line-height: 1.4;
+    max-width: 100%;
+    line-height: 1.4;
 
-      /* 🔥 3 rows only */
-      display: -webkit-box;
-      -webkit-line-clamp: 3;      /* EXACT 3 lines */
-      -webkit-box-orient: vertical;
+    /* 🔥 3 rows only */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* EXACT 3 lines */
+    -webkit-box-orient: vertical;
 
-      overflow: hidden;
-      word-break: break-word;
-      overflow-wrap: break-word;
+    overflow: hidden;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
+}
+
+
+
+
+/* appointment form  */
+.appointment-form {
+  max-width: 900px;
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+.appointment-form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+  margin-left: 6px;
+}
+
+.appointment-form .form-control {
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.appointment-form textarea.form-control {
+  height: 100px;
+  resize: none;
+}
+
+.appointment-form .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.15);
+}
+
+.appointment-form button {
+  border-radius: 14px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  border: none;
+}
+
+.appointment-form button:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
 }

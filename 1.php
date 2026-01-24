@@ -1,87 +1,99 @@
-<div class="share-box">
-    <h4>Share this blog</h4>
-    <div class="share-icons">
-        <i class="fa-solid fa-link" onclick="copyPageLink()" title="Copy Link"></i>
-        <i class="fa-brands fa-whatsapp" onclick="shareWhatsApp()" title="Share on WhatsApp"></i>
-        <i class="fa-brands fa-facebook" onclick="shareFacebook()" title="Share on Facebook"></i>
-        <i class="fa-brands fa-twitter" onclick="shareTwitter()" title="Share on Twitter"></i>
+<?php
+include './db.connection/db_connection.php';
+
+// Initial Load కోసం (ఈ PHP పార్ట్ కేవలం డేట్ సెలెక్ట్ చేయనప్పుడు డిఫాల్ట్ కోసం)
+$selected_date = date('Y-m-d');
+$slots = [
+    "10:30 AM - 11:30 AM",
+    "11:30 AM - 12:30 PM",
+    "12:30 PM - 01:30 PM",
+    "01:30 PM - 02:30 PM",
+    "04:00 PM - 05:00 PM",
+    "05:00 PM - 06:00 PM",
+    "06:00 PM - 07:00 PM",
+    "07:00 PM - 08:00 PM",
+    "08:00 PM - 8:30 PM"
+];
+?>
+
+<?php include 'navbar.php'; ?>
+
+<section id="appointment" class="appointment-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="appointment-form">
+                    <h3>Book <span>Appointment</span></h3>
+                    <form id="appointmentForm" method="POST" action="save_appointment.php" class="row">
+                        <div class="mb-3 col-md-6">
+                            <label>Name</label>
+                            <input type="text" name="name" class="form-control" required placeholder="Enter Your Name">
+                        </div>
+                        <div class="mb-3 col-md-6">
+                            <label>Email</label>
+                            <input type="email" name="email" class="form-control" required placeholder="Email">
+                        </div>
+                        <div class="mb-3 col-md-6">
+                            <label>Contact Number</label>
+                            <input type="text" name="phone" class="form-control" required placeholder="Number">
+                        </div>
+
+                        <div class="mb-3 col-md-6">
+                            <label>Select Date</label>
+                            <input type="date" id="appointment_date" name="appointment_date"
+                                min="<?= date('Y-m-d') ?>" class="form-control" required>
+                        </div>
+
+                        <div id="slotContainer" class="col-md-12 mb-3">
+                            <label>Select Time Slot</label>
+                            <select id="time_slot" name="time_slot" class="form-control" required>
+                                <option value="">-- First Select Date --</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3 col-md-12">
+                            <label>Message</label>
+                            <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Book Appointment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="./assets/images/contact_us.png" class="img-fluid contact_image">
+            </div>
+        </div>
     </div>
-
-    <div id="copyMessage" class="copy-message">Link Copied!</div>
-</div>
-
-<style>
-    .share-box {
-        margin-top: 20px;
-    }
-
-    .share-icons i {
-        font-size: 24px;
-        margin-right: 15px;
-        cursor: pointer;
-        color: #444;
-        transition: 0.3s;
-    }
-
-    .share-icons i:hover {
-        color: #007bff;
-    }
-
-    .copy-message {
-        display: none;
-        margin-top: 10px;
-        color: green;
-        font-weight: bold;
-    }
-</style>
+</section>
 
 <script>
-    function copyPageLink() {
-        const pageURL = window.location.href;
-        navigator.clipboard.writeText(pageURL).then(() => {
-            document.getElementById("copyMessage").style.display = "block";
+    document.getElementById('appointment_date').addEventListener('change', function() {
+        const date = this.value;
+        const slotSelect = document.getElementById('time_slot');
+        slotSelect.innerHTML = '<option>Loading...</option>';
 
-            setTimeout(() => {
-                document.getElementById("copyMessage").style.display = "none";
-            }, 2000);
-        });
-    }
+        fetch('get_slots.php?date=' + date)
+            .then(r => r.json())
+            .then(data => {
+                if (data.isHoliday && data.type == 'fullday') {
+                    alert("Holiday: " + data.reason);
+                    slotSelect.innerHTML = '<option>No Slots Available</option>';
+                    return;
+                }
 
-    function shareWhatsApp() {
-        const url = encodeURIComponent(window.location.href);
-        window.open(`https://wa.me/?text=${url}`, "_blank");
-    }
+                if (data.isHoliday) {
+                    alert("Note: " + data.reason);
+                }
 
-    function shareFacebook() {
-        const url = encodeURIComponent(window.location.href);
-        window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, "_blank");
-    }
-
-    function shareTwitter() {
-        const url = encodeURIComponent(window.location.href);
-        window.open(`https://twitter.com/intent/tweet?url=${url}`, "_blank");
-    }
+                let html = '<option value="">--Select Slot--</option>';
+                data.slots.forEach(s => {
+                    let dis = s.available <= 0 ? 'disabled' : '';
+                    html += `<option ${dis} value="${s.time}">${s.time}</option>`;
+                });
+                slotSelect.innerHTML = html;
+            });
+    });
 </script>
 
 
-
-
-
-<!-- imgages  -->
-
-<div class="d-none d-lg-block">
-
-    <?php
-    if (!empty($video)) {
-        $video_path = "./admin/uploads/videos/{$video}";
-        echo "<video class='main-video' controls
-            style='width:700px; height:425px; object-fit:contain; display:block; margin:0 auto;'>
-            <source src='{$video_path}' type='video/mp4'>
-            Your browser does not support the video tag.
-          </video>";
-    } elseif (!empty($main_image)) {
-        $main_image_path = "./admin/uploads/photos/{$main_image}";
-        echo "<img class='main-image img-fluid blog_main_img' 
-              src='{$main_image_path}' alt='Main Image'>";
-    }
-    ?>
+<?php include 'footer.php'; ?>
