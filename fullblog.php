@@ -58,10 +58,45 @@ $count_stmt->close();
 
 $conn->close();
 ?>
+<style>
+    .fullblogs_section {
+        background-color: black;
+    }
+
+    .blog-title,
+    .main-content,
+    .main-content *,
+    .full-content,
+    .full-content * {
+
+        color: #EDC967!important;
+        /* color: #D2AC47!important; */
+        /* color: #F7EF8A !important; */
+        /* color: #f8bf04 !important; */
+        /* color: #C9A227 !important; */
+        /* Gold */
+    }
+
+    .blogs_color {
+        /* color:  #F7EF8A !important; */
+        padding-top: 100px !important;
+    }
+
+    .fullblogs_section {
+        margin-bottom: -50px !important;
+    }
+
+    .fullblogs_section_1 {
+        background-color: black !important;
+          color:  #F7EF8A !important;
+        /* color: #f4c21f !important; */
+        padding-bottom: 20px !important;
+    }
+</style>
 
 <?php include 'navbar.php'; ?>
 
-<main>
+<main class="fullblogs_section">
     <div class="container blog-detailed" style="padding-top: 50px;">
 
         <!-- Language buttons -->
@@ -79,7 +114,7 @@ $conn->close();
                 తెలుగు
             </button>
         </div>
-        
+
 
 
         <?php if (!empty($service)) { ?>
@@ -143,9 +178,9 @@ $conn->close();
 
 
         <!-- Title -->
-        <h4 class="blog-title text-center mt-5" style="color:#283779; font-weight:800;">
+        <h4 class="blog-title text-center mt-5" style="color:#C9A227; font-weight:800;">
             <span id="title-en"><?php echo $title; ?></span>
-            <span id="title-te" style="display:none;"><?php echo $telugu_title; ?></span>
+            <span id="title-te" style="display:none;" style="color:#C9A227;"><?php echo $telugu_title; ?></span>
         </h4>
 
         <!-- Contents -->
@@ -176,12 +211,14 @@ $conn->close();
 
 
 
+</main>
 
 
-    <div class="container">
-        <div class="blogs_side my-5">
+<div class="fullblogs_section_1">
+    <div class="container ">
+        <div class="blogs_side ">
             <div class="side-bar">
-                <h1 class="d-flex justify-content-center my-3">LATEST BLOGS</h1>
+                <h1 class="d-flex justify-content-center my-3 blogs_color">LATEST BLOGS</h1>
                 <div class="swiper blog-swiper">
                     <div class="swiper-wrapper">
                         <?php
@@ -229,8 +266,7 @@ $conn->close();
             </div>
         </div>
     </div>
-</main>
-
+</div>
 <?php include 'footer.php'; ?>
 
 <!-- LANGUAGE SWITCH SCRIPT -->
@@ -340,17 +376,17 @@ $conn->close();
     });
 </script>
 <script>
-  const buttons = document.querySelectorAll('.lang-btn');
+    const buttons = document.querySelectorAll('.lang-btn');
 
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      // remove active from all buttons
-      buttons.forEach(b => b.classList.remove('active'));
+    buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // remove active from all buttons
+            buttons.forEach(b => b.classList.remove('active'));
 
-      // add active only to clicked button
-      btn.classList.add('active');
+            // add active only to clicked button
+            btn.classList.add('active');
+        });
     });
-  });
 </script>
 
 

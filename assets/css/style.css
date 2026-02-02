@@ -115,6 +115,7 @@ body {
   /* font-family: "Open Sans", sans-serif; */
   font-family: "Inter", sans-serif;
   color: #444444;
+  
 }
 
 a {
@@ -4162,7 +4163,7 @@ img.img-fluid.yimg {
 }
 
 .swiper-wrapper {
-  /* No need for display: flex here */
+  margin-bottom: -250px !important;
 }
 
 .swiper-slide {
@@ -4307,7 +4308,8 @@ img.img-fluid.yimg {
 }
 
 .blog-card-text {
-  color: #ffffff !important;
+  color: #000000 !important;
+  /* color: #ffffff !important; */
   font-weight: 700;
   padding: 10px 30px !important;
 }
@@ -4346,7 +4348,8 @@ img.img-fluid.yimg {
 }
 
 .background_sidebar {
-  background-color: #94beeb;
+  background-color: #C9A227;
+  /* background-color: #94beeb; */
 }
 
 .redirect_section {
@@ -4968,12 +4971,12 @@ img.img-fluid.yimg {
 
 
 /* blogs auto slide  */
-@media (max-width:768px) {
+/* @media (max-width:768px) {
   .blog-swiper {
-    margin-bottom: 800px !important;
+    margin-bottom: 800px
   }
 
-}
+} */
 
 
 
@@ -5289,4 +5292,6 @@ img.img-fluid.yimg {
 .appointment-form button:hover {
   opacity: 0.95;
   transform: translateY(-1px);
+ 
 }
+
