@@ -45,14 +45,11 @@ $services_result = $conn->query("SELECT id, service_name FROM services ORDER BY 
                                     <input type="text" class="form-control" name="title" required>
                                 </div>
 
-
                                 <div class="mb-3">
-                                    <!-- <label class="form-label text-primary">Select Service</label> -->
                                     <select id="service" name="service" class="form-control" required>
                                         <option value="">Select a Service</option>
                                         <?php if ($services_result->num_rows > 0): ?>
                                             <?php while ($service = $services_result->fetch_assoc()): ?>
-                                                <!-- Use service_name as value instead of id -->
                                                 <option value="<?= htmlspecialchars($service['service_name']) ?>">
                                                     <?= htmlspecialchars($service['service_name']) ?>
                                                 </option>
@@ -60,7 +57,6 @@ $services_result = $conn->query("SELECT id, service_name FROM services ORDER BY 
                                         <?php endif; ?>
                                     </select>
                                 </div>
-
 
                                 <div class="mb-3">
                                     <label>English Main Content</label>
@@ -95,6 +91,22 @@ $services_result = $conn->query("SELECT id, service_name FROM services ORDER BY 
                                     <input type="hidden" name="telugu_full_content" id="teluguFullData">
                                 </div>
 
+                                <!-- ================= SEO TAGS ================= -->
+                                <h4 class="text-primary mt-5">SEO Tags</h4>
+                                <hr>
+
+                                <div class="mb-3">
+                                    <label>Hashtags (Comma separated)</label>
+                                    <input type="text" class="form-control" name="hashtags"
+                                        placeholder="#dental,#rootcanal,#implants,#smile,#clinic">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label>Key Points (Comma separated)</label>
+                                    <input type="text" class="form-control" name="keypoints"
+                                        placeholder="Painless treatment, Advanced equipment, Expert doctors, Affordable cost">
+                                </div>
+
                                 <!-- ================= IMAGES ================= -->
                                 <h4 class="text-primary mt-5">Images</h4>
                                 <hr>
@@ -119,7 +131,6 @@ $services_result = $conn->query("SELECT id, service_name FROM services ORDER BY 
 
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -151,6 +162,7 @@ $services_result = $conn->query("SELECT id, service_name FROM services ORDER BY 
 </body>
 
 </html>
+
 
 <!-- <select name="service" class="form-control" required>
                                                 <option value="">Select a Service</option>

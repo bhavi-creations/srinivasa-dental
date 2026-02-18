@@ -23,6 +23,7 @@ $stmt = $conn->prepare("
         telugu_main_content,
         telugu_full_content,
         video,
+        
         section1_image
     FROM blogs
     WHERE id = ?
@@ -38,9 +39,20 @@ $stmt->bind_result(
     $telugu_main_content,
     $telugu_full_content,
     $video,
-    $section1_image
+    $section1_image,
+    $hashtags,
+    $keypoints
 );
 $stmt->fetch();
+
+
+
+$hashtags_array = json_decode($hashtags, true) ?? [];
+$keypoints_array = json_decode($keypoints, true) ?? [];
+
+$hashtags_text = implode(", ", $hashtags_array);
+$keypoints_text = implode(", ", $keypoints_array);
+
 $stmt->close();
 
 // ---------------------------------------------
@@ -136,6 +148,28 @@ if ($service_result && $service_result->num_rows > 0) {
                                     <div id="teluguMainEditor" style="height:200px"></div>
                                     <input type="hidden" name="telugu_main_content" id="teluguMainContentData">
                                 </div>
+
+
+                                <!-- HASHTAGS -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Hashtags</label>
+                                    <input type="text" name="hashtags" class="form-control"
+                                        value="<?= htmlspecialchars($hashtags_text) ?>"
+                                        placeholder="#dental,#rootcanal,#implant,#clinic">
+                                </div>
+
+                                <!-- KEY POINTS -->
+                                <div class="mb-3">
+                                    <label class="text-primary">Key Points</label>
+                                    <input type="text" name="keypoints" class="form-control"
+                                        value="<?= htmlspecialchars($keypoints_text) ?>"
+                                        placeholder="Painless treatment, Expert doctors, Affordable cost">
+                                </div>
+
+
+
+
+
 
                                 <!-- FULL CONTENT EN -->
                                 <div class="mb-3">
@@ -240,6 +274,3 @@ if ($service_result && $service_result->num_rows > 0) {
 </html>
 
 <?php $conn->close(); ?>
-
-
-

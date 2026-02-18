@@ -13,6 +13,7 @@ $allowed_extensions = ['jpg', 'jpeg', 'png', 'gif', 'webp', 'svg'];
 
 // Check if form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
     // Collect form data
     $blog_id = isset($_POST['id']) ? intval($_POST['id']) : 0;
     $title = $_POST['title'] ?? '';
@@ -30,6 +31,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $section1_content = $_POST['section1_content'] ?? '';
     $section2_content = $_POST['section2_content'] ?? '';
     $section3_content = $_POST['section3_content'] ?? '';
+
+    // ✅ NEW SEO TAGS
+    $hashtags = $_POST['hashtags'] ?? '';
+    $keypoints = $_POST['keypoints'] ?? '';
+
+    // Convert to JSON format
+    $hashtags_json = json_encode(array_map('trim', explode(',', $hashtags)));
+    $keypoints_json = json_encode(array_map('trim', explode(',', $keypoints)));
 
     // Required fields check
     if (empty($title) || empty($main_content) || empty($full_content) || empty($service)) {
@@ -82,23 +91,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $section2_image = uploadImage('section2_image', 'photos', $allowed_extensions);
     $section3_image = uploadImage('section3_image', 'photos', $allowed_extensions);
 
-    // Prepare SQL (Insert or Update)
+    // ================= UPDATE BLOG =================
     if ($blog_id > 0) {
-        // UPDATE
+
         $stmt = $conn->prepare("UPDATE blogs 
-            SET title=?, main_content=?, full_content=?, 
-                telugu_title=?, telugu_main_content=?, telugu_full_content=?,
-                title_image=?, main_image=?, video=?, 
-                service=?, logo=?, logo_link=?,
-                section1_content=?, section1_image=?,
-                section2_content=?, section2_image=?,
-                section3_content=?, section3_image=?
-            WHERE id=?");
+        SET title=?, main_content=?, full_content=?, 
+            telugu_title=?, telugu_main_content=?, telugu_full_content=?,
+            hashtags=?, keypoints=?,
+            title_image=?, main_image=?, video=?, 
+            service=?, logo=?, logo_link=?,
+            section1_content=?, section1_image=?,
+            section2_content=?, section2_image=?,
+            section3_content=?, section3_image=?
+        WHERE id=?");
 
         $stmt->bind_param(
-            "ssssssssssssssssssi",
+            "ssssssssssssssssssssi",
             $title, $main_content, $full_content,
             $telugu_title, $telugu_main_content, $telugu_full_content,
+            $hashtags_json, $keypoints_json,
             $title_image_path, $main_image_path, $video_path,
             $service, $logo_path, $logo_link,
             $section1_content, $section1_image,
@@ -107,19 +118,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $blog_id
         );
 
-    } else {
-        // INSERT
+    } 
+    // ================= INSERT BLOG =================
+    else {
+
         $stmt = $conn->prepare("INSERT INTO blogs 
-            (title, main_content, full_content, telugu_title, telugu_main_content, telugu_full_content,
-             title_image, main_image, video, service, logo, logo_link,
-             section1_content, section1_image,
-             section2_content, section2_image,
-             section3_content, section3_image, created_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
+        (title, main_content, full_content, telugu_title, telugu_main_content, telugu_full_content,
+         hashtags, keypoints,
+         title_image, main_image, video, service, logo, logo_link,
+         section1_content, section1_image,
+         section2_content, section2_image,
+         section3_content, section3_image, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
 
         $stmt->bind_param(
-            "ssssssssssssssssss",
-            $title, $main_content, $full_content, $telugu_title, $telugu_main_content, $telugu_full_content,
+            "ssssssssssssssssssss",
+            $title, $main_content, $full_content, 
+            $telugu_title, $telugu_main_content, $telugu_full_content,
+            $hashtags_json, $keypoints_json,
             $title_image_path, $main_image_path, $video_path,
             $service, $logo_path, $logo_link,
             $section1_content, $section1_image,
