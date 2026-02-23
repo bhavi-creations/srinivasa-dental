@@ -4,7 +4,6 @@ include '../../db.connection/db_connection.php';
 
 // Blog ID
 $blog_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
-
 if ($blog_id <= 0) {
     echo "Invalid blog ID";
     exit;
@@ -22,12 +21,15 @@ $stmt = $conn->prepare("
         telugu_title,
         telugu_main_content,
         telugu_full_content,
+        main_image,
         video,
-        
-        section1_image
+        section1_image,
+        hashtags,
+        keypoints
     FROM blogs
     WHERE id = ?
 ");
+
 $stmt->bind_param("i", $blog_id);
 $stmt->execute();
 $stmt->bind_result(
@@ -38,28 +40,29 @@ $stmt->bind_result(
     $telugu_title,
     $telugu_main_content,
     $telugu_full_content,
+    $main_image,
     $video,
     $section1_image,
     $hashtags,
     $keypoints
 );
 $stmt->fetch();
+$stmt->close();
 
+// Convert JSON hashtags & keypoints
+$hashtags_array = json_decode($hashtags, true);
+$keypoints_array = json_decode($keypoints, true);
 
-
-$hashtags_array = json_decode($hashtags, true) ?? [];
-$keypoints_array = json_decode($keypoints, true) ?? [];
+$hashtags_array = is_array($hashtags_array) ? $hashtags_array : [];
+$keypoints_array = is_array($keypoints_array) ? $keypoints_array : [];
 
 $hashtags_text = implode(", ", $hashtags_array);
 $keypoints_text = implode(", ", $keypoints_array);
 
-$stmt->close();
-
 // ---------------------------------------------
-// FETCH SERVICES FROM DATABASE
+// FETCH SERVICES
 // ---------------------------------------------
 $services = [];
-
 $service_sql = "SELECT service_name FROM services ORDER BY service_name ASC";
 $service_result = $conn->query($service_sql);
 
@@ -103,82 +106,64 @@ if ($service_result && $service_result->num_rows > 0) {
 
                         <div class="card-body">
 
-                            <form id="editblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
+                            <form id="editblogform" action="updateBlog.php" method="POST" enctype="multipart/form-data">
 
-                                <!-- ENGLISH TITLE -->
+                                <!-- TITLE -->
                                 <div class="mb-3">
                                     <label class="text-primary">Title (English)</label>
-                                    <input type="text" name="title" class="form-control"
-                                        value="<?= htmlspecialchars($title) ?>" required>
+                                    <input type="text" name="title" class="form-control" value="<?= htmlspecialchars($title) ?>" required>
                                 </div>
 
-                                <!-- TELUGU TITLE -->
                                 <div class="mb-3">
                                     <label class="text-primary">Title (Telugu)</label>
-                                    <input type="text" name="telugu_title" class="form-control"
-                                        value="<?= htmlspecialchars($telugu_title) ?>">
+                                    <input type="text" name="telugu_title" class="form-control" value="<?= htmlspecialchars($telugu_title) ?>">
                                 </div>
 
-                                <!-- SERVICE (DATABASE) -->
+                                <!-- SERVICE -->
                                 <div class="mb-3">
                                     <label class="text-primary">Service</label>
                                     <select name="service" class="form-control" required>
                                         <option value="">-- Select Service --</option>
-
                                         <?php foreach ($services as $s) { ?>
-                                            <option value="<?= htmlspecialchars($s) ?>"
-                                                <?= ($service == $s) ? 'selected' : '' ?>>
+                                            <option value="<?= htmlspecialchars($s) ?>" <?= ($service == $s) ? 'selected' : '' ?>>
                                                 <?= htmlspecialchars($s) ?>
                                             </option>
                                         <?php } ?>
-
                                     </select>
                                 </div>
 
-                                <!-- MAIN CONTENT EN -->
+                                <!-- MAIN CONTENT -->
                                 <div class="mb-3">
                                     <label class="text-primary">Main Content (English)</label>
                                     <div id="mainEditor" style="height:200px"></div>
                                     <input type="hidden" name="main_content" id="mainContentData">
                                 </div>
 
-                                <!-- MAIN CONTENT TE -->
                                 <div class="mb-3">
                                     <label class="text-primary">Main Content (Telugu)</label>
                                     <div id="teluguMainEditor" style="height:200px"></div>
                                     <input type="hidden" name="telugu_main_content" id="teluguMainContentData">
                                 </div>
 
-
                                 <!-- HASHTAGS -->
                                 <div class="mb-3">
                                     <label class="text-primary">Hashtags</label>
-                                    <input type="text" name="hashtags" class="form-control"
-                                        value="<?= htmlspecialchars($hashtags_text) ?>"
-                                        placeholder="#dental,#rootcanal,#implant,#clinic">
+                                    <input type="text" name="hashtags" class="form-control" value="<?= htmlspecialchars($hashtags_text) ?>">
                                 </div>
 
-                                <!-- KEY POINTS -->
+                                <!-- KEYPOINTS -->
                                 <div class="mb-3">
                                     <label class="text-primary">Key Points</label>
-                                    <input type="text" name="keypoints" class="form-control"
-                                        value="<?= htmlspecialchars($keypoints_text) ?>"
-                                        placeholder="Painless treatment, Expert doctors, Affordable cost">
+                                    <input type="text" name="keypoints" class="form-control" value="<?= htmlspecialchars($keypoints_text) ?>">
                                 </div>
 
-
-
-
-
-
-                                <!-- FULL CONTENT EN -->
+                                <!-- FULL CONTENT -->
                                 <div class="mb-3">
                                     <label class="text-primary">Full Content (English)</label>
                                     <div id="fullEditor" style="height:300px"></div>
                                     <input type="hidden" name="full_content" id="fullContentData">
                                 </div>
 
-                                <!-- FULL CONTENT TE -->
                                 <div class="mb-3">
                                     <label class="text-primary">Full Content (Telugu)</label>
                                     <div id="teluguFullEditor" style="height:300px"></div>
@@ -189,6 +174,9 @@ if ($service_result && $service_result->num_rows > 0) {
                                 <div class="mb-3">
                                     <label class="text-primary">Main Image</label>
                                     <input type="file" name="main_image" class="form-control">
+                                    <?php if ($main_image) { ?>
+                                        <img src="../../uploads/photos/<?= $main_image ?>" style="max-width:150px;margin-top:10px;">
+                                    <?php } ?>
                                 </div>
 
                                 <!-- VIDEO -->
@@ -196,34 +184,25 @@ if ($service_result && $service_result->num_rows > 0) {
                                     <label class="text-primary">Video</label>
                                     <input type="file" name="video" class="form-control">
                                     <?php if ($video) { ?>
-                                        <small>Current Video :
-                                            <a href="../../uploads/videos/<?= $video ?>" target="_blank">View</a>
-                                        </small>
+                                        <a href="../../uploads/videos/<?= $video ?>" target="_blank">View Video</a>
                                     <?php } ?>
                                 </div>
 
-                                <!-- SECTION 1 IMAGE -->
+                                <!-- SECTION IMAGE -->
                                 <div class="mb-3">
                                     <label class="text-primary">Section 1 Image</label>
                                     <input type="file" name="section1_image" class="form-control">
-
                                     <?php if ($section1_image) { ?>
-                                        <div class="mt-2">
-                                            <small>Current Image:</small><br>
-                                            <img src="../../uploads/photos/<?= $section1_image ?>"
-                                                style="max-width:220px;border:1px solid #ccc;padding:5px;">
-                                        </div>
+                                        <img src="../../uploads/photos/<?= $section1_image ?>" style="max-width:150px;margin-top:10px;">
                                     <?php } ?>
                                 </div>
 
                                 <input type="hidden" name="id" value="<?= $blog_id ?>">
+                                <input type="hidden" name="old_main_image" value="<?= $main_image ?>">
                                 <input type="hidden" name="old_section1_image" value="<?= $section1_image ?>">
+                                <input type="hidden" name="old_video" value="<?= $video ?>">
 
-                                <div class="row mt-4">
-                                    <div class="col-md-8"></div>
-                                    <button type="reset" class="btn btn-danger col-md-2">Clear</button>
-                                    <button type="submit" class="btn btn-success col-md-2">Update</button>
-                                </div>
+                                <button type="submit" class="btn btn-success">Update Blog</button>
 
                             </form>
 

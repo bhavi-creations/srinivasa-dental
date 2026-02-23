@@ -58,6 +58,20 @@ $count_stmt->close();
 
 $conn->close();
 ?>
+
+<?php
+include './db.connection/db_connection.php';
+
+$blog_id = $_GET['id'] ?? 0;
+
+// Fetch blog data
+$stmt = $conn->prepare("SELECT * FROM blogs WHERE id=?");
+$stmt->bind_param("i", $blog_id);
+$stmt->execute();
+$result = $stmt->get_result();
+$blog = $result->fetch_assoc();
+?>
+
 <style>
     .fullblogs_section {
         background-color: black;
@@ -69,7 +83,7 @@ $conn->close();
     .full-content,
     .full-content * {
 
-        color: #EDC967!important;
+        color: #EDC967 !important;
         /* color: #D2AC47!important; */
         /* color: #F7EF8A !important; */
         /* color: #f8bf04 !important; */
@@ -88,126 +102,218 @@ $conn->close();
 
     .fullblogs_section_1 {
         background-color: black !important;
-          color:  #F7EF8A !important;
+        color: #F7EF8A !important;
         /* color: #f4c21f !important; */
         padding-bottom: 20px !important;
+    }
+
+
+
+    /* hastags  */
+    /* Hashtags Sticky Box */
+    .blog-tags-wrapper {
+        margin-top: 25px;
+        padding: 20px;
+        background: linear-gradient(135deg, #000, #111);
+        border: 2px solid gold;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.25);
+
+        position: sticky;
+        /* 🔥 MAIN */
+        top: 150px;
+        /* navbar height adjust */
+    }
+
+    /* Section Headings */
+    .blog-hashtags h4,
+    .blog-keywords h4 {
+        color: gold;
+        font-size: 18px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid gold;
+        padding-bottom: 5px;
+    }
+
+    /* Each Tag Line */
+    .gold-line {
+        color: #fff;
+        font-size: 14px;
+        padding: 6px 12px;
+        background: #111;
+        border-left: 4px solid gold;
+        margin-bottom: 7px;
+        border-radius: 4px;
+        transition: 0.3s;
+    }
+
+    .gold-line:hover {
+        background: gold;
+        color: #000;
+        transform: translateX(8px);
     }
 </style>
 
 <?php include 'navbar.php'; ?>
 
 <main class="fullblogs_section">
-    <div class="container blog-detailed" style="padding-top: 50px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="container blog-detailed" style="padding-top: 50px;">
 
-        <!-- Language buttons -->
-        <!-- <div class="d-flex justify-content-center mb-3">
-            <button id="english-btn" class="lang-btn btn btn-sm me-2 english-btn">English</button>
-            <button id="telugu-btn" class="lang-btn btn btn-sm telugu-btn mx-4">తెలుగు</button>
-        </div> -->
-
-
-        <div class="d-flex justify-content-center mb-3">
-            <button id="english-btn" class="lang-btn english-btn active">
-                English
-            </button>
-            <button id="telugu-btn" class="lang-btn telugu-btn mx-4">
-                తెలుగు
-            </button>
-        </div>
+                    <!-- Language buttons -->
+                    <!-- <div class="d-flex justify-content-center mb-3">
+                        <button id="english-btn" class="lang-btn btn btn-sm me-2 english-btn">English</button>
+                        <button id="telugu-btn" class="lang-btn btn btn-sm telugu-btn mx-4">తెలుగు</button>
+                    </div> -->
 
 
+                    <div class="d-flex justify-content-center mb-3">
+                        <button id="english-btn" class="lang-btn english-btn active">
+                            English
+                        </button>
+                        <button id="telugu-btn" class="lang-btn telugu-btn mx-4">
+                            తెలుగు
+                        </button>
+                    </div>
 
-        <?php if (!empty($service)) { ?>
-            <div class="text-center mb-3">
-                <span class="badge_service_name px-4 py-2">
-                    <?= htmlspecialchars($service) ?>
-                </span>
-            </div>
-        <?php } ?>
 
-        <!-- Image -->
-        <div class="text-center mb-4">
-            <?php if (!empty($section1_image)): ?>
-                <img src="./admin/uploads/photos/<?php echo $section1_image; ?>"
-                    class="img-fluid "
-                    style="width:600px;
+
+                    <?php if (!empty($service)) { ?>
+                        <div class="text-center mb-3">
+                            <span class="badge_service_name px-4 py-2">
+                                <?= htmlspecialchars($service) ?>
+                            </span>
+                        </div>
+                    <?php } ?>
+
+                    <!-- Image -->
+                    <div class="text-center mb-4">
+                        <?php if (!empty($section1_image)): ?>
+                            <img src="./admin/uploads/photos/<?php echo $section1_image; ?>"
+                                class="img-fluid "
+                                style="width:600px;
                    ">
-            <?php else: ?>
-                <!-- <p>No Image Available</p> -->
-            <?php endif; ?>
+                        <?php else: ?>
+                            <!-- <p>No Image Available</p> -->
+                        <?php endif; ?>
+                    </div>
+
+                    <!-- Video / Image -->
+                    <div class="d-block d-lg-none"><?php
+                                                    if (!empty($video)) {
+                                                        $video_path = "./admin/uploads/videos/{$video}";
+                                                        echo "<video class='main-video' controls
+                                    style='max-width:100%; height:auto; object-fit:contain; display:block; margin:0 auto;'>
+                                    <source src='{$video_path}' type='video/mp4'>
+                                    Your browser does not support the video tag.
+                                </video>";
+                                                    } elseif (!empty($main_image)) {
+                                                        $main_image_path = "./admin/uploads/photos/{$main_image}";;
+                                                    }
+                                                    ?>
+                    </div>
+
+
+                    <div class="d-none d-lg-block">
+
+                        <?php
+                        if (!empty($video)) {
+                            $video_path = "./admin/uploads/videos/{$video}";
+                            echo "<video class='main-video' controls
+                            style='width:700px; height:425px; object-fit:contain; display:block; margin:0 auto;'>
+                            <source src='{$video_path}' type='video/mp4'>
+                            Your browser does not support the video tag.
+                        </video>";
+                        } elseif (!empty($main_image)) {
+                            $main_image_path = "./admin/uploads/photos/{$main_image}";;
+                        }
+                        ?>
+                    </div>
+
+
+
+
+                    <!-- SERVICE BADGE -->
+                    <!-- SERVICE BADGE -->
+
+
+
+                    <!-- Title -->
+                    <h4 class="blog-title text-center mt-5" style="color:#C9A227; font-weight:800;">
+                        <span id="title-en"><?php echo $title; ?></span>
+                        <span id="title-te" style="display:none;" style="color:#C9A227;"><?php echo $telugu_title; ?></span>
+                    </h4>
+
+                    <!-- Contents -->
+                    <div class="main-content " style="text-align:justify;">
+                        <div id="main-en"><?php echo $main_content; ?></div>
+                        <div id="main-te" style="display:none;"><?php echo $telugu_main_content; ?></div>
+                    </div>
+
+                    <div class="full-content ">
+                        <div id="full-en"><?php echo $full_content; ?></div>
+                        <div id="full-te" style="display:none;"><?php echo $telugu_full_content; ?></div>
+                    </div>
+
+                    <!-- LIKE / DISLIKE -->
+                    <div class="d-flex justify-content-center mt-4">
+                        <button id="like-btn" class="btn btn-outline-success me-3">
+                            👍 Like (<span id="like-count"><?php echo $likes_count ?? 0; ?></span>)
+                        </button>
+
+                        <button id="dislike-btn" class="btn btn-outline-danger">
+                            👎 Dislike (<span id="dislike-count"><?php echo $dislikes_count ?? 0; ?></span>)
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <?php if (!empty($blog['hashtags']) || !empty($blog['keypoints'])): ?>
+                    <div class="blog-tags-wrapper">
+
+                        <!-- HASHTAGS -->
+                        <?php if (!empty($blog['hashtags'])): ?>
+                            <div class="blog-hashtags">
+                                <h4>Hashtags</h4>
+                                <?php
+                                $hashtags = explode(",", $blog['hashtags']);
+                                foreach ($hashtags as $tag) {
+                                    echo "<p class='gold-line'>" . trim($tag) . "</p>";
+                                }
+                                ?>
+                            </div>
+                        <?php endif; ?>
+
+                        <!-- KEY POINTS -->
+                        <?php if (!empty($blog['keypoints'])): ?>
+                            <div class="blog-keywords">
+                                <h4 class="mt-5">Key Points</h4>
+                                <?php
+                                $keypoints = explode(",", $blog['keypoints']);
+                                foreach ($keypoints as $point) {
+                                    echo "<p class='gold-line'>" . trim($point) . "</p>";
+                                }
+                                ?>
+                            </div>
+                        <?php endif; ?>
+
+
+                    </div>
+
+                <?php endif; ?>
+
+
+
+
+
+
+            </div>
         </div>
-
-        <!-- Video / Image -->
-        <div class="d-block d-lg-none"><?php
-                                        if (!empty($video)) {
-                                            $video_path = "./admin/uploads/videos/{$video}";
-                                            echo "<video class='main-video' controls
-            style='max-width:100%; height:auto; object-fit:contain; display:block; margin:0 auto;'>
-            <source src='{$video_path}' type='video/mp4'>
-            Your browser does not support the video tag.
-          </video>";
-                                        } elseif (!empty($main_image)) {
-                                            $main_image_path = "./admin/uploads/photos/{$main_image}";;
-                                        }
-                                        ?>
-        </div>
-
-
-        <div class="d-none d-lg-block">
-
-            <?php
-            if (!empty($video)) {
-                $video_path = "./admin/uploads/videos/{$video}";
-                echo "<video class='main-video' controls
-            style='width:700px; height:425px; object-fit:contain; display:block; margin:0 auto;'>
-            <source src='{$video_path}' type='video/mp4'>
-            Your browser does not support the video tag.
-          </video>";
-            } elseif (!empty($main_image)) {
-                $main_image_path = "./admin/uploads/photos/{$main_image}";;
-            }
-            ?>
-        </div>
-
-
-
-
-        <!-- SERVICE BADGE -->
-        <!-- SERVICE BADGE -->
-
-
-
-        <!-- Title -->
-        <h4 class="blog-title text-center mt-5" style="color:#C9A227; font-weight:800;">
-            <span id="title-en"><?php echo $title; ?></span>
-            <span id="title-te" style="display:none;" style="color:#C9A227;"><?php echo $telugu_title; ?></span>
-        </h4>
-
-        <!-- Contents -->
-        <div class="main-content " style="text-align:justify;">
-            <div id="main-en"><?php echo $main_content; ?></div>
-            <div id="main-te" style="display:none;"><?php echo $telugu_main_content; ?></div>
-        </div>
-
-        <div class="full-content ">
-            <div id="full-en"><?php echo $full_content; ?></div>
-            <div id="full-te" style="display:none;"><?php echo $telugu_full_content; ?></div>
-        </div>
-
-        <!-- LIKE / DISLIKE -->
-        <div class="d-flex justify-content-center mt-4">
-            <button id="like-btn" class="btn btn-outline-success me-3">
-                👍 Like (<span id="like-count"><?php echo $likes_count ?? 0; ?></span>)
-            </button>
-
-            <button id="dislike-btn" class="btn btn-outline-danger">
-                👎 Dislike (<span id="dislike-count"><?php echo $dislikes_count ?? 0; ?></span>)
-            </button>
-        </div>
-
     </div>
-
-
 
 
 

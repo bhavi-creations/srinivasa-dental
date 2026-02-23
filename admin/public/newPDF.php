@@ -44,7 +44,7 @@
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <form style='color:black;' id="uploadpdfform" action="uploadPDF" method="POST" enctype="multipart/form-data">
+                                    <form style='color:black;' id="uploadpdfform" action="uploadPDF.php" method="POST" enctype="multipart/form-data">
                                         <div class="mb-3">
                                             <label for="pdfTitle" class="form-label text-primary">ENTER TITLE</label>
                                             <input type="text" class="form-control text-grey-900" name='title' id="pdfTitle" placeholder="TITLE" required>
