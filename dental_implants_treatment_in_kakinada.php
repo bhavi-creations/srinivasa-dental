@@ -21,7 +21,7 @@
 
 
 
-    <section class="service_section">
+    <section class="service_section ">
       <div class="container">
         <div class="row">
 

@@ -17,7 +17,8 @@
         }
 
         .doctor-carousel-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #ffee00da 0%, #f8f800b3 100%);
+            /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -68,7 +69,7 @@
         .main-title {
             font-size: 56px;
             font-weight: 900;
-            color: white;
+            color: black;
             text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
             margin-bottom: 15px;
             letter-spacing: -2px;
@@ -77,7 +78,8 @@
 
         .main-subtitle {
             font-size: 22px;
-            color: rgba(255, 255, 255, 0.95);
+            color: rgba(0, 0, 0, 0.95);
+            /* color: rgba(255, 255, 255, 0.95); */
             font-weight: 400;
             letter-spacing: 1px;
             animation: fadeInUp 1s ease-out 0.2s both;
@@ -108,7 +110,8 @@
         .carousel-container {
             max-width: 1200px;
             width: 100%;
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(0, 0, 0, 0.95);
+            /* background: rgba(255, 255, 255, 0.95); */
             backdrop-filter: blur(10px);
             border-radius: 30px;
             box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
@@ -173,7 +176,8 @@
         .doctor-name {
             font-size: 42px;
             font-weight: 800;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #f3f32edc, #e2e22ee0);
+            /* background: linear-gradient(135deg, #667eea, #764ba2); */
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -183,12 +187,14 @@
 
         .doctor-degree {
             font-size: 20px;
-            color: #6366f1;
+            color: #000000;
+            /* color: #6366f1; */
             font-weight: 600;
             margin-bottom: 25px;
             display: inline-block;
             padding: 8px 20px;
-            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+            background: yellow;
+            /* background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); */
             border-radius: 25px;
             border: 2px solid rgba(102, 126, 234, 0.3);
         }
@@ -196,7 +202,8 @@
         .doctor-description {
             font-size: 18px;
             line-height: 1.8;
-            color: #4b5563;
+            color: #ffffff;
+            /* color: #4b5563; */
             margin-bottom: 30px;
             text-align: justify;
         }
@@ -231,7 +238,8 @@
             border-radius: 50%;
             overflow: hidden;
             position: relative;
-            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 20px 60px #ffff0099;
+            /* box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4); */
             border: 6px solid #ffffff;
             background: transparent;
             padding: 6px;
@@ -242,7 +250,8 @@
             position: absolute;
             inset: -6px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+            background: linear-gradient(135deg, #e8e85b,#fff000,#fff000);
+            /* background: linear-gradient(135deg, #667eea, #764ba2, #f093fb); */
             z-index: -1;
             animation: rotate 4s linear infinite;
         }
@@ -458,10 +467,10 @@
                 </div>
 
                 <!-- Navigation Dots -->
-                <div class="carousel-dots">
+                <!-- <div class="carousel-dots">
                     <button class="dot active" onclick="currentSlide(0)"></button>
                     <button class="dot" onclick="currentSlide(1)"></button>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

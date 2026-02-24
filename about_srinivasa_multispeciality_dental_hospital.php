@@ -28,7 +28,7 @@
             </div>
 
             <div class="d-flex flex-row justify-content-start">
-              <p class="get_in_touch read_hide" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
+              <p class="get_in_touch read_hide" style="color: #ffff00; cursor: pointer;" onclick="toggleReadMore()">
                 Read More <i class="fa-solid fa-arrow-right"></i>
               </p>
             </div>

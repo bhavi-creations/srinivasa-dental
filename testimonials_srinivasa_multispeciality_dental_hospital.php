@@ -527,11 +527,11 @@
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
         <div class="elfsight-app-bffd1098-3bb5-4713-9afe-b1c67ac278cc  my-5" data-elfsight-app-lazy></div>
 
-        <section>
+        <section class="google_reviews">
             <div class="container">
                 <div class="section-title text-center">
 
-                    <h2 class="apporach">"Listen to Our Patients "</h2>
+                    <h2 class="apporach" style="color: black !important;">"Listen to Our Patients "</h2>
 
 
                     <p class="svg_apporach_service"> <svg xmlns="http://www.w3.org/2000/svg" width="266" height="10"
@@ -541,7 +541,7 @@
                                 fill="#25B4F8" />
                         </svg>
                     </p>
-                    <h2 class="apporach"> Real Stories, Real Experiences</h2>
+                    <h2 class="apporach" style="color: black !important;"> Real Stories, Real Experiences</h2>
 
 
 

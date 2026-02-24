@@ -57,7 +57,7 @@ function getLimitWords($text, $limit = 15)
         }
 
         body {
-            background-color: var(--accent-pink);
+            background-color:#fff000;
             font-family: 'Poppins', sans-serif;
             color: #333;
         }
@@ -130,7 +130,8 @@ function getLimitWords($text, $limit = 15)
         }
 
         .service-badge {
-            background: var(--primary-navy);
+            background: yellow;
+            /* background: var(--primary-navy); */
             color: black;
             padding: 5px 15px;
             border-radius: 5px;
@@ -161,7 +162,8 @@ function getLimitWords($text, $limit = 15)
 
         .content-box {
             padding: 30px;
-            background: #eba121;
+            background: #ffff00;
+            /* background: #eba121; */
             border-radius: 20px;
             position: relative;
             z-index: 2;
@@ -205,7 +207,7 @@ function getLimitWords($text, $limit = 15)
             background: #111;
             border-left: 5px solid var(--primary-navy);
             border-radius: 10px;
-            color: #fff;
+            color: #ffff00 !important;
             line-height: 1.8;
             animation: fadeIn 0.4s ease;
         }
@@ -224,7 +226,7 @@ function getLimitWords($text, $limit = 15)
 
         .btn-dental {
             background: black;
-            color: white;
+            color: #ffff00;
             border: none;
             padding: 8px 25px;
             border-radius: 50px;
@@ -274,141 +276,146 @@ function getLimitWords($text, $limit = 15)
 
         /* doctor section stylings   */
         /* Doctor Card Premium Styling */
-.doctor-card-premium {
-    background: linear-gradient(135deg, #f8ede3 0%, #ffffff 100%);
-    border-radius: 25px;
-    padding: 35px;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 40px;
-    border: 1px solid rgba(222, 161, 62, 0.2);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
-}
+        .doctor-card-premium {
+            background: linear-gradient(135deg, #ffff00 0%, #cbcb5c 100%);
+            /* background: linear-gradient(135deg, #f8ede3 0%, #ffffff 100%); */
+            border-radius: 25px;
+            padding: 35px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(222, 161, 62, 0.2);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
 
-.doctor-card-premium:hover {
-    transform: translateY(-5px);
-}
+        .doctor-card-premium:hover {
+            transform: translateY(-5px);
+        }
 
-.doctor-image-wrapper {
-    position: relative;
-    flex-shrink: 0;
-}
+        .doctor-image-wrapper {
+            position: relative;
+            flex-shrink: 0;
+        }
 
-.doctor-profile-img {
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 20px;
-    border: 5px solid #fff;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-}
+        .doctor-profile-img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 20px;
+            border: 5px solid #fff;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
 
-.experience-badge {
-    position: absolute;
-    bottom: -10px;
-    right: -10px;
-    background: #000;
-    color: #dea13e;
-    font-size: 11px;
-    font-weight: 700;
-    padding: 5px 12px;
-    border-radius: 50px;
-    border: 1px solid #dea13e;
-    text-transform: uppercase;
-}
+        .experience-badge {
+            position: absolute;
+            bottom: -10px;
+            right: -10px;
+            background: #000;
+            color: #dea13e;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 5px 12px;
+            border-radius: 50px;
+            border: 1px solid #dea13e;
+            text-transform: uppercase;
+        }
 
-.doctor-info {
-    flex-grow: 1;
-}
+        .doctor-info {
+            flex-grow: 1;
+        }
 
-.doctor-name {
-    font-size: 28px;
-    font-weight: 800;
-    color: #003366;
-    margin-bottom: 5px;
-    letter-spacing: -0.5px;
-}
+        .doctor-name {
+            font-size: 28px;
+            font-weight: 800;
+            color: #003366;
+            margin-bottom: 5px;
+            letter-spacing: -0.5px;
+        }
 
-.doctor-degree {
-    display: block;
-    color: #dea13e;
-    font-weight: 600;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-}
+        .doctor-degree {
+            display: block;
+            color: #dea13e;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
 
-.doctor-quote-box {
-    background: rgba(255, 255, 255, 0.6);
-    padding: 20px;
-    border-radius: 15px;
-    position: relative;
-    border-left: 4px solid #dea13e;
-}
+        .doctor-quote-box {
+            background: rgba(255, 255, 255, 0.6);
+            padding: 20px;
+            border-radius: 15px;
+            position: relative;
+            border-left: 4px solid #dea13e;
+        }
 
-.quote-icon {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 20px;
-    color: rgba(222, 161, 62, 0.2);
-}
+        .quote-icon {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 20px;
+            color: rgba(222, 161, 62, 0.2);
+        }
 
-.doctor-description {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #555;
-    margin-bottom: 0;
-}
+        .doctor-description {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 0;
+        }
 
-.highlight-text {
-    display: block;
-    margin-top: 5px;
-    font-style: italic;
-    color: #003366;
-    font-weight: 500;
-}
+        .highlight-text {
+            display: block;
+            margin-top: 5px;
+            font-style: italic;
+            color: #003366;
+            font-weight: 500;
+        }
 
-.doctor-socials {
-    margin-top: 15px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+        .doctor-socials {
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
-.follow-text {
-    font-size: 12px;
-    font-weight: 700;
-    color: #888;
-    text-transform: uppercase;
-}
+        .follow-text {
+            font-size: 12px;
+            font-weight: 700;
+            color: #888;
+            text-transform: uppercase;
+        }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .doctor-card-premium {
-        flex-direction: column;
-        text-align: center;
-        padding: 25px;
-    }
-    .doctor-image-wrapper {
-        margin-bottom: 10px;
-    }
-    .doctor-profile-img {
-        width: 150px;
-        height: 150px;
-    }
-    .doctor-socials {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .doctor-quote-box {
-        border-left: none;
-        border-top: 3px solid #dea13e;
-    }
-}
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .doctor-card-premium {
+                flex-direction: column;
+                text-align: center;
+                padding: 25px;
+            }
+
+            .doctor-image-wrapper {
+                margin-bottom: 10px;
+            }
+
+            .doctor-profile-img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .doctor-socials {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .doctor-quote-box {
+                border-left: none;
+                border-top: 3px solid #dea13e;
+            }
+        }
     </style>
 </head>
 
@@ -420,9 +427,12 @@ function getLimitWords($text, $limit = 15)
 
             <nav class="custom-menu">
                 <a href="index.php">Home</a>
-                <a href="services.php">Services</a>
-                <a href="blogs.php">Blogs</a>
-                <a href="contact.php">Contact</a>
+                <a href="about_srinivasa_multispeciality_dental_hospital.php">About</a>
+                <a href="services_srinivasa_multispeciality_dental_hospital.php">Services</a>
+                <a href="gallery_srinivasa_multispeciality_dental_hospital.php">Gallery</a>
+                <a href="blogs_srinivasa_multispeciality_dental_hospital.php">Blogs</a>
+                <a href="contact_srinivasa_multispeciality_dental_hospital.php">Contact</a>
+                <!-- <a href="appointment_srinivasa_dental_hospital.php">Appointment</a> -->
             </nav>
 
             <div class="lang-container">
@@ -437,7 +447,7 @@ function getLimitWords($text, $limit = 15)
             <div class="col-lg-8">
                 <div class="doctor-card-premium">
                     <div class="doctor-image-wrapper">
-                        <img src="./assets/img/srinivasa/kiran_raju.png" class="doctor-profile-img" alt="Dr. Kiran">
+                        <img src="./assets/img/srinivasa/kiran_raju_1.png" class="doctor-profile-img" alt="Dr. Kiran">
                         <div class="experience-badge">15+ Years Exp</div>
                     </div>
                     <div class="doctor-info">
@@ -462,20 +472,20 @@ function getLimitWords($text, $limit = 15)
                 </div>
 
                 <div class="lang-container">
-                <!-- <div class="lang-switcher">
+                    <!-- <div class="lang-switcher">
                     <button class="lang-btn active" id="btn-en" onclick="switchLang('en')">EN</button>
                     <button class="lang-btn" id="btn-te" onclick="switchLang('te')">తెలుగు</button>
                 </div> -->
-                                <div class="service-badge d-flex justify-content"><?php echo htmlspecialchars($blog['service_name'] ?? 'Dental Care'); ?></div>
+                    <div class="service-badge d-flex justify-content"><?php echo htmlspecialchars($blog['service_name'] ?? 'Dental Care'); ?></div>
 
-            </div>
+                </div>
 
-                <h4 class="fw-bold mb-4" id="title-1" style="color: var(--primary-navy);"><?php echo $blog['title']; ?></h4>
+                <h4 class="fw-bold mb-4" id="title-1" style="color: #ffff00;"><?php echo $blog['title']; ?></h4>
 
                 <div class="row align-items-center mb-4">
                     <div class="col-lg-7 order-2 order-lg-1">
                         <div class="content-box overlap-right">
-                            <p class="text-white small mb-0" id="short-1"><?php echo getLimitWords($blog['main_content'], 15); ?>...</p>
+                            <p class="text-black small mb-0" id="short-1"><?php echo getLimitWords($blog['main_content'], 15); ?>...</p>
                             <button class="btn btn-dental" id="btn-1" onclick="toggleSection('1')">Read More</button>
                         </div>
                     </div>
@@ -492,7 +502,7 @@ function getLimitWords($text, $limit = 15)
                         </div>
                         <div class="col-lg-7">
                             <div class="content-box overlap-left">
-                                <p class="text-white small mb-0" id="short-2"><?php echo getLimitWords($blog['full_content'], 15); ?>...</p>
+                                <p class="text-black small mb-0" id="short-2"><?php echo getLimitWords($blog['full_content'], 15); ?>...</p>
                                 <button class="btn btn-dental" id="btn-2" onclick="toggleSection('2')">Read More</button>
                             </div>
                         </div>
@@ -508,7 +518,7 @@ function getLimitWords($text, $limit = 15)
                     if ($latestNewsletter):
                         $pdf_path = "admin/uploads/pdf/" . trim($latestNewsletter['pdf_path']);
                         if (file_exists(__DIR__ . "/$pdf_path")): ?>
-                            <h6 class="text-white small mb-3"><?php echo htmlspecialchars($latestNewsletter['title']); ?></h6>
+                            <h6 class="text-black small mb-3"><?php echo htmlspecialchars($latestNewsletter['title']); ?></h6>
                             <div class="ratio ratio-4x3 mb-3" style="height: 180px; overflow:hidden; border-radius:10px; border: 1px solid #333;">
                                 <embed src="<?php echo $pdf_path; ?>#toolbar=0&navpanes=0" type="application/pdf" width="100%" />
                             </div>

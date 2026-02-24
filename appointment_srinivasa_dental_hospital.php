@@ -25,8 +25,9 @@
 
  <main id="main">
 
-   <section class="sectionForm mt-5 pt-5">
-     <div class="container appointment_bg" style="  background-color: #E7F3FE80;">
+   <section class="sectionForm  pt-5">
+     <div class="container appointment_bg" >
+     <!-- <div class="container appointment_bg" style="  background-color: #E7F3FE80;"> -->
 
        <div class="section-title">
          <h2 class=" pt-5 mb-4 contct_text">Make an Appointment</h2>

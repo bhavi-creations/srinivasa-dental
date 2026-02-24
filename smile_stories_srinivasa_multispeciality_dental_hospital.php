@@ -84,7 +84,8 @@
     .read-more {
         display: block;
         margin-top: 10px;
-        color: #a5d7f9;
+        color:yellow;
+        /* color: #a5d7f9; */
         font-weight: bold;
         text-decoration: none;
     }

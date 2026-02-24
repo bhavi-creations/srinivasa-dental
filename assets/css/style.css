@@ -114,8 +114,9 @@
 body {
   /* font-family: "Open Sans", sans-serif; */
   font-family: "Inter", sans-serif;
-  color: #444444;
-  
+  color: #ffffff;
+  /* color: #444444; */
+
 }
 
 a {
@@ -283,10 +284,12 @@ h6 {
   /* background-color: 
   #d9e3ff;
   ; */
-  background-color: #4c79f7;
+  background-color: rgb(0, 0, 0);
+  /* background-color: #4c79f7; */
 
   position: sticky;
   top: 0;
+  border-bottom: 2px solid yellow;
 }
 
 #header.header-scrolled {
@@ -326,8 +329,10 @@ h6 {
     gap: 10px;
     border-radius: 6px;
     opacity: 0px;
-    background-color: #007be5;
-    color: white;
+    background-color: yellow;
+    /* background-color: #007be5; */
+    color: rgb(0, 0, 0);
+    /* color: white; */
     font-weight: 800;
     margin-left: 10px;
     width: 15%;
@@ -407,9 +412,11 @@ h6 {
     gap: 10px;
     border-radius: 6px;
     opacity: 0px;
-    background-color: #97c033;
+    background-color: yellow !important;
+    /* background-color: #97c033; */
     /* background-color: #007be5; */
-    color: white;
+    color: rgb(0, 0, 0) !important;
+    /* color: white ; */
     font-weight: 800;
     margin-left: 10px;
     width: 12% !important;
@@ -417,11 +424,11 @@ h6 {
 }
 
 
-.appointment-btn:hover {
-  /* background: #0598d2; */
+/* .appointment-btn:hover {
+  background: #0598d2;
   background: #97c033 !important;
   color: #fff;
-}
+} */
 
 @media (max-width: 768px) {
   .appointment-btn {
@@ -670,7 +677,8 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 8px;
-  background-color: #4c79f7;
+  background-color: #000000;
+  /* background-color: #4c79f7; */
   /* background-color: #fff; */
   overflow-y: auto;
   transition: 0.3s;
@@ -726,7 +734,8 @@ h6 {
 /* General styles for the navigation links */
 .navbar ul li a {
   /* color: #333; */
-  color: #ffffff;
+  color: yellow;
+  /* color: #ffffff; */
   /* Default link color */
   padding: 10px 15px;
   text-decoration: none;
@@ -750,9 +759,11 @@ h6 {
 
 /* Hover state for all links */
 .navbar ul li a:hover {
-  color: #007bff;
+  color: #000000 !important;
+  /* color: #007bff; */
   /* Text color on hover */
-  background-color: #f8f9fa;
+  background-color: yellow;
+  /* background-color: #f8f9fa; */
   /* Background color on hover */
   border-radius: 5px;
   /* Optional: rounded corners on hover */
@@ -940,6 +951,7 @@ h6 {
 section {
   padding: 40px 0;
   overflow: hidden;
+  background-color: black;
 }
 
 #blogs_section_new {
@@ -2096,7 +2108,7 @@ section {
 
 #footer .footer-top {
   /* background: #000a2d !important; */
-  background-image: radial-gradient(circle,
+  /* background-image: radial-gradient(circle,
       #e8f2f9,
       #dcedf9,
       #d0e8f9,
@@ -2108,8 +2120,11 @@ section {
       #a5d7f9,
       #a5d7f9,
       #a5d7f9,
-      #a5d7f9);
-}
+      #a5d7f9);*/
+       background-color: rgb(0, 0, 0);
+       border-top: 2 px solid yellow;
+} 
+
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
@@ -2341,7 +2356,8 @@ section {
 }
 
 .welcome_text {
-  color: #ee7d24;
+  color: gold;
+  /* color: #ee7d24; */
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -2352,7 +2368,8 @@ section {
 
 .welcome_text_oncology {
   font-family: "Mukta Vaani", sans-serif;
-  color: #1d2053;
+  color: yellow;
+  /* color: #1d2053; */
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
@@ -2362,7 +2379,8 @@ section {
 @media (min-width: 992px) and (max-width: 1200px) {
   .welcome_text_oncology {
     font-family: "Mukta Vaani", sans-serif;
-    color: #1d2053;
+    color: yellow;
+    /* color: #1d2053; */
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -2373,7 +2391,8 @@ section {
 @media (max-width: 768px) {
   .welcome_text_oncology {
     font-family: "Mukta Vaani", sans-serif;
-    color: #1d2053;
+    color: yellow;
+    /* color: #1d2053; */
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -2451,7 +2470,8 @@ section {
 }
 
 .poetsen_font {
-  color: #141b2a;
+  color: #ffffff !important;
+  /* color: #141b2a; */
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
@@ -2477,7 +2497,8 @@ section {
   line-height: 24px;
   letter-spacing: 0.20000000298023224px;
   text-align: left;
-  color: #ffffff !important;
+  color: #000000 !important;
+  /* color: #ffffff !important; */
 }
 
 .colr_purple {
@@ -2547,7 +2568,8 @@ section {
   line-height: 20.08px;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #141b2a;
+  color: #ffffff;
+  /* color: #141b2a; */
 }
 
 @media (min-width: 1200px) {
@@ -2606,7 +2628,8 @@ section {
 }
 
 .flex-column {
-  background-color: white;
+  background-color: yellow !important;
+  /* background-color: white; */
 }
 
 .service_img_radius {
@@ -2676,7 +2699,9 @@ section {
 /* srinivasa dental */
 
 .top-header {
-  background-color: #f8f9fa;
+  background-color: #000000;
+  border-bottom: 2px solid yellow;
+  /* background-color: #f8f9fa; */
   /* Light background color */
   padding: 10px 0px 12px 0px;
   font-size: 14px;
@@ -2685,9 +2710,11 @@ section {
 }
 
 .top-header .contact-info {
-  color: #555;
+  color: yellow;
+  /* color: #555; */
   font-weight: 700;
   word-spacing: 9px;
+
 }
 
 .top-header .social-links a {
@@ -2983,7 +3010,8 @@ section {
 }
 
 .mini_con {
-  color: #000a2d;
+  color: yellow !important;
+  /* color: #000a2d; */
   text-align: center;
   font-family: Manrope;
   font-size: 24px;
@@ -2993,8 +3021,19 @@ section {
   /* 100% */
 }
 
+/* .index_section{
+  border:2px solid yellow;
+  padding-top: 20px;
+  gap: 10px;
+ } */
+
+
+
+
+
 .mini_para {
-  color: #636571;
+  color: #ffffff;
+  /* color: #636571; */
   text-align: center;
   font-family: Archivo;
   font-size: 16px;
@@ -3006,8 +3045,10 @@ section {
 
 .read_more_btn {
   border-radius: 4.981px;
-  background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%);
-  color: #fff;
+  background: linear-gradient(95deg, yellow -1.58%, rgba(212, 212, 49, 0.979) 100%);
+  /* background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%); */
+  color: #000000;
+  /* color: #fff; */
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -3024,7 +3065,8 @@ section {
 .app_more_btn {
   border-radius: 4.981px;
   /* background: linear-gradient(95deg, #007BE5 -1.58%, #2762E2 100%); */
-  color: #2067e3;
+  color: yellow;
+  /* color: #2067e3; */
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -3036,12 +3078,14 @@ section {
   padding-left: 15px !important;
   padding-right: 15px !important;
   border-radius: 5px;
-  border: 1px solid rgba(152, 179, 255, 0.23);
+  border: 1px solid yellow;
+  /* border: 1px solid rgba(152, 179, 255, 0.23); */
   background: rgba(152, 179, 255, 0.07);
 }
 
 .apporach {
-  color: #1d2053;
+  color: yellow;
+  /* color: #1d2053; */
   font-family: "FONTSPRING DEMO - Tenon Bold";
   /* font-size: 42px; */
   font-style: normal;
@@ -3149,7 +3193,8 @@ section {
   .text_para {
     margin: 0;
     font-size: 1.1rem;
-    color: #757575;
+    color: #000000;
+    /* color: #757575; */
     /* Example color, adjust as needed */
   }
 
@@ -3158,15 +3203,19 @@ section {
 
 
 .happpy_section {
-  background: #f1f8ff;
+  background: yellow;
+  /* background: #f1f8ff; */
+  margin-top: -20px !important;
 }
 
 .check_mark {
-  color: #3267ff;
+  color: yellow;
+  /* color: #3267ff; */
 }
 
 .tetx_color_about {
-  color: #000a2d;
+  color: #ffffff;
+  /* color: #000a2d; */
   font-family: Manrope;
   font-size: 18px;
   font-style: normal;
@@ -3244,7 +3293,8 @@ section {
 }
 
 .madam_text {
-  color: #fff;
+  color: #ffffff;
+  /* color: #fff; */
 
   /* Bold/52px */
   font-family: Poppins;
@@ -3287,7 +3337,8 @@ section {
 
 
 .text_mam {
-  color: #fafafa;
+  color: #000000;
+  /* color: #fafafa; */
   font-family: "Readex Pro";
   font-size: 15px;
   font-style: normal;
@@ -3303,19 +3354,24 @@ section {
 @media (min-width: 1200px) {
   .last_container {
     border-radius: 21px;
-    background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%);
+    background: rgb(196, 181, 181);
+    /* background: linear-gradient(95deg, yellow 0.4%, yellow 100%); */
+    /* background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%); */
     margin-top: 50px;
     margin-bottom: 50px;
     height: 400px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+
+
   }
 }
 
 @media (min-width: 992px) and (max-width:1200px) {
   .last_container {
     border-radius: 21px;
-    background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%);
+    background-color: rgb(196, 181, 181);;
+    /* background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%); */
     margin-top: 50px;
     margin-bottom: 50px;
     height: 400px;
@@ -3327,7 +3383,8 @@ section {
 @media (min-width: 768px) and (max-width: 992px) {
   .last_container {
     border-radius: 21px;
-    background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%);
+    background:rgb(196, 181, 181);;
+    /* background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%); */
     margin-top: 50px;
     margin-bottom: 50px;
     height: 330px;
@@ -3339,7 +3396,8 @@ section {
 @media (max-width: 768px) {
   .last_container {
     border-radius: 21px;
-    background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%);
+    background-color: rgb(196, 181, 181);;
+    /* background: linear-gradient(95deg, #718ce2 0.4%, #435fb8 100%); */
     margin-top: 50px;
     margin-bottom: 50px;
     height: 620px;
@@ -3442,7 +3500,8 @@ section {
 @media (min-width:768px) {
 
   .foot_para {
-    color: black;
+    color: rgb(255, 255, 255);
+    /* color: black; */
     font-family: Archivo;
     font-size: 15px;
     font-style: normal;
@@ -3454,7 +3513,8 @@ section {
 @media (max-width:768px) {
 
   .foot_para {
-    color: black;
+    color: rgb(255, 255, 255);
+    /* color: black; */
     font-family: Archivo;
     font-size: 15px;
     font-style: normal;
@@ -3466,28 +3526,32 @@ section {
 @media (min-width:768px) {
 
   .foot_head {
-    color: #000 !important;
+    color: yellow!important;
+    /* color: #000 !important; */
     font-family: Manrope;
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: 26.4px;
     /* 120% */
-    border-bottom: 2px solid #3267ff;
+    border-bottom: 2px solid rgb(255, 174, 0);
+    /* border-bottom: 2px solid #3267ff; */
     width: 45%;
     padding-bottom: 10px !important;
     margin-bottom: 20px;
   }
 
   .helpful_link {
-    color: #000 !important;
+    color: yellow !important;
+    /* color: #000 !important; */
     font-family: Manrope;
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: 26.4px;
     /* 120% */
-    border-bottom: 2px solid #3267ff;
+     border-bottom: 2px solid rgb(255, 174, 0);
+    /* border-bottom: 2px solid #3267ff; */
     width: 45%;
     padding-bottom: 10px !important;
     margin-bottom: 20px;
@@ -3497,28 +3561,32 @@ section {
 @media (max-width:768px) {
 
   .foot_head {
-    color: #000 !important;
+    color:yellow !important;
+    /* color: #000 !important; */
     font-family: Manrope;
     font-size: 14px;
     font-style: normal;
     font-weight: 1000;
     line-height: 26.4px;
     /* 120% */
-    border-bottom: 2px solid #3267ff;
+     border-bottom: 2px solid rgb(255, 174, 0);
+    /* border-bottom: 2px solid #3267ff; */
     width: 45%;
     padding-bottom: 10px !important;
     margin-bottom: 20px;
   }
 
   .helpful_link {
-    color: #000 !important;
+    color: yellow !important;
+    /* color: #000 !important; */
     font-family: Manrope;
     font-size: 14px;
     font-style: normal;
     font-weight: 1000;
     line-height: 26.4px;
     /* 120% */
-    border-bottom: 2px solid #3267ff;
+     border-bottom: 2px solid rgb(255, 174, 0);
+    /* border-bottom: 2px solid #3267ff; */
     width: 64%;
     padding-bottom: 10px !important;
     margin-bottom: 20px;
@@ -3648,7 +3716,8 @@ section {
 }
 
 .service_test_text {
-  color: #000a2d;
+  color: yellow;
+  /* color: #000a2d; */
   font-family: Manrope;
   font-size: 42px;
   font-style: normal;
@@ -3658,7 +3727,8 @@ section {
 }
 
 .service_test_text_para {
-  color: #636571;
+  color: #ffffff;
+  /* color: #636571; */
   font-family: Archivo;
   font-size: 16px;
   font-style: normal;
@@ -3668,7 +3738,8 @@ section {
 }
 
 .reviews_btn {
-  color: #fff;
+  color: #000000;
+  /* color: #fff; */
   font-family: Manrope;
   font-size: 15px;
   font-style: normal;
@@ -3677,7 +3748,8 @@ section {
   /* 160% */
   border-radius: 5px;
   border: none;
-  background: linear-gradient(95deg, #007be5 -1.58%, #2762e2 100%);
+  background: linear-gradient(95deg, yellow -1.58%, rgba(237, 237, 19, 0.638) 100%);
+  /* background: linear-gradient(95deg, #007be5 -1.58%, #2762e2 100%); */
   display: inline-flex;
   padding: 15px 28px;
   justify-content: center;
@@ -3776,6 +3848,7 @@ section {
 .social-links {
   font-weight: 700;
   word-spacing: 9px;
+  color: yellow;
 }
 
 img.img-fluid.testy {
@@ -3982,8 +4055,10 @@ img.img-fluid.testy1 {
 
 button.prev1 {
   left: 10px;
-  background: #0d4dc3;
-  color: white;
+  background: yellow;
+  /* background: #0d4dc3; */
+  color: rgb(0, 0, 0);
+  /* color: white; */
   padding: 4px 12px;
   border: none;
   border-radius: 28px;
@@ -3991,8 +4066,10 @@ button.prev1 {
 
 button.next1 {
   right: 10px;
-  background: #0d4dc3;
-  color: white;
+  background: yellow;
+  /* background: #0d4dc3; */
+  color: rgb(0, 0, 0);
+  /* color: white; */
   padding: 4px 12px;
   border: none;
   border-radius: 28px;
@@ -4050,8 +4127,11 @@ img.img-fluid.yimg {
 
 .service_card_read_more_btn {
   border-radius: 4.981px;
-  background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%);
-  color: #fff;
+  background: linear-gradient(95deg, #000000 -1.58%, #0d0d0d 100%);
+  /* background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%); */
+  border: 2px solid yellow !important;
+  color: yellow;
+  /* color: #fff; */
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -4217,7 +4297,8 @@ img.img-fluid.yimg {
 
 .plus_symbol {
   font-size: 1.5rem;
-  color: #93C237;
+  color: #000000;
+  /* color: #93C237; */
   /* Example color, adjust as needed */
 }
 
@@ -4274,11 +4355,12 @@ img.img-fluid.yimg {
 .blog_main_btn {
   /* Initial styles for the button */
   border-width: 0px;
-  color: black;
+  color: rgb(0, 0, 0);
+  /* color: black; */
   border-radius: 22px;
   padding: 9px 22px;
   font-weight: 800;
-  background-color: transparent;
+  background-color: yellow;
   /* initial background color */
 
   /* Add transition to smooth the hover effects */
@@ -4288,24 +4370,26 @@ img.img-fluid.yimg {
 
 .blog_main_btn:hover {
   border-width: 0px;
-  color: white;
+  /* color: white; */
   border-radius: 22px;
   padding: 9px 22px;
   font-weight: 800;
   margin-bottom: 14px;
 
-  background-color: rgb(0, 0, 31);
-  /* Dark background on hover */
+  /* background-color: rgb(0, 0, 31); */
+ 
 }
 
 .box-title {
-  color: #1f3269 !important;
+  color: #ffff00 !important;
+  /* color: #1f3269 !important; */
   font-weight: 1000;
+
 }
 
-.box-title:hover {
+/* .box-title:hover {
   color: #0ba2dd !important;
-}
+} */
 
 .blog-card-text {
   color: #000000 !important;
@@ -4323,7 +4407,8 @@ img.img-fluid.yimg {
 }
 
 .post-desc {
-  color: #666769;
+  color: #ffffff;
+  /* color: #666769; */
   font-weight: 700;
   /* color: red; */
 }
@@ -4335,10 +4420,11 @@ img.img-fluid.yimg {
   transition: box-shadow 0.3s ease;
   /* Smooth transition for the box-shadow */
   padding: 20px;
+  border: 2px solid yellow ;
 }
 
 .card_bg_div_box:hover {
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 15px rgba(255, 251, 18, 0.2);
   /* Shadow when hovering */
   padding: 20px;
 }
@@ -4360,8 +4446,9 @@ img.img-fluid.yimg {
 }
 
 .redirect_blog_srivice {
-  background-color: rgb(105, 199, 236);
-  color: White;
+  background-color: yellow;
+  /* background-color: rgb(105, 199, 236); */
+  color: rgb(0, 0, 0);
   font-weight: 900;
   border: none;
   margin: 5px;
@@ -4476,7 +4563,8 @@ img.img-fluid.yimg {
 
 .custom_blogs_section {
   padding: 50px 0;
-  background-color: #f9f9f9;
+  background-color: #000000;
+  /* background-color: #f9f9f9; */
 }
 
 .custom_container {
@@ -4491,18 +4579,21 @@ img.img-fluid.yimg {
 
 .custom_our_blogs {
   font-size: 18px;
-  color: #555;
+  color: rgb(255, 255, 0);
+  /* color: #555; */
 }
 
 .custom_approach {
   font-size: 28px;
   font-weight: bold;
-  color: #333;
+  color: yellow;
+  /* color: #333; */
 }
 
 .custom_description {
   font-size: 16px;
-  color: #666;
+  color: rgb(255, 255, 255);
+  /* color: #666; */
 }
 
 .custom_row {
@@ -4526,7 +4617,9 @@ img.img-fluid.yimg {
 }
 
 .custom_card {
-  background: white;
+  background: rgb(0, 0, 0);
+  border: 2px solid yellow;
+  /* background: white; */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
@@ -4548,7 +4641,8 @@ img.img-fluid.yimg {
 .custom_card_title {
   font-size: 20px;
   font-weight: bold;
-  color: #222;
+  color: rgb(255, 255, 255);
+  /* color: #222; */
 }
 
 .custom_card_text {
@@ -4559,16 +4653,18 @@ img.img-fluid.yimg {
 .custom_btn {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #007bff;
-  color: white;
+  background-color: yellow;
+  /* background-color: #007bff; */
+  color: rgb(0, 0, 0);
+  /* color: white; */
   text-decoration: none;
   border-radius: 4px;
   margin-top: 10px;
 }
 
-.custom_btn:hover {
+/* .custom_btn:hover {
   background-color: #0056b3;
-}
+} */
 
 .custom_view_more {
   margin-top: 30px;
@@ -4754,7 +4850,10 @@ img.img-fluid.yimg {
   align-items: center;
   padding: 15px 20px;
   cursor: pointer;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
+  background-color: rgb(0, 0, 0);
+  color: yellow !important;
+  border: 2px solid yellow;
   font-size: 18px;
 
 }
@@ -4780,8 +4879,12 @@ img.img-fluid.yimg {
   overflow: hidden;
   transition: max-height 0.4s ease;
   padding: 0 20px;
-  background-color: #E7F3FE80;
-  color: grey !important;
+  background-color: yellow;
+  color: rgb(0, 0, 0) !important;
+  /* border: 2px solid yellow; */
+
+  /* background-color: #E7F3FE80;
+  color: grey !important; */
 }
 
 .accordion-content.open {
@@ -4792,7 +4895,8 @@ img.img-fluid.yimg {
 
 .faq_heading_section {
   font-size: 20px !important;
-  color: #0464b4;
+  color: yellow;
+  /* color: #0464b4; */
   font-weight: 600;
 }
 
@@ -4805,7 +4909,8 @@ img.img-fluid.yimg {
 
 .smile_stories_section {
 
-  color: white !important;
+  color: #ffff00 !important;
+  /* color: white !important; */
 }
 
 
@@ -5067,6 +5172,7 @@ img.img-fluid.yimg {
 
 .logo-bg {
   background-color: #ffffff;
+  /* background-color: #ffffff; */
   /* white background */
   padding: 6px 10px;
   /* small gap around logo */
@@ -5253,7 +5359,8 @@ img.img-fluid.yimg {
 .appointment-form {
   max-width: 900px;
   padding: 35px;
-  background: #ffffff;
+  background: #ffff00;
+  /* background: #ffffff; */
   border-radius: 18px;
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
 }
@@ -5261,14 +5368,16 @@ img.img-fluid.yimg {
 .appointment-form label {
   font-weight: 600;
   margin-bottom: 6px;
-  color: #444;
+  color: #000000;
+  /* color: #444; */
   margin-left: 6px;
 }
 
 .appointment-form .form-control {
   height: 48px;
   border-radius: 12px;
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
+  /* border: 1px solid #ddd; */
   transition: all 0.3s ease;
 }
 
@@ -5285,7 +5394,8 @@ img.img-fluid.yimg {
 .appointment-form button {
   border-radius: 14px;
   font-weight: 600;
-  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  background: linear-gradient(135deg, #000000, #000000d9);
+  /* background: linear-gradient(135deg, #0d6efd, #6610f2); */
   border: none;
 }
 
@@ -5353,3 +5463,39 @@ img.img-fluid.yimg {
 }
 
 
+.index_youtube_section {
+  border: 2px solid yellow !important;
+  border-radius: 6px;
+}
+
+.footer_border_section{
+  border-top: 2px solid yellow;
+}
+
+
+.blog_section_stylings{
+  background-color: black;
+  padding-top:20px;
+}
+
+.vimala_section_bg_color{
+  background-color: black;
+}
+
+.vinal_h1_section{
+  color: yellow;
+  display: flex;
+  justify-content: center;
+}
+.vimala_smile_section p {
+  color: white;
+}
+
+
+.google_reviews{
+  background-color: #ffff00;
+}
+
+.service_section{
+  margin-top: -40px !important;
+}

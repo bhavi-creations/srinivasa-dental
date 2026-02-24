@@ -137,20 +137,20 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center index_section">
                     <img src="assets/img/srinivasa/clipboard.png" alt="" class="img-fluid">
                     <h3 class="mini_con mt-4">Affordable Price</h3>
                     <p class="mini_para">Our hospital offers high-quality medical care at affordable prices,
                         ensuring everyone has access to essential health services.
                         We prioritize cost-effective treatments without compromising on patient safety or care.</p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center index_section">
                     <img src="assets/img/srinivasa/tools.png" alt="" class="img-fluid">
                     <h3 class="mini_con mt-4">Professional Dentist</h3>
                     <p class="mini_para">Our hospital features highly skilled and experienced dentists committed to providing exceptional dental care. With state-of-the-art equipment and personalized treatment plans, we ensure your dental health is in expert hands.
                     </p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center index_section">
                     <img src="assets/img/srinivasa/chair.png" alt="" class="img-fluid">
                     <h3 class="mini_con mt-4">Satisfactory Service</h3>
                     <p class="mini_para">Our hospital is dedicated to providing patient-centered care that exceeds expectations. We ensure every visit is met with attentive service, compassionate staff, and a focus on your comfort and satisfaction.
@@ -171,7 +171,7 @@
             <div class="row">
 
 
-                <div class="col-md-6 order-2 order-md-1" data-aos="fade-right">
+                <div class="col-md-6 order-2 index_youtube_section order-md-1" data-aos="fade-right">
                     <!-- <iframe class="video-frame   img_padding"
                         src="https://www.youtube.com/embed/UEm0ustQR1I?start=7&autoplay=1&mute=1&loop=10"
                         frameborder="0"
@@ -267,7 +267,7 @@
     </section>
 
 
-    <section class="happpy_section mt-3  d-md-none ">
+    <section class="happpy_section   d-md-none ">
         <div class="container">
             <div class="row">
                 <div class="col-6">
@@ -1150,7 +1150,7 @@
     <section>
         <div class="container">
 
-            <h1 class="text-center">Frequently Ask Question (FAQ)</h1>
+            <h1 class="text-center" style="color: yellow;">Frequently Ask Question (FAQ)</h1>
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="accordion">

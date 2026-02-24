@@ -34,7 +34,7 @@ $result = $stmt->get_result();
 <?php include 'navbar.php'; ?>
 
 
-<main>
+<main class="blog_section_stylings">
   <!-- Filter Buttons -->
   <div class="container">
     <div class="filter_buttons redirect_section mt-4">

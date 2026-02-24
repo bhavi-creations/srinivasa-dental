@@ -4,10 +4,10 @@
 <section>
 
     <div class="container">
-        <h1 class="pb-5">🦷 Harshitha’s Smile Journey: From Trauma to Transformation
+        <h1 class="pb-5 vinal_h1_section" >🦷 Harshitha’s Smile Journey: From Trauma to Transformation
         </h1>
         <div class="row">
-            <div class="col-12 col-md-6 ">
+            <div class="col-12 col-md-6 vimala_smile_section">
 
                 <p>
                     When Harshitha, a young woman from Pithapuram, walked into Srinivasa Multi Speciality Dental Hospital in Kakinada, her eyes reflected more than just physical pain — they held the weight of a traumatic memory.
@@ -26,7 +26,7 @@
                 <img src="assets/img/services/crowns/s1.png" alt="" class="img-fluid">
             </div>
         </div>
-        <div class="row">
+        <div class="row vimala_smile_section">
             <p>But what she didn’t lose was hope. </p>
 
             <p>Harshitha came to us looking not just for a dental solution, but to restore a part of herself that the accident had taken away. After a thorough clinical and radiographic evaluation, our team crafted a personalized treatment plan aimed at replacing her missing teeth while restoring aesthetics, function, and most importantly — her confidence.

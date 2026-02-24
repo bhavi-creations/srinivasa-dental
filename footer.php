@@ -1,4 +1,4 @@
-<footer id="footer">
+<footer id="footer" class="footer_border_section">
   <div class="footer-top">
     <div class="container py-5">
       <div class="row">
@@ -258,10 +258,10 @@
       </div>
     </div>
   </div>
-
+  <!-- #000a2d -->
   <div
     class="footer-area-bottom theme-bg"
-    style="background-color: #000a2d">
+    style="background-color: yellow">
     <div class="container">
       <div class="row pt-4">
 
@@ -270,11 +270,11 @@
             <p class=" last_text">
               <a
                 href="terms.php"
-                style="text-decoration: none; color: #ffffff">Terms & conditions
+                style="text-decoration: none; color: #000000">Terms & conditions
               </a>
               <a
                 href="privacy.php"
-                style="text-decoration: none; color: #ffffff">
+                style="text-decoration: none; color: #000000">
                 Privacy & policy</a>
             </p>
           </div>
@@ -304,115 +304,116 @@
       </div>
     </div>
   </div>
+</footer>
 
-  <!-- spped -->
-  <script src="your-script.js" async></script>
+<!-- spped -->
+<script src="your-script.js" async></script>
 
-  <script src="your-script.js" defer></script>
-  <!-- <IfModule mod_expires.c>
+<script src="your-script.js" defer></script>
+<!-- <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType text/css "access plus 1 month"
   ExpiresByType application/javascript "access plus 1 month"
 </IfModule> -->
 
-  <!-- Scroll Up Button  -->
-  <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
+<!-- Scroll Up Button  -->
+<button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
-  <script>
-    // Function to scroll to the top of the page
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth' // Optional, smooth scrolling animation
-      });
-    }
-
-    // Show scroll button when scrolling down
-    window.onscroll = function() {
-      scrollFunction()
-    };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("scrollBtn").style.display = "block";
-      } else {
-        document.getElementById("scrollBtn").style.display = "none";
-      }
-    }
-  </script>
-
-  <style>
-    #scrollBtn {
-      display: none;
-      /* Initially hide the button */
-      position: fixed;
-      /* Fix the position of the button */
-      bottom: 20px;
-      /* Adjust the bottom distance */
-      right: 20px;
-      /* Adjust the right distance */
-      z-index: 999;
-      /* Set a high z-index to ensure the button is on top */
-      padding: 10px 15px;
-      background-color: #01539D;
-      ;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-    }
-  </style>
-
-  <a href="https://api.whatsapp.com/send?phone=919290019948" style="color: #fff;" class="whatsapp-link"
-    target="_blank">
-    <i class="fab fa-whatsapp"></i>
-  </a>
-
-
-
-
-
-  <a href="tel:+919290019948" style="color: #fff;" class="call_link  "
-    target="_blank">
-    <img src="assets\img\srinivasa\phone-call.png" alt="" style="width:50px;  height:50px;" ;>
-  </a>
-
-
-  <script>
-    document.getElementById('share-btn').addEventListener('click', function() {
-
-      const pageUrl = window.location.href; // Current page URL
-      const copyMessage = document.getElementById('copy-message');
-
-      navigator.clipboard.writeText(pageUrl)
-        .then(() => {
-          copyMessage.style.display = "inline";
-
-          setTimeout(() => {
-            copyMessage.style.display = "none";
-          }, 1000);
-        })
-        .catch(err => {
-          console.error("Copy failed:", err);
-        });
+<script>
+  // Function to scroll to the top of the page
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Optional, smooth scrolling animation
     });
-  </script>
+  }
+
+  // Show scroll button when scrolling down
+  window.onscroll = function() {
+    scrollFunction()
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("scrollBtn").style.display = "block";
+    } else {
+      document.getElementById("scrollBtn").style.display = "none";
+    }
+  }
+</script>
+
+<style>
+  #scrollBtn {
+    display: none;
+    /* Initially hide the button */
+    position: fixed;
+    /* Fix the position of the button */
+    bottom: 20px;
+    /* Adjust the bottom distance */
+    right: 20px;
+    /* Adjust the right distance */
+    z-index: 999;
+    /* Set a high z-index to ensure the button is on top */
+    padding: 10px 15px;
+    background-color: #01539D;
+    ;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+</style>
+
+<a href="https://api.whatsapp.com/send?phone=919290019948" style="color: #fff;" class="whatsapp-link"
+  target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
 
 
 
 
 
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+<a href="tel:+919290019948" style="color: #fff;" class="call_link  "
+  target="_blank">
+  <img src="assets\img\srinivasa\phone-call.png" alt="" style="width:50px;  height:50px;" ;>
+</a>
 
 
-  
+<script>
+  document.getElementById('share-btn').addEventListener('click', function() {
 
-  <script src="assets/js/main.js"></script>
+    const pageUrl = window.location.href; // Current page URL
+    const copyMessage = document.getElementById('copy-message');
+
+    navigator.clipboard.writeText(pageUrl)
+      .then(() => {
+        copyMessage.style.display = "inline";
+
+        setTimeout(() => {
+          copyMessage.style.display = "none";
+        }, 1000);
+      })
+      .catch(err => {
+        console.error("Copy failed:", err);
+      });
+  });
+</script>
+
+
+
+
+
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+
+
+<script src="assets/js/main.js"></script>

@@ -8,7 +8,7 @@
 
   <main id="main">
 
-    <section class="sectionForm mt-5 pt-5">
+    <section class="sectionForm  pt-5">
       <div class="container">
         <div class="row servSect">
           <div class="col-md-4">
