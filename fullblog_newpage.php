@@ -448,7 +448,7 @@ function getLimitWords($text, $limit = 15)
                 <div class="doctor-card-premium">
                     <div class="doctor-image-wrapper">
                         <img src="./assets/img/srinivasa/kiran_raju_1.png" class="doctor-profile-img" alt="Dr. Kiran">
-                        <div class="experience-badge">15+ Years Exp</div>
+                        <div class="experience-badge">10+ Years Exp</div>
                     </div>
                     <div class="doctor-info">
                         <div class="doctor-title-area">

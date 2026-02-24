@@ -745,10 +745,11 @@ h6 {
 
 /* Active link styles */
 .navbar ul li a.active {
-  color: #fff;
+  color: #000000;
   /* Text color when active */
   /* background-color: #007bff; */
-  background-color: #97c033;
+  background-color: #ffff00;
+  /* background-color: #97c033; */
 
   /* Background color when active */
   border-radius: 5px;
