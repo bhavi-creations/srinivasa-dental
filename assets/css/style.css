@@ -2097,18 +2097,20 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #01539d;
+  background: #f6ff00;
+  /* background: #01539d; */
   border: 0;
   padding: 10px 30px;
-  color: #fff;
+  color: #000000; 
+  /* color: #fff; */
   transition: 0.4s;
   border-radius: 4px;
   font-family: "Azeret Mono", monospace;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+/* .contact .php-email-form button[type="submit"]:hover {
   background: #133d4e;
-}
+} */
 
 @keyframes animate-loading {
   0% {

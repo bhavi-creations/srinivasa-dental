@@ -343,7 +343,7 @@
         </div>
         <div class="index_new_doctor_bracket"></div>
         <div class="index_new_doctor_badge">
-          <div class="index_new_doctor_badge_num">15+</div>
+          <div class="index_new_doctor_badge_num">10+</div>
           <div class="index_new_doctor_badge_text">Years of<br>Trust</div>
         </div>
       </div>
