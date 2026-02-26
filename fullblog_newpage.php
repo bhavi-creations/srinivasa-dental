@@ -57,7 +57,7 @@ function getLimitWords($text, $limit = 15)
         }
 
         body {
-            background-color:#fff000;
+            background-color: #fff000;
             font-family: 'Poppins', sans-serif;
             color: #333;
         }
@@ -107,7 +107,8 @@ function getLimitWords($text, $limit = 15)
         }
 
         .lang-switcher {
-            background: var(--soft-cream);
+            background: yellow;
+            /* background: var(--soft-cream); */
             padding: 5px;
             border-radius: 50px;
             display: inline-flex;
@@ -119,13 +120,15 @@ function getLimitWords($text, $limit = 15)
             border-radius: 50px;
             border: none;
             background: transparent;
-            color: var(--primary-navy);
+            color: black;
+            /* color: var(--primary-navy); */
             font-weight: 600;
             cursor: pointer;
         }
 
         .lang-btn.active {
-            background: var(--primary-navy);
+            background: black;
+            /* background: var(--primary-navy); */
             color: white;
         }
 
@@ -416,6 +419,20 @@ function getLimitWords($text, $limit = 15)
                 border-top: 3px solid #dea13e;
             }
         }
+
+        /* పాత కోడ్ ప్లేస్ లో ఇది రీప్లేస్ చేయండి */
+        .img-wrapper img {
+            width: 100%;
+            height: auto;
+            /* హైట్ ఫిక్స్ చేయకుండా ఆటోలో ఉంచండి */
+            max-height: 500px;
+            /* ఇమేజ్ మరీ పెద్దది కాకుండా ఒక లిమిట్ */
+            object-fit: contain;
+            /* ఇమేజ్ కట్ అవ్వకుండా బాక్స్‌లో సెట్ అవుతుంది */
+            border-radius: 25px;
+            background-color: #000;
+            /* ఒకవేళ ఇమేజ్ చిన్నదైతే సైడ్స్ నల్లగా కనిపిస్తాయి, కట్ అవ్వదు */
+        }
     </style>
 </head>
 
@@ -437,7 +454,7 @@ function getLimitWords($text, $limit = 15)
 
             <div class="lang-container">
                 <div class="lang-switcher">
-                    <button class="lang-btn active" id="btn-en" onclick="switchLang('en')">EN</button>
+                    <button class="lang-btn active" id="btn-en" onclick="switchLang('en')">English</button>
                     <button class="lang-btn" id="btn-te" onclick="switchLang('te')">తెలుగు</button>
                 </div>
             </div>

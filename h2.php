@@ -73,7 +73,8 @@
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             margin-bottom: 24px;
-            border-bottom: 4px solid var(--primary-blue);
+            border-bottom: 4px solid #ffff00;
+            /* border-bottom: 4px solid var(--primary-blue); */
         }
 
         .logo-icon {
@@ -114,11 +115,13 @@
             padding: 40px;
             box-shadow: 0 15px 35px rgba(0, 74, 153, 0.05);
             transition: all 0.3s ease;
-            border-left: 6px solid #ffffff;
+            border-left: 6px solid #ffff00;
+            /* border-left: 6px solid #ffffff; */
         }
 
         .vm-card.mission {
-            border-left-color: #ffffff;
+            border-left-color: #ffff00;
+            /* border-left-color: #ffffff; */
         }
 
         .vm-card:hover {

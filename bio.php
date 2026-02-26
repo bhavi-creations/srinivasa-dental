@@ -324,11 +324,11 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
-        .nav-arrow:hover {
+        /* .nav-arrow:hover {
             background: #667eea;
             color: white;
             transform: translateY(-50%) scale(1.1);
-        }
+        } */
 
         .nav-arrow.prev {
             left: 20px;
@@ -434,7 +434,7 @@
                             <div class="image-content">
                                 <div class="image-wrapper">
                                     <div class="image-frame">
-                                        <img src="assets/img/srinivasa/kiran_raju.png" class="doctor-image" alt="Dr. Kiran Raju">
+                                        <img src="./assets/img/srinivasa/kiran_raju_1.png" class="doctor-image" alt="Dr. Kiran Raju">
                                     </div>
                                 </div>
                             </div>

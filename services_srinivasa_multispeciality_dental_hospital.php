@@ -8,7 +8,7 @@
 
 
 
-        <section>
+        <!-- <section>
             <div class="container">
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4  g-4">
                     <div class="col">
@@ -223,10 +223,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
-
+<?php include 's11.php' ; ?>
 
 
 
@@ -240,4 +240,3 @@
 
 
 
-not intreasted for treatnt

@@ -107,7 +107,7 @@
 
 
     <div class="container">
-        <p style="letter-spacing: 6px; font-size: 25px ; color:#a5d7f9; font-weight: 900; " class="text-center">Srinivasa Dental Hospital </p>
+        <p style="letter-spacing: 6px; font-size: 25px ; color:#ffff00; font-weight: 900; " class="text-center">Srinivasa Dental Hospital </p>
         <h1 class="text-center">Smile Stories</h1>
         <div class="row">
 

@@ -597,7 +597,7 @@
               Posts
             </a>
             <ul class="dropdown-menu post_section " aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="blogs_srinivasa_multispeciality_dental_hospital.php">Blogs</a></li>
+              <li><a class="posts" href="blogs_srinivasa_multispeciality_dental_hospital.php">Blogs</a></li>
               <li><a class="dropdown-item" href="news_srinivasa_multispeciality_dental_hospital.php">News letter</a></li>
               <li><a class="dropdown-item" href="smile_stories_srinivasa_multispeciality_dental_hospital.php">Smile Stories</a></li>
               <li><a class="dropdown-item" href="youtube_gallery_srinivasa_multispeciality_dental_hospital.php">Youtube Gallery</a></li>
@@ -620,17 +620,18 @@
 
             </ul>
           </li>
-          <li><a class="nav-link  " target="_blank" href="https://smile-view.invisalign.in/?campaign_name=SmileView-Consumer_IN_India-Consumer">Smile test</a></li>
+          <!-- <li><a class="nav-link  " target="_blank" href="https://smile-view.invisalign.in/?campaign_name=SmileView-Consumer_IN_India-Consumer">Smile test</a></li> -->
+          <li><a class="nav-link  " target="_blank" href="contact_srinivasa_multispeciality_dental_hospital.php">Contact</a></li>
 
-          <li><a href="appointment_srinivasa_dental_hospital.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
+          <!-- <li><a href="appointment_srinivasa_dental_hospital.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
               Appointment
-            </a></li>
+            </a></li> -->
         </ul>
       </nav>
 
-      <a href="appointment_srinivasa_dental_hospital.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
+      <!-- <a href="appointment_srinivasa_dental_hospital.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
         For Appointment
-      </a>
+      </a> -->
     </div>
   </header>
 

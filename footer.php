@@ -160,6 +160,11 @@
           </a><a href="contact_srinivasa_multispeciality_dental_hospital.php">
             <p class="foot_para">Contact</p>
           </a>
+
+          <a href="appointment_srinivasa_dental_hospital.php">
+            <p class="foot_para">  Appointment</p>
+          </a>
+          
           <a target="_blank" href="https://smile-view.invisalign.in/?campaign_name=SmileView-Consumer_IN_India-Consumer">
             <p class="foot_para">Smile test</p>
           </a>
@@ -355,9 +360,10 @@
     z-index: 999;
     /* Set a high z-index to ensure the button is on top */
     padding: 10px 15px;
-    background-color: #01539D;
-    ;
-    color: white;
+    background-color: #ffff00;;
+    /* background-color: #01539D;; */
+    color: black;
+    /* color: white; */
     border: none;
     border-radius: 50%;
     cursor: pointer;
