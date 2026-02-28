@@ -1,7 +1,7 @@
 <?php include 'navbar.php'; ?>
 
 <style>
-    .card-container {
+    .smile_stories_smile_stories_card-container {
         position: relative;
         width: 100%;
         /* max-width: 320px; */
@@ -13,30 +13,30 @@
     }
 
 
-    /* .card-container{
+    /* .smile_stories_card-container {
         display: flex;
         justify-content: center;
     } */
-    .card-container:hover {
+    .smile_stories_card-container :hover {
         transform: scale(1.03);
     }
 
-    .image-wrapper {
+    .smile_stories_image-wrapper {
         position: relative;
         overflow: hidden;
     }
 
-    .image-wrapper img {
+    .smile_stories_image-wrapper img {
         width: 100%;
         display: block;
         transition: transform 0.5s ease;
     }
 
-    .card-container:hover .image-wrapper img {
+    .smile_stories_card-container :hover .smile_stories_image-wrapper img {
         transform: scale(1.1);
     }
 
-    .overlay-background {
+    .smile_stories_overlay-background {
         position: absolute;
         top: 0;
         left: 0;
@@ -49,11 +49,11 @@
         z-index: 1;
     }
 
-    .card-container:hover .overlay-background {
+    .smile_stories_card-container :hover .smile_stories_overlay-background {
         opacity: 1;
     }
 
-    .content-overlay {
+    .smile_stories_content-overlay {
         position: absolute;
         bottom: 20px;
         left: 20px;
@@ -64,33 +64,33 @@
         transition: transform 0.3s ease;
     }
 
-    .card-container:hover .content-overlay {
+    .smile_stories_card-container :hover .smile_stories_content-overlay {
         transform: translateY(-20px);
     }
 
-    .read-more,
-    .content-overlay hr {
+    .smile_stories_read-more,
+    .smile_stories_content-overlay hr {
         opacity: 0;
         transform: translateY(10px);
         transition: opacity 0.3s ease, transform 0.3s ease;
     }
 
-    .card-container:hover .read-more,
-    .card-container:hover .content-overlay hr {
+    .smile_stories_card-container :hover .smile_stories_read-more,
+    .smile_stories_card-container :hover .smile_stories_content-overlay hr {
         opacity: 1;
         transform: translateY(0);
     }
 
-    .read-more {
+    .smile_stories_read-more {
         display: block;
         margin-top: 10px;
-        color:yellow;
+        color: yellow;
         /* color: #a5d7f9; */
         font-weight: bold;
         text-decoration: none;
     }
 
-    .content-overlay hr {
+    .smile_stories_content-overlay hr {
         border: 1px solid #a5d7f9;
         margin: 10px 0;
     }
@@ -114,22 +114,22 @@
 
 
             <div class="col-md-4 col-12 pb-5">
-                <div class="card-container">
-                    <div class="image-wrapper">
+                <div class="smile_stories_card-container ">
+                    <div class="smile_stories_image-wrapper">
                         <img src="assets/img/services/crowns/11.png" alt="Smile Story Image" class="img-fluid">
 
 
 
 
-                        <div class="overlay-background"></div>
-                        <div class="content-overlay">
+                        <div class="smile_stories_overlay-background"></div>
+                        <div class="smile_stories_content-overlay">
                             <a href="vimala_smile.php" style="text-decoration: none;">
                                 <p class="smile_stories_section">
                                     Vimala’s Smile Revival: Subtle Changes, Big Confidence
                                 </p>
                             </a>
                             <hr>
-                            <a href="vimala_smile.php" class="read-more">Read More →</a>
+                            <a href="vimala_smile.php" class="smile_stories_read-more">Read More →</a>
                         </div>
                     </div>
                 </div>
@@ -141,47 +141,47 @@
 
 
             <!-- <div class="col-md-4 col-12 pb-5">
-                <div class="card-container">
+                <div class="smile_stories_card-container ">
 
                     <img src="assets/img/services/crowns/22.png" alt="" class="img-fluid ">
 
 
 
 
-                    <div class="overlay-background"></div>
-                    <div class="content-overlay">
+                    <div class="smile_stories_overlay-background"></div>
+                    <div class="smile_stories_content-overlay">
                         <a href="vimala_smile.php" style="text-decoration: none;">
                             <p class="smile_stories_section">
                                 Vimala’s Smile Revival: Subtle Changes, Big Confidence
                             </p>
                         </a>
                         <hr>
-                        <a href="vimala_smile.php" class="read-more">Read More →</a>
+                        <a href="vimala_smile.php" class="smile_stories_read-more">Read More →</a>
                     </div>
                 </div>
             </div> -->
 
-   <div class="col-md-4 col-12 pb-5">
-            <div class="card-container">
-                <div class="image-wrapper">
-                    <img src="assets/img/services/crowns/22.png" alt="Smile Story Image" class="img-fluid">
-                    <div class="overlay-background"></div>
-                    <div class="content-overlay">
-                        <a href="harshitha_smile.php" style="text-decoration: none;">
-                            <p class="smile_stories_section">
-                                Harshitha’s Smile Journey: From Trauma to Transformation.
-                            </p>
-                        </a>
-                        <hr>
-                        <a href="harshitha_smile.php" class="read-more">Read More →</a>
+            <div class="col-md-4 col-12 pb-5">
+                <div class="smile_stories_card-container ">
+                    <div class="smile_stories_image-wrapper">
+                        <img src="assets/img/services/crowns/22.png" alt="Smile Story Image" class="img-fluid">
+                        <div class="smile_stories_overlay-background"></div>
+                        <div class="smile_stories_content-overlay">
+                            <a href="harshitha_smile.php" style="text-decoration: none;">
+                                <p class="smile_stories_section">
+                                    Harshitha’s Smile Journey: From Trauma to Transformation.
+                                </p>
+                            </a>
+                            <hr>
+                            <a href="harshitha_smile.php" class="smile_stories_read-more">Read More →</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
         </div>
 
-     
+
 
 
 

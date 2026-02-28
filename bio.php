@@ -74,6 +74,7 @@
             margin-bottom: 15px;
             letter-spacing: -2px;
             animation: fadeInDown 1s ease-out;
+            font-family: 'gilda display', serif !important;
         }
 
         .main-subtitle {
@@ -83,6 +84,7 @@
             font-weight: 400;
             letter-spacing: 1px;
             animation: fadeInUp 1s ease-out 0.2s both;
+            font-family: 'barlow',sans-serif;
         }
 
         @keyframes fadeInDown {
@@ -183,6 +185,7 @@
             background-clip: text;
             margin-bottom: 15px;
             letter-spacing: -1px;
+            font-family: 'gilda display', serif;
         }
 
         .doctor-degree {

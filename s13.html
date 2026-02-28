@@ -1,372 +1,270 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="te">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Srinivasa Dental Clinic</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Playfair+Display:wght@700;900&display=swap"
-        rel="stylesheet">
+    <title>Veda Dentistry Section</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
 
     <style>
-        .about_page_custom_section {
-            background-color: #000000;
-            padding: 110px 0;
-            color: #ffffff;
-            font-family: 'Poppins', sans-serif;
-            position: relative;
+        :root {
+            --bg-gold: #c29d59;
+            --bg-dark: #1a1a1a;
+            --bg-card-bg: #fdfaf5;
         }
 
-        /* Badge & Title */
-        .about_page_badge {
-            color: #FFD700;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 3px;
+        body {
+            background-color: var(--bg-dark);
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .bg_section_custom {
+            padding: 100px 0;
+            background-color: var(--bg-dark);
+            overflow: hidden;
+        }
+
+        /* Left Content Styling */
+        .bg_section_brand-subtitle {
+            color: #ffff00;
+            /* color: var(--bg-gold); */
+            letter-spacing: 2px;
             font-size: 0.85rem;
-            display: inline-block;
-            margin-bottom: 10px;
-            padding-left: 50px;
-            position: relative;
+            text-transform: uppercase;
+            font-weight: 600;
         }
 
-        .about_page_badge::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 50%;
-            width: 40px;
-            height: 2px;
-            background: #FFD700;
-        }
-
-        .about_page_title {
+        .bg_section_main-title {
             font-family: 'Playfair Display', serif;
-            font-size: 3.5rem;
-            font-weight: 900;
-            margin-bottom: 35px;
-            line-height: 1.1;
-        }
-
-        .about_page_text_yellow {
-            color: #FFD700;
-        }
-
-        /* Content Boxes */
-        .about_page_content_box {
-            background: rgba(255, 255, 255, 0.03);
-            padding: 30px;
-            border-radius: 20px;
-            border-left: 4px solid #FFD700;
-            margin-bottom: 22px;
-            transition: all 0.4s ease;
-            backdrop-filter: blur(10px);
-        }
-
-        .about_page_content_box:hover {
-            background: rgba(255, 255, 255, 0.07);
-            transform: translateX(10px);
-        }
-
-        .about_page_para {
-            font-size: 1rem;
-            line-height: 1.9;
-            color: #c8c8c8;
-            text-align: justify;
-        }
-
-        .about_page_dr_highlight {
-            color: #FFD700;
+            font-size: clamp(2.5rem, 4vw, 3.5rem);
+            margin-bottom: 25px;
             font-weight: 700;
         }
 
-        /* Read More Button Styling */
-        .about_page_readmore_btn {
-            background: transparent;
-            color: #FFD700;
-            border: 2px solid #FFD700;
-            padding: 10px 25px;
-            border-radius: 50px;
-            font-weight: 600;
+        .bg_section_contact-info {
+            color:#ffff00;
+            /* color: var(--bg-gold); */
+            font-size: 1.6rem;
+            text-decoration: none;
+            font-weight: 700;
             transition: 0.3s;
+        }
+
+        .bg_section_contact-info:hover {
+            color: white;
+        }
+
+        /* Slider Styling - Updated for 2 Cards Visibility */
+        .bg_section_slider-wrapper {
             display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-top: 10px;
+            overflow: hidden;
+            padding: 20px 0;
         }
 
-        .about_page_readmore_btn:hover {
-            background: #FFD700;
-            color: #000;
-            box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
-        }
-
-        /* Hide Content with Animation */
-        #more_content {
-            display: none;
-            opacity: 0;
-            transition: opacity 0.5s ease;
-        }
-
-        #more_content.show {
-            display: block;
-            opacity: 1;
-        }
-
-        /* Image & History Card */
-        .about_page_image_container {
-            position: relative;
-            animation: float 6s ease-in-out infinite;
-        }
-
-        @keyframes float {
-
-            0%,
-            100% {
-                transform: translateY(0);
-            }
-
-            50% {
-                transform: translateY(-15px);
-            }
-        }
-
-        .about_page_img {
-            width: 100%;
-            border-radius: 20px;
-            border: 1px solid rgba(255, 215, 0, 0.2);
-        }
-
-        .about_page_history_card {
-            background: linear-gradient(135deg, #FFD700 0%, #b8860b 100%);
-            color: #000;
-            padding: 25px;
-            border-radius: 18px;
-            margin-top: -50px;
-            position: relative;
-            z-index: 5;
-            width: 85%;
-            margin-left: auto;
-            margin-right: auto;
-            box-shadow: 0 15px 40px rgba(255, 215, 0, 0.4);
-        }
-
-        /* Doctor Chips */
-        .about_page_doctor_chip {
-            background: rgba(255, 215, 0, 0.1);
-            border: 1px solid rgba(255, 215, 0, 0.3);
-            padding: 12px 20px;
-            border-radius: 50px;
+        .bg_section_card-slider-container {
             display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-top: 15px;
+            gap: 25px;
+            animation: scroll-2-cards 20s linear infinite;
+            width: max-content;
         }
 
-        .about_page_doctor_chip i {
-            color: #FFD700;
-        }
-
-        @media (max-width: 992px) {
-            .about_page_title {
-                font-size: 2.5rem;
+        /* Animation optimized for 2.2 cards visibility (showing a peek of next) */
+        @keyframes scroll-2-cards {
+            0% {
+                transform: translateX(0);
             }
-        }
 
-        /* new stylings  */
-        /* Advanced Image Frame with Decorative Elements */
-        .about_page_image_wrapper {
-            position: relative;
-            padding: 30px;
-            z-index: 1;
-        }
-
-        /* Floating Animation for Wrapper */
-        .about_page_image_wrapper {
-            animation: about_page_float 6s ease-in-out infinite;
-        }
-
-        @keyframes about_page_float {
-
-            0%,
             100% {
-                transform: translateY(0);
-            }
-
-            50% {
-                transform: translateY(-20px);
+                transform: translateX(calc(-400px * 2 - 50px));
             }
         }
 
-        /* Top-Left Corner Shape */
-        .about_page_shape_tl {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100px;
-            height: 100px;
-            border-top: 5px solid #FFD700;
-            border-left: 5px solid #FFD700;
-            border-radius: 20px 0 0 0;
-            z-index: -1;
+        .bg_section_custom-card {
+            width: 400px;
+            /* Width increased to occupy more space */
+            background-color: var(--bg-card-bg);
+            color: #333;
+            border: none;
+            border-radius: 15px;
+            /* Added rounded corners for modern look */
+            flex-shrink: 0;
+            overflow: hidden;
+            transition: transform 0.4s ease;
         }
 
-        /* Bottom-Right Corner Shape */
-        .about_page_shape_br {
-            position: absolute;
-            bottom: 50px;
-            /* Adjust based on history card height */
-            right: 0;
-            width: 100px;
-            height: 100px;
-            border-bottom: 5px solid #FFD700;
-            border-right: 5px solid #FFD700;
-            border-radius: 0 0 20px 0;
-            z-index: -1;
+        .bg_section_custom-card:hover {
+            transform: translateY(-10px);
         }
 
-        /* Decorative Dots Pattern */
-        .about_page_dots {
-            position: absolute;
-            top: -15px;
-            right: -15px;
-            width: 80px;
-            height: 80px;
-            background-image: radial-gradient(#FFD700 2px, transparent 2px);
-            background-size: 15px 15px;
-            z-index: -1;
-            opacity: 0.5;
-        }
-
-        .about_page_img {
+        .bg_section_custom-card img {
+            height: 280px;
+            object-fit: cover;
             width: 100%;
-            border-radius: 20px;
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8);
-            border: 1px solid rgba(255, 215, 0, 0.2);
-            position: relative;
-            z-index: 2;
         }
 
-        /* Gradient Overlay behind image */
-        .about_page_img_glow {
-            position: absolute;
-            inset: 40px;
-            background: #FFD700;
-            filter: blur(80px);
-            opacity: 0.15;
-            z-index: 0;
+        .bg_section_card-body {
+            padding: 35px;
+            min-height: 220px;
         }
 
-       
+        .bg_section_card-title {
+            font-family: serif;
+            font-size: 1.7rem;
+            color: #222;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .bg_section_card-text {
+            color: #555;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        .bg_section_check-icon {
+            color: #000000;
+            /* color: var(--bg-gold); */
+            margin-right: 12px;
+            font-size: 1.1rem;
+        }
+
+        /* Pause animation on hover */
+        .bg_section_slider-wrapper:hover .bg_section_card-slider-container {
+            animation-play-state: paused;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .bg_section_custom-card {
+                width: 350px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .bg_section_custom-card {
+                width: 280px;
+            }
+
+            .bg_section_main-title {
+                font-size: 2.2rem;
+            }
+        }
     </style>
 </head>
 
 <body>
 
-    <section class="about_page_custom_section px-1">
-        <div class="container">
-            <div class="row align-items-center g-5">
+    <section class="bg_section_custom">
+        <div class="container ps-lg-5">
+            <div class="row align-items-center">
 
-                <div class="col-lg-7">
-                    <span class="about_page_badge">About Us</span>
-                    <h2 class="about_page_title">
-                        Our <span class="about_page_text_yellow">History</span> &amp; Mission
-                    </h2>
-
-                    <div class="about_page_content_box">
-                        <p class="about_page_para">
-                            Our hospital, established in <strong style="color:#fff;">2014</strong>, is equipped with
-                            advanced infrastructure to provide specialized oral health care. Thousands of patients have
-                            benefited from our comprehensive dental services, improving their oral and overall health.
-                            As a team, we continue to bring smiles to families through ethical dental practices in
-                            Kakinada.
-                            <span class="about_page_dr_highlight"> Dr. D.V.S. Kiran Raju, M.D.S.</span>, specializes in
-                            braces.
-                        </p>
-                    </div>
-
-                    <div id="more_content">
-                        <div class="about_page_content_box">
-                            <p class="about_page_para">
-                                Our dedicated clinician excels in pain management, replacement of missing teeth,
-                                esthetic dentistry, and strives to offer complete care by utilizing advanced techniques.
-                                We are the best dental clinic in Kakinada.
-                                <span class="about_page_dr_highlight"> Dr. Sree Lakshmi Deepika</span> strongly believes
-                                that 'Natural tooth is a God's gift.' As a specialist in advanced gum care and surgical
-                                treatments, she is committed to saving natural teeth. Proficient in implants and laser
-                                therapies, she is dedicated to providing quality dental care at Srinivasa Dental Clinic
-                                in Kakinada.
-                            </p>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <p class="bg_section_brand-subtitle mb-2">Srinivasa Multispeciality Dental Hospital </p>
+                    <h2 class="bg_section_main-title text-white">Why Choose Us?</h2>
+                    <p class="text-white mb-4 fs-5" style="max-width: 420px; opacity: 0.8;">
+                        At Srinivasa Multispeciality Dental Hospital, we provide advanced dental care in a warm and
+                        welcoming environment
+                    </p>
+                    <div class="d-flex align-items-center mt-5">
+                        <div class="me-4">
+                            <div class="bg-dark p-3 rounded-circle" style="border: 1px solid #ffff00;">
+                                <i class="fa fa-phone-alt fa-lg" style="color: #ffff00;"></i>
+                            </div>
                         </div>
-
-                        <!-- <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="about_page_doctor_chip">
-                                    <i class="fas fa-user-md"></i>
-                                    <span class="small fw-bold">Dr. D.V.S. Kiran Raju<br><small
-                                            class="text-white-50">Orthodontist</small></span>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="about_page_doctor_chip">
-                                    <i class="fas fa-user-md"></i>
-                                    <span class="small fw-bold">Dr. Sree Lakshmi Deepika<br><small
-                                            class="text-white-50">Gum Specialist</small></span>
-                                </div>
-                            </div>
-                        </div> -->
+                        <div>
+                            <small class="text-white d-block text-uppercase mb-1">For Information</small>
+                            <a href="tel:9290019948" class="bg_section_contact-info"> +91-9290019948</a>
+                        </div>
                     </div>
-
-                    <button class="about_page_readmore_btn" onclick="toggleAboutContent()" id="readmore_btn">
-                        <span>Read More</span> <i class="fas fa-chevron-down"></i>
-                    </button>
                 </div>
 
-                <div class="col-lg-5">
-                    <div class="about_page_image_wrapper">
-                        <div class="about_page_img_glow"></div>
+                <div class="col-lg-8">
+                    <div class="bg_section_slider-wrapper">
+                        <div class="bg_section_card-slider-container">
+                            <div class="card bg_section_custom-card">
+                                <img src="./assets/img/hospital_video/1.png"
+                                    alt="Waiting Area">
+                                <div class="bg_section_card-body">
+                                    <h3 class="bg_section_card-title">Patient-Centered Care</h3>
+                                    <p class="bg_section_card-text">
+                                        <i class="fa fa-circle-check bg_section_check-icon"></i>
+                                        <!-- Every treatment is tailored to individual needs and comfort. -->
+                                        Every treatment is tailored to individual needs and comfort. We focus on clear
+                                        communication and personalized attention to ensure a positive patient
+                                        experience.
+                                    </p>
+                                </div>
+                            </div>
 
-                        <div class="about_page_shape_tl"></div>
-                        <div class="about_page_dots"></div>
+                            <div class="card bg_section_custom-card">
+                                <img src="./assets/img/hospital_video/2.png"
+                                    alt="Payment">
+                                <div class="bg_section_card-body">
+                                    <h3 class="bg_section_card-title">Advanced Clinical Technology</h3>
+                                    <p class="bg_section_card-text">
+                                        <i class="fa fa-circle-check bg_section_check-icon"></i>
+                                        <!-- Modern equipment ensures precise and efficient procedures. -->
 
-                        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80" alt="Clinic"
-                            class="about_page_img">
+                                        Modern equipment ensures precise and efficient procedures. This allows for
+                                        accurate diagnosis, improved treatment outcomes, and enhanced patient safety.
+                                    </p>
+                                </div>
+                            </div>
 
-                        <div class="about_page_shape_br"></div>
-                    </div>
+                            <div class="card bg_section_custom-card">
+                                <img src="./assets/img/hospital_video/3.png"
+                                    alt="Waiting Area">
+                                <div class="bg_section_card-body">
+                                    <h3 class="bg_section_card-title">Comprehensive Dental Solutions</h3>
+                                    <p class="bg_section_card-text">
+                                        <i class="fa fa-circle-check bg_section_check-icon"></i>
+                                        <!-- Complete oral care services under one roof. -->
+                                        Complete oral care services under one roof. From preventive care to advanced
+                                        procedures, we address all aspects of your dental health.
+                                    </p>
+                                </div>
+                            </div>
 
-                    <div class="about_page_history_card text-center">
-                        <h4 class="mb-0">Established  2014</h4>
-                        <p class="mb-0 fw-bold">10+ Years of Excellence</p>
+                            <div class="card bg_section_custom-card">
+                                <img src="./assets/img/hospital_video/4.png"
+                                    alt="Payment">
+                                <div class="bg_section_card-body">
+                                    <h3 class="bg_section_card-title">Strict Sterilization Protocols</h3>
+                                    <p class="bg_section_card-text">
+                                        <i class="fa fa-circle-check bg_section_check-icon"></i>
+                                        <!-- High standards of hygiene and infection control. -->
+                                        High standards of hygiene and infection control. We follow rigorous safety
+                                        measures to maintain a clean and secure clinical environment.
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="card bg_section_custom-card">
+                                <img src="./assets/img/hospital_video/5.png"
+                                    alt="Payment">
+                                <div class="bg_section_card-body">
+                                    <h3 class="bg_section_card-title">Clinical Excellence Commitment</h3>
+                                    <p class="bg_section_card-text">
+                                        <i class="fa fa-circle-check bg_section_check-icon"></i>
+                                        <!-- Dedicated to quality, expertise, and superior outcomes. -->
+                                        Dedicated to quality, expertise, and superior outcomes. Our team continuously
+                                        updates skills and knowledge to deliver the highest standard of care.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
     </section>
-
-    <script>
-        function toggleAboutContent() {
-            const moreContent = document.getElementById('more_content');
-            const btn = document.getElementById('readmore_btn');
-            const btnText = btn.querySelector('span');
-            const btnIcon = btn.querySelector('i');
-
-            if (moreContent.style.display === "block") {
-                moreContent.style.display = "none";
-                btnText.innerText = "Read More";
-                btnIcon.classList.replace('fa-chevron-up', 'fa-chevron-down');
-            } else {
-                moreContent.style.display = "block";
-                moreContent.classList.add('show');
-                btnText.innerText = "Read Less";
-                btnIcon.classList.replace('fa-chevron-down', 'fa-chevron-up');
-            }
-        }
-    </script>
 
 </body>
 
