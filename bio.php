@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,8 +18,7 @@
         }
 
         .doctor-carousel-section {
-            background: linear-gradient(135deg, #ffee00da 0%, #f8f800b3 100%);
-            /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -54,8 +54,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            50% { transform: translate(50px, 50px) scale(1.1); }
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            50% {
+                transform: translate(50px, 50px) scale(1.1);
+            }
         }
 
         /* Main Heading */
@@ -69,22 +76,19 @@
         .main-title {
             font-size: 56px;
             font-weight: 900;
-            color: black;
+            color: white;
             text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
             margin-bottom: 15px;
             letter-spacing: -2px;
             animation: fadeInDown 1s ease-out;
-            font-family: 'gilda display', serif !important;
         }
 
         .main-subtitle {
             font-size: 22px;
-            color: rgba(0, 0, 0, 0.95);
-            /* color: rgba(255, 255, 255, 0.95); */
+            color: rgba(255, 255, 255, 0.95);
             font-weight: 400;
             letter-spacing: 1px;
             animation: fadeInUp 1s ease-out 0.2s both;
-            font-family: 'barlow',sans-serif;
         }
 
         @keyframes fadeInDown {
@@ -92,6 +96,7 @@
                 opacity: 0;
                 transform: translateY(-30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -103,6 +108,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -112,8 +118,7 @@
         .carousel-container {
             max-width: 1200px;
             width: 100%;
-            background: rgba(0, 0, 0, 0.95);
-            /* background: rgba(255, 255, 255, 0.95); */
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             border-radius: 30px;
             box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
@@ -124,7 +129,7 @@
 
         .carousel-wrapper {
             position: relative;
-            padding: 60px 40px;
+            padding: 50px 40px;
         }
 
         .slide {
@@ -146,6 +151,7 @@
                 opacity: 0;
                 transform: translateX(50px) scale(0.95);
             }
+
             to {
                 opacity: 1;
                 transform: translateX(0) scale(1);
@@ -154,13 +160,13 @@
 
         .slide-content {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 40px;
             align-items: center;
         }
 
         .text-content {
-            padding: 20px;
+            padding: 10px 20px;
             animation: fadeInLeft 0.8s ease-out 0.2s both;
         }
 
@@ -169,6 +175,7 @@
                 opacity: 0;
                 transform: translateX(-30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateX(0);
@@ -176,39 +183,57 @@
         }
 
         .doctor-name {
-            font-size: 42px;
+            font-size: 36px;
             font-weight: 800;
-            background: linear-gradient(135deg, #f3f32edc, #e2e22ee0);
-            /* background: linear-gradient(135deg, #667eea, #764ba2); */
+            background: linear-gradient(135deg, #667eea, #764ba2);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             letter-spacing: -1px;
-            font-family: 'gilda display', serif;
         }
 
         .doctor-degree {
-            font-size: 20px;
-            color: #000000;
-            /* color: #6366f1; */
+            font-size: 18px;
+            color: #6366f1;
             font-weight: 600;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             display: inline-block;
-            padding: 8px 20px;
-            background: yellow;
-            /* background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); */
+            padding: 6px 18px;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
             border-radius: 25px;
             border: 2px solid rgba(102, 126, 234, 0.3);
         }
 
-        .doctor-description {
-            font-size: 18px;
-            line-height: 1.8;
-            color: #ffffff;
-            /* color: #4b5563; */
-            margin-bottom: 30px;
-            text-align: justify;
+        /* Feature Blocks for Detailed Content */
+        .doctor-services-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            max-height: 340px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .service-block {
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .service-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+
+        .service-desc {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #4a5568;
         }
 
         .image-content {
@@ -223,6 +248,7 @@
                 opacity: 0;
                 transform: translateX(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateX(0);
@@ -231,8 +257,8 @@
 
         .image-wrapper {
             position: relative;
-            width: 380px;
-            height: 380px;
+            width: 340px;
+            height: 340px;
         }
 
         .image-frame {
@@ -241,8 +267,7 @@
             border-radius: 50%;
             overflow: hidden;
             position: relative;
-            box-shadow: 0 20px 60px #ffff0099;
-            /* box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4); */
+            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4);
             border: 6px solid #ffffff;
             background: transparent;
             padding: 6px;
@@ -253,14 +278,15 @@
             position: absolute;
             inset: -6px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #e8e85b,#fff000,#fff000);
-            /* background: linear-gradient(135deg, #667eea, #764ba2, #f093fb); */
+            background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
             z-index: -1;
             animation: rotate 4s linear infinite;
         }
 
         @keyframes rotate {
-            100% { transform: rotate(360deg); }
+            100% {
+                transform: rotate(360deg);
+            }
         }
 
         .doctor-image {
@@ -273,7 +299,7 @@
         }
 
         .image-wrapper:hover .doctor-image {
-            transform: scale(1.1);
+            transform: scale(1.08);
         }
 
         /* Navigation Dots */
@@ -281,7 +307,7 @@
             display: flex;
             justify-content: center;
             gap: 12px;
-            margin-top: 40px;
+            margin-top: 30px;
         }
 
         .dot {
@@ -314,11 +340,11 @@
             background: rgba(255, 255, 255, 0.9);
             border: none;
             color: #667eea;
-            width: 50px;
-            height: 50px;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
             cursor: pointer;
-            font-size: 24px;
+            font-size: 22px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -327,24 +353,24 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
-        /* .nav-arrow:hover {
+        .nav-arrow:hover {
             background: #667eea;
             color: white;
             transform: translateY(-50%) scale(1.1);
-        } */
+        }
 
         .nav-arrow.prev {
-            left: 20px;
+            left: 15px;
         }
 
         .nav-arrow.next {
-            right: 20px;
+            right: 15px;
         }
 
         /* Responsive Design */
         @media (max-width: 968px) {
             .main-title {
-                font-size: 42px;
+                font-size: 40px;
             }
 
             .main-subtitle {
@@ -353,7 +379,12 @@
 
             .slide-content {
                 grid-template-columns: 1fr;
-                gap: 40px;
+                gap: 30px;
+            }
+
+            .doctor-services-grid {
+                grid-template-columns: 1fr;
+                max-height: none;
             }
 
             .text-content {
@@ -361,61 +392,23 @@
             }
 
             .doctor-name {
-                font-size: 32px;
-            }
-
-            .doctor-degree {
-                font-size: 18px;
-            }
-
-            .doctor-description {
-                font-size: 16px;
-                text-align: center;
+                font-size: 30px;
             }
 
             .image-wrapper {
-                width: 300px;
-                height: 300px;
+                width: 260px;
+                height: 260px;
             }
 
             .carousel-wrapper {
                 padding: 40px 20px;
             }
         }
-
-        @media (max-width: 576px) {
-            .main-title {
-                font-size: 32px;
-            }
-
-            .main-subtitle {
-                font-size: 16px;
-            }
-
-            .section-heading {
-                margin-bottom: 30px;
-            }
-
-            .doctor-name {
-                font-size: 28px;
-            }
-
-            .image-wrapper {
-                width: 250px;
-                height: 250px;
-            }
-
-            .nav-arrow {
-                width: 40px;
-                height: 40px;
-                font-size: 20px;
-            }
-        }
     </style>
 </head>
+
 <body>
     <section class="doctor-carousel-section">
-        <!-- Main Heading Section -->
         <div style="width: 100%; max-width: 1200px;">
             <div class="section-heading">
                 <h1 class="main-title">Meet Our Expert Doctors</h1>
@@ -424,40 +417,73 @@
 
             <div class="carousel-container">
                 <div class="carousel-wrapper">
-                    <!-- Slide 1 -->
+
+                    <!-- Slide 1: Dr. D. V. S. Kiran Raju -->
                     <div class="slide active">
                         <div class="slide-content">
                             <div class="text-content">
-                                <h2 class="doctor-name">DR. KIRAN RAJU</h2>
-                                <p class="doctor-degree">MDS - Orthodontist and Invisalign Gold</p>
-                                <p class="doctor-description" style="padding: 15px;">
-                                    MDS - Orthodontist and Invisalign Gold provider brought global advancements like Invisalign & iTero to Kakinada, guided by the belief: "Our people deserve the world's best too."
-                                </p>
+                                <h2 class="doctor-name">DR. D. V. S. KIRAN RAJU</h2>
+                                <p class="doctor-degree">Orthodontics & Invisalign Specialist</p>
+
+                                <div class="doctor-services-grid">
+                                    <div class="service-block">
+                                        <div class="service-title">Orthodontic Care</div>
+                                        <p class="service-desc">Focuses on orthodontic treatment to improve tooth alignment and bite, evaluating individual needs for braces and clear aligners.</p>
+                                    </div>
+                                    <div class="service-block">
+                                        <div class="service-title">Braces Treatment</div>
+                                        <p class="service-desc">Provides care for crowded, crooked, rotated, or spaced teeth, customized based on tooth position and bite.</p>
+                                    </div>
+                                    <div class="service-block">
+                                        <div class="service-title">Clear Aligners & Invisalign</div>
+                                        <p class="service-desc">As an Invisalign Gold Provider, he focuses on clear-aligner treatment designed to gradually move teeth smoothly.</p>
+                                    </div>
+                                    <div class="service-block">
+                                        <div class="service-title">Personalized Orthodontic Planning</div>
+                                        <p class="service-desc">Assesses tooth alignment and bite before selecting an appropriate treatment approach for each individual case.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="image-content">
                                 <div class="image-wrapper">
                                     <div class="image-frame">
-                                        <img src="./assets/img/srinivasa/kiran_raju_1.png" class="doctor-image" alt="Dr. Kiran Raju">
+                                        <img src="assets/img/srinivasa/kiran_raju.png" class="doctor-image" alt="Dr. D. V. S. Kiran Raju">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Slide 2 -->
+                    <!-- Slide 2: Dr. D. Sree Lakshmi Deepika -->
                     <div class="slide">
                         <div class="slide-content">
                             <div class="text-content">
-                                <h2 class="doctor-name">DR. LAKSHMI DEEPIKA</h2>
-                                <p class="doctor-degree">MDS - Implantologist & Periodontist</p>
-                                <p class="doctor-description" style="padding: 15px;">
-                                    Recognized for her precision in implants, gum treatments, and full-mouth rehabilitation. Her work has restored not just teeth, but the dignity of countless patients.
-                                </p>
+                                <h2 class="doctor-name">DR. D. SREE LAKSHMI DEEPIKA</h2>
+                                <p class="doctor-degree">Dental Implantology & Periodontics</p>
+
+                                <div class="doctor-services-grid">
+                                    <div class="service-block">
+                                        <div class="service-title">Dental Implantology</div>
+                                        <p class="service-desc">Focuses on dental implant treatment for missing teeth, evaluating bone health and overall oral condition before replacement.</p>
+                                    </div>
+                                    <div class="service-block">
+                                        <div class="service-title">Periodontal & Gum Care</div>
+                                        <p class="service-desc">Evaluates and treats bleeding gums, gum inflammation, recession, and other periodontal conditions.</p>
+                                    </div>
+                                    <div class="service-block">
+                                        <div class="service-title">Full Mouth Rehabilitation</div>
+                                        <p class="service-desc">Develops comprehensive rehabilitation plans for patients with multiple damaged or missing teeth.</p>
+                                    </div>
+                                    <div class="service-block">
+                                        <div class="service-title">Comprehensive Treatment Planning</div>
+                                        <p class="service-desc">Employs clinical examinations and diagnostic evaluations to deliver customized implant and gum care solutions.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="image-content">
                                 <div class="image-wrapper">
                                     <div class="image-frame">
-                                        <img src="assets/img/srinivasa/lakshmi_deepika.png" class="doctor-image" alt="Dr. Lakshmi Deepika">
+                                        <img src="assets/img/srinivasa/lakshmi_deepika.png" class="doctor-image" alt="Dr. D. Sree Lakshmi Deepika">
                                     </div>
                                 </div>
                             </div>
@@ -470,10 +496,10 @@
                 </div>
 
                 <!-- Navigation Dots -->
-                <!-- <div class="carousel-dots">
+                <div class="carousel-dots">
                     <button class="dot active" onclick="currentSlide(0)"></button>
                     <button class="dot" onclick="currentSlide(1)"></button>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
@@ -485,24 +511,22 @@
         let autoSlideInterval;
 
         function showSlide(index) {
-            // Remove active class from all slides and dots
             slides.forEach(slide => slide.classList.remove('active'));
             dots.forEach(dot => dot.classList.remove('active'));
 
-            // Add active class to current slide and dot
             slides[index].classList.add('active');
             dots[index].classList.add('active');
         }
 
         function moveSlide(direction) {
             currentIndex += direction;
-            
+
             if (currentIndex >= slides.length) {
                 currentIndex = 0;
             } else if (currentIndex < 0) {
                 currentIndex = slides.length - 1;
             }
-            
+
             showSlide(currentIndex);
             resetAutoSlide();
         }
@@ -523,13 +547,11 @@
 
         function resetAutoSlide() {
             clearInterval(autoSlideInterval);
-            autoSlideInterval = setInterval(autoSlide, 4000);
+            autoSlideInterval = setInterval(autoSlide, 5000);
         }
 
-        // Start auto-sliding
-        autoSlideInterval = setInterval(autoSlide, 4000);
+        autoSlideInterval = setInterval(autoSlide, 5000);
 
-        // Pause on hover
         const carouselContainer = document.querySelector('.carousel-container');
         carouselContainer.addEventListener('mouseenter', () => {
             clearInterval(autoSlideInterval);
@@ -540,4 +562,5 @@
         });
     </script>
 </body>
+
 </html>
